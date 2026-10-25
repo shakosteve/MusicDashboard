@@ -1,0 +1,10 @@
+# Secrets
+.env
+
+# Downloaded personal data
+/data/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
