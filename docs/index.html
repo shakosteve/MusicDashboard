@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Listening Booth</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Space+Mono:wght@400;700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="shopfront">
+  <div class="awning" aria-hidden="true"></div>
+  <div class="sign">
+    <p class="sign-kicker">Records · Tapes · Talk</p>
+    <h1 id="title">The Listening Booth</h1>
+    <p class="sign-est" id="est"></p>
+  </div>
+  <dl class="ledger" id="ledger"></dl>
+</header>
+
+<main>
+  <section class="turntable" id="now" aria-label="Last played"></section>
+
+  <section class="aisle">
+    <h2 class="bin-tab"><span>New Arrivals</span><small>just played</small></h2>
+    <div class="crate" id="recent"></div>
+  </section>
+
+  <section class="aisle split">
+    <div>
+      <h2 class="bin-tab"><span>Bestsellers</span><small>most-played artists</small></h2>
+      <ol class="chart" id="artists"></ol>
+    </div>
+    <div>
+      <h2 class="bin-tab"><span>Staff Picks</span><small>most-played albums</small></h2>
+      <div class="crate small" id="albums"></div>
+    </div>
+  </section>
+
+  <section class="aisle">
+    <h2 class="bin-tab"><span>Browse the Bins</span><small>by decade of release</small></h2>
+    <div class="bins" id="decades"></div>
+  </section>
+
+  <section class="aisle" id="talk-aisle" hidden>
+    <h2 class="bin-tab"><span>Talk &amp; Spoken Word</span><small>podcasts</small></h2>
+    <div class="crate small" id="episodes"></div>
+  </section>
+
+  <section class="aisle" id="shows-aisle" hidden>
+    <h2 class="bin-tab"><span>Talk Regulars</span><small>most-listened podcasts</small></h2>
+    <div class="crate small" id="shows"></div>
+  </section>
+</main>
+
+<footer class="receipt">
+  <p>Listening data and artwork from <a href="https://open.spotify.com" rel="noopener">Spotify</a>. Every sleeve links to it there.</p>
+  <p id="updated"></p>
+</footer>
+
+<script src="data/listening.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
