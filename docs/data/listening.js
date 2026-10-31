@@ -1,14 +1,91 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-10-31T16:40:07Z",
+ "generated": "2026-10-31T17:10:08Z",
  "totals": {
-  "plays": 124564,
-  "hours": 8467.4,
+  "plays": 124571,
+  "hours": 8467.9,
   "artists": 701,
   "albums": 1318,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Cult of Personality (2023 Remaster)",
+   "artist": "Living Colour",
+   "album": "Vivid (2023 Remaster)",
+   "year": 1988,
+   "image": "https://i.scdn.co/image/ab67616d00001e029e07dc65f2598371f87827c7",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2739e07dc65f2598371f87827c7",
+   "url": "https://open.spotify.com/track/4WG7Z3bNM3iE4vCYcXsxNx",
+   "album_url": "https://open.spotify.com/album/0Itv01cUzRusmyNcEgEmOA",
+   "played_at": "2026-10-31T17:08:19.142Z"
+  },
+  {
+   "name": "Black Sabbath - 2014 Remaster",
+   "artist": "Black Sabbath",
+   "album": "Black Sabbath (2014 Remaster)",
+   "year": 1970,
+   "image": "https://i.scdn.co/image/ab67616d00001e02975ae67d8fb422586b8e2f83",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273975ae67d8fb422586b8e2f83",
+   "url": "https://open.spotify.com/track/0xIZPPBfLqQEAj1BLmGrNc",
+   "album_url": "https://open.spotify.com/album/4ZLy3U2q17Yjw7jkjXPJQj",
+   "played_at": "2026-10-31T17:03:24.097Z"
+  },
+  {
+   "name": "Simply Irresistible",
+   "artist": "Robert Palmer",
+   "album": "Heavy Nova",
+   "year": 1988,
+   "image": "https://i.scdn.co/image/ab67616d00001e024c50b3182d08d49eca91f2d9",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2734c50b3182d08d49eca91f2d9",
+   "url": "https://open.spotify.com/track/0bSr5pybJSlgG5OZH441gF",
+   "album_url": "https://open.spotify.com/album/1JvTsWrfYs2PR1PdSJXipq",
+   "played_at": "2026-10-31T16:57:05.284Z"
+  },
+  {
+   "name": "Judith",
+   "artist": "A Perfect Circle",
+   "album": "Mer De Noms",
+   "year": 2000,
+   "image": "https://i.scdn.co/image/ab67616d00001e022d73b494efcb99356f8c7b28",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2732d73b494efcb99356f8c7b28",
+   "url": "https://open.spotify.com/track/5KDNFlHAdDJ84fhK27c35X",
+   "album_url": "https://open.spotify.com/album/0GeWd0yUKXHbCXVag1mJvO",
+   "played_at": "2026-10-31T16:52:49.647Z"
+  },
+  {
+   "name": "Me and Bobby McGee",
+   "artist": "Janis Joplin",
+   "album": "Pearl (Legacy Edition)",
+   "year": 1971,
+   "image": "https://i.scdn.co/image/ab67616d00001e026f8c26346723dd0531696bed",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2736f8c26346723dd0531696bed",
+   "url": "https://open.spotify.com/track/1IqFh00G2kvvMm8pRMpehA",
+   "album_url": "https://open.spotify.com/album/3j7nicLAWXM0Fb08q9XGyf",
+   "played_at": "2026-10-31T16:48:42Z"
+  },
+  {
+   "name": "VENT'ANNI",
+   "artist": "Måneskin",
+   "album": "Teatro d'ira - Vol. I",
+   "year": 2021,
+   "image": "https://i.scdn.co/image/ab67616d00001e025aa05015cfa7bd2943c29b21",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2735aa05015cfa7bd2943c29b21",
+   "url": "https://open.spotify.com/track/6Vfo6O3hk38vDcSpazNo3p",
+   "album_url": "https://open.spotify.com/album/7KF1Ain9mYYlg5M46g0i4A",
+   "played_at": "2026-10-31T16:44:10.017Z"
+  },
+  {
+   "name": "VHS",
+   "artist": "Freeze the Fall",
+   "album": "VHS",
+   "year": 2024,
+   "image": "https://i.scdn.co/image/ab67616d00001e0241d86dc3e3abbc5447edc351",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27341d86dc3e3abbc5447edc351",
+   "url": "https://open.spotify.com/track/5UBVWzkPAP9uRnhEAMPoyY",
+   "album_url": "https://open.spotify.com/album/55sg7o5JnKuz8gfwjkiyf5",
+   "played_at": "2026-10-31T16:39:56.063Z"
+  },
   {
    "name": "Save Me Now",
    "artist": "Billy Idol",
@@ -459,83 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/544EOF0LUY7LYaj37p3SyF",
    "album_url": "https://open.spotify.com/album/62E9D9mnHBQ2ttOqKDfCjQ",
    "played_at": "2026-10-30T23:48:25.356Z"
-  },
-  {
-   "name": "Stayin Alive",
-   "artist": "Bee Gees",
-   "album": "How Can You Mend A Broken Heart",
-   "year": 2020,
-   "image": "https://i.scdn.co/image/ab67616d00001e02bdcea025a483b9642f17a9f8",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273bdcea025a483b9642f17a9f8",
-   "url": "https://open.spotify.com/track/5ubvP9oKmxLUVq506fgLhk",
-   "album_url": "https://open.spotify.com/album/4vAhQeeWkSjVn0p5GAaLBx",
-   "played_at": "2026-10-30T23:38:58.189Z"
-  },
-  {
-   "name": "Just a Gigolo / I Ain't Got Nobody - 45 Version",
-   "artist": "David Lee Roth",
-   "album": "Just a Gigolo/I Ain't Got Nobody (45 Version) / Just a Gigolo/I Ain't Got Nobody [Remix]",
-   "year": 1985,
-   "image": "https://i.scdn.co/image/ab67616d00001e021015021b32117f9df269539c",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2731015021b32117f9df269539c",
-   "url": "https://open.spotify.com/track/0QcIphdyZIVgFvW7ijEiPX",
-   "album_url": "https://open.spotify.com/album/46LRDmqWRZ3kiPcZ1LuvSc",
-   "played_at": "2026-10-30T22:44:10.191Z"
-  },
-  {
-   "name": "Hold On",
-   "artist": "Wilson Phillips",
-   "album": "Wilson Phillips",
-   "year": 1990,
-   "image": "https://i.scdn.co/image/ab67616d00001e023168e1f416b81862ccc83594",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2733168e1f416b81862ccc83594",
-   "url": "https://open.spotify.com/track/4VZDv8sASBS8UruUBGTFdk",
-   "album_url": "https://open.spotify.com/album/1Xi55xFMaymXdSWshmxhw2",
-   "played_at": "2026-10-30T22:39:50.412Z"
-  },
-  {
-   "name": "Spooky (Single Version)",
-   "artist": "Dusty Springfield",
-   "album": "Love Songs",
-   "year": 2020,
-   "image": "https://i.scdn.co/image/ab67616d00001e025746d44a39a97aaa12309af1",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2735746d44a39a97aaa12309af1",
-   "url": "https://open.spotify.com/track/4RYwE31p4KflK1h7J7m1Yt",
-   "album_url": "https://open.spotify.com/album/2paShliFsxYoO3WJEdTVdA",
-   "played_at": "2026-10-30T22:35:23.100Z"
-  },
-  {
-   "name": "Love Song",
-   "artist": "Tesla",
-   "album": "The Great Radio Controversy",
-   "year": 1989,
-   "image": "https://i.scdn.co/image/ab67616d00001e026dca0336b9bde7b08c190209",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2736dca0336b9bde7b08c190209",
-   "url": "https://open.spotify.com/track/0vJUdIefT5caKla9H8b1q4",
-   "album_url": "https://open.spotify.com/album/6E84FmjNjs38HXdhtOzbCM",
-   "played_at": "2026-10-30T22:32:37.659Z"
-  },
-  {
-   "name": "Keep on Loving You",
-   "artist": "REO Speedwagon",
-   "album": "Hi Infidelity (30th Anniversary Edition)",
-   "year": 1980,
-   "image": "https://i.scdn.co/image/ab67616d00001e02d514470784e3d02ee0bcdb80",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273d514470784e3d02ee0bcdb80",
-   "url": "https://open.spotify.com/track/4rcHWl68ai6KvpXlc8vbnE",
-   "album_url": "https://open.spotify.com/album/0X4ZNTZw7SYgrp5rlBQC3N",
-   "played_at": "2026-10-30T22:27:13.858Z"
-  },
-  {
-   "name": "Oh Well feat. Chris Stapleton",
-   "artist": "Slash, Chris Stapleton",
-   "album": "Oh Well feat. Chris Stapleton",
-   "year": 2024,
-   "image": "https://i.scdn.co/image/ab67616d00001e02a288a30f4133154538ea5d3d",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273a288a30f4133154538ea5d3d",
-   "url": "https://open.spotify.com/track/6xvriZfsi9MZ8TAE2wqY2z",
-   "album_url": "https://open.spotify.com/album/0Rl9omLw3rdkK7OiSnHGAG",
-   "played_at": "2026-10-30T22:23:51.684Z"
   }
  ],
  "top_artists": [
@@ -915,7 +915,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28527,
+   "plays": 28529,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1009,7 +1009,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32768,
+   "plays": 32770,
    "covers": [
     {
      "name": "Back In Black",
@@ -1197,7 +1197,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 11937,
+   "plays": 11938,
    "covers": [
     {
      "name": "Material Girl",
@@ -1385,7 +1385,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18460,
+   "plays": 18462,
    "covers": [
     {
      "name": "ERROR",
@@ -1473,7 +1473,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2735aa05015cfa7bd2943c29b21",
      "url": "https://open.spotify.com/track/6Vfo6O3hk38vDcSpazNo3p",
      "album_url": "https://open.spotify.com/album/7KF1Ain9mYYlg5M46g0i4A",
-     "plays": 408
+     "plays": 409
     }
    ]
   }
