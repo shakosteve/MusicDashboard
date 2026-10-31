@@ -1,14 +1,91 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-10-31T15:40:07Z",
+ "generated": "2026-10-31T16:10:07Z",
  "totals": {
-  "plays": 124550,
-  "hours": 8466.4,
+  "plays": 124557,
+  "hours": 8466.9,
   "artists": 701,
   "albums": 1318,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "3AM",
+   "artist": "Matchbox Twenty",
+   "album": "Yourself or Someone Like You",
+   "year": 1996,
+   "image": "https://i.scdn.co/image/ab67616d00001e0211585490475c991f8c83bca7",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27311585490475c991f8c83bca7",
+   "url": "https://open.spotify.com/track/5vYA1mW9g2Coh1HUFUSmlb",
+   "album_url": "https://open.spotify.com/album/4vUXTcKz7tXxrNl84meN6i",
+   "played_at": "2026-10-31T16:08:32.578Z"
+  },
+  {
+   "name": "Walking The Dog",
+   "artist": "The Rolling Stones",
+   "album": "The Rolling Stones",
+   "year": 1964,
+   "image": "https://i.scdn.co/image/ab67616d00001e02e5bd9c16543752620815ebdc",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273e5bd9c16543752620815ebdc",
+   "url": "https://open.spotify.com/track/43SkTJJ2xleDaeiE4TIM70",
+   "album_url": "https://open.spotify.com/album/0bJMFJ2XQwpO5nKTrYdUtX",
+   "played_at": "2026-10-31T16:04:46.304Z"
+  },
+  {
+   "name": "Hot for Teacher - 2015 Remaster",
+   "artist": "Van Halen",
+   "album": "1984 (Remastered)",
+   "year": 1984,
+   "image": "https://i.scdn.co/image/ab67616d00001e02b414c63fb435b622238c15ed",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273b414c63fb435b622238c15ed",
+   "url": "https://open.spotify.com/track/6QDbGdbJ57Mtkflsg42WV5",
+   "album_url": "https://open.spotify.com/album/3REUXdj5OPKhuDTrTtCBU0",
+   "played_at": "2026-10-31T16:01:36.564Z"
+  },
+  {
+   "name": "Once in a Lifetime - 2005 Remaster",
+   "artist": "Talking Heads",
+   "album": "Remain in Light (Deluxe Version)",
+   "year": 1980,
+   "image": "https://i.scdn.co/image/ab67616d00001e02e56fa8c916dc6ce419dcf557",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273e56fa8c916dc6ce419dcf557",
+   "url": "https://open.spotify.com/track/38Ngied9rBORlAbLYNCl4k",
+   "album_url": "https://open.spotify.com/album/3AQgdwMNCiN7awXch5fAaG",
+   "played_at": "2026-10-31T15:56:53.224Z"
+  },
+  {
+   "name": "Little Red Corvette",
+   "artist": "Prince",
+   "album": "The Hits / The B-Sides",
+   "year": 1993,
+   "image": "https://i.scdn.co/image/ab67616d00001e026ac634a380ef3a983514c029",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2736ac634a380ef3a983514c029",
+   "url": "https://open.spotify.com/track/1gnkotdghLOSDg4OoliVRD",
+   "album_url": "https://open.spotify.com/album/30DQNLvFkUv9SS15o8jXHZ",
+   "played_at": "2026-10-31T15:52:32.829Z"
+  },
+  {
+   "name": "Poison",
+   "artist": "Alice Cooper",
+   "album": "Trash",
+   "year": 1989,
+   "image": "https://i.scdn.co/image/ab67616d00001e0234b292a289c635532da02671",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27334b292a289c635532da02671",
+   "url": "https://open.spotify.com/track/5XcZRgJv3zMhTqCyESjQrF",
+   "album_url": "https://open.spotify.com/album/033cvSPAuSU5ArRfIgQSDU",
+   "played_at": "2026-10-31T15:47:28.773Z"
+  },
+  {
+   "name": "Every Little Thing She Does Is Magic",
+   "artist": "The Police",
+   "album": "Ghost In The Machine (Remastered 2003)",
+   "year": 1981,
+   "image": "https://i.scdn.co/image/ab67616d00001e02b7879980ef2ea7ac1cc29316",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273b7879980ef2ea7ac1cc29316",
+   "url": "https://open.spotify.com/track/44aTAUBF0g6sMkMNE8I5kd",
+   "album_url": "https://open.spotify.com/album/5jkwdY6jS1Hzi8epr6HW7h",
+   "played_at": "2026-10-31T15:42:57.280Z"
+  },
   {
    "name": "Gifts From The Holy Ghost",
    "artist": "Dorothy",
@@ -459,83 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/0C80GCp0mMuBzLf3EAXqxv",
    "album_url": "https://open.spotify.com/album/6mUdeDZCsExyJLMdAfDuwh",
    "played_at": "2026-10-30T17:28:56.463Z"
-  },
-  {
-   "name": "Diary of a Madman",
-   "artist": "Ozzy Osbourne",
-   "album": "Diary Of A Madman",
-   "year": 1981,
-   "image": "https://i.scdn.co/image/ab67616d00001e02074a1951cb329bb8afb63142",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273074a1951cb329bb8afb63142",
-   "url": "https://open.spotify.com/track/6joOV9D7y7TzWQprwrInUh",
-   "album_url": "https://open.spotify.com/album/4xiRrFE0Gq4Si9mAfPB3hZ",
-   "played_at": "2026-10-30T13:57:25.193Z"
-  },
-  {
-   "name": "Still Got This Thing",
-   "artist": "Alannah Myles",
-   "album": "Alannah Myles",
-   "year": 1989,
-   "image": "https://i.scdn.co/image/ab67616d00001e02c45bb46127a23d1beeead273",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273c45bb46127a23d1beeead273",
-   "url": "https://open.spotify.com/track/1ogO2Wj9qEMMjo7UDejvsh",
-   "album_url": "https://open.spotify.com/album/552joC0kVpcbJm7LFLqGDm",
-   "played_at": "2026-10-30T13:51:08.560Z"
-  },
-  {
-   "name": "I'd Do Anything For Love (But I Won't Do That) - Single Edit",
-   "artist": "Meat Loaf",
-   "album": "Bat Out Of Hell II: Back Into Hell",
-   "year": 1993,
-   "image": "https://i.scdn.co/image/ab67616d00001e02577bafd70c666aac2e72f69d",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273577bafd70c666aac2e72f69d",
-   "url": "https://open.spotify.com/track/391CwgcBxvUHmEKda2b5In",
-   "album_url": "https://open.spotify.com/album/2frbTcZJoMRuAbeXpuOx0Z",
-   "played_at": "2026-10-30T13:46:30.843Z"
-  },
-  {
-   "name": "Supermassive Black Hole",
-   "artist": "Muse",
-   "album": "Black Holes and Revelations",
-   "year": 2006,
-   "image": "https://i.scdn.co/image/ab67616d00001e0228933b808bfb4cbbd0385400",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27328933b808bfb4cbbd0385400",
-   "url": "https://open.spotify.com/track/3lPr8ghNDBLc2uZovNyLs9",
-   "album_url": "https://open.spotify.com/album/0lw68yx3MhKflWFqCsGkIs",
-   "played_at": "2026-10-30T13:41:13.919Z"
-  },
-  {
-   "name": "Lonely Is The Night - Remastered 2010",
-   "artist": "Billy Squier",
-   "album": "Don't Say No (Remastered 2010)",
-   "year": 1981,
-   "image": "https://i.scdn.co/image/ab67616d00001e02f4822f8034e697410a14a297",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273f4822f8034e697410a14a297",
-   "url": "https://open.spotify.com/track/28eg5bkYvIHT7HPmzZFwLN",
-   "album_url": "https://open.spotify.com/album/6TwlLNU5Zd9qGuNgSLeWPt",
-   "played_at": "2026-10-30T13:37:41.057Z"
-  },
-  {
-   "name": "Fly Like An Eagle - Live",
-   "artist": "Steve Miller Band",
-   "album": "Live! Breaking Ground August 3, 1977",
-   "year": 2021,
-   "image": "https://i.scdn.co/image/ab67616d00001e02bb8183e59cd224aa51e51b0f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273bb8183e59cd224aa51e51b0f",
-   "url": "https://open.spotify.com/track/5ltZYU8LCCMZVU8CVTY2Jc",
-   "album_url": "https://open.spotify.com/album/1GYpibjfj4EFsTsTI1DDjh",
-   "played_at": "2026-10-30T13:32:59.013Z"
-  },
-  {
-   "name": "Rock The Bop",
-   "artist": "Brenda Lee",
-   "album": "Love You!",
-   "year": 1963,
-   "image": "https://i.scdn.co/image/ab67616d00001e0286dbb746d8ff18b35dc2cdf3",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27386dbb746d8ff18b35dc2cdf3",
-   "url": "https://open.spotify.com/track/3o3zZU5Ib0zd0LpsK1Kfin",
-   "album_url": "https://open.spotify.com/album/4FwaiqI20she40DLrEN4ni",
-   "played_at": "2026-10-30T13:25:38.401Z"
   }
  ],
  "top_artists": [
@@ -571,7 +571,7 @@ window.LISTENING = {
   },
   {
    "name": "Van Halen",
-   "plays": 2046,
+   "plays": 2047,
    "url": "https://open.spotify.com/artist/2cnMpRsOVqtPMfq7YiFE6K",
    "image": "https://i.scdn.co/image/ab67616d00001e02b414c63fb435b622238c15ed"
   },
@@ -821,7 +821,7 @@ window.LISTENING = {
   },
   {
    "decade": 1960,
-   "plays": 7033,
+   "plays": 7034,
    "covers": [
     {
      "name": "Your Time Is Gonna Come - 1990 Remaster",
@@ -909,7 +909,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273e5bd9c16543752620815ebdc",
      "url": "https://open.spotify.com/track/43SkTJJ2xleDaeiE4TIM70",
      "album_url": "https://open.spotify.com/album/0bJMFJ2XQwpO5nKTrYdUtX",
-     "plays": 225
+     "plays": 226
     }
    ]
   },
@@ -1009,7 +1009,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32762,
+   "plays": 32766,
    "covers": [
     {
      "name": "Back In Black",
@@ -1064,7 +1064,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273b414c63fb435b622238c15ed",
      "url": "https://open.spotify.com/track/05RgAMGypEvqhNs5hPCbMS",
      "album_url": "https://open.spotify.com/album/3REUXdj5OPKhuDTrTtCBU0",
-     "plays": 692
+     "plays": 693
     },
     {
      "name": "You Give Love A Bad Name",
@@ -1097,13 +1097,13 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b27334b292a289c635532da02671",
      "url": "https://open.spotify.com/track/5XcZRgJv3zMhTqCyESjQrF",
      "album_url": "https://open.spotify.com/album/033cvSPAuSU5ArRfIgQSDU",
-     "plays": 505
+     "plays": 506
     }
    ]
   },
   {
    "decade": 1990,
-   "plays": 9650,
+   "plays": 9652,
    "covers": [
     {
      "name": "Amazing",
