@@ -1,11 +1,11 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-10-31T11:10:14Z",
+ "generated": "2026-10-31T11:40:14Z",
  "totals": {
   "plays": 124528,
   "hours": 8465.0,
-  "artists": 700,
-  "albums": 1258,
+  "artists": 701,
+  "albums": 1277,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
@@ -736,6 +736,23 @@ window.LISTENING = {
  ],
  "decades": [
   {
+   "decade": 1900,
+   "plays": 1,
+   "covers": [
+    {
+     "name": "Imperial March (Star Wars: The Empire Strikes Back)",
+     "artist": "John Williams",
+     "album": "Galaxymphony II: Galaxymphony Strikes Back",
+     "year": 1900,
+     "image": "https://i.scdn.co/image/ab67616d00001e028f5f23b4629aebad17df2ea1",
+     "image_large": "https://i.scdn.co/image/ab67616d0000b2738f5f23b4629aebad17df2ea1",
+     "url": "https://open.spotify.com/track/46N2CzHywB2BQMgcqdQ805",
+     "album_url": "https://open.spotify.com/album/76abfqXApuckSwEZbEHa6T",
+     "plays": 1
+    }
+   ]
+  },
+  {
    "decade": 1920,
    "plays": 2,
    "covers": [
@@ -992,7 +1009,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32755,
+   "plays": 32756,
    "covers": [
     {
      "name": "Back In Black",
@@ -1180,7 +1197,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 11928,
+   "plays": 11930,
    "covers": [
     {
      "name": "Material Girl",
@@ -1274,7 +1291,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15688,
+   "plays": 15692,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1368,7 +1385,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18428,
+   "plays": 18440,
    "covers": [
     {
      "name": "ERROR",
@@ -1462,6 +1479,19 @@ window.LISTENING = {
   }
  ],
  "episodes": [
+  {
+   "name": "I'll Have Another: 'Oreogate' & Gentle Parenting with Jessica Tarlov",
+   "show": "Kennedy Saves the World",
+   "show_uri": "spotify:show:5DEwjZIkxrUhkM1nlqLagd",
+   "release_date": "2026-10-30",
+   "duration_ms": 1445824,
+   "image": "https://i.scdn.co/image/ab67656300005f1fc306eb9be2f4da68a4f7f2be",
+   "first_seen": "2026-10-31T11:40:03Z",
+   "progress_ms": 1285072,
+   "last_seen": "2026-10-31T11:40:03Z",
+   "url": "https://open.spotify.com/episode/48emIw5Hnv1tWsr4UZGNkY",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fc306eb9be2f4da68a4f7f2be"
+  },
   {
    "name": "Kennedy Classic: How Pottery & Quilting Are Saving Gen Z from Smartphone Addiction",
    "show": "Kennedy Saves the World",
@@ -1604,19 +1634,6 @@ window.LISTENING = {
    "last_seen": "2026-10-26T13:10:03Z",
    "url": "https://open.spotify.com/episode/77tlAPNCYhlPF8W8q7QH00",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
-  },
-  {
-   "name": "Were Castles the Original Military-Industrial Complex? With Dan Jones",
-   "show": "Intelligence Squared",
-   "show_uri": "spotify:show:7gnNY9Fy8QSRbjXZ00A9jW",
-   "release_date": "2026-10-26",
-   "duration_ms": 2674620,
-   "image": "https://i.scdn.co/image/ab67656300005f1ffdf7852bb6dae49b35b6f67c",
-   "first_seen": "2026-10-26T01:10:02Z",
-   "progress_ms": 2674620,
-   "last_seen": "2026-10-26T02:05:14Z",
-   "url": "https://open.spotify.com/episode/5fXkvsKZmGPmGAxC14VLLf",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f4b328600f6be4cce175cc6b9"
   }
  ],
  "top_shows": [
