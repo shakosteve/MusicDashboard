@@ -1,14 +1,47 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-10-31T14:40:07Z",
+ "generated": "2026-10-31T15:10:07Z",
  "totals": {
-  "plays": 124543,
-  "hours": 8466.0,
+  "plays": 124546,
+  "hours": 8466.2,
   "artists": 701,
   "albums": 1318,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Mr. Tambourine Man",
+   "artist": "The Byrds",
+   "album": "Mr. Tambourine Man",
+   "year": 1965,
+   "image": "https://i.scdn.co/image/ab67616d00001e02576fccf9a91d9f7c808b8abd",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273576fccf9a91d9f7c808b8abd",
+   "url": "https://open.spotify.com/track/2HCaIYjkvWSZzaSKUoOh3d",
+   "album_url": "https://open.spotify.com/album/0pkrqPjeq9K5KD0hFqAKNa",
+   "played_at": "2026-10-31T14:53:23.320Z"
+  },
+  {
+   "name": "Bathroom Wall",
+   "artist": "Faster Pussycat",
+   "album": "Faster Pussycat",
+   "year": 1987,
+   "image": "https://i.scdn.co/image/ab67616d00001e02044d242cfff617749cd740d7",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273044d242cfff617749cd740d7",
+   "url": "https://open.spotify.com/track/6xwM2lYzPC6pUhjlV1nCWB",
+   "album_url": "https://open.spotify.com/album/4lFOgddadA9jHAO96kVniB",
+   "played_at": "2026-10-31T14:50:53.337Z"
+  },
+  {
+   "name": "City",
+   "artist": "The Sixsters",
+   "album": "I'm Gonna Be",
+   "year": 2022,
+   "image": "https://i.scdn.co/image/ab67616d00001e020cde6e1513d7528fb789d708",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2730cde6e1513d7528fb789d708",
+   "url": "https://open.spotify.com/track/6YMqnUJdID0QjUMFpD0yKO",
+   "album_url": "https://open.spotify.com/album/0Qv3cNebPzkTO8CNcbJLsd",
+   "played_at": "2026-10-31T14:47:11.404Z"
+  },
   {
    "name": "Jet Airliner - Live",
    "artist": "Steve Miller Band",
@@ -503,39 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/0QwZfbw26QeUoIy82Z2jYp",
    "album_url": "https://open.spotify.com/album/3ycjBixZf7S3WpC5WZhhUK",
    "played_at": "2026-10-30T13:15:48.213Z"
-  },
-  {
-   "name": "3AM",
-   "artist": "Matchbox Twenty",
-   "album": "Yourself or Someone Like You",
-   "year": 1996,
-   "image": "https://i.scdn.co/image/ab67616d00001e0211585490475c991f8c83bca7",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27311585490475c991f8c83bca7",
-   "url": "https://open.spotify.com/track/5vYA1mW9g2Coh1HUFUSmlb",
-   "album_url": "https://open.spotify.com/album/4vUXTcKz7tXxrNl84meN6i",
-   "played_at": "2026-10-30T13:12:02.759Z"
-  },
-  {
-   "name": "Dirty Diana - 2012 Remaster",
-   "artist": "Michael Jackson",
-   "album": "Bad (Remastered)",
-   "year": 1987,
-   "image": "https://i.scdn.co/image/ab67616d00001e02eb2087dcd1eb61f833bdedff",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273eb2087dcd1eb61f833bdedff",
-   "url": "https://open.spotify.com/track/0AcgKF7kbSoCkh3n7vlHwK",
-   "album_url": "https://open.spotify.com/album/3Us57CjssWnHjTUIXBuIeH",
-   "played_at": "2026-10-29T23:01:11.167Z"
-  },
-  {
-   "name": "Too Young to Fall in Love",
-   "artist": "Mötley Crüe",
-   "album": "Shout At The Devil",
-   "year": 1983,
-   "image": "https://i.scdn.co/image/ab67616d00001e0232d1c00a69d70510d18a032e",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27332d1c00a69d70510d18a032e",
-   "url": "https://open.spotify.com/track/08zvzy2FD1V0wFn8mhiQaH",
-   "album_url": "https://open.spotify.com/album/61tegsknhtO0WKmkyPqvly",
-   "played_at": "2026-10-29T22:44:18.150Z"
   }
  ],
  "top_artists": [
@@ -821,7 +821,7 @@ window.LISTENING = {
   },
   {
    "decade": 1960,
-   "plays": 7032,
+   "plays": 7033,
    "covers": [
     {
      "name": "Your Time Is Gonna Come - 1990 Remaster",
@@ -1009,7 +1009,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32761,
+   "plays": 32762,
    "covers": [
     {
      "name": "Back In Black",
@@ -1385,7 +1385,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18457,
+   "plays": 18458,
    "covers": [
     {
      "name": "ERROR",
