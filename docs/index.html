@@ -4,61 +4,96 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The Listening Booth</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Barlow+Condensed:wght@500;600;700&family=Caveat:wght@500;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-  <h1 id="title">The Listening Booth</h1>
-  <p class="muted" id="since"></p>
-  <dl class="totals" id="totals"></dl>
-  <p class="wrapped" id="wrapped" hidden></p>
-</header>
+<div class="wrap">
+  <header class="unit">
+    <div class="faceplate">
+      <div class="brandline">
+        <span class="model" id="title">The Listening Booth</span>
+        <span class="spec">Auto reverse · Stereo · <span id="since"></span></span>
+      </div>
+      <div class="deck">
+        <a class="slot" id="now-art" target="_blank" rel="noopener" aria-label="Last played on Spotify"></a>
+        <div class="vfd" id="vfd">
+          <div class="vfd-flags"><span class="on">ST</span><span class="on">▶ A</span><span>NR</span><span id="vfd-ago"></span></div>
+          <div class="vfd-title"><span id="vfd-title">No signal</span></div>
+          <div class="vfd-sub" id="vfd-sub"></div>
+        </div>
+        <div class="knob" aria-hidden="true"><i></i></div>
+      </div>
+      <nav class="presets" aria-label="Sections">
+        <a href="#side-a"><b>1</b>Recent</a>
+        <a href="#rotation"><b>2</b>Artists</a>
+        <a href="#deck"><b>3</b>Albums</a>
+        <a href="#eq"><b>4</b>Decades</a>
+        <a href="#am" id="preset-am"><b>5</b>Talk</a>
+        <a href="wrapped.html" id="preset-year"><b>6</b>Year</a>
+      </nav>
+    </div>
+    <div class="odo" id="totals"></div>
+  </header>
 
-<main>
-  <section id="now" aria-label="Last played"></section>
-
-  <section>
-    <h2>Recently played</h2>
-    <ol class="list" id="recent"></ol>
-  </section>
-
-  <div class="columns">
-    <section>
-      <h2>Top artists</h2>
-      <ol class="list ranked" id="artists"></ol>
+  <main>
+    <section id="side-a">
+      <h2><span class="ix">01</span>Recently played</h2>
+      <div class="jcard">
+        <div class="side"><h3>Side A</h3><ol id="side-a-list"></ol></div>
+        <div class="side"><h3>Side B</h3><ol id="side-b-list" start="9"></ol></div>
+      </div>
     </section>
-    <section>
-      <h2>Top albums</h2>
-      <ol class="list ranked" id="albums"></ol>
-    </section>
-  </div>
 
-  <section>
-    <h2>By decade of release</h2>
-    <table class="decades" id="decades"></table>
-  </section>
-
-  <div class="columns">
-    <section id="shows-section" hidden>
-      <h2>Top podcasts</h2>
-      <ol class="list ranked" id="shows"></ol>
+    <section id="rotation">
+      <h2><span class="ix">02</span>Heavy rotation</h2>
+      <p class="dek">Your most-played artists, all time.</p>
+      <div class="eights" id="artists"></div>
     </section>
-    <section id="episodes-section" hidden>
-      <h2>Recent episodes</h2>
-      <ol class="list" id="episodes"></ol>
-    </section>
-  </div>
-</main>
 
-<footer class="muted">
-  <p>Listening data and artwork from <a href="https://open.spotify.com" rel="noopener">Spotify</a>; every item links to it there.</p>
-  <p id="updated"></p>
-</footer>
+    <section id="deck">
+      <h2><span class="ix">03</span>In the deck</h2>
+      <p class="dek">The albums worn thinnest.</p>
+      <div class="tapes" id="albums"></div>
+    </section>
+
+    <section id="eq">
+      <h2><span class="ix">04</span>Equalizer</h2>
+      <p class="dek">Plays by decade of release. Pick a band to see what's on it.</p>
+      <div class="eq-panel">
+        <div class="bands" id="bands"></div>
+        <div class="tuned" id="tuned"></div>
+      </div>
+    </section>
+
+    <section id="am" hidden>
+      <h2><span class="ix">05</span>Talk radio</h2>
+      <div class="dial" aria-hidden="true">
+        <div class="scale"><span>53</span><span>60</span><span>70</span><span>80</span><span>100</span><span>120</span><span>140</span><span>160</span></div>
+        <div class="needle" id="needle"></div>
+      </div>
+      <div class="talk">
+        <div><h3>Presets</h3><ol class="stations" id="shows"></ol></div>
+        <div id="episodes-wrap" hidden><h3>Recent episodes</h3><ol class="episodes" id="episodes"></ol></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Listening data and artwork from <a href="https://open.spotify.com" rel="noopener">Spotify</a>; every item links to it there.</p>
+    <p id="updated"></p>
+  </footer>
+</div>
 
 <script>
-// Load the data with a unique URL so a cached copy (GitHub Pages allows 10 minutes) never hides new plays,
-// then the app. Reload every 10 minutes while the page is on screen, since the data is republished every 30.
+// Reads data/ here in docs/, or ../../docs/data/ when a copy is previewed under design/.
+// The data URL is unique each load so a cached copy never hides new plays; the page reloads every
+// 10 minutes while on screen.
 (function () {
+  const base = location.pathname.includes("/design/") ? "../../docs/" : "";
+  window.BOOTH_BASE = base;
   const load = (src, next) => {
     const s = document.createElement("script");
     s.src = src;
@@ -66,7 +101,7 @@
     document.body.appendChild(s);
   };
   const t = Date.now();
-  load(`data/listening.js?t=${t}`, () => load(`data/wrapped/index.js?t=${t}`, () => load("app.js")));
+  load(`${base}data/listening.js?t=${t}`, () => load(`${base}data/wrapped/index.js?t=${t}`, () => load("app.js")));
   const loaded = Date.now();
   const refresh = () => { if (!document.hidden && Date.now() - loaded > 10 * 60 * 1000) location.reload(); };
   setInterval(refresh, 60 * 1000);

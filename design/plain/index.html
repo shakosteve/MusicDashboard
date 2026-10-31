@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Listening Booth</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1 id="title">The Listening Booth</h1>
+  <p class="muted" id="since"></p>
+  <dl class="totals" id="totals"></dl>
+  <p class="wrapped" id="wrapped" hidden></p>
+</header>
+
+<main>
+  <section id="now" aria-label="Last played"></section>
+
+  <section>
+    <h2>Recently played</h2>
+    <ol class="list" id="recent"></ol>
+  </section>
+
+  <div class="columns">
+    <section>
+      <h2>Top artists</h2>
+      <ol class="list ranked" id="artists"></ol>
+    </section>
+    <section>
+      <h2>Top albums</h2>
+      <ol class="list ranked" id="albums"></ol>
+    </section>
+  </div>
+
+  <section>
+    <h2>By decade of release</h2>
+    <table class="decades" id="decades"></table>
+  </section>
+
+  <div class="columns">
+    <section id="shows-section" hidden>
+      <h2>Top podcasts</h2>
+      <ol class="list ranked" id="shows"></ol>
+    </section>
+    <section id="episodes-section" hidden>
+      <h2>Recent episodes</h2>
+      <ol class="list" id="episodes"></ol>
+    </section>
+  </div>
+</main>
+
+<footer class="muted">
+  <p>Listening data and artwork from <a href="https://open.spotify.com" rel="noopener">Spotify</a>; every item links to it there.</p>
+  <p id="updated"></p>
+</footer>
+
+<script>
+// Load the data with a unique URL so a cached copy (GitHub Pages allows 10 minutes) never hides new plays,
+// then the app. Reload every 10 minutes while the page is on screen, since the data is republished every 30.
+(function () {
+  const load = (src, next) => {
+    const s = document.createElement("script");
+    s.src = src;
+    s.onload = s.onerror = next;
+    document.body.appendChild(s);
+  };
+  const t = Date.now();
+  load(`data/listening.js?t=${t}`, () => load(`data/wrapped/index.js?t=${t}`, () => load("app.js")));
+  const loaded = Date.now();
+  const refresh = () => { if (!document.hidden && Date.now() - loaded > 10 * 60 * 1000) location.reload(); };
+  setInterval(refresh, 60 * 1000);
+  document.addEventListener("visibilitychange", refresh);
+})();
+</script>
+</body>
+</html>

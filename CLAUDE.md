@@ -66,9 +66,23 @@ The data has two sources, which `build()` merges:
 
 `docs/app.js` is a single IIFE that renders `window.LISTENING` into the static sections of `docs/index.html`. Any new key added to the `site` dict in `build()` needs matching markup in `index.html`, and its section should stay `hidden` until there's data.
 
-The current design is a deliberately plain placeholder while the owner decides on a design: ranked lists, a decade table, system fonts, and light/dark tokens on `:root`. Don't invest in restyling it unless asked. The earlier record-shop design (tilted sleeve cards, crates, stickers) is kept in `design/record-shop/`. It reads the same `window.LISTENING` data, except for `top_shows`.
+The live design is a retro car stereo, chosen by the owner. They turned down the record-shop theme as too canned, so keep the objects realistic and functional rather than costume-like. The design is dark only.
+- **Head unit:** the last played cover in the slot, and an amber display with the track. Long titles scroll across it.
+- **Presets:** the six buttons link to the sections and to `wrapped.html` (Year). The Talk and Year buttons are removed when there's no data for them.
+- **Odometer:** rolling digit drums for the totals.
+- **Mixtape insert:** recent plays 2–17, handwritten as Side A and Side B.
+- **8-tracks:** top artists, with a tape bar showing plays relative to #1.
+- **Cassettes:** top albums. The art is the J-card in the case, the tape slides out on hover, and the spine is `contain: size` so long titles don't stretch the case.
+- **Graphic equalizer:** decades, 12 LEDs per band. Clicking a band shows its covers. The 1900 placeholder release year is left out.
+- **AM dial:** top shows, whose needle follows the hovered preset, and recent episodes.
 
-The main page's header links to each year in review. `index.html` also loads `data/wrapped/index.js`, and `app.js` lists `window.WRAPPED_YEARS` newest first, hiding the line if there are none.
+`index.html` loads the data and `data/wrapped/index.js` with a unique `?t=` URL, because Pages caches for 10 minutes. It then loads `app.js`, and reloads every 10 minutes while the page is visible. The loader reads `../../docs/data/` when the path contains `/design/`, so a copy can be previewed under `design/`.
+
+Earlier designs are kept for reference in:
+- `design/plain/`: the placeholder ranked-list design.
+- `design/record-shop/`: the record-shop design.
+
+Their pages load `data/listening.js` directly, so they need copying into `docs/` to preview.
 
 `docs/wrapped.html` is a self-contained "year in review" story page with its CSS and JS inline. It's deliberately dark, made of full-screen cards with custom SVG and CSS charts. It loads `data/wrapped/index.js` (the list of available years) and then `data/wrapped/<year>.js` by script injection, so it also works from `file://`.
 - `wrapped()` uses local calendar years via `astimezone()` and counts minutes from `ms_played`.
