@@ -1,11 +1,11 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-10-31T07:40:13Z",
+ "generated": "2026-10-31T08:10:14Z",
  "totals": {
   "plays": 124528,
   "hours": 8465.0,
   "artists": 701,
-  "albums": 1121,
+  "albums": 1141,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
@@ -992,7 +992,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32739,
+   "plays": 32740,
    "covers": [
     {
      "name": "Back In Black",
@@ -1086,7 +1086,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9638,
+   "plays": 9640,
    "covers": [
     {
      "name": "Amazing",
@@ -1274,7 +1274,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15665,
+   "plays": 15669,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1368,7 +1368,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18358,
+   "plays": 18371,
    "covers": [
     {
      "name": "ERROR",
