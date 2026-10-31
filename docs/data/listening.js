@@ -1,11 +1,11 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-10-31T05:10:14Z",
+ "generated": "2026-10-31T05:40:14Z",
  "totals": {
   "plays": 124528,
   "hours": 8465.0,
-  "artists": 700,
-  "albums": 1021,
+  "artists": 701,
+  "albums": 1041,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
@@ -898,7 +898,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28501,
+   "plays": 28502,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -992,7 +992,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32732,
+   "plays": 32733,
    "covers": [
     {
      "name": "Back In Black",
@@ -1086,7 +1086,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9635,
+   "plays": 9636,
    "covers": [
     {
      "name": "Amazing",
@@ -1180,7 +1180,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 11907,
+   "plays": 11909,
    "covers": [
     {
      "name": "Material Girl",
@@ -1274,7 +1274,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15630,
+   "plays": 15637,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1368,7 +1368,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18322,
+   "plays": 18330,
    "covers": [
     {
      "name": "ERROR",
