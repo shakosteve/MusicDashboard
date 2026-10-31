@@ -1,14 +1,91 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-10-31T18:40:07Z",
+ "generated": "2026-10-31T19:10:08Z",
  "totals": {
-  "plays": 124591,
-  "hours": 8469.4,
+  "plays": 124598,
+  "hours": 8469.9,
   "artists": 701,
   "albums": 1319,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Year of the Cat",
+   "artist": "Al Stewart",
+   "album": "Year of the Cat",
+   "year": 1976,
+   "image": "https://i.scdn.co/image/ab67616d00001e0225eb343e664ce94ca551b076",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27325eb343e664ce94ca551b076",
+   "url": "https://open.spotify.com/track/7MTX3vevnm41xuEoPxWT3j",
+   "album_url": "https://open.spotify.com/album/2JxEUrs4GzHQdkV6qQayz5",
+   "played_at": "2026-10-31T19:07:33.090Z"
+  },
+  {
+   "name": "Fade Away",
+   "artist": "The Warning",
+   "album": "ESCAPE THE MIND",
+   "year": 2015,
+   "image": "https://i.scdn.co/image/ab67616d00001e02ebd25082bf514bd05cc4cfd2",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273ebd25082bf514bd05cc4cfd2",
+   "url": "https://open.spotify.com/track/5tn18hld9Kj4H4fuLJ2Wck",
+   "album_url": "https://open.spotify.com/album/0Zj4AvZpKzStGARIOkoDS5",
+   "played_at": "2026-10-31T19:00:52.465Z"
+  },
+  {
+   "name": "CHOKE - Live from Auditorio Nacional, CDMX",
+   "artist": "The Warning",
+   "album": "Live from Auditorio Nacional, CDMX",
+   "year": 2025,
+   "image": "https://i.scdn.co/image/ab67616d00001e025cda6d880ec3968aa6b6ac2f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
+   "url": "https://open.spotify.com/track/3zgbw0cxkS1DQ36O5hGydt",
+   "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
+   "played_at": "2026-10-31T18:57:26.478Z"
+  },
+  {
+   "name": "Dancing Queen",
+   "artist": "ABBA",
+   "album": "Arrival",
+   "year": 1976,
+   "image": "https://i.scdn.co/image/ab67616d00001e0270f7a1b35d5165c85b95a0e0",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27370f7a1b35d5165c85b95a0e0",
+   "url": "https://open.spotify.com/track/0GjEhVFGZW8afUYGChu3Rr",
+   "album_url": "https://open.spotify.com/album/1V6a99EbTTIegOhWoPxYI9",
+   "played_at": "2026-10-31T18:53:32.395Z"
+  },
+  {
+   "name": "EVOLVE - Live from Auditorio Nacional, CDMX",
+   "artist": "The Warning",
+   "album": "Live from Auditorio Nacional, CDMX",
+   "year": 2025,
+   "image": "https://i.scdn.co/image/ab67616d00001e025cda6d880ec3968aa6b6ac2f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
+   "url": "https://open.spotify.com/track/5s6qXpfXp9aO0UM4YEy1hE",
+   "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
+   "played_at": "2026-10-31T18:48:32.207Z"
+  },
+  {
+   "name": "Old Sweet Way",
+   "artist": "Matilda Marigolds",
+   "album": "Union",
+   "year": 2021,
+   "image": "https://i.scdn.co/image/ab67616d00001e02d579a612650cec9eb67574e9",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273d579a612650cec9eb67574e9",
+   "url": "https://open.spotify.com/track/3fmSvPNtA22h1fI3Xw0BAD",
+   "album_url": "https://open.spotify.com/album/7ofKUTF17SEsGsAuaMhbj7",
+   "played_at": "2026-10-31T18:44:44.704Z"
+  },
+  {
+   "name": "Forty Six & 2",
+   "artist": "TOOL",
+   "album": "Ænima",
+   "year": 1996,
+   "image": "https://i.scdn.co/image/ab67616d00001e0247daa44983fa6079910ed295",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27347daa44983fa6079910ed295",
+   "url": "https://open.spotify.com/track/6AioOohg4bQZFA4jIYQQ2r",
+   "album_url": "https://open.spotify.com/album/6yWMN087PgSimbcVmHLEwG",
+   "played_at": "2026-10-31T18:41:15.089Z"
+  },
   {
    "name": "I Remember You",
    "artist": "Skid Row",
@@ -459,89 +536,12 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/44aTAUBF0g6sMkMNE8I5kd",
    "album_url": "https://open.spotify.com/album/5jkwdY6jS1Hzi8epr6HW7h",
    "played_at": "2026-10-31T15:42:57.280Z"
-  },
-  {
-   "name": "Gifts From The Holy Ghost",
-   "artist": "Dorothy",
-   "album": "Gifts From The Holy Ghost",
-   "year": 2022,
-   "image": "https://i.scdn.co/image/ab67616d00001e021aa1b81fbee5a40d6fb4c8c2",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2731aa1b81fbee5a40d6fb4c8c2",
-   "url": "https://open.spotify.com/track/0nO4haW10rA70k1KQqlVdn",
-   "album_url": "https://open.spotify.com/album/258YZ2TUzI1SJBU626eYFc",
-   "played_at": "2026-10-31T15:38:36.343Z"
-  },
-  {
-   "name": "Both Sides Now",
-   "artist": "Jackie Evancho",
-   "album": "Both Sides Now",
-   "year": 2022,
-   "image": "https://i.scdn.co/image/ab67616d00001e02ccbc69ffa3bab593a3a34564",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273ccbc69ffa3bab593a3a34564",
-   "url": "https://open.spotify.com/track/3Phl3f1Qnt2c7FQdLQq0NQ",
-   "album_url": "https://open.spotify.com/album/5Bp0BnoT1qHhqhEVcFnEVH",
-   "played_at": "2026-10-31T15:33:42.480Z"
-  },
-  {
-   "name": "God Only Knows",
-   "artist": "The Beach Boys",
-   "album": "50 Big Ones: Greatest Hits",
-   "year": 2012,
-   "image": "https://i.scdn.co/image/ab67616d00001e0210d709d905d269d37a41d4c4",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27310d709d905d269d37a41d4c4",
-   "url": "https://open.spotify.com/track/1Umw3vhysHBodpBFpFsVgK",
-   "album_url": "https://open.spotify.com/album/6cSZPNsr3tMEHo5QrMjk1F",
-   "played_at": "2026-10-31T15:29:23.599Z"
-  },
-  {
-   "name": "Mr. Tambourine Man",
-   "artist": "The Byrds",
-   "album": "Mr. Tambourine Man",
-   "year": 1965,
-   "image": "https://i.scdn.co/image/ab67616d00001e02576fccf9a91d9f7c808b8abd",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273576fccf9a91d9f7c808b8abd",
-   "url": "https://open.spotify.com/track/2HCaIYjkvWSZzaSKUoOh3d",
-   "album_url": "https://open.spotify.com/album/0pkrqPjeq9K5KD0hFqAKNa",
-   "played_at": "2026-10-31T14:53:23.320Z"
-  },
-  {
-   "name": "Bathroom Wall",
-   "artist": "Faster Pussycat",
-   "album": "Faster Pussycat",
-   "year": 1987,
-   "image": "https://i.scdn.co/image/ab67616d00001e02044d242cfff617749cd740d7",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273044d242cfff617749cd740d7",
-   "url": "https://open.spotify.com/track/6xwM2lYzPC6pUhjlV1nCWB",
-   "album_url": "https://open.spotify.com/album/4lFOgddadA9jHAO96kVniB",
-   "played_at": "2026-10-31T14:50:53.337Z"
-  },
-  {
-   "name": "City",
-   "artist": "The Sixsters",
-   "album": "I'm Gonna Be",
-   "year": 2022,
-   "image": "https://i.scdn.co/image/ab67616d00001e020cde6e1513d7528fb789d708",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2730cde6e1513d7528fb789d708",
-   "url": "https://open.spotify.com/track/6YMqnUJdID0QjUMFpD0yKO",
-   "album_url": "https://open.spotify.com/album/0Qv3cNebPzkTO8CNcbJLsd",
-   "played_at": "2026-10-31T14:47:11.404Z"
-  },
-  {
-   "name": "Jet Airliner - Live",
-   "artist": "Steve Miller Band",
-   "album": "Live! Breaking Ground August 3, 1977",
-   "year": 2021,
-   "image": "https://i.scdn.co/image/ab67616d00001e02bb8183e59cd224aa51e51b0f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273bb8183e59cd224aa51e51b0f",
-   "url": "https://open.spotify.com/track/6aCk36AO37oOz6lY5KGBpv",
-   "album_url": "https://open.spotify.com/album/1GYpibjfj4EFsTsTI1DDjh",
-   "played_at": "2026-10-31T14:28:14.369Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10648,
+   "plays": 10651,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
@@ -687,7 +687,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b273d579a612650cec9eb67574e9",
    "url": "https://open.spotify.com/track/6DWK2Ob0jEsqalt4mbiaLj",
    "album_url": "https://open.spotify.com/album/7ofKUTF17SEsGsAuaMhbj7",
-   "plays": 1066
+   "plays": 1067
   },
   {
    "name": "Rhyme or Reason",
@@ -915,7 +915,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28534,
+   "plays": 28536,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1103,7 +1103,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9655,
+   "plays": 9656,
    "covers": [
     {
      "name": "Amazing",
@@ -1291,7 +1291,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15708,
+   "plays": 15709,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1346,7 +1346,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273ebd25082bf514bd05cc4cfd2",
      "url": "https://open.spotify.com/track/2drd2oHqFi0PCW13FXQnDG",
      "album_url": "https://open.spotify.com/album/0Zj4AvZpKzStGARIOkoDS5",
-     "plays": 516
+     "plays": 517
     },
     {
      "name": "If You Want Blood (You've Got It)",
@@ -1385,7 +1385,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18468,
+   "plays": 18471,
    "covers": [
     {
      "name": "ERROR",
@@ -1407,7 +1407,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273d579a612650cec9eb67574e9",
      "url": "https://open.spotify.com/track/6DWK2Ob0jEsqalt4mbiaLj",
      "album_url": "https://open.spotify.com/album/7ofKUTF17SEsGsAuaMhbj7",
-     "plays": 1066
+     "plays": 1067
     },
     {
      "name": "Broken Bells",
@@ -1440,7 +1440,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
      "url": "https://open.spotify.com/track/3zgbw0cxkS1DQ36O5hGydt",
      "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
-     "plays": 472
+     "plays": 474
     },
     {
      "name": "The Barbarians",
