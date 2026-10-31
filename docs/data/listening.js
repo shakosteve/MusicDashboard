@@ -1,11 +1,11 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-10-31T04:40:13Z",
+ "generated": "2026-10-31T05:10:14Z",
  "totals": {
   "plays": 124528,
   "hours": 8465.0,
   "artists": 700,
-  "albums": 1001,
+  "albums": 1021,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
@@ -754,7 +754,7 @@ window.LISTENING = {
   },
   {
    "decade": 1950,
-   "plays": 268,
+   "plays": 269,
    "covers": [
     {
      "name": "Come On, Let's Go",
@@ -788,12 +788,23 @@ window.LISTENING = {
      "url": "https://open.spotify.com/track/6ekSX8AVzwRSs0mbSlPc0R",
      "album_url": "https://open.spotify.com/album/0pSVeCzT60p5pzP3m3iOrN",
      "plays": 1
+    },
+    {
+     "name": "Big Iron",
+     "artist": "Marty Robbins",
+     "album": "Gunfighter Ballads And Trail Songs",
+     "year": 1959,
+     "image": "https://i.scdn.co/image/ab67616d00001e02084051346f432cc68a1279cd",
+     "image_large": "https://i.scdn.co/image/ab67616d0000b273084051346f432cc68a1279cd",
+     "url": "https://open.spotify.com/track/0AQquaENerGps8BQmbPw14",
+     "album_url": "https://open.spotify.com/album/3kQpBS26lAj0A0VGl1snRl",
+     "plays": 1
     }
    ]
   },
   {
    "decade": 1960,
-   "plays": 7027,
+   "plays": 7028,
    "covers": [
     {
      "name": "Your Time Is Gonna Come - 1990 Remaster",
@@ -887,7 +898,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28498,
+   "plays": 28501,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1075,7 +1086,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9632,
+   "plays": 9635,
    "covers": [
     {
      "name": "Amazing",
@@ -1169,7 +1180,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 11904,
+   "plays": 11907,
    "covers": [
     {
      "name": "Material Girl",
@@ -1263,7 +1274,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15627,
+   "plays": 15630,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1357,7 +1368,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18316,
+   "plays": 18322,
    "covers": [
     {
      "name": "ERROR",
