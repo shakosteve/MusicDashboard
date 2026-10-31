@@ -55,8 +55,23 @@
   <p id="updated"></p>
 </footer>
 
-<script src="data/listening.js"></script>
-<script src="data/wrapped/index.js"></script>
-<script src="app.js"></script>
+<script>
+// Load the data with a unique URL so a cached copy (GitHub Pages allows 10 minutes) never hides new plays,
+// then the app. Reload every 10 minutes while the page is on screen, since the data is republished every 30.
+(function () {
+  const load = (src, next) => {
+    const s = document.createElement("script");
+    s.src = src;
+    s.onload = s.onerror = next;
+    document.body.appendChild(s);
+  };
+  const t = Date.now();
+  load(`data/listening.js?t=${t}`, () => load(`data/wrapped/index.js?t=${t}`, () => load("app.js")));
+  const loaded = Date.now();
+  const refresh = () => { if (!document.hidden && Date.now() - loaded > 10 * 60 * 1000) location.reload(); };
+  setInterval(refresh, 60 * 1000);
+  document.addEventListener("visibilitychange", refresh);
+})();
+</script>
 </body>
 </html>
