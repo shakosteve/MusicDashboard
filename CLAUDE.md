@@ -10,7 +10,7 @@ A personal Spotify listening dashboard ("The Listening Booth"). One Python scrip
 
 ```
 python musicdashboard.py auth                one-time browser sign-in; writes SPOTIFY_REFRESH_TOKEN to .env
-python musicdashboard.py sync                save new recently-played tracks + the podcast episode playing now
+python musicdashboard.py sync                save new recently-played tracks + podcast episodes (playing now, or found via resume points)
 python musicdashboard.py import [--limit N]  convert the privacy export in data/export/ into history files
 python musicdashboard.py art                 fetch cover art/years for live-synced albums missing them
 python musicdashboard.py build               write docs/data/listening.js
@@ -36,7 +36,12 @@ The data has two sources, which `build()` merges:
 
 1. **Live sync**, written to `recently_played.jsonl` and `episodes.json`.
    - Spotify's recently-played endpoint returns only the last 50 tracks and never podcasts, so `sync` has to run often.
-   - Episodes are caught only by polling what's playing now.
+   - Episodes come from two places. The first is polling what's playing now.
+   - The second is `sync_shows()`, which reads each recently heard show's 10 latest episodes and their `resume_point` (via the `user-read-playback-position` scope), so episodes heard between runs are caught.
+     - Shows heard in the last 7 days are checked every 2 hours, and those heard in the last 30 days once a day, at most 8 per run. Check times are kept in `show_checks.json`.
+     - A found episode is dated by when it was found, except on a show's first check, when it gets its release date. A first check never re-dates episodes that are already recorded.
+     - Episodes with under 10s of progress (`MIN_EPISODE_MS`) are skipped by `sync_shows()` and hidden by `build()` and `report`. The poll still records them, because the episode may have only just started.
+     - A show not heard in the last 30 days isn't checked, so a new or dormant show is only picked up once currently-playing sees it.
    - Plays are deduped by `played_at`.
 2. **Privacy export ("Extended streaming history")**: the `Streaming_History_Audio_*.json` files, unzipped into `data/export/`.
    - `import` keeps streams of at least 30s (`MIN_PLAY_MS`).
@@ -50,8 +55,9 @@ The data has two sources, which `build()` merges:
 
 ## Spotify API constraints
 
-- The app is in development mode. Catalog lookups (`/tracks/{id}`, `/episodes/{id}`) have a daily quota of roughly 500 calls. When it runs out, Spotify returns `429 QUOTA_EXCEEDED` with a `Retry-After` of about 24 hours.
-- The player endpoints that `sync` uses kept working while the catalog quota was exhausted.
+- The app is in development mode. Catalog lookups (`/tracks/{id}`, `/episodes/{id}`, and presumably `/shows/{id}/episodes`) have a daily quota of roughly 500 calls. When it runs out, Spotify returns `429 QUOTA_EXCEEDED` with a `Retry-After` of about 24 hours.
+- The player endpoints that `sync` uses (recently-played, currently-playing) kept working while the catalog quota was exhausted.
+- `sync_shows()` uses up to 8 catalog calls per run, roughly 150–250 a day, so it shares the quota with `import`. On `RateLimited` it stops and saves without failing the sync.
 - `fetch()` sleeps through short 429s, but raises `RateLimited` when `Retry-After` is over 120s. `import` catches it and saves its progress, and `main()` turns it into a clean exit. Never let code sleep through a long `Retry-After`.
 - Look items up one at a time; batch catalog endpoints aren't relied on. Keep the `delay` between calls.
 - Cover art is hotlinked from `i.scdn.co`, never downloaded. Spotify's terms require it to be shown unaltered and linked back to Spotify, so every card in the site links to `open.spotify.com`.

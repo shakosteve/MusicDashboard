@@ -1,7 +1,7 @@
 """MusicDashboard: collect my Spotify listening (music and podcasts) for a personal site.
 
     python musicdashboard.py auth    one-time: sign in to Spotify in the browser, saves the refresh token to .env
-    python musicdashboard.py sync    save new recently played tracks, and the podcast episode playing now
+    python musicdashboard.py sync    save new recently played tracks, and podcast episodes (playing now or by resume point)
     python musicdashboard.py art     fetch cover art and release years for saved albums missing them
     python musicdashboard.py import  read the privacy data export unzipped into data/export/
     python musicdashboard.py build   write docs/data/listening.js for the site (docs/index.html)
@@ -20,13 +20,15 @@ Settings in .env:
 
 Spotify only returns the last 50 played tracks and never includes podcast episodes there, so `sync`
 should run often (every 30-60 minutes, via sync.bat in Task Scheduler). Episodes are caught by
-checking what's playing at each run. The full history comes from the privacy data export
+checking what's playing at each run, and from the resume points of recently heard shows' latest
+episodes (so ones heard between runs show up too). The full history comes from the privacy data export
 ("Extended streaming history"): unzip its Streaming_History_Audio_*.json files into data/export/ and
 run `import`. Plays in recently_played.jsonl after the export's last play are added on top of it.
 
 Data (in data/, not committed):
     recently_played.jsonl   one play per line, oldest first, unique by played_at
-    episodes.json           podcast episodes seen playing, by episode URI, with the furthest progress
+    episodes.json           podcast episodes seen playing or with a resume point, by episode URI, with the furthest progress
+    show_checks.json        when each show's resume points were last checked, by show URI
     art.json                cover art URLs (i.scdn.co, ~300px and ~640px) by album or show URI
     export/                 the privacy data export's JSON files
     history.jsonl           music plays from the export (30s or more), in the recently_played format
@@ -70,7 +72,9 @@ SHOWS = DATA / "podcast_history.json"
 IMPORT_DONE = DATA / "import.done"
 SYNC_LOG = DATA / "sync.log"
 REPORT_SENT = DATA / "report.sent"
+SHOW_CHECKS = DATA / "show_checks.json"
 MIN_PLAY_MS = 30_000  # Spotify counts a stream from 30 seconds
+MIN_EPISODE_MS = 10_000  # an episode stopped sooner than this wasn't really listened to
 API = "https://api.spotify.com/v1"
 ACCOUNTS = "https://accounts.spotify.com"
 DEFAULT_REDIRECT = "http://127.0.0.1:8888/callback"
@@ -325,6 +329,66 @@ def sync_episode(session):
     return entry
 
 
+def sync_shows(session, per_run=8):
+    """Catch episodes heard between syncs from each recent show's resume points (where Spotify would resume
+    playback). Shows heard in the last week are checked every 2 hours, those heard in the last 30 days daily,
+    at most `per_run` shows per sync so the catalog quota lasts. A newly found episode is dated now, except on
+    a show's first check, when it gets its release date (it could have been heard any time before)."""
+    now = datetime.now(timezone.utc)
+    def ago(days):
+        return (now - timedelta(days=days)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    episodes = json.loads(EPISODES.read_text(encoding="utf-8")) if EPISODES.exists() else {}
+    history = json.loads(SHOWS.read_text(encoding="utf-8")) if SHOWS.exists() else {}
+    checks = json.loads(SHOW_CHECKS.read_text(encoding="utf-8")) if SHOW_CHECKS.exists() else {}
+    last_heard = {}
+    for show in history.values():
+        if show.get("uri"):
+            last_heard[show["uri"]] = max(last_heard.get(show["uri"], ""), show["last"])
+    for e in episodes.values():
+        if e.get("show_uri"):
+            last_heard[e["show_uri"]] = max(last_heard.get(e["show_uri"], ""), e["last_seen"])
+    due = [uri for uri, heard in last_heard.items() if heard >= ago(30)
+           and checks.get(uri, "") < ago(1 / 12 if heard >= ago(7) else 1)]
+    due.sort(key=lambda uri: checks.get(uri, ""))
+    found = []
+    try:
+        for uri in due[:per_run]:
+            page = try_fetch(session, f"{API}/shows/{uri.split(':')[-1]}/episodes", {"limit": 10}) or {}
+            first_check = uri not in checks
+            checks[uri] = now_iso()
+            for ep in page.get("items") or []:
+                resume = (ep or {}).get("resume_point") or {}
+                progress = ep.get("duration_ms") if resume.get("fully_played") else resume.get("resume_position_ms")
+                if not progress or progress < MIN_EPISODE_MS:
+                    continue
+                entry = episodes.get(ep["uri"])
+                if entry and progress <= entry["progress_ms"]:
+                    continue
+                if not entry:
+                    seen = f"{ep['release_date']}T12:00:00Z" if first_check and len(ep.get("release_date") or "") == 10 else now_iso()
+                    entry = episodes[ep["uri"]] = {
+                        "name": ep["name"],
+                        "show": next((s["name"] for s in history.values() if s.get("uri") == uri), None)
+                                or next((e["show"] for e in episodes.values() if e.get("show_uri") == uri), None),
+                        "show_uri": uri,
+                        "release_date": ep.get("release_date"),
+                        "duration_ms": ep.get("duration_ms"),
+                        "image": pick_image(ep.get("images"), 300),
+                        "first_seen": min(seen, now_iso()),
+                        "progress_ms": 0,
+                    }
+                    found.append(entry)
+                    entry["last_seen"] = entry["first_seen"]
+                elif not first_check:
+                    entry["last_seen"] = now_iso()
+                entry["progress_ms"] = progress
+    except RateLimited as e:
+        print(f"Show check stopped: {e}")
+    write_atomic(EPISODES, json.dumps(episodes, indent=2, ensure_ascii=False))
+    write_atomic(SHOW_CHECKS, json.dumps(checks, indent=2))
+    return found
+
+
 def sync():
     session = api_session()
     new = sync_plays(session)
@@ -332,6 +396,8 @@ def sync():
     episode = sync_episode(session)
     if episode:
         print(f"Podcast playing: {episode['show']} - {episode['name']}")
+    for found in sync_shows(session):
+        print(f"Podcast heard: {found['show']} - {found['name']}")
 
 
 def fill_art(delay=0.2):
@@ -357,10 +423,10 @@ def fill_art(delay=0.2):
     print(f"Cover art fetched for {len(wanted)} album(s).")
 
 
-def try_fetch(session, url):
+def try_fetch(session, url, params=None):
     """fetch, but None for a track or episode Spotify no longer has (404 and the like)."""
     try:
-        return fetch(session, url)
+        return fetch(session, url, params)
     except requests.HTTPError:
         return None
 
@@ -558,7 +624,8 @@ def build():
         "top_albums": sorted(albums.values(), key=lambda a: -a["plays"])[:12],
         "decades": sorted(decades.values(), key=lambda d: d["decade"]),
         "episodes": sorted(({**e, "url": open_url(uri), "show_image": art.get(e.get("show_uri"), {}).get("image")}
-                            for uri, e in episodes.items()), key=lambda e: e["last_seen"], reverse=True)[:12],
+                            for uri, e in episodes.items() if e["progress_ms"] >= MIN_EPISODE_MS),
+                           key=lambda e: e["last_seen"], reverse=True)[:12],
         "top_shows": [{"name": s["name"], "plays": s["plays"], "hours": round(s["ms_played"] / 3_600_000),
                        "image": art.get(s["uri"], {}).get("image"), "url": open_url(s["uri"])}
                       for s in sorted(shows.values(), key=lambda s: -s["ms_played"])[:12]],
@@ -856,7 +923,7 @@ def report_data(now):
                         "image": e.get("image") or art.get(e.get("show_uri"), {}).get("image"),
                         "pct": min(100, round(e["progress_ms"] / e["duration_ms"] * 100)) if e.get("duration_ms") else None}
                        for uri, e in episodes.items()
-                       if datetime.fromisoformat(e["last_seen"].replace("Z", "+00:00")) >= since),
+                       if e["progress_ms"] >= MIN_EPISODE_MS and datetime.fromisoformat(e["last_seen"].replace("Z", "+00:00")) >= since),
                       key=lambda e: e["last_seen"], reverse=True)
 
     # On this date in earlier years: the most-played song of each of the last three years that has plays.
@@ -1088,7 +1155,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     sub = parser.add_subparsers(dest="command", required=True)
     sub.add_parser("auth", help="sign in to Spotify once and save the refresh token")
-    sub.add_parser("sync", help="save new recent plays and the podcast episode playing now")
+    sub.add_parser("sync", help="save new recent plays and podcast episodes (playing now or by resume point)")
     sub.add_parser("art", help="fetch cover art and release years for saved albums that don't have them yet")
     imp = sub.add_parser("import", help="read the privacy data export in data/export/ into the listening history")
     imp.add_argument("--limit", type=int, help="look up at most this many tracks/shows this run")
