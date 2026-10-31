@@ -1,11 +1,11 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-10-31T11:40:14Z",
+ "generated": "2026-10-31T12:10:13Z",
  "totals": {
   "plays": 124528,
   "hours": 8465.0,
   "artists": 701,
-  "albums": 1277,
+  "albums": 1296,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
@@ -821,7 +821,7 @@ window.LISTENING = {
   },
   {
    "decade": 1960,
-   "plays": 7030,
+   "plays": 7031,
    "covers": [
     {
      "name": "Your Time Is Gonna Come - 1990 Remaster",
@@ -915,7 +915,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28520,
+   "plays": 28524,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1009,7 +1009,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32756,
+   "plays": 32758,
    "covers": [
     {
      "name": "Back In Black",
@@ -1197,7 +1197,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 11930,
+   "plays": 11933,
    "covers": [
     {
      "name": "Material Girl",
@@ -1291,7 +1291,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15692,
+   "plays": 15694,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1385,7 +1385,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18440,
+   "plays": 18448,
    "covers": [
     {
      "name": "ERROR",
@@ -1479,6 +1479,19 @@ window.LISTENING = {
   }
  ],
  "episodes": [
+  {
+   "name": "Election Preview with POLITICO's Charlie Mahtesian",
+   "show": "The Middle with Jeremy Hobson",
+   "show_uri": "spotify:show:5l5B4IoLnVHnFMLmGSar2f",
+   "release_date": "2026-10-31",
+   "duration_ms": 1871273,
+   "image": "https://i.scdn.co/image/ab67656300005f1ff41e868c508ff334fe5720fe",
+   "first_seen": "2026-10-31T12:10:02Z",
+   "progress_ms": 176294,
+   "last_seen": "2026-10-31T12:10:02Z",
+   "url": "https://open.spotify.com/episode/5kdTNxnHsall8ofxFmptux",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f083f152347124d54a12d4ca0"
+  },
   {
    "name": "I'll Have Another: 'Oreogate' & Gentle Parenting with Jessica Tarlov",
    "show": "Kennedy Saves the World",
@@ -1621,19 +1634,6 @@ window.LISTENING = {
    "last_seen": "2026-10-26T17:10:03Z",
    "url": "https://open.spotify.com/episode/55hh2G4WGi9VJEkTjnEplc",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42"
-  },
-  {
-   "name": "Legendary TV Producer & Writer, Chuck Lorre",
-   "show": "Adam Carolla Show",
-   "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
-   "release_date": "2026-10-26",
-   "duration_ms": 6366171,
-   "image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f",
-   "first_seen": "2026-10-26T12:10:03Z",
-   "progress_ms": 5361859,
-   "last_seen": "2026-10-26T13:10:03Z",
-   "url": "https://open.spotify.com/episode/77tlAPNCYhlPF8W8q7QH00",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
   }
  ],
  "top_shows": [
