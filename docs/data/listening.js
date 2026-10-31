@@ -1,14 +1,47 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-10-31T15:10:07Z",
+ "generated": "2026-10-31T15:40:07Z",
  "totals": {
-  "plays": 124546,
-  "hours": 8466.2,
+  "plays": 124550,
+  "hours": 8466.4,
   "artists": 701,
   "albums": 1318,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Gifts From The Holy Ghost",
+   "artist": "Dorothy",
+   "album": "Gifts From The Holy Ghost",
+   "year": 2022,
+   "image": "https://i.scdn.co/image/ab67616d00001e021aa1b81fbee5a40d6fb4c8c2",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2731aa1b81fbee5a40d6fb4c8c2",
+   "url": "https://open.spotify.com/track/0nO4haW10rA70k1KQqlVdn",
+   "album_url": "https://open.spotify.com/album/258YZ2TUzI1SJBU626eYFc",
+   "played_at": "2026-10-31T15:38:36.343Z"
+  },
+  {
+   "name": "Both Sides Now",
+   "artist": "Jackie Evancho",
+   "album": "Both Sides Now",
+   "year": 2022,
+   "image": "https://i.scdn.co/image/ab67616d00001e02ccbc69ffa3bab593a3a34564",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273ccbc69ffa3bab593a3a34564",
+   "url": "https://open.spotify.com/track/3Phl3f1Qnt2c7FQdLQq0NQ",
+   "album_url": "https://open.spotify.com/album/5Bp0BnoT1qHhqhEVcFnEVH",
+   "played_at": "2026-10-31T15:33:42.480Z"
+  },
+  {
+   "name": "God Only Knows",
+   "artist": "The Beach Boys",
+   "album": "50 Big Ones: Greatest Hits",
+   "year": 2012,
+   "image": "https://i.scdn.co/image/ab67616d00001e0210d709d905d269d37a41d4c4",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27310d709d905d269d37a41d4c4",
+   "url": "https://open.spotify.com/track/1Umw3vhysHBodpBFpFsVgK",
+   "album_url": "https://open.spotify.com/album/6cSZPNsr3tMEHo5QrMjk1F",
+   "played_at": "2026-10-31T15:29:23.599Z"
+  },
   {
    "name": "Mr. Tambourine Man",
    "artist": "The Byrds",
@@ -503,39 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/3o3zZU5Ib0zd0LpsK1Kfin",
    "album_url": "https://open.spotify.com/album/4FwaiqI20she40DLrEN4ni",
    "played_at": "2026-10-30T13:25:38.401Z"
-  },
-  {
-   "name": "Burning Down the House",
-   "artist": "Paramore",
-   "album": "Burning Down the House",
-   "year": 2024,
-   "image": "https://i.scdn.co/image/ab67616d00001e0297354c7d321a0ea891cdcd8f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27397354c7d321a0ea891cdcd8f",
-   "url": "https://open.spotify.com/track/0JYuvYMXApbWilFJdMSHSd",
-   "album_url": "https://open.spotify.com/album/0Gtm5NFDODVHB535xusxKg",
-   "played_at": "2026-10-30T13:23:25.787Z"
-  },
-  {
-   "name": "Borderline",
-   "artist": "Madonna",
-   "album": "Borderline",
-   "year": 1984,
-   "image": "https://i.scdn.co/image/ab67616d00001e02562ce96025289488ff8ba4b6",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273562ce96025289488ff8ba4b6",
-   "url": "https://open.spotify.com/track/4sfSGt1c19O2LI7lLn272S",
-   "album_url": "https://open.spotify.com/album/6cjHCJvAo9ohp6jsY8QcdQ",
-   "played_at": "2026-10-30T13:19:47.220Z"
-  },
-  {
-   "name": "Good Times Bad Times - 1993 Remaster",
-   "artist": "Led Zeppelin",
-   "album": "Led Zeppelin",
-   "year": 1969,
-   "image": "https://i.scdn.co/image/ab67616d00001e026f2f499c1df1f210c9b34b32",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2736f2f499c1df1f210c9b34b32",
-   "url": "https://open.spotify.com/track/0QwZfbw26QeUoIy82Z2jYp",
-   "album_url": "https://open.spotify.com/album/3ycjBixZf7S3WpC5WZhhUK",
-   "played_at": "2026-10-30T13:15:48.213Z"
   }
  ],
  "top_artists": [
@@ -1291,7 +1291,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15704,
+   "plays": 15706,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1385,7 +1385,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18458,
+   "plays": 18460,
    "covers": [
     {
      "name": "ERROR",
