@@ -1,14 +1,58 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-10-31T21:40:08Z",
+ "generated": "2026-10-31T22:10:07Z",
  "totals": {
-  "plays": 124613,
-  "hours": 8470.9,
+  "plays": 124617,
+  "hours": 8471.2,
   "artists": 701,
   "albums": 1320,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Metal Chestnut",
+   "artist": "Slash",
+   "album": "Orgy of the Damned",
+   "year": 2024,
+   "image": "https://i.scdn.co/image/ab67616d00001e02e66f735898f62043666589b3",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273e66f735898f62043666589b3",
+   "url": "https://open.spotify.com/track/0hx19Rxlafp5mpiRa2FEIF",
+   "album_url": "https://open.spotify.com/album/6aTrDhVw5QgXSz2JM4V8hc",
+   "played_at": "2026-10-31T21:51:59.173Z"
+  },
+  {
+   "name": "MARTIRIO",
+   "artist": "The Warning",
+   "album": "MARTIRIO",
+   "year": 2021,
+   "image": "https://i.scdn.co/image/ab67616d00001e02732c6de7441ed29a73e87963",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273732c6de7441ed29a73e87963",
+   "url": "https://open.spotify.com/track/2W0IAUsjR26coSOvppEpKx",
+   "album_url": "https://open.spotify.com/album/6oyeToNU5s7ZGttwTZ8EDF",
+   "played_at": "2026-10-31T21:48:56.883Z"
+  },
+  {
+   "name": "Black Water - Single Version",
+   "artist": "The Doobie Brothers",
+   "album": "Best of The Doobies",
+   "year": 1976,
+   "image": "https://i.scdn.co/image/ab67616d00001e02338ef055d7501cf241e7437e",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273338ef055d7501cf241e7437e",
+   "url": "https://open.spotify.com/track/3x1v32I3SZNvC7q7bDhcGm",
+   "album_url": "https://open.spotify.com/album/32xyhzHlGGsDvs1E7qihRA",
+   "played_at": "2026-10-31T21:44:52.192Z"
+  },
+  {
+   "name": "Bad Company - 2015 Remaster",
+   "artist": "Bad Company",
+   "album": "Bad Company (Deluxe)",
+   "year": 1974,
+   "image": "https://i.scdn.co/image/ab67616d00001e029adafd7f9d57380d1d0373af",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2739adafd7f9d57380d1d0373af",
+   "url": "https://open.spotify.com/track/36vTL8WP4ZoD1bbUaW0V3E",
+   "album_url": "https://open.spotify.com/album/4fuDpBLCt9ChDlqw48bj7p",
+   "played_at": "2026-10-31T21:40:32.983Z"
+  },
   {
    "name": "Little Queen",
    "artist": "Heart",
@@ -492,56 +536,12 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/0bSr5pybJSlgG5OZH441gF",
    "album_url": "https://open.spotify.com/album/1JvTsWrfYs2PR1PdSJXipq",
    "played_at": "2026-10-31T16:57:05.284Z"
-  },
-  {
-   "name": "Judith",
-   "artist": "A Perfect Circle",
-   "album": "Mer De Noms",
-   "year": 2000,
-   "image": "https://i.scdn.co/image/ab67616d00001e022d73b494efcb99356f8c7b28",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2732d73b494efcb99356f8c7b28",
-   "url": "https://open.spotify.com/track/5KDNFlHAdDJ84fhK27c35X",
-   "album_url": "https://open.spotify.com/album/0GeWd0yUKXHbCXVag1mJvO",
-   "played_at": "2026-10-31T16:52:49.647Z"
-  },
-  {
-   "name": "Me and Bobby McGee",
-   "artist": "Janis Joplin",
-   "album": "Pearl (Legacy Edition)",
-   "year": 1971,
-   "image": "https://i.scdn.co/image/ab67616d00001e026f8c26346723dd0531696bed",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2736f8c26346723dd0531696bed",
-   "url": "https://open.spotify.com/track/1IqFh00G2kvvMm8pRMpehA",
-   "album_url": "https://open.spotify.com/album/3j7nicLAWXM0Fb08q9XGyf",
-   "played_at": "2026-10-31T16:48:42Z"
-  },
-  {
-   "name": "VENT'ANNI",
-   "artist": "Måneskin",
-   "album": "Teatro d'ira - Vol. I",
-   "year": 2021,
-   "image": "https://i.scdn.co/image/ab67616d00001e025aa05015cfa7bd2943c29b21",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2735aa05015cfa7bd2943c29b21",
-   "url": "https://open.spotify.com/track/6Vfo6O3hk38vDcSpazNo3p",
-   "album_url": "https://open.spotify.com/album/7KF1Ain9mYYlg5M46g0i4A",
-   "played_at": "2026-10-31T16:44:10.017Z"
-  },
-  {
-   "name": "VHS",
-   "artist": "Freeze the Fall",
-   "album": "VHS",
-   "year": 2024,
-   "image": "https://i.scdn.co/image/ab67616d00001e0241d86dc3e3abbc5447edc351",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27341d86dc3e3abbc5447edc351",
-   "url": "https://open.spotify.com/track/5UBVWzkPAP9uRnhEAMPoyY",
-   "album_url": "https://open.spotify.com/album/55sg7o5JnKuz8gfwjkiyf5",
-   "played_at": "2026-10-31T16:39:56.063Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10652,
+   "plays": 10653,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
@@ -915,7 +915,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28539,
+   "plays": 28541,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1385,7 +1385,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18474,
+   "plays": 18476,
    "covers": [
     {
      "name": "ERROR",
