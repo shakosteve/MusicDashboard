@@ -1,14 +1,36 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-10-31T13:10:08Z",
+ "generated": "2026-10-31T13:40:08Z",
  "totals": {
-  "plays": 124528,
-  "hours": 8465.0,
+  "plays": 124530,
+  "hours": 8465.1,
   "artists": 701,
   "albums": 1316,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "You Should Be Dancing",
+   "artist": "Bee Gees",
+   "album": "Children Of The World",
+   "year": 1976,
+   "image": "https://i.scdn.co/image/ab67616d00001e0245b4e9481e0846c16553a048",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27345b4e9481e0846c16553a048",
+   "url": "https://open.spotify.com/track/2xiOdusRnZezQok1RgLNeS",
+   "album_url": "https://open.spotify.com/album/4V8z8vZUCyYUBlUI9CfSbY",
+   "played_at": "2026-10-31T13:33:26.625Z"
+  },
+  {
+   "name": "Pull Me Down",
+   "artist": "Saving Escape",
+   "album": "Old Soul",
+   "year": 2019,
+   "image": "https://i.scdn.co/image/ab67616d00001e02a8e9a07f9110e842adaa5c13",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273a8e9a07f9110e842adaa5c13",
+   "url": "https://open.spotify.com/track/2dxCVBmv3qqNXiUp6QzD8k",
+   "album_url": "https://open.spotify.com/album/7MTe3RHk7fkzS75PNoWfRN",
+   "played_at": "2026-10-31T13:29:09.744Z"
+  },
   {
    "name": "Push",
    "artist": "Matchbox Twenty",
@@ -514,28 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/0nO4haW10rA70k1KQqlVdn",
    "album_url": "https://open.spotify.com/album/258YZ2TUzI1SJBU626eYFc",
    "played_at": "2026-10-29T14:37:29.223Z"
-  },
-  {
-   "name": "What I Am",
-   "artist": "Edie Brickell & New Bohemians",
-   "album": "Shooting Rubberbands At The Stars",
-   "year": 1988,
-   "image": "https://i.scdn.co/image/ab67616d00001e02c4cc3c70e4896a692ca6b582",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273c4cc3c70e4896a692ca6b582",
-   "url": "https://open.spotify.com/track/6hHUiDe461VUoTHnsplRYs",
-   "album_url": "https://open.spotify.com/album/2oZzKVi2mqkQnZOad6DXMw",
-   "played_at": "2026-10-29T14:33:09.433Z"
-  },
-  {
-   "name": "Have a Drink on Me",
-   "artist": "AC/DC",
-   "album": "Back In Black",
-   "year": 1980,
-   "image": "https://i.scdn.co/image/ab67616d00001e02ff191d7fbdb5a13eaf84132b",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273ff191d7fbdb5a13eaf84132b",
-   "url": "https://open.spotify.com/track/4dDurgTN3eGyU0ghzFJ0T1",
-   "album_url": "https://open.spotify.com/album/6mUdeDZCsExyJLMdAfDuwh",
-   "played_at": "2026-10-29T14:28:12.528Z"
   }
  ],
  "top_artists": [
@@ -595,7 +595,7 @@ window.LISTENING = {
   },
   {
    "name": "Saving Escape",
-   "plays": 1674,
+   "plays": 1675,
    "url": "https://open.spotify.com/artist/2VfhnjHV7e3M499VPa1w71",
    "image": "https://i.scdn.co/image/ab67616d00001e02a8e9a07f9110e842adaa5c13"
   }
@@ -698,7 +698,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b273a8e9a07f9110e842adaa5c13",
    "url": "https://open.spotify.com/track/7sBi5RImk3idy4kfSkbsMq",
    "album_url": "https://open.spotify.com/album/7MTe3RHk7fkzS75PNoWfRN",
-   "plays": 1005
+   "plays": 1006
   },
   {
    "name": "Escape the Mind",
@@ -915,7 +915,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28524,
+   "plays": 28525,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1291,7 +1291,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15701,
+   "plays": 15702,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1324,7 +1324,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273a8e9a07f9110e842adaa5c13",
      "url": "https://open.spotify.com/track/7sBi5RImk3idy4kfSkbsMq",
      "album_url": "https://open.spotify.com/album/7MTe3RHk7fkzS75PNoWfRN",
-     "plays": 1005
+     "plays": 1006
     },
     {
      "name": "Escape the Mind",
