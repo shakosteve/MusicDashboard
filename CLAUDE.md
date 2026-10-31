@@ -68,6 +68,8 @@ The data has two sources, which `build()` merges:
 
 The current design is a deliberately plain placeholder while the owner decides on a design: ranked lists, a decade table, system fonts, and light/dark tokens on `:root`. Don't invest in restyling it unless asked. The earlier record-shop design (tilted sleeve cards, crates, stickers) is kept in `design/record-shop/`. It reads the same `window.LISTENING` data, except for `top_shows`.
 
+The main page's header links to each year in review. `index.html` also loads `data/wrapped/index.js`, and `app.js` lists `window.WRAPPED_YEARS` newest first, hiding the line if there are none.
+
 `docs/wrapped.html` is a self-contained "year in review" story page with its CSS and JS inline. It's deliberately dark, made of full-screen cards with custom SVG and CSS charts. It loads `data/wrapped/index.js` (the list of available years) and then `data/wrapped/<year>.js` by script injection, so it also works from `file://`.
 - `wrapped()` uses local calendar years via `astimezone()` and counts minutes from `ms_played`.
 - Its podcast stats come only from the export.

@@ -76,5 +76,12 @@
     }).join("");
   }
 
+  // Year-in-review links, newest first, from docs/data/wrapped/index.js (written by `musicdashboard.py wrapped`).
+  const years = (window.WRAPPED_YEARS || []).slice().sort((a, b) => b - a);
+  if (years.length) {
+    $("wrapped").hidden = false;
+    $("wrapped").innerHTML = `Year in review: ${years.map((y) => `<a href="wrapped.html?year=${y}">${y}</a>`).join(" · ")}`;
+  }
+
   $("updated").textContent = `Updated ${new Date(site.generated).toLocaleString()}`;
 })();
