@@ -1,14 +1,80 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-10-31T18:10:08Z",
+ "generated": "2026-10-31T18:40:07Z",
  "totals": {
-  "plays": 124585,
-  "hours": 8468.9,
+  "plays": 124591,
+  "hours": 8469.4,
   "artists": 701,
-  "albums": 1318,
+  "albums": 1319,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "I Remember You",
+   "artist": "Skid Row",
+   "album": "Skid Row",
+   "year": 1989,
+   "image": "https://i.scdn.co/image/ab67616d00001e02bb639863b7b716acf67bfa64",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273bb639863b7b716acf67bfa64",
+   "url": "https://open.spotify.com/track/1xqVri47rxr9oRpUgJa8rf",
+   "album_url": "https://open.spotify.com/album/0L5J7BLU1AKDuSewTMpw7E",
+   "played_at": "2026-10-31T18:35:10.070Z"
+  },
+  {
+   "name": "Small Town",
+   "artist": "John Mellencamp",
+   "album": "Scarecrow",
+   "year": 1985,
+   "image": "https://i.scdn.co/image/ab67616d00001e02b46e7ea6a6b2fa45caa23393",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273b46e7ea6a6b2fa45caa23393",
+   "url": "https://open.spotify.com/track/2HsjJJL4DhPCzMlnaGv7ap",
+   "album_url": "https://open.spotify.com/album/1BYEhfr8qQGNhbqPAbfnxk",
+   "played_at": "2026-10-31T18:29:55.779Z"
+  },
+  {
+   "name": "Sunrise",
+   "artist": "Norah Jones",
+   "album": "Feels Like Home",
+   "year": 2004,
+   "image": "https://i.scdn.co/image/ab67616d00001e0264026be0e09c1beda2f67c32",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27364026be0e09c1beda2f67c32",
+   "url": "https://open.spotify.com/track/7zkLpY72g6lKQbiHDqri1S",
+   "album_url": "https://open.spotify.com/album/7GaAXgbFSpcJOiLlFGYyOL",
+   "played_at": "2026-10-31T18:26:13.666Z"
+  },
+  {
+   "name": "Somebody To Love",
+   "artist": "Queen",
+   "album": "A Day At The Races (Deluxe Edition)",
+   "year": 1976,
+   "image": "https://i.scdn.co/image/ab67616d00001e023aa2d125c28475c322ac831e",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2733aa2d125c28475c322ac831e",
+   "url": "https://open.spotify.com/track/18OMrZoyyZuVy06FttIFhq",
+   "album_url": "https://open.spotify.com/album/32wu2qeQwVA6D8z1nWk68Q",
+   "played_at": "2026-10-31T18:22:52.581Z"
+  },
+  {
+   "name": "Groove Is in the Heart",
+   "artist": "Deee-Lite",
+   "album": "World Clique",
+   "year": 1990,
+   "image": "https://i.scdn.co/image/ab67616d00001e02cbcb5083c56df2a557625bca",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273cbcb5083c56df2a557625bca",
+   "url": "https://open.spotify.com/track/2He3NOyqtLNE3RQPpeDdSb",
+   "album_url": "https://open.spotify.com/album/4sTAgYLZy5zwqR3kT1g0oh",
+   "played_at": "2026-10-31T18:17:55.070Z"
+  },
+  {
+   "name": "Survive - Live from Auditorio Nacional, CDMX",
+   "artist": "The Warning",
+   "album": "Live from Auditorio Nacional, CDMX",
+   "year": 2025,
+   "image": "https://i.scdn.co/image/ab67616d00001e025cda6d880ec3968aa6b6ac2f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
+   "url": "https://open.spotify.com/track/5T3GENlcRcJH3caFS2tUj0",
+   "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
+   "played_at": "2026-10-31T18:14:02.708Z"
+  },
   {
    "name": "Runnin' with the Devil - 2015 Remaster",
    "artist": "Van Halen",
@@ -470,78 +536,12 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/6aCk36AO37oOz6lY5KGBpv",
    "album_url": "https://open.spotify.com/album/1GYpibjfj4EFsTsTI1DDjh",
    "played_at": "2026-10-31T14:28:14.369Z"
-  },
-  {
-   "name": "Rainbow in the Dark",
-   "artist": "Dio",
-   "album": "Holy Diver",
-   "year": 1983,
-   "image": "https://i.scdn.co/image/ab67616d00001e022457ab409ae106f8ae1dff89",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2732457ab409ae106f8ae1dff89",
-   "url": "https://open.spotify.com/track/2PpNgmrS9mAyrkRAwn6YPq",
-   "album_url": "https://open.spotify.com/album/2ivNJLSx8Rbvnsvcn01Yt3",
-   "played_at": "2026-10-31T14:22:56.928Z"
-  },
-  {
-   "name": "Shake That",
-   "artist": "BAND-MAID",
-   "album": "New Beginning",
-   "year": 2015,
-   "image": "https://i.scdn.co/image/ab67616d00001e02c9d078b963bf1205f26eb90b",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273c9d078b963bf1205f26eb90b",
-   "url": "https://open.spotify.com/track/4UlybsnjfVNPtn6rdliNUB",
-   "album_url": "https://open.spotify.com/album/3fGJG29oqHwWqqyV5UGUQa",
-   "played_at": "2026-10-31T14:18:39.564Z"
-  },
-  {
-   "name": "Are You Gonna Be My Girl",
-   "artist": "Jet",
-   "album": "Get Born (Deluxe Edition)",
-   "year": 2003,
-   "image": "https://i.scdn.co/image/ab67616d00001e0201fe3e94ab830a543d8f6a93",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27301fe3e94ab830a543d8f6a93",
-   "url": "https://open.spotify.com/track/72zZfHPYx43shcP3eKkYi5",
-   "album_url": "https://open.spotify.com/album/6svS1vGX5qyK9mhz8ijzxs",
-   "played_at": "2026-10-31T14:14:33.458Z"
-  },
-  {
-   "name": "Paralyzer",
-   "artist": "Finger Eleven",
-   "album": "Them Vs. You Vs. Me (Deluxe Edition)",
-   "year": 2007,
-   "image": "https://i.scdn.co/image/ab67616d00001e02e9c3c16b480e1c5a84d7b188",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273e9c3c16b480e1c5a84d7b188",
-   "url": "https://open.spotify.com/track/28IEbk5a7twNTbUEvWslUb",
-   "album_url": "https://open.spotify.com/album/2pCfqddO9tLKRz3wzSNGsZ",
-   "played_at": "2026-10-31T14:10:58.979Z"
-  },
-  {
-   "name": "We Are the Champions",
-   "artist": "Queen",
-   "album": "News Of The World",
-   "year": 1977,
-   "image": "https://i.scdn.co/image/ab67616d00001e026c74d509c1581f8e0a35391b",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2736c74d509c1581f8e0a35391b",
-   "url": "https://open.spotify.com/track/0saBeiGcu2dECTvAknHPzL",
-   "album_url": "https://open.spotify.com/album/7hq6mnrJ7CWbemk6B3H8PJ",
-   "played_at": "2026-10-31T14:07:30.563Z"
-  },
-  {
-   "name": "Rhiannon",
-   "artist": "Fleetwood Mac",
-   "album": "Fleetwood Mac",
-   "year": 1975,
-   "image": "https://i.scdn.co/image/ab67616d00001e024fb043195e8d07e72edc7226",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2734fb043195e8d07e72edc7226",
-   "url": "https://open.spotify.com/track/05oETzWbd4SI33qK2gbJfR",
-   "album_url": "https://open.spotify.com/album/5VIQ3VaAoRKOEpJ0fewdvo",
-   "played_at": "2026-10-31T14:04:30.756Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10647,
+   "plays": 10648,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
@@ -589,7 +589,7 @@ window.LISTENING = {
   },
   {
    "name": "Queen",
-   "plays": 1911,
+   "plays": 1912,
    "url": "https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d",
    "image": "https://i.scdn.co/image/ab67616d00001e0207744e2ed983efa3e6620a47"
   },
@@ -915,7 +915,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28533,
+   "plays": 28534,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1009,7 +1009,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32772,
+   "plays": 32774,
    "covers": [
     {
      "name": "Back In Black",
@@ -1103,7 +1103,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9654,
+   "plays": 9655,
    "covers": [
     {
      "name": "Amazing",
@@ -1197,7 +1197,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 11939,
+   "plays": 11940,
    "covers": [
     {
      "name": "Material Girl",
@@ -1385,7 +1385,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18467,
+   "plays": 18468,
    "covers": [
     {
      "name": "ERROR",
@@ -1440,7 +1440,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
      "url": "https://open.spotify.com/track/3zgbw0cxkS1DQ36O5hGydt",
      "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
-     "plays": 471
+     "plays": 472
     },
     {
      "name": "The Barbarians",
