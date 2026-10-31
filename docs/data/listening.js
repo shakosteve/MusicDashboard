@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-10-31T19:40:07Z",
+ "generated": "2026-10-31T21:10:07Z",
  "totals": {
-  "plays": 124605,
-  "hours": 8470.3,
+  "plays": 124606,
+  "hours": 8470.4,
   "artists": 701,
   "albums": 1320,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Slither",
+   "artist": "Velvet Revolver",
+   "album": "Contraband",
+   "year": 2004,
+   "image": "https://i.scdn.co/image/ab67616d00001e02e95d233a9df33d6c9992b449",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273e95d233a9df33d6c9992b449",
+   "url": "https://open.spotify.com/track/7kF1iPJTj3VFJX9XokQ80F",
+   "album_url": "https://open.spotify.com/album/64GnrmrpL1fvfF0r1AoZLB",
+   "played_at": "2026-10-31T20:47:43.362Z"
+  },
   {
    "name": "Two Princes",
    "artist": "Spin Doctors",
@@ -525,17 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/6OSyCAmXT4Gkd3OQ2aPOaF",
    "album_url": "https://open.spotify.com/album/6jmesEKzKTLAa3oI96jWow",
    "played_at": "2026-10-31T16:18:29.683Z"
-  },
-  {
-   "name": "Funky Cold Medina",
-   "artist": "Tone-Loc",
-   "album": "Loc-ed After Dark",
-   "year": 1989,
-   "image": "https://i.scdn.co/image/ab67616d00001e027d02bf7ee36c4c913636a4f3",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2737d02bf7ee36c4c913636a4f3",
-   "url": "https://open.spotify.com/track/5YIF6HSOtHN9HdcE5IPzMe",
-   "album_url": "https://open.spotify.com/album/6xE6A0Vwd2LmopR6Mn8UFG",
-   "played_at": "2026-10-31T16:12:41.382Z"
   }
  ],
  "top_artists": [
@@ -1197,7 +1197,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 11940,
+   "plays": 11941,
    "covers": [
     {
      "name": "Material Girl",
