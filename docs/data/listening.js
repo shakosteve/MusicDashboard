@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-10-31T17:40:07Z",
+ "generated": "2026-10-31T17:53:10Z",
  "totals": {
   "plays": 124578,
   "hours": 8468.4,
@@ -1721,5 +1721,133 @@ window.LISTENING = {
    "image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b",
    "url": "https://open.spotify.com/show/3VN4vP6TztxK3wtT8b9aQL"
   }
- ]
+ ],
+ "replays": {
+  "through": "2026-10-25T23:54:57Z",
+  "replays": 1883,
+  "songs": 593,
+  "share": 1.5,
+  "top": [
+   {
+    "name": "A Beautiful Life",
+    "artist": "Dorothy",
+    "album": "Gifts From The Holy Ghost",
+    "year": 2022,
+    "image": "https://i.scdn.co/image/ab67616d00001e021aa1b81fbee5a40d6fb4c8c2",
+    "image_large": "https://i.scdn.co/image/ab67616d0000b2731aa1b81fbee5a40d6fb4c8c2",
+    "url": "https://open.spotify.com/track/7jabc4dRHaNUBl7SDE881N",
+    "album_url": "https://open.spotify.com/album/258YZ2TUzI1SJBU626eYFc",
+    "plays": 172,
+    "total": 45,
+    "run_back": 38,
+    "went_back": 6,
+    "right_after": 1
+   },
+   {
+    "name": "Narcisista",
+    "artist": "The Warning",
+    "album": "Narcisista",
+    "year": 2019,
+    "image": "https://i.scdn.co/image/ab67616d00001e026954a9b87f2b99b031c0920b",
+    "image_large": "https://i.scdn.co/image/ab67616d0000b2736954a9b87f2b99b031c0920b",
+    "url": "https://open.spotify.com/track/7ECZGiOoEPSxnPBU25Tc3f",
+    "album_url": "https://open.spotify.com/album/0hToDKGzPWAXCrr7n2sKlM",
+    "plays": 319,
+    "total": 44,
+    "run_back": 35,
+    "went_back": 4,
+    "right_after": 5
+   },
+   {
+    "name": "Gifts From The Holy Ghost",
+    "artist": "Dorothy",
+    "album": "Gifts From The Holy Ghost",
+    "year": 2022,
+    "image": "https://i.scdn.co/image/ab67616d00001e021aa1b81fbee5a40d6fb4c8c2",
+    "image_large": "https://i.scdn.co/image/ab67616d0000b2731aa1b81fbee5a40d6fb4c8c2",
+    "url": "https://open.spotify.com/track/0nO4haW10rA70k1KQqlVdn",
+    "album_url": "https://open.spotify.com/album/258YZ2TUzI1SJBU626eYFc",
+    "plays": 163,
+    "total": 41,
+    "run_back": 37,
+    "went_back": 4,
+    "right_after": 0
+   },
+   {
+    "name": "Dull Knives (Cut Better)",
+    "artist": "The Warning",
+    "album": "Queen of the Murder Scene",
+    "year": 2018,
+    "image": "https://i.scdn.co/image/ab67616d00001e02e0871bbaad013df7b7e56c2a",
+    "image_large": "https://i.scdn.co/image/ab67616d0000b273e0871bbaad013df7b7e56c2a",
+    "url": "https://open.spotify.com/track/17qrNfLq2XLWTlXO7jn4p7",
+    "album_url": "https://open.spotify.com/album/2kB1Qqw3YOR9i3nbNxXWRs",
+    "plays": 282,
+    "total": 31,
+    "run_back": 26,
+    "went_back": 5,
+    "right_after": 0
+   },
+   {
+    "name": "All Too Well (10 Minute Version) (Taylor's Version) (From The Vault)",
+    "artist": "Taylor Swift",
+    "album": "Red (Taylor's Version)",
+    "year": 2021,
+    "image": "https://i.scdn.co/image/ab67616d00001e02318443aab3531a0558e79a4d",
+    "image_large": "https://i.scdn.co/image/ab67616d0000b273318443aab3531a0558e79a4d",
+    "url": "https://open.spotify.com/track/5enxwA8aAbwZbf5qCHORXi",
+    "album_url": "https://open.spotify.com/album/6kZ42qRrzov54LcAk4onW9",
+    "plays": 191,
+    "total": 30,
+    "run_back": 28,
+    "went_back": 1,
+    "right_after": 1
+   },
+   {
+    "name": "Survive",
+    "artist": "The Warning",
+    "album": "XXI Century Blood",
+    "year": 2017,
+    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de",
+    "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
+    "url": "https://open.spotify.com/track/1eJbsnmix2Y3k3ymp6R5Rs",
+    "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
+    "plays": 293,
+    "total": 27,
+    "run_back": 21,
+    "went_back": 4,
+    "right_after": 2
+   },
+   {
+    "name": "The Pot",
+    "artist": "TOOL",
+    "album": "10,000 Days",
+    "year": 2006,
+    "image": "https://i.scdn.co/image/ab67616d00001e02725e469500de9880a320d8cb",
+    "image_large": "https://i.scdn.co/image/ab67616d0000b273725e469500de9880a320d8cb",
+    "url": "https://open.spotify.com/track/1lATXTBJDHwawvT1UfxWu3",
+    "album_url": "https://open.spotify.com/album/1fvWYcbjuycyHpzNPH1Vfk",
+    "plays": 109,
+    "total": 27,
+    "run_back": 26,
+    "went_back": 1,
+    "right_after": 0
+   },
+   {
+    "name": "CHOKE",
+    "artist": "The Warning",
+    "album": "CHOKE",
+    "year": 2021,
+    "image": "https://i.scdn.co/image/ab67616d00001e02650bab17f0b4dd6b4452103d",
+    "image_large": "https://i.scdn.co/image/ab67616d0000b273650bab17f0b4dd6b4452103d",
+    "url": "https://open.spotify.com/track/4u7RK85A85XeymVXiwtv0a",
+    "album_url": "https://open.spotify.com/album/3zOPNnVojU3wnPUzRcEoLJ",
+    "plays": 228,
+    "total": 24,
+    "run_back": 16,
+    "went_back": 6,
+    "right_after": 2
+   }
+  ]
+ }
 };

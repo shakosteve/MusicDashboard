@@ -79,6 +79,14 @@ The live design is a retro car stereo, chosen by the owner. They turned down the
 - **Mixtape insert:** recent plays 2–17, handwritten as Side A and Side B.
 - **8-tracks:** top artists, with a tape bar showing plays relative to #1.
 - **Cassettes:** top albums. The art is the J-card in the case, the tape slides out on hover, and the spine is `contain: size` so long titles don't stretch the case.
+- **Coming back for seconds:** the 8 most-replayed songs, each with a rewind counter, built from `site.replays`.
+  - `replay_stats()` reads the raw export, which has `ms_played` and `reason_start`/`reason_end`. It counts three kinds of replay:
+    - **ran it back:** one play of 1.5 times the song's length or more, counted as extra song-lengths. A song's length is the median of its finished plays, so no API calls are needed.
+    - **went back:** the song started again by back, click or play within 3 plays and 20 minutes.
+    - **right after:** finished, then played again.
+  - Plays split by `logout`→`appload` are resumes, not replays.
+  - The result is cached in `data/replays.json` until the export changes. It covers only the export's range, since live sync has no play lengths or reasons.
+  - Most real replays are of the "ran it back" kind, invisible as separate plays. The owner confirmed the results match their memory (Dorothy's two songs at the top).
 - **Graphic equalizer:** decades, 12 LEDs per band. Clicking a band shows its covers. The 1900 placeholder release year is left out.
 - **AM dial:** top shows, whose needle follows the hovered preset, and recent episodes.
 

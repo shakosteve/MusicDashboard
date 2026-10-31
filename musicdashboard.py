@@ -75,6 +75,7 @@ IMPORT_DONE = DATA / "import.done"
 SYNC_LOG = DATA / "sync.log"
 REPORT_SENT = DATA / "report.sent"
 SHOW_CHECKS = DATA / "show_checks.json"
+REPLAYS = DATA / "replays.json"
 PLAYLISTS = ROOT / "playlists"  # committed, unlike data/: a backup of playlists that matter
 MIN_PLAY_MS = 30_000  # Spotify counts a stream from 30 seconds
 WRAPPED_MIN_PLAYS = 1_000  # years with fewer plays, before the first busy one, share one review
@@ -621,6 +622,58 @@ def load_plays():
     return plays + [p for p in read_plays(PLAYS) if p["played_at"][:19] > exported_to]
 
 
+def replay_stats():
+    """Songs I came back to, from the export (it has play lengths and why each play started and ended):
+    - "run back": one play that lasted 1.5+ times the song, from dragging back to the start or repeat-one;
+      each extra song-length counts as a replay. A song's length is the median of its plays that finished.
+    - "went back": started again by hand (back button, tapping it, play) within 3 plays and 20 minutes.
+    - "right after": finished, then played again straight away.
+    Plays split by the app closing and reopening don't count. Cached in data/replays.json until the export changes."""
+    files = sorted(EXPORT.glob("Streaming_History_Audio_*.json"))
+    if not files:
+        return None
+    source = f"{len(files)}:{max(f.stat().st_mtime for f in files):.0f}"
+    if REPLAYS.exists():
+        cached = json.loads(REPLAYS.read_text(encoding="utf-8"))
+        if cached.get("source") == source:
+            return cached
+    streams = sorted((s for f in files for s in json.loads(f.read_text(encoding="utf-8"))
+                      if s.get("spotify_track_uri")), key=lambda s: s["ts"])
+    finished = {}
+    for s in streams:
+        if s.get("reason_end") == "trackdone" and s["ms_played"] >= MIN_PLAY_MS:
+            finished.setdefault(s["spotify_track_uri"], []).append(s["ms_played"])
+    length = {uri: sorted(ms)[len(ms) // 2] for uri, ms in finished.items() if len(ms) >= 3}
+
+    def ts(s):
+        return datetime.fromisoformat(s["ts"].replace("Z", "+00:00"))
+
+    resumed = {"appload", "remote", "unknown", "switched-to-audio", "trackerror"}
+    songs = {}
+    for i, s in enumerate(streams):
+        uri = s["spotify_track_uri"]
+        c = songs.setdefault(uri, {"run_back": 0, "went_back": 0, "right_after": 0})
+        if uri in length and s["ms_played"] >= 1.5 * length[uri]:
+            c["run_back"] += round(s["ms_played"] / length[uri] - 1)
+        prev = streams[i - 1] if i else None
+        if prev and prev["spotify_track_uri"] == uri and prev.get("reason_end") == "trackdone" \
+                and prev["ms_played"] >= MIN_PLAY_MS and s.get("reason_start") not in resumed:
+            c["right_after"] += 1
+        elif s.get("reason_start") in ("backbtn", "clickrow", "playbtn"):
+            for p in streams[max(0, i - 3):i][::-1]:
+                if ts(s) - ts(p) > timedelta(minutes=20):
+                    break
+                if p["spotify_track_uri"] == uri and p["ms_played"] >= MIN_PLAY_MS:
+                    c["went_back"] += 1
+                    break
+    counts = {uri: {**c, "total": sum(c.values())} for uri, c in songs.items() if sum(c.values())}
+    result = {"source": source, "through": streams[-1]["ts"], "streams": len(streams),
+              "replays": sum(c["total"] for c in counts.values()), "songs": len(counts),
+              "top": [{"uri": uri, **c} for uri, c in sorted(counts.items(), key=lambda kv: -kv[1]["total"])[:20]]}
+    write_atomic(REPLAYS, json.dumps(result, indent=1))
+    return result
+
+
 def build():
     """Write docs/data/listening.js (a script, so docs/index.html also works opened as a file)."""
     art = load_art()
@@ -688,6 +741,14 @@ def build():
                        "image": art.get(s["uri"], {}).get("image"), "url": open_url(s["uri"])}
                       for s in sorted(shows.values(), key=lambda s: -s["ms_played"])[:12]],
     }
+    replays = replay_stats()
+    if replays:
+        latest = {p["uri"]: p for p in plays}
+        site["replays"] = {"through": replays["through"], "replays": replays["replays"], "songs": replays["songs"],
+                           "share": round(replays["replays"] / max(1, replays["streams"]) * 100, 1),
+                           "top": [{**record(latest[r["uri"]]), "plays": sum(1 for p in plays if p["uri"] == r["uri"]),
+                                    **{k: r[k] for k in ("total", "run_back", "went_back", "right_after")}}
+                                   for r in replays["top"] if r["uri"] in latest][:8]}
     out = ROOT / "docs" / "data" / "listening.js"
     write_atomic(out, "window.LISTENING = " + json.dumps(site, ensure_ascii=False, indent=1) + ";\n")
     print(f"Wrote {out.relative_to(ROOT)}: {len(plays)} plays, {len(artists)} artists, {len(albums)} albums.")

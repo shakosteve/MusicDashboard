@@ -96,6 +96,21 @@
       </div></div>
     </a>`).join("");
 
+  // Coming back for seconds: the songs replayed most, from the export (see replay_stats in musicdashboard.py).
+  const rp = site.replays;
+  if (rp?.top?.length) {
+    $("seconds").hidden = false;
+    $("seconds-dek").textContent = `Shuffle on, hands off: only about 1 play in ${Math.round(100 / rp.share)} is a replay. These are the songs you rewound anyway.`;
+    const how = (r) => [[r.run_back, "ran it back"], [r.went_back, "went back"], [r.right_after, "right after"]]
+      .filter(([n]) => n).map(([n, label]) => `${fmt(n)} ${label}`).join(" · ");
+    $("rewinds").innerHTML = rp.top.map((r, i) => `<li><span class="n">${i + 1}</span>${img(r.image, r.album)}
+      <div class="t">${link(r.url, r.name)}<span class="by">${esc(r.artist)} · ${fmt(r.plays)} plays</span><span class="how">${how(r)}</span></div>
+      <div class="counter" title="${fmt(r.total)} replays"><b><i aria-hidden="true">◀︎◀︎</i>${r.total}</b><span>replays</span></div></li>`).join("");
+    $("seconds-note").textContent = `From the streaming history through ${new Date(rp.through).toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" })}. `
+      + "Ran it back: one play that lasted past the song's length, from dragging back to the start or repeat-one. "
+      + "Went back: the back button or picking it again within a few songs. Right after: finished, then played again.";
+  }
+
   // Equalizer: one band per release decade, twelve LEDs tall. A placeholder 1900 release year isn't a decade.
   const decades = site.decades.filter((d) => d.decade >= 1910 && d.plays > 0);
   const maxDecade = Math.max(1, ...decades.map((d) => d.plays));
