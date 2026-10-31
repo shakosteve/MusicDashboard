@@ -1,14 +1,80 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-10-31T21:10:07Z",
+ "generated": "2026-10-31T21:40:08Z",
  "totals": {
-  "plays": 124606,
-  "hours": 8470.4,
+  "plays": 124613,
+  "hours": 8470.9,
   "artists": 701,
   "albums": 1320,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Little Queen",
+   "artist": "Heart",
+   "album": "Little Queen",
+   "year": 1977,
+   "image": "https://i.scdn.co/image/ab67616d00001e0266e2e0df78c4ec35a8ed20a0",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27366e2e0df78c4ec35a8ed20a0",
+   "url": "https://open.spotify.com/track/0Mo316Vw5VAKEy2maTlTNS",
+   "album_url": "https://open.spotify.com/album/1LaeNhiUpL3X6N0LcFvuDF",
+   "played_at": "2026-10-31T21:35:44.489Z"
+  },
+  {
+   "name": "Give Me One Reason",
+   "artist": "Tracy Chapman",
+   "album": "New Beginning",
+   "year": 1995,
+   "image": "https://i.scdn.co/image/ab67616d00001e026b38571f15487588ed53032f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2736b38571f15487588ed53032f",
+   "url": "https://open.spotify.com/track/4vDBJeeQCbhP9FaPPMsYkY",
+   "album_url": "https://open.spotify.com/album/3XsOzkIBoHsxZ7jP3QF2oB",
+   "played_at": "2026-10-31T21:30:32.496Z"
+  },
+  {
+   "name": "Stuck In The Middle With You",
+   "artist": "Stealers Wheel",
+   "album": "Stealers Wheel",
+   "year": 1972,
+   "image": "https://i.scdn.co/image/ab67616d00001e02a5ce236c22035a02cf87d4de",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273a5ce236c22035a02cf87d4de",
+   "url": "https://open.spotify.com/track/3Vby4nGmtbDo7HDJamOWkT",
+   "album_url": "https://open.spotify.com/album/5ApN9lqru1t3Xh1IaEGTll",
+   "played_at": "2026-10-31T21:26:03.584Z"
+  },
+  {
+   "name": "Paranoid - 2012 - Remaster",
+   "artist": "Black Sabbath",
+   "album": "Paranoid (Remaster)",
+   "year": 1970,
+   "image": "https://i.scdn.co/image/ab67616d00001e02d5fccf9ce08b6a1e7d12a222",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273d5fccf9ce08b6a1e7d12a222",
+   "url": "https://open.spotify.com/track/1Y373MqadDRtclJNdnUXVc",
+   "album_url": "https://open.spotify.com/album/6r7LZXAVueS5DqdrvXJJK7",
+   "played_at": "2026-10-31T21:22:34.086Z"
+  },
+  {
+   "name": "Man I Need (Live) – Spotify Live Room",
+   "artist": "Olivia Dean",
+   "album": "Olivia Dean - Spotify Live Room",
+   "year": 2025,
+   "image": "https://i.scdn.co/image/ab67616d00001e0283a8582a02ba58639b3fce04",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27383a8582a02ba58639b3fce04",
+   "url": "https://open.spotify.com/track/3yYuSzBhxR4kd4CNtfyHN7",
+   "album_url": "https://open.spotify.com/album/2BH28DBpJbk7fVT7a4IdYX",
+   "played_at": "2026-10-31T21:19:45.287Z"
+  },
+  {
+   "name": "Women - Remastered 2017",
+   "artist": "Def Leppard",
+   "album": "Hysteria (Super Deluxe)",
+   "year": 1987,
+   "image": "https://i.scdn.co/image/ab67616d00001e02222cb38afc3b3b47d9df26aa",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273222cb38afc3b3b47d9df26aa",
+   "url": "https://open.spotify.com/track/2q1njJdxOMEClSnuBWGMJa",
+   "album_url": "https://open.spotify.com/album/31oeDyCOLhgeZyktfxo0pE",
+   "played_at": "2026-10-31T21:16:40.787Z"
+  },
   {
    "name": "Slither",
    "artist": "Velvet Revolver",
@@ -18,7 +84,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b273e95d233a9df33d6c9992b449",
    "url": "https://open.spotify.com/track/7kF1iPJTj3VFJX9XokQ80F",
    "album_url": "https://open.spotify.com/album/64GnrmrpL1fvfF0r1AoZLB",
-   "played_at": "2026-10-31T20:47:43.362Z"
+   "played_at": "2026-10-31T21:10:57.695Z"
   },
   {
    "name": "Two Princes",
@@ -470,72 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/5UBVWzkPAP9uRnhEAMPoyY",
    "album_url": "https://open.spotify.com/album/55sg7o5JnKuz8gfwjkiyf5",
    "played_at": "2026-10-31T16:39:56.063Z"
-  },
-  {
-   "name": "Save Me Now",
-   "artist": "Billy Idol",
-   "album": "Kings & Queens Of The Underground",
-   "year": 2014,
-   "image": "https://i.scdn.co/image/ab67616d00001e02f21a536f6ae9d324f29917ed",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273f21a536f6ae9d324f29917ed",
-   "url": "https://open.spotify.com/track/2rbH7E6pLeAOsgE5PUIEgT",
-   "album_url": "https://open.spotify.com/album/1WQHG6CYgc5fB9ByTLkskB",
-   "played_at": "2026-10-31T16:36:22.912Z"
-  },
-  {
-   "name": "Piece of My Heart",
-   "artist": "Big Brother & The Holding Company, Janis Joplin",
-   "album": "Cheap Thrills",
-   "year": 1968,
-   "image": "https://i.scdn.co/image/ab67616d00001e02b6bd5786c0a512ec463f3cb7",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273b6bd5786c0a512ec463f3cb7",
-   "url": "https://open.spotify.com/track/1xKQbqQtQWrtQS47fUJBtl",
-   "album_url": "https://open.spotify.com/album/2rogKfOpmCFuqNhtGKf2dX",
-   "played_at": "2026-10-31T16:31:50.564Z"
-  },
-  {
-   "name": "Little Wing",
-   "artist": "Jimi Hendrix",
-   "album": "Axis: Bold As Love",
-   "year": 1967,
-   "image": "https://i.scdn.co/image/ab67616d00001e0219dcd95d28b63d10164327f2",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27319dcd95d28b63d10164327f2",
-   "url": "https://open.spotify.com/track/1Eolhana7nKHYpcYpdVcT5",
-   "album_url": "https://open.spotify.com/album/3uFZf8rykoHo7XMIQVYW6r",
-   "played_at": "2026-10-31T16:27:36.039Z"
-  },
-  {
-   "name": "Monster",
-   "artist": "L7",
-   "album": "Bricks Are Heavy",
-   "year": 1992,
-   "image": "https://i.scdn.co/image/ab67616d00001e02946c2a344a47393f80170cdc",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273946c2a344a47393f80170cdc",
-   "url": "https://open.spotify.com/track/4gEmS1pwdSjAEmrHdar9je",
-   "album_url": "https://open.spotify.com/album/0z7Dc7FRsDH7E4kj32mKyM",
-   "played_at": "2026-10-31T16:25:09.890Z"
-  },
-  {
-   "name": "You Give Love A Bad Name",
-   "artist": "Bon Jovi",
-   "album": "Slippery When Wet",
-   "year": 1986,
-   "image": "https://i.scdn.co/image/ab67616d00001e021336b31b6a1799f0de5807ac",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2731336b31b6a1799f0de5807ac",
-   "url": "https://open.spotify.com/track/0rmGAIH9LNJewFw7nKzZnc",
-   "album_url": "https://open.spotify.com/album/0kBfgEilUFCMIQY5IOjG4t",
-   "played_at": "2026-10-31T16:22:12.734Z"
-  },
-  {
-   "name": "Silent Lucidity",
-   "artist": "Queensrÿche",
-   "album": "Empire (20th Anniversary Edition)",
-   "year": 1990,
-   "image": "https://i.scdn.co/image/ab67616d00001e02eeb8caa4fee70e9f8ec15d3b",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273eeb8caa4fee70e9f8ec15d3b",
-   "url": "https://open.spotify.com/track/6OSyCAmXT4Gkd3OQ2aPOaF",
-   "album_url": "https://open.spotify.com/album/6jmesEKzKTLAa3oI96jWow",
-   "played_at": "2026-10-31T16:18:29.683Z"
   }
  ],
  "top_artists": [
@@ -583,7 +583,7 @@ window.LISTENING = {
   },
   {
    "name": "Heart",
-   "plays": 1919,
+   "plays": 1920,
    "url": "https://open.spotify.com/artist/34jw2BbxjoYalTp8cJFCPv",
    "image": "https://i.scdn.co/image/ab67616d00001e0266e2e0df78c4ec35a8ed20a0"
   },
@@ -654,7 +654,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b273222cb38afc3b3b47d9df26aa",
    "url": "https://open.spotify.com/track/1F1ek5FOLawYoPuZI0GITr",
    "album_url": "https://open.spotify.com/album/31oeDyCOLhgeZyktfxo0pE",
-   "plays": 1325
+   "plays": 1326
   },
   {
    "name": "ERROR",
@@ -720,7 +720,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b27366e2e0df78c4ec35a8ed20a0",
    "url": "https://open.spotify.com/track/4KfSdst7rW39C0sfhArdrz",
    "album_url": "https://open.spotify.com/album/1LaeNhiUpL3X6N0LcFvuDF",
-   "plays": 907
+   "plays": 908
   },
   {
    "name": "My Kinda Lover - Remastered 2010",
@@ -915,7 +915,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28536,
+   "plays": 28539,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -937,7 +937,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b27366e2e0df78c4ec35a8ed20a0",
      "url": "https://open.spotify.com/track/4KfSdst7rW39C0sfhArdrz",
      "album_url": "https://open.spotify.com/album/1LaeNhiUpL3X6N0LcFvuDF",
-     "plays": 907
+     "plays": 908
     },
     {
      "name": "Iron Man - 2012 - Remaster",
@@ -948,7 +948,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273d5fccf9ce08b6a1e7d12a222",
      "url": "https://open.spotify.com/track/3IOQZRcEkplCXg6LofKqE9",
      "album_url": "https://open.spotify.com/album/6r7LZXAVueS5DqdrvXJJK7",
-     "plays": 715
+     "plays": 716
     },
     {
      "name": "Crazy On You",
@@ -1009,7 +1009,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32776,
+   "plays": 32777,
    "covers": [
     {
      "name": "Back In Black",
@@ -1031,7 +1031,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273222cb38afc3b3b47d9df26aa",
      "url": "https://open.spotify.com/track/1F1ek5FOLawYoPuZI0GITr",
      "album_url": "https://open.spotify.com/album/31oeDyCOLhgeZyktfxo0pE",
-     "plays": 1325
+     "plays": 1326
     },
     {
      "name": "My Kinda Lover - Remastered 2010",
@@ -1103,7 +1103,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9659,
+   "plays": 9660,
    "covers": [
     {
      "name": "Amazing",
@@ -1197,7 +1197,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 11941,
+   "plays": 11942,
    "covers": [
     {
      "name": "Material Girl",
@@ -1385,7 +1385,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18473,
+   "plays": 18474,
    "covers": [
     {
      "name": "ERROR",
