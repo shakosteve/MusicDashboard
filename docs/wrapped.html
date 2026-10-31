@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Year in Review</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  /* A dark story page by design: each card is a full screen with its own backdrop. */
+  :root {
+    color-scheme: dark;
+    --bg: #0e0e10;
+    --text: #f5f5f2;
+    --muted: #b9b9b2;
+    --faint: rgba(255, 255, 255, .14);
+    --accent: #c4f04a;          /* chart marks: one hue for every single-series chart */
+    --heat-0: #232327;          /* sequential ramp, surface -> accent, for the calendar */
+    --heat-1: #3b4a1c;
+    --heat-2: #5f7f22;
+    --heat-3: #8fb92f;
+    --heat-4: #c4f04a;
+    --display: "Archivo Black", "Arial Black", Impact, sans-serif;
+    --sans: Inter, system-ui, "Segoe UI", sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-snap-type: y proximity; scroll-behavior: smooth; }  /* proximity: cards taller than the screen stay scrollable */
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.5 var(--sans); }
+  a { color: inherit; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  img { display: block; }
+
+  .card {
+    position: relative; min-height: 100svh; scroll-snap-align: start; overflow: hidden;
+    display: flex; flex-direction: column; justify-content: center;
+    padding: 72px max(16px, calc((100vw - 980px) / 2)) 56px;
+    isolation: isolate;
+  }
+  .card::before { content: ""; position: absolute; inset: 0; z-index: -1; background: var(--wash, none); }
+  .kicker { margin: 0 0 8px; font-weight: 600; font-size: .85rem; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+  .big { margin: 0; font: 400 clamp(3.2rem, 11vw, 8.5rem)/.92 var(--display); letter-spacing: -.02em; }
+  .mid { margin: 0; font: 400 clamp(2rem, 6vw, 4.2rem)/1 var(--display); letter-spacing: -.01em; }
+  .lede { max-width: 640px; margin: 18px 0 0; font-size: clamp(1.05rem, 2.2vw, 1.35rem); color: var(--muted); }
+  .lede b { color: var(--text); font-weight: 600; }
+  .accent { color: var(--accent); }
+
+  /* reveal on scroll */
+  .reveal { opacity: 0; transform: translateY(28px); transition: opacity .7s ease, transform .7s ease; }
+  .in .reveal { opacity: 1; transform: none; }
+  .in .reveal:nth-child(2) { transition-delay: .08s; } .in .reveal:nth-child(3) { transition-delay: .16s; }
+  .in .reveal:nth-child(4) { transition-delay: .24s; } .in .reveal:nth-child(5) { transition-delay: .32s; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    .reveal { opacity: 1; transform: none; transition: none; }
+  }
+
+  /* cover */
+  #cover { --wash: radial-gradient(120% 80% at 80% 10%, #3d2a8f 0%, transparent 60%), radial-gradient(90% 70% at 0% 100%, #b4235f 0%, transparent 55%), #120f1c; }
+  .year-outline { font: 400 clamp(7rem, 30vw, 22rem)/.8 var(--display); color: transparent; -webkit-text-stroke: 2px var(--text); letter-spacing: -.04em; margin: 0; }
+  .year-fill { color: var(--text); -webkit-text-stroke: 0; }
+  .picker { position: fixed; top: 14px; right: 16px; z-index: 10; display: flex; gap: 8px; align-items: center; font-size: .85rem; }
+  .picker select, .picker a.home { background: rgba(14, 14, 16, .7); color: var(--text); border: 1px solid var(--faint); border-radius: 999px; padding: 6px 12px; font: inherit; backdrop-filter: blur(6px); }
+  .scroll-hint { position: absolute; bottom: 22px; left: 50%; transform: translateX(-50%); font-size: .8rem; color: var(--muted); letter-spacing: .1em; text-transform: uppercase; }
+
+  /* dots */
+  .dots { position: fixed; right: 14px; top: 50%; transform: translateY(-50%); z-index: 10; display: flex; flex-direction: column; gap: 9px; }
+  .dots a { width: 8px; height: 8px; border-radius: 50%; background: var(--faint); transition: background .2s, transform .2s; }
+  .dots a.on { background: var(--text); transform: scale(1.4); }
+  @media (max-width: 640px) { .dots { display: none; } }
+
+  /* charts */
+  .chart { margin-top: 32px; width: 100%; }
+  .cols { display: grid; grid-template-columns: repeat(var(--n), minmax(0, 1fr)); gap: 6px; align-items: end; height: 190px; }
+  .col { display: flex; flex-direction: column; justify-content: flex-end; height: 100%; cursor: default; }
+  .col .bar { background: var(--accent); border-radius: 4px 4px 0 0; min-height: 2px; opacity: .45; transition: opacity .2s; }
+  .col.peak .bar, .col:hover .bar { opacity: 1; }
+  .col span { margin-top: 6px; font-size: .72rem; color: var(--muted); text-align: center; }
+  .axis-note { margin-top: 10px; font-size: .8rem; color: var(--muted); }
+
+  .heat { display: grid; grid-auto-flow: column; grid-template-rows: repeat(7, 1fr); gap: 3px; margin-top: 28px; }
+  .heat i { aspect-ratio: 1; border-radius: 2px; background: var(--heat-0); }
+  .heat i[data-l="1"] { background: var(--heat-1); } .heat i[data-l="2"] { background: var(--heat-2); }
+  .heat i[data-l="3"] { background: var(--heat-3); } .heat i[data-l="4"] { background: var(--heat-4); }
+  .heat i.pad { visibility: hidden; }
+  .heat-months { display: grid; grid-auto-flow: column; gap: 3px; font-size: .72rem; color: var(--muted); margin-top: 6px; }
+  .heat-key { display: flex; gap: 4px; align-items: center; margin-top: 10px; font-size: .75rem; color: var(--muted); }
+  .heat-key i { width: 11px; height: 11px; border-radius: 2px; }
+
+  /* hero (top artist / top song) */
+  .hero { --wash: linear-gradient(180deg, rgba(14,14,16,.6), rgba(14,14,16,.94) 70%), var(--hero-img, none) center / cover; }
+  .hero .cover-art { width: min(360px, 70vw); aspect-ratio: 1; border-radius: 8px; box-shadow: 0 24px 60px rgba(0,0,0,.55); margin-bottom: 28px; object-fit: cover; }
+  .hero .rank { font: 400 clamp(1.1rem, 2.4vw, 1.5rem) var(--display); color: var(--accent); margin: 0 0 6px; }
+  .stats { display: flex; flex-wrap: wrap; gap: 14px 40px; margin-top: 26px; }
+  .stats div { min-width: 120px; }
+  .stats dt { font-size: .78rem; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+  .stats dd { margin: 2px 0 0; font: 400 clamp(1.5rem, 3.4vw, 2.2rem) var(--display); }
+
+  /* ranked lists */
+  .ranked { list-style: none; margin: 28px 0 0; padding: 0; display: grid; gap: 4px; }
+  .ranked li { display: grid; grid-template-columns: 2.2em 56px minmax(0, 1fr) auto; gap: 14px; align-items: center; padding: 8px 0; border-bottom: 1px solid var(--faint); }
+  .ranked .n { font: 400 1.4rem var(--display); color: var(--muted); text-align: right; }
+  .ranked img, .ranked .blank { width: 56px; height: 56px; border-radius: 4px; object-fit: cover; background: var(--faint); }
+  .ranked .t { min-width: 0; }
+  .ranked .t > * { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .ranked .name { font-weight: 600; font-size: 1.05rem; }
+  .ranked .sub { color: var(--muted); font-size: .88rem; }
+  .ranked .v { text-align: right; font-variant-numeric: tabular-nums; color: var(--muted); font-size: .9rem; }
+  .move { display: inline-block; margin-left: 8px; font-size: .75rem; font-weight: 700; }
+  .move.up { color: var(--accent); } .move.down { color: #ff8a7a; } .move.new { color: #ffd166; }
+
+  /* album wall */
+  .wall { display: grid; grid-template-columns: 2fr 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 10px; margin-top: 30px; max-width: 760px; }
+  .wall a { position: relative; border-radius: 6px; overflow: hidden; aspect-ratio: 1; background: var(--faint); }
+  .wall a:first-child { grid-row: span 2; }
+  .wall img { width: 100%; height: 100%; object-fit: cover; transition: transform .4s; }
+  .wall a:hover img { transform: scale(1.05); }
+  .wall .cap { position: absolute; inset: auto 0 0 0; padding: 26px 10px 8px; background: linear-gradient(transparent, rgba(0,0,0,.85)); font-size: .8rem; line-height: 1.3; }
+  .wall .cap b { display: block; font-size: .92rem; }
+
+  /* clock */
+  .split { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 40px; align-items: center; margin-top: 30px; }
+  .clock { width: 100%; max-width: 380px; }
+  .clock path { fill: var(--accent); opacity: .45; transition: opacity .2s; }
+  .clock path.peak, .clock path:hover { opacity: 1; }
+  .clock text { fill: var(--muted); font: 600 11px var(--sans); }
+  .clock circle { fill: none; stroke: var(--faint); }
+
+  .hbars { display: grid; gap: 8px; margin-top: 28px; max-width: 720px; }
+  .hbar { display: grid; grid-template-columns: 3.4em minmax(0, 1fr) 5.5em; gap: 12px; align-items: center; font-size: .9rem; }
+  .hbar .track { height: 14px; border-radius: 0 4px 4px 0; background: rgba(255,255,255,.06); }
+  .hbar .fill { height: 100%; border-radius: 0 4px 4px 0; background: var(--accent); opacity: .5; }
+  .hbar.peak .fill, .hbar:hover .fill { opacity: 1; }
+  .hbar .v { text-align: right; color: var(--muted); font-variant-numeric: tabular-nums; }
+
+  /* summary poster */
+  #summary { --wash: radial-gradient(100% 70% at 100% 0%, #1f6f5c 0%, transparent 60%), radial-gradient(80% 60% at 0% 100%, #6b2fb3 0%, transparent 60%), #101014; }
+  .poster { display: grid; grid-template-columns: 220px minmax(0, 1fr) minmax(0, 1fr); gap: 28px 36px; margin-top: 30px; padding: 28px; border-radius: 14px; background: rgba(0,0,0,.35); border: 1px solid var(--faint); }
+  .poster img { width: 220px; height: 220px; border-radius: 6px; object-fit: cover; }
+  .poster h3 { margin: 0 0 8px; font-size: .78rem; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+  .poster ol { margin: 0; padding-left: 1.4em; font-weight: 600; line-height: 1.75; }
+  .poster ol li { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .poster .row { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 14px 48px; padding-top: 18px; border-top: 1px solid var(--faint); }
+  .poster .row dt { font-size: .75rem; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+  .poster .row dd { margin: 0; font: 400 1.6rem var(--display); }
+  footer { padding: 28px 16px 40px; text-align: center; color: var(--muted); font-size: .82rem; }
+
+  .tip { position: fixed; z-index: 20; pointer-events: none; padding: 6px 10px; border-radius: 6px; background: #f5f5f2; color: #111; font-size: .8rem; font-weight: 600; white-space: nowrap; opacity: 0; transition: opacity .12s; }
+
+  @media (max-width: 760px) {
+    .split { grid-template-columns: minmax(0, 1fr); }
+    .poster { grid-template-columns: minmax(0, 1fr); }
+    .poster img { width: 100%; height: auto; aspect-ratio: 1; }
+    .cols { height: 150px; gap: 3px; }
+    .col span { font-size: .62rem; }
+    .ranked li { grid-template-columns: 1.6em 44px minmax(0, 1fr) auto; gap: 10px; }
+    .ranked img, .ranked .blank { width: 44px; height: 44px; }
+    .heat { gap: 2px; }
+  }
+</style>
+</head>
+<body>
+<nav class="picker"><a class="home" href="index.html">← Dashboard</a><select id="year" aria-label="Year"></select></nav>
+<nav class="dots" id="dots" aria-label="Sections"></nav>
+<main id="story"><section class="card"><p class="lede">Loading…</p></section></main>
+<footer>Reconstructed from your Spotify listening history. Artwork and links from <a href="https://open.spotify.com" rel="noopener">Spotify</a>.</footer>
+<div class="tip" id="tip" role="tooltip"></div>
+
+<script src="data/wrapped/index.js"></script>
+<script>
+(function () {
+  const years = window.WRAPPED_YEARS || [];
+  const asked = Number(new URLSearchParams(location.search).get("year"));
+  const year = years.includes(asked) ? asked : years[years.length - 1];
+  const story = document.getElementById("story");
+  if (!year) {
+    story.innerHTML = '<section class="card"><p class="lede">No years yet: run <code>python musicdashboard.py wrapped</code>.</p></section>';
+    return;
+  }
+  const select = document.getElementById("year");
+  select.innerHTML = years.slice().reverse().map((y) => `<option${y === year ? " selected" : ""}>${y}</option>`).join("");
+  select.onchange = () => { location.search = `?year=${select.value}`; };
+  const s = document.createElement("script");
+  s.src = `data/wrapped/${year}.js`;
+  s.onload = () => render(window.WRAPPED[year]);
+  document.body.appendChild(s);
+
+  const esc = (v) => String(v ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const fmt = (n) => Number(n).toLocaleString();
+  // "Black Dog - Remaster", "Time Passages - 2004 Remastered Version" -> the song's name
+  const clean = (t) => String(t ?? "").replace(/\s+-\s+(\d{4}\s+)?(digital\s+)?remaster(ed)?(\s+\d{4})?(\s+version)?$/i, "")
+    .replace(/\s+\((\d{4}\s+)?remaster(ed)?(\s+\d{4})?(\s+version)?\)$/i, "");
+  const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  const MONTH_NAMES = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+  const DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+  const day = (iso) => new Date(iso + "T12:00:00").toLocaleDateString(undefined, { month: "long", day: "numeric" });
+  const hourName = (h) => h === 0 ? "midnight" : h === 12 ? "noon" : h < 12 ? `${h} AM` : `${h - 12} PM`;
+  const img = (src, cls = "") => src ? `<img class="${cls}" src="${esc(src)}" alt="" loading="lazy">` : `<span class="blank ${cls}"></span>`;
+  const link = (url, text) => url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(text)}</a>` : esc(text);
+  const card = (id, body, style = "") => `<section class="card" id="${id}" style="${style}">${body}</section>`;
+  const argmax = (xs) => xs.indexOf(Math.max(...xs));
+
+  function render(w) {
+    document.title = `${w.year} in Review`;
+    const thisYear = new Date().getFullYear() === w.year;
+    const days = (w.minutes / 1440).toFixed(1);
+    const change = w.previous_minutes ? Math.round((w.minutes / w.previous_minutes - 1) * 100) : null;
+    const peakMonth = argmax(w.months);
+    const peakHour = argmax(w.hours);
+    const peakDay = argmax(w.weekdays);
+    const [a1, ...artistsRest] = w.top_artists;
+    const [t1, ...tracksRest] = w.top_tracks;
+    const topDecade = w.decades.reduce((a, b) => (b.minutes > a.minutes ? b : a), { minutes: 0 });
+    const yearDays = (w.year % 4 === 0 && w.year % 100 !== 0) || w.year % 400 === 0 ? 366 : 365;
+    const cards = [];
+
+    cards.push(card("cover", `
+      <p class="kicker reveal">${thisYear ? "So far this year" : "Your year in listening"}</p>
+      <h1 class="year-outline reveal">${String(w.year).slice(0, 2)}<span class="year-fill">${String(w.year).slice(2)}</span></h1>
+      <p class="lede reveal"><b>${fmt(w.plays)}</b> plays. <b>${fmt(w.artists_count)}</b> artists. <b>${fmt(w.tracks_count)}</b> songs.
+        One very long playlist. Let's go through it.</p>
+      <div class="scroll-hint">Scroll ↓</div>`));
+
+    cards.push(card("minutes", `
+      <p class="kicker reveal">Time spent listening</p>
+      <h2 class="big reveal"><span class="count" data-to="${w.minutes}">0</span></h2>
+      <p class="lede reveal">minutes of music. That's <b>${days} days</b> straight${change !== null ? `, <b>${change >= 0 ? "up" : "down"} ${Math.abs(change)}%</b> on ${w.year - 1}` : ""}.
+        <b>${MONTH_NAMES[peakMonth]}</b> was your loudest month.</p>
+      <div class="chart reveal" role="img" aria-label="Minutes listened per month">
+        <div class="cols" style="--n:12">${w.months.map((m, i) => `
+          <div class="col${i === peakMonth ? " peak" : ""}" data-tip="${MONTH_NAMES[i]}: ${fmt(m)} min">
+            <div class="bar" style="height:${(m / Math.max(...w.months)) * 100}%"></div><span>${MONTHS[i]}</span></div>`).join("")}
+        </div>
+      </div>`, "--wash: radial-gradient(90% 70% at 100% 100%, #14532d 0%, transparent 60%), #0f1411;"));
+
+    cards.push(card("streak", `
+      <p class="kicker reveal">Never a quiet day</p>
+      <h2 class="big reveal">${fmt(w.longest_streak.days)} <span class="accent">days</span></h2>
+      <p class="lede reveal">in a row with music on, ending ${day(w.longest_streak.ended)}. You listened on
+        <b>${w.days_listened} of ${yearDays}</b> days.</p>
+      ${heatmap(w)}`, "--wash: radial-gradient(80% 60% at 0% 0%, #1e3a5f 0%, transparent 60%), #0e1116;"));
+
+    cards.push(card("artist", `
+      ${a1.image ? `<img class="cover-art reveal" src="${esc(a1.image)}" alt="">` : ""}
+      <p class="rank reveal">Your top artist</p>
+      <h2 class="mid reveal">${link(a1.url, a1.name)}</h2>
+      <p class="lede reveal">${a1.last_year_rank === 1 ? `Number one again, same as ${w.year - 1}.` : a1.last_year_rank ? `Up from #${a1.last_year_rank} in ${w.year - 1}.` : `Brand new at the top.`}
+        First play of the year: ${day(a1.first.slice(0, 10))}.</p>
+      <dl class="stats reveal">
+        <div><dt>Minutes</dt><dd>${fmt(a1.minutes)}</dd></div>
+        <div><dt>Plays</dt><dd>${fmt(a1.plays)}</dd></div>
+        <div><dt>Of all listening</dt><dd>${a1.share}%</dd></div>
+      </dl>`, `--hero-img: url('${esc(a1.image || "")}')`).replace('class="card"', 'class="card hero"'));
+
+    cards.push(card("artists", `
+      <p class="kicker reveal">The rest of your top 10</p>
+      <h2 class="mid reveal">Top artists</h2>
+      <ol class="ranked reveal">${artistsRest.map((a, i) => `<li>
+        <span class="n">${i + 2}</span>${img(a.image)}
+        <span class="t"><span class="name">${link(a.url, a.name)}${move(a.last_year_rank, i + 2)}</span><span class="sub">${fmt(a.plays)} plays · ${a.share}% of listening</span></span>
+        <span class="v">${fmt(a.minutes)} min</span></li>`).join("")}</ol>`,
+      "--wash: radial-gradient(90% 70% at 100% 0%, #4c1d95 0%, transparent 60%), #110f16;"));
+
+    cards.push(card("song", `
+      ${t1.image_large ? `<img class="cover-art reveal" src="${esc(t1.image_large)}" alt="">` : ""}
+      <p class="rank reveal">Your most-played song</p>
+      <h2 class="mid reveal">${link(t1.url, clean(t1.name))}</h2>
+      <p class="lede reveal">${esc(t1.artist)}. You played it <b>${fmt(t1.plays)} times</b>, about once every
+        <b>${(yearDays / t1.plays).toFixed(1)} days</b>, starting ${day(t1.first.slice(0, 10))}.</p>
+      <dl class="stats reveal">
+        <div><dt>Plays</dt><dd>${fmt(t1.plays)}</dd></div>
+        <div><dt>Minutes</dt><dd>${fmt(t1.minutes)}</dd></div>
+        ${t1.year ? `<div><dt>Released</dt><dd>${t1.year}</dd></div>` : ""}
+      </dl>`, `--hero-img: url('${esc(t1.image_large || "")}')`).replace('class="card"', 'class="card hero"'));
+
+    cards.push(card("songs", `
+      <p class="kicker reveal">On heavy rotation</p>
+      <h2 class="mid reveal">Top songs</h2>
+      <ol class="ranked reveal">${tracksRest.map((t, i) => `<li>
+        <span class="n">${i + 2}</span>${img(t.image)}
+        <span class="t"><span class="name">${link(t.url, clean(t.name))}</span><span class="sub">${esc(t.artist)}</span></span>
+        <span class="v">${fmt(t.plays)} plays</span></li>`).join("")}</ol>`,
+      "--wash: radial-gradient(90% 70% at 0% 100%, #9a3412 0%, transparent 60%), #15100e;"));
+
+    cards.push(card("albums", `
+      <p class="kicker reveal">Front to back</p>
+      <h2 class="mid reveal">Top albums</h2>
+      <div class="wall reveal">${w.top_albums.slice(0, 5).map((a, i) => `<a href="${esc(a.url)}" target="_blank" rel="noopener" data-tip="${esc(`${fmt(a.minutes)} min · ${fmt(a.plays)} plays`)}">
+        ${a.image_large ? `<img src="${esc(i === 0 ? a.image_large : a.image)}" alt="${esc(a.name)}" loading="lazy">` : ""}
+        <span class="cap"><b>${esc(clean(a.name))}</b>${esc(a.artist)}${a.year ? ` · ${a.year}` : ""}</span></a>`).join("")}</div>`,
+      "--wash: radial-gradient(90% 70% at 100% 100%, #0e7490 0%, transparent 60%), #0d1314;"));
+
+    cards.push(card("when", `
+      <p class="kicker reveal">When you listen</p>
+      <h2 class="mid reveal">${peakHour < 12 ? "A morning person" : peakHour < 18 ? "An afternoon person" : "A night owl"}</h2>
+      <p class="lede reveal">Your peak hour was <b>${hourName(peakHour)}</b>, and <b>${DAYS[peakDay]}s</b> got the most play.
+        ${w.weekdays[6] < w.weekdays[peakDay] * .7 ? "Sundays were for something else." : ""}</p>
+      <div class="split reveal">
+        ${clock(w.hours, peakHour)}
+        <div class="hbars" role="img" aria-label="Minutes by day of the week">${w.weekdays.map((m, i) => `
+          <div class="hbar${i === peakDay ? " peak" : ""}" data-tip="${DAYS[i]}: ${fmt(m)} min"><span>${DAYS[i].slice(0, 3)}</span>
+            <div class="track"><div class="fill" style="width:${(m / Math.max(...w.weekdays)) * 100}%"></div></div>
+            <span class="v">${fmt(Math.round(m / 60))} h</span></div>`).join("")}</div>
+      </div>`, "--wash: radial-gradient(80% 60% at 50% 0%, #713f12 0%, transparent 60%), #14110d;"));
+
+    cards.push(card("day", `
+      <p class="kicker reveal">Your biggest day</p>
+      <h2 class="big reveal">${day(w.best_day.date)}</h2>
+      <p class="lede reveal"><b>${fmt(w.best_day.minutes)} minutes</b> (${(w.best_day.minutes / 60).toFixed(1)} hours) and
+        <b>${fmt(w.best_day.plays)} songs</b>, mostly ${w.best_day.artists.map(esc).join(", ").replace(/, ([^,]*)$/, " and $1")}.</p>
+      <div class="ranked reveal" style="margin-top:40px">
+        <p class="kicker">On repeat</p>
+        <ol class="ranked" style="margin:0"><li><span class="n">×${w.on_repeat.plays}</span>${img(w.on_repeat.image)}
+          <span class="t"><span class="name">${link(w.on_repeat.url, clean(w.on_repeat.name))}</span><span class="sub">${esc(w.on_repeat.artist)}</span></span>
+          <span class="v">${w.on_repeat.plays} plays on ${day(w.on_repeat.date)}</span></li></ol>
+      </div>`, "--wash: radial-gradient(90% 70% at 100% 50%, #9d174d 0%, transparent 60%), #150d11;"));
+
+    if (w.decades.length) cards.push(card("decades", `
+      <p class="kicker reveal">Time travel</p>
+      <h2 class="mid reveal">The ${String(topDecade.decade).slice(2)}s were your decade</h2>
+      <p class="lede reveal">Most of your listening came out ${w.year - topDecade.decade > 30 ? "long before" : "well before"} ${w.year}. By release decade:</p>
+      <div class="hbars reveal" role="img" aria-label="Minutes by decade of release">${w.decades.map((d) => `
+        <div class="hbar${d === topDecade ? " peak" : ""}" data-tip="${d.decade}s: ${fmt(d.minutes)} min"><span>${String(d.decade).slice(2)}s</span>
+          <div class="track"><div class="fill" style="width:${(d.minutes / topDecade.minutes) * 100}%"></div></div>
+          <span class="v">${fmt(Math.round(d.minutes / 60))} h</span></div>`).join("")}</div>`,
+      "--wash: radial-gradient(80% 60% at 0% 50%, #3730a3 0%, transparent 60%), #0f0f17;"));
+
+    if (w.discoveries.count) cards.push(card("new", `
+      <p class="kicker reveal">New to you</p>
+      <h2 class="big reveal">${fmt(w.discoveries.count)} <span class="accent">artists</span></h2>
+      <p class="lede reveal">you'd never played before ${w.year}. The ones that stuck:</p>
+      <ol class="ranked reveal">${w.discoveries.top.map((a, i) => `<li><span class="n">${i + 1}</span>${img(a.image)}
+        <span class="t"><span class="name">${link(a.url, a.name)}</span></span><span class="v">${fmt(a.minutes)} min</span></li>`).join("")}</ol>`,
+      "--wash: radial-gradient(90% 70% at 100% 0%, #166534 0%, transparent 60%), #0e140f;"));
+
+    if (w.podcasts.top.length) cards.push(card("talk", `
+      <p class="kicker reveal">Not all music</p>
+      <h2 class="big reveal">${fmt(Math.round(w.podcasts.minutes / 60))} <span class="accent">hours</span></h2>
+      <p class="lede reveal">of podcasts on top of the music, across <b>${w.podcasts.shows_count} shows</b>.</p>
+      <ol class="ranked reveal">${w.podcasts.top.map((p, i) => `<li><span class="n">${i + 1}</span>${img(p.image)}
+        <span class="t"><span class="name">${link(p.url, p.name)}</span><span class="sub">${fmt(p.episodes)} episodes</span></span>
+        <span class="v">${fmt(Math.round(p.minutes / 60))} h</span></li>`).join("")}</ol>`,
+      "--wash: radial-gradient(90% 70% at 0% 0%, #7c2d12 0%, transparent 60%), #140f0d;"));
+
+    cards.push(card("summary", `
+      <p class="kicker reveal">That was ${w.year}</p>
+      <h2 class="mid reveal">Your ${w.year} in one frame</h2>
+      <div class="poster reveal">
+        ${img(a1.image)}
+        <div><h3>Top artists</h3><ol>${w.top_artists.slice(0, 5).map((a) => `<li>${esc(a.name)}</li>`).join("")}</ol></div>
+        <div><h3>Top songs</h3><ol>${w.top_tracks.slice(0, 5).map((t) => `<li>${esc(clean(t.name))}</li>`).join("")}</ol></div>
+        <dl class="row">
+          <div><dt>Minutes</dt><dd>${fmt(w.minutes)}</dd></div>
+          <div><dt>Streak</dt><dd>${w.longest_streak.days} days</dd></div>
+          ${topDecade.decade ? `<div><dt>Decade</dt><dd>${topDecade.decade}s</dd></div>` : ""}
+          <div><dt>New artists</dt><dd>${fmt(w.discoveries.count)}</dd></div>
+        </dl>
+      </div>`));
+
+    story.innerHTML = cards.join("");
+    wire();
+    // The cards didn't exist when the browser looked for #anchor, so follow it now.
+    const target = location.hash && document.getElementById(location.hash.slice(1));
+    if (target) target.scrollIntoView({ behavior: "instant" });
+  }
+
+  function move(last, now) {
+    if (!last) return '<span class="move new">NEW</span>';
+    if (last > now) return `<span class="move up" title="#${last} last year">▲ ${last - now}</span>`;
+    if (last < now) return `<span class="move down" title="#${last} last year">▼ ${now - last}</span>`;
+    return "";
+  }
+
+  // Calendar: one column per week (Monday first), shaded by quartile of the year's listening days.
+  function heatmap(w) {
+    const start = new Date(w.year, 0, 1);
+    const pad = (start.getDay() + 6) % 7;
+    const values = Object.values(w.days).filter((v) => v > 0).sort((a, b) => a - b);
+    const q = [0.25, 0.5, 0.75].map((p) => values[Math.floor(p * (values.length - 1))] || 0);
+    const cells = Array.from({ length: pad }, () => '<i class="pad"></i>');
+    const monthCols = [];
+    for (let d = new Date(start); d.getFullYear() === w.year; d.setDate(d.getDate() + 1)) {
+      const iso = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+      const m = w.days[iso] || 0;
+      const level = m === 0 ? 0 : m <= q[0] ? 1 : m <= q[1] ? 2 : m <= q[2] ? 3 : 4;
+      if (d.getDate() === 1) monthCols.push(Math.floor((cells.length) / 7));
+      cells.push(`<i data-l="${level}" data-tip="${d.toLocaleDateString(undefined, { weekday: "short", month: "short", day: "numeric" })}: ${m ? `${fmt(m)} min` : "nothing"}"></i>`);
+    }
+    const weeks = Math.ceil(cells.length / 7);
+    const labels = Array.from({ length: weeks }, (_, i) => {
+      const m = monthCols.indexOf(i);
+      return `<span>${m >= 0 ? MONTHS[m] : ""}</span>`;
+    }).join("");
+    return `<div class="chart reveal" role="img" aria-label="Minutes listened each day of ${w.year}">
+      <div class="heat" style="grid-template-columns:repeat(${weeks}, minmax(0, 1fr))">${cells.join("")}</div>
+      <div class="heat-months" style="grid-template-columns:repeat(${weeks}, minmax(0, 1fr))">${labels}</div>
+      <div class="heat-key">Less <i style="background:var(--heat-0)"></i><i style="background:var(--heat-1)"></i><i style="background:var(--heat-2)"></i><i style="background:var(--heat-3)"></i><i style="background:var(--heat-4)"></i> More</div>
+    </div>`;
+  }
+
+  // 24 wedges around a clock face; wedge length grows with the square root of minutes, so area reads as time.
+  function clock(hours, peak) {
+    const max = Math.max(...hours) || 1, R = 150, r0 = 34, c = 180;
+    const pt = (rad, a) => [c + rad * Math.sin(a), c - rad * Math.cos(a)];
+    const wedges = hours.map((m, h) => {
+      const r = r0 + (R - r0) * Math.sqrt(m / max);
+      const a0 = (h / 24) * 2 * Math.PI + 0.015, a1 = ((h + 1) / 24) * 2 * Math.PI - 0.015;
+      const [x0, y0] = pt(r0, a0), [x1, y1] = pt(r, a0), [x2, y2] = pt(r, a1), [x3, y3] = pt(r0, a1);
+      return `<path class="${h === peak ? "peak" : ""}" d="M${x0},${y0} L${x1},${y1} A${r},${r} 0 0 1 ${x2},${y2} L${x3},${y3} A${r0},${r0} 0 0 0 ${x0},${y0} Z"
+        data-tip="${hourName(h)}–${hourName((h + 1) % 24)}: ${fmt(m)} min"></path>`;
+    }).join("");
+    const labels = [[0, "12a"], [6, "6a"], [12, "12p"], [18, "6p"]].map(([h, t]) => {
+      const [x, y] = pt(R + 18, (h / 24) * 2 * Math.PI);
+      return `<text x="${x}" y="${y}" text-anchor="middle" dominant-baseline="middle">${t}</text>`;
+    }).join("");
+    return `<svg class="clock" viewBox="0 0 360 360" role="img" aria-label="Minutes listened by hour of day">
+      <circle cx="${c}" cy="${c}" r="${R}"></circle><circle cx="${c}" cy="${c}" r="${r0}"></circle>${wedges}${labels}</svg>`;
+  }
+
+  function wire() {
+    const sections = [...document.querySelectorAll(".card")];
+    const dots = document.getElementById("dots");
+    dots.innerHTML = sections.map((s) => `<a href="#${s.id}" aria-label="${s.id}"></a>`).join("");
+    const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const io = new IntersectionObserver((entries) => entries.forEach((e) => {
+      if (!e.isIntersecting) return;
+      e.target.classList.add("in");
+      dots.querySelectorAll("a").forEach((a) => a.classList.toggle("on", a.getAttribute("href") === `#${e.target.id}`));
+      e.target.querySelectorAll(".count:not(.done)").forEach((el) => countUp(el, reduce));
+    }), { threshold: 0.45 });
+    sections.forEach((s) => io.observe(s));
+
+    const tip = document.getElementById("tip");
+    document.addEventListener("mousemove", (e) => {
+      const t = e.target.closest("[data-tip]");
+      tip.style.opacity = t ? 1 : 0;
+      if (!t) return;
+      tip.textContent = t.dataset.tip;
+      const x = Math.min(e.clientX + 14, innerWidth - tip.offsetWidth - 8);
+      tip.style.left = `${x}px`;
+      tip.style.top = `${e.clientY - 36}px`;
+    });
+
+    document.addEventListener("keydown", (e) => {
+      if (!["ArrowDown", "ArrowUp", "PageDown", "PageUp"].includes(e.key) || e.target.tagName === "SELECT") return;
+      const i = sections.findIndex((s) => s.getBoundingClientRect().top > -innerHeight / 2);
+      const next = sections[Math.max(0, Math.min(sections.length - 1, i + (e.key.endsWith("Down") ? 1 : -1)))];
+      if (next) { e.preventDefault(); next.scrollIntoView(); }
+    });
+  }
+
+  function countUp(el, reduce) {
+    el.classList.add("done");
+    const to = Number(el.dataset.to);
+    if (reduce) { el.textContent = fmt(to); return; }
+    const t0 = performance.now(), dur = 1400;
+    const step = (t) => {
+      const p = Math.min(1, (t - t0) / dur);
+      el.textContent = fmt(Math.round(to * (1 - Math.pow(1 - p, 3))));
+      if (p < 1) requestAnimationFrame(step);
+    };
+    requestAnimationFrame(step);
+  }
+})();
+</script>
+</body>
+</html>

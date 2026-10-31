@@ -14,12 +14,15 @@ python musicdashboard.py sync                save new recently-played tracks + t
 python musicdashboard.py import [--limit N]  convert the privacy export in data/export/ into history files
 python musicdashboard.py art                 fetch cover art/years for live-synced albums missing them
 python musicdashboard.py build               write docs/data/listening.js
-sync.bat                                     the scheduled job: sync, import --limit 20 (until data\import.done exists), build
+python musicdashboard.py wrapped [YEAR ...]  write docs/data/wrapped/<year>.js (default: every year) for docs/wrapped.html?year=YEAR
+python musicdashboard.py report [--dry-run|--force]  daily summary email of data/sync.log, listening and import progress
+sync.bat                                     the scheduled job: sync, import --limit 20 (until data\import.done exists), build, report
 ```
 
 - To preview the site, open `docs/index.html` directly in a browser. The data is a `<script>` that sets `window.LISTENING`, not fetched JSON, so the page works from `file://` with no server.
 - `sync.bat` hardcodes the Python path (`...\Python313\python.exe`) and appends all output to `data\sync.log`.
-- The Windows Task Scheduler task `\MusicDashboard` runs `sync.bat` every 30 minutes. Enabling or disabling it needs an elevated prompt (`schtasks /change /tn MusicDashboard /enable`); from a non-admin shell it fails with "Access is denied".
+- `report` runs on every scheduled run but sends only on the first run from `REPORT_HOUR` (default 8 AM), then writes the date to `data/report.sent`. It does nothing until `SMTP_USER` and `SMTP_PASSWORD` (a Gmail app password) are in `.env`. It parses the `=== <date> <time>` run headers that `sync.bat` writes into the log, so keep that format if you edit `sync.bat`. The owner prefers this email to progress reports in chat.
+- The Windows Task Scheduler task `\MusicDashboard` runs `sync.bat` every 30 minutes, launched as `conhost.exe --headless "C:\code\MusicDashboard\sync.bat"` so no console window pops up. Enabling or disabling it needs an elevated prompt (`schtasks /change /tn MusicDashboard /enable`); from a non-admin shell it fails with "Access is denied".
 
 ## Data flow
 
@@ -51,4 +54,12 @@ The data has two sources, which `build()` merges:
 
 ## Site
 
-`docs/app.js` is a single IIFE that renders `window.LISTENING` into the static sections of `docs/index.html`. Any new key added to the `site` dict in `build()` needs matching markup in `index.html`, and its section should stay `hidden` until there's data. Styling (`docs/style.css`) uses a record-shop theme: crates of tilted "sleeve" cards with stickers, and CSS custom properties on `:root`.
+`docs/app.js` is a single IIFE that renders `window.LISTENING` into the static sections of `docs/index.html`. Any new key added to the `site` dict in `build()` needs matching markup in `index.html`, and its section should stay `hidden` until there's data.
+
+The current design is a deliberately plain placeholder while the owner decides on a design: ranked lists, a decade table, system fonts, and light/dark tokens on `:root`. Don't invest in restyling it unless asked. The earlier record-shop design (tilted sleeve cards, crates, stickers) is kept in `design/record-shop/`. It reads the same `window.LISTENING` data, except for `top_shows`.
+
+`docs/wrapped.html` is a self-contained "year in review" story page with its CSS and JS inline. It's deliberately dark, made of full-screen cards with custom SVG and CSS charts. It loads `data/wrapped/index.js` (the list of available years) and then `data/wrapped/<year>.js` by script injection, so it also works from `file://`.
+- `wrapped()` uses local calendar years via `astimezone()` and counts minutes from `ms_played`.
+- Its podcast stats come only from the export.
+- "Discoveries" are artists whose first-ever play falls in that year.
+- Card links (`#streak`) are followed after render. Headless screenshots of a scrolled card come out blank, so to check a card, hide the other cards instead of scrolling to it.

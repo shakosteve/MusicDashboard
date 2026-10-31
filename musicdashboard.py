@@ -14,6 +14,9 @@ Settings in .env:
                                      Redirect URI exactly
     SPOTIFY_REFRESH_TOKEN=...        written by `auth`; Spotify may replace it on refresh, and `sync`
                                      saves the new one
+    SMTP_USER=you@gmail.com          optional, for the daily `report` email; SMTP_PASSWORD is a Gmail
+    SMTP_PASSWORD=...                app password. Also optional: REPORT_TO (default SMTP_USER),
+                                     REPORT_HOUR (default 8), SMTP_HOST/SMTP_PORT (default Gmail, 587)
 
 Spotify only returns the last 50 played tracks and never includes podcast episodes there, so `sync`
 should run often (every 30-60 minutes, via sync.bat in Task Scheduler). Episodes are caught by
@@ -43,8 +46,10 @@ import secrets
 import sys
 import time
 import webbrowser
+import smtplib
 from collections import Counter
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
+from email.message import EmailMessage
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from pathlib import Path
 from urllib.parse import parse_qs, urlencode, urlparse
@@ -62,6 +67,8 @@ HISTORY = DATA / "history.jsonl"
 TRACKS = DATA / "tracks.json"
 SHOWS = DATA / "podcast_history.json"
 IMPORT_DONE = DATA / "import.done"
+SYNC_LOG = DATA / "sync.log"
+REPORT_SENT = DATA / "report.sent"
 MIN_PLAY_MS = 30_000  # Spotify counts a stream from 30 seconds
 API = "https://api.spotify.com/v1"
 ACCOUNTS = "https://accounts.spotify.com"
@@ -374,7 +381,8 @@ def import_history(limit=None, delay=0.2):
 
     tracks = json.loads(TRACKS.read_text(encoding="utf-8")) if TRACKS.exists() else {}
     shows = json.loads(SHOWS.read_text(encoding="utf-8")) if SHOWS.exists() else {}
-    show_uris = {name: s.get("uri") for name, s in shows.items() if "uri" in s}
+    # A show's uri is None until it's looked up, and False if the lookup found nothing.
+    show_uris = {name: s["uri"] for name, s in shows.items() if s.get("uri") is not None}
     art = load_art()
     # One track per album is enough (the rest borrow its album and artists), most-played album first,
     # so a lookup cut short by the rate limit still covers most of the plays.
@@ -405,9 +413,9 @@ def import_history(limit=None, delay=0.2):
         latest_episode[s["episode_show_name"]] = s["spotify_episode_uri"]
     wanted_shows = [name for name, _ in shows_by_time.most_common() if name not in show_uris]
     finished = len(wanted) + len(wanted_shows) <= (limit if limit is not None else float("inf"))
-    if limit is not None:
-        wanted = wanted[:limit]
-        wanted_shows = wanted_shows[:limit - len(wanted)]
+    if limit is not None:  # shows first: a dozen are on the site, while the albums left are rarely played
+        wanted_shows = wanted_shows[:limit]
+        wanted = wanted[:limit - len(wanted_shows)]
     session = api_session() if wanted or wanted_shows else None
 
     def save():
@@ -415,6 +423,11 @@ def import_history(limit=None, delay=0.2):
         write_atomic(ART, json.dumps(art, indent=2, ensure_ascii=False))
 
     try:
+        for name in wanted_shows:
+            episode = try_fetch(session, f"{API}/episodes/{latest_episode[name].split(':')[-1]}") or {}
+            show_uris[name] = (episode.get("show") or {}).get("uri") or False
+            remember_art(art, episode.get("show"))
+            time.sleep(delay)
         for n, uri in enumerate(wanted, 1):
             track = try_fetch(session, f"{API}/tracks/{uri.split(':')[-1]}")
             tracks[uri] = slim_track(track) if track else None
@@ -425,11 +438,6 @@ def import_history(limit=None, delay=0.2):
             if n % 100 == 0:
                 save()
                 print(f"Looked up {n} of {len(wanted)} tracks", flush=True)
-            time.sleep(delay)
-        for name in wanted_shows:
-            episode = try_fetch(session, f"{API}/episodes/{latest_episode[name].split(':')[-1]}") or {}
-            show_uris[name] = (episode.get("show") or {}).get("uri")
-            remember_art(art, episode.get("show"))
             time.sleep(delay)
     except RateLimited as e:
         finished = False
@@ -477,16 +485,21 @@ def open_url(uri):
     return "https://open.spotify.com/" + "/".join(uri.split(":")[1:]) if uri else None
 
 
-def build():
-    """Write docs/data/listening.js (a script, so docs/index.html also works opened as a file)."""
-    art = load_art()
+def load_plays():
+    """All music plays, oldest first: the export's history, then live plays after its last one."""
     def read_plays(path):
         return [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines()
                 if line.strip()] if path.exists() else []
 
     plays = read_plays(HISTORY)
     exported_to = plays[-1]["played_at"][:19] if plays else ""
-    plays += [p for p in read_plays(PLAYS) if p["played_at"][:19] > exported_to]
+    return plays + [p for p in read_plays(PLAYS) if p["played_at"][:19] > exported_to]
+
+
+def build():
+    """Write docs/data/listening.js (a script, so docs/index.html also works opened as a file)."""
+    art = load_art()
+    plays = load_plays()
     episodes = json.loads(EPISODES.read_text(encoding="utf-8")) if EPISODES.exists() else {}
     shows = json.loads(SHOWS.read_text(encoding="utf-8")) if SHOWS.exists() else {}
 
@@ -554,6 +567,465 @@ def build():
     print(f"Wrote {out.relative_to(ROOT)}: {len(plays)} plays, {len(artists)} artists, {len(albums)} albums.")
 
 
+def wrapped(years=None):
+    """Write docs/data/wrapped/<year>.js: a year in review for docs/wrapped.html?year=<year>.
+
+    Years are local calendar years (Wrapped itself stops around the end of October). Podcasts come
+    from the export only, since live sync sees episodes just when one happens to be playing."""
+    art = load_art()
+    shows_cache = json.loads(SHOWS.read_text(encoding="utf-8")) if SHOWS.exists() else {}
+    first_year = {}  # artist -> first year heard, for "discoveries"
+    by_year = {}
+    for p in load_plays():
+        p["local"] = datetime.fromisoformat(p["played_at"].replace("Z", "+00:00")).astimezone()
+        name = p["artists"][0] if p["artists"] else "Unknown"
+        first_year.setdefault(name, p["local"].year)
+        by_year.setdefault(p["local"].year, []).append(p)
+    episodes_by_year = {}
+    for f in sorted(EXPORT.glob("Streaming_History_Audio_*.json")):
+        for s in json.loads(f.read_text(encoding="utf-8")):
+            if s.get("spotify_episode_uri") and s.get("episode_show_name") and s["ms_played"] >= MIN_PLAY_MS:
+                local = datetime.fromisoformat(s["ts"].replace("Z", "+00:00")).astimezone()
+                episodes_by_year.setdefault(local.year, []).append(s)
+    years = years or sorted(by_year)
+    out_dir = ROOT / "docs" / "data" / "wrapped"
+
+    def ms(p):
+        return p.get("ms_played") or p.get("duration_ms") or 0
+
+    def minutes(n):
+        return round(n / 60_000)
+
+    def track_card(p, **extra):
+        a = art.get(p.get("album_uri"), {})
+        return {"name": p["name"], "artist": ", ".join(p["artists"]), "album": p.get("album"),
+                "image": a.get("image"), "image_large": a.get("image_large"), "year": a.get("year"),
+                "url": open_url(p["uri"]), **extra}
+
+    for year in years:
+        plays = by_year.get(year, [])
+        if not plays:
+            print(f"No plays in {year}.")
+            continue
+        artists, tracks, albums = {}, {}, {}
+        months, hours, weekdays = [0] * 12, [0] * 24, [0] * 7
+        days, day_track, decades = Counter(), Counter(), Counter()
+        for p in plays:
+            t, d = ms(p), p["local"]
+            name = p["artists"][0] if p["artists"] else "Unknown"
+            a = artists.setdefault(name, {"name": name, "ms": 0, "plays": 0, "albums": Counter(),
+                                          "first": p["played_at"], "url": None})
+            a["ms"] += t
+            a["plays"] += 1
+            a["albums"][p.get("album_uri")] += t
+            a["url"] = a["url"] or open_url((p.get("artist_uris") or [None])[0])
+            tr = tracks.setdefault(p["uri"], {"p": p, "ms": 0, "plays": 0, "first": p["played_at"]})
+            tr["ms"] += t
+            tr["plays"] += 1
+            if p.get("album_uri"):
+                al = albums.setdefault(p["album_uri"], {"p": p, "artist": name, "ms": 0, "plays": 0})
+                al["ms"] += t
+                al["plays"] += 1
+                if art.get(p["album_uri"], {}).get("year"):
+                    decades[art[p["album_uri"]]["year"] // 10 * 10] += t
+            months[d.month - 1] += t
+            hours[d.hour] += t
+            weekdays[d.weekday()] += t
+            days[d.date().isoformat()] += t
+            day_track[(d.date().isoformat(), p["uri"])] += 1
+
+        total = sum(ms(p) for p in plays)
+        ranked_artists = sorted(artists.values(), key=lambda a: -a["ms"])
+        for a in ranked_artists:  # an artist's picture is the cover of their most-played album
+            a["image"] = next((art[uri].get("image_large") for uri, _ in a.pop("albums").most_common()
+                               if art.get(uri, {}).get("image_large")), None)
+        top_tracks = sorted(tracks.values(), key=lambda t: (-t["plays"], -t["ms"]))[:10]
+        top_albums = sorted(albums.values(), key=lambda a: -a["ms"])[:10]
+        best_day, best_day_ms = days.most_common(1)[0]
+        best_day_plays = [p for p in plays if p["local"].date().isoformat() == best_day]
+        (repeat_day, repeat_uri), repeat_n = day_track.most_common(1)[0]
+
+        listened = sorted(days)
+        streak = best = 1
+        streak_end = listened[0]
+        for prev, cur in zip(listened, listened[1:]):
+            streak = streak + 1 if (datetime.fromisoformat(cur) - datetime.fromisoformat(prev)).days == 1 else 1
+            if streak > best:
+                best, streak_end = streak, cur
+
+        new_artists = [a for a in ranked_artists if first_year.get(a["name"]) == year]
+        prev = by_year.get(year - 1, [])
+        prev_top = Counter()
+        for p in prev:
+            prev_top[p["artists"][0] if p["artists"] else "Unknown"] += ms(p)
+
+        shows = {}
+        for s in episodes_by_year.get(year, []):
+            sh = shows.setdefault(s["episode_show_name"], {"name": s["episode_show_name"], "ms": 0, "episodes": set()})
+            sh["ms"] += s["ms_played"]
+            sh["episodes"].add(s["spotify_episode_uri"])
+        top_shows = sorted(shows.values(), key=lambda s: -s["ms"])[:5]
+
+        data = {
+            "year": year,
+            "generated": now_iso(),
+            "through": plays[-1]["played_at"],
+            "minutes": minutes(total),
+            "plays": len(plays),
+            "artists_count": len(artists),
+            "tracks_count": len(tracks),
+            "albums_count": len(albums),
+            "days_listened": len(days),
+            "longest_streak": {"days": best, "ended": streak_end},
+            "previous_minutes": minutes(sum(ms(p) for p in prev)) if prev else None,
+            "months": [minutes(m) for m in months],
+            "hours": [minutes(h) for h in hours],
+            "weekdays": [minutes(w) for w in weekdays],
+            "days": {day: minutes(n) for day, n in sorted(days.items())},
+            "top_artists": [{"name": a["name"], "minutes": minutes(a["ms"]), "plays": a["plays"],
+                             "share": round(a["ms"] / total * 100, 1), "first": a["first"],
+                             "image": a.get("image"), "url": a["url"],
+                             "last_year_rank": next((i + 1 for i, (n, _) in enumerate(prev_top.most_common())
+                                                     if n == a["name"]), None)}
+                            for a in ranked_artists[:10]],
+            "top_tracks": [track_card(t["p"], plays=t["plays"], minutes=minutes(t["ms"]), first=t["first"])
+                           for t in top_tracks],
+            "top_albums": [{**track_card(a["p"]), "name": a["p"].get("album"), "artist": a["artist"],
+                            "url": open_url(a["p"]["album_uri"]), "plays": a["plays"], "minutes": minutes(a["ms"])}
+                           for a in top_albums],
+            "best_day": {"date": best_day, "minutes": minutes(best_day_ms), "plays": len(best_day_plays),
+                         "artists": [n for n, _ in Counter(p["artists"][0] for p in best_day_plays
+                                                            if p["artists"]).most_common(3)]},
+            "on_repeat": {"date": repeat_day, "plays": repeat_n, **track_card(tracks[repeat_uri]["p"])},
+            "first_song": track_card(plays[0], played_at=plays[0]["played_at"]),
+            "decades": [{"decade": d, "minutes": minutes(n)} for d, n in sorted(decades.items())],
+            "discoveries": {"count": len(new_artists),
+                            "top": [{"name": a["name"], "minutes": minutes(a["ms"]), "image": a.get("image"),
+                                     "url": a["url"]} for a in new_artists[:5]]},
+            "podcasts": {"minutes": minutes(sum(s["ms"] for s in shows.values())),
+                         "shows_count": len(shows),
+                         "top": [{"name": s["name"], "minutes": minutes(s["ms"]), "episodes": len(s["episodes"]),
+                                  "image": art.get((shows_cache.get(s["name"]) or {}).get("uri"), {}).get("image"),
+                                  "url": open_url((shows_cache.get(s["name"]) or {}).get("uri"))}
+                                 for s in top_shows]},
+        }
+        out = out_dir / f"{year}.js"
+        write_atomic(out, f"(window.WRAPPED = window.WRAPPED || {{}})[{year}] = "
+                          + json.dumps(data, ensure_ascii=False) + ";\n")
+        print(f"Wrote {out.relative_to(ROOT)}: {len(plays)} plays, {minutes(total):,} minutes.")
+    available = sorted(int(f.stem) for f in out_dir.glob("*.js") if f.stem.isdigit())
+    write_atomic(out_dir / "index.js", f"window.WRAPPED_YEARS = {json.dumps(available)};\n")
+
+
+def read_log(since):
+    """Scheduled runs in data/sync.log since `since`, as (start time, lines) pairs."""
+    runs = []
+    if not SYNC_LOG.exists():
+        return runs
+    for line in SYNC_LOG.read_text(encoding="utf-8", errors="replace").splitlines():
+        if line.startswith("=== "):  # "=== Fri 10/30/2026 21:40:01.53", written by sync.bat
+            try:
+                started = datetime.strptime(line[4:].split(" ", 1)[1].strip(), "%m/%d/%Y %H:%M:%S.%f")
+            except (ValueError, IndexError):
+                started = None
+            runs.append((started, []))
+        elif runs:
+            runs[-1][1].append(line)
+    return [(t, lines) for t, lines in runs if t and t.astimezone() >= since]
+
+
+def report(force=False, dry_run=False):
+    """Email a daily summary: the last 24 hours of scheduled runs, listening, and import progress.
+
+    sync.bat calls this every run; it sends once a day, on the first run from REPORT_HOUR (default 8).
+    Needs SMTP_USER and SMTP_PASSWORD in .env (for Gmail, an app password); REPORT_TO defaults to SMTP_USER."""
+    now = datetime.now().astimezone()
+    today = now.date().isoformat()
+    sent = REPORT_SENT.read_text(encoding="utf-8").strip() if REPORT_SENT.exists() else ""
+    if not (force or dry_run) and (now.hour < int(os.environ.get("REPORT_HOUR", "8")) or sent == today):
+        return
+    user, password = os.environ.get("SMTP_USER"), os.environ.get("SMTP_PASSWORD")
+    if not dry_run and not (user and password):
+        if force:
+            sys.exit("SMTP_USER and SMTP_PASSWORD are missing from .env")
+        return
+    r = report_data(now)
+    text, html = report_text(r), report_html(r)
+
+    if dry_run:
+        preview = DATA / "report-preview.html"
+        write_atomic(preview, html)
+        print(f"Subject: {r['subject']}\n\n{text}\n\nHTML version: {preview}")
+        return
+    msg = EmailMessage()
+    msg["Subject"], msg["From"], msg["To"] = r["subject"], f"The Listening Booth <{user}>", os.environ.get("REPORT_TO") or user
+    msg.set_content(text)
+    msg.add_alternative(html, subtype="html")
+    with smtplib.SMTP(os.environ.get("SMTP_HOST") or "smtp.gmail.com", int(os.environ.get("SMTP_PORT") or 587),
+                      timeout=30) as smtp:
+        smtp.starttls()
+        smtp.login(user, password.replace(" ", ""))
+        smtp.send_message(msg)
+    REPORT_SENT.write_text(today + "\n", encoding="utf-8")
+    print(f"Sent the daily report to {msg['To']}.")
+
+
+def clean_title(name):
+    """'Black Dog - Remaster', 'Time Passages - 2004 Remastered Version' -> the song's name."""
+    name = re.sub(r"\s+-\s+(\d{4}\s+)?(digital\s+)?remaster(ed)?(\s+\d{4})?(\s+version)?$", "", name or "", flags=re.I)
+    return re.sub(r"\s+\((\d{4}\s+)?remaster(ed)?(\s+\d{4})?(\s+version)?\)$", "", name, flags=re.I)
+
+
+def report_data(now):
+    """Everything the daily report says, for report_text and report_html."""
+    since = now - timedelta(days=1)
+    art = load_art()
+    runs = read_log(since)
+    log = [line for _, lines in runs for line in lines]
+    all_plays = load_plays()
+    for p in all_plays:
+        p["local"] = datetime.fromisoformat(p["played_at"].replace("Z", "+00:00")).astimezone()
+    plays = [p for p in all_plays if p["local"] >= since]
+
+    def cover(p, size="image"):
+        return art.get(p.get("album_uri"), {}).get(size)
+
+    tracks = {}
+    for p in plays:
+        t = tracks.setdefault(p["uri"], {"name": clean_title(p["name"]), "artist": ", ".join(p["artists"]), "album": p.get("album"),
+                                         "year": art.get(p.get("album_uri"), {}).get("year"), "plays": 0,
+                                         "image": cover(p), "image_large": cover(p, "image_large"),
+                                         "url": open_url(p["uri"])})
+        t["plays"] += 1
+    artists = {}
+    for p in plays:
+        name = p["artists"][0] if p["artists"] else "Unknown"
+        a = artists.setdefault(name, {"name": name, "plays": 0, "image": cover(p),
+                                      "url": open_url((p.get("artist_uris") or [None])[0])})
+        a["plays"] += 1
+    episodes = json.loads(EPISODES.read_text(encoding="utf-8")) if EPISODES.exists() else {}
+    podcasts = sorted(({**e, "url": open_url(uri),
+                        "image": e.get("image") or art.get(e.get("show_uri"), {}).get("image"),
+                        "pct": min(100, round(e["progress_ms"] / e["duration_ms"] * 100)) if e.get("duration_ms") else None}
+                       for uri, e in episodes.items()
+                       if datetime.fromisoformat(e["last_seen"].replace("Z", "+00:00")) >= since),
+                      key=lambda e: e["last_seen"], reverse=True)
+
+    # On this date in earlier years: the most-played song of each of the last three years that has plays.
+    this_day = {}
+    for p in all_plays:
+        if (p["local"].month, p["local"].day) == (now.month, now.day) and p["local"].year < now.year:
+            this_day.setdefault(p["local"].year, []).append(p)
+    on_this_day = []
+    for year in sorted(this_day, reverse=True)[:3]:
+        day_plays = this_day[year]
+        uri, n = Counter(p["uri"] for p in day_plays).most_common(1)[0]
+        p = next(p for p in day_plays if p["uri"] == uri)
+        on_this_day.append({"year": year, "plays": len(day_plays), "top": clean_title(p["name"]), "artist": ", ".join(p["artists"]),
+                            "top_plays": n, "image": cover(p), "url": open_url(uri)})
+
+    problems = list(dict.fromkeys(line for line in log if re.search(r"Traceback|Error|error:|Warning", line)))
+    expected = 48
+    status = "bad" if any("Traceback" in l or "rror" in l for l in problems) else \
+             "warn" if problems or len(runs) < expected - 4 else "ok"
+
+    album_line = next((l for l in reversed(log) if "Album details" in l), "")
+    m = re.search(r"Album details for (\d+) of (\d+) albums \((\d+)% of plays\)", album_line)
+    shows = json.loads(SHOWS.read_text(encoding="utf-8")).values() if SHOWS.exists() else []
+    show_counts = Counter("pending" if s.get("uri") is None else "failed" if s["uri"] is False else "done" for s in shows)
+    imported = None if IMPORT_DONE.exists() else {
+        "albums": (int(m.group(1)), int(m.group(2)), int(m.group(3))) if m else None,
+        "shows": (show_counts["done"], show_counts["failed"], sum(show_counts.values())),
+        "rate_limited": any("rate limit" in l for l in log)}
+
+    top_tracks = sorted(tracks.values(), key=lambda t: -t["plays"])[:5]
+    minutes = round(sum(p.get("ms_played") or p.get("duration_ms") or 0 for p in plays) / 60_000)
+    if status == "bad":
+        subject = "The Listening Booth: the scheduled sync hit an error"
+    elif top_tracks:
+        subject = f"The Listening Booth: {len(plays)} plays · {top_tracks[0]['name']} on top"
+    else:
+        subject = "The Listening Booth: a quiet day"
+    if len(runs) < expected - 4:
+        subject += f" · only {len(runs)} of {expected} runs"
+    return {"now": now, "subject": subject, "status": status, "runs": len(runs), "expected": expected,
+            "last_run": runs[-1][0] if runs else None, "problems": problems[:12], "plays": len(plays),
+            "minutes": minutes, "artist_count": len(artists), "podcasts": podcasts[:6],
+            "top_tracks": top_tracks, "top_artists": sorted(artists.values(), key=lambda a: -a["plays"])[:5],
+            "on_this_day": on_this_day, "import": imported,
+            "totals": {"plays": len(all_plays), "since": all_plays[0]["local"].year if all_plays else None}}
+
+
+def report_text(r):
+    now = r["now"]
+    out = [f"The Listening Booth - daily report, {now:%A, %B} {now.day}, {now.year}", "",
+           {"ok": "All systems playing.", "warn": "Something needs a look.", "bad": "The scheduled sync hit an error."}[r["status"]],
+           f"Scheduled runs in the last 24 hours: {r['runs']} of {r['expected']}"
+           + (f", last at {r['last_run']:%I:%M %p}".replace(" 0", " ") if r["last_run"] else " - is the task still enabled?")]
+    if r["problems"]:
+        out += ["", "From the log:"] + [f"  {l}" for l in r["problems"]]
+    out += ["", f"Last 24 hours: {r['plays']} plays, {r['minutes']} minutes, {r['artist_count']} artists"]
+    if r["top_tracks"]:
+        out += ["", "Top songs:"] + [f"  {i}. {t['name']} - {t['artist']} ({t['plays']}x)" for i, t in enumerate(r["top_tracks"], 1)]
+        out += ["", "Top artists:"] + [f"  {i}. {a['name']} ({a['plays']})" for i, a in enumerate(r["top_artists"], 1)]
+    if r["podcasts"]:
+        out += ["", "Podcasts:"] + [f"  {e['show']}: {e['name']}" + (f" ({e['pct']}%)" if e["pct"] is not None else "")
+                                    for e in r["podcasts"]]
+    if r["on_this_day"]:
+        out += ["", f"On {now:%B} {now.day} in other years:"] + [
+            f"  {d['year']}: {d['plays']} plays, top song {d['top']} - {d['artist']}" for d in r["on_this_day"]]
+    if r["import"]:
+        i = r["import"]
+        out += ["", "Streaming-history import:"]
+        if i["albums"]:
+            out.append(f"  Albums: {i['albums'][0]} of {i['albums'][1]} looked up ({i['albums'][2]}% of plays covered)")
+        out.append(f"  Podcast shows: {i['shows'][0]} of {i['shows'][2]} looked up, {i['shows'][1]} not on Spotify")
+        if i["rate_limited"]:
+            out.append("  Spotify's daily lookup quota ran out at least once (expected; it resumes on its own).")
+    out += ["", "Full log: data/sync.log"]
+    return "\n".join(out)
+
+
+# Email-safe styling, after GoneWalking's report: tables for layout, inline styles, a fixed light scheme.
+INK, MUTED, LINE, PAGE, NIGHT, GREEN = "#1d1b22", "#6b6775", "#e4e1ea", "#efedf3", "#17141f", "#1a7f4b"
+FONT = "font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif;"
+STATUS = {"ok": ("#1a7f37", "#dafbe1", "All systems playing"),
+          "warn": ("#9a6700", "#fff8c5", "Something needs a look"),
+          "bad": ("#cf222e", "#ffebe9", "The scheduled sync hit an error")}
+
+
+def report_html(r):
+    from html import escape as h
+    now = r["now"]
+
+    def section(title, inner):
+        return (f'<tr><td class="px" style="padding:26px 28px 0;"><div style="{FONT}font-size:12px;font-weight:700;'
+                f'color:{MUTED};text-transform:uppercase;letter-spacing:.08em;margin:0 0 12px;">{h(title)}</div>{inner}</td></tr>')
+
+    def thumb(src, size=44):
+        if not src:
+            return (f'<div style="width:{size}px;height:{size}px;border-radius:4px;background:{LINE};'
+                    f'text-align:center;line-height:{size}px;color:{MUTED};font-size:18px;">&#9835;</div>')
+        return (f'<img src="{h(src)}" width="{size}" height="{size}" alt="" '
+                f'style="display:block;width:{size}px;height:{size}px;border-radius:4px;border:0;">')
+
+    def link(url, text, color=INK):
+        return f'<a href="{h(url)}" style="color:{color};text-decoration:none;">{h(text)}</a>' if url else h(text)
+
+    def rows(items):
+        """A list of (picture, title, subtitle, value) rows."""
+        return (f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0">'
+                + "".join(f'<tr><td width="56" style="padding:6px 0;border-bottom:1px solid {LINE};">{pic}</td>'
+                          f'<td style="padding:6px 8px;border-bottom:1px solid {LINE};{FONT}">'
+                          f'<div style="font-size:15px;font-weight:600;color:{INK};line-height:1.3;">{title}</div>'
+                          f'<div style="font-size:13px;color:{MUTED};line-height:1.35;">{sub}</div></td>'
+                          f'<td align="right" style="padding:6px 0;border-bottom:1px solid {LINE};{FONT}font-size:13px;'
+                          f'color:{MUTED};white-space:nowrap;">{value}</td></tr>' for pic, title, sub, value in items)
+                + "</table>")
+
+    def bar(done, total, label):
+        pct = 0 if not total else max(0, min(100, round(done / total * 100)))
+        return (f'<div style="{FONT}font-size:14px;color:{INK};margin:0 0 6px;">{label}</div>'
+                f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin:0 0 14px;">'
+                f'<tr><td width="{pct}%" style="background:{GREEN};height:8px;border-radius:4px 0 0 4px;font-size:0;'
+                f'line-height:0;">&nbsp;</td><td style="background:{LINE};height:8px;font-size:0;line-height:0;'
+                f'border-radius:0 4px 4px 0;">&nbsp;</td></tr></table>')
+
+    color, tint, headline = STATUS[r["status"]]
+    runs = (f'{r["runs"]} of {r["expected"]} scheduled runs in the last day'
+            + (f' · last at {r["last_run"]:%I:%M %p}'.replace(" 0", " ") if r["last_run"] else " · is the task still enabled?"))
+    body = [
+        # Header: a dark "stage" band with the title and date.
+        f'<tr><td class="px" style="background:{NIGHT};padding:26px 28px;border-radius:12px 12px 0 0;{FONT}">'
+        f'<div style="font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:#a9a3b8;">&#9679;&nbsp; Daily report</div>'
+        f'<div style="font-size:26px;font-weight:800;color:#ffffff;margin-top:6px;letter-spacing:-.01em;">The Listening Booth</div>'
+        f'<div style="font-size:13px;color:#a9a3b8;margin-top:4px;">{now:%A, %B} {now.day}, {now.year}</div></td></tr>',
+        f'<tr><td class="px" style="padding:20px 28px 0;"><div style="{FONT}background:{tint};border-left:4px solid {color};'
+        f'border-radius:6px;padding:12px 16px;"><div style="font-size:16px;font-weight:700;color:{color};">{h(headline)}</div>'
+        f'<div style="font-size:14px;color:{INK};margin-top:2px;">{h(runs)}</div></div></td></tr>']
+    if r["problems"]:
+        body.append(section("From the log", f'<div style="background:{NIGHT};border-radius:8px;padding:12px 16px;'
+                            f'font-family:Consolas,Menlo,monospace;font-size:12px;line-height:1.6;color:#e6e3ee;'
+                            f'white-space:pre-wrap;word-break:break-word;">' + "<br>".join(h(l) for l in r["problems"]) + "</div>"))
+
+    tiles = [("Plays", f'{r["plays"]:,}'), ("Minutes", f'{r["minutes"]:,}'), ("Artists", f'{r["artist_count"]:,}'),
+             ("Podcasts", f'{len(r["podcasts"]):,}')]
+    body.append(section("The last 24 hours",
+        f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border:1px solid {LINE};'
+        f'border-radius:10px;border-collapse:separate;"><tr>'
+        + "".join(f'<td class="tile" width="25%" style="padding:12px 4px;text-align:center;{FONT}'
+                  f'{"border-left:1px solid " + LINE + ";" if i else ""}"><div style="font-size:12px;color:{MUTED};">{k}</div>'
+                  f'<div class="tile-value" style="font-size:22px;font-weight:800;color:{INK};margin-top:2px;">{v}</div></td>'
+                  for i, (k, v) in enumerate(tiles))
+        + "</tr></table>"))
+
+    if r["top_tracks"]:
+        t = r["top_tracks"][0]
+        art = (f'<a href="{h(t["url"])}"><img src="{h(t["image_large"])}" width="542" alt="{h(t["album"] or t["name"])} cover" '
+               f'style="display:block;width:100%;max-width:542px;height:auto;border:0;border-radius:10px 10px 0 0;"></a>'
+               if t["image_large"] else "")
+        meta = " · ".join(x for x in (t["album"], str(t["year"]) if t["year"] else "") if x)
+        body.append(section("Song of the day",
+            f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border:1px solid {LINE};'
+            f'border-radius:10px;border-collapse:separate;"><tr><td>{art}</td></tr>'
+            f'<tr><td style="background:{NIGHT};padding:16px 18px;border-radius:{"0 0" if art else "10px 10px"} 10px 10px;{FONT}">'
+            f'<div style="font-size:12px;color:#c4f04a;font-weight:700;letter-spacing:.08em;text-transform:uppercase;">'
+            f'Played {t["plays"]}&times;</div>'
+            f'<div style="font-size:20px;font-weight:800;color:#ffffff;margin-top:4px;line-height:1.25;">{h(t["name"])}</div>'
+            f'<div style="font-size:14px;color:#d6d2df;margin-top:3px;">{h(t["artist"])}</div>'
+            + (f'<div style="font-size:13px;color:#a9a3b8;margin-top:2px;">{h(meta)}</div>' if meta else "")
+            + f'<div style="margin-top:14px;"><a href="{h(t["url"])}" style="{FONT}background:{GREEN};color:#ffffff;'
+              f'display:inline-block;padding:9px 16px;border-radius:999px;font-size:14px;font-weight:700;'
+              f'text-decoration:none;">&#9654;&nbsp; Play on Spotify</a></div></td></tr></table>'))
+        if len(r["top_tracks"]) > 1:
+            body.append(section("Also on repeat", rows(
+                (thumb(t["image"]), link(t["url"], t["name"]), h(t["artist"]), f'{t["plays"]}&times;')
+                for t in r["top_tracks"][1:])))
+        body.append(section("Top artists", rows(
+            (thumb(a["image"]), link(a["url"], a["name"]), "", f'{a["plays"]} play{"s" if a["plays"] != 1 else ""}')
+            for a in r["top_artists"])))
+    if r["podcasts"]:
+        body.append(section("Podcasts", rows(
+            (thumb(e["image"]), link(e["url"], e["name"]), h(e["show"]), f'{e["pct"]}%' if e["pct"] is not None else "")
+            for e in r["podcasts"])))
+    if r["on_this_day"]:
+        body.append(section(f"On {now:%B} {now.day} in other years", rows(
+            (thumb(d["image"]), f'{d["year"]} · ' + link(d["url"], d["top"]), h(d["artist"]),
+             f'{d["plays"]} play{"s" if d["plays"] != 1 else ""} that day') for d in r["on_this_day"])))
+    if r["import"]:
+        i = r["import"]
+        inner = ""
+        if i["albums"]:
+            inner += bar(i["albums"][0], i["albums"][1],
+                         f'Albums: <b>{i["albums"][0]:,}</b> of {i["albums"][1]:,} looked up '
+                         f'<span style="color:{MUTED};">({i["albums"][2]}% of plays covered)</span>')
+        inner += bar(i["shows"][0] + i["shows"][1], i["shows"][2],
+                     f'Podcast shows: <b>{i["shows"][0]}</b> of {i["shows"][2]} looked up'
+                     + (f' <span style="color:{MUTED};">({i["shows"][1]} not on Spotify)</span>' if i["shows"][1] else ""))
+        if i["rate_limited"]:
+            inner += (f'<div style="{FONT}font-size:13px;color:{MUTED};">Spotify\'s daily lookup quota ran out at least '
+                      f'once. That\'s expected; lookups resume on their own.</div>')
+        body.append(section("Streaming-history import", inner))
+    since = f' since {r["totals"]["since"]}' if r["totals"]["since"] else ""
+    body.append(f'<tr><td class="px" style="padding:28px 28px 24px;{FONT}font-size:12px;color:{MUTED};line-height:1.5;">'
+                f'{r["totals"]["plays"]:,} plays on record{since}. Full log: data/sync.log<br>'
+                f'Sent by musicdashboard.py report · artwork and links from Spotify</td></tr>')
+
+    preheader = (f'{r["plays"]} plays · {r["top_tracks"][0]["name"]} by {r["top_tracks"][0]["artist"]} on top'
+                 if r["top_tracks"] else "A quiet day")
+    phone = ("@media (max-width:520px){.outer{padding:12px 6px!important}.px{padding-left:16px!important;"
+             "padding-right:16px!important}.tile{padding:10px 2px!important}.tile-value{font-size:17px!important}}")
+    return (f'<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width">'
+            f'<meta name="color-scheme" content="light"><meta name="supported-color-schemes" content="light">'
+            f'<style>{phone}</style></head><body style="margin:0;padding:0;background:{PAGE};">'
+            f'<div style="display:none;max-height:0;overflow:hidden;">{h(preheader)}</div>'
+            f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:{PAGE};">'
+            f'<tr><td class="outer" align="center" style="padding:24px 12px;">'
+            f'<table role="presentation" width="600" cellpadding="0" cellspacing="0" style="width:100%;max-width:600px;'
+            f'background:#ffffff;border:1px solid {LINE};border-radius:12px;border-collapse:separate;">'
+            + "".join(body) + "</table></td></tr></table></body></html>")
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     sub = parser.add_subparsers(dest="command", required=True)
@@ -563,11 +1035,20 @@ def main():
     imp = sub.add_parser("import", help="read the privacy data export in data/export/ into the listening history")
     imp.add_argument("--limit", type=int, help="look up at most this many tracks/shows this run")
     sub.add_parser("build", help="write the site's data file, docs/data/listening.js")
+    wrap = sub.add_parser("wrapped", help="write a year in review for docs/wrapped.html (default: every year)")
+    wrap.add_argument("years", nargs="*", type=int)
+    rep = sub.add_parser("report", help="email the daily summary (sync.bat runs this; sends once a day)")
+    rep.add_argument("--force", action="store_true", help="send now, even if today's report went out")
+    rep.add_argument("--dry-run", action="store_true", help="print the report instead of sending it")
     args = parser.parse_args()
     load_env()
     try:
         if args.command == "import":
             import_history(args.limit)
+        elif args.command == "wrapped":
+            wrapped(args.years)
+        elif args.command == "report":
+            report(args.force, args.dry_run)
         else:
             {"auth": auth, "sync": sync, "art": fill_art, "build": build}[args.command]()
     except RateLimited as e:

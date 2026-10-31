@@ -1,0 +1,1 @@
+window.WRAPPED_YEARS = [2024];
