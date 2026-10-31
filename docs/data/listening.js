@@ -1,11 +1,11 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-10-31T10:40:13Z",
+ "generated": "2026-10-31T11:10:14Z",
  "totals": {
   "plays": 124528,
   "hours": 8465.0,
-  "artists": 701,
-  "albums": 1238,
+  "artists": 700,
+  "albums": 1258,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
@@ -804,7 +804,7 @@ window.LISTENING = {
   },
   {
    "decade": 1960,
-   "plays": 7029,
+   "plays": 7030,
    "covers": [
     {
      "name": "Your Time Is Gonna Come - 1990 Remaster",
@@ -898,7 +898,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28518,
+   "plays": 28520,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1086,7 +1086,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9644,
+   "plays": 9645,
    "covers": [
     {
      "name": "Amazing",
@@ -1180,7 +1180,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 11925,
+   "plays": 11928,
    "covers": [
     {
      "name": "Material Girl",
@@ -1274,7 +1274,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15687,
+   "plays": 15688,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1368,7 +1368,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18416,
+   "plays": 18428,
    "covers": [
     {
      "name": "ERROR",
