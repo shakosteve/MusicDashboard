@@ -1,14 +1,91 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-10-31T17:10:08Z",
+ "generated": "2026-10-31T17:40:07Z",
  "totals": {
-  "plays": 124571,
-  "hours": 8467.9,
+  "plays": 124578,
+  "hours": 8468.4,
   "artists": 701,
   "albums": 1318,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "S!CK - Live from Auditorio Nacional, CDMX",
+   "artist": "The Warning",
+   "album": "Live from Auditorio Nacional, CDMX",
+   "year": 2025,
+   "image": "https://i.scdn.co/image/ab67616d00001e025cda6d880ec3968aa6b6ac2f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
+   "url": "https://open.spotify.com/track/10zZP6IvvcFJvFbcCQnGhP",
+   "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
+   "played_at": "2026-10-31T17:36:34.954Z"
+  },
+  {
+   "name": "Hallelujah - Bonus Track",
+   "artist": "HAIM",
+   "album": "Women In Music Pt. III",
+   "year": 2021,
+   "image": "https://i.scdn.co/image/ab67616d00001e02e8be33a5e8efee9be2afffc3",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273e8be33a5e8efee9be2afffc3",
+   "url": "https://open.spotify.com/track/3ag4ODA4AwOhHG5pGcX0Lk",
+   "album_url": "https://open.spotify.com/album/396EJBtUzseofX2YCBJVvM",
+   "played_at": "2026-10-31T17:32:48.075Z"
+  },
+  {
+   "name": "Survive",
+   "artist": "The Warning",
+   "album": "XXI Century Blood",
+   "year": 2017,
+   "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
+   "url": "https://open.spotify.com/track/1eJbsnmix2Y3k3ymp6R5Rs",
+   "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
+   "played_at": "2026-10-31T17:29:36.677Z"
+  },
+  {
+   "name": "Hell You Call A Dream - Live from Auditorio Nacional, CDMX",
+   "artist": "The Warning",
+   "album": "Live from Auditorio Nacional, CDMX",
+   "year": 2025,
+   "image": "https://i.scdn.co/image/ab67616d00001e025cda6d880ec3968aa6b6ac2f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
+   "url": "https://open.spotify.com/track/07koXm5HsK6Dm2afr7JvKX",
+   "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
+   "played_at": "2026-10-31T17:24:27.857Z"
+  },
+  {
+   "name": "My Kinda Lover - Remastered 2010",
+   "artist": "Billy Squier",
+   "album": "Don't Say No (Remastered 2010)",
+   "year": 1981,
+   "image": "https://i.scdn.co/image/ab67616d00001e02f4822f8034e697410a14a297",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273f4822f8034e697410a14a297",
+   "url": "https://open.spotify.com/track/6g14FUj5zU9FDRwBi963vS",
+   "album_url": "https://open.spotify.com/album/6TwlLNU5Zd9qGuNgSLeWPt",
+   "played_at": "2026-10-31T17:21:24.172Z"
+  },
+  {
+   "name": "Cool Change - Remastered 2022",
+   "artist": "Little River Band",
+   "album": "First Under The Wire (Remastered 2022)",
+   "year": 1979,
+   "image": "https://i.scdn.co/image/ab67616d00001e02d45ea4a21fa17a4e3bf9b378",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273d45ea4a21fa17a4e3bf9b378",
+   "url": "https://open.spotify.com/track/2SEGYVnWImKLUOkU3Qa8sX",
+   "album_url": "https://open.spotify.com/album/1pPsslUdE1HeBxdlgXJ7Yp",
+   "played_at": "2026-10-31T17:17:50.163Z"
+  },
+  {
+   "name": "Dany’s Guitar Solo - Live from Auditorio Nacional, CDMX",
+   "artist": "The Warning",
+   "album": "Live from Auditorio Nacional, CDMX",
+   "year": 2025,
+   "image": "https://i.scdn.co/image/ab67616d00001e025cda6d880ec3968aa6b6ac2f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
+   "url": "https://open.spotify.com/track/7buuAwgtMcwqZTUYSqGNDK",
+   "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
+   "played_at": "2026-10-31T17:12:33.498Z"
+  },
   {
    "name": "Cult of Personality (2023 Remaster)",
    "artist": "Living Colour",
@@ -459,89 +536,12 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/2xiOdusRnZezQok1RgLNeS",
    "album_url": "https://open.spotify.com/album/4V8z8vZUCyYUBlUI9CfSbY",
    "played_at": "2026-10-31T13:33:26.625Z"
-  },
-  {
-   "name": "Pull Me Down",
-   "artist": "Saving Escape",
-   "album": "Old Soul",
-   "year": 2019,
-   "image": "https://i.scdn.co/image/ab67616d00001e02a8e9a07f9110e842adaa5c13",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273a8e9a07f9110e842adaa5c13",
-   "url": "https://open.spotify.com/track/2dxCVBmv3qqNXiUp6QzD8k",
-   "album_url": "https://open.spotify.com/album/7MTe3RHk7fkzS75PNoWfRN",
-   "played_at": "2026-10-31T13:29:09.744Z"
-  },
-  {
-   "name": "Push",
-   "artist": "Matchbox Twenty",
-   "album": "Yourself or Someone Like You",
-   "year": 1996,
-   "image": "https://i.scdn.co/image/ab67616d00001e0211585490475c991f8c83bca7",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27311585490475c991f8c83bca7",
-   "url": "https://open.spotify.com/track/2KVwlelhxKUy8LVV6JypH3",
-   "album_url": "https://open.spotify.com/album/4vUXTcKz7tXxrNl84meN6i",
-   "played_at": "2026-10-31T01:11:16.280Z"
-  },
-  {
-   "name": "Broken",
-   "artist": "Seether, Amy Lee",
-   "album": "Disclaimer II",
-   "year": 2004,
-   "image": "https://i.scdn.co/image/ab67616d00001e022b08b69dddd1cb3976a9fa40",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2732b08b69dddd1cb3976a9fa40",
-   "url": "https://open.spotify.com/track/507bYMYfbm6sUS9iEAaeSd",
-   "album_url": "https://open.spotify.com/album/1mMgrxFYBUMKANGbapmXxi",
-   "played_at": "2026-10-31T00:27:13.111Z"
-  },
-  {
-   "name": "Rise Above This",
-   "artist": "Seether",
-   "album": "Finding Beauty In Negative Spaces (Bonus Track Version)",
-   "year": 2007,
-   "image": "https://i.scdn.co/image/ab67616d00001e02c418220159462cdd7cfeb9a1",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273c418220159462cdd7cfeb9a1",
-   "url": "https://open.spotify.com/track/4dZ4iHhsqQAQ4em4abLB6C",
-   "album_url": "https://open.spotify.com/album/59Tni3gA1OczshFWTMxmbo",
-   "played_at": "2026-10-31T00:11:02.870Z"
-  },
-  {
-   "name": "Leaky Little Boat",
-   "artist": "Roger Clyne & The Peacemakers",
-   "album": "Americano",
-   "year": 2004,
-   "image": "https://i.scdn.co/image/ab67616d00001e022b6b176f0dcb55badc2c9458",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2732b6b176f0dcb55badc2c9458",
-   "url": "https://open.spotify.com/track/1aStydRWaPMzwjxi5GAnkO",
-   "album_url": "https://open.spotify.com/album/1jbnwCuyLW2PHExqaZpGRJ",
-   "played_at": "2026-10-31T00:07:38.590Z"
-  },
-  {
-   "name": "Let Me Take You Home Tonight",
-   "artist": "Boston",
-   "album": "Boston",
-   "year": 1976,
-   "image": "https://i.scdn.co/image/ab67616d00001e028c1fadcc997a65384f34d694",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2738c1fadcc997a65384f34d694",
-   "url": "https://open.spotify.com/track/6485cn8SoHq6qPdmeQcw4x",
-   "album_url": "https://open.spotify.com/album/2QLp07RO6anZHmtcKTEvSC",
-   "played_at": "2026-10-31T00:03:06.099Z"
-  },
-  {
-   "name": "Tales Of Brave Ulysses",
-   "artist": "Sons of Cream",
-   "album": "Strange Vibrations & Tales of Brave Ulysses",
-   "year": 2026,
-   "image": "https://i.scdn.co/image/ab67616d00001e02f2abe64bb9cfc94e7ed0989b",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273f2abe64bb9cfc94e7ed0989b",
-   "url": "https://open.spotify.com/track/544EOF0LUY7LYaj37p3SyF",
-   "album_url": "https://open.spotify.com/album/62E9D9mnHBQ2ttOqKDfCjQ",
-   "played_at": "2026-10-30T23:48:25.356Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10642,
+   "plays": 10646,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
@@ -610,7 +610,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
    "url": "https://open.spotify.com/track/1VcLiPmina1L3xlLkJ5OTS",
    "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
-   "plays": 3481
+   "plays": 3482
   },
   {
    "name": "Dust to Dust",
@@ -723,14 +723,14 @@ window.LISTENING = {
    "plays": 907
   },
   {
-   "name": "Folsom Prison Blues",
-   "artist": "Joaquin Phoenix",
-   "album": "Walk The Line (Original Motion Picture Soundtrack)",
-   "year": 2005,
-   "image": "https://i.scdn.co/image/ab67616d00001e020ff166bfd4a462cc7f4068a6",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2730ff166bfd4a462cc7f4068a6",
-   "url": "https://open.spotify.com/track/7bh6o0jqTn2Bh0M7vHln6f",
-   "album_url": "https://open.spotify.com/album/6ICcWbsZxt5fVG02IbZuZg",
+   "name": "My Kinda Lover - Remastered 2010",
+   "artist": "Billy Squier",
+   "album": "Don't Say No (Remastered 2010)",
+   "year": 1981,
+   "image": "https://i.scdn.co/image/ab67616d00001e02f4822f8034e697410a14a297",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273f4822f8034e697410a14a297",
+   "url": "https://open.spotify.com/track/6g14FUj5zU9FDRwBi963vS",
+   "album_url": "https://open.spotify.com/album/6TwlLNU5Zd9qGuNgSLeWPt",
    "plays": 880
   }
  ],
@@ -915,7 +915,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28529,
+   "plays": 28530,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1009,7 +1009,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32770,
+   "plays": 32771,
    "covers": [
     {
      "name": "Back In Black",
@@ -1042,7 +1042,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273f4822f8034e697410a14a297",
      "url": "https://open.spotify.com/track/6g14FUj5zU9FDRwBi963vS",
      "album_url": "https://open.spotify.com/album/6TwlLNU5Zd9qGuNgSLeWPt",
-     "plays": 879
+     "plays": 880
     },
     {
      "name": "Manic Monday",
@@ -1291,7 +1291,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15707,
+   "plays": 15708,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
      "url": "https://open.spotify.com/track/1VcLiPmina1L3xlLkJ5OTS",
      "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
-     "plays": 3481
+     "plays": 3482
     },
     {
      "name": "Dust to Dust",
@@ -1385,7 +1385,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18462,
+   "plays": 18466,
    "covers": [
     {
      "name": "ERROR",
@@ -1440,7 +1440,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
      "url": "https://open.spotify.com/track/3zgbw0cxkS1DQ36O5hGydt",
      "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
-     "plays": 468
+     "plays": 471
     },
     {
      "name": "The Barbarians",
