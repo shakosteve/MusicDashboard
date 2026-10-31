@@ -941,6 +941,79 @@ def site_url():
     return f"https://{m.group(1).lower()}.github.io/{m.group(2)}/" if m else None
 
 
+def share_card():
+    """Draw docs/images/share.png, the 1200x630 picture social media shows for a link to the site, from the
+    totals in docs/data/listening.js, by screenshotting a card page with headless Microsoft Edge. No album art:
+    Spotify's artwork has to link back to Spotify, and a preview picture can't. Run again when the totals drift."""
+    text = (ROOT / "docs" / "data" / "listening.js").read_text(encoding="utf-8")
+    site = json.loads(text[text.index("{"):text.rindex("}") + 1])
+    t = site["totals"]
+    top = site["top_artists"][0]["name"] if site.get("top_artists") else ""
+    since = t["first"][:4] if t.get("first") else ""
+    from html import escape as h
+    page = f"""<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Caveat:wght@700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<style>
+  * {{ box-sizing: border-box; margin: 0; }}
+  html, body {{ width: 1200px; height: 630px; overflow: hidden; background: #0c0b0a; }}
+  .plate {{ position: absolute; inset: 22px; border-radius: 26px; padding: 32px 40px 34px; display: flex; flex-direction: column; justify-content: space-between;
+    background: linear-gradient(180deg, #2e2b27 0%, #1b1917 40%, #121110 100%); border: 2px solid #000;
+    box-shadow: inset 0 2px 0 rgba(255,255,255,.1), inset 0 -2px 0 rgba(0,0,0,.6); }}
+  .plate::before {{ content: ""; position: absolute; inset: 10px; border-radius: 18px; border: 1px solid rgba(255,255,255,.07); }}
+  .top {{ display: flex; justify-content: space-between; align-items: baseline; }}
+  .model {{ font: 700 64px/1 "Barlow Condensed", sans-serif; letter-spacing: .1em; text-transform: uppercase;
+    background: linear-gradient(180deg, #f6f4f0 0%, #aaa59d 48%, #e6e3dd 56%, #8b857d 100%); -webkit-background-clip: text; color: transparent; }}
+  .spec {{ font: 600 18px/1 "Barlow Condensed", sans-serif; letter-spacing: .24em; color: #9c9389; text-transform: uppercase; }}
+  .row {{ display: grid; grid-template-columns: 1fr 300px; gap: 30px; }}
+  .presets {{ display: grid; grid-template-columns: repeat(6, 1fr); gap: 12px; }}
+  .presets span {{ display: flex; justify-content: center; align-items: center; gap: 10px; padding: 13px 6px; border-radius: 8px;
+    background: linear-gradient(180deg, #34302c, #1d1b18); border: 1px solid #0a0908; box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 3px 0 #0a0908;
+    font: 600 19px/1 "Barlow Condensed", sans-serif; letter-spacing: .14em; text-transform: uppercase; color: #ece6dc; }}
+  .presets b {{ font: 400 17px/1 "Share Tech Mono", monospace; color: #ffb23e; }}
+  .vfd {{ border-radius: 12px; padding: 22px 28px; background: linear-gradient(180deg, rgba(255,255,255,.05), transparent 40%), #120d07;
+    box-shadow: inset 0 3px 14px rgba(0,0,0,.9); font-family: "Share Tech Mono", monospace; color: #ffb23e; text-shadow: 0 0 10px rgba(255,178,62,.55); }}
+  .flags {{ display: flex; gap: 20px; font-size: 18px; letter-spacing: .08em; }} .flags .off {{ color: #3a3022; text-shadow: none; }}
+  .big {{ font-size: 54px; line-height: 1.05; margin-top: 14px; white-space: nowrap; }}
+  .sub {{ font-size: 26px; margin-top: 8px; opacity: .9; text-transform: uppercase; }}
+  .tape {{ align-self: center; border-radius: 12px 12px 18px 18px; padding: 16px 16px 22px; background: linear-gradient(180deg, #3b3732, #1d1b18); border: 2px solid #000;
+    box-shadow: 0 10px 24px rgba(0,0,0,.6), inset 0 1px 0 rgba(255,255,255,.08); }}
+  .label {{ border-radius: 6px; padding: 10px 14px 12px; background: #efe7d4; box-shadow: inset 0 10px 0 #e9b43a, inset 0 20px 0 #e8742c, inset 0 30px 0 #c8372d; padding-top: 38px; }}
+  .hand {{ font: 700 36px/1 Caveat, cursive; color: #1f1b17; }}
+  .win {{ display: flex; justify-content: space-between; align-items: center; height: 46px; margin: 12px 18px 0; padding: 0 16px; border-radius: 23px; background: #0e0c0a; }}
+  .reel {{ width: 32px; height: 32px; border-radius: 50%; background: radial-gradient(circle, #0e0c0a 0 22%, transparent 23%), repeating-conic-gradient(#d8d2c6 0 18deg, #6b655d 18deg 60deg); }}
+  .odo {{ display: flex; justify-content: space-between; padding: 18px 26px; border-radius: 14px; background: #0a0908; box-shadow: inset 0 3px 10px rgba(0,0,0,.9); }}
+  .m {{ display: grid; gap: 8px; }} .m span {{ font: 600 15px/1 "Barlow Condensed", sans-serif; letter-spacing: .24em; color: #9c9389; text-transform: uppercase; }}
+  .drums {{ display: flex; gap: 3px; font: 38px/1 "Share Tech Mono", monospace; }}
+  .drums i {{ font-style: normal; width: 30px; height: 48px; display: grid; place-items: center; border-radius: 3px; color: #f3efe7;
+    background: linear-gradient(180deg, #000 0%, #262320 30%, #2f2b27 50%, #262320 70%, #000 100%); }} .drums i.lead {{ color: #5d5650; }}
+</style></head><body><div class="plate">
+  <div class="top"><span class="model">{h(site["title"])}</span><span class="spec">Auto reverse · Stereo · Since {since}</span></div>
+  <div class="row">
+    <div class="vfd"><div class="flags"><span>ST</span><span>▶ A</span><span class="off">NR</span></div>
+      <div class="big">EVERY PLAY SINCE {since}</div>
+      <div class="sub">Top artist · {h(top)}</div></div>
+    <div class="tape"><div class="label"><div class="hand">My Favs · Side A</div></div><div class="win"><span class="reel"></span><span class="reel"></span></div></div>
+  </div>
+  <div class="odo">{"".join(
+        f'<div class="m"><span>{k}</span><div class="drums">'
+        + "".join(f'<i{" class=lead" if i < 6 - len(str(round(v))) else ""}>{d}</i>' for i, d in enumerate(str(round(v)).zfill(6)))
+        + "</div></div>" for k, v in [("Plays", t["plays"]), ("Hours", t["hours"]), ("Artists", t["artists"]), ("Albums", t["albums"])])}</div>
+  <div class="presets">{"".join(f"<span><b>{i}</b>{k}</span>" for i, k in enumerate(
+        ["Recent", "Artists", "Albums", "Seconds", "Decades", "Year"], 1))}</div>
+</div></body></html>"""
+    card = DATA / "share-card.html"
+    write_atomic(card, page)
+    out = ROOT / "docs" / "images" / "share.png"
+    out.parent.mkdir(parents=True, exist_ok=True)
+    edge = next((p for p in [Path(os.environ.get("ProgramFiles(x86)", "")) / "Microsoft/Edge/Application/msedge.exe",
+                             Path(os.environ.get("ProgramFiles", "")) / "Microsoft/Edge/Application/msedge.exe"] if p.exists()), None)
+    if not edge:
+        sys.exit("Microsoft Edge wasn't found; it draws the share card.")
+    subprocess.run([str(edge), "--headless", "--disable-gpu", "--hide-scrollbars", "--window-size=1200,630",
+                    "--virtual-time-budget=5000", f"--screenshot={out}", card.as_uri()], capture_output=True, timeout=120)
+    print(f"Wrote {out.relative_to(ROOT)} ({out.stat().st_size // 1024} KB)." if out.exists() else "The share card wasn't drawn.")
+
+
 def publish():
     """Commit and push docs/data/ for GitHub Pages when it really changed (not just the build timestamp).
 
@@ -1300,6 +1373,7 @@ def main():
                                           "(default: every year, with the sparse early years as one span)")
     wrap.add_argument("years", nargs="*", metavar="YEAR or YEAR-YEAR",
                       type=lambda s: s if re.fullmatch(r"\d{4}(-\d{4})?", s) else sys.exit(f"Not a year or span: {s}"))
+    sub.add_parser("sharecard", help="draw docs/images/share.png, the site's social media preview picture")
     pl = sub.add_parser("playlist", help="save one of your playlists, by name, to data/playlists/")
     pl.add_argument("name", help='the playlist\'s name, e.g. "My Favs"')
     sub.add_parser("publish", help="commit and push docs/data/ to GitHub when it changed (sync.bat runs this)")
@@ -1320,7 +1394,7 @@ def main():
         elif args.command == "playlist":
             save_playlist(args.name)
         else:
-            {"auth": auth, "sync": sync, "art": fill_art, "build": build}[args.command]()
+            {"auth": auth, "sync": sync, "art": fill_art, "build": build, "sharecard": share_card}[args.command]()
     except RateLimited as e:
         sys.exit(str(e))
 

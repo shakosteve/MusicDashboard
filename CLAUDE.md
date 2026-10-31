@@ -17,6 +17,7 @@ python musicdashboard.py build               write docs/data/listening.js
 python musicdashboard.py wrapped [YEAR|YEAR-YEAR ...]  write docs/data/wrapped/<period>.js for docs/wrapped.html?year=<period> (default: see below)
 python musicdashboard.py report [--dry-run|--force]  daily summary email of data/sync.log, listening and import progress
 python musicdashboard.py playlist "NAME"     save one of the owner's playlists (by name) to playlists/<name>.json + .csv, with ISRCs; ~1 request per 50 tracks
+python musicdashboard.py sharecard            redraw docs/images/share.png, the 1200x630 social preview, from listening.js totals (headless Edge)
 python musicdashboard.py publish             commit + push docs/data/ if it changed beyond the "generated" timestamp
 sync.bat                                     the scheduled job: sync, import --limit 20 (until data\import.done exists), build, publish, report
 ```
@@ -91,6 +92,11 @@ The live design is a retro car stereo, chosen by the owner. They turned down the
 - **AM dial:** top shows, whose needle follows the hovered preset, and recent episodes.
 
 `index.html` loads the data and `data/wrapped/index.js` with a unique `?t=` URL, because Pages caches for 10 minutes. It then loads `app.js`, and reloads every 10 minutes while the page is visible. The loader reads `../../docs/data/` when the path contains `/design/`, so a copy can be previewed under `design/`.
+
+**Social previews:** `index.html` and `wrapped.html` carry static `og:`/`twitter:` tags, following the GoneWalking pattern. Both point at `images/share.png`.
+- The card is a stereo faceplate with the odometer totals, deliberately without album art: Spotify art must link back to Spotify, and a preview image can't.
+- It's drawn on demand by `sharecard`, not on every build, so the repo doesn't gain a new binary every 30 minutes. Rerun it when the totals have drifted.
+- Link previews never run JavaScript, so `wrapped.html?year=2024` previews the same as the plain page.
 
 Earlier designs are kept for reference in:
 - `design/plain/`: the placeholder ranked-list design.
