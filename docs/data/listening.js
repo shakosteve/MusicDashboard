@@ -1,14 +1,69 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-10-31T14:10:07Z",
+ "generated": "2026-10-31T14:40:07Z",
  "totals": {
-  "plays": 124538,
-  "hours": 8465.7,
+  "plays": 124543,
+  "hours": 8466.0,
   "artists": 701,
-  "albums": 1317,
+  "albums": 1318,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Jet Airliner - Live",
+   "artist": "Steve Miller Band",
+   "album": "Live! Breaking Ground August 3, 1977",
+   "year": 2021,
+   "image": "https://i.scdn.co/image/ab67616d00001e02bb8183e59cd224aa51e51b0f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273bb8183e59cd224aa51e51b0f",
+   "url": "https://open.spotify.com/track/6aCk36AO37oOz6lY5KGBpv",
+   "album_url": "https://open.spotify.com/album/1GYpibjfj4EFsTsTI1DDjh",
+   "played_at": "2026-10-31T14:28:14.369Z"
+  },
+  {
+   "name": "Rainbow in the Dark",
+   "artist": "Dio",
+   "album": "Holy Diver",
+   "year": 1983,
+   "image": "https://i.scdn.co/image/ab67616d00001e022457ab409ae106f8ae1dff89",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2732457ab409ae106f8ae1dff89",
+   "url": "https://open.spotify.com/track/2PpNgmrS9mAyrkRAwn6YPq",
+   "album_url": "https://open.spotify.com/album/2ivNJLSx8Rbvnsvcn01Yt3",
+   "played_at": "2026-10-31T14:22:56.928Z"
+  },
+  {
+   "name": "Shake That",
+   "artist": "BAND-MAID",
+   "album": "New Beginning",
+   "year": 2015,
+   "image": "https://i.scdn.co/image/ab67616d00001e02c9d078b963bf1205f26eb90b",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273c9d078b963bf1205f26eb90b",
+   "url": "https://open.spotify.com/track/4UlybsnjfVNPtn6rdliNUB",
+   "album_url": "https://open.spotify.com/album/3fGJG29oqHwWqqyV5UGUQa",
+   "played_at": "2026-10-31T14:18:39.564Z"
+  },
+  {
+   "name": "Are You Gonna Be My Girl",
+   "artist": "Jet",
+   "album": "Get Born (Deluxe Edition)",
+   "year": 2003,
+   "image": "https://i.scdn.co/image/ab67616d00001e0201fe3e94ab830a543d8f6a93",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27301fe3e94ab830a543d8f6a93",
+   "url": "https://open.spotify.com/track/72zZfHPYx43shcP3eKkYi5",
+   "album_url": "https://open.spotify.com/album/6svS1vGX5qyK9mhz8ijzxs",
+   "played_at": "2026-10-31T14:14:33.458Z"
+  },
+  {
+   "name": "Paralyzer",
+   "artist": "Finger Eleven",
+   "album": "Them Vs. You Vs. Me (Deluxe Edition)",
+   "year": 2007,
+   "image": "https://i.scdn.co/image/ab67616d00001e02e9c3c16b480e1c5a84d7b188",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273e9c3c16b480e1c5a84d7b188",
+   "url": "https://open.spotify.com/track/28IEbk5a7twNTbUEvWslUb",
+   "album_url": "https://open.spotify.com/album/2pCfqddO9tLKRz3wzSNGsZ",
+   "played_at": "2026-10-31T14:10:58.979Z"
+  },
   {
    "name": "We Are the Champions",
    "artist": "Queen",
@@ -481,61 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/08zvzy2FD1V0wFn8mhiQaH",
    "album_url": "https://open.spotify.com/album/61tegsknhtO0WKmkyPqvly",
    "played_at": "2026-10-29T22:44:18.150Z"
-  },
-  {
-   "name": "Mary Had a Little Lamb",
-   "artist": "Stevie Ray Vaughan",
-   "album": "Texas Flood (Legacy Edition)",
-   "year": 1983,
-   "image": "https://i.scdn.co/image/ab67616d00001e02f7143c00741b94bb62025340",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273f7143c00741b94bb62025340",
-   "url": "https://open.spotify.com/track/0nFZ2HQRnIxiwraCm2X6Uq",
-   "album_url": "https://open.spotify.com/album/1AL5oXZRtTc8PyhcTwg4xQ",
-   "played_at": "2026-10-29T19:28:37.463Z"
-  },
-  {
-   "name": "Shout",
-   "artist": "Tears For Fears",
-   "album": "Songs From The Big Chair",
-   "year": 1985,
-   "image": "https://i.scdn.co/image/ab67616d00001e025e12c35cb4c848a927ef4b69",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2735e12c35cb4c848a927ef4b69",
-   "url": "https://open.spotify.com/track/6UQDkQdtvj3f7F7edAsqda",
-   "album_url": "https://open.spotify.com/album/5STbVtgFy6y7uPshY1RRqb",
-   "played_at": "2026-10-29T19:25:50.109Z"
-  },
-  {
-   "name": "Under African Skies",
-   "artist": "Paul Simon",
-   "album": "Graceland (25th Anniversary Deluxe Edition)",
-   "year": 1986,
-   "image": "https://i.scdn.co/image/ab67616d00001e02e5855edffddef46b7feff49b",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273e5855edffddef46b7feff49b",
-   "url": "https://open.spotify.com/track/40ZTTezGy5R2Led0sO0kn6",
-   "album_url": "https://open.spotify.com/album/6WgGWYw6XXQyLTsWt7tXky",
-   "played_at": "2026-10-29T19:19:15.789Z"
-  },
-  {
-   "name": "Come On",
-   "artist": "The Sixsters",
-   "album": "Етюди",
-   "year": 2021,
-   "image": "https://i.scdn.co/image/ab67616d00001e02bb762e29a9bb34ff09134256",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273bb762e29a9bb34ff09134256",
-   "url": "https://open.spotify.com/track/4fVyOWxMI6dCIOFbbcALtA",
-   "album_url": "https://open.spotify.com/album/5ylsDPMjSjP1ep0OLGYqA6",
-   "played_at": "2026-10-29T19:15:38.109Z"
-  },
-  {
-   "name": "Walk Like an Egyptian",
-   "artist": "The Bangles",
-   "album": "Different Light (Expanded Edition)",
-   "year": 1986,
-   "image": "https://i.scdn.co/image/ab67616d00001e024aaad3bb593721bcaa6827d6",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2734aaad3bb593721bcaa6827d6",
-   "url": "https://open.spotify.com/track/5L6HNuXN71bfeuKXYtRasF",
-   "album_url": "https://open.spotify.com/album/7qEP3i0f0zfk6JUFW3SyeN",
-   "played_at": "2026-10-29T19:12:46.417Z"
   }
  ],
  "top_artists": [
@@ -577,7 +577,7 @@ window.LISTENING = {
   },
   {
    "name": "Steve Miller Band",
-   "plays": 1945,
+   "plays": 1946,
    "url": "https://open.spotify.com/artist/6QtGlUje9TIkLrgPZrESuk",
    "image": "https://i.scdn.co/image/ab67616d00001e02632b907273dba6a6062fb780"
   },
@@ -1009,7 +1009,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32760,
+   "plays": 32761,
    "covers": [
     {
      "name": "Back In Black",
@@ -1197,7 +1197,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 11935,
+   "plays": 11937,
    "covers": [
     {
      "name": "Material Girl",
@@ -1291,7 +1291,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15703,
+   "plays": 15704,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1385,7 +1385,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18456,
+   "plays": 18457,
    "covers": [
     {
      "name": "ERROR",
