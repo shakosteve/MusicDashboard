@@ -47,6 +47,7 @@ import sys
 import time
 import webbrowser
 import smtplib
+import subprocess
 from collections import Counter
 from datetime import datetime, timedelta, timezone
 from email.message import EmailMessage
@@ -717,6 +718,53 @@ def wrapped(years=None):
     write_atomic(out_dir / "index.js", f"window.WRAPPED_YEARS = {json.dumps(available)};\n")
 
 
+def git(*args):
+    """Run git in the repo; never waits for a sign-in prompt (with nobody there, it fails instead)."""
+    try:
+        proc = subprocess.run(["git", *args], cwd=ROOT, capture_output=True, text=True, encoding="utf-8",
+                              errors="replace", timeout=300,
+                              env=dict(os.environ, GIT_TERMINAL_PROMPT="0", GCM_INTERACTIVE="never"))
+        return proc.returncode == 0, ((proc.stdout or "") + (proc.stderr or "")).strip()
+    except (OSError, subprocess.TimeoutExpired) as exc:
+        return False, f"{type(exc).__name__}: {exc}"
+
+
+def site_url():
+    """The GitHub Pages address for the origin remote (github.com/owner/repo -> owner.github.io/repo/)."""
+    if os.environ.get("SITE_URL"):
+        return os.environ["SITE_URL"]
+    ok, url = git("remote", "get-url", "origin")
+    m = re.search(r"github\.com[:/]([^/]+)/([^/]+?)(\.git)?$", url) if ok else None
+    return f"https://{m.group(1).lower()}.github.io/{m.group(2)}/" if m else None
+
+
+def publish():
+    """Commit and push docs/data/ for GitHub Pages when it really changed (not just the build timestamp).
+
+    Only docs/data/ is committed, so code being edited stays out of it. AUTO_PUBLISH=off in .env turns
+    this off."""
+    if os.environ.get("AUTO_PUBLISH", "on").lower() in ("off", "no", "false", "0"):
+        return
+    ok, out = git("add", "docs/data")
+    if ok:
+        unchanged, _ = git("diff", "--cached", "--quiet", "-I", r'^\s*"generated":')
+        if unchanged:
+            git("reset", "-q", "docs/data")
+            return
+        plays = load_plays()
+        last = datetime.fromisoformat(plays[-1]["played_at"].replace("Z", "+00:00")).astimezone() if plays else None
+        ok, out = git("commit", "-q", "-m", f"Listening data through {last:%b} {last.day}, {last:%I:%M %p}"
+                      if last else "Update listening data")
+    if ok:
+        ok, out = git("pull", "-q", "--rebase", "--autostash")
+        if not ok:
+            git("rebase", "--abort")
+    if ok:
+        ok, out = git("push", "-q")
+    print("Published to GitHub." if ok else
+          f"Publish failed: {(out.splitlines() or ['git error'])[-1]} (the commit is kept; it goes out next run)")
+
+
 def read_log(since):
     """Scheduled runs in data/sync.log since `since`, as (start time, lines) pairs."""
     runs = []
@@ -824,7 +872,8 @@ def report_data(now):
         on_this_day.append({"year": year, "plays": len(day_plays), "top": clean_title(p["name"]), "artist": ", ".join(p["artists"]),
                             "top_plays": n, "image": cover(p), "url": open_url(uri)})
 
-    problems = list(dict.fromkeys(line for line in log if re.search(r"Traceback|Error|error:|Warning", line)))
+    problems = list(dict.fromkeys(line for line in log if re.search(r"Traceback|Error|error:|Warning|failed", line)))
+    published = sum(1 for line in log if line.startswith("Published to GitHub"))
     expected = 48
     status = "bad" if any("Traceback" in l or "rror" in l for l in problems) else \
              "warn" if problems or len(runs) < expected - 4 else "ok"
@@ -852,7 +901,7 @@ def report_data(now):
             "last_run": runs[-1][0] if runs else None, "problems": problems[:12], "plays": len(plays),
             "minutes": minutes, "artist_count": len(artists), "podcasts": podcasts[:6],
             "top_tracks": top_tracks, "top_artists": sorted(artists.values(), key=lambda a: -a["plays"])[:5],
-            "on_this_day": on_this_day, "import": imported,
+            "on_this_day": on_this_day, "import": imported, "published": published, "site": site_url(),
             "totals": {"plays": len(all_plays), "since": all_plays[0]["local"].year if all_plays else None}}
 
 
@@ -861,7 +910,9 @@ def report_text(r):
     out = [f"The Listening Booth - daily report, {now:%A, %B} {now.day}, {now.year}", "",
            {"ok": "All systems playing.", "warn": "Something needs a look.", "bad": "The scheduled sync hit an error."}[r["status"]],
            f"Scheduled runs in the last 24 hours: {r['runs']} of {r['expected']}"
-           + (f", last at {r['last_run']:%I:%M %p}".replace(" 0", " ") if r["last_run"] else " - is the task still enabled?")]
+           + (f", last at {r['last_run']:%I:%M %p}".replace(" 0", " ") if r["last_run"] else " - is the task still enabled?"),
+           f"Published to the site {r['published']} time{'s' if r['published'] != 1 else ''}"
+           + (f": {r['site']}" if r["site"] else "")]
     if r["problems"]:
         out += ["", "From the log:"] + [f"  {l}" for l in r["problems"]]
     out += ["", f"Last 24 hours: {r['plays']} plays, {r['minutes']} minutes, {r['artist_count']} artists"]
@@ -933,13 +984,20 @@ def report_html(r):
 
     color, tint, headline = STATUS[r["status"]]
     runs = (f'{r["runs"]} of {r["expected"]} scheduled runs in the last day'
-            + (f' · last at {r["last_run"]:%I:%M %p}'.replace(" 0", " ") if r["last_run"] else " · is the task still enabled?"))
+            + (f' · last at {r["last_run"]:%I:%M %p}'.replace(" 0", " ") if r["last_run"] else " · is the task still enabled?")
+            + f' · published {r["published"]} time{"s" if r["published"] != 1 else ""}')
     body = [
         # Header: a dark "stage" band with the title and date.
         f'<tr><td class="px" style="background:{NIGHT};padding:26px 28px;border-radius:12px 12px 0 0;{FONT}">'
         f'<div style="font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:#a9a3b8;">&#9679;&nbsp; Daily report</div>'
         f'<div style="font-size:26px;font-weight:800;color:#ffffff;margin-top:6px;letter-spacing:-.01em;">The Listening Booth</div>'
-        f'<div style="font-size:13px;color:#a9a3b8;margin-top:4px;">{now:%A, %B} {now.day}, {now.year}</div></td></tr>',
+        f'<div style="font-size:13px;color:#a9a3b8;margin-top:4px;">{now:%A, %B} {now.day}, {now.year}</div>'
+        + (f'<div style="margin-top:14px;"><a href="{h(r["site"])}" style="{FONT}display:inline-block;padding:7px 14px;'
+           f'border:1px solid #4a4458;border-radius:999px;color:#ffffff;font-size:13px;font-weight:600;'
+           f'text-decoration:none;">Open the dashboard &rarr;</a>&nbsp; <a href="{h(r["site"])}wrapped.html" '
+           f'style="{FONT}display:inline-block;padding:7px 14px;border:1px solid #4a4458;border-radius:999px;'
+           f'color:#ffffff;font-size:13px;font-weight:600;text-decoration:none;">Year in review &rarr;</a></div>'
+           if r["site"] else "") + '</td></tr>',
         f'<tr><td class="px" style="padding:20px 28px 0;"><div style="{FONT}background:{tint};border-left:4px solid {color};'
         f'border-radius:6px;padding:12px 16px;"><div style="font-size:16px;font-weight:700;color:{color};">{h(headline)}</div>'
         f'<div style="font-size:14px;color:{INK};margin-top:2px;">{h(runs)}</div></div></td></tr>']
@@ -1037,6 +1095,7 @@ def main():
     sub.add_parser("build", help="write the site's data file, docs/data/listening.js")
     wrap = sub.add_parser("wrapped", help="write a year in review for docs/wrapped.html (default: every year)")
     wrap.add_argument("years", nargs="*", type=int)
+    sub.add_parser("publish", help="commit and push docs/data/ to GitHub when it changed (sync.bat runs this)")
     rep = sub.add_parser("report", help="email the daily summary (sync.bat runs this; sends once a day)")
     rep.add_argument("--force", action="store_true", help="send now, even if today's report went out")
     rep.add_argument("--dry-run", action="store_true", help="print the report instead of sending it")
@@ -1049,6 +1108,8 @@ def main():
             wrapped(args.years)
         elif args.command == "report":
             report(args.force, args.dry_run)
+        elif args.command == "publish":
+            publish()
         else:
             {"auth": auth, "sync": sync, "art": fill_art, "build": build}[args.command]()
     except RateLimited as e:

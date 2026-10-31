@@ -12,6 +12,8 @@ set PY="C:\Users\zamdr\AppData\Local\Programs\Python\Python313\python.exe"
 set SYNC_RESULT=%ERRORLEVEL%
 if not exist data\import.done %PY% musicdashboard.py import --limit 20>> data\sync.log 2>&1
 %PY% musicdashboard.py build >> data\sync.log 2>&1 || exit /b %ERRORLEVEL%
+rem Commits and pushes docs\data\ for GitHub Pages, only when there's more than a new timestamp.
+%PY% musicdashboard.py publish >> data\sync.log 2>&1
 rem Sends at most once a day (first run from REPORT_HOUR), and only once SMTP settings are in .env.
 %PY% musicdashboard.py report >> data\sync.log 2>&1
 exit /b %SYNC_RESULT%

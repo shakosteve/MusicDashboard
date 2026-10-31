@@ -16,9 +16,13 @@ python musicdashboard.py art                 fetch cover art/years for live-sync
 python musicdashboard.py build               write docs/data/listening.js
 python musicdashboard.py wrapped [YEAR ...]  write docs/data/wrapped/<year>.js (default: every year) for docs/wrapped.html?year=YEAR
 python musicdashboard.py report [--dry-run|--force]  daily summary email of data/sync.log, listening and import progress
-sync.bat                                     the scheduled job: sync, import --limit 20 (until data\import.done exists), build, report
+python musicdashboard.py publish             commit + push docs/data/ if it changed beyond the "generated" timestamp
+sync.bat                                     the scheduled job: sync, import --limit 20 (until data\import.done exists), build, publish, report
 ```
 
+- The repo is public at github.com/shakosteve/MusicDashboard. GitHub Pages serves `docs/` from `main` at https://shakosteve.github.io/MusicDashboard/.
+- `publish` runs on every scheduled run. It commits only `docs/data/` (so code edits stay out), uses `git diff -I` to skip changes that are only the timestamp, then pulls with `--rebase` and pushes, with git prompts disabled. Set `AUTO_PUBLISH=off` in `.env` to stop it.
+- Code changes still need committing and pushing by hand. Expect frequent "Listening data through …" commits from the scheduled task on `origin/main`, so pull before pushing.
 - To preview the site, open `docs/index.html` directly in a browser. The data is a `<script>` that sets `window.LISTENING`, not fetched JSON, so the page works from `file://` with no server.
 - `sync.bat` hardcodes the Python path (`...\Python313\python.exe`) and appends all output to `data\sync.log`.
 - `report` runs on every scheduled run but sends only on the first run from `REPORT_HOUR` (default 8 AM), then writes the date to `data/report.sent`. It does nothing until `SMTP_USER` and `SMTP_PASSWORD` (a Gmail app password) are in `.env`. It parses the `=== <date> <time>` run headers that `sync.bat` writes into the log, so keep that format if you edit `sync.bat`. The owner prefers this email to progress reports in chat.
