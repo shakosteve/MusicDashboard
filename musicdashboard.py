@@ -5,6 +5,7 @@
     python musicdashboard.py art     fetch cover art and release years for saved albums missing them
     python musicdashboard.py import  read the privacy data export unzipped into data/export/
     python musicdashboard.py build   write docs/data/listening.js for the site (docs/index.html)
+    python musicdashboard.py playlist "My Favs"   save a playlist's tracks to data/playlists/
 
 Settings in .env:
 
@@ -41,6 +42,7 @@ unaltered and links back to Spotify.
 
 import argparse
 import base64
+import csv
 import json
 import os
 import re
@@ -73,6 +75,7 @@ IMPORT_DONE = DATA / "import.done"
 SYNC_LOG = DATA / "sync.log"
 REPORT_SENT = DATA / "report.sent"
 SHOW_CHECKS = DATA / "show_checks.json"
+PLAYLISTS = ROOT / "playlists"  # committed, unlike data/: a backup of playlists that matter
 MIN_PLAY_MS = 30_000  # Spotify counts a stream from 30 seconds
 WRAPPED_MIN_PLAYS = 1_000  # years with fewer plays, before the first busy one, share one review
 MIN_EPISODE_MS = 10_000  # an episode stopped sooner than this wasn't really listened to
@@ -399,6 +402,60 @@ def sync():
         print(f"Podcast playing: {episode['show']} - {episode['name']}")
     for found in sync_shows(session):
         print(f"Podcast heard: {found['show']} - {found['name']}")
+
+
+def save_playlist(name, delay=0.2):
+    """Save one of my playlists, found by name (any case), to playlists/<name>.json and .csv: every track with
+    its ISRC (the recording's ID on every service, for moving the playlist elsewhere) and when it was added,
+    plus album art into art.json. About one request per 50 tracks. playlists/ is committed as a backup."""
+    session = api_session()
+    found, url, params = None, f"{API}/me/playlists", {"limit": 50}
+    while url and not found:
+        page = fetch(session, url, params) or {}
+        found = next((p for p in page.get("items") or [] if p and p["name"].casefold() == name.casefold()), None)
+        url, params = page.get("next"), None
+    if not found:
+        sys.exit(f"No playlist called {name!r} among yours or the ones you follow.")
+    pid = found["id"]
+    meta = fetch(session, f"{API}/playlists/{pid}", {"fields": "name,description,public,collaborative,snapshot_id,"
+                                                            "owner.display_name,followers.total"}) or {}
+    art = load_art()
+    tracks, url, params = [], f"{API}/playlists/{pid}/items", {"limit": 50}
+    while url:
+        page = fetch(session, url, params) or {}
+        for entry in page.get("items") or []:
+            t = entry.get("item") or entry.get("track")  # newer API: "item"; older: "track"
+            if not t or t.get("type", "track") != "track":
+                continue
+            remember_art(art, t.get("album"))
+            tracks.append({**slim_track(t),
+                           "isrc": (t.get("external_ids") or {}).get("isrc"),
+                           "added_at": entry.get("added_at"),
+                           "release_date": (t.get("album") or {}).get("release_date"),
+                           "explicit": t.get("explicit"),
+                           "is_local": t.get("is_local") or entry.get("is_local", False)})
+        print(f"  {len(tracks)} tracks...")
+        url, params = page.get("next"), None
+        time.sleep(delay)
+    out = PLAYLISTS / f"{re.sub(r'[^a-z0-9]+', '-', found['name'].lower()).strip('-')}.json"
+    write_atomic(out, json.dumps({"name": found["name"], "uri": found["uri"], "url": open_url(found["uri"]),
+                                  "owner": (meta.get("owner") or {}).get("display_name"),
+                                  "description": meta.get("description"), "public": meta.get("public"),
+                                  "followers": (meta.get("followers") or {}).get("total"),
+                                  "snapshot_id": meta.get("snapshot_id"), "fetched": now_iso(),
+                                  "tracks": tracks}, indent=2, ensure_ascii=False))
+    # The CSV is what transfer services (TuneMyMusic, Soundiiz and the like) take as an upload.
+    with out.with_suffix(".csv").open("w", newline="", encoding="utf-8-sig") as f:
+        w = csv.writer(f)
+        w.writerow(["Title", "Artist", "Album", "ISRC", "Duration", "Added", "Spotify URI"])
+        for t in tracks:
+            secs = round((t["duration_ms"] or 0) / 1000)
+            w.writerow([t["name"], ", ".join(t["artists"]), t["album"] or "", t["isrc"] or "",
+                        f"{secs // 60}:{secs % 60:02d}", (t["added_at"] or "")[:10], t["uri"]])
+    write_atomic(ART, json.dumps(art, indent=2, ensure_ascii=False))
+    missing = sum(1 for t in tracks if not t["isrc"])
+    print(f"Saved {len(tracks)} tracks from {found['name']!r} to {out.relative_to(ROOT)} and .csv"
+          + (f" ({missing} without an ISRC, such as local files)." if missing else "."))
 
 
 def fill_art(delay=0.2):
@@ -1182,6 +1239,8 @@ def main():
                                           "(default: every year, with the sparse early years as one span)")
     wrap.add_argument("years", nargs="*", metavar="YEAR or YEAR-YEAR",
                       type=lambda s: s if re.fullmatch(r"\d{4}(-\d{4})?", s) else sys.exit(f"Not a year or span: {s}"))
+    pl = sub.add_parser("playlist", help="save one of your playlists, by name, to data/playlists/")
+    pl.add_argument("name", help='the playlist\'s name, e.g. "My Favs"')
     sub.add_parser("publish", help="commit and push docs/data/ to GitHub when it changed (sync.bat runs this)")
     rep = sub.add_parser("report", help="email the daily summary (sync.bat runs this; sends once a day)")
     rep.add_argument("--force", action="store_true", help="send now, even if today's report went out")
@@ -1197,6 +1256,8 @@ def main():
             report(args.force, args.dry_run)
         elif args.command == "publish":
             publish()
+        elif args.command == "playlist":
+            save_playlist(args.name)
         else:
             {"auth": auth, "sync": sync, "art": fill_art, "build": build}[args.command]()
     except RateLimited as e:

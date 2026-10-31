@@ -16,6 +16,7 @@ python musicdashboard.py art                 fetch cover art/years for live-sync
 python musicdashboard.py build               write docs/data/listening.js
 python musicdashboard.py wrapped [YEAR|YEAR-YEAR ...]  write docs/data/wrapped/<period>.js for docs/wrapped.html?year=<period> (default: see below)
 python musicdashboard.py report [--dry-run|--force]  daily summary email of data/sync.log, listening and import progress
+python musicdashboard.py playlist "NAME"     save one of the owner's playlists (by name) to playlists/<name>.json + .csv, with ISRCs; ~1 request per 50 tracks
 python musicdashboard.py publish             commit + push docs/data/ if it changed beyond the "generated" timestamp
 sync.bat                                     the scheduled job: sync, import --limit 20 (until data\import.done exists), build, publish, report
 ```
@@ -29,6 +30,11 @@ sync.bat                                     the scheduled job: sync, import --l
 - The Windows Task Scheduler task `\MusicDashboard` runs `sync.bat` every 30 minutes, launched as `conhost.exe --headless "C:\code\MusicDashboard\sync.bat"` so no console window pops up. Enabling or disabling it needs an elevated prompt (`schtasks /change /tn MusicDashboard /enable`); from a non-admin shell it fails with "Access is denied".
 
 ## Data flow
+
+`playlists/` is the exception to personal data being gitignored. The owner wants it committed as an off-computer backup, so a playlist ("My Favs" is the important one) can be moved to another service later.
+- Each track has its ISRC, the recording's ID on every service.
+- The `.csv` uses the columns that transfer services accept as an upload.
+- Re-run `playlist` after the playlist changes, then commit. This isn't automated.
 
 Everything in `data/` is personal and gitignored, as is `.env`, which holds the Spotify app credentials and the refresh token. Spotify can rotate the refresh token; `api_session()` saves the new one.
 
