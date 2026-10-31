@@ -1,14 +1,91 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-10-31T19:10:08Z",
+ "generated": "2026-10-31T19:40:07Z",
  "totals": {
-  "plays": 124598,
-  "hours": 8469.9,
+  "plays": 124605,
+  "hours": 8470.3,
   "artists": 701,
-  "albums": 1319,
+  "albums": 1320,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Two Princes",
+   "artist": "Spin Doctors",
+   "album": "Pocket Full Of Kryptonite (Anniversary Edition)",
+   "year": 1991,
+   "image": "https://i.scdn.co/image/ab67616d00001e0290126a3a12ad644fa6d3221c",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27390126a3a12ad644fa6d3221c",
+   "url": "https://open.spotify.com/track/0cuq829zRNq4AEdmDJA4aw",
+   "album_url": "https://open.spotify.com/album/3jx5C8Z66FwdjNkqsSDBQh",
+   "played_at": "2026-10-31T19:36:46.228Z"
+  },
+  {
+   "name": "Danger Zone - From \"Top Gun\" Original Soundtrack",
+   "artist": "Kenny Loggins",
+   "album": "Yesterday, Today, Tomorrow - The Greatest Hits Of Kenny Loggins",
+   "year": 1997,
+   "image": "https://i.scdn.co/image/ab67616d00001e0219db9ac54c80a898a179f0f1",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27319db9ac54c80a898a179f0f1",
+   "url": "https://open.spotify.com/track/34x6hEJgGAOQvmlMql5Ige",
+   "album_url": "https://open.spotify.com/album/3uN87hwClF0hult2cxMbAW",
+   "played_at": "2026-10-31T19:32:28.791Z"
+  },
+  {
+   "name": "Walk This Way (feat. Aerosmith)",
+   "artist": "Run–D.M.C., Aerosmith",
+   "album": "Raising Hell",
+   "year": 1986,
+   "image": "https://i.scdn.co/image/ab67616d00001e028eba18f886ca46ae6f948c54",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2738eba18f886ca46ae6f948c54",
+   "url": "https://open.spotify.com/track/6qUEOWqOzu1rLPUPQ1ECpx",
+   "album_url": "https://open.spotify.com/album/7AFsTiojVaB2I58oZ1tMRg",
+   "played_at": "2026-10-31T19:28:53.093Z"
+  },
+  {
+   "name": "Slide",
+   "artist": "Plastic Picnic",
+   "album": "As Long As You Need",
+   "year": 2022,
+   "image": "https://i.scdn.co/image/ab67616d00001e0233ed65aef7428608f5b33f17",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27333ed65aef7428608f5b33f17",
+   "url": "https://open.spotify.com/track/5Rokkaaomfmom5BOm19A8b",
+   "album_url": "https://open.spotify.com/album/615Oddpje0fnkwigsDZYIU",
+   "played_at": "2026-10-31T19:23:42.271Z"
+  },
+  {
+   "name": "Another One Bites The Dust",
+   "artist": "Queen",
+   "album": "The Game",
+   "year": 1980,
+   "image": "https://i.scdn.co/image/ab67616d00001e02a4e6eac83c0fe38bf682f643",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273a4e6eac83c0fe38bf682f643",
+   "url": "https://open.spotify.com/track/1KPuohcXPmJYQfdyg9zKmR",
+   "album_url": "https://open.spotify.com/album/6l8tOdUItDC01Qmb91Lo8W",
+   "played_at": "2026-10-31T19:19:59.879Z"
+  },
+  {
+   "name": "Kerosene",
+   "artist": "The Warning",
+   "album": "Kerosene",
+   "year": 2026,
+   "image": "https://i.scdn.co/image/ab67616d00001e026bc799c6c712870ffe1d1546",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2736bc799c6c712870ffe1d1546",
+   "url": "https://open.spotify.com/track/2xixXiLYi3FsNF0m9vEV2G",
+   "album_url": "https://open.spotify.com/album/65GiY2SnJWKtFIGyFDKSDm",
+   "played_at": "2026-10-31T19:16:24.597Z"
+  },
+  {
+   "name": "Fly Away",
+   "artist": "Lenny Kravitz",
+   "album": "5",
+   "year": 1998,
+   "image": "https://i.scdn.co/image/ab67616d00001e02f1157b7dcd21bae0c2c75d89",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273f1157b7dcd21bae0c2c75d89",
+   "url": "https://open.spotify.com/track/1OxcIUqVmVYxT6427tbhDW",
+   "album_url": "https://open.spotify.com/album/6MCNMOCRsh6nxs7PNzc0zN",
+   "played_at": "2026-10-31T19:12:58.198Z"
+  },
   {
    "name": "Year of the Cat",
    "artist": "Al Stewart",
@@ -459,89 +536,12 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/5YIF6HSOtHN9HdcE5IPzMe",
    "album_url": "https://open.spotify.com/album/6xE6A0Vwd2LmopR6Mn8UFG",
    "played_at": "2026-10-31T16:12:41.382Z"
-  },
-  {
-   "name": "3AM",
-   "artist": "Matchbox Twenty",
-   "album": "Yourself or Someone Like You",
-   "year": 1996,
-   "image": "https://i.scdn.co/image/ab67616d00001e0211585490475c991f8c83bca7",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27311585490475c991f8c83bca7",
-   "url": "https://open.spotify.com/track/5vYA1mW9g2Coh1HUFUSmlb",
-   "album_url": "https://open.spotify.com/album/4vUXTcKz7tXxrNl84meN6i",
-   "played_at": "2026-10-31T16:08:32.578Z"
-  },
-  {
-   "name": "Walking The Dog",
-   "artist": "The Rolling Stones",
-   "album": "The Rolling Stones",
-   "year": 1964,
-   "image": "https://i.scdn.co/image/ab67616d00001e02e5bd9c16543752620815ebdc",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273e5bd9c16543752620815ebdc",
-   "url": "https://open.spotify.com/track/43SkTJJ2xleDaeiE4TIM70",
-   "album_url": "https://open.spotify.com/album/0bJMFJ2XQwpO5nKTrYdUtX",
-   "played_at": "2026-10-31T16:04:46.304Z"
-  },
-  {
-   "name": "Hot for Teacher - 2015 Remaster",
-   "artist": "Van Halen",
-   "album": "1984 (Remastered)",
-   "year": 1984,
-   "image": "https://i.scdn.co/image/ab67616d00001e02b414c63fb435b622238c15ed",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273b414c63fb435b622238c15ed",
-   "url": "https://open.spotify.com/track/6QDbGdbJ57Mtkflsg42WV5",
-   "album_url": "https://open.spotify.com/album/3REUXdj5OPKhuDTrTtCBU0",
-   "played_at": "2026-10-31T16:01:36.564Z"
-  },
-  {
-   "name": "Once in a Lifetime - 2005 Remaster",
-   "artist": "Talking Heads",
-   "album": "Remain in Light (Deluxe Version)",
-   "year": 1980,
-   "image": "https://i.scdn.co/image/ab67616d00001e02e56fa8c916dc6ce419dcf557",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273e56fa8c916dc6ce419dcf557",
-   "url": "https://open.spotify.com/track/38Ngied9rBORlAbLYNCl4k",
-   "album_url": "https://open.spotify.com/album/3AQgdwMNCiN7awXch5fAaG",
-   "played_at": "2026-10-31T15:56:53.224Z"
-  },
-  {
-   "name": "Little Red Corvette",
-   "artist": "Prince",
-   "album": "The Hits / The B-Sides",
-   "year": 1993,
-   "image": "https://i.scdn.co/image/ab67616d00001e026ac634a380ef3a983514c029",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2736ac634a380ef3a983514c029",
-   "url": "https://open.spotify.com/track/1gnkotdghLOSDg4OoliVRD",
-   "album_url": "https://open.spotify.com/album/30DQNLvFkUv9SS15o8jXHZ",
-   "played_at": "2026-10-31T15:52:32.829Z"
-  },
-  {
-   "name": "Poison",
-   "artist": "Alice Cooper",
-   "album": "Trash",
-   "year": 1989,
-   "image": "https://i.scdn.co/image/ab67616d00001e0234b292a289c635532da02671",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27334b292a289c635532da02671",
-   "url": "https://open.spotify.com/track/5XcZRgJv3zMhTqCyESjQrF",
-   "album_url": "https://open.spotify.com/album/033cvSPAuSU5ArRfIgQSDU",
-   "played_at": "2026-10-31T15:47:28.773Z"
-  },
-  {
-   "name": "Every Little Thing She Does Is Magic",
-   "artist": "The Police",
-   "album": "Ghost In The Machine (Remastered 2003)",
-   "year": 1981,
-   "image": "https://i.scdn.co/image/ab67616d00001e02b7879980ef2ea7ac1cc29316",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273b7879980ef2ea7ac1cc29316",
-   "url": "https://open.spotify.com/track/44aTAUBF0g6sMkMNE8I5kd",
-   "album_url": "https://open.spotify.com/album/5jkwdY6jS1Hzi8epr6HW7h",
-   "played_at": "2026-10-31T15:42:57.280Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10651,
+   "plays": 10652,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
@@ -589,7 +589,7 @@ window.LISTENING = {
   },
   {
    "name": "Queen",
-   "plays": 1912,
+   "plays": 1913,
    "url": "https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d",
    "image": "https://i.scdn.co/image/ab67616d00001e0207744e2ed983efa3e6620a47"
   },
@@ -1009,7 +1009,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32774,
+   "plays": 32776,
    "covers": [
     {
      "name": "Back In Black",
@@ -1103,7 +1103,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9656,
+   "plays": 9659,
    "covers": [
     {
      "name": "Amazing",
@@ -1180,7 +1180,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273f1157b7dcd21bae0c2c75d89",
      "url": "https://open.spotify.com/track/1OxcIUqVmVYxT6427tbhDW",
      "album_url": "https://open.spotify.com/album/6MCNMOCRsh6nxs7PNzc0zN",
-     "plays": 418
+     "plays": 419
     },
     {
      "name": "Death Letter Blues",
@@ -1385,7 +1385,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18471,
+   "plays": 18473,
    "covers": [
     {
      "name": "ERROR",
