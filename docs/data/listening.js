@@ -1,11 +1,11 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-10-31T12:10:13Z",
+ "generated": "2026-10-31T12:40:17Z",
  "totals": {
   "plays": 124528,
   "hours": 8465.0,
   "artists": 701,
-  "albums": 1296,
+  "albums": 1316,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
@@ -821,7 +821,7 @@ window.LISTENING = {
   },
   {
    "decade": 1960,
-   "plays": 7031,
+   "plays": 7032,
    "covers": [
     {
      "name": "Your Time Is Gonna Come - 1990 Remaster",
@@ -1103,7 +1103,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9645,
+   "plays": 9649,
    "covers": [
     {
      "name": "Amazing",
@@ -1197,7 +1197,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 11933,
+   "plays": 11935,
    "covers": [
     {
      "name": "Material Girl",
@@ -1291,7 +1291,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15694,
+   "plays": 15701,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1385,7 +1385,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18448,
+   "plays": 18454,
    "covers": [
     {
      "name": "ERROR",
@@ -1480,6 +1480,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Will a blue wave sweep the South? Jennifer Palmieri explains why it might",
+   "show": "Firing Line with Margaret Hoover",
+   "show_uri": "spotify:show:1uBimoCIw9AqeoN2RwlUBq",
+   "release_date": "2026-10-31",
+   "duration_ms": 2813017,
+   "image": "https://i.scdn.co/image/ab67656300005f1f836e33e0257047ce378ffcd1",
+   "first_seen": "2026-10-31T12:40:02Z",
+   "progress_ms": 104993,
+   "last_seen": "2026-10-31T12:40:02Z",
+   "url": "https://open.spotify.com/episode/5iJN5LDBEHMgeHHWnYqXdM",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f836e33e0257047ce378ffcd1"
+  },
+  {
    "name": "Election Preview with POLITICO's Charlie Mahtesian",
    "show": "The Middle with Jeremy Hobson",
    "show_uri": "spotify:show:5l5B4IoLnVHnFMLmGSar2f",
@@ -1487,8 +1500,8 @@ window.LISTENING = {
    "duration_ms": 1871273,
    "image": "https://i.scdn.co/image/ab67656300005f1ff41e868c508ff334fe5720fe",
    "first_seen": "2026-10-31T12:10:02Z",
-   "progress_ms": 176294,
-   "last_seen": "2026-10-31T12:10:02Z",
+   "progress_ms": 589141,
+   "last_seen": "2026-10-31T12:16:55Z",
    "url": "https://open.spotify.com/episode/5kdTNxnHsall8ofxFmptux",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f083f152347124d54a12d4ca0"
   },
@@ -1526,7 +1539,7 @@ window.LISTENING = {
    "duration_ms": 3306814,
    "image": "https://i.scdn.co/image/ab67656300005f1fb7104361264b689c24881374",
    "first_seen": "2026-10-30T21:10:03Z",
-   "progress_ms": 3071099,
+   "progress_ms": 3197400,
    "last_seen": "2026-10-30T22:10:03Z",
    "url": "https://open.spotify.com/episode/2S4MMg7rGzAXfmoe4uaWkC",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fe19edf2c6856b8b09c057f38"
@@ -1539,7 +1552,7 @@ window.LISTENING = {
    "duration_ms": 2112627,
    "image": "https://i.scdn.co/image/ab67656300005f1ffbfd0cca3c32549fb8c3fe7c",
    "first_seen": "2026-10-30T17:10:03Z",
-   "progress_ms": 1638470,
+   "progress_ms": 2112627,
    "last_seen": "2026-10-30T17:10:03Z",
    "url": "https://open.spotify.com/episode/53IPpj6FlbKBbzxEbY2JtU",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
@@ -1552,7 +1565,7 @@ window.LISTENING = {
    "duration_ms": 1227624,
    "image": "https://i.scdn.co/image/ab67656300005f1f55386ae3fe554333e1a85785",
    "first_seen": "2026-10-30T12:40:03Z",
-   "progress_ms": 644938,
+   "progress_ms": 1227624,
    "last_seen": "2026-10-30T12:40:03Z",
    "url": "https://open.spotify.com/episode/0RRCu0LaHOznGGe9pnZ3Dx",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f55386ae3fe554333e1a85785"
@@ -1571,6 +1584,45 @@ window.LISTENING = {
    "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
   },
   {
+   "name": "Silver-year strongman: 25 years of Narendra Modi",
+   "show": "Economist Podcasts",
+   "show_uri": "spotify:show:2ZFDmgDS2Z6xccP51s1zFQ",
+   "release_date": "2026-10-30",
+   "duration_ms": 1670217,
+   "image": "https://i.scdn.co/image/ab67656300005f1fc478e77aca955c8994343368",
+   "first_seen": "2026-10-30T12:00:00Z",
+   "progress_ms": 126982,
+   "last_seen": "2026-10-30T12:00:00Z",
+   "url": "https://open.spotify.com/episode/52RUJn3u9zbmytLhVzVxNQ",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f3d63c8a3f5c8f7b8b0c1443b"
+  },
+  {
+   "name": "PHP2Shell Won't Be the Last Big AI Cybersecurity Risk",
+   "show": "Odd Lots",
+   "show_uri": "spotify:show:1te7oSFyRVekxMBJUSethH",
+   "release_date": "2026-10-30",
+   "duration_ms": 2940055,
+   "image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42",
+   "first_seen": "2026-10-30T12:00:00Z",
+   "progress_ms": 587600,
+   "last_seen": "2026-10-30T12:00:00Z",
+   "url": "https://open.spotify.com/episode/2lI2wKnPkBqzGUGRC65Q85",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42"
+  },
+  {
+   "name": "Is AI Running Out of Money to Borrow?",
+   "show": "The Journal.",
+   "show_uri": "spotify:show:0KxdEdeY2Wb3zr28dMlQva",
+   "release_date": "2026-10-30",
+   "duration_ms": 1042625,
+   "image": "https://i.scdn.co/image/ab67656300005f1ffed98c4fdc504416141e9409",
+   "first_seen": "2026-10-30T12:00:00Z",
+   "progress_ms": 1042625,
+   "last_seen": "2026-10-30T12:00:00Z",
+   "url": "https://open.spotify.com/episode/7F14x6q1xp7SSycwB6AwJ0",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1ffed98c4fdc504416141e9409"
+  },
+  {
    "name": "Alaska Senate Candidate Debacle",
    "show": "RealClearPolitics Podcast",
    "show_uri": "spotify:show:5FkNemg3aIaPPNBImIcW2l",
@@ -1578,62 +1630,10 @@ window.LISTENING = {
    "duration_ms": 3265515,
    "image": "https://i.scdn.co/image/ab67656300005f1fdd092c436a5c90c68d443006",
    "first_seen": "2026-10-30T03:40:03Z",
-   "progress_ms": 17275,
+   "progress_ms": 1071183,
    "last_seen": "2026-10-30T03:40:03Z",
    "url": "https://open.spotify.com/episode/49pUAVnSXDxi2CNJoOvSEy",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fe19edf2c6856b8b09c057f38"
-  },
-  {
-   "name": "Dozens killed in Spanish high-speed train crash",
-   "show": "Newshour",
-   "show_uri": "spotify:show:5qbXje6KaVOHwjsHNTELjA",
-   "release_date": "2026-10-28",
-   "duration_ms": 2849436,
-   "image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46",
-   "first_seen": "2026-10-30T00:40:03Z",
-   "progress_ms": 657834,
-   "last_seen": "2026-10-30T00:40:03Z",
-   "url": "https://open.spotify.com/episode/2HK6gm8g1YvGuzyCU7ipUS",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46"
-  },
-  {
-   "name": "A Warrior’s View of Why War Fails: A Conversation With William McRaven",
-   "show": "The Foreign Affairs Interview",
-   "show_uri": "spotify:show:3vCDodm2QxZXsZFzdv1mPV",
-   "release_date": "2026-10-29",
-   "duration_ms": 3456648,
-   "image": "https://i.scdn.co/image/ab67656300005f1f9ed6c133cba9b15fbc0e23ab",
-   "first_seen": "2026-10-30T00:10:03Z",
-   "progress_ms": 1951772,
-   "last_seen": "2026-10-30T00:10:03Z",
-   "url": "https://open.spotify.com/episode/35NkcIJ4MM8Ypq7HCxaDXJ",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f9ed6c133cba9b15fbc0e23ab"
-  },
-  {
-   "name": "Adam Carolla Endorses Michael E. Gates For California Attorney General",
-   "show": "Adam Carolla Show",
-   "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
-   "release_date": "2026-10-29",
-   "duration_ms": 6177776,
-   "image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f",
-   "first_seen": "2026-10-29T21:57:51Z",
-   "progress_ms": 6158254,
-   "last_seen": "2026-10-29T22:10:03Z",
-   "url": "https://open.spotify.com/episode/1IzzU0emDat49yFPGht7Br",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
-  },
-  {
-   "name": "AI Agents Are Already Changing the Price of Goods",
-   "show": "Odd Lots",
-   "show_uri": "spotify:show:1te7oSFyRVekxMBJUSethH",
-   "release_date": "2026-10-26",
-   "duration_ms": 3029368,
-   "image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42",
-   "first_seen": "2026-10-26T16:40:03Z",
-   "progress_ms": 2135787,
-   "last_seen": "2026-10-26T17:10:03Z",
-   "url": "https://open.spotify.com/episode/55hh2G4WGi9VJEkTjnEplc",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42"
   }
  ],
  "top_shows": [
