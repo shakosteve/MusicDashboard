@@ -1,11 +1,11 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-10-31T22:10:07Z",
+ "generated": "2026-10-31T23:40:19Z",
  "totals": {
   "plays": 124617,
   "hours": 8471.2,
   "artists": 701,
-  "albums": 1320,
+  "albums": 1339,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
@@ -915,7 +915,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28541,
+   "plays": 28545,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1009,7 +1009,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32777,
+   "plays": 32781,
    "covers": [
     {
      "name": "Back In Black",
@@ -1103,7 +1103,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9660,
+   "plays": 9663,
    "covers": [
     {
      "name": "Amazing",
@@ -1197,7 +1197,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 11942,
+   "plays": 11943,
    "covers": [
     {
      "name": "Material Girl",
@@ -1291,7 +1291,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15709,
+   "plays": 15711,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1385,7 +1385,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18476,
+   "plays": 18482,
    "covers": [
     {
      "name": "ERROR",
@@ -1487,7 +1487,7 @@ window.LISTENING = {
    "duration_ms": 2813017,
    "image": "https://i.scdn.co/image/ab67656300005f1f836e33e0257047ce378ffcd1",
    "first_seen": "2026-10-31T12:40:02Z",
-   "progress_ms": 1904956,
+   "progress_ms": 2813017,
    "last_seen": "2026-10-31T13:10:03Z",
    "url": "https://open.spotify.com/episode/5iJN5LDBEHMgeHHWnYqXdM",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f836e33e0257047ce378ffcd1"
@@ -1513,7 +1513,7 @@ window.LISTENING = {
    "duration_ms": 1445824,
    "image": "https://i.scdn.co/image/ab67656300005f1fc306eb9be2f4da68a4f7f2be",
    "first_seen": "2026-10-31T11:40:03Z",
-   "progress_ms": 1285072,
+   "progress_ms": 1445824,
    "last_seen": "2026-10-31T11:40:03Z",
    "url": "https://open.spotify.com/episode/48emIw5Hnv1tWsr4UZGNkY",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fc306eb9be2f4da68a4f7f2be"
@@ -1526,7 +1526,7 @@ window.LISTENING = {
    "duration_ms": 521130,
    "image": "https://i.scdn.co/image/ab67656300005f1fc306eb9be2f4da68a4f7f2be",
    "first_seen": "2026-10-31T01:40:03Z",
-   "progress_ms": 58907,
+   "progress_ms": 521130,
    "last_seen": "2026-10-31T01:40:03Z",
    "url": "https://open.spotify.com/episode/0svFHdvTg2zTCFGRU8UOw3",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fc306eb9be2f4da68a4f7f2be"
@@ -1578,7 +1578,7 @@ window.LISTENING = {
    "duration_ms": 3235761,
    "image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b",
    "first_seen": "2026-10-30T11:40:03Z",
-   "progress_ms": 1472000,
+   "progress_ms": 1472240,
    "last_seen": "2026-10-30T12:10:03Z",
    "url": "https://open.spotify.com/episode/6mrYeLiCrFFjjVNEe2df3C",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
@@ -1623,17 +1623,17 @@ window.LISTENING = {
    "show_image": "https://i.scdn.co/image/ab67656300005f1ffed98c4fdc504416141e9409"
   },
   {
-   "name": "Alaska Senate Candidate Debacle",
-   "show": "RealClearPolitics Podcast",
-   "show_uri": "spotify:show:5FkNemg3aIaPPNBImIcW2l",
-   "release_date": "2026-10-29",
-   "duration_ms": 3265515,
-   "image": "https://i.scdn.co/image/ab67656300005f1fdd092c436a5c90c68d443006",
-   "first_seen": "2026-10-30T03:40:03Z",
-   "progress_ms": 1071183,
-   "last_seen": "2026-10-30T03:40:03Z",
-   "url": "https://open.spotify.com/episode/49pUAVnSXDxi2CNJoOvSEy",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fe19edf2c6856b8b09c057f38"
+   "name": "The Ballot Measures: Taxes, Voter ID and Abortion, Plus Plenty of Odds and Ends",
+   "show": "WSJ Opinion: Potomac Watch",
+   "show_uri": "spotify:show:4sMCRFb3B4g9Ax3lDCOOTX",
+   "release_date": "2026-10-30",
+   "duration_ms": 1360143,
+   "image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97",
+   "first_seen": "2026-10-30T12:00:00Z",
+   "progress_ms": 219035,
+   "last_seen": "2026-10-30T12:00:00Z",
+   "url": "https://open.spotify.com/episode/1SzUvk90jzFBBF3xGzNhII",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97"
   }
  ],
  "top_shows": [
