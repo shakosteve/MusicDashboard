@@ -14,7 +14,7 @@ python musicdashboard.py sync                save new recently-played tracks + p
 python musicdashboard.py import [--limit N]  convert the privacy export in data/export/ into history files
 python musicdashboard.py art                 fetch cover art/years for live-synced albums missing them
 python musicdashboard.py build               write docs/data/listening.js
-python musicdashboard.py wrapped [YEAR ...]  write docs/data/wrapped/<year>.js (default: every year) for docs/wrapped.html?year=YEAR
+python musicdashboard.py wrapped [YEAR|YEAR-YEAR ...]  write docs/data/wrapped/<period>.js for docs/wrapped.html?year=<period> (default: see below)
 python musicdashboard.py report [--dry-run|--force]  daily summary email of data/sync.log, listening and import progress
 python musicdashboard.py publish             commit + push docs/data/ if it changed beyond the "generated" timestamp
 sync.bat                                     the scheduled job: sync, import --limit 20 (until data\import.done exists), build, publish, report
@@ -72,6 +72,11 @@ The main page's header links to each year in review. `index.html` also loads `da
 
 `docs/wrapped.html` is a self-contained "year in review" story page with its CSS and JS inline. It's deliberately dark, made of full-screen cards with custom SVG and CSS charts. It loads `data/wrapped/index.js` (the list of available years) and then `data/wrapped/<year>.js` by script injection, so it also works from `file://`.
 - `wrapped()` uses local calendar years via `astimezone()` and counts minutes from `ms_played`.
+- A review covers a year, or a span such as `2013-2019`.
+  - By default, every year from the first one with `WRAPPED_MIN_PLAYS` (1,000) plays gets its own review, and the sparse years before it share one (currently 2013–2019).
+  - `WRAPPED_YEARS` holds numbers for years and strings for spans.
+  - A span's data has `span`, `label`, `period_days` and `by_year` (minutes and days per year). In `wrapped.html` a span gets bars per year instead of the monthly bars and the calendar, no "vs last year" and no rank badges, and dates that include the year.
+  - The discoveries card is skipped when every artist counts as new.
 - Its podcast stats come only from the export.
 - "Discoveries" are artists whose first-ever play falls in that year.
 - Card links (`#streak`) are followed after render. Headless screenshots of a scrolled card come out blank, so to check a card, hide the other cards instead of scrolling to it.

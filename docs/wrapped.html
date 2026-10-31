@@ -169,16 +169,16 @@
 <script src="data/wrapped/index.js"></script>
 <script>
 (function () {
-  const years = window.WRAPPED_YEARS || [];
-  const asked = Number(new URLSearchParams(location.search).get("year"));
-  const year = years.includes(asked) ? asked : years[years.length - 1];
+  const years = window.WRAPPED_YEARS || [];  // numbers for years, "2013-2019" strings for spans
+  const asked = new URLSearchParams(location.search).get("year");
+  const year = years.find((y) => String(y) === asked) ?? years[years.length - 1];
   const story = document.getElementById("story");
   if (!year) {
     story.innerHTML = '<section class="card"><p class="lede">No years yet: run <code>python musicdashboard.py wrapped</code>.</p></section>';
     return;
   }
   const select = document.getElementById("year");
-  select.innerHTML = years.slice().reverse().map((y) => `<option${y === year ? " selected" : ""}>${y}</option>`).join("");
+  select.innerHTML = years.slice().reverse().map((y) => `<option value="${y}"${y === year ? " selected" : ""}>${String(y).replace("-", "–")}</option>`).join("");
   select.onchange = () => { location.search = `?year=${select.value}`; };
   const s = document.createElement("script");
   s.src = `data/wrapped/${year}.js`;
@@ -193,7 +193,7 @@
   const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
   const MONTH_NAMES = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
   const DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
-  const day = (iso) => new Date(iso + "T12:00:00").toLocaleDateString(undefined, { month: "long", day: "numeric" });
+  let day = (iso) => new Date(iso + "T12:00:00").toLocaleDateString(undefined, { month: "long", day: "numeric" });
   const hourName = (h) => h === 0 ? "midnight" : h === 12 ? "noon" : h < 12 ? `${h} AM` : `${h - 12} PM`;
   const img = (src, cls = "") => src ? `<img class="${cls}" src="${esc(src)}" alt="" loading="lazy">` : `<span class="blank ${cls}"></span>`;
   const link = (url, text) => url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(text)}</a>` : esc(text);
@@ -201,51 +201,69 @@
   const argmax = (xs) => xs.indexOf(Math.max(...xs));
 
   function render(w) {
-    document.title = `${w.year} in Review`;
+    // A span ("2013-2019") is one review of several years: bars per year instead of per month, no calendar,
+    // no "vs last year", and dates carry their year.
+    const span = w.span;
+    const label = w.label || String(w.year);
+    const endYear = span ? span[1] : w.year;
+    if (span) day = (iso) => new Date(iso + "T12:00:00").toLocaleDateString(undefined, { month: "long", day: "numeric", year: "numeric" });
+    document.title = `${label} in Review`;
     const thisYear = new Date().getFullYear() === w.year;
     const days = (w.minutes / 1440).toFixed(1);
     const change = w.previous_minutes ? Math.round((w.minutes / w.previous_minutes - 1) * 100) : null;
     const peakMonth = argmax(w.months);
+    const yearly = (w.by_year || []).map((y) => y.minutes);
+    const peakYear = span ? argmax(yearly) : -1;
     const peakHour = argmax(w.hours);
     const peakDay = argmax(w.weekdays);
     const [a1, ...artistsRest] = w.top_artists;
     const [t1, ...tracksRest] = w.top_tracks;
     const topDecade = w.decades.reduce((a, b) => (b.minutes > a.minutes ? b : a), { minutes: 0 });
-    const yearDays = (w.year % 4 === 0 && w.year % 100 !== 0) || w.year % 400 === 0 ? 366 : 365;
+    const yearDays = w.period_days || ((w.year % 4 === 0 && w.year % 100 !== 0) || w.year % 400 === 0 ? 366 : 365);
     const cards = [];
 
     cards.push(card("cover", `
-      <p class="kicker reveal">${thisYear ? "So far this year" : "Your year in listening"}</p>
-      <h1 class="year-outline reveal">${String(w.year).slice(0, 2)}<span class="year-fill">${String(w.year).slice(2)}</span></h1>
+      <p class="kicker reveal">${span ? `The early years, ${span[1] - span[0] + 1} of them` : thisYear ? "So far this year" : "Your year in listening"}</p>
+      <h1 class="year-outline reveal">${span
+        ? `${String(span[0]).slice(2)}<span class="year-fill">–${String(span[1]).slice(2)}</span>`
+        : `${String(w.year).slice(0, 2)}<span class="year-fill">${String(w.year).slice(2)}</span>`}</h1>
       <p class="lede reveal"><b>${fmt(w.plays)}</b> plays. <b>${fmt(w.artists_count)}</b> artists. <b>${fmt(w.tracks_count)}</b> songs.
-        One very long playlist. Let's go through it.</p>
+        ${span ? `${span[1] - span[0] + 1} quiet years, one review.` :"One very long playlist. Let's go through it."}</p>
       <div class="scroll-hint">Scroll ↓</div>`));
 
     cards.push(card("minutes", `
       <p class="kicker reveal">Time spent listening</p>
       <h2 class="big reveal"><span class="count" data-to="${w.minutes}">0</span></h2>
       <p class="lede reveal">minutes of music. That's <b>${days} days</b> straight${change !== null ? `, <b>${change >= 0 ? "up" : "down"} ${Math.abs(change)}%</b> on ${w.year - 1}` : ""}.
-        <b>${MONTH_NAMES[peakMonth]}</b> was your loudest month.</p>
-      <div class="chart reveal" role="img" aria-label="Minutes listened per month">
+        ${span ? `<b>${w.by_year[peakYear].year}</b> was your loudest year.` : `<b>${MONTH_NAMES[peakMonth]}</b> was your loudest month.`}</p>
+      ${span ? `<div class="chart reveal" role="img" aria-label="Minutes listened per year">
+        <div class="cols" style="--n:${yearly.length}">${w.by_year.map((y, i) => `
+          <div class="col${i === peakYear ? " peak" : ""}" data-tip="${y.year}: ${fmt(y.minutes)} min">
+            <div class="bar" style="height:${(y.minutes / Math.max(...yearly)) * 100}%"></div><span>${y.year}</span></div>`).join("")}
+        </div>
+      </div>` : `<div class="chart reveal" role="img" aria-label="Minutes listened per month">
         <div class="cols" style="--n:12">${w.months.map((m, i) => `
           <div class="col${i === peakMonth ? " peak" : ""}" data-tip="${MONTH_NAMES[i]}: ${fmt(m)} min">
             <div class="bar" style="height:${(m / Math.max(...w.months)) * 100}%"></div><span>${MONTHS[i]}</span></div>`).join("")}
         </div>
-      </div>`, "--wash: radial-gradient(90% 70% at 100% 100%, #14532d 0%, transparent 60%), #0f1411;"));
+      </div>`}`,"--wash: radial-gradient(90% 70% at 100% 100%, #14532d 0%, transparent 60%), #0f1411;"));
 
     cards.push(card("streak", `
-      <p class="kicker reveal">Never a quiet day</p>
+      <p class="kicker reveal">${span ? "Longest run" : "Never a quiet day"}</p>
       <h2 class="big reveal">${fmt(w.longest_streak.days)} <span class="accent">days</span></h2>
       <p class="lede reveal">in a row with music on, ending ${day(w.longest_streak.ended)}. You listened on
-        <b>${w.days_listened} of ${yearDays}</b> days.</p>
-      ${heatmap(w)}`, "--wash: radial-gradient(80% 60% at 0% 0%, #1e3a5f 0%, transparent 60%), #0e1116;"));
+        <b>${fmt(w.days_listened)} of ${fmt(yearDays)}</b> days.</p>
+      ${span ? `<div class="hbars reveal" role="img" aria-label="Days listened each year">${w.by_year.map((y) => `
+        <div class="hbar" data-tip="${y.year}: ${fmt(y.days)} days"><span>${y.year}</span>
+          <div class="track"><div class="fill" style="width:${(y.days / Math.max(...w.by_year.map((b) => b.days))) * 100}%"></div></div>
+          <span class="v">${fmt(y.days)} d</span></div>`).join("")}</div>` : heatmap(w)}`, "--wash: radial-gradient(80% 60% at 0% 0%, #1e3a5f 0%, transparent 60%), #0e1116;"));
 
     cards.push(card("artist", `
       ${a1.image ? `<img class="cover-art reveal" src="${esc(a1.image)}" alt="">` : ""}
       <p class="rank reveal">Your top artist</p>
       <h2 class="mid reveal">${link(a1.url, a1.name)}</h2>
-      <p class="lede reveal">${a1.last_year_rank === 1 ? `Number one again, same as ${w.year - 1}.` : a1.last_year_rank ? `Up from #${a1.last_year_rank} in ${w.year - 1}.` : `Brand new at the top.`}
-        First play of the year: ${day(a1.first.slice(0, 10))}.</p>
+      <p class="lede reveal">${span ? `On top across all ${span[1] - span[0] + 1} years.` : a1.last_year_rank === 1 ? `Number one again, same as ${w.year - 1}.` : a1.last_year_rank ? `Up from #${a1.last_year_rank} in ${w.year - 1}.` : `Brand new at the top.`}
+        First play${span ? "" : " of the year"}: ${day(a1.first.slice(0, 10))}.</p>
       <dl class="stats reveal">
         <div><dt>Minutes</dt><dd>${fmt(a1.minutes)}</dd></div>
         <div><dt>Plays</dt><dd>${fmt(a1.plays)}</dd></div>
@@ -257,7 +275,7 @@
       <h2 class="mid reveal">Top artists</h2>
       <ol class="ranked reveal">${artistsRest.map((a, i) => `<li>
         <span class="n">${i + 2}</span>${img(a.image)}
-        <span class="t"><span class="name">${link(a.url, a.name)}${move(a.last_year_rank, i + 2)}</span><span class="sub">${fmt(a.plays)} plays · ${a.share}% of listening</span></span>
+        <span class="t"><span class="name">${link(a.url, a.name)}${span ? "" : move(a.last_year_rank, i + 2)}</span><span class="sub">${fmt(a.plays)} plays · ${a.share}% of listening</span></span>
         <span class="v">${fmt(a.minutes)} min</span></li>`).join("")}</ol>`,
       "--wash: radial-gradient(90% 70% at 100% 0%, #4c1d95 0%, transparent 60%), #110f16;"));
 
@@ -265,8 +283,8 @@
       ${t1.image_large ? `<img class="cover-art reveal" src="${esc(t1.image_large)}" alt="">` : ""}
       <p class="rank reveal">Your most-played song</p>
       <h2 class="mid reveal">${link(t1.url, clean(t1.name))}</h2>
-      <p class="lede reveal">${esc(t1.artist)}. You played it <b>${fmt(t1.plays)} times</b>, about once every
-        <b>${(yearDays / t1.plays).toFixed(1)} days</b>, starting ${day(t1.first.slice(0, 10))}.</p>
+      <p class="lede reveal">${esc(t1.artist)}. You played it <b>${fmt(t1.plays)} times</b>${span ? "" : `, about once every
+        <b>${(yearDays / t1.plays).toFixed(1)} days</b>`}, starting ${day(t1.first.slice(0, 10))}.</p>
       <dl class="stats reveal">
         <div><dt>Plays</dt><dd>${fmt(t1.plays)}</dd></div>
         <div><dt>Minutes</dt><dd>${fmt(t1.minutes)}</dd></div>
@@ -318,17 +336,18 @@
     if (w.decades.length) cards.push(card("decades", `
       <p class="kicker reveal">Time travel</p>
       <h2 class="mid reveal">The ${String(topDecade.decade).slice(2)}s were your decade</h2>
-      <p class="lede reveal">Most of your listening came out ${w.year - topDecade.decade > 30 ? "long before" : "well before"} ${w.year}. By release decade:</p>
+      <p class="lede reveal">Most of your listening came out ${endYear - topDecade.decade > 30 ? "long before" : "well before"} ${label}. By release decade:</p>
       <div class="hbars reveal" role="img" aria-label="Minutes by decade of release">${w.decades.map((d) => `
         <div class="hbar${d === topDecade ? " peak" : ""}" data-tip="${d.decade}s: ${fmt(d.minutes)} min"><span>${String(d.decade).slice(2)}s</span>
           <div class="track"><div class="fill" style="width:${(d.minutes / topDecade.minutes) * 100}%"></div></div>
           <span class="v">${fmt(Math.round(d.minutes / 60))} h</span></div>`).join("")}</div>`,
       "--wash: radial-gradient(80% 60% at 0% 50%, #3730a3 0%, transparent 60%), #0f0f17;"));
 
-    if (w.discoveries.count) cards.push(card("new", `
+    // Skipped when everything counts as new, as in the period the history starts with.
+    if (w.discoveries.count && w.discoveries.count < w.artists_count) cards.push(card("new", `
       <p class="kicker reveal">New to you</p>
       <h2 class="big reveal">${fmt(w.discoveries.count)} <span class="accent">artists</span></h2>
-      <p class="lede reveal">you'd never played before ${w.year}. The ones that stuck:</p>
+      <p class="lede reveal">you'd never played before ${span ? span[0] : w.year}. The ones that stuck:</p>
       <ol class="ranked reveal">${w.discoveries.top.map((a, i) => `<li><span class="n">${i + 1}</span>${img(a.image)}
         <span class="t"><span class="name">${link(a.url, a.name)}</span></span><span class="v">${fmt(a.minutes)} min</span></li>`).join("")}</ol>`,
       "--wash: radial-gradient(90% 70% at 100% 0%, #166534 0%, transparent 60%), #0e140f;"));
@@ -343,8 +362,8 @@
       "--wash: radial-gradient(90% 70% at 0% 0%, #7c2d12 0%, transparent 60%), #140f0d;"));
 
     cards.push(card("summary", `
-      <p class="kicker reveal">That was ${w.year}</p>
-      <h2 class="mid reveal">Your ${w.year} in one frame</h2>
+      <p class="kicker reveal">That was ${label}</p>
+      <h2 class="mid reveal">${span ? "The early years" : `Your ${w.year}`} in one frame</h2>
       <div class="poster reveal">
         ${img(a1.image)}
         <div><h3>Top artists</h3><ol>${w.top_artists.slice(0, 5).map((a) => `<li>${esc(a.name)}</li>`).join("")}</ol></div>
@@ -353,7 +372,7 @@
           <div><dt>Minutes</dt><dd>${fmt(w.minutes)}</dd></div>
           <div><dt>Streak</dt><dd>${w.longest_streak.days} days</dd></div>
           ${topDecade.decade ? `<div><dt>Decade</dt><dd>${topDecade.decade}s</dd></div>` : ""}
-          <div><dt>New artists</dt><dd>${fmt(w.discoveries.count)}</dd></div>
+          ${span ? `<div><dt>Artists</dt><dd>${fmt(w.artists_count)}</dd></div>` : `<div><dt>New artists</dt><dd>${fmt(w.discoveries.count)}</dd></div>`}
         </dl>
       </div>`));
 

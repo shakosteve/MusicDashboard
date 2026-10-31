@@ -77,10 +77,11 @@
   }
 
   // Year-in-review links, newest first, from docs/data/wrapped/index.js (written by `musicdashboard.py wrapped`).
-  const years = (window.WRAPPED_YEARS || []).slice().sort((a, b) => b - a);
+  // Entries are years, or "2013-2019" strings for a span of early years.
+  const years = (window.WRAPPED_YEARS || []).slice().sort((a, b) => String(b).localeCompare(String(a)));
   if (years.length) {
     $("wrapped").hidden = false;
-    $("wrapped").innerHTML = `Year in review: ${years.map((y) => `<a href="wrapped.html?year=${y}">${y}</a>`).join(" · ")}`;
+    $("wrapped").innerHTML = `Year in review: ${years.map((y) => `<a href="wrapped.html?year=${y}">${String(y).replace("-", "–")}</a>`).join(" · ")}`;
   }
 
   $("updated").textContent = `Updated ${new Date(site.generated).toLocaleString()}`;

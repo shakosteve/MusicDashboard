@@ -74,6 +74,7 @@ SYNC_LOG = DATA / "sync.log"
 REPORT_SENT = DATA / "report.sent"
 SHOW_CHECKS = DATA / "show_checks.json"
 MIN_PLAY_MS = 30_000  # Spotify counts a stream from 30 seconds
+WRAPPED_MIN_PLAYS = 1_000  # years with fewer plays, before the first busy one, share one review
 MIN_EPISODE_MS = 10_000  # an episode stopped sooner than this wasn't really listened to
 API = "https://api.spotify.com/v1"
 ACCOUNTS = "https://accounts.spotify.com"
@@ -635,9 +636,11 @@ def build():
     print(f"Wrote {out.relative_to(ROOT)}: {len(plays)} plays, {len(artists)} artists, {len(albums)} albums.")
 
 
-def wrapped(years=None):
-    """Write docs/data/wrapped/<year>.js: a year in review for docs/wrapped.html?year=<year>.
+def wrapped(periods=None):
+    """Write docs/data/wrapped/<period>.js: a review for docs/wrapped.html?year=<period>.
 
+    A period is a year ("2024") or a span of years ("2013-2019"). By default every year from the first
+    with WRAPPED_MIN_PLAYS plays gets its own review, and the sparse years before it share one.
     Years are local calendar years (Wrapped itself stops around the end of October). Podcasts come
     from the export only, since live sync sees episodes just when one happens to be playing."""
     art = load_art()
@@ -655,7 +658,10 @@ def wrapped(years=None):
             if s.get("spotify_episode_uri") and s.get("episode_show_name") and s["ms_played"] >= MIN_PLAY_MS:
                 local = datetime.fromisoformat(s["ts"].replace("Z", "+00:00")).astimezone()
                 episodes_by_year.setdefault(local.year, []).append(s)
-    years = years or sorted(by_year)
+    if not periods:
+        full = [y for y in sorted(by_year) if len(by_year[y]) >= WRAPPED_MIN_PLAYS]
+        early = [y for y in sorted(by_year) if full and y < full[0]]
+        periods = ([f"{early[0]}-{early[-1]}"] if len(early) > 1 else early) + full
     out_dir = ROOT / "docs" / "data" / "wrapped"
 
     def ms(p):
@@ -670,10 +676,15 @@ def wrapped(years=None):
                 "image": a.get("image"), "image_large": a.get("image_large"), "year": a.get("year"),
                 "url": open_url(p["uri"]), **extra}
 
-    for year in years:
-        plays = by_year.get(year, [])
+    for period in periods:
+        first, _, last = str(period).partition("-")
+        first, last = int(first), int(last or first)
+        span = list(range(first, last + 1))
+        key = str(period) if len(span) > 1 else first
+        label = f"{first}–{last}" if len(span) > 1 else str(first)
+        plays = [p for y in span for p in by_year.get(y, [])]
         if not plays:
-            print(f"No plays in {year}.")
+            print(f"No plays in {label}.")
             continue
         artists, tracks, albums = {}, {}, {}
         months, hours, weekdays = [0] * 12, [0] * 24, [0] * 7
@@ -721,21 +732,26 @@ def wrapped(years=None):
             if streak > best:
                 best, streak_end = streak, cur
 
-        new_artists = [a for a in ranked_artists if first_year.get(a["name"]) == year]
-        prev = by_year.get(year - 1, [])
+        new_artists = [a for a in ranked_artists if first_year.get(a["name"]) in span]
+        prev = by_year.get(first - 1, []) if len(span) == 1 else []  # no "vs last year" for a span
         prev_top = Counter()
         for p in prev:
             prev_top[p["artists"][0] if p["artists"] else "Unknown"] += ms(p)
 
         shows = {}
-        for s in episodes_by_year.get(year, []):
+        for s in (s for y in span for s in episodes_by_year.get(y, [])):
             sh = shows.setdefault(s["episode_show_name"], {"name": s["episode_show_name"], "ms": 0, "episodes": set()})
             sh["ms"] += s["ms_played"]
             sh["episodes"].add(s["spotify_episode_uri"])
         top_shows = sorted(shows.values(), key=lambda s: -s["ms"])[:5]
 
         data = {
-            "year": year,
+            "year": key,
+            "label": label,
+            "span": [first, last] if len(span) > 1 else None,
+            "period_days": (datetime(last + 1, 1, 1) - datetime(first, 1, 1)).days,
+            "by_year": [{"year": y, "minutes": minutes(sum(ms(p) for p in by_year.get(y, []))),
+                         "days": len({p["local"].date() for p in by_year.get(y, [])})} for y in span],
             "generated": now_iso(),
             "through": plays[-1]["played_at"],
             "minutes": minutes(total),
@@ -777,11 +793,13 @@ def wrapped(years=None):
                                   "url": open_url((shows_cache.get(s["name"]) or {}).get("uri"))}
                                  for s in top_shows]},
         }
-        out = out_dir / f"{year}.js"
-        write_atomic(out, f"(window.WRAPPED = window.WRAPPED || {{}})[{year}] = "
+        out = out_dir / f"{key}.js"
+        write_atomic(out, f"(window.WRAPPED = window.WRAPPED || {{}})[{json.dumps(key)}] = "
                           + json.dumps(data, ensure_ascii=False) + ";\n")
         print(f"Wrote {out.relative_to(ROOT)}: {len(plays)} plays, {minutes(total):,} minutes.")
-    available = sorted(int(f.stem) for f in out_dir.glob("*.js") if f.stem.isdigit())
+    # Years as numbers and spans as "2013-2019" strings, oldest first.
+    available = sorted((int(f.stem) if f.stem.isdigit() else f.stem for f in out_dir.glob("*.js")
+                        if re.fullmatch(r"\d{4}(-\d{4})?", f.stem)), key=lambda k: str(k))
     write_atomic(out_dir / "index.js", f"window.WRAPPED_YEARS = {json.dumps(available)};\n")
 
 
@@ -1160,8 +1178,10 @@ def main():
     imp = sub.add_parser("import", help="read the privacy data export in data/export/ into the listening history")
     imp.add_argument("--limit", type=int, help="look up at most this many tracks/shows this run")
     sub.add_parser("build", help="write the site's data file, docs/data/listening.js")
-    wrap = sub.add_parser("wrapped", help="write a year in review for docs/wrapped.html (default: every year)")
-    wrap.add_argument("years", nargs="*", type=int)
+    wrap = sub.add_parser("wrapped", help="write a year in review for docs/wrapped.html "
+                                          "(default: every year, with the sparse early years as one span)")
+    wrap.add_argument("years", nargs="*", metavar="YEAR or YEAR-YEAR",
+                      type=lambda s: s if re.fullmatch(r"\d{4}(-\d{4})?", s) else sys.exit(f"Not a year or span: {s}"))
     sub.add_parser("publish", help="commit and push docs/data/ to GitHub when it changed (sync.bat runs this)")
     rep = sub.add_parser("report", help="email the daily summary (sync.bat runs this; sends once a day)")
     rep.add_argument("--force", action="store_true", help="send now, even if today's report went out")
