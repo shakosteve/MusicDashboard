@@ -1,14 +1,102 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-10-31T13:40:08Z",
+ "generated": "2026-10-31T14:10:07Z",
  "totals": {
-  "plays": 124530,
-  "hours": 8465.1,
+  "plays": 124538,
+  "hours": 8465.7,
   "artists": 701,
-  "albums": 1316,
+  "albums": 1317,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "We Are the Champions",
+   "artist": "Queen",
+   "album": "News Of The World",
+   "year": 1977,
+   "image": "https://i.scdn.co/image/ab67616d00001e026c74d509c1581f8e0a35391b",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2736c74d509c1581f8e0a35391b",
+   "url": "https://open.spotify.com/track/0saBeiGcu2dECTvAknHPzL",
+   "album_url": "https://open.spotify.com/album/7hq6mnrJ7CWbemk6B3H8PJ",
+   "played_at": "2026-10-31T14:07:30.563Z"
+  },
+  {
+   "name": "Rhiannon",
+   "artist": "Fleetwood Mac",
+   "album": "Fleetwood Mac",
+   "year": 1975,
+   "image": "https://i.scdn.co/image/ab67616d00001e024fb043195e8d07e72edc7226",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2734fb043195e8d07e72edc7226",
+   "url": "https://open.spotify.com/track/05oETzWbd4SI33qK2gbJfR",
+   "album_url": "https://open.spotify.com/album/5VIQ3VaAoRKOEpJ0fewdvo",
+   "played_at": "2026-10-31T14:04:30.756Z"
+  },
+  {
+   "name": "St. Elmos Fire (Man in Motion)",
+   "artist": "John Parr",
+   "album": "St. Elmo's Fire - Music From The Original Motion Picture Soundtrack",
+   "year": 1985,
+   "image": "https://i.scdn.co/image/ab67616d00001e02c500e7ab2ab870a9fed56e8f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273c500e7ab2ab870a9fed56e8f",
+   "url": "https://open.spotify.com/track/1A2PWRltFrX8iB8IP3CUgo",
+   "album_url": "https://open.spotify.com/album/70P9doc1EAqyb36gRmaPcU",
+   "played_at": "2026-10-31T14:00:17.456Z"
+  },
+  {
+   "name": "True Blue",
+   "artist": "Madonna",
+   "album": "True Blue",
+   "year": 1986,
+   "image": "https://i.scdn.co/image/ab67616d00001e02de3094d98b62340d3268c7bc",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273de3094d98b62340d3268c7bc",
+   "url": "https://open.spotify.com/track/7azOuDeJGbxt5mvq3GQHXp",
+   "album_url": "https://open.spotify.com/album/6fmnT17jc2Sc69q3nza1eD",
+   "played_at": "2026-10-31T13:56:05.156Z"
+  },
+  {
+   "name": "Rumour Has It",
+   "artist": "Adele",
+   "album": "21",
+   "year": 2011,
+   "image": "https://i.scdn.co/image/ab67616d00001e027e7e5dd9d1ab19fcded8a17f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2737e7e5dd9d1ab19fcded8a17f",
+   "url": "https://open.spotify.com/track/2A73XBDBQgmdXO8VsXPWIs",
+   "album_url": "https://open.spotify.com/album/0Lg1uZvI312TPqxNWShFXL",
+   "played_at": "2026-10-31T13:51:47.261Z"
+  },
+  {
+   "name": "All Star",
+   "artist": "Smash Mouth",
+   "album": "Astro Lounge",
+   "year": 1999,
+   "image": "https://i.scdn.co/image/ab67616d00001e024f3bbf9631faeb8de9912a23",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2734f3bbf9631faeb8de9912a23",
+   "url": "https://open.spotify.com/track/3cfOd4CMv2snFaKAnMdnvK",
+   "album_url": "https://open.spotify.com/album/2kyTLcEZe6nc1s6ve0zW9P",
+   "played_at": "2026-10-31T13:48:03.465Z"
+  },
+  {
+   "name": "AMOUR",
+   "artist": "The Warning",
+   "album": "ERROR",
+   "year": 2022,
+   "image": "https://i.scdn.co/image/ab67616d00001e0209fe21cd518d989e0c31224d",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27309fe21cd518d989e0c31224d",
+   "url": "https://open.spotify.com/track/7tgH5rFMIMTfNaycKeMbDb",
+   "album_url": "https://open.spotify.com/album/0el7KHRPZwYXPwXNeSNdJB",
+   "played_at": "2026-10-31T13:44:42.569Z"
+  },
+  {
+   "name": "Fly Like An Eagle - Live",
+   "artist": "Steve Miller Band",
+   "album": "Live! Breaking Ground August 3, 1977",
+   "year": 2021,
+   "image": "https://i.scdn.co/image/ab67616d00001e02bb8183e59cd224aa51e51b0f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273bb8183e59cd224aa51e51b0f",
+   "url": "https://open.spotify.com/track/5ltZYU8LCCMZVU8CVTY2Jc",
+   "album_url": "https://open.spotify.com/album/1GYpibjfj4EFsTsTI1DDjh",
+   "played_at": "2026-10-31T13:40:47.352Z"
+  },
   {
    "name": "You Should Be Dancing",
    "artist": "Bee Gees",
@@ -448,100 +536,12 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/5L6HNuXN71bfeuKXYtRasF",
    "album_url": "https://open.spotify.com/album/7qEP3i0f0zfk6JUFW3SyeN",
    "played_at": "2026-10-29T19:12:46.417Z"
-  },
-  {
-   "name": "Throwing It All Away",
-   "artist": "Genesis",
-   "album": "Invisible Touch",
-   "year": 1986,
-   "image": "https://i.scdn.co/image/ab67616d00001e02eab21c3eb32396aea5d6afbc",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273eab21c3eb32396aea5d6afbc",
-   "url": "https://open.spotify.com/track/6Tl40NMUnrFqhQssrW0TYB",
-   "album_url": "https://open.spotify.com/album/7jYfZ6i2taKDkiuxncR8P1",
-   "played_at": "2026-10-29T19:09:22.651Z"
-  },
-  {
-   "name": "Head Over Heels - Dave Bascombe 7\" N.Mix",
-   "artist": "Tears For Fears, Dave Bascombe",
-   "album": "Songs From The Big Chair (Deluxe)",
-   "year": 1985,
-   "image": "https://i.scdn.co/image/ab67616d00001e0206b6bd6a604768e044abbd38",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27306b6bd6a604768e044abbd38",
-   "url": "https://open.spotify.com/track/5lwQGZYF4BXOzFtXc5zk8q",
-   "album_url": "https://open.spotify.com/album/06J93pgtDCUw6bsAQINhCs",
-   "played_at": "2026-10-29T19:05:31.534Z"
-  },
-  {
-   "name": "Take Me Down",
-   "artist": "The Pretty Reckless",
-   "album": "Who You Selling For",
-   "year": 2016,
-   "image": "https://i.scdn.co/image/ab67616d00001e02c8c07abc6bd4f9f815a96872",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273c8c07abc6bd4f9f815a96872",
-   "url": "https://open.spotify.com/track/2j219ocVSxgt7eZ3KNw9a6",
-   "album_url": "https://open.spotify.com/album/6q2xelSrpNPLJ4KkKgDkRA",
-   "played_at": "2026-10-29T19:01:13.814Z"
-  },
-  {
-   "name": "Feuer frei!",
-   "artist": "Rammstein",
-   "album": "Mutter",
-   "year": 2001,
-   "image": "https://i.scdn.co/image/ab67616d00001e0225d8b7c6feee0c8d6593d606",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27325d8b7c6feee0c8d6593d606",
-   "url": "https://open.spotify.com/track/73JZKk0nb1WOUmh1Eo3Unc",
-   "album_url": "https://open.spotify.com/album/7ikuEzL6xeAgu6yT6YVLy7",
-   "played_at": "2026-10-29T18:57:00.119Z"
-  },
-  {
-   "name": "Can't Fight This Feeling",
-   "artist": "REO Speedwagon",
-   "album": "Wheels Are Turnin'",
-   "year": 1984,
-   "image": "https://i.scdn.co/image/ab67616d00001e02b815265c56ecfa5136a4015d",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273b815265c56ecfa5136a4015d",
-   "url": "https://open.spotify.com/track/5WwqdeavrQrbeAMDxGawse",
-   "album_url": "https://open.spotify.com/album/35KafpmKh0nDLzBLV75MpR",
-   "played_at": "2026-10-29T14:48:26.037Z"
-  },
-  {
-   "name": "Forever Young",
-   "artist": "Alphaville",
-   "album": "Forever Young",
-   "year": 1984,
-   "image": "https://i.scdn.co/image/ab67616d00001e02b9c4979446c4d39bc08e9503",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273b9c4979446c4d39bc08e9503",
-   "url": "https://open.spotify.com/track/4S1VYqwfkLit9mKVY3MXoo",
-   "album_url": "https://open.spotify.com/album/2256qKBSQdt53T5dz4Kdcs",
-   "played_at": "2026-10-29T14:43:30.814Z"
-  },
-  {
-   "name": "You Really Got Me",
-   "artist": "The Kinks",
-   "album": "Kinks (Deluxe Edition)",
-   "year": 1964,
-   "image": "https://i.scdn.co/image/ab67616d00001e023b662e4bab01440eb4f31793",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2733b662e4bab01440eb4f31793",
-   "url": "https://open.spotify.com/track/6tZdL3Zp8JgrfDbsSeSV1S",
-   "album_url": "https://open.spotify.com/album/6HrqKlhAQiv4GjFjwmuxDQ",
-   "played_at": "2026-10-29T14:39:43.623Z"
-  },
-  {
-   "name": "Gifts From The Holy Ghost",
-   "artist": "Dorothy",
-   "album": "Gifts From The Holy Ghost",
-   "year": 2022,
-   "image": "https://i.scdn.co/image/ab67616d00001e021aa1b81fbee5a40d6fb4c8c2",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2731aa1b81fbee5a40d6fb4c8c2",
-   "url": "https://open.spotify.com/track/0nO4haW10rA70k1KQqlVdn",
-   "album_url": "https://open.spotify.com/album/258YZ2TUzI1SJBU626eYFc",
-   "played_at": "2026-10-29T14:37:29.223Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10641,
+   "plays": 10642,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
@@ -565,7 +565,7 @@ window.LISTENING = {
   },
   {
    "name": "Madonna",
-   "plays": 2101,
+   "plays": 2102,
    "url": "https://open.spotify.com/artist/6tbjWDEIzxoDsBA1FuhfPW",
    "image": "https://i.scdn.co/image/ab67616d00001e026b44fa8f5415cc4c945117be"
   },
@@ -577,7 +577,7 @@ window.LISTENING = {
   },
   {
    "name": "Steve Miller Band",
-   "plays": 1944,
+   "plays": 1945,
    "url": "https://open.spotify.com/artist/6QtGlUje9TIkLrgPZrESuk",
    "image": "https://i.scdn.co/image/ab67616d00001e02632b907273dba6a6062fb780"
   },
@@ -589,7 +589,7 @@ window.LISTENING = {
   },
   {
    "name": "Queen",
-   "plays": 1910,
+   "plays": 1911,
    "url": "https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d",
    "image": "https://i.scdn.co/image/ab67616d00001e0207744e2ed983efa3e6620a47"
   },
@@ -665,7 +665,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b27309fe21cd518d989e0c31224d",
    "url": "https://open.spotify.com/track/5On0z2PZjPf5x7eB2afLEf",
    "album_url": "https://open.spotify.com/album/0el7KHRPZwYXPwXNeSNdJB",
-   "plays": 1315
+   "plays": 1316
   },
   {
    "name": "More Than a Feeling",
@@ -915,7 +915,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28525,
+   "plays": 28527,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1009,7 +1009,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32758,
+   "plays": 32760,
    "covers": [
     {
      "name": "Back In Black",
@@ -1103,7 +1103,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9649,
+   "plays": 9650,
    "covers": [
     {
      "name": "Amazing",
@@ -1291,7 +1291,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15702,
+   "plays": 15703,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1368,7 +1368,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2737e7e5dd9d1ab19fcded8a17f",
      "url": "https://open.spotify.com/track/1c8gk2PeTE04A1pIDH9YMk",
      "album_url": "https://open.spotify.com/album/0Lg1uZvI312TPqxNWShFXL",
-     "plays": 463
+     "plays": 464
     },
     {
      "name": "N.I.B.",
@@ -1385,7 +1385,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18454,
+   "plays": 18456,
    "covers": [
     {
      "name": "ERROR",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b27309fe21cd518d989e0c31224d",
      "url": "https://open.spotify.com/track/5On0z2PZjPf5x7eB2afLEf",
      "album_url": "https://open.spotify.com/album/0el7KHRPZwYXPwXNeSNdJB",
-     "plays": 1315
+     "plays": 1316
     },
     {
      "name": "Leroy",
