@@ -1,14 +1,91 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-10-31T16:10:07Z",
+ "generated": "2026-10-31T16:40:07Z",
  "totals": {
-  "plays": 124557,
-  "hours": 8466.9,
+  "plays": 124564,
+  "hours": 8467.4,
   "artists": 701,
   "albums": 1318,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Save Me Now",
+   "artist": "Billy Idol",
+   "album": "Kings & Queens Of The Underground",
+   "year": 2014,
+   "image": "https://i.scdn.co/image/ab67616d00001e02f21a536f6ae9d324f29917ed",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273f21a536f6ae9d324f29917ed",
+   "url": "https://open.spotify.com/track/2rbH7E6pLeAOsgE5PUIEgT",
+   "album_url": "https://open.spotify.com/album/1WQHG6CYgc5fB9ByTLkskB",
+   "played_at": "2026-10-31T16:36:22.912Z"
+  },
+  {
+   "name": "Piece of My Heart",
+   "artist": "Big Brother & The Holding Company, Janis Joplin",
+   "album": "Cheap Thrills",
+   "year": 1968,
+   "image": "https://i.scdn.co/image/ab67616d00001e02b6bd5786c0a512ec463f3cb7",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273b6bd5786c0a512ec463f3cb7",
+   "url": "https://open.spotify.com/track/1xKQbqQtQWrtQS47fUJBtl",
+   "album_url": "https://open.spotify.com/album/2rogKfOpmCFuqNhtGKf2dX",
+   "played_at": "2026-10-31T16:31:50.564Z"
+  },
+  {
+   "name": "Little Wing",
+   "artist": "Jimi Hendrix",
+   "album": "Axis: Bold As Love",
+   "year": 1967,
+   "image": "https://i.scdn.co/image/ab67616d00001e0219dcd95d28b63d10164327f2",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27319dcd95d28b63d10164327f2",
+   "url": "https://open.spotify.com/track/1Eolhana7nKHYpcYpdVcT5",
+   "album_url": "https://open.spotify.com/album/3uFZf8rykoHo7XMIQVYW6r",
+   "played_at": "2026-10-31T16:27:36.039Z"
+  },
+  {
+   "name": "Monster",
+   "artist": "L7",
+   "album": "Bricks Are Heavy",
+   "year": 1992,
+   "image": "https://i.scdn.co/image/ab67616d00001e02946c2a344a47393f80170cdc",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273946c2a344a47393f80170cdc",
+   "url": "https://open.spotify.com/track/4gEmS1pwdSjAEmrHdar9je",
+   "album_url": "https://open.spotify.com/album/0z7Dc7FRsDH7E4kj32mKyM",
+   "played_at": "2026-10-31T16:25:09.890Z"
+  },
+  {
+   "name": "You Give Love A Bad Name",
+   "artist": "Bon Jovi",
+   "album": "Slippery When Wet",
+   "year": 1986,
+   "image": "https://i.scdn.co/image/ab67616d00001e021336b31b6a1799f0de5807ac",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2731336b31b6a1799f0de5807ac",
+   "url": "https://open.spotify.com/track/0rmGAIH9LNJewFw7nKzZnc",
+   "album_url": "https://open.spotify.com/album/0kBfgEilUFCMIQY5IOjG4t",
+   "played_at": "2026-10-31T16:22:12.734Z"
+  },
+  {
+   "name": "Silent Lucidity",
+   "artist": "Queensrÿche",
+   "album": "Empire (20th Anniversary Edition)",
+   "year": 1990,
+   "image": "https://i.scdn.co/image/ab67616d00001e02eeb8caa4fee70e9f8ec15d3b",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273eeb8caa4fee70e9f8ec15d3b",
+   "url": "https://open.spotify.com/track/6OSyCAmXT4Gkd3OQ2aPOaF",
+   "album_url": "https://open.spotify.com/album/6jmesEKzKTLAa3oI96jWow",
+   "played_at": "2026-10-31T16:18:29.683Z"
+  },
+  {
+   "name": "Funky Cold Medina",
+   "artist": "Tone-Loc",
+   "album": "Loc-ed After Dark",
+   "year": 1989,
+   "image": "https://i.scdn.co/image/ab67616d00001e027d02bf7ee36c4c913636a4f3",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2737d02bf7ee36c4c913636a4f3",
+   "url": "https://open.spotify.com/track/5YIF6HSOtHN9HdcE5IPzMe",
+   "album_url": "https://open.spotify.com/album/6xE6A0Vwd2LmopR6Mn8UFG",
+   "played_at": "2026-10-31T16:12:41.382Z"
+  },
   {
    "name": "3AM",
    "artist": "Matchbox Twenty",
@@ -459,83 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/6xvriZfsi9MZ8TAE2wqY2z",
    "album_url": "https://open.spotify.com/album/0Rl9omLw3rdkK7OiSnHGAG",
    "played_at": "2026-10-30T22:23:51.684Z"
-  },
-  {
-   "name": "Scent of Dark",
-   "artist": "Tony Iommi",
-   "album": "Scent of Dark",
-   "year": 2021,
-   "image": "https://i.scdn.co/image/ab67616d00001e0219f8dc31d7e67d46623a1ec2",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27319f8dc31d7e67d46623a1ec2",
-   "url": "https://open.spotify.com/track/0WrvyawIOAP9gIn0wBjkkl",
-   "album_url": "https://open.spotify.com/album/3alSsga0FiSbG9nz5vRDmA",
-   "played_at": "2026-10-30T22:15:56.740Z"
-  },
-  {
-   "name": "Sweet Dreams (Are Made of This) - 2005 Remaster",
-   "artist": "Eurythmics, Annie Lennox, Dave Stewart",
-   "album": "Sweet Dreams (Are Made Of This)",
-   "year": 1983,
-   "image": "https://i.scdn.co/image/ab67616d00001e02b3994c94dfb241923664bb4d",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273b3994c94dfb241923664bb4d",
-   "url": "https://open.spotify.com/track/1TfqLAPs4K3s2rJMoCokcS",
-   "album_url": "https://open.spotify.com/album/5jNDWA19BJbE24x1UUJGRY",
-   "played_at": "2026-10-30T19:42:34.817Z"
-  },
-  {
-   "name": "Manda Bala",
-   "artist": "David Lee Roth",
-   "album": "Manda Bala",
-   "year": 2023,
-   "image": "https://i.scdn.co/image/ab67616d00001e021647e59663ba9497a0b49d5d",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2731647e59663ba9497a0b49d5d",
-   "url": "https://open.spotify.com/track/61ygKAunaCDpQvJvB74sg4",
-   "album_url": "https://open.spotify.com/album/68q0hjvJdPDmjyPhUFTKH9",
-   "played_at": "2026-10-30T18:42:15.719Z"
-  },
-  {
-   "name": "Take It Easy - 2013 Remaster",
-   "artist": "Eagles",
-   "album": "Eagles (2013 Remaster)",
-   "year": 1972,
-   "image": "https://i.scdn.co/image/ab67616d00001e02c13acd642ba9f6f5f127aa1b",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273c13acd642ba9f6f5f127aa1b",
-   "url": "https://open.spotify.com/track/4yugZvBYaoREkJKtbG08Qr",
-   "album_url": "https://open.spotify.com/album/51B7LbLWgYLKBVSpkan8Z7",
-   "played_at": "2026-10-30T18:38:58.347Z"
-  },
-  {
-   "name": "Magic Man",
-   "artist": "Heart",
-   "album": "Dreamboat Annie",
-   "year": 1975,
-   "image": "https://i.scdn.co/image/ab67616d00001e028e8c08ca2feb999bb84f05e6",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2738e8c08ca2feb999bb84f05e6",
-   "url": "https://open.spotify.com/track/4sUlsy0tPv9n5nqrqeA0lE",
-   "album_url": "https://open.spotify.com/album/2N0AgtWbCmVoNUl2GN1opH",
-   "played_at": "2026-10-30T17:37:05.465Z"
-  },
-  {
-   "name": "You Are So Beautiful",
-   "artist": "Joe Cocker",
-   "album": "I Can Stand A Little Rain",
-   "year": 1974,
-   "image": "https://i.scdn.co/image/ab67616d00001e027e595e624e19b191972d8a7a",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2737e595e624e19b191972d8a7a",
-   "url": "https://open.spotify.com/track/1gJOqXpRjz9GeEEwQpcujK",
-   "album_url": "https://open.spotify.com/album/3pZNBYMFG6OSNuajvsdN4Q",
-   "played_at": "2026-10-30T17:31:36.757Z"
-  },
-  {
-   "name": "Shoot to Thrill",
-   "artist": "AC/DC",
-   "album": "Back In Black",
-   "year": 1980,
-   "image": "https://i.scdn.co/image/ab67616d00001e02ff191d7fbdb5a13eaf84132b",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273ff191d7fbdb5a13eaf84132b",
-   "url": "https://open.spotify.com/track/0C80GCp0mMuBzLf3EAXqxv",
-   "album_url": "https://open.spotify.com/album/6mUdeDZCsExyJLMdAfDuwh",
-   "played_at": "2026-10-30T17:28:56.463Z"
   }
  ],
  "top_artists": [
@@ -821,7 +821,7 @@ window.LISTENING = {
   },
   {
    "decade": 1960,
-   "plays": 7034,
+   "plays": 7036,
    "covers": [
     {
      "name": "Your Time Is Gonna Come - 1990 Remaster",
@@ -1009,7 +1009,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32766,
+   "plays": 32768,
    "covers": [
     {
      "name": "Back In Black",
@@ -1075,7 +1075,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2731336b31b6a1799f0de5807ac",
      "url": "https://open.spotify.com/track/0rmGAIH9LNJewFw7nKzZnc",
      "album_url": "https://open.spotify.com/album/0kBfgEilUFCMIQY5IOjG4t",
-     "plays": 680
+     "plays": 681
     },
     {
      "name": "Sharp Dressed Man - 2008 Remaster",
@@ -1103,7 +1103,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9652,
+   "plays": 9654,
    "covers": [
     {
      "name": "Amazing",
@@ -1291,7 +1291,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15706,
+   "plays": 15707,
    "covers": [
     {
      "name": "XXI Century Blood",
