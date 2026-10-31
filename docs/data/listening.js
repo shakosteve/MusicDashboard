@@ -1,14 +1,91 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-10-31T17:53:10Z",
+ "generated": "2026-10-31T18:10:08Z",
  "totals": {
-  "plays": 124578,
-  "hours": 8468.4,
+  "plays": 124585,
+  "hours": 8468.9,
   "artists": 701,
   "albums": 1318,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Runnin' with the Devil - 2015 Remaster",
+   "artist": "Van Halen",
+   "album": "Van Halen (Remastered)",
+   "year": 1978,
+   "image": "https://i.scdn.co/image/ab67616d00001e0217dd812df38fed44d6d2036e",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27317dd812df38fed44d6d2036e",
+   "url": "https://open.spotify.com/track/3KhF2YiNpJvGpfiCW45R6D",
+   "album_url": "https://open.spotify.com/album/7DdEbYFPKTZ8KB4z6L4UnQ",
+   "played_at": "2026-10-31T18:08:51.472Z"
+  },
+  {
+   "name": "Swingtown",
+   "artist": "Steve Miller Band",
+   "album": "Greatest Hits 1974-78",
+   "year": 1978,
+   "image": "https://i.scdn.co/image/ab67616d00001e02632b907273dba6a6062fb780",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273632b907273dba6a6062fb780",
+   "url": "https://open.spotify.com/track/4F01HOLdVKrIfH6LwOi07f",
+   "album_url": "https://open.spotify.com/album/5hLazW5a3Ysgy3dncwGgUn",
+   "played_at": "2026-10-31T18:05:16.192Z"
+  },
+  {
+   "name": "Riders on the Storm",
+   "artist": "The Doors",
+   "album": "L.A. Woman",
+   "year": 1971,
+   "image": "https://i.scdn.co/image/ab67616d00001e0211d9db4f0db1e2689ca22c3d",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27311d9db4f0db1e2689ca22c3d",
+   "url": "https://open.spotify.com/track/14XWXWv5FoCbFzLksawpEe",
+   "album_url": "https://open.spotify.com/album/7IKUTIc9UWuVngyGPtqNHS",
+   "played_at": "2026-10-31T18:01:45.786Z"
+  },
+  {
+   "name": "Come Away With Me",
+   "artist": "Norah Jones",
+   "album": "Come Away With Me (Super Deluxe Edition)",
+   "year": 2002,
+   "image": "https://i.scdn.co/image/ab67616d00001e02c648a42b5dad72c8aafceeec",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273c648a42b5dad72c8aafceeec",
+   "url": "https://open.spotify.com/track/6jGnykaS6TkWp15utXSAeI",
+   "album_url": "https://open.spotify.com/album/3ArSFkv4OQOosOvYTrZNIl",
+   "played_at": "2026-10-31T17:54:30.563Z"
+  },
+  {
+   "name": "Holy Diver",
+   "artist": "Dio",
+   "album": "Holy Diver",
+   "year": 1983,
+   "image": "https://i.scdn.co/image/ab67616d00001e022457ab409ae106f8ae1dff89",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2732457ab409ae106f8ae1dff89",
+   "url": "https://open.spotify.com/track/57fqmDaokbxZ3TaB0jp39q",
+   "album_url": "https://open.spotify.com/album/2ivNJLSx8Rbvnsvcn01Yt3",
+   "played_at": "2026-10-31T17:51:11.873Z"
+  },
+  {
+   "name": "MORE",
+   "artist": "The Warning",
+   "album": "Keep Me Fed",
+   "year": 2024,
+   "image": "https://i.scdn.co/image/ab67616d00001e0293c50048dce0f88071728c8c",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27393c50048dce0f88071728c8c",
+   "url": "https://open.spotify.com/track/5IDRSA83ayUGCCRdfdl04z",
+   "album_url": "https://open.spotify.com/album/1rYHznqLeJVXuy0YqwERGv",
+   "played_at": "2026-10-31T17:45:17.553Z"
+  },
+  {
+   "name": "Whole Lotta Love - 1990 Remaster",
+   "artist": "Led Zeppelin",
+   "album": "Led Zeppelin II (1994 Remaster)",
+   "year": 1969,
+   "image": "https://i.scdn.co/image/ab67616d00001e02fc4f17340773c6c3579fea0d",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273fc4f17340773c6c3579fea0d",
+   "url": "https://open.spotify.com/track/0hCB0YR03f6AmQaHbwWDe8",
+   "album_url": "https://open.spotify.com/album/70lQYZtypdCALtFVlQAcvx",
+   "played_at": "2026-10-31T17:42:09.396Z"
+  },
   {
    "name": "S!CK - Live from Auditorio Nacional, CDMX",
    "artist": "The Warning",
@@ -459,89 +536,12 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/05oETzWbd4SI33qK2gbJfR",
    "album_url": "https://open.spotify.com/album/5VIQ3VaAoRKOEpJ0fewdvo",
    "played_at": "2026-10-31T14:04:30.756Z"
-  },
-  {
-   "name": "St. Elmos Fire (Man in Motion)",
-   "artist": "John Parr",
-   "album": "St. Elmo's Fire - Music From The Original Motion Picture Soundtrack",
-   "year": 1985,
-   "image": "https://i.scdn.co/image/ab67616d00001e02c500e7ab2ab870a9fed56e8f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273c500e7ab2ab870a9fed56e8f",
-   "url": "https://open.spotify.com/track/1A2PWRltFrX8iB8IP3CUgo",
-   "album_url": "https://open.spotify.com/album/70P9doc1EAqyb36gRmaPcU",
-   "played_at": "2026-10-31T14:00:17.456Z"
-  },
-  {
-   "name": "True Blue",
-   "artist": "Madonna",
-   "album": "True Blue",
-   "year": 1986,
-   "image": "https://i.scdn.co/image/ab67616d00001e02de3094d98b62340d3268c7bc",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273de3094d98b62340d3268c7bc",
-   "url": "https://open.spotify.com/track/7azOuDeJGbxt5mvq3GQHXp",
-   "album_url": "https://open.spotify.com/album/6fmnT17jc2Sc69q3nza1eD",
-   "played_at": "2026-10-31T13:56:05.156Z"
-  },
-  {
-   "name": "Rumour Has It",
-   "artist": "Adele",
-   "album": "21",
-   "year": 2011,
-   "image": "https://i.scdn.co/image/ab67616d00001e027e7e5dd9d1ab19fcded8a17f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2737e7e5dd9d1ab19fcded8a17f",
-   "url": "https://open.spotify.com/track/2A73XBDBQgmdXO8VsXPWIs",
-   "album_url": "https://open.spotify.com/album/0Lg1uZvI312TPqxNWShFXL",
-   "played_at": "2026-10-31T13:51:47.261Z"
-  },
-  {
-   "name": "All Star",
-   "artist": "Smash Mouth",
-   "album": "Astro Lounge",
-   "year": 1999,
-   "image": "https://i.scdn.co/image/ab67616d00001e024f3bbf9631faeb8de9912a23",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2734f3bbf9631faeb8de9912a23",
-   "url": "https://open.spotify.com/track/3cfOd4CMv2snFaKAnMdnvK",
-   "album_url": "https://open.spotify.com/album/2kyTLcEZe6nc1s6ve0zW9P",
-   "played_at": "2026-10-31T13:48:03.465Z"
-  },
-  {
-   "name": "AMOUR",
-   "artist": "The Warning",
-   "album": "ERROR",
-   "year": 2022,
-   "image": "https://i.scdn.co/image/ab67616d00001e0209fe21cd518d989e0c31224d",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27309fe21cd518d989e0c31224d",
-   "url": "https://open.spotify.com/track/7tgH5rFMIMTfNaycKeMbDb",
-   "album_url": "https://open.spotify.com/album/0el7KHRPZwYXPwXNeSNdJB",
-   "played_at": "2026-10-31T13:44:42.569Z"
-  },
-  {
-   "name": "Fly Like An Eagle - Live",
-   "artist": "Steve Miller Band",
-   "album": "Live! Breaking Ground August 3, 1977",
-   "year": 2021,
-   "image": "https://i.scdn.co/image/ab67616d00001e02bb8183e59cd224aa51e51b0f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273bb8183e59cd224aa51e51b0f",
-   "url": "https://open.spotify.com/track/5ltZYU8LCCMZVU8CVTY2Jc",
-   "album_url": "https://open.spotify.com/album/1GYpibjfj4EFsTsTI1DDjh",
-   "played_at": "2026-10-31T13:40:47.352Z"
-  },
-  {
-   "name": "You Should Be Dancing",
-   "artist": "Bee Gees",
-   "album": "Children Of The World",
-   "year": 1976,
-   "image": "https://i.scdn.co/image/ab67616d00001e0245b4e9481e0846c16553a048",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27345b4e9481e0846c16553a048",
-   "url": "https://open.spotify.com/track/2xiOdusRnZezQok1RgLNeS",
-   "album_url": "https://open.spotify.com/album/4V8z8vZUCyYUBlUI9CfSbY",
-   "played_at": "2026-10-31T13:33:26.625Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10646,
+   "plays": 10647,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
@@ -559,7 +559,7 @@ window.LISTENING = {
   },
   {
    "name": "Led Zeppelin",
-   "plays": 2295,
+   "plays": 2296,
    "url": "https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp",
    "image": "https://i.scdn.co/image/ab67616d00001e02c8a11e48c91a982d086afc69"
   },
@@ -571,13 +571,13 @@ window.LISTENING = {
   },
   {
    "name": "Van Halen",
-   "plays": 2047,
+   "plays": 2048,
    "url": "https://open.spotify.com/artist/2cnMpRsOVqtPMfq7YiFE6K",
    "image": "https://i.scdn.co/image/ab67616d00001e02b414c63fb435b622238c15ed"
   },
   {
    "name": "Steve Miller Band",
-   "plays": 1946,
+   "plays": 1947,
    "url": "https://open.spotify.com/artist/6QtGlUje9TIkLrgPZrESuk",
    "image": "https://i.scdn.co/image/ab67616d00001e02632b907273dba6a6062fb780"
   },
@@ -821,7 +821,7 @@ window.LISTENING = {
   },
   {
    "decade": 1960,
-   "plays": 7036,
+   "plays": 7037,
    "covers": [
     {
      "name": "Your Time Is Gonna Come - 1990 Remaster",
@@ -843,7 +843,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273fc4f17340773c6c3579fea0d",
      "url": "https://open.spotify.com/track/0hCB0YR03f6AmQaHbwWDe8",
      "album_url": "https://open.spotify.com/album/70lQYZtypdCALtFVlQAcvx",
-     "plays": 437
+     "plays": 438
     },
     {
      "name": "All Along the Watchtower",
@@ -915,7 +915,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28530,
+   "plays": 28533,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -981,7 +981,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273632b907273dba6a6062fb780",
      "url": "https://open.spotify.com/track/2zI3bUYn2pcF27of6i2oqK",
      "album_url": "https://open.spotify.com/album/5hLazW5a3Ysgy3dncwGgUn",
-     "plays": 661
+     "plays": 662
     },
     {
      "name": "Take It Easy - 2013 Remaster",
@@ -1009,7 +1009,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32771,
+   "plays": 32772,
    "covers": [
     {
      "name": "Back In Black",
@@ -1197,7 +1197,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 11938,
+   "plays": 11939,
    "covers": [
     {
      "name": "Material Girl",
@@ -1263,7 +1263,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273c648a42b5dad72c8aafceeec",
      "url": "https://open.spotify.com/track/1zNXF2svmdlNxfS5XeNUgr",
      "album_url": "https://open.spotify.com/album/3ArSFkv4OQOosOvYTrZNIl",
-     "plays": 252
+     "plays": 253
     },
     {
      "name": "Superstition - Single Version",
@@ -1385,7 +1385,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18466,
+   "plays": 18467,
    "covers": [
     {
      "name": "ERROR",
