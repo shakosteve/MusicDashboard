@@ -1,14 +1,80 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-01T20:40:05Z",
+ "generated": "2026-11-01T21:10:05Z",
  "totals": {
-  "plays": 124681,
-  "hours": 8475.8,
+  "plays": 124687,
+  "hours": 8476.1,
   "artists": 701,
   "albums": 1517,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "The Joker",
+   "artist": "Steve Miller Band",
+   "album": "Greatest Hits 1974-78",
+   "year": 1978,
+   "image": "https://i.scdn.co/image/ab67616d00001e02632b907273dba6a6062fb780",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273632b907273dba6a6062fb780",
+   "url": "https://open.spotify.com/track/6FKU84JHM1lbiy5Dx0Dyqd",
+   "album_url": "https://open.spotify.com/album/5hLazW5a3Ysgy3dncwGgUn",
+   "played_at": "2026-11-01T21:05:28.824Z"
+  },
+  {
+   "name": "Double Vision",
+   "artist": "Foreigner",
+   "album": "Double Vision (Expanded)",
+   "year": 1978,
+   "image": "https://i.scdn.co/image/ab67616d00001e025627aa0842d6287bbb223cbf",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2735627aa0842d6287bbb223cbf",
+   "url": "https://open.spotify.com/track/0fsj3HxzBHev6EJ7OLFE3r",
+   "album_url": "https://open.spotify.com/album/6lu6DYE0eHHp1gd3QGUYhu",
+   "played_at": "2026-11-01T21:01:50.570Z"
+  },
+  {
+   "name": "Every Little Thing She Does Is Magic",
+   "artist": "The Police",
+   "album": "Ghost In The Machine (Remastered 2003)",
+   "year": 1981,
+   "image": "https://i.scdn.co/image/ab67616d00001e02b7879980ef2ea7ac1cc29316",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273b7879980ef2ea7ac1cc29316",
+   "url": "https://open.spotify.com/track/44aTAUBF0g6sMkMNE8I5kd",
+   "album_url": "https://open.spotify.com/album/5jkwdY6jS1Hzi8epr6HW7h",
+   "played_at": "2026-11-01T20:53:41.529Z"
+  },
+  {
+   "name": "My Generation - Mono Version",
+   "artist": "The Who",
+   "album": "The Who Sings My Generation (U.S. Version)",
+   "year": 1966,
+   "image": "https://i.scdn.co/image/ab67616d00001e02cbee7274742b0471f39bb8c8",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273cbee7274742b0471f39bb8c8",
+   "url": "https://open.spotify.com/track/45s88Xopo6KvHc0PQ05aGg",
+   "album_url": "https://open.spotify.com/album/4upv5ZjkKMIUBjFNthFQih",
+   "played_at": "2026-11-01T20:49:20.481Z"
+  },
+  {
+   "name": "Locomotive Breath",
+   "artist": "Jethro Tull",
+   "album": "Aqualung (Special Edition)",
+   "year": 1971,
+   "image": "https://i.scdn.co/image/ab67616d00001e028bc3269ba09264dcf9a5b924",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2738bc3269ba09264dcf9a5b924",
+   "url": "https://open.spotify.com/track/0MYNeFsKpzBHwrJGfWZysV",
+   "album_url": "https://open.spotify.com/album/0NGM3Ftwjw0dLNpAowmz3x",
+   "played_at": "2026-11-01T20:46:00.065Z"
+  },
+  {
+   "name": "Take The Money And Run",
+   "artist": "Steve Miller Band",
+   "album": "Fly Like An Eagle",
+   "year": 1976,
+   "image": "https://i.scdn.co/image/ab67616d00001e022fc23e78e87d793054bba090",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2732fc23e78e87d793054bba090",
+   "url": "https://open.spotify.com/track/1ZhrREyOOeFV6TxDOyiPwu",
+   "album_url": "https://open.spotify.com/album/0fjJOLqG3v7vXRYhz2wxPC",
+   "played_at": "2026-11-01T20:41:33.550Z"
+  },
   {
    "name": "Hangman Jury",
    "artist": "Aerosmith",
@@ -470,72 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/27RDQ0TfxzWMlQFuKrPT11",
    "album_url": "https://open.spotify.com/album/5SxZmGwc4eJuPp6PcO4JgJ",
    "played_at": "2026-11-01T13:11:23.913Z"
-  },
-  {
-   "name": "Our Lips Are Sealed - Single Version",
-   "artist": "The Go-Go's",
-   "album": "Beauty And The Beat",
-   "year": 1981,
-   "image": "https://i.scdn.co/image/ab67616d00001e028a25755534e84d8a604e6b38",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2738a25755534e84d8a604e6b38",
-   "url": "https://open.spotify.com/track/1GVnAD8Iz45rux6EC657Yv",
-   "album_url": "https://open.spotify.com/album/1L4HE00En7eNK74voVZums",
-   "played_at": "2026-11-01T13:08:43.319Z"
-  },
-  {
-   "name": "Have You Ever Seen The Rain",
-   "artist": "Creedence Clearwater Revival",
-   "album": "Pendulum (Expanded Edition)",
-   "year": 1970,
-   "image": "https://i.scdn.co/image/ab67616d00001e0251f311c2fb06ad2789e3ff91",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27351f311c2fb06ad2789e3ff91",
-   "url": "https://open.spotify.com/track/2LawezPeJhN4AWuSB0GtAU",
-   "album_url": "https://open.spotify.com/album/372cMadhAGlNuDnc8TssqF",
-   "played_at": "2026-11-01T13:05:54.880Z"
-  },
-  {
-   "name": "Just a Gigolo / I Ain't Got Nobody - 45 Version",
-   "artist": "David Lee Roth",
-   "album": "Just a Gigolo/I Ain't Got Nobody (45 Version) / Just a Gigolo/I Ain't Got Nobody [Remix]",
-   "year": 1985,
-   "image": "https://i.scdn.co/image/ab67616d00001e021015021b32117f9df269539c",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2731015021b32117f9df269539c",
-   "url": "https://open.spotify.com/track/0QcIphdyZIVgFvW7ijEiPX",
-   "album_url": "https://open.spotify.com/album/46LRDmqWRZ3kiPcZ1LuvSc",
-   "played_at": "2026-11-01T13:03:14.211Z"
-  },
-  {
-   "name": "Bohemian Rhapsody",
-   "artist": "Queen",
-   "album": "A Night At The Opera",
-   "year": 1975,
-   "image": "https://i.scdn.co/image/ab67616d00001e02fdab4a163ab9f6db72c952ee",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273fdab4a163ab9f6db72c952ee",
-   "url": "https://open.spotify.com/track/2JiDi0qAXsPwhPqA2qaKGt",
-   "album_url": "https://open.spotify.com/album/1TkbyIkf6GSrO5e7gWS4AM",
-   "played_at": "2026-11-01T12:58:54.510Z"
-  },
-  {
-   "name": "What Good's A Rock Without A Roll?",
-   "artist": "Black Spiders",
-   "album": "Sons Of The North",
-   "year": 2011,
-   "image": "https://i.scdn.co/image/ab67616d00001e026724fae9bc203a9d4defd736",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2736724fae9bc203a9d4defd736",
-   "url": "https://open.spotify.com/track/0FrhD37RheksdxcDi4tgx3",
-   "album_url": "https://open.spotify.com/album/7KDzhHeTeAjmBFO3ixlMGm",
-   "played_at": "2026-11-01T12:52:59.717Z"
-  },
-  {
-   "name": "American Woman - 2024 Remaster",
-   "artist": "The Guess Who",
-   "album": "American Woman (Expanded Edition)",
-   "year": 1970,
-   "image": "https://i.scdn.co/image/ab67616d00001e02d75b73c14d050fbce3d85790",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273d75b73c14d050fbce3d85790",
-   "url": "https://open.spotify.com/track/2FT4gakd3matx4vI6YCTD8",
-   "album_url": "https://open.spotify.com/album/7iYzF8KvARMLyshweM63Bq",
-   "played_at": "2026-11-01T12:48:29.527Z"
   }
  ],
  "top_artists": [
@@ -577,7 +577,7 @@ window.LISTENING = {
   },
   {
    "name": "Steve Miller Band",
-   "plays": 1949,
+   "plays": 1951,
    "url": "https://open.spotify.com/artist/6QtGlUje9TIkLrgPZrESuk",
    "image": "https://i.scdn.co/image/ab67616d00001e02632b907273dba6a6062fb780"
   },
@@ -832,7 +832,7 @@ window.LISTENING = {
   },
   {
    "decade": 1960,
-   "plays": 7046,
+   "plays": 7047,
    "covers": [
     {
      "name": "Your Time Is Gonna Come - 1990 Remaster",
@@ -887,7 +887,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273cbee7274742b0471f39bb8c8",
      "url": "https://open.spotify.com/track/45s88Xopo6KvHc0PQ05aGg",
      "album_url": "https://open.spotify.com/album/4upv5ZjkKMIUBjFNthFQih",
-     "plays": 236
+     "plays": 237
     },
     {
      "name": "Oh Well, Pt. 1 - 2013 Remaster",
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28587,
+   "plays": 28591,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -992,7 +992,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273632b907273dba6a6062fb780",
      "url": "https://open.spotify.com/track/2zI3bUYn2pcF27of6i2oqK",
      "album_url": "https://open.spotify.com/album/5hLazW5a3Ysgy3dncwGgUn",
-     "plays": 663
+     "plays": 664
     },
     {
      "name": "Take It Easy - 2013 Remaster",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32811,
+   "plays": 32812,
    "covers": [
     {
      "name": "Back In Black",
