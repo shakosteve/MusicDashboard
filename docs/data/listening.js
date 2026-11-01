@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-01T02:40:16Z",
+ "generated": "2026-11-01T03:10:15Z",
  "totals": {
-  "plays": 124617,
-  "hours": 8471.2,
+  "plays": 124619,
+  "hours": 8471.4,
   "artists": 701,
-  "albums": 1456,
+  "albums": 1475,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Lyin' Eyes - 2013 Remaster",
+   "artist": "Eagles",
+   "album": "One of These Nights (2013 Remaster)",
+   "year": 1975,
+   "image": "https://i.scdn.co/image/ab67616d00001e025d0a8e54aba5181c79593b94",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2735d0a8e54aba5181c79593b94",
+   "url": "https://open.spotify.com/track/5lQKRR3MdJLtAwNBiT8Cq0",
+   "album_url": "https://open.spotify.com/album/0F77QekrNe8vVAjU2sepja",
+   "played_at": "2026-11-01T02:57:45.376Z"
+  },
   {
    "name": "Metal Chestnut",
    "artist": "Slash",
@@ -525,17 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/0xIZPPBfLqQEAj1BLmGrNc",
    "album_url": "https://open.spotify.com/album/4ZLy3U2q17Yjw7jkjXPJQj",
    "played_at": "2026-10-31T17:03:24.097Z"
-  },
-  {
-   "name": "Simply Irresistible",
-   "artist": "Robert Palmer",
-   "album": "Heavy Nova",
-   "year": 1988,
-   "image": "https://i.scdn.co/image/ab67616d00001e024c50b3182d08d49eca91f2d9",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2734c50b3182d08d49eca91f2d9",
-   "url": "https://open.spotify.com/track/0bSr5pybJSlgG5OZH441gF",
-   "album_url": "https://open.spotify.com/album/1JvTsWrfYs2PR1PdSJXipq",
-   "played_at": "2026-10-31T16:57:05.284Z"
   }
  ],
  "top_artists": [
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28562,
+   "plays": 28564,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32787,
+   "plays": 32789,
    "covers": [
     {
      "name": "Back In Black",
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 11959,
+   "plays": 11961,
    "covers": [
     {
      "name": "Material Girl",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15728,
+   "plays": 15734,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18530,
+   "plays": 18540,
    "covers": [
     {
      "name": "ERROR",
