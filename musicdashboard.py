@@ -1148,7 +1148,10 @@ def report_data(now):
         on_this_day.append({"year": year, "plays": len(day_plays), "top": clean_title(p["name"]), "artist": ", ".join(p["artists"]),
                             "top_plays": n, "image": cover(p), "url": open_url(uri)})
 
-    problems = list(dict.fromkeys(line for line in log if re.search(r"Traceback|Error|error:|Warning|failed", line)))
+    # Lines naming a track or episode are skipped, so a band like The Warning isn't taken for a problem.
+    content = re.compile(r"\d+ new play\(s\), latest: |Podcast (playing|heard): ")
+    problems = list(dict.fromkeys(line for line in log if not content.match(line)
+                                  and re.search(r"Traceback|Error|error:|Warning|failed", line)))
     published = sum(1 for line in log if line.startswith("Published to GitHub"))
     expected = 48
     status = "bad" if any("Traceback" in l or "rror" in l for l in problems) else \
