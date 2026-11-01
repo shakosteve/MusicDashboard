@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-01T18:10:07Z",
+ "generated": "2026-11-01T18:40:04Z",
  "totals": {
-  "plays": 124653,
-  "hours": 8473.8,
+  "plays": 124654,
+  "hours": 8473.9,
   "artists": 701,
   "albums": 1516,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "My Immortal",
+   "artist": "Evanescence",
+   "album": "Fallen",
+   "year": 2003,
+   "image": "https://i.scdn.co/image/ab67616d00001e0225f49ab23f0ec6332efef432",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27325f49ab23f0ec6332efef432",
+   "url": "https://open.spotify.com/track/4UzVcXufOhGUwF56HT7b8M",
+   "album_url": "https://open.spotify.com/album/02w1xMzzdF2OJxTeh1basm",
+   "played_at": "2026-11-01T18:21:21.174Z"
+  },
   {
    "name": "S!CK - Live from Auditorio Nacional, CDMX",
    "artist": "The Warning",
@@ -525,17 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/34x6hEJgGAOQvmlMql5Ige",
    "album_url": "https://open.spotify.com/album/3uN87hwClF0hult2cxMbAW",
    "played_at": "2026-10-31T19:32:28.791Z"
-  },
-  {
-   "name": "Walk This Way (feat. Aerosmith)",
-   "artist": "Run–D.M.C., Aerosmith",
-   "album": "Raising Hell",
-   "year": 1986,
-   "image": "https://i.scdn.co/image/ab67616d00001e028eba18f886ca46ae6f948c54",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2738eba18f886ca46ae6f948c54",
-   "url": "https://open.spotify.com/track/6qUEOWqOzu1rLPUPQ1ECpx",
-   "album_url": "https://open.spotify.com/album/7AFsTiojVaB2I58oZ1tMRg",
-   "played_at": "2026-10-31T19:28:53.093Z"
   }
  ],
  "top_artists": [
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 11968,
+   "plays": 11969,
    "covers": [
     {
      "name": "Material Girl",
@@ -1241,7 +1241,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b27325f49ab23f0ec6332efef432",
      "url": "https://open.spotify.com/track/4UzVcXufOhGUwF56HT7b8M",
      "album_url": "https://open.spotify.com/album/02w1xMzzdF2OJxTeh1basm",
-     "plays": 679
+     "plays": 680
     },
     {
      "name": "Americano",
