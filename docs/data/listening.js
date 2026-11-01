@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-01T16:10:04Z",
+ "generated": "2026-11-01T16:40:04Z",
  "totals": {
   "plays": 124647,
   "hours": 8473.4,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "In Moscow's Shadows 269: White Flags and Red Banners",
+   "show": "In Moscow's Shadows",
+   "show_uri": "spotify:show:1NKCazxYstY6o8vhpGQSjF",
+   "release_date": "2026-11-01",
+   "duration_ms": 3264908,
+   "image": "https://i.scdn.co/image/ab67656300005f1fd2dd1e74bffcd7cabc91a62c",
+   "first_seen": "2026-11-01T14:10:03Z",
+   "progress_ms": 1382680,
+   "last_seen": "2026-11-01T16:40:03Z",
+   "url": "https://open.spotify.com/episode/4Yq6HmPUjylV8OAWPZ3zF0",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fd2dd1e74bffcd7cabc91a62c"
+  },
+  {
    "name": "Inside Oleshky’s chaotic evacuation as Russia ‘prepares fresh offensive’",
    "show": "Ukraine: The Latest",
    "show_uri": "spotify:show:6cnkk1J0I1UqtxTYVUL4Fe",
@@ -1515,19 +1528,6 @@ window.LISTENING = {
    "last_seen": "2026-11-01T15:10:03Z",
    "url": "https://open.spotify.com/episode/6l4cHPhuvSEirn2ZAGIYgi",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f78954c21afd24c90334deba4"
-  },
-  {
-   "name": "In Moscow's Shadows 269: White Flags and Red Banners",
-   "show": "In Moscow's Shadows",
-   "show_uri": "spotify:show:1NKCazxYstY6o8vhpGQSjF",
-   "release_date": "2026-11-01",
-   "duration_ms": 3264908,
-   "image": "https://i.scdn.co/image/ab67656300005f1fd2dd1e74bffcd7cabc91a62c",
-   "first_seen": "2026-11-01T14:10:03Z",
-   "progress_ms": 1096894,
-   "last_seen": "2026-11-01T14:10:03Z",
-   "url": "https://open.spotify.com/episode/4Yq6HmPUjylV8OAWPZ3zF0",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fd2dd1e74bffcd7cabc91a62c"
   },
   {
    "name": "Will a blue wave sweep the South? Jennifer Palmieri explains why it might",
