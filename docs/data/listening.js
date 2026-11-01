@@ -1,11 +1,11 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-01T01:40:14Z",
+ "generated": "2026-11-01T02:10:15Z",
  "totals": {
   "plays": 124617,
   "hours": 8471.2,
   "artists": 701,
-  "albums": 1418,
+  "albums": 1437,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
@@ -771,7 +771,7 @@ window.LISTENING = {
   },
   {
    "decade": 1950,
-   "plays": 269,
+   "plays": 270,
    "covers": [
     {
      "name": "Come On, Let's Go",
@@ -816,12 +816,23 @@ window.LISTENING = {
      "url": "https://open.spotify.com/track/0AQquaENerGps8BQmbPw14",
      "album_url": "https://open.spotify.com/album/3kQpBS26lAj0A0VGl1snRl",
      "plays": 1
+    },
+    {
+     "name": "Roll Over Beethoven",
+     "artist": "Chuck Berry",
+     "album": "Berry Is On Top",
+     "year": 1959,
+     "image": "https://i.scdn.co/image/ab67616d00001e02a496dc8c33ca6d10668b3157",
+     "image_large": "https://i.scdn.co/image/ab67616d0000b273a496dc8c33ca6d10668b3157",
+     "url": "https://open.spotify.com/track/6C7aTTCUWRK7dD379yUT3W",
+     "album_url": "https://open.spotify.com/album/6eedtCtCjibu80yOhylSGL",
+     "plays": 1
     }
    ]
   },
   {
    "decade": 1960,
-   "plays": 7041,
+   "plays": 7042,
    "covers": [
     {
      "name": "Your Time Is Gonna Come - 1990 Remaster",
@@ -915,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28556,
+   "plays": 28560,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1009,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32785,
+   "plays": 32786,
    "covers": [
     {
      "name": "Back In Black",
@@ -1103,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9668,
+   "plays": 9670,
    "covers": [
     {
      "name": "Amazing",
@@ -1197,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 11954,
+   "plays": 11956,
    "covers": [
     {
      "name": "Material Girl",
@@ -1291,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15723,
+   "plays": 15724,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1385,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18515,
+   "plays": 18523,
    "covers": [
     {
      "name": "ERROR",
