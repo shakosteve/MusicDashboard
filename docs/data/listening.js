@@ -1,14 +1,58 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-01T03:10:15Z",
+ "generated": "2026-11-01T03:40:15Z",
  "totals": {
-  "plays": 124619,
-  "hours": 8471.4,
+  "plays": 124623,
+  "hours": 8471.7,
   "artists": 701,
-  "albums": 1475,
+  "albums": 1495,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Fever",
+   "artist": "The Sixsters",
+   "album": "I'm Gonna Be",
+   "year": 2022,
+   "image": "https://i.scdn.co/image/ab67616d00001e020cde6e1513d7528fb789d708",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2730cde6e1513d7528fb789d708",
+   "url": "https://open.spotify.com/track/2UjzN59gFTmybXfT3aeZBh",
+   "album_url": "https://open.spotify.com/album/0Qv3cNebPzkTO8CNcbJLsd",
+   "played_at": "2026-11-01T03:37:03.642Z"
+  },
+  {
+   "name": "Fabienk",
+   "artist": "Angine de Poitrine",
+   "album": "Vol.II",
+   "year": 2026,
+   "image": "https://i.scdn.co/image/ab67616d00001e024821b77fd92093513d7634b5",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2734821b77fd92093513d7634b5",
+   "url": "https://open.spotify.com/track/1KVkzkmFBx4A8bCma6ruKA",
+   "album_url": "https://open.spotify.com/album/3FqqIeynZXFBcyLS9FlWMo",
+   "played_at": "2026-11-01T03:33:42.136Z"
+  },
+  {
+   "name": "Sharp Dressed Man (2008 Remaster)",
+   "artist": "ZZ Top",
+   "album": "Eliminator",
+   "year": 1983,
+   "image": "https://i.scdn.co/image/ab67616d00001e02a2b4f98f60e3cacf3866b2e3",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273a2b4f98f60e3cacf3866b2e3",
+   "url": "https://open.spotify.com/track/0bRNszTbTFLNlunAeh7eom",
+   "album_url": "https://open.spotify.com/album/4KW6YVbF8E3kexYcl0k4IK",
+   "played_at": "2026-11-01T03:27:10.430Z"
+  },
+  {
+   "name": "Hungry Eyes - From \"Dirty Dancing\" Soundtrack",
+   "artist": "Eric Carmen",
+   "album": "Dirty Dancing (Original Motion Picture Soundtrack)",
+   "year": 1987,
+   "image": "https://i.scdn.co/image/ab67616d00001e02ac19c6552524d207aac1277b",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273ac19c6552524d207aac1277b",
+   "url": "https://open.spotify.com/track/7eafuv44YprITfOdzfVLoU",
+   "album_url": "https://open.spotify.com/album/0mtLFaQ3hL371jsNraRo9g",
+   "played_at": "2026-11-01T03:22:51.834Z"
+  },
   {
    "name": "Lyin' Eyes - 2013 Remaster",
    "artist": "Eagles",
@@ -492,50 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/6g14FUj5zU9FDRwBi963vS",
    "album_url": "https://open.spotify.com/album/6TwlLNU5Zd9qGuNgSLeWPt",
    "played_at": "2026-10-31T17:21:24.172Z"
-  },
-  {
-   "name": "Cool Change - Remastered 2022",
-   "artist": "Little River Band",
-   "album": "First Under The Wire (Remastered 2022)",
-   "year": 1979,
-   "image": "https://i.scdn.co/image/ab67616d00001e02d45ea4a21fa17a4e3bf9b378",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273d45ea4a21fa17a4e3bf9b378",
-   "url": "https://open.spotify.com/track/2SEGYVnWImKLUOkU3Qa8sX",
-   "album_url": "https://open.spotify.com/album/1pPsslUdE1HeBxdlgXJ7Yp",
-   "played_at": "2026-10-31T17:17:50.163Z"
-  },
-  {
-   "name": "Dany’s Guitar Solo - Live from Auditorio Nacional, CDMX",
-   "artist": "The Warning",
-   "album": "Live from Auditorio Nacional, CDMX",
-   "year": 2025,
-   "image": "https://i.scdn.co/image/ab67616d00001e025cda6d880ec3968aa6b6ac2f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
-   "url": "https://open.spotify.com/track/7buuAwgtMcwqZTUYSqGNDK",
-   "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
-   "played_at": "2026-10-31T17:12:33.498Z"
-  },
-  {
-   "name": "Cult of Personality (2023 Remaster)",
-   "artist": "Living Colour",
-   "album": "Vivid (2023 Remaster)",
-   "year": 1988,
-   "image": "https://i.scdn.co/image/ab67616d00001e029e07dc65f2598371f87827c7",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2739e07dc65f2598371f87827c7",
-   "url": "https://open.spotify.com/track/4WG7Z3bNM3iE4vCYcXsxNx",
-   "album_url": "https://open.spotify.com/album/0Itv01cUzRusmyNcEgEmOA",
-   "played_at": "2026-10-31T17:08:19.142Z"
-  },
-  {
-   "name": "Black Sabbath - 2014 Remaster",
-   "artist": "Black Sabbath",
-   "album": "Black Sabbath (2014 Remaster)",
-   "year": 1970,
-   "image": "https://i.scdn.co/image/ab67616d00001e02975ae67d8fb422586b8e2f83",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273975ae67d8fb422586b8e2f83",
-   "url": "https://open.spotify.com/track/0xIZPPBfLqQEAj1BLmGrNc",
-   "album_url": "https://open.spotify.com/album/4ZLy3U2q17Yjw7jkjXPJQj",
-   "played_at": "2026-10-31T17:03:24.097Z"
   }
  ],
  "top_artists": [
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28564,
+   "plays": 28568,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32789,
+   "plays": 32792,
    "covers": [
     {
      "name": "Back In Black",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9672,
+   "plays": 9673,
    "covers": [
     {
      "name": "Amazing",
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 11961,
+   "plays": 11965,
    "covers": [
     {
      "name": "Material Girl",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15734,
+   "plays": 15736,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18540,
+   "plays": 18550,
    "covers": [
     {
      "name": "ERROR",
