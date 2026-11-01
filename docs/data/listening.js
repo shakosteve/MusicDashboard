@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-01T13:40:04Z",
+ "generated": "2026-11-01T14:10:04Z",
  "totals": {
-  "plays": 124646,
-  "hours": 8473.3,
+  "plays": 124647,
+  "hours": 8473.4,
   "artists": 701,
   "albums": 1516,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Don't Bring Me Down",
+   "artist": "Electric Light Orchestra",
+   "album": "Discovery",
+   "year": 1979,
+   "image": "https://i.scdn.co/image/ab67616d00001e0237e78b6638f7737adee73d6f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27337e78b6638f7737adee73d6f",
+   "url": "https://open.spotify.com/track/72ahyckBJfTigJCFCviVN7",
+   "album_url": "https://open.spotify.com/album/1CvVSn2MtKDBR6aWMkNkem",
+   "played_at": "2026-11-01T13:42:21.130Z"
+  },
   {
    "name": "Legendary",
    "artist": "Bon Jovi",
@@ -525,17 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/5tn18hld9Kj4H4fuLJ2Wck",
    "album_url": "https://open.spotify.com/album/0Zj4AvZpKzStGARIOkoDS5",
    "played_at": "2026-10-31T19:00:52.465Z"
-  },
-  {
-   "name": "CHOKE - Live from Auditorio Nacional, CDMX",
-   "artist": "The Warning",
-   "album": "Live from Auditorio Nacional, CDMX",
-   "year": 2025,
-   "image": "https://i.scdn.co/image/ab67616d00001e025cda6d880ec3968aa6b6ac2f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
-   "url": "https://open.spotify.com/track/3zgbw0cxkS1DQ36O5hGydt",
-   "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
-   "played_at": "2026-10-31T18:57:26.478Z"
   }
  ],
  "top_artists": [
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28578,
+   "plays": 28579,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "In Moscow's Shadows 269: White Flags and Red Banners",
+   "show": "In Moscow's Shadows",
+   "show_uri": "spotify:show:1NKCazxYstY6o8vhpGQSjF",
+   "release_date": "2026-11-01",
+   "duration_ms": 3264908,
+   "image": "https://i.scdn.co/image/ab67656300005f1fd2dd1e74bffcd7cabc91a62c",
+   "first_seen": "2026-11-01T14:10:03Z",
+   "progress_ms": 1096894,
+   "last_seen": "2026-11-01T14:10:03Z",
+   "url": "https://open.spotify.com/episode/4Yq6HmPUjylV8OAWPZ3zF0",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fd2dd1e74bffcd7cabc91a62c"
+  },
+  {
    "name": "Will a blue wave sweep the South? Jennifer Palmieri explains why it might",
    "show": "Firing Line with Margaret Hoover",
    "show_uri": "spotify:show:1uBimoCIw9AqeoN2RwlUBq",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-10-30T12:00:00Z",
    "url": "https://open.spotify.com/episode/7F14x6q1xp7SSycwB6AwJ0",
    "show_image": "https://i.scdn.co/image/ab67656300005f1ffed98c4fdc504416141e9409"
-  },
-  {
-   "name": "The Ballot Measures: Taxes, Voter ID and Abortion, Plus Plenty of Odds and Ends",
-   "show": "WSJ Opinion: Potomac Watch",
-   "show_uri": "spotify:show:4sMCRFb3B4g9Ax3lDCOOTX",
-   "release_date": "2026-10-30",
-   "duration_ms": 1360143,
-   "image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97",
-   "first_seen": "2026-10-30T12:00:00Z",
-   "progress_ms": 219035,
-   "last_seen": "2026-10-30T12:00:00Z",
-   "url": "https://open.spotify.com/episode/1SzUvk90jzFBBF3xGzNhII",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97"
   }
  ],
  "top_shows": [
