@@ -1,14 +1,80 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-01T18:40:04Z",
+ "generated": "2026-11-01T19:10:05Z",
  "totals": {
-  "plays": 124654,
-  "hours": 8473.9,
+  "plays": 124660,
+  "hours": 8474.3,
   "artists": 701,
   "albums": 1516,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Turn! Turn! Turn! (To Everything There Is a Season)",
+   "artist": "The Byrds",
+   "album": "Turn! Turn! Turn!",
+   "year": 1965,
+   "image": "https://i.scdn.co/image/ab67616d00001e028ebc5d5d4fcf960b083af081",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2738ebc5d5d4fcf960b083af081",
+   "url": "https://open.spotify.com/track/5qBqBdfTEIWJwAS0Jm2F5R",
+   "album_url": "https://open.spotify.com/album/3v0i9qyogPoQEQj2bG6Fmn",
+   "played_at": "2026-11-01T19:09:41.805Z"
+  },
+  {
+   "name": "She's Always a Woman",
+   "artist": "Billy Joel",
+   "album": "The Stranger (Legacy Edition)",
+   "year": 1977,
+   "image": "https://i.scdn.co/image/ab67616d00001e026ce61113662ecf693b605ee5",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2736ce61113662ecf693b605ee5",
+   "url": "https://open.spotify.com/track/5RgFlk1fcClZd0Y4SGYhqH",
+   "album_url": "https://open.spotify.com/album/1Mhn9VosyjtWn4dMPFlna6",
+   "played_at": "2026-11-01T19:05:51.917Z"
+  },
+  {
+   "name": "Tall Cool One - 2006 Remaster",
+   "artist": "Robert Plant",
+   "album": "Now and Zen",
+   "year": 2007,
+   "image": "https://i.scdn.co/image/ab67616d00001e02237101c710f6d7155dbf6c0f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273237101c710f6d7155dbf6c0f",
+   "url": "https://open.spotify.com/track/6vejDalRlBqPrr7s3iwi9U",
+   "album_url": "https://open.spotify.com/album/7MwPi2NpS2OoZ8K1h5tmXV",
+   "played_at": "2026-11-01T19:02:30.021Z"
+  },
+  {
+   "name": "Bad Company - 2015 Remaster",
+   "artist": "Bad Company",
+   "album": "Bad Company (Deluxe)",
+   "year": 1974,
+   "image": "https://i.scdn.co/image/ab67616d00001e029adafd7f9d57380d1d0373af",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2739adafd7f9d57380d1d0373af",
+   "url": "https://open.spotify.com/track/36vTL8WP4ZoD1bbUaW0V3E",
+   "album_url": "https://open.spotify.com/album/4fuDpBLCt9ChDlqw48bj7p",
+   "played_at": "2026-11-01T18:57:51.037Z"
+  },
+  {
+   "name": "Two Princes",
+   "artist": "Spin Doctors",
+   "album": "Pocket Full Of Kryptonite (Anniversary Edition)",
+   "year": 1991,
+   "image": "https://i.scdn.co/image/ab67616d00001e0290126a3a12ad644fa6d3221c",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27390126a3a12ad644fa6d3221c",
+   "url": "https://open.spotify.com/track/0cuq829zRNq4AEdmDJA4aw",
+   "album_url": "https://open.spotify.com/album/3jx5C8Z66FwdjNkqsSDBQh",
+   "played_at": "2026-11-01T18:53:02.429Z"
+  },
+  {
+   "name": "Shoot to Thrill",
+   "artist": "AC/DC",
+   "album": "Back In Black",
+   "year": 1980,
+   "image": "https://i.scdn.co/image/ab67616d00001e02ff191d7fbdb5a13eaf84132b",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273ff191d7fbdb5a13eaf84132b",
+   "url": "https://open.spotify.com/track/0C80GCp0mMuBzLf3EAXqxv",
+   "album_url": "https://open.spotify.com/album/6mUdeDZCsExyJLMdAfDuwh",
+   "played_at": "2026-11-01T18:48:43.624Z"
+  },
   {
    "name": "My Immortal",
    "artist": "Evanescence",
@@ -470,72 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/3Vby4nGmtbDo7HDJamOWkT",
    "album_url": "https://open.spotify.com/album/5ApN9lqru1t3Xh1IaEGTll",
    "played_at": "2026-10-31T21:26:03.584Z"
-  },
-  {
-   "name": "Paranoid - 2012 - Remaster",
-   "artist": "Black Sabbath",
-   "album": "Paranoid (Remaster)",
-   "year": 1970,
-   "image": "https://i.scdn.co/image/ab67616d00001e02d5fccf9ce08b6a1e7d12a222",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273d5fccf9ce08b6a1e7d12a222",
-   "url": "https://open.spotify.com/track/1Y373MqadDRtclJNdnUXVc",
-   "album_url": "https://open.spotify.com/album/6r7LZXAVueS5DqdrvXJJK7",
-   "played_at": "2026-10-31T21:22:34.086Z"
-  },
-  {
-   "name": "Man I Need (Live) – Spotify Live Room",
-   "artist": "Olivia Dean",
-   "album": "Olivia Dean - Spotify Live Room",
-   "year": 2025,
-   "image": "https://i.scdn.co/image/ab67616d00001e0283a8582a02ba58639b3fce04",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27383a8582a02ba58639b3fce04",
-   "url": "https://open.spotify.com/track/3yYuSzBhxR4kd4CNtfyHN7",
-   "album_url": "https://open.spotify.com/album/2BH28DBpJbk7fVT7a4IdYX",
-   "played_at": "2026-10-31T21:19:45.287Z"
-  },
-  {
-   "name": "Women - Remastered 2017",
-   "artist": "Def Leppard",
-   "album": "Hysteria (Super Deluxe)",
-   "year": 1987,
-   "image": "https://i.scdn.co/image/ab67616d00001e02222cb38afc3b3b47d9df26aa",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273222cb38afc3b3b47d9df26aa",
-   "url": "https://open.spotify.com/track/2q1njJdxOMEClSnuBWGMJa",
-   "album_url": "https://open.spotify.com/album/31oeDyCOLhgeZyktfxo0pE",
-   "played_at": "2026-10-31T21:16:40.787Z"
-  },
-  {
-   "name": "Slither",
-   "artist": "Velvet Revolver",
-   "album": "Contraband",
-   "year": 2004,
-   "image": "https://i.scdn.co/image/ab67616d00001e02e95d233a9df33d6c9992b449",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273e95d233a9df33d6c9992b449",
-   "url": "https://open.spotify.com/track/7kF1iPJTj3VFJX9XokQ80F",
-   "album_url": "https://open.spotify.com/album/64GnrmrpL1fvfF0r1AoZLB",
-   "played_at": "2026-10-31T21:10:57.695Z"
-  },
-  {
-   "name": "Two Princes",
-   "artist": "Spin Doctors",
-   "album": "Pocket Full Of Kryptonite (Anniversary Edition)",
-   "year": 1991,
-   "image": "https://i.scdn.co/image/ab67616d00001e0290126a3a12ad644fa6d3221c",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27390126a3a12ad644fa6d3221c",
-   "url": "https://open.spotify.com/track/0cuq829zRNq4AEdmDJA4aw",
-   "album_url": "https://open.spotify.com/album/3jx5C8Z66FwdjNkqsSDBQh",
-   "played_at": "2026-10-31T19:36:46.228Z"
-  },
-  {
-   "name": "Danger Zone - From \"Top Gun\" Original Soundtrack",
-   "artist": "Kenny Loggins",
-   "album": "Yesterday, Today, Tomorrow - The Greatest Hits Of Kenny Loggins",
-   "year": 1997,
-   "image": "https://i.scdn.co/image/ab67616d00001e0219db9ac54c80a898a179f0f1",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27319db9ac54c80a898a179f0f1",
-   "url": "https://open.spotify.com/track/34x6hEJgGAOQvmlMql5Ige",
-   "album_url": "https://open.spotify.com/album/3uN87hwClF0hult2cxMbAW",
-   "played_at": "2026-10-31T19:32:28.791Z"
   }
  ],
  "top_artists": [
@@ -547,7 +547,7 @@ window.LISTENING = {
   },
   {
    "name": "AC/DC",
-   "plays": 3983,
+   "plays": 3984,
    "url": "https://open.spotify.com/artist/711MCceyCBcFnzjGY4Q7Un",
    "image": "https://i.scdn.co/image/ab67616d00001e02ff191d7fbdb5a13eaf84132b"
   },
@@ -632,7 +632,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b273ff191d7fbdb5a13eaf84132b",
    "url": "https://open.spotify.com/track/08mG3Y1vljYA6bvDt4Wqkj",
    "album_url": "https://open.spotify.com/album/6mUdeDZCsExyJLMdAfDuwh",
-   "plays": 1580
+   "plays": 1581
   },
   {
    "name": "Material Girl",
@@ -832,7 +832,7 @@ window.LISTENING = {
   },
   {
    "decade": 1960,
-   "plays": 7043,
+   "plays": 7044,
    "covers": [
     {
      "name": "Your Time Is Gonna Come - 1990 Remaster",
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28581,
+   "plays": 28583,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32803,
+   "plays": 32804,
    "covers": [
     {
      "name": "Back In Black",
@@ -1031,7 +1031,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273ff191d7fbdb5a13eaf84132b",
      "url": "https://open.spotify.com/track/08mG3Y1vljYA6bvDt4Wqkj",
      "album_url": "https://open.spotify.com/album/6mUdeDZCsExyJLMdAfDuwh",
-     "plays": 1580
+     "plays": 1581
     },
     {
      "name": "Rocket - Remastered 2017",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9678,
+   "plays": 9679,
    "covers": [
     {
      "name": "Amazing",
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 11969,
+   "plays": 11970,
    "covers": [
     {
      "name": "Material Girl",
@@ -1263,7 +1263,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273237101c710f6d7155dbf6c0f",
      "url": "https://open.spotify.com/track/6vejDalRlBqPrr7s3iwi9U",
      "album_url": "https://open.spotify.com/album/7MwPi2NpS2OoZ8K1h5tmXV",
-     "plays": 253
+     "plays": 254
     },
     {
      "name": "Don't Know Why",
