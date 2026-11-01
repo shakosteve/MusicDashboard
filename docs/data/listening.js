@@ -1,11 +1,11 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-01T04:10:14Z",
+ "generated": "2026-11-01T04:40:09Z",
  "totals": {
   "plays": 124627,
   "hours": 8472.0,
   "artists": 701,
-  "albums": 1512,
+  "albums": 1514,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28571,
+   "plays": 28572,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18560,
+   "plays": 18561,
    "covers": [
     {
      "name": "ERROR",
