@@ -1,14 +1,58 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-01T04:40:09Z",
+ "generated": "2026-11-01T12:40:06Z",
  "totals": {
-  "plays": 124627,
-  "hours": 8472.0,
+  "plays": 124632,
+  "hours": 8472.3,
   "artists": 701,
   "albums": 1514,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Dirty Diana - 2012 Remaster",
+   "artist": "Michael Jackson",
+   "album": "Bad (Remastered)",
+   "year": 1987,
+   "image": "https://i.scdn.co/image/ab67616d00001e02eb2087dcd1eb61f833bdedff",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273eb2087dcd1eb61f833bdedff",
+   "url": "https://open.spotify.com/track/0AcgKF7kbSoCkh3n7vlHwK",
+   "album_url": "https://open.spotify.com/album/3Us57CjssWnHjTUIXBuIeH",
+   "played_at": "2026-11-01T12:38:16.293Z"
+  },
+  {
+   "name": "In the Air Tonight - 2015 Remaster",
+   "artist": "Phil Collins",
+   "album": "Face Value (Deluxe Editon)",
+   "year": 1981,
+   "image": "https://i.scdn.co/image/ab67616d00001e028a1d7cf42a84b10bd1ff8e56",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2738a1d7cf42a84b10bd1ff8e56",
+   "url": "https://open.spotify.com/track/18AXbzPzBS8Y3AkgSxzJPb",
+   "album_url": "https://open.spotify.com/album/1cM3r0WQZWNkCpEbmFjLln",
+   "played_at": "2026-11-01T12:33:35.035Z"
+  },
+  {
+   "name": "Sundown",
+   "artist": "Gordon Lightfoot",
+   "album": "Sundown",
+   "year": 1974,
+   "image": "https://i.scdn.co/image/ab67616d00001e028f2b3a1c0559ca6188de574b",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2738f2b3a1c0559ca6188de574b",
+   "url": "https://open.spotify.com/track/0SjnBEHZVXgCKvOrpvzL2k",
+   "album_url": "https://open.spotify.com/album/2IPD9EcNjUmsHvqULDMU9Y",
+   "played_at": "2026-11-01T12:27:56.913Z"
+  },
+  {
+   "name": "Head Over Heels - Dave Bascombe 7\" N.Mix",
+   "artist": "Tears For Fears, Dave Bascombe",
+   "album": "Songs From The Big Chair (Deluxe)",
+   "year": 1985,
+   "image": "https://i.scdn.co/image/ab67616d00001e0206b6bd6a604768e044abbd38",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27306b6bd6a604768e044abbd38",
+   "url": "https://open.spotify.com/track/5lwQGZYF4BXOzFtXc5zk8q",
+   "album_url": "https://open.spotify.com/album/06J93pgtDCUw6bsAQINhCs",
+   "played_at": "2026-11-01T12:24:22.999Z"
+  },
   {
    "name": "Open Your Heart",
    "artist": "Madonna",
@@ -492,50 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/6jGnykaS6TkWp15utXSAeI",
    "album_url": "https://open.spotify.com/album/3ArSFkv4OQOosOvYTrZNIl",
    "played_at": "2026-10-31T17:54:30.563Z"
-  },
-  {
-   "name": "Holy Diver",
-   "artist": "Dio",
-   "album": "Holy Diver",
-   "year": 1983,
-   "image": "https://i.scdn.co/image/ab67616d00001e022457ab409ae106f8ae1dff89",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2732457ab409ae106f8ae1dff89",
-   "url": "https://open.spotify.com/track/57fqmDaokbxZ3TaB0jp39q",
-   "album_url": "https://open.spotify.com/album/2ivNJLSx8Rbvnsvcn01Yt3",
-   "played_at": "2026-10-31T17:51:11.873Z"
-  },
-  {
-   "name": "MORE",
-   "artist": "The Warning",
-   "album": "Keep Me Fed",
-   "year": 2024,
-   "image": "https://i.scdn.co/image/ab67616d00001e0293c50048dce0f88071728c8c",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27393c50048dce0f88071728c8c",
-   "url": "https://open.spotify.com/track/5IDRSA83ayUGCCRdfdl04z",
-   "album_url": "https://open.spotify.com/album/1rYHznqLeJVXuy0YqwERGv",
-   "played_at": "2026-10-31T17:45:17.553Z"
-  },
-  {
-   "name": "Whole Lotta Love - 1990 Remaster",
-   "artist": "Led Zeppelin",
-   "album": "Led Zeppelin II (1994 Remaster)",
-   "year": 1969,
-   "image": "https://i.scdn.co/image/ab67616d00001e02fc4f17340773c6c3579fea0d",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273fc4f17340773c6c3579fea0d",
-   "url": "https://open.spotify.com/track/0hCB0YR03f6AmQaHbwWDe8",
-   "album_url": "https://open.spotify.com/album/70lQYZtypdCALtFVlQAcvx",
-   "played_at": "2026-10-31T17:42:09.396Z"
-  },
-  {
-   "name": "S!CK - Live from Auditorio Nacional, CDMX",
-   "artist": "The Warning",
-   "album": "Live from Auditorio Nacional, CDMX",
-   "year": 2025,
-   "image": "https://i.scdn.co/image/ab67616d00001e025cda6d880ec3968aa6b6ac2f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
-   "url": "https://open.spotify.com/track/10zZP6IvvcFJvFbcCQnGhP",
-   "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
-   "played_at": "2026-10-31T17:36:34.954Z"
   }
  ],
  "top_artists": [
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28572,
+   "plays": 28573,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32795,
+   "plays": 32799,
    "covers": [
     {
      "name": "Back In Black",
