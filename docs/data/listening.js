@@ -1,14 +1,91 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-01T13:10:06Z",
+ "generated": "2026-11-01T13:40:04Z",
  "totals": {
-  "plays": 124639,
-  "hours": 8472.8,
+  "plays": 124646,
+  "hours": 8473.3,
   "artists": 701,
-  "albums": 1515,
+  "albums": 1516,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Legendary",
+   "artist": "Bon Jovi",
+   "album": "Legendary",
+   "year": 2024,
+   "image": "https://i.scdn.co/image/ab67616d00001e02609d2eccae6c68757f77d376",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273609d2eccae6c68757f77d376",
+   "url": "https://open.spotify.com/track/0NJKX45ZZnGWyDcEnoH7C5",
+   "album_url": "https://open.spotify.com/album/4Qp0INJYYCPCOnUpOREZnb",
+   "played_at": "2026-11-01T13:38:17.517Z"
+  },
+  {
+   "name": "Sweet Child O' Mine",
+   "artist": "Guns N' Roses",
+   "album": "Appetite For Destruction",
+   "year": 1987,
+   "image": "https://i.scdn.co/image/ab67616d00001e0221ebf49b3292c3f0f575f0f5",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27321ebf49b3292c3f0f575f0f5",
+   "url": "https://open.spotify.com/track/7snQQk1zcKl8gZ92AnueZW",
+   "album_url": "https://open.spotify.com/album/28yHV3Gdg30AiB8h8em1eW",
+   "played_at": "2026-11-01T13:34:11.623Z"
+  },
+  {
+   "name": "Let It All Go",
+   "artist": "Beats Antique, Preservation Hall Jazz Band",
+   "album": "Shadowbox",
+   "year": 2016,
+   "image": "https://i.scdn.co/image/ab67616d00001e0200a7c78579418967f80cbfb2",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27300a7c78579418967f80cbfb2",
+   "url": "https://open.spotify.com/track/5xDBeP7eDtTIh9xlWG1ZuZ",
+   "album_url": "https://open.spotify.com/album/4a9ZBC1e52r3z79P3MX6zn",
+   "played_at": "2026-11-01T13:28:15.013Z"
+  },
+  {
+   "name": "Jet Airliner",
+   "artist": "Steve Miller Band",
+   "album": "Greatest Hits 1974-78",
+   "year": 1978,
+   "image": "https://i.scdn.co/image/ab67616d00001e02632b907273dba6a6062fb780",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273632b907273dba6a6062fb780",
+   "url": "https://open.spotify.com/track/2zI3bUYn2pcF27of6i2oqK",
+   "album_url": "https://open.spotify.com/album/5hLazW5a3Ysgy3dncwGgUn",
+   "played_at": "2026-11-01T13:24:12.210Z"
+  },
+  {
+   "name": "The Steps",
+   "artist": "HAIM",
+   "album": "Women In Music Pt. III",
+   "year": 2021,
+   "image": "https://i.scdn.co/image/ab67616d00001e02e8be33a5e8efee9be2afffc3",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273e8be33a5e8efee9be2afffc3",
+   "url": "https://open.spotify.com/track/5X2RisOZS9i5MsR8EVw58p",
+   "album_url": "https://open.spotify.com/album/396EJBtUzseofX2YCBJVvM",
+   "played_at": "2026-11-01T13:20:36.011Z"
+  },
+  {
+   "name": "Peace of Mind",
+   "artist": "Boston",
+   "album": "Boston",
+   "year": 1976,
+   "image": "https://i.scdn.co/image/ab67616d00001e028c1fadcc997a65384f34d694",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2738c1fadcc997a65384f34d694",
+   "url": "https://open.spotify.com/track/1GqlvSEtMx5xbGptxOTTyk",
+   "album_url": "https://open.spotify.com/album/2QLp07RO6anZHmtcKTEvSC",
+   "played_at": "2026-11-01T13:16:27.986Z"
+  },
+  {
+   "name": "Too Good to be True",
+   "artist": "Kacey Musgraves",
+   "album": "Deeper Well",
+   "year": 2024,
+   "image": "https://i.scdn.co/image/ab67616d00001e02b598ad81e340f28f8b523c41",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273b598ad81e340f28f8b523c41",
+   "url": "https://open.spotify.com/track/27RDQ0TfxzWMlQFuKrPT11",
+   "album_url": "https://open.spotify.com/album/5SxZmGwc4eJuPp6PcO4JgJ",
+   "played_at": "2026-11-01T13:11:23.913Z"
+  },
   {
    "name": "Our Lips Are Sealed - Single Version",
    "artist": "The Go-Go's",
@@ -459,83 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/3zgbw0cxkS1DQ36O5hGydt",
    "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
    "played_at": "2026-10-31T18:57:26.478Z"
-  },
-  {
-   "name": "Dancing Queen",
-   "artist": "ABBA",
-   "album": "Arrival",
-   "year": 1976,
-   "image": "https://i.scdn.co/image/ab67616d00001e0270f7a1b35d5165c85b95a0e0",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27370f7a1b35d5165c85b95a0e0",
-   "url": "https://open.spotify.com/track/0GjEhVFGZW8afUYGChu3Rr",
-   "album_url": "https://open.spotify.com/album/1V6a99EbTTIegOhWoPxYI9",
-   "played_at": "2026-10-31T18:53:32.395Z"
-  },
-  {
-   "name": "EVOLVE - Live from Auditorio Nacional, CDMX",
-   "artist": "The Warning",
-   "album": "Live from Auditorio Nacional, CDMX",
-   "year": 2025,
-   "image": "https://i.scdn.co/image/ab67616d00001e025cda6d880ec3968aa6b6ac2f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
-   "url": "https://open.spotify.com/track/5s6qXpfXp9aO0UM4YEy1hE",
-   "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
-   "played_at": "2026-10-31T18:48:32.207Z"
-  },
-  {
-   "name": "Old Sweet Way",
-   "artist": "Matilda Marigolds",
-   "album": "Union",
-   "year": 2021,
-   "image": "https://i.scdn.co/image/ab67616d00001e02d579a612650cec9eb67574e9",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273d579a612650cec9eb67574e9",
-   "url": "https://open.spotify.com/track/3fmSvPNtA22h1fI3Xw0BAD",
-   "album_url": "https://open.spotify.com/album/7ofKUTF17SEsGsAuaMhbj7",
-   "played_at": "2026-10-31T18:44:44.704Z"
-  },
-  {
-   "name": "Forty Six & 2",
-   "artist": "TOOL",
-   "album": "Ænima",
-   "year": 1996,
-   "image": "https://i.scdn.co/image/ab67616d00001e0247daa44983fa6079910ed295",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27347daa44983fa6079910ed295",
-   "url": "https://open.spotify.com/track/6AioOohg4bQZFA4jIYQQ2r",
-   "album_url": "https://open.spotify.com/album/6yWMN087PgSimbcVmHLEwG",
-   "played_at": "2026-10-31T18:41:15.089Z"
-  },
-  {
-   "name": "I Remember You",
-   "artist": "Skid Row",
-   "album": "Skid Row",
-   "year": 1989,
-   "image": "https://i.scdn.co/image/ab67616d00001e02bb639863b7b716acf67bfa64",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273bb639863b7b716acf67bfa64",
-   "url": "https://open.spotify.com/track/1xqVri47rxr9oRpUgJa8rf",
-   "album_url": "https://open.spotify.com/album/0L5J7BLU1AKDuSewTMpw7E",
-   "played_at": "2026-10-31T18:35:10.070Z"
-  },
-  {
-   "name": "Small Town",
-   "artist": "John Mellencamp",
-   "album": "Scarecrow",
-   "year": 1985,
-   "image": "https://i.scdn.co/image/ab67616d00001e02b46e7ea6a6b2fa45caa23393",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273b46e7ea6a6b2fa45caa23393",
-   "url": "https://open.spotify.com/track/2HsjJJL4DhPCzMlnaGv7ap",
-   "album_url": "https://open.spotify.com/album/1BYEhfr8qQGNhbqPAbfnxk",
-   "played_at": "2026-10-31T18:29:55.779Z"
-  },
-  {
-   "name": "Sunrise",
-   "artist": "Norah Jones",
-   "album": "Feels Like Home",
-   "year": 2004,
-   "image": "https://i.scdn.co/image/ab67616d00001e0264026be0e09c1beda2f67c32",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27364026be0e09c1beda2f67c32",
-   "url": "https://open.spotify.com/track/7zkLpY72g6lKQbiHDqri1S",
-   "album_url": "https://open.spotify.com/album/7GaAXgbFSpcJOiLlFGYyOL",
-   "played_at": "2026-10-31T18:26:13.666Z"
   }
  ],
  "top_artists": [
@@ -577,7 +577,7 @@ window.LISTENING = {
   },
   {
    "name": "Steve Miller Band",
-   "plays": 1947,
+   "plays": 1948,
    "url": "https://open.spotify.com/artist/6QtGlUje9TIkLrgPZrESuk",
    "image": "https://i.scdn.co/image/ab67616d00001e02632b907273dba6a6062fb780"
   },
@@ -676,7 +676,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b2738c1fadcc997a65384f34d694",
    "url": "https://open.spotify.com/track/1QEEqeFIZktqIpPI4jSVSF",
    "album_url": "https://open.spotify.com/album/2QLp07RO6anZHmtcKTEvSC",
-   "plays": 1105
+   "plays": 1106
   },
   {
    "name": "Leroy",
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28576,
+   "plays": 28578,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -937,7 +937,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2738c1fadcc997a65384f34d694",
      "url": "https://open.spotify.com/track/1QEEqeFIZktqIpPI4jSVSF",
      "album_url": "https://open.spotify.com/album/2QLp07RO6anZHmtcKTEvSC",
-     "plays": 1105
+     "plays": 1106
     },
     {
      "name": "Barracuda",
@@ -992,7 +992,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273632b907273dba6a6062fb780",
      "url": "https://open.spotify.com/track/2zI3bUYn2pcF27of6i2oqK",
      "album_url": "https://open.spotify.com/album/5hLazW5a3Ysgy3dncwGgUn",
-     "plays": 662
+     "plays": 663
     },
     {
      "name": "Take It Easy - 2013 Remaster",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32801,
+   "plays": 32802,
    "covers": [
     {
      "name": "Back In Black",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15737,
+   "plays": 15738,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18562,
+   "plays": 18565,
    "covers": [
     {
      "name": "ERROR",
