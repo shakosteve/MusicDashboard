@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-01T15:10:05Z",
+ "generated": "2026-11-01T15:40:05Z",
  "totals": {
   "plays": 124647,
   "hours": 8473.4,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Inside Oleshky’s chaotic evacuation as Russia ‘prepares fresh offensive’",
+   "show": "Ukraine: The Latest",
+   "show_uri": "spotify:show:6cnkk1J0I1UqtxTYVUL4Fe",
+   "release_date": "2026-10-30",
+   "duration_ms": 2834547,
+   "image": "https://i.scdn.co/image/ab67656300005f1ffe3b9cc8c2923cb151f897f9",
+   "first_seen": "2026-11-01T15:40:03Z",
+   "progress_ms": 856140,
+   "last_seen": "2026-11-01T15:40:03Z",
+   "url": "https://open.spotify.com/episode/6ENZSg73hton67DCSNT0XK",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f78954c21afd24c90334deba4"
+  },
+  {
    "name": "Putin hails Musk the 'genius' as Moscow builds its own version of Starlink",
    "show": "Ukraine: The Latest",
    "show_uri": "spotify:show:6cnkk1J0I1UqtxTYVUL4Fe",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-10-30T12:00:00Z",
    "url": "https://open.spotify.com/episode/52RUJn3u9zbmytLhVzVxNQ",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f3d63c8a3f5c8f7b8b0c1443b"
-  },
-  {
-   "name": "PHP2Shell Won't Be the Last Big AI Cybersecurity Risk",
-   "show": "Odd Lots",
-   "show_uri": "spotify:show:1te7oSFyRVekxMBJUSethH",
-   "release_date": "2026-10-30",
-   "duration_ms": 2940055,
-   "image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42",
-   "first_seen": "2026-10-30T12:00:00Z",
-   "progress_ms": 587600,
-   "last_seen": "2026-10-30T12:00:00Z",
-   "url": "https://open.spotify.com/episode/2lI2wKnPkBqzGUGRC65Q85",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42"
   }
  ],
  "top_shows": [
