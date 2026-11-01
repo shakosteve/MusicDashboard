@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-01T21:40:04Z",
+ "generated": "2026-11-01T22:40:06Z",
  "totals": {
-  "plays": 124688,
-  "hours": 8476.2,
+  "plays": 124690,
+  "hours": 8476.4,
   "artists": 701,
   "albums": 1517,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Bloody Well Right",
+   "artist": "Supertramp",
+   "album": "Crime Of The Century (Remastered)",
+   "year": 1974,
+   "image": "https://i.scdn.co/image/ab67616d00001e0289d7032603b62e9aedb03fa2",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27389d7032603b62e9aedb03fa2",
+   "url": "https://open.spotify.com/track/2SmlWvdYG6FsagxN3FkHMI",
+   "album_url": "https://open.spotify.com/album/2wrHaulTgqqkVKx0k7Kq4r",
+   "played_at": "2026-11-01T22:33:18.377Z"
+  },
   {
    "name": "ANIMOSITY",
    "artist": "The Warning",
@@ -525,17 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/5X2RisOZS9i5MsR8EVw58p",
    "album_url": "https://open.spotify.com/album/396EJBtUzseofX2YCBJVvM",
    "played_at": "2026-11-01T13:20:36.011Z"
-  },
-  {
-   "name": "Peace of Mind",
-   "artist": "Boston",
-   "album": "Boston",
-   "year": 1976,
-   "image": "https://i.scdn.co/image/ab67616d00001e028c1fadcc997a65384f34d694",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2738c1fadcc997a65384f34d694",
-   "url": "https://open.spotify.com/track/1GqlvSEtMx5xbGptxOTTyk",
-   "album_url": "https://open.spotify.com/album/2QLp07RO6anZHmtcKTEvSC",
-   "played_at": "2026-11-01T13:16:27.986Z"
   }
  ],
  "top_artists": [
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28591,
+   "plays": 28593,
    "covers": [
     {
      "name": "More Than a Feeling",
