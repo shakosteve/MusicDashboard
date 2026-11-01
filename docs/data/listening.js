@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-01T17:10:06Z",
+ "generated": "2026-11-01T17:40:06Z",
  "totals": {
   "plays": 124647,
   "hours": 8473.4,
@@ -1491,6 +1491,32 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Putin hails Musk the 'genius' as Moscow builds its own version of Starlink",
+   "show": "Ukraine: The Latest",
+   "show_uri": "spotify:show:6cnkk1J0I1UqtxTYVUL4Fe",
+   "release_date": "2026-10-29",
+   "duration_ms": 2902961,
+   "image": "https://i.scdn.co/image/ab67656300005f1fbb54afc4dc5ba94d3d1c901d",
+   "first_seen": "2026-11-01T14:40:03Z",
+   "progress_ms": 3045309,
+   "last_seen": "2026-11-01T17:40:03Z",
+   "url": "https://open.spotify.com/episode/6l4cHPhuvSEirn2ZAGIYgi",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f78954c21afd24c90334deba4"
+  },
+  {
+   "name": "Inside Oleshky’s chaotic evacuation as Russia ‘prepares fresh offensive’",
+   "show": "Ukraine: The Latest",
+   "show_uri": "spotify:show:6cnkk1J0I1UqtxTYVUL4Fe",
+   "release_date": "2026-10-30",
+   "duration_ms": 2834547,
+   "image": "https://i.scdn.co/image/ab67656300005f1ffe3b9cc8c2923cb151f897f9",
+   "first_seen": "2026-11-01T15:40:03Z",
+   "progress_ms": 2965749,
+   "last_seen": "2026-11-01T17:40:03Z",
+   "url": "https://open.spotify.com/episode/6ENZSg73hton67DCSNT0XK",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f78954c21afd24c90334deba4"
+  },
+  {
    "name": "Michael Clarke: Russia Is Making Its Final Desperate Move - And This Winter Will Decide Everything",
    "show": "Decoding Geopolitics Podcast with Dominik Presl",
    "show_uri": "spotify:show:4280ZedhnCYLFurjyzjmco",
@@ -1515,32 +1541,6 @@ window.LISTENING = {
    "last_seen": "2026-11-01T16:40:03Z",
    "url": "https://open.spotify.com/episode/4Yq6HmPUjylV8OAWPZ3zF0",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fd2dd1e74bffcd7cabc91a62c"
-  },
-  {
-   "name": "Inside Oleshky’s chaotic evacuation as Russia ‘prepares fresh offensive’",
-   "show": "Ukraine: The Latest",
-   "show_uri": "spotify:show:6cnkk1J0I1UqtxTYVUL4Fe",
-   "release_date": "2026-10-30",
-   "duration_ms": 2834547,
-   "image": "https://i.scdn.co/image/ab67656300005f1ffe3b9cc8c2923cb151f897f9",
-   "first_seen": "2026-11-01T15:40:03Z",
-   "progress_ms": 2596436,
-   "last_seen": "2026-11-01T16:10:03Z",
-   "url": "https://open.spotify.com/episode/6ENZSg73hton67DCSNT0XK",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f78954c21afd24c90334deba4"
-  },
-  {
-   "name": "Putin hails Musk the 'genius' as Moscow builds its own version of Starlink",
-   "show": "Ukraine: The Latest",
-   "show_uri": "spotify:show:6cnkk1J0I1UqtxTYVUL4Fe",
-   "release_date": "2026-10-29",
-   "duration_ms": 2902961,
-   "image": "https://i.scdn.co/image/ab67656300005f1fbb54afc4dc5ba94d3d1c901d",
-   "first_seen": "2026-11-01T14:40:03Z",
-   "progress_ms": 2131574,
-   "last_seen": "2026-11-01T15:10:03Z",
-   "url": "https://open.spotify.com/episode/6l4cHPhuvSEirn2ZAGIYgi",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f78954c21afd24c90334deba4"
   },
   {
    "name": "Will a blue wave sweep the South? Jennifer Palmieri explains why it might",
