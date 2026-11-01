@@ -1,14 +1,80 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-01T17:40:06Z",
+ "generated": "2026-11-01T18:10:07Z",
  "totals": {
-  "plays": 124647,
-  "hours": 8473.4,
+  "plays": 124653,
+  "hours": 8473.8,
   "artists": 701,
   "albums": 1516,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "S!CK - Live from Auditorio Nacional, CDMX",
+   "artist": "The Warning",
+   "album": "Live from Auditorio Nacional, CDMX",
+   "year": 2025,
+   "image": "https://i.scdn.co/image/ab67616d00001e025cda6d880ec3968aa6b6ac2f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
+   "url": "https://open.spotify.com/track/10zZP6IvvcFJvFbcCQnGhP",
+   "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
+   "played_at": "2026-11-01T17:59:44.159Z"
+  },
+  {
+   "name": "Kiss",
+   "artist": "Prince",
+   "album": "Parade - Music from the Motion Picture Under the Cherry Moon",
+   "year": 1986,
+   "image": "https://i.scdn.co/image/ab67616d00001e0223cc0f0a925845a3de4aca38",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27323cc0f0a925845a3de4aca38",
+   "url": "https://open.spotify.com/track/62LJFaYihsdVrrkgUOJC05",
+   "album_url": "https://open.spotify.com/album/54DjkEN3wdCQgfCTZ9WjdB",
+   "played_at": "2026-11-01T17:55:57.350Z"
+  },
+  {
+   "name": "Double Trouble",
+   "artist": "Lynyrd Skynyrd",
+   "album": "Gimme Back My Bullets (Expanded Edition)",
+   "year": 1976,
+   "image": "https://i.scdn.co/image/ab67616d00001e0261b3a3d80e51446fdc4e35b5",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27361b3a3d80e51446fdc4e35b5",
+   "url": "https://open.spotify.com/track/5ftkCxdoFGmkXbm5zgu0lS",
+   "album_url": "https://open.spotify.com/album/7nl7cH6KtKcKU7I2Hj2gAM",
+   "played_at": "2026-11-01T17:52:10.548Z"
+  },
+  {
+   "name": "Second Chances",
+   "artist": "Gregory Alan Isakov",
+   "album": "The Weatherman",
+   "year": 2013,
+   "image": "https://i.scdn.co/image/ab67616d00001e0233ffa5c45ccea4103c917964",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27333ffa5c45ccea4103c917964",
+   "url": "https://open.spotify.com/track/6Wu19AEKVNs5bJFuhZb4EZ",
+   "album_url": "https://open.spotify.com/album/3IcfYXw7lTtLfG5XWLlSZi",
+   "played_at": "2026-11-01T17:49:19.571Z"
+  },
+  {
+   "name": "Shot Down in Flames",
+   "artist": "AC/DC",
+   "album": "Highway to Hell",
+   "year": 1979,
+   "image": "https://i.scdn.co/image/ab67616d00001e0243058ea096fa35ac33c43587",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27343058ea096fa35ac33c43587",
+   "url": "https://open.spotify.com/track/6pivm7pNF4GyBkHNGseHCS",
+   "album_url": "https://open.spotify.com/album/10v912xgTZbjAtYfyKWJCS",
+   "played_at": "2026-11-01T17:45:29.657Z"
+  },
+  {
+   "name": "46 and 2",
+   "artist": "O'keefe Music Foundation",
+   "album": "46 and 2",
+   "year": 2015,
+   "image": "https://i.scdn.co/image/ab67616d00001e02c953a05b22cfd7dc11d3d7a6",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273c953a05b22cfd7dc11d3d7a6",
+   "url": "https://open.spotify.com/track/1Mfb4wUz54L6wW900FfWtG",
+   "album_url": "https://open.spotify.com/album/68bP3r8G6e4ej006S1eWmg",
+   "played_at": "2026-11-01T17:42:06.197Z"
+  },
   {
    "name": "Don't Bring Me Down",
    "artist": "Electric Light Orchestra",
@@ -470,84 +536,18 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/6qUEOWqOzu1rLPUPQ1ECpx",
    "album_url": "https://open.spotify.com/album/7AFsTiojVaB2I58oZ1tMRg",
    "played_at": "2026-10-31T19:28:53.093Z"
-  },
-  {
-   "name": "Slide",
-   "artist": "Plastic Picnic",
-   "album": "As Long As You Need",
-   "year": 2022,
-   "image": "https://i.scdn.co/image/ab67616d00001e0233ed65aef7428608f5b33f17",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27333ed65aef7428608f5b33f17",
-   "url": "https://open.spotify.com/track/5Rokkaaomfmom5BOm19A8b",
-   "album_url": "https://open.spotify.com/album/615Oddpje0fnkwigsDZYIU",
-   "played_at": "2026-10-31T19:23:42.271Z"
-  },
-  {
-   "name": "Another One Bites The Dust",
-   "artist": "Queen",
-   "album": "The Game",
-   "year": 1980,
-   "image": "https://i.scdn.co/image/ab67616d00001e02a4e6eac83c0fe38bf682f643",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273a4e6eac83c0fe38bf682f643",
-   "url": "https://open.spotify.com/track/1KPuohcXPmJYQfdyg9zKmR",
-   "album_url": "https://open.spotify.com/album/6l8tOdUItDC01Qmb91Lo8W",
-   "played_at": "2026-10-31T19:19:59.879Z"
-  },
-  {
-   "name": "Kerosene",
-   "artist": "The Warning",
-   "album": "Kerosene",
-   "year": 2026,
-   "image": "https://i.scdn.co/image/ab67616d00001e026bc799c6c712870ffe1d1546",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2736bc799c6c712870ffe1d1546",
-   "url": "https://open.spotify.com/track/2xixXiLYi3FsNF0m9vEV2G",
-   "album_url": "https://open.spotify.com/album/65GiY2SnJWKtFIGyFDKSDm",
-   "played_at": "2026-10-31T19:16:24.597Z"
-  },
-  {
-   "name": "Fly Away",
-   "artist": "Lenny Kravitz",
-   "album": "5",
-   "year": 1998,
-   "image": "https://i.scdn.co/image/ab67616d00001e02f1157b7dcd21bae0c2c75d89",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273f1157b7dcd21bae0c2c75d89",
-   "url": "https://open.spotify.com/track/1OxcIUqVmVYxT6427tbhDW",
-   "album_url": "https://open.spotify.com/album/6MCNMOCRsh6nxs7PNzc0zN",
-   "played_at": "2026-10-31T19:12:58.198Z"
-  },
-  {
-   "name": "Year of the Cat",
-   "artist": "Al Stewart",
-   "album": "Year of the Cat",
-   "year": 1976,
-   "image": "https://i.scdn.co/image/ab67616d00001e0225eb343e664ce94ca551b076",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27325eb343e664ce94ca551b076",
-   "url": "https://open.spotify.com/track/7MTX3vevnm41xuEoPxWT3j",
-   "album_url": "https://open.spotify.com/album/2JxEUrs4GzHQdkV6qQayz5",
-   "played_at": "2026-10-31T19:07:33.090Z"
-  },
-  {
-   "name": "Fade Away",
-   "artist": "The Warning",
-   "album": "ESCAPE THE MIND",
-   "year": 2015,
-   "image": "https://i.scdn.co/image/ab67616d00001e02ebd25082bf514bd05cc4cfd2",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273ebd25082bf514bd05cc4cfd2",
-   "url": "https://open.spotify.com/track/5tn18hld9Kj4H4fuLJ2Wck",
-   "album_url": "https://open.spotify.com/album/0Zj4AvZpKzStGARIOkoDS5",
-   "played_at": "2026-10-31T19:00:52.465Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10653,
+   "plays": 10654,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
   {
    "name": "AC/DC",
-   "plays": 3982,
+   "plays": 3983,
    "url": "https://open.spotify.com/artist/711MCceyCBcFnzjGY4Q7Un",
    "image": "https://i.scdn.co/image/ab67616d00001e02ff191d7fbdb5a13eaf84132b"
   },
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28579,
+   "plays": 28581,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32802,
+   "plays": 32803,
    "covers": [
     {
      "name": "Back In Black",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15738,
+   "plays": 15740,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18565,
+   "plays": 18566,
    "covers": [
     {
      "name": "ERROR",
@@ -1451,7 +1451,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
      "url": "https://open.spotify.com/track/3zgbw0cxkS1DQ36O5hGydt",
      "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
-     "plays": 474
+     "plays": 475
     },
     {
      "name": "The Barbarians",
