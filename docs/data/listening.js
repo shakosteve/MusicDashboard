@@ -1,14 +1,58 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-01T03:40:15Z",
+ "generated": "2026-11-01T04:10:14Z",
  "totals": {
-  "plays": 124623,
-  "hours": 8471.7,
+  "plays": 124627,
+  "hours": 8472.0,
   "artists": 701,
-  "albums": 1495,
+  "albums": 1512,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Open Your Heart",
+   "artist": "Madonna",
+   "album": "The Immaculate Collection",
+   "year": 1990,
+   "image": "https://i.scdn.co/image/ab67616d00001e02e275f1fbda1c7bc82f9c386b",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273e275f1fbda1c7bc82f9c386b",
+   "url": "https://open.spotify.com/track/1AMZVcZvuPKqxm822W8PGV",
+   "album_url": "https://open.spotify.com/album/5MzwGwnO9gkh0z6Nl4FF8h",
+   "played_at": "2026-11-01T04:02:48.584Z"
+  },
+  {
+   "name": "Kiss Me Deadly",
+   "artist": "Lita Ford",
+   "album": "Lita",
+   "year": 1988,
+   "image": "https://i.scdn.co/image/ab67616d00001e022dbf0cc843a4a0fe8c8f5482",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2732dbf0cc843a4a0fe8c8f5482",
+   "url": "https://open.spotify.com/track/0kFM6t9htbB53Dg8frGDGh",
+   "album_url": "https://open.spotify.com/album/5nfd1bXqze24U3EZXP1Qlk",
+   "played_at": "2026-11-01T03:58:56.897Z"
+  },
+  {
+   "name": "Mad About You",
+   "artist": "Belinda Carlisle",
+   "album": "Belinda",
+   "year": 1986,
+   "image": "https://i.scdn.co/image/ab67616d00001e02eb16b58d03dbaa18a91a526b",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273eb16b58d03dbaa18a91a526b",
+   "url": "https://open.spotify.com/track/1SWfuzL0VJx1oYnEtqueSr",
+   "album_url": "https://open.spotify.com/album/6LEZyia6Ny2PUdMD2FWhF3",
+   "played_at": "2026-11-01T03:54:54.519Z"
+  },
+  {
+   "name": "Crazy On You",
+   "artist": "Heart",
+   "album": "Dreamboat Annie",
+   "year": 1975,
+   "image": "https://i.scdn.co/image/ab67616d00001e028e8c08ca2feb999bb84f05e6",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2738e8c08ca2feb999bb84f05e6",
+   "url": "https://open.spotify.com/track/5zH710lFSLtkHbMkslLDjR",
+   "album_url": "https://open.spotify.com/album/2N0AgtWbCmVoNUl2GN1opH",
+   "played_at": "2026-11-01T03:51:17.597Z"
+  },
   {
    "name": "Fever",
    "artist": "The Sixsters",
@@ -492,50 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/10zZP6IvvcFJvFbcCQnGhP",
    "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
    "played_at": "2026-10-31T17:36:34.954Z"
-  },
-  {
-   "name": "Hallelujah - Bonus Track",
-   "artist": "HAIM",
-   "album": "Women In Music Pt. III",
-   "year": 2021,
-   "image": "https://i.scdn.co/image/ab67616d00001e02e8be33a5e8efee9be2afffc3",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273e8be33a5e8efee9be2afffc3",
-   "url": "https://open.spotify.com/track/3ag4ODA4AwOhHG5pGcX0Lk",
-   "album_url": "https://open.spotify.com/album/396EJBtUzseofX2YCBJVvM",
-   "played_at": "2026-10-31T17:32:48.075Z"
-  },
-  {
-   "name": "Survive",
-   "artist": "The Warning",
-   "album": "XXI Century Blood",
-   "year": 2017,
-   "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
-   "url": "https://open.spotify.com/track/1eJbsnmix2Y3k3ymp6R5Rs",
-   "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
-   "played_at": "2026-10-31T17:29:36.677Z"
-  },
-  {
-   "name": "Hell You Call A Dream - Live from Auditorio Nacional, CDMX",
-   "artist": "The Warning",
-   "album": "Live from Auditorio Nacional, CDMX",
-   "year": 2025,
-   "image": "https://i.scdn.co/image/ab67616d00001e025cda6d880ec3968aa6b6ac2f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
-   "url": "https://open.spotify.com/track/07koXm5HsK6Dm2afr7JvKX",
-   "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
-   "played_at": "2026-10-31T17:24:27.857Z"
-  },
-  {
-   "name": "My Kinda Lover - Remastered 2010",
-   "artist": "Billy Squier",
-   "album": "Don't Say No (Remastered 2010)",
-   "year": 1981,
-   "image": "https://i.scdn.co/image/ab67616d00001e02f4822f8034e697410a14a297",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273f4822f8034e697410a14a297",
-   "url": "https://open.spotify.com/track/6g14FUj5zU9FDRwBi963vS",
-   "album_url": "https://open.spotify.com/album/6TwlLNU5Zd9qGuNgSLeWPt",
-   "played_at": "2026-10-31T17:21:24.172Z"
   }
  ],
  "top_artists": [
@@ -565,7 +565,7 @@ window.LISTENING = {
   },
   {
    "name": "Madonna",
-   "plays": 2102,
+   "plays": 2103,
    "url": "https://open.spotify.com/artist/6tbjWDEIzxoDsBA1FuhfPW",
    "image": "https://i.scdn.co/image/ab67616d00001e026b44fa8f5415cc4c945117be"
   },
@@ -583,7 +583,7 @@ window.LISTENING = {
   },
   {
    "name": "Heart",
-   "plays": 1920,
+   "plays": 1921,
    "url": "https://open.spotify.com/artist/34jw2BbxjoYalTp8cJFCPv",
    "image": "https://i.scdn.co/image/ab67616d00001e0266e2e0df78c4ec35a8ed20a0"
   },
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28568,
+   "plays": 28571,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -970,7 +970,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2738e8c08ca2feb999bb84f05e6",
      "url": "https://open.spotify.com/track/5zH710lFSLtkHbMkslLDjR",
      "album_url": "https://open.spotify.com/album/2N0AgtWbCmVoNUl2GN1opH",
-     "plays": 703
+     "plays": 704
     },
     {
      "name": "Stairway to Heaven - Remaster",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32792,
+   "plays": 32795,
    "covers": [
     {
      "name": "Back In Black",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9673,
+   "plays": 9678,
    "covers": [
     {
      "name": "Amazing",
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 11965,
+   "plays": 11968,
    "covers": [
     {
      "name": "Material Girl",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18550,
+   "plays": 18560,
    "covers": [
     {
      "name": "ERROR",
