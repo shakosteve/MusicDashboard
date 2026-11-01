@@ -1,14 +1,91 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-01T12:40:06Z",
+ "generated": "2026-11-01T13:10:06Z",
  "totals": {
-  "plays": 124632,
-  "hours": 8472.3,
+  "plays": 124639,
+  "hours": 8472.8,
   "artists": 701,
-  "albums": 1514,
+  "albums": 1515,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Our Lips Are Sealed - Single Version",
+   "artist": "The Go-Go's",
+   "album": "Beauty And The Beat",
+   "year": 1981,
+   "image": "https://i.scdn.co/image/ab67616d00001e028a25755534e84d8a604e6b38",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2738a25755534e84d8a604e6b38",
+   "url": "https://open.spotify.com/track/1GVnAD8Iz45rux6EC657Yv",
+   "album_url": "https://open.spotify.com/album/1L4HE00En7eNK74voVZums",
+   "played_at": "2026-11-01T13:08:43.319Z"
+  },
+  {
+   "name": "Have You Ever Seen The Rain",
+   "artist": "Creedence Clearwater Revival",
+   "album": "Pendulum (Expanded Edition)",
+   "year": 1970,
+   "image": "https://i.scdn.co/image/ab67616d00001e0251f311c2fb06ad2789e3ff91",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27351f311c2fb06ad2789e3ff91",
+   "url": "https://open.spotify.com/track/2LawezPeJhN4AWuSB0GtAU",
+   "album_url": "https://open.spotify.com/album/372cMadhAGlNuDnc8TssqF",
+   "played_at": "2026-11-01T13:05:54.880Z"
+  },
+  {
+   "name": "Just a Gigolo / I Ain't Got Nobody - 45 Version",
+   "artist": "David Lee Roth",
+   "album": "Just a Gigolo/I Ain't Got Nobody (45 Version) / Just a Gigolo/I Ain't Got Nobody [Remix]",
+   "year": 1985,
+   "image": "https://i.scdn.co/image/ab67616d00001e021015021b32117f9df269539c",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2731015021b32117f9df269539c",
+   "url": "https://open.spotify.com/track/0QcIphdyZIVgFvW7ijEiPX",
+   "album_url": "https://open.spotify.com/album/46LRDmqWRZ3kiPcZ1LuvSc",
+   "played_at": "2026-11-01T13:03:14.211Z"
+  },
+  {
+   "name": "Bohemian Rhapsody",
+   "artist": "Queen",
+   "album": "A Night At The Opera",
+   "year": 1975,
+   "image": "https://i.scdn.co/image/ab67616d00001e02fdab4a163ab9f6db72c952ee",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273fdab4a163ab9f6db72c952ee",
+   "url": "https://open.spotify.com/track/2JiDi0qAXsPwhPqA2qaKGt",
+   "album_url": "https://open.spotify.com/album/1TkbyIkf6GSrO5e7gWS4AM",
+   "played_at": "2026-11-01T12:58:54.510Z"
+  },
+  {
+   "name": "What Good's A Rock Without A Roll?",
+   "artist": "Black Spiders",
+   "album": "Sons Of The North",
+   "year": 2011,
+   "image": "https://i.scdn.co/image/ab67616d00001e026724fae9bc203a9d4defd736",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2736724fae9bc203a9d4defd736",
+   "url": "https://open.spotify.com/track/0FrhD37RheksdxcDi4tgx3",
+   "album_url": "https://open.spotify.com/album/7KDzhHeTeAjmBFO3ixlMGm",
+   "played_at": "2026-11-01T12:52:59.717Z"
+  },
+  {
+   "name": "American Woman - 2024 Remaster",
+   "artist": "The Guess Who",
+   "album": "American Woman (Expanded Edition)",
+   "year": 1970,
+   "image": "https://i.scdn.co/image/ab67616d00001e02d75b73c14d050fbce3d85790",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273d75b73c14d050fbce3d85790",
+   "url": "https://open.spotify.com/track/2FT4gakd3matx4vI6YCTD8",
+   "album_url": "https://open.spotify.com/album/7iYzF8KvARMLyshweM63Bq",
+   "played_at": "2026-11-01T12:48:29.527Z"
+  },
+  {
+   "name": "Good Traveler",
+   "artist": "Saving Escape",
+   "album": "Good Traveler",
+   "year": 2024,
+   "image": "https://i.scdn.co/image/ab67616d00001e024b786fec5eb9124b289cc587",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2734b786fec5eb9124b289cc587",
+   "url": "https://open.spotify.com/track/13Xm7eVN59gjVTUaIN3O59",
+   "album_url": "https://open.spotify.com/album/68yAqNSfaFPL1ZkcJhsTgG",
+   "played_at": "2026-11-01T12:43:21.005Z"
+  },
   {
    "name": "Dirty Diana - 2012 Remaster",
    "artist": "Michael Jackson",
@@ -459,83 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/7zkLpY72g6lKQbiHDqri1S",
    "album_url": "https://open.spotify.com/album/7GaAXgbFSpcJOiLlFGYyOL",
    "played_at": "2026-10-31T18:26:13.666Z"
-  },
-  {
-   "name": "Somebody To Love",
-   "artist": "Queen",
-   "album": "A Day At The Races (Deluxe Edition)",
-   "year": 1976,
-   "image": "https://i.scdn.co/image/ab67616d00001e023aa2d125c28475c322ac831e",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2733aa2d125c28475c322ac831e",
-   "url": "https://open.spotify.com/track/18OMrZoyyZuVy06FttIFhq",
-   "album_url": "https://open.spotify.com/album/32wu2qeQwVA6D8z1nWk68Q",
-   "played_at": "2026-10-31T18:22:52.581Z"
-  },
-  {
-   "name": "Groove Is in the Heart",
-   "artist": "Deee-Lite",
-   "album": "World Clique",
-   "year": 1990,
-   "image": "https://i.scdn.co/image/ab67616d00001e02cbcb5083c56df2a557625bca",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273cbcb5083c56df2a557625bca",
-   "url": "https://open.spotify.com/track/2He3NOyqtLNE3RQPpeDdSb",
-   "album_url": "https://open.spotify.com/album/4sTAgYLZy5zwqR3kT1g0oh",
-   "played_at": "2026-10-31T18:17:55.070Z"
-  },
-  {
-   "name": "Survive - Live from Auditorio Nacional, CDMX",
-   "artist": "The Warning",
-   "album": "Live from Auditorio Nacional, CDMX",
-   "year": 2025,
-   "image": "https://i.scdn.co/image/ab67616d00001e025cda6d880ec3968aa6b6ac2f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
-   "url": "https://open.spotify.com/track/5T3GENlcRcJH3caFS2tUj0",
-   "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
-   "played_at": "2026-10-31T18:14:02.708Z"
-  },
-  {
-   "name": "Runnin' with the Devil - 2015 Remaster",
-   "artist": "Van Halen",
-   "album": "Van Halen (Remastered)",
-   "year": 1978,
-   "image": "https://i.scdn.co/image/ab67616d00001e0217dd812df38fed44d6d2036e",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27317dd812df38fed44d6d2036e",
-   "url": "https://open.spotify.com/track/3KhF2YiNpJvGpfiCW45R6D",
-   "album_url": "https://open.spotify.com/album/7DdEbYFPKTZ8KB4z6L4UnQ",
-   "played_at": "2026-10-31T18:08:51.472Z"
-  },
-  {
-   "name": "Swingtown",
-   "artist": "Steve Miller Band",
-   "album": "Greatest Hits 1974-78",
-   "year": 1978,
-   "image": "https://i.scdn.co/image/ab67616d00001e02632b907273dba6a6062fb780",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273632b907273dba6a6062fb780",
-   "url": "https://open.spotify.com/track/4F01HOLdVKrIfH6LwOi07f",
-   "album_url": "https://open.spotify.com/album/5hLazW5a3Ysgy3dncwGgUn",
-   "played_at": "2026-10-31T18:05:16.192Z"
-  },
-  {
-   "name": "Riders on the Storm",
-   "artist": "The Doors",
-   "album": "L.A. Woman",
-   "year": 1971,
-   "image": "https://i.scdn.co/image/ab67616d00001e0211d9db4f0db1e2689ca22c3d",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27311d9db4f0db1e2689ca22c3d",
-   "url": "https://open.spotify.com/track/14XWXWv5FoCbFzLksawpEe",
-   "album_url": "https://open.spotify.com/album/7IKUTIc9UWuVngyGPtqNHS",
-   "played_at": "2026-10-31T18:01:45.786Z"
-  },
-  {
-   "name": "Come Away With Me",
-   "artist": "Norah Jones",
-   "album": "Come Away With Me (Super Deluxe Edition)",
-   "year": 2002,
-   "image": "https://i.scdn.co/image/ab67616d00001e02c648a42b5dad72c8aafceeec",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273c648a42b5dad72c8aafceeec",
-   "url": "https://open.spotify.com/track/6jGnykaS6TkWp15utXSAeI",
-   "album_url": "https://open.spotify.com/album/3ArSFkv4OQOosOvYTrZNIl",
-   "played_at": "2026-10-31T17:54:30.563Z"
   }
  ],
  "top_artists": [
@@ -589,13 +589,13 @@ window.LISTENING = {
   },
   {
    "name": "Queen",
-   "plays": 1913,
+   "plays": 1914,
    "url": "https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d",
    "image": "https://i.scdn.co/image/ab67616d00001e0207744e2ed983efa3e6620a47"
   },
   {
    "name": "Saving Escape",
-   "plays": 1675,
+   "plays": 1676,
    "url": "https://open.spotify.com/artist/2VfhnjHV7e3M499VPa1w71",
    "image": "https://i.scdn.co/image/ab67616d00001e02a8e9a07f9110e842adaa5c13"
   }
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28573,
+   "plays": 28576,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32799,
+   "plays": 32801,
    "covers": [
     {
      "name": "Back In Black",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15736,
+   "plays": 15737,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18561,
+   "plays": 18562,
    "covers": [
     {
      "name": "ERROR",
