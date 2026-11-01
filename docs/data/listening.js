@@ -1,14 +1,102 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-01T19:10:05Z",
+ "generated": "2026-11-01T19:40:06Z",
  "totals": {
-  "plays": 124660,
-  "hours": 8474.3,
+  "plays": 124668,
+  "hours": 8474.8,
   "artists": 701,
   "albums": 1516,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Brown Sugar",
+   "artist": "The Rolling Stones",
+   "album": "Hot Rocks 1964-1971",
+   "year": 1971,
+   "image": "https://i.scdn.co/image/ab67616d00001e02b11b3fc3c89477a7dd473bd7",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273b11b3fc3c89477a7dd473bd7",
+   "url": "https://open.spotify.com/track/34K7nU8EWQIRI93RfqhdRJ",
+   "album_url": "https://open.spotify.com/album/0aqZJlugIkTUWW1sa4BANp",
+   "played_at": "2026-11-01T19:39:48.077Z"
+  },
+  {
+   "name": "Shaker Down",
+   "artist": "The Standstills",
+   "album": "Badlands",
+   "year": 2019,
+   "image": "https://i.scdn.co/image/ab67616d00001e02f5584a416336fb0330429e90",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273f5584a416336fb0330429e90",
+   "url": "https://open.spotify.com/track/1j7ay7ycQuhNMtZysxUPOp",
+   "album_url": "https://open.spotify.com/album/4iNFVjkK0lUEUZClibXrtX",
+   "played_at": "2026-11-01T19:35:58.555Z"
+  },
+  {
+   "name": "Immigrant Song - Remaster",
+   "artist": "Led Zeppelin",
+   "album": "Mothership (Remastered)",
+   "year": 2007,
+   "image": "https://i.scdn.co/image/ab67616d00001e0222f1b6c28ce5735646b2e569",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27322f1b6c28ce5735646b2e569",
+   "url": "https://open.spotify.com/track/2uuMXKKmdXrY2XxsqTsGp0",
+   "album_url": "https://open.spotify.com/album/4wExFfncaUIqSgoxnqa3Eh",
+   "played_at": "2026-11-01T19:32:53.217Z"
+  },
+  {
+   "name": "Good Vibrations - Remastered 2001",
+   "artist": "The Beach Boys",
+   "album": "Smiley Smile (Remastered)",
+   "year": 1967,
+   "image": "https://i.scdn.co/image/ab67616d00001e02fb9dac3244b8486758058a81",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273fb9dac3244b8486758058a81",
+   "url": "https://open.spotify.com/track/5t9KYe0Fhd5cW6UYT4qP8f",
+   "album_url": "https://open.spotify.com/album/37rNuexqEXWeSIOiJtn3A9",
+   "played_at": "2026-11-01T19:30:26.017Z"
+  },
+  {
+   "name": "American Woman",
+   "artist": "Lenny Kravitz",
+   "album": "5",
+   "year": 1998,
+   "image": "https://i.scdn.co/image/ab67616d00001e02f1157b7dcd21bae0c2c75d89",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273f1157b7dcd21bae0c2c75d89",
+   "url": "https://open.spotify.com/track/3X6iIrFuQoCshIWBseEKPl",
+   "album_url": "https://open.spotify.com/album/6MCNMOCRsh6nxs7PNzc0zN",
+   "played_at": "2026-11-01T19:26:46.486Z"
+  },
+  {
+   "name": "Live Like This",
+   "artist": "Return to Dust",
+   "album": "Return to Dust",
+   "year": 2024,
+   "image": "https://i.scdn.co/image/ab67616d00001e02416863729de216cc315bac0d",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273416863729de216cc315bac0d",
+   "url": "https://open.spotify.com/track/3XCi9pzqNzPDb2qqrufi1R",
+   "album_url": "https://open.spotify.com/album/2iMQfRVysuYVHB4UEhT6dB",
+   "played_at": "2026-11-01T19:22:21.428Z"
+  },
+  {
+   "name": "Are You Gonna Be My Girl",
+   "artist": "Jet",
+   "album": "Get Born (Deluxe Edition)",
+   "year": 2003,
+   "image": "https://i.scdn.co/image/ab67616d00001e0201fe3e94ab830a543d8f6a93",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27301fe3e94ab830a543d8f6a93",
+   "url": "https://open.spotify.com/track/72zZfHPYx43shcP3eKkYi5",
+   "album_url": "https://open.spotify.com/album/6svS1vGX5qyK9mhz8ijzxs",
+   "played_at": "2026-11-01T19:18:24.866Z"
+  },
+  {
+   "name": "Abracadabra",
+   "artist": "Steve Miller Band",
+   "album": "Abracadabra",
+   "year": 1982,
+   "image": "https://i.scdn.co/image/ab67616d00001e02b80d7868e6e0275d12102508",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273b80d7868e6e0275d12102508",
+   "url": "https://open.spotify.com/track/2E2ZVy2fxslpAUgbb4zu84",
+   "album_url": "https://open.spotify.com/album/0afS7TjKOoq8LzTx9CgOnu",
+   "played_at": "2026-11-01T19:14:50.655Z"
+  },
   {
    "name": "Turn! Turn! Turn! (To Everything There Is a Season)",
    "artist": "The Byrds",
@@ -448,94 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/7eafuv44YprITfOdzfVLoU",
    "album_url": "https://open.spotify.com/album/0mtLFaQ3hL371jsNraRo9g",
    "played_at": "2026-11-01T03:22:51.834Z"
-  },
-  {
-   "name": "Lyin' Eyes - 2013 Remaster",
-   "artist": "Eagles",
-   "album": "One of These Nights (2013 Remaster)",
-   "year": 1975,
-   "image": "https://i.scdn.co/image/ab67616d00001e025d0a8e54aba5181c79593b94",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2735d0a8e54aba5181c79593b94",
-   "url": "https://open.spotify.com/track/5lQKRR3MdJLtAwNBiT8Cq0",
-   "album_url": "https://open.spotify.com/album/0F77QekrNe8vVAjU2sepja",
-   "played_at": "2026-11-01T02:57:45.376Z"
-  },
-  {
-   "name": "Metal Chestnut",
-   "artist": "Slash",
-   "album": "Orgy of the Damned",
-   "year": 2024,
-   "image": "https://i.scdn.co/image/ab67616d00001e02e66f735898f62043666589b3",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273e66f735898f62043666589b3",
-   "url": "https://open.spotify.com/track/0hx19Rxlafp5mpiRa2FEIF",
-   "album_url": "https://open.spotify.com/album/6aTrDhVw5QgXSz2JM4V8hc",
-   "played_at": "2026-10-31T21:51:59.173Z"
-  },
-  {
-   "name": "MARTIRIO",
-   "artist": "The Warning",
-   "album": "MARTIRIO",
-   "year": 2021,
-   "image": "https://i.scdn.co/image/ab67616d00001e02732c6de7441ed29a73e87963",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273732c6de7441ed29a73e87963",
-   "url": "https://open.spotify.com/track/2W0IAUsjR26coSOvppEpKx",
-   "album_url": "https://open.spotify.com/album/6oyeToNU5s7ZGttwTZ8EDF",
-   "played_at": "2026-10-31T21:48:56.883Z"
-  },
-  {
-   "name": "Black Water - Single Version",
-   "artist": "The Doobie Brothers",
-   "album": "Best of The Doobies",
-   "year": 1976,
-   "image": "https://i.scdn.co/image/ab67616d00001e02338ef055d7501cf241e7437e",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273338ef055d7501cf241e7437e",
-   "url": "https://open.spotify.com/track/3x1v32I3SZNvC7q7bDhcGm",
-   "album_url": "https://open.spotify.com/album/32xyhzHlGGsDvs1E7qihRA",
-   "played_at": "2026-10-31T21:44:52.192Z"
-  },
-  {
-   "name": "Bad Company - 2015 Remaster",
-   "artist": "Bad Company",
-   "album": "Bad Company (Deluxe)",
-   "year": 1974,
-   "image": "https://i.scdn.co/image/ab67616d00001e029adafd7f9d57380d1d0373af",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2739adafd7f9d57380d1d0373af",
-   "url": "https://open.spotify.com/track/36vTL8WP4ZoD1bbUaW0V3E",
-   "album_url": "https://open.spotify.com/album/4fuDpBLCt9ChDlqw48bj7p",
-   "played_at": "2026-10-31T21:40:32.983Z"
-  },
-  {
-   "name": "Little Queen",
-   "artist": "Heart",
-   "album": "Little Queen",
-   "year": 1977,
-   "image": "https://i.scdn.co/image/ab67616d00001e0266e2e0df78c4ec35a8ed20a0",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27366e2e0df78c4ec35a8ed20a0",
-   "url": "https://open.spotify.com/track/0Mo316Vw5VAKEy2maTlTNS",
-   "album_url": "https://open.spotify.com/album/1LaeNhiUpL3X6N0LcFvuDF",
-   "played_at": "2026-10-31T21:35:44.489Z"
-  },
-  {
-   "name": "Give Me One Reason",
-   "artist": "Tracy Chapman",
-   "album": "New Beginning",
-   "year": 1995,
-   "image": "https://i.scdn.co/image/ab67616d00001e026b38571f15487588ed53032f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2736b38571f15487588ed53032f",
-   "url": "https://open.spotify.com/track/4vDBJeeQCbhP9FaPPMsYkY",
-   "album_url": "https://open.spotify.com/album/3XsOzkIBoHsxZ7jP3QF2oB",
-   "played_at": "2026-10-31T21:30:32.496Z"
-  },
-  {
-   "name": "Stuck In The Middle With You",
-   "artist": "Stealers Wheel",
-   "album": "Stealers Wheel",
-   "year": 1972,
-   "image": "https://i.scdn.co/image/ab67616d00001e02a5ce236c22035a02cf87d4de",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273a5ce236c22035a02cf87d4de",
-   "url": "https://open.spotify.com/track/3Vby4nGmtbDo7HDJamOWkT",
-   "album_url": "https://open.spotify.com/album/5ApN9lqru1t3Xh1IaEGTll",
-   "played_at": "2026-10-31T21:26:03.584Z"
   }
  ],
  "top_artists": [
@@ -559,7 +559,7 @@ window.LISTENING = {
   },
   {
    "name": "Led Zeppelin",
-   "plays": 2296,
+   "plays": 2297,
    "url": "https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp",
    "image": "https://i.scdn.co/image/ab67616d00001e02c8a11e48c91a982d086afc69"
   },
@@ -577,7 +577,7 @@ window.LISTENING = {
   },
   {
    "name": "Steve Miller Band",
-   "plays": 1948,
+   "plays": 1949,
    "url": "https://open.spotify.com/artist/6QtGlUje9TIkLrgPZrESuk",
    "image": "https://i.scdn.co/image/ab67616d00001e02632b907273dba6a6062fb780"
   },
@@ -832,7 +832,7 @@ window.LISTENING = {
   },
   {
    "decade": 1960,
-   "plays": 7044,
+   "plays": 7045,
    "covers": [
     {
      "name": "Your Time Is Gonna Come - 1990 Remaster",
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28583,
+   "plays": 28584,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32804,
+   "plays": 32805,
    "covers": [
     {
      "name": "Back In Black",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9679,
+   "plays": 9680,
    "covers": [
     {
      "name": "Amazing",
@@ -1191,7 +1191,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273f1157b7dcd21bae0c2c75d89",
      "url": "https://open.spotify.com/track/1OxcIUqVmVYxT6427tbhDW",
      "album_url": "https://open.spotify.com/album/6MCNMOCRsh6nxs7PNzc0zN",
-     "plays": 419
+     "plays": 420
     },
     {
      "name": "Death Letter Blues",
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 11970,
+   "plays": 11972,
    "covers": [
     {
      "name": "Material Girl",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15740,
+   "plays": 15741,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18566,
+   "plays": 18567,
    "covers": [
     {
      "name": "ERROR",
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Michael Clarke: Russia Is Making Its Final Desperate Move - And This Winter Will Decide Everything",
+   "show": "Decoding Geopolitics Podcast with Dominik Presl",
+   "show_uri": "spotify:show:4280ZedhnCYLFurjyzjmco",
+   "release_date": "2026-11-01",
+   "duration_ms": 1632000,
+   "image": "https://i.scdn.co/image/ab67656300005f1fae567258433f5224b4366698",
+   "first_seen": "2026-11-01T17:10:03Z",
+   "progress_ms": 1573309,
+   "last_seen": "2026-11-01T19:40:03Z",
+   "url": "https://open.spotify.com/episode/2zSmwEkgGhMp0XKHfw2l7x",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fab3cb125200d6c73efdfc670"
+  },
+  {
    "name": "Putin hails Musk the 'genius' as Moscow builds its own version of Starlink",
    "show": "Ukraine: The Latest",
    "show_uri": "spotify:show:6cnkk1J0I1UqtxTYVUL4Fe",
@@ -1515,19 +1528,6 @@ window.LISTENING = {
    "last_seen": "2026-11-01T17:40:03Z",
    "url": "https://open.spotify.com/episode/6ENZSg73hton67DCSNT0XK",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f78954c21afd24c90334deba4"
-  },
-  {
-   "name": "Michael Clarke: Russia Is Making Its Final Desperate Move - And This Winter Will Decide Everything",
-   "show": "Decoding Geopolitics Podcast with Dominik Presl",
-   "show_uri": "spotify:show:4280ZedhnCYLFurjyzjmco",
-   "release_date": "2026-11-01",
-   "duration_ms": 1632000,
-   "image": "https://i.scdn.co/image/ab67656300005f1fae567258433f5224b4366698",
-   "first_seen": "2026-11-01T17:10:03Z",
-   "progress_ms": 1048571,
-   "last_seen": "2026-11-01T17:10:03Z",
-   "url": "https://open.spotify.com/episode/2zSmwEkgGhMp0XKHfw2l7x",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fab3cb125200d6c73efdfc670"
   },
   {
    "name": "In Moscow's Shadows 269: White Flags and Red Banners",
