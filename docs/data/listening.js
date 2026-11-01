@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-01T22:40:06Z",
+ "generated": "2026-11-01T23:10:05Z",
  "totals": {
-  "plays": 124690,
-  "hours": 8476.4,
+  "plays": 124691,
+  "hours": 8476.5,
   "artists": 701,
   "albums": 1517,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Tick Of The Clock (Extended Overdrive)",
+   "artist": "Chromatics",
+   "album": "Tick Of The Clock",
+   "year": 2013,
+   "image": "https://i.scdn.co/image/ab67616d00001e02bb53c786a9aebe91240a8dce",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273bb53c786a9aebe91240a8dce",
+   "url": "https://open.spotify.com/track/0I2uIgFFNynFnH9PhUsiuz",
+   "album_url": "https://open.spotify.com/album/5whQsHpQHWMoNqLSut0o2a",
+   "played_at": "2026-11-01T22:42:44.613Z"
+  },
   {
    "name": "Bloody Well Right",
    "artist": "Supertramp",
@@ -525,17 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/2zI3bUYn2pcF27of6i2oqK",
    "album_url": "https://open.spotify.com/album/5hLazW5a3Ysgy3dncwGgUn",
    "played_at": "2026-11-01T13:24:12.210Z"
-  },
-  {
-   "name": "The Steps",
-   "artist": "HAIM",
-   "album": "Women In Music Pt. III",
-   "year": 2021,
-   "image": "https://i.scdn.co/image/ab67616d00001e02e8be33a5e8efee9be2afffc3",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273e8be33a5e8efee9be2afffc3",
-   "url": "https://open.spotify.com/track/5X2RisOZS9i5MsR8EVw58p",
-   "album_url": "https://open.spotify.com/album/396EJBtUzseofX2YCBJVvM",
-   "played_at": "2026-11-01T13:20:36.011Z"
   }
  ],
  "top_artists": [
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15742,
+   "plays": 15743,
    "covers": [
     {
      "name": "XXI Century Blood",
