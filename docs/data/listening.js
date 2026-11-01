@@ -1,14 +1,80 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-01T19:40:06Z",
+ "generated": "2026-11-01T20:10:06Z",
  "totals": {
-  "plays": 124668,
-  "hours": 8474.8,
+  "plays": 124674,
+  "hours": 8475.2,
   "artists": 701,
   "albums": 1516,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Shooting Star - 2015 Remaster",
+   "artist": "Bad Company",
+   "album": "Straight Shooter (Remastered)",
+   "year": 1975,
+   "image": "https://i.scdn.co/image/ab67616d00001e02e47e0a32972df08dd91ef674",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273e47e0a32972df08dd91ef674",
+   "url": "https://open.spotify.com/track/642U3n2uOkip6RIbLcUCwp",
+   "album_url": "https://open.spotify.com/album/7357FQavIXJYY4p1VYQd1Z",
+   "played_at": "2026-11-01T20:06:40.193Z"
+  },
+  {
+   "name": "Have a Drink on Me",
+   "artist": "AC/DC",
+   "album": "Back In Black",
+   "year": 1980,
+   "image": "https://i.scdn.co/image/ab67616d00001e02ff191d7fbdb5a13eaf84132b",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273ff191d7fbdb5a13eaf84132b",
+   "url": "https://open.spotify.com/track/4dDurgTN3eGyU0ghzFJ0T1",
+   "album_url": "https://open.spotify.com/album/6mUdeDZCsExyJLMdAfDuwh",
+   "played_at": "2026-11-01T20:00:19.801Z"
+  },
+  {
+   "name": "Killing Me Softly With His Song",
+   "artist": "Roberta Flack",
+   "album": "Killing Me Softly",
+   "year": 1973,
+   "image": "https://i.scdn.co/image/ab67616d00001e02bc161bb58763f72fc71a3a01",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273bc161bb58763f72fc71a3a01",
+   "url": "https://open.spotify.com/track/3gsCAGsWr6pUm1Vy7CPPob",
+   "album_url": "https://open.spotify.com/album/4GxrvKiysSiDU1HHifh1PA",
+   "played_at": "2026-11-01T19:56:20.164Z"
+  },
+  {
+   "name": "Human - Remastered 2003",
+   "artist": "The Human League",
+   "album": "The Very Best Of The Human League",
+   "year": 2005,
+   "image": "https://i.scdn.co/image/ab67616d00001e02c241836c5bd6c40669cb437b",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273c241836c5bd6c40669cb437b",
+   "url": "https://open.spotify.com/track/3gE2Af7Tgd1iZOO1xbTqoh",
+   "album_url": "https://open.spotify.com/album/02H0fLEbpeRdM8xkRk2fAU",
+   "played_at": "2026-11-01T19:51:32.739Z"
+  },
+  {
+   "name": "Who Made Who",
+   "artist": "AC/DC",
+   "album": "Who Made Who",
+   "year": 1986,
+   "image": "https://i.scdn.co/image/ab67616d00001e024338785835437128f20a57fb",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2734338785835437128f20a57fb",
+   "url": "https://open.spotify.com/track/6rvldt6EoZwzogApECUCwd",
+   "album_url": "https://open.spotify.com/album/07EFoHHspqSwsmkbnWaB4A",
+   "played_at": "2026-11-01T19:47:43.032Z"
+  },
+  {
+   "name": "Hold On",
+   "artist": "Wilson Phillips",
+   "album": "Wilson Phillips",
+   "year": 1990,
+   "image": "https://i.scdn.co/image/ab67616d00001e023168e1f416b81862ccc83594",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2733168e1f416b81862ccc83594",
+   "url": "https://open.spotify.com/track/4VZDv8sASBS8UruUBGTFdk",
+   "album_url": "https://open.spotify.com/album/1Xi55xFMaymXdSWshmxhw2",
+   "played_at": "2026-11-01T19:44:15.526Z"
+  },
   {
    "name": "Brown Sugar",
    "artist": "The Rolling Stones",
@@ -470,72 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/0kFM6t9htbB53Dg8frGDGh",
    "album_url": "https://open.spotify.com/album/5nfd1bXqze24U3EZXP1Qlk",
    "played_at": "2026-11-01T03:58:56.897Z"
-  },
-  {
-   "name": "Mad About You",
-   "artist": "Belinda Carlisle",
-   "album": "Belinda",
-   "year": 1986,
-   "image": "https://i.scdn.co/image/ab67616d00001e02eb16b58d03dbaa18a91a526b",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273eb16b58d03dbaa18a91a526b",
-   "url": "https://open.spotify.com/track/1SWfuzL0VJx1oYnEtqueSr",
-   "album_url": "https://open.spotify.com/album/6LEZyia6Ny2PUdMD2FWhF3",
-   "played_at": "2026-11-01T03:54:54.519Z"
-  },
-  {
-   "name": "Crazy On You",
-   "artist": "Heart",
-   "album": "Dreamboat Annie",
-   "year": 1975,
-   "image": "https://i.scdn.co/image/ab67616d00001e028e8c08ca2feb999bb84f05e6",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2738e8c08ca2feb999bb84f05e6",
-   "url": "https://open.spotify.com/track/5zH710lFSLtkHbMkslLDjR",
-   "album_url": "https://open.spotify.com/album/2N0AgtWbCmVoNUl2GN1opH",
-   "played_at": "2026-11-01T03:51:17.597Z"
-  },
-  {
-   "name": "Fever",
-   "artist": "The Sixsters",
-   "album": "I'm Gonna Be",
-   "year": 2022,
-   "image": "https://i.scdn.co/image/ab67616d00001e020cde6e1513d7528fb789d708",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2730cde6e1513d7528fb789d708",
-   "url": "https://open.spotify.com/track/2UjzN59gFTmybXfT3aeZBh",
-   "album_url": "https://open.spotify.com/album/0Qv3cNebPzkTO8CNcbJLsd",
-   "played_at": "2026-11-01T03:37:03.642Z"
-  },
-  {
-   "name": "Fabienk",
-   "artist": "Angine de Poitrine",
-   "album": "Vol.II",
-   "year": 2026,
-   "image": "https://i.scdn.co/image/ab67616d00001e024821b77fd92093513d7634b5",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2734821b77fd92093513d7634b5",
-   "url": "https://open.spotify.com/track/1KVkzkmFBx4A8bCma6ruKA",
-   "album_url": "https://open.spotify.com/album/3FqqIeynZXFBcyLS9FlWMo",
-   "played_at": "2026-11-01T03:33:42.136Z"
-  },
-  {
-   "name": "Sharp Dressed Man (2008 Remaster)",
-   "artist": "ZZ Top",
-   "album": "Eliminator",
-   "year": 1983,
-   "image": "https://i.scdn.co/image/ab67616d00001e02a2b4f98f60e3cacf3866b2e3",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273a2b4f98f60e3cacf3866b2e3",
-   "url": "https://open.spotify.com/track/0bRNszTbTFLNlunAeh7eom",
-   "album_url": "https://open.spotify.com/album/4KW6YVbF8E3kexYcl0k4IK",
-   "played_at": "2026-11-01T03:27:10.430Z"
-  },
-  {
-   "name": "Hungry Eyes - From \"Dirty Dancing\" Soundtrack",
-   "artist": "Eric Carmen",
-   "album": "Dirty Dancing (Original Motion Picture Soundtrack)",
-   "year": 1987,
-   "image": "https://i.scdn.co/image/ab67616d00001e02ac19c6552524d207aac1277b",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273ac19c6552524d207aac1277b",
-   "url": "https://open.spotify.com/track/7eafuv44YprITfOdzfVLoU",
-   "album_url": "https://open.spotify.com/album/0mtLFaQ3hL371jsNraRo9g",
-   "played_at": "2026-11-01T03:22:51.834Z"
   }
  ],
  "top_artists": [
@@ -547,7 +547,7 @@ window.LISTENING = {
   },
   {
    "name": "AC/DC",
-   "plays": 3984,
+   "plays": 3986,
    "url": "https://open.spotify.com/artist/711MCceyCBcFnzjGY4Q7Un",
    "image": "https://i.scdn.co/image/ab67616d00001e02ff191d7fbdb5a13eaf84132b"
   },
@@ -632,7 +632,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b273ff191d7fbdb5a13eaf84132b",
    "url": "https://open.spotify.com/track/08mG3Y1vljYA6bvDt4Wqkj",
    "album_url": "https://open.spotify.com/album/6mUdeDZCsExyJLMdAfDuwh",
-   "plays": 1581
+   "plays": 1582
   },
   {
    "name": "Material Girl",
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28584,
+   "plays": 28586,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32805,
+   "plays": 32807,
    "covers": [
     {
      "name": "Back In Black",
@@ -1031,7 +1031,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273ff191d7fbdb5a13eaf84132b",
      "url": "https://open.spotify.com/track/08mG3Y1vljYA6bvDt4Wqkj",
      "album_url": "https://open.spotify.com/album/6mUdeDZCsExyJLMdAfDuwh",
-     "plays": 1581
+     "plays": 1582
     },
     {
      "name": "Rocket - Remastered 2017",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9680,
+   "plays": 9681,
    "covers": [
     {
      "name": "Amazing",
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 11972,
+   "plays": 11973,
    "covers": [
     {
      "name": "Material Girl",
