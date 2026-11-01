@@ -1,14 +1,91 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-01T20:10:06Z",
+ "generated": "2026-11-01T20:40:05Z",
  "totals": {
-  "plays": 124674,
-  "hours": 8475.2,
+  "plays": 124681,
+  "hours": 8475.8,
   "artists": 701,
-  "albums": 1516,
+  "albums": 1517,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Hangman Jury",
+   "artist": "Aerosmith",
+   "album": "Permanent Vacation",
+   "year": 1987,
+   "image": "https://i.scdn.co/image/ab67616d00001e02a8a965df6a845b265ee19106",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273a8a965df6a845b265ee19106",
+   "url": "https://open.spotify.com/track/05eJthbLhxvnWvB3XF9HaQ",
+   "album_url": "https://open.spotify.com/album/3XYqOJI1YlX40kJTdzFEzp",
+   "played_at": "2026-11-01T20:38:42.864Z"
+  },
+  {
+   "name": "Kyrie",
+   "artist": "Mr. Mister",
+   "album": "Welcome To The Real World",
+   "year": 1985,
+   "image": "https://i.scdn.co/image/ab67616d00001e02cfccabf39d00d34235d5bcd6",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273cfccabf39d00d34235d5bcd6",
+   "url": "https://open.spotify.com/track/5K3Q1gue9nWLLwh6bYQFoB",
+   "album_url": "https://open.spotify.com/album/682sQ449vmcJXS2AGIMrsl",
+   "played_at": "2026-11-01T20:32:57.488Z"
+  },
+  {
+   "name": "2120 South Michigan Avenue - Long Version",
+   "artist": "The Rolling Stones",
+   "album": "12 X 5",
+   "year": 1964,
+   "image": "https://i.scdn.co/image/ab67616d00001e029d6ee4590d050ec9563daa92",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2739d6ee4590d050ec9563daa92",
+   "url": "https://open.spotify.com/track/4KoBKbnRh4BywqvY5VPkts",
+   "album_url": "https://open.spotify.com/album/2Hnje5QVKaPVNuGJ5yHC7Z",
+   "played_at": "2026-11-01T20:28:31.219Z"
+  },
+  {
+   "name": "Queen Of Hearts",
+   "artist": "Juice Newton",
+   "album": "Juice",
+   "year": 1981,
+   "image": "https://i.scdn.co/image/ab67616d00001e02662ce40b359cf7f6990fbee8",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273662ce40b359cf7f6990fbee8",
+   "url": "https://open.spotify.com/track/6R6ib5FgDYlG0rPA9c5DVv",
+   "album_url": "https://open.spotify.com/album/13TOuCZy3QU2Tt1llKPUqc",
+   "played_at": "2026-11-01T20:24:52.153Z"
+  },
+  {
+   "name": "Break In",
+   "artist": "Halestorm",
+   "album": "The Strange Case of... (Deluxe)",
+   "year": 2012,
+   "image": "https://i.scdn.co/image/ab67616d00001e02b03ce145dfc370474ce2757a",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273b03ce145dfc370474ce2757a",
+   "url": "https://open.spotify.com/track/5Q7pjvFqm4Pk0voGgutt5G",
+   "album_url": "https://open.spotify.com/album/4TyrGrbnsOVKOXVut2huz2",
+   "played_at": "2026-11-01T20:21:25.909Z"
+  },
+  {
+   "name": "Kickstart My Heart",
+   "artist": "Mötley Crüe",
+   "album": "Dr. Feelgood",
+   "year": 1989,
+   "image": "https://i.scdn.co/image/ab67616d00001e02fc30908354ee3be55dc6feb2",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273fc30908354ee3be55dc6feb2",
+   "url": "https://open.spotify.com/track/4Yqy0GpeDEXLibWJCZyQew",
+   "album_url": "https://open.spotify.com/album/4MDYr65P5RQb6VHt80T3o8",
+   "played_at": "2026-11-01T20:16:40.017Z"
+  },
+  {
+   "name": "Cool Change - Remastered 2022",
+   "artist": "Little River Band",
+   "album": "First Under The Wire (Remastered 2022)",
+   "year": 1979,
+   "image": "https://i.scdn.co/image/ab67616d00001e02d45ea4a21fa17a4e3bf9b378",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273d45ea4a21fa17a4e3bf9b378",
+   "url": "https://open.spotify.com/track/2SEGYVnWImKLUOkU3Qa8sX",
+   "album_url": "https://open.spotify.com/album/1pPsslUdE1HeBxdlgXJ7Yp",
+   "played_at": "2026-11-01T20:11:56.897Z"
+  },
   {
    "name": "Shooting Star - 2015 Remaster",
    "artist": "Bad Company",
@@ -459,83 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/2FT4gakd3matx4vI6YCTD8",
    "album_url": "https://open.spotify.com/album/7iYzF8KvARMLyshweM63Bq",
    "played_at": "2026-11-01T12:48:29.527Z"
-  },
-  {
-   "name": "Good Traveler",
-   "artist": "Saving Escape",
-   "album": "Good Traveler",
-   "year": 2024,
-   "image": "https://i.scdn.co/image/ab67616d00001e024b786fec5eb9124b289cc587",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2734b786fec5eb9124b289cc587",
-   "url": "https://open.spotify.com/track/13Xm7eVN59gjVTUaIN3O59",
-   "album_url": "https://open.spotify.com/album/68yAqNSfaFPL1ZkcJhsTgG",
-   "played_at": "2026-11-01T12:43:21.005Z"
-  },
-  {
-   "name": "Dirty Diana - 2012 Remaster",
-   "artist": "Michael Jackson",
-   "album": "Bad (Remastered)",
-   "year": 1987,
-   "image": "https://i.scdn.co/image/ab67616d00001e02eb2087dcd1eb61f833bdedff",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273eb2087dcd1eb61f833bdedff",
-   "url": "https://open.spotify.com/track/0AcgKF7kbSoCkh3n7vlHwK",
-   "album_url": "https://open.spotify.com/album/3Us57CjssWnHjTUIXBuIeH",
-   "played_at": "2026-11-01T12:38:16.293Z"
-  },
-  {
-   "name": "In the Air Tonight - 2015 Remaster",
-   "artist": "Phil Collins",
-   "album": "Face Value (Deluxe Editon)",
-   "year": 1981,
-   "image": "https://i.scdn.co/image/ab67616d00001e028a1d7cf42a84b10bd1ff8e56",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2738a1d7cf42a84b10bd1ff8e56",
-   "url": "https://open.spotify.com/track/18AXbzPzBS8Y3AkgSxzJPb",
-   "album_url": "https://open.spotify.com/album/1cM3r0WQZWNkCpEbmFjLln",
-   "played_at": "2026-11-01T12:33:35.035Z"
-  },
-  {
-   "name": "Sundown",
-   "artist": "Gordon Lightfoot",
-   "album": "Sundown",
-   "year": 1974,
-   "image": "https://i.scdn.co/image/ab67616d00001e028f2b3a1c0559ca6188de574b",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2738f2b3a1c0559ca6188de574b",
-   "url": "https://open.spotify.com/track/0SjnBEHZVXgCKvOrpvzL2k",
-   "album_url": "https://open.spotify.com/album/2IPD9EcNjUmsHvqULDMU9Y",
-   "played_at": "2026-11-01T12:27:56.913Z"
-  },
-  {
-   "name": "Head Over Heels - Dave Bascombe 7\" N.Mix",
-   "artist": "Tears For Fears, Dave Bascombe",
-   "album": "Songs From The Big Chair (Deluxe)",
-   "year": 1985,
-   "image": "https://i.scdn.co/image/ab67616d00001e0206b6bd6a604768e044abbd38",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27306b6bd6a604768e044abbd38",
-   "url": "https://open.spotify.com/track/5lwQGZYF4BXOzFtXc5zk8q",
-   "album_url": "https://open.spotify.com/album/06J93pgtDCUw6bsAQINhCs",
-   "played_at": "2026-11-01T12:24:22.999Z"
-  },
-  {
-   "name": "Open Your Heart",
-   "artist": "Madonna",
-   "album": "The Immaculate Collection",
-   "year": 1990,
-   "image": "https://i.scdn.co/image/ab67616d00001e02e275f1fbda1c7bc82f9c386b",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273e275f1fbda1c7bc82f9c386b",
-   "url": "https://open.spotify.com/track/1AMZVcZvuPKqxm822W8PGV",
-   "album_url": "https://open.spotify.com/album/5MzwGwnO9gkh0z6Nl4FF8h",
-   "played_at": "2026-11-01T04:02:48.584Z"
-  },
-  {
-   "name": "Kiss Me Deadly",
-   "artist": "Lita Ford",
-   "album": "Lita",
-   "year": 1988,
-   "image": "https://i.scdn.co/image/ab67616d00001e022dbf0cc843a4a0fe8c8f5482",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2732dbf0cc843a4a0fe8c8f5482",
-   "url": "https://open.spotify.com/track/0kFM6t9htbB53Dg8frGDGh",
-   "album_url": "https://open.spotify.com/album/5nfd1bXqze24U3EZXP1Qlk",
-   "played_at": "2026-11-01T03:58:56.897Z"
   }
  ],
  "top_artists": [
@@ -553,7 +553,7 @@ window.LISTENING = {
   },
   {
    "name": "Aerosmith",
-   "plays": 2596,
+   "plays": 2597,
    "url": "https://open.spotify.com/artist/7Ey4PD4MYsKc5I2dolUwbH",
    "image": "https://i.scdn.co/image/ab67616d00001e02587b26d49596162397b29ec8"
   },
@@ -832,7 +832,7 @@ window.LISTENING = {
   },
   {
    "decade": 1960,
-   "plays": 7045,
+   "plays": 7046,
    "covers": [
     {
      "name": "Your Time Is Gonna Come - 1990 Remaster",
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28586,
+   "plays": 28587,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32807,
+   "plays": 32811,
    "covers": [
     {
      "name": "Back In Black",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15741,
+   "plays": 15742,
    "covers": [
     {
      "name": "XXI Century Blood",
