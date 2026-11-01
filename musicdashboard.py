@@ -1154,6 +1154,16 @@ def report_data(now):
     status = "bad" if any("Traceback" in l or "rror" in l for l in problems) else \
              "warn" if problems or len(runs) < expected - 4 else "ok"
 
+    # Spotify rejecting the refresh token (revoked, or the app's secret changed) stops every sync until it's fixed.
+    # Only nag while the latest run still fails, so a one-off hiccup that recovered doesn't.
+    def rejected(lines):
+        return next((l for l in lines if re.search(r"token request failed \(40[01]\)", l)), None)
+    reauth = None
+    if runs and rejected(runs[-1][1]):
+        failing = [t for t, lines in runs if rejected(lines)]
+        reauth = {"since": failing[0], "client": "invalid_client" in rejected(runs[-1][1]),
+                  "authorized": os.environ.get("SPOTIFY_AUTHORIZED")}
+
     album_line = next((l for l in reversed(log) if "Album details" in l), "")
     m = re.search(r"Album details for (\d+) of (\d+) albums \((\d+)% of plays\)", album_line)
     shows = json.loads(SHOWS.read_text(encoding="utf-8")).values() if SHOWS.exists() else []
@@ -1165,7 +1175,9 @@ def report_data(now):
 
     top_tracks = sorted(tracks.values(), key=lambda t: -t["plays"])[:5]
     minutes = round(sum(p.get("ms_played") or p.get("duration_ms") or 0 for p in plays) / 60_000)
-    if status == "bad":
+    if reauth:
+        subject = "The Listening Booth: sign in to Spotify again"
+    elif status == "bad":
         subject = "The Listening Booth: the scheduled sync hit an error"
     elif top_tracks:
         subject = f"The Listening Booth: {len(plays)} plays · {top_tracks[0]['name']} on top"
@@ -1177,8 +1189,25 @@ def report_data(now):
             "last_run": runs[-1][0] if runs else None, "problems": problems[:12], "plays": len(plays),
             "minutes": minutes, "artist_count": len(artists), "podcasts": podcasts[:6],
             "top_tracks": top_tracks, "top_artists": sorted(artists.values(), key=lambda a: -a["plays"])[:5],
-            "on_this_day": on_this_day, "import": imported, "published": published, "site": site_url(),
+            "on_this_day": on_this_day, "import": imported, "published": published, "site": site_url(), "reauth": reauth,
             "totals": {"plays": len(all_plays), "since": all_plays[0]["local"].year if all_plays else None}}
+
+
+def reauth_note(a):
+    """What the report says when Spotify has stopped accepting the saved sign-in: (summary, steps)."""
+    since = f"{a['since']:%a %b} {a['since'].day} at {a['since']:%I:%M %p}".replace(" 0", " ")
+    signed_in = f" (last signed in {a['authorized']})" if a["authorized"] else ""
+    summary = (f"Spotify has rejected the saved sign-in since {since}{signed_in}, so no new plays or episodes are "
+               f"being saved. Spotify only remembers your last 50 plays, so the sooner the better.")
+    steps = ([f"Open developer.spotify.com/dashboard, open the app, and copy its Client ID and Client secret into "
+              f"CLIENT_ID and CLIENT_SECRET in {ENV} (Spotify says the app's credentials no longer match)."]
+             if a["client"] else [])
+    steps += [f"On this computer, open a terminal in {ROOT}",
+              "Run: python musicdashboard.py auth",
+              "Sign in to Spotify in the browser tab that opens and click Agree (within 5 minutes).",
+              "That's it: the next scheduled run, within 30 minutes, picks up the new sign-in. "
+              "To check now, run: python musicdashboard.py sync"]
+    return summary, steps
 
 
 def report_text(r):
@@ -1189,6 +1218,9 @@ def report_text(r):
            + (f", last at {r['last_run']:%I:%M %p}".replace(" 0", " ") if r["last_run"] else " - is the task still enabled?"),
            f"Published to the site {r['published']} time{'s' if r['published'] != 1 else ''}"
            + (f": {r['site']}" if r["site"] else "")]
+    if r["reauth"]:
+        summary, steps = reauth_note(r["reauth"])
+        out += ["", "ACTION NEEDED: sign in to Spotify again", summary] + [f"  {i}. {s}" for i, s in enumerate(steps, 1)]
     if r["problems"]:
         out += ["", "From the log:"] + [f"  {l}" for l in r["problems"]]
     out += ["", f"Last 24 hours: {r['plays']} plays, {r['minutes']} minutes, {r['artist_count']} artists"]
@@ -1277,6 +1309,16 @@ def report_html(r):
         f'<tr><td class="px" style="padding:20px 28px 0;"><div style="{FONT}background:{tint};border-left:4px solid {color};'
         f'border-radius:6px;padding:12px 16px;"><div style="font-size:16px;font-weight:700;color:{color};">{h(headline)}</div>'
         f'<div style="font-size:14px;color:{INK};margin-top:2px;">{h(runs)}</div></div></td></tr>']
+    if r["reauth"]:
+        summary, steps = reauth_note(r["reauth"])
+        command = re.compile(r"(python musicdashboard\.py \w+)")
+        body.append(section("Action needed: sign in to Spotify again",
+            f'<div style="{FONT}border:1px solid {LINE};border-radius:10px;padding:14px 18px;">'
+            f'<div style="font-size:14px;color:{INK};line-height:1.5;">{h(summary)}</div>'
+            f'<ol style="margin:10px 0 0;padding-left:22px;font-size:14px;color:{INK};line-height:1.6;">'
+            + "".join("<li>" + command.sub(r'<code style="font-family:Consolas,Menlo,monospace;background:#efedf3;'
+                                           r'padding:1px 5px;border-radius:4px;">\1</code>', h(s)) + "</li>" for s in steps)
+            + "</ol></div>"))
     if r["problems"]:
         body.append(section("From the log", f'<div style="background:{NIGHT};border-radius:8px;padding:12px 16px;'
                             f'font-family:Consolas,Menlo,monospace;font-size:12px;line-height:1.6;color:#e6e3ee;'

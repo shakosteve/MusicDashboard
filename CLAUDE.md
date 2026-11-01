@@ -28,6 +28,7 @@ sync.bat                                     the scheduled job: sync, import --l
 - To preview the site, open `docs/index.html` directly in a browser. The data is a `<script>` that sets `window.LISTENING`, not fetched JSON, so the page works from `file://` with no server.
 - `sync.bat` hardcodes the Python path (`...\Python313\python.exe`) and appends all output to `data\sync.log`.
 - `report` runs on every scheduled run but sends only on the first run from `REPORT_HOUR` (default 8 AM), then writes the date to `data/report.sent`. It does nothing until `SMTP_USER` and `SMTP_PASSWORD` (a Gmail app password) are in `.env`. It parses the `=== <date> <time>` run headers that `sync.bat` writes into the log, so keep that format if you edit `sync.bat`. The owner prefers this email to progress reports in chat.
+- When the latest run's log has `token request failed (400|401)`, the report leads with "sign in to Spotify again" and step-by-step `auth` instructions (`reauth_note()`). Spotify refresh tokens have no fixed expiry, so this is triggered by rejection, not by a date. `auth` records the sign-in date as `SPOTIFY_AUTHORIZED` in `.env`.
 - The Windows Task Scheduler task `\MusicDashboard` runs `sync.bat` every 30 minutes, launched as `conhost.exe --headless "C:\code\MusicDashboard\sync.bat"` so no console window pops up. Enabling or disabling it needs an elevated prompt (`schtasks /change /tn MusicDashboard /enable`); from a non-admin shell it fails with "Access is denied".
 
 ## Data flow
