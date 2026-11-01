@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-01T21:10:05Z",
+ "generated": "2026-11-01T21:40:04Z",
  "totals": {
-  "plays": 124687,
-  "hours": 8476.1,
+  "plays": 124688,
+  "hours": 8476.2,
   "artists": 701,
   "albums": 1517,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "ANIMOSITY",
+   "artist": "The Warning",
+   "album": "ERROR",
+   "year": 2022,
+   "image": "https://i.scdn.co/image/ab67616d00001e0209fe21cd518d989e0c31224d",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27309fe21cd518d989e0c31224d",
+   "url": "https://open.spotify.com/track/3If1A3kmA96TVgxwuAZDB2",
+   "album_url": "https://open.spotify.com/album/0el7KHRPZwYXPwXNeSNdJB",
+   "played_at": "2026-11-01T21:17:00.480Z"
+  },
   {
    "name": "The Joker",
    "artist": "Steve Miller Band",
@@ -525,23 +536,12 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/1GqlvSEtMx5xbGptxOTTyk",
    "album_url": "https://open.spotify.com/album/2QLp07RO6anZHmtcKTEvSC",
    "played_at": "2026-11-01T13:16:27.986Z"
-  },
-  {
-   "name": "Too Good to be True",
-   "artist": "Kacey Musgraves",
-   "album": "Deeper Well",
-   "year": 2024,
-   "image": "https://i.scdn.co/image/ab67616d00001e02b598ad81e340f28f8b523c41",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273b598ad81e340f28f8b523c41",
-   "url": "https://open.spotify.com/track/27RDQ0TfxzWMlQFuKrPT11",
-   "album_url": "https://open.spotify.com/album/5SxZmGwc4eJuPp6PcO4JgJ",
-   "played_at": "2026-11-01T13:11:23.913Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10654,
+   "plays": 10655,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
@@ -665,7 +665,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b27309fe21cd518d989e0c31224d",
    "url": "https://open.spotify.com/track/5On0z2PZjPf5x7eB2afLEf",
    "album_url": "https://open.spotify.com/album/0el7KHRPZwYXPwXNeSNdJB",
-   "plays": 1316
+   "plays": 1317
   },
   {
    "name": "More Than a Feeling",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18567,
+   "plays": 18568,
    "covers": [
     {
      "name": "ERROR",
@@ -1407,7 +1407,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b27309fe21cd518d989e0c31224d",
      "url": "https://open.spotify.com/track/5On0z2PZjPf5x7eB2afLEf",
      "album_url": "https://open.spotify.com/album/0el7KHRPZwYXPwXNeSNdJB",
-     "plays": 1316
+     "plays": 1317
     },
     {
      "name": "Leroy",
