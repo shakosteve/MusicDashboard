@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-01T16:40:04Z",
+ "generated": "2026-11-01T17:10:06Z",
  "totals": {
   "plays": 124647,
   "hours": 8473.4,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Michael Clarke: Russia Is Making Its Final Desperate Move - And This Winter Will Decide Everything",
+   "show": "Decoding Geopolitics Podcast with Dominik Presl",
+   "show_uri": "spotify:show:4280ZedhnCYLFurjyzjmco",
+   "release_date": "2026-11-01",
+   "duration_ms": 1632000,
+   "image": "https://i.scdn.co/image/ab67656300005f1fae567258433f5224b4366698",
+   "first_seen": "2026-11-01T17:10:03Z",
+   "progress_ms": 1048571,
+   "last_seen": "2026-11-01T17:10:03Z",
+   "url": "https://open.spotify.com/episode/2zSmwEkgGhMp0XKHfw2l7x",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fab3cb125200d6c73efdfc670"
+  },
+  {
    "name": "In Moscow's Shadows 269: White Flags and Red Banners",
    "show": "In Moscow's Shadows",
    "show_uri": "spotify:show:1NKCazxYstY6o8vhpGQSjF",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-10-30T12:10:03Z",
    "url": "https://open.spotify.com/episode/6mrYeLiCrFFjjVNEe2df3C",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
-  },
-  {
-   "name": "Silver-year strongman: 25 years of Narendra Modi",
-   "show": "Economist Podcasts",
-   "show_uri": "spotify:show:2ZFDmgDS2Z6xccP51s1zFQ",
-   "release_date": "2026-10-30",
-   "duration_ms": 1670217,
-   "image": "https://i.scdn.co/image/ab67656300005f1fc478e77aca955c8994343368",
-   "first_seen": "2026-10-30T12:00:00Z",
-   "progress_ms": 126982,
-   "last_seen": "2026-10-30T12:00:00Z",
-   "url": "https://open.spotify.com/episode/52RUJn3u9zbmytLhVzVxNQ",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f3d63c8a3f5c8f7b8b0c1443b"
   }
  ],
  "top_shows": [
