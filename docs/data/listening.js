@@ -1,14 +1,69 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-02T17:40:05Z",
+ "generated": "2026-11-02T18:40:06Z",
  "totals": {
-  "plays": 124736,
-  "hours": 8479.7,
+  "plays": 124741,
+  "hours": 8480.0,
   "artists": 701,
   "albums": 1519,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Only Love Can Save Me Now [Feat. Matt Cameron & Kim Thayil]",
+   "artist": "The Pretty Reckless, Matt Cameron, Kim Thayil",
+   "album": "Death By Rock And Roll",
+   "year": 2021,
+   "image": "https://i.scdn.co/image/ab67616d00001e02a8045b6cc934e134e99eddd6",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273a8045b6cc934e134e99eddd6",
+   "url": "https://open.spotify.com/track/4jXoiJSLQkAft0L5D1yjDb",
+   "album_url": "https://open.spotify.com/album/2ysgEIHY4aOMMbbu0uV6ey",
+   "played_at": "2026-11-02T18:34:08.249Z"
+  },
+  {
+   "name": "Take on Me",
+   "artist": "a-ha",
+   "album": "Hunting High and Low",
+   "year": 1985,
+   "image": "https://i.scdn.co/image/ab67616d00001e02e8dd4db47e7177c63b0b7d53",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273e8dd4db47e7177c63b0b7d53",
+   "url": "https://open.spotify.com/track/2WfaOiMkCvy7F5fcp2zZ8L",
+   "album_url": "https://open.spotify.com/album/1ER3B6zev5JEAaqhnyyfbf",
+   "played_at": "2026-11-02T18:28:55.603Z"
+  },
+  {
+   "name": "Paralyzer",
+   "artist": "Finger Eleven",
+   "album": "Them Vs. You Vs. Me (Deluxe Edition)",
+   "year": 2007,
+   "image": "https://i.scdn.co/image/ab67616d00001e02e9c3c16b480e1c5a84d7b188",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273e9c3c16b480e1c5a84d7b188",
+   "url": "https://open.spotify.com/track/28IEbk5a7twNTbUEvWslUb",
+   "album_url": "https://open.spotify.com/album/2pCfqddO9tLKRz3wzSNGsZ",
+   "played_at": "2026-11-02T18:25:12.767Z"
+  },
+  {
+   "name": "Puttin' On The Ritz",
+   "artist": "Judy Garland",
+   "album": "That's Entertainment!",
+   "year": 1960,
+   "image": "https://i.scdn.co/image/ab67616d00001e02e6c8a398377d3767ccc08a96",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273e6c8a398377d3767ccc08a96",
+   "url": "https://open.spotify.com/track/5ohoJB0WhfcEzuSVhVQ0s0",
+   "album_url": "https://open.spotify.com/album/4e8L2weEFgkFQZJosoTMGi",
+   "played_at": "2026-11-02T18:21:44.315Z"
+  },
+  {
+   "name": "Slither",
+   "artist": "Velvet Revolver",
+   "album": "Contraband",
+   "year": 2004,
+   "image": "https://i.scdn.co/image/ab67616d00001e02e95d233a9df33d6c9992b449",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273e95d233a9df33d6c9992b449",
+   "url": "https://open.spotify.com/track/7kF1iPJTj3VFJX9XokQ80F",
+   "album_url": "https://open.spotify.com/album/64GnrmrpL1fvfF0r1AoZLB",
+   "played_at": "2026-11-02T18:19:44.773Z"
+  },
   {
    "name": "Mexican Moon",
    "artist": "Concrete Blonde",
@@ -481,61 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/5Rokkaaomfmom5BOm19A8b",
    "album_url": "https://open.spotify.com/album/615Oddpje0fnkwigsDZYIU",
    "played_at": "2026-11-02T00:45:05.942Z"
-  },
-  {
-   "name": "My Kinda Lover - Remastered 2010",
-   "artist": "Billy Squier",
-   "album": "Don't Say No (Remastered 2010)",
-   "year": 1981,
-   "image": "https://i.scdn.co/image/ab67616d00001e02f4822f8034e697410a14a297",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273f4822f8034e697410a14a297",
-   "url": "https://open.spotify.com/track/6g14FUj5zU9FDRwBi963vS",
-   "album_url": "https://open.spotify.com/album/6TwlLNU5Zd9qGuNgSLeWPt",
-   "played_at": "2026-11-02T00:41:23.535Z"
-  },
-  {
-   "name": "Tick Of The Clock (Extended Overdrive)",
-   "artist": "Chromatics",
-   "album": "Tick Of The Clock",
-   "year": 2013,
-   "image": "https://i.scdn.co/image/ab67616d00001e02bb53c786a9aebe91240a8dce",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273bb53c786a9aebe91240a8dce",
-   "url": "https://open.spotify.com/track/0I2uIgFFNynFnH9PhUsiuz",
-   "album_url": "https://open.spotify.com/album/5whQsHpQHWMoNqLSut0o2a",
-   "played_at": "2026-11-01T22:42:44.613Z"
-  },
-  {
-   "name": "Bloody Well Right",
-   "artist": "Supertramp",
-   "album": "Crime Of The Century (Remastered)",
-   "year": 1974,
-   "image": "https://i.scdn.co/image/ab67616d00001e0289d7032603b62e9aedb03fa2",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27389d7032603b62e9aedb03fa2",
-   "url": "https://open.spotify.com/track/2SmlWvdYG6FsagxN3FkHMI",
-   "album_url": "https://open.spotify.com/album/2wrHaulTgqqkVKx0k7Kq4r",
-   "played_at": "2026-11-01T22:33:18.377Z"
-  },
-  {
-   "name": "ANIMOSITY",
-   "artist": "The Warning",
-   "album": "ERROR",
-   "year": 2022,
-   "image": "https://i.scdn.co/image/ab67616d00001e0209fe21cd518d989e0c31224d",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27309fe21cd518d989e0c31224d",
-   "url": "https://open.spotify.com/track/3If1A3kmA96TVgxwuAZDB2",
-   "album_url": "https://open.spotify.com/album/0el7KHRPZwYXPwXNeSNdJB",
-   "played_at": "2026-11-01T21:17:00.480Z"
-  },
-  {
-   "name": "The Joker",
-   "artist": "Steve Miller Band",
-   "album": "Greatest Hits 1974-78",
-   "year": 1978,
-   "image": "https://i.scdn.co/image/ab67616d00001e02632b907273dba6a6062fb780",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273632b907273dba6a6062fb780",
-   "url": "https://open.spotify.com/track/6FKU84JHM1lbiy5Dx0Dyqd",
-   "album_url": "https://open.spotify.com/album/5hLazW5a3Ysgy3dncwGgUn",
-   "played_at": "2026-11-01T21:05:28.824Z"
   }
  ],
  "top_artists": [
@@ -832,7 +832,7 @@ window.LISTENING = {
   },
   {
    "decade": 1960,
-   "plays": 7048,
+   "plays": 7049,
    "covers": [
     {
      "name": "Your Time Is Gonna Come - 1990 Remaster",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32826,
+   "plays": 32827,
    "covers": [
     {
      "name": "Back In Black",
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 11975,
+   "plays": 11977,
    "covers": [
     {
      "name": "Material Girl",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18579,
+   "plays": 18580,
    "covers": [
     {
      "name": "ERROR",
