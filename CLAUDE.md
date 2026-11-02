@@ -38,6 +38,8 @@ sync.bat                                     the scheduled job: sync, import --l
 - The `.csv` uses the columns that transfer services accept as an upload.
 - Re-run `playlist` after the playlist changes, then commit. This isn't automated.
 
+**`data/` is a junction into OneDrive** (`C:\Users\zamdr\OneDrive\MusicDashboard_Data`, pinned "always keep on this device"), following GoneWalking, so it's backed up off the computer. It holds irreplaceable state: live plays older than Spotify's last 50, `episodes.json`, the export, and lookups that cost days of API quota. Don't delete or bulk-rewrite it. GoneWalking's `music.py` reads it through the junction as `../MusicDashboard/data`.
+
 Everything in `data/` is personal and gitignored, as is `.env`, which holds the Spotify app credentials and the refresh token. Spotify can rotate the refresh token; `api_session()` saves the new one.
 
 The data has two sources, which `build()` merges:
