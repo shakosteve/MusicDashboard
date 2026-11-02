@@ -1,14 +1,102 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-02T15:10:05Z",
+ "generated": "2026-11-02T15:40:06Z",
  "totals": {
-  "plays": 124715,
-  "hours": 8478.3,
+  "plays": 124723,
+  "hours": 8478.8,
   "artists": 701,
   "albums": 1519,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "You Give Love A Bad Name",
+   "artist": "Bon Jovi",
+   "album": "Slippery When Wet",
+   "year": 1986,
+   "image": "https://i.scdn.co/image/ab67616d00001e021336b31b6a1799f0de5807ac",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2731336b31b6a1799f0de5807ac",
+   "url": "https://open.spotify.com/track/0rmGAIH9LNJewFw7nKzZnc",
+   "album_url": "https://open.spotify.com/album/0kBfgEilUFCMIQY5IOjG4t",
+   "played_at": "2026-11-02T15:37:32.863Z"
+  },
+  {
+   "name": "Monster",
+   "artist": "L7",
+   "album": "Bricks Are Heavy",
+   "year": 1992,
+   "image": "https://i.scdn.co/image/ab67616d00001e02946c2a344a47393f80170cdc",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273946c2a344a47393f80170cdc",
+   "url": "https://open.spotify.com/track/4gEmS1pwdSjAEmrHdar9je",
+   "album_url": "https://open.spotify.com/album/0z7Dc7FRsDH7E4kj32mKyM",
+   "played_at": "2026-11-02T15:33:49.843Z"
+  },
+  {
+   "name": "Rise Above This",
+   "artist": "Seether",
+   "album": "Finding Beauty In Negative Spaces (Bonus Track Version)",
+   "year": 2007,
+   "image": "https://i.scdn.co/image/ab67616d00001e02c418220159462cdd7cfeb9a1",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273c418220159462cdd7cfeb9a1",
+   "url": "https://open.spotify.com/track/4dZ4iHhsqQAQ4em4abLB6C",
+   "album_url": "https://open.spotify.com/album/59Tni3gA1OczshFWTMxmbo",
+   "played_at": "2026-11-02T15:30:52.717Z"
+  },
+  {
+   "name": "Rolling in the Deep",
+   "artist": "Adele",
+   "album": "21",
+   "year": 2011,
+   "image": "https://i.scdn.co/image/ab67616d00001e027e7e5dd9d1ab19fcded8a17f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2737e7e5dd9d1ab19fcded8a17f",
+   "url": "https://open.spotify.com/track/1c8gk2PeTE04A1pIDH9YMk",
+   "album_url": "https://open.spotify.com/album/0Lg1uZvI312TPqxNWShFXL",
+   "played_at": "2026-11-02T15:24:39.823Z"
+  },
+  {
+   "name": "Sweet Lovin'",
+   "artist": "Saving Escape",
+   "album": "Sweet Lovin'",
+   "year": 2022,
+   "image": "https://i.scdn.co/image/ab67616d00001e02b94ea8e89ca894d33e380801",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273b94ea8e89ca894d33e380801",
+   "url": "https://open.spotify.com/track/1zk1dg2bLI5CSgVAkOdCgc",
+   "album_url": "https://open.spotify.com/album/05SKvplbcT8L4inSKn7Z2x",
+   "played_at": "2026-11-02T15:20:51.260Z"
+  },
+  {
+   "name": "Fuera o Más Allá",
+   "artist": "Eruca Sativa",
+   "album": "Blanco",
+   "year": 2012,
+   "image": "https://i.scdn.co/image/ab67616d00001e02fb60d4076cb86adcf2f7383f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273fb60d4076cb86adcf2f7383f",
+   "url": "https://open.spotify.com/track/3qQ0TTpIt0OXH7plhxeISL",
+   "album_url": "https://open.spotify.com/album/3MC1mUaL0H7kcVgTEFXLWv",
+   "played_at": "2026-11-02T15:17:41.531Z"
+  },
+  {
+   "name": "Two Tickets to Paradise (2022 Remaster)",
+   "artist": "Eddie Money",
+   "album": "Eddie Money (2022 Remaster)",
+   "year": 1977,
+   "image": "https://i.scdn.co/image/ab67616d00001e023678634414f6ced7e0f1a480",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2733678634414f6ced7e0f1a480",
+   "url": "https://open.spotify.com/track/22CIOfLZB9z8He7WgHYAgH",
+   "album_url": "https://open.spotify.com/album/5gMrkmI53zEn98WDwU0iye",
+   "played_at": "2026-11-02T15:14:27.343Z"
+  },
+  {
+   "name": "Time Passages",
+   "artist": "Al Stewart",
+   "album": "Time Passages",
+   "year": 1978,
+   "image": "https://i.scdn.co/image/ab67616d00001e0287cd60f090f08ec6f6051144",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27387cd60f090f08ec6f6051144",
+   "url": "https://open.spotify.com/track/5zVKisBri6JH1fooBhUaVq",
+   "album_url": "https://open.spotify.com/album/5moFY0K48zOBW37SsThYL0",
+   "played_at": "2026-11-02T15:10:26.430Z"
+  },
   {
    "name": "Don't Stop Believin' (2022 Remaster)",
    "artist": "Journey",
@@ -448,94 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/642U3n2uOkip6RIbLcUCwp",
    "album_url": "https://open.spotify.com/album/7357FQavIXJYY4p1VYQd1Z",
    "played_at": "2026-11-01T20:06:40.193Z"
-  },
-  {
-   "name": "Have a Drink on Me",
-   "artist": "AC/DC",
-   "album": "Back In Black",
-   "year": 1980,
-   "image": "https://i.scdn.co/image/ab67616d00001e02ff191d7fbdb5a13eaf84132b",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273ff191d7fbdb5a13eaf84132b",
-   "url": "https://open.spotify.com/track/4dDurgTN3eGyU0ghzFJ0T1",
-   "album_url": "https://open.spotify.com/album/6mUdeDZCsExyJLMdAfDuwh",
-   "played_at": "2026-11-01T20:00:19.801Z"
-  },
-  {
-   "name": "Killing Me Softly With His Song",
-   "artist": "Roberta Flack",
-   "album": "Killing Me Softly",
-   "year": 1973,
-   "image": "https://i.scdn.co/image/ab67616d00001e02bc161bb58763f72fc71a3a01",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273bc161bb58763f72fc71a3a01",
-   "url": "https://open.spotify.com/track/3gsCAGsWr6pUm1Vy7CPPob",
-   "album_url": "https://open.spotify.com/album/4GxrvKiysSiDU1HHifh1PA",
-   "played_at": "2026-11-01T19:56:20.164Z"
-  },
-  {
-   "name": "Human - Remastered 2003",
-   "artist": "The Human League",
-   "album": "The Very Best Of The Human League",
-   "year": 2005,
-   "image": "https://i.scdn.co/image/ab67616d00001e02c241836c5bd6c40669cb437b",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273c241836c5bd6c40669cb437b",
-   "url": "https://open.spotify.com/track/3gE2Af7Tgd1iZOO1xbTqoh",
-   "album_url": "https://open.spotify.com/album/02H0fLEbpeRdM8xkRk2fAU",
-   "played_at": "2026-11-01T19:51:32.739Z"
-  },
-  {
-   "name": "Who Made Who",
-   "artist": "AC/DC",
-   "album": "Who Made Who",
-   "year": 1986,
-   "image": "https://i.scdn.co/image/ab67616d00001e024338785835437128f20a57fb",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2734338785835437128f20a57fb",
-   "url": "https://open.spotify.com/track/6rvldt6EoZwzogApECUCwd",
-   "album_url": "https://open.spotify.com/album/07EFoHHspqSwsmkbnWaB4A",
-   "played_at": "2026-11-01T19:47:43.032Z"
-  },
-  {
-   "name": "Hold On",
-   "artist": "Wilson Phillips",
-   "album": "Wilson Phillips",
-   "year": 1990,
-   "image": "https://i.scdn.co/image/ab67616d00001e023168e1f416b81862ccc83594",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2733168e1f416b81862ccc83594",
-   "url": "https://open.spotify.com/track/4VZDv8sASBS8UruUBGTFdk",
-   "album_url": "https://open.spotify.com/album/1Xi55xFMaymXdSWshmxhw2",
-   "played_at": "2026-11-01T19:44:15.526Z"
-  },
-  {
-   "name": "Brown Sugar",
-   "artist": "The Rolling Stones",
-   "album": "Hot Rocks 1964-1971",
-   "year": 1971,
-   "image": "https://i.scdn.co/image/ab67616d00001e02b11b3fc3c89477a7dd473bd7",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273b11b3fc3c89477a7dd473bd7",
-   "url": "https://open.spotify.com/track/34K7nU8EWQIRI93RfqhdRJ",
-   "album_url": "https://open.spotify.com/album/0aqZJlugIkTUWW1sa4BANp",
-   "played_at": "2026-11-01T19:39:48.077Z"
-  },
-  {
-   "name": "Shaker Down",
-   "artist": "The Standstills",
-   "album": "Badlands",
-   "year": 2019,
-   "image": "https://i.scdn.co/image/ab67616d00001e02f5584a416336fb0330429e90",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273f5584a416336fb0330429e90",
-   "url": "https://open.spotify.com/track/1j7ay7ycQuhNMtZysxUPOp",
-   "album_url": "https://open.spotify.com/album/4iNFVjkK0lUEUZClibXrtX",
-   "played_at": "2026-11-01T19:35:58.555Z"
-  },
-  {
-   "name": "Immigrant Song - Remaster",
-   "artist": "Led Zeppelin",
-   "album": "Mothership (Remastered)",
-   "year": 2007,
-   "image": "https://i.scdn.co/image/ab67616d00001e0222f1b6c28ce5735646b2e569",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27322f1b6c28ce5735646b2e569",
-   "url": "https://open.spotify.com/track/2uuMXKKmdXrY2XxsqTsGp0",
-   "album_url": "https://open.spotify.com/album/4wExFfncaUIqSgoxnqa3Eh",
-   "played_at": "2026-11-01T19:32:53.217Z"
   }
  ],
  "top_artists": [
@@ -595,7 +595,7 @@ window.LISTENING = {
   },
   {
    "name": "Saving Escape",
-   "plays": 1676,
+   "plays": 1677,
    "url": "https://open.spotify.com/artist/2VfhnjHV7e3M499VPa1w71",
    "image": "https://i.scdn.co/image/ab67616d00001e02a8e9a07f9110e842adaa5c13"
   }
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28596,
+   "plays": 28598,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32821,
+   "plays": 32822,
    "covers": [
     {
      "name": "Back In Black",
@@ -1086,7 +1086,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2731336b31b6a1799f0de5807ac",
      "url": "https://open.spotify.com/track/0rmGAIH9LNJewFw7nKzZnc",
      "album_url": "https://open.spotify.com/album/0kBfgEilUFCMIQY5IOjG4t",
-     "plays": 681
+     "plays": 682
     },
     {
      "name": "Sharp Dressed Man - 2008 Remaster",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9685,
+   "plays": 9686,
    "covers": [
     {
      "name": "Amazing",
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 11973,
+   "plays": 11974,
    "covers": [
     {
      "name": "Material Girl",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15745,
+   "plays": 15747,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1379,7 +1379,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2737e7e5dd9d1ab19fcded8a17f",
      "url": "https://open.spotify.com/track/1c8gk2PeTE04A1pIDH9YMk",
      "album_url": "https://open.spotify.com/album/0Lg1uZvI312TPqxNWShFXL",
-     "plays": 464
+     "plays": 465
     },
     {
      "name": "N.I.B.",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18574,
+   "plays": 18575,
    "covers": [
     {
      "name": "ERROR",
@@ -1498,8 +1498,8 @@ window.LISTENING = {
    "duration_ms": 6346397,
    "image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f",
    "first_seen": "2026-11-02T12:40:03Z",
-   "progress_ms": 6187852,
-   "last_seen": "2026-11-02T14:10:03Z",
+   "progress_ms": 6356802,
+   "last_seen": "2026-11-02T15:40:03Z",
    "url": "https://open.spotify.com/episode/1Z4EjHOLgijxYCfbuV1MIS",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
   },
