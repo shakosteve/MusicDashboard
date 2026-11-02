@@ -1,14 +1,80 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-02T17:10:04Z",
+ "generated": "2026-11-02T17:40:05Z",
  "totals": {
-  "plays": 124730,
-  "hours": 8479.3,
+  "plays": 124736,
+  "hours": 8479.7,
   "artists": 701,
   "albums": 1519,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Mexican Moon",
+   "artist": "Concrete Blonde",
+   "album": "Mexican Moon",
+   "year": 1993,
+   "image": "https://i.scdn.co/image/ab67616d00001e02c787b18e75b8f9cde01b548d",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273c787b18e75b8f9cde01b548d",
+   "url": "https://open.spotify.com/track/0wGXmuLI1BxPngWHVGmCaz",
+   "album_url": "https://open.spotify.com/album/1ID2r3PEzWEVGpvqljPtzO",
+   "played_at": "2026-11-02T17:29:36.939Z"
+  },
+  {
+   "name": "Pain on a Chain",
+   "artist": "Speed of Light",
+   "album": "Pain on a Chain",
+   "year": 2025,
+   "image": "https://i.scdn.co/image/ab67616d00001e02bd490c93ab6b22836881027a",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273bd490c93ab6b22836881027a",
+   "url": "https://open.spotify.com/track/2J3Om9weznMixCXGaM9lCm",
+   "album_url": "https://open.spotify.com/album/665P8jG1v3RyOv0qK9Zidu",
+   "played_at": "2026-11-02T17:24:33.437Z"
+  },
+  {
+   "name": "Everybody Wants You",
+   "artist": "Billy Squier",
+   "album": "Absolute Hits",
+   "year": 2005,
+   "image": "https://i.scdn.co/image/ab67616d00001e02fddbed2db48c40dbb2b6a093",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273fddbed2db48c40dbb2b6a093",
+   "url": "https://open.spotify.com/track/2Z9B8sd6HgEfCWqvOfhFD0",
+   "album_url": "https://open.spotify.com/album/36vJNbcqq5tRLh8yHwjsBG",
+   "played_at": "2026-11-02T17:21:30.938Z"
+  },
+  {
+   "name": "Good Golly, Miss Molly",
+   "artist": "Little Richard",
+   "album": "Good Golly!",
+   "year": 1969,
+   "image": "https://i.scdn.co/image/ab67616d00001e02cc4c510d6d19a2d03e2fc757",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273cc4c510d6d19a2d03e2fc757",
+   "url": "https://open.spotify.com/track/0ZvgXNstN4o2ZXPomtBYVp",
+   "album_url": "https://open.spotify.com/album/18VnWTsdEcofimkOHcWBAu",
+   "played_at": "2026-11-02T17:17:42.216Z"
+  },
+  {
+   "name": "I Love Playin' with Fire",
+   "artist": "The Rumours",
+   "album": "I Love Playin' with Fire",
+   "year": 2022,
+   "image": "https://i.scdn.co/image/ab67616d00001e02cf7d0e252938b2eede111d00",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273cf7d0e252938b2eede111d00",
+   "url": "https://open.spotify.com/track/4gZT93314AIdRIRipyI3wT",
+   "album_url": "https://open.spotify.com/album/59UFk4z6tOxats1KHFklEY",
+   "played_at": "2026-11-02T17:15:32.533Z"
+  },
+  {
+   "name": "Money for Nothing",
+   "artist": "Dire Straits",
+   "album": "Brothers in Arms",
+   "year": 1985,
+   "image": "https://i.scdn.co/image/ab67616d00001e02fb995d2871f084b34afae3b3",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273fb995d2871f084b34afae3b3",
+   "url": "https://open.spotify.com/track/4yqtwO7MQIIXqoiRBPHAgR",
+   "album_url": "https://open.spotify.com/album/7jvcSnCnugLcisBCNBm60s",
+   "played_at": "2026-11-02T17:12:29.136Z"
+  },
   {
    "name": "Small Town",
    "artist": "John Mellencamp",
@@ -470,72 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/6FKU84JHM1lbiy5Dx0Dyqd",
    "album_url": "https://open.spotify.com/album/5hLazW5a3Ysgy3dncwGgUn",
    "played_at": "2026-11-01T21:05:28.824Z"
-  },
-  {
-   "name": "Double Vision",
-   "artist": "Foreigner",
-   "album": "Double Vision (Expanded)",
-   "year": 1978,
-   "image": "https://i.scdn.co/image/ab67616d00001e025627aa0842d6287bbb223cbf",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2735627aa0842d6287bbb223cbf",
-   "url": "https://open.spotify.com/track/0fsj3HxzBHev6EJ7OLFE3r",
-   "album_url": "https://open.spotify.com/album/6lu6DYE0eHHp1gd3QGUYhu",
-   "played_at": "2026-11-01T21:01:50.570Z"
-  },
-  {
-   "name": "Every Little Thing She Does Is Magic",
-   "artist": "The Police",
-   "album": "Ghost In The Machine (Remastered 2003)",
-   "year": 1981,
-   "image": "https://i.scdn.co/image/ab67616d00001e02b7879980ef2ea7ac1cc29316",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273b7879980ef2ea7ac1cc29316",
-   "url": "https://open.spotify.com/track/44aTAUBF0g6sMkMNE8I5kd",
-   "album_url": "https://open.spotify.com/album/5jkwdY6jS1Hzi8epr6HW7h",
-   "played_at": "2026-11-01T20:53:41.529Z"
-  },
-  {
-   "name": "My Generation - Mono Version",
-   "artist": "The Who",
-   "album": "The Who Sings My Generation (U.S. Version)",
-   "year": 1966,
-   "image": "https://i.scdn.co/image/ab67616d00001e02cbee7274742b0471f39bb8c8",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273cbee7274742b0471f39bb8c8",
-   "url": "https://open.spotify.com/track/45s88Xopo6KvHc0PQ05aGg",
-   "album_url": "https://open.spotify.com/album/4upv5ZjkKMIUBjFNthFQih",
-   "played_at": "2026-11-01T20:49:20.481Z"
-  },
-  {
-   "name": "Locomotive Breath",
-   "artist": "Jethro Tull",
-   "album": "Aqualung (Special Edition)",
-   "year": 1971,
-   "image": "https://i.scdn.co/image/ab67616d00001e028bc3269ba09264dcf9a5b924",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2738bc3269ba09264dcf9a5b924",
-   "url": "https://open.spotify.com/track/0MYNeFsKpzBHwrJGfWZysV",
-   "album_url": "https://open.spotify.com/album/0NGM3Ftwjw0dLNpAowmz3x",
-   "played_at": "2026-11-01T20:46:00.065Z"
-  },
-  {
-   "name": "Take The Money And Run",
-   "artist": "Steve Miller Band",
-   "album": "Fly Like An Eagle",
-   "year": 1976,
-   "image": "https://i.scdn.co/image/ab67616d00001e022fc23e78e87d793054bba090",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2732fc23e78e87d793054bba090",
-   "url": "https://open.spotify.com/track/1ZhrREyOOeFV6TxDOyiPwu",
-   "album_url": "https://open.spotify.com/album/0fjJOLqG3v7vXRYhz2wxPC",
-   "played_at": "2026-11-01T20:41:33.550Z"
-  },
-  {
-   "name": "Hangman Jury",
-   "artist": "Aerosmith",
-   "album": "Permanent Vacation",
-   "year": 1987,
-   "image": "https://i.scdn.co/image/ab67616d00001e02a8a965df6a845b265ee19106",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273a8a965df6a845b265ee19106",
-   "url": "https://open.spotify.com/track/05eJthbLhxvnWvB3XF9HaQ",
-   "album_url": "https://open.spotify.com/album/3XYqOJI1YlX40kJTdzFEzp",
-   "played_at": "2026-11-01T20:38:42.864Z"
   }
  ],
  "top_artists": [
@@ -832,7 +832,7 @@ window.LISTENING = {
   },
   {
    "decade": 1960,
-   "plays": 7047,
+   "plays": 7048,
    "covers": [
     {
      "name": "Your Time Is Gonna Come - 1990 Remaster",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32825,
+   "plays": 32826,
    "covers": [
     {
      "name": "Back In Black",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9686,
+   "plays": 9687,
    "covers": [
     {
      "name": "Amazing",
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 11974,
+   "plays": 11975,
    "covers": [
     {
      "name": "Material Girl",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18577,
+   "plays": 18579,
    "covers": [
     {
      "name": "ERROR",
@@ -1490,6 +1490,19 @@ window.LISTENING = {
   }
  ],
  "episodes": [
+  {
+   "name": "Iran vows ‘no limits’ war as Trump threatens Pickaxe Mountain strikes",
+   "show": "Iran: The Latest",
+   "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
+   "release_date": "2026-11-02",
+   "duration_ms": 2035147,
+   "image": "https://i.scdn.co/image/ab67656300005f1fba28c6f23eab3b47a9abea06",
+   "first_seen": "2026-11-02T17:40:03Z",
+   "progress_ms": 585659,
+   "last_seen": "2026-11-02T17:40:03Z",
+   "url": "https://open.spotify.com/episode/2Y6wCczqDEDso73UMAGIrh",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
+  },
   {
    "name": "Erik Kramer’s Ultimate Comeback",
    "show": "Adam Carolla Show",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-10-30T22:10:03Z",
    "url": "https://open.spotify.com/episode/2S4MMg7rGzAXfmoe4uaWkC",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fe19edf2c6856b8b09c057f38"
-  },
-  {
-   "name": "Trump briefed on Iran options as he faces midterms disaster and $115 oil",
-   "show": "Iran: The Latest",
-   "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
-   "release_date": "2026-10-30",
-   "duration_ms": 2112627,
-   "image": "https://i.scdn.co/image/ab67656300005f1ffbfd0cca3c32549fb8c3fe7c",
-   "first_seen": "2026-10-30T17:10:03Z",
-   "progress_ms": 2112627,
-   "last_seen": "2026-10-30T17:10:03Z",
-   "url": "https://open.spotify.com/episode/53IPpj6FlbKBbzxEbY2JtU",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
   }
  ],
  "top_shows": [
