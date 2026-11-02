@@ -5,7 +5,7 @@
     python musicdashboard.py art     fetch cover art and release years for saved albums missing them
     python musicdashboard.py import  read the privacy data export unzipped into data/export/
     python musicdashboard.py build   write docs/data/listening.js for the site (docs/index.html)
-    python musicdashboard.py playlist "My Favs"   save a playlist's tracks to data/playlists/
+    python musicdashboard.py playlist "My Favs"   save a playlist's tracks to playlists/ (committed)
 
 Settings in .env:
 
