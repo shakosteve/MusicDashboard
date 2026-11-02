@@ -1,14 +1,80 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-02T14:40:04Z",
+ "generated": "2026-11-02T15:10:05Z",
  "totals": {
-  "plays": 124709,
-  "hours": 8477.9,
+  "plays": 124715,
+  "hours": 8478.3,
   "artists": 701,
-  "albums": 1518,
+  "albums": 1519,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Don't Stop Believin' (2022 Remaster)",
+   "artist": "Journey",
+   "album": "Escape (2022 Remaster)",
+   "year": 1981,
+   "image": "https://i.scdn.co/image/ab67616d00001e0223290120a609a65e14cfe018",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27323290120a609a65e14cfe018",
+   "url": "https://open.spotify.com/track/5RKQ5NdjSh2QzD4MaunT91",
+   "album_url": "https://open.spotify.com/album/4guAwaniEAEQSW0NCpo4gm",
+   "played_at": "2026-11-02T15:03:42.836Z"
+  },
+  {
+   "name": "Tom Sawyer",
+   "artist": "Rush",
+   "album": "Moving Pictures (2011 Remaster)",
+   "year": 1981,
+   "image": "https://i.scdn.co/image/ab67616d00001e0272833c1ae3343cbfb4617073",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27372833c1ae3343cbfb4617073",
+   "url": "https://open.spotify.com/track/3QZ7uX97s82HFYSmQUAN1D",
+   "album_url": "https://open.spotify.com/album/2xg7iIKoSqaDNpDbJnyCjY",
+   "played_at": "2026-11-02T14:59:32.657Z"
+  },
+  {
+   "name": "Mainstreet",
+   "artist": "Bob Seger",
+   "album": "Night Moves",
+   "year": 1976,
+   "image": "https://i.scdn.co/image/ab67616d00001e02676a8230a422123e8012557e",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273676a8230a422123e8012557e",
+   "url": "https://open.spotify.com/track/0XVR94voJPToKX1XoOw0ot",
+   "album_url": "https://open.spotify.com/album/5QkOpsZupEPLq186YOrBNe",
+   "played_at": "2026-11-02T14:54:55.445Z"
+  },
+  {
+   "name": "Bitter Taste",
+   "artist": "Billy Idol",
+   "album": "Bitter Taste",
+   "year": 2021,
+   "image": "https://i.scdn.co/image/ab67616d00001e02a7dfeada96d83af1b297b225",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273a7dfeada96d83af1b297b225",
+   "url": "https://open.spotify.com/track/6AyWHf259DGuxOnwdsz1Lf",
+   "album_url": "https://open.spotify.com/album/3pJvA2HMStNO5I4W6uUKRh",
+   "played_at": "2026-11-02T14:51:11.690Z"
+  },
+  {
+   "name": "XXI Century Blood",
+   "artist": "The Warning",
+   "album": "XXI Century Blood",
+   "year": 2017,
+   "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
+   "url": "https://open.spotify.com/track/1VcLiPmina1L3xlLkJ5OTS",
+   "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
+   "played_at": "2026-11-02T14:46:44.566Z"
+  },
+  {
+   "name": "Babylon",
+   "artist": "Faster Pussycat",
+   "album": "Faster Pussycat",
+   "year": 1987,
+   "image": "https://i.scdn.co/image/ab67616d00001e02044d242cfff617749cd740d7",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273044d242cfff617749cd740d7",
+   "url": "https://open.spotify.com/track/2Mt7VAy2lQLDxRTMtK5Oue",
+   "album_url": "https://open.spotify.com/album/4lFOgddadA9jHAO96kVniB",
+   "played_at": "2026-11-02T14:42:46.736Z"
+  },
   {
    "name": "Mama, I'm Coming Home",
    "artist": "Ozzy Osbourne",
@@ -470,78 +536,12 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/2uuMXKKmdXrY2XxsqTsGp0",
    "album_url": "https://open.spotify.com/album/4wExFfncaUIqSgoxnqa3Eh",
    "played_at": "2026-11-01T19:32:53.217Z"
-  },
-  {
-   "name": "Good Vibrations - Remastered 2001",
-   "artist": "The Beach Boys",
-   "album": "Smiley Smile (Remastered)",
-   "year": 1967,
-   "image": "https://i.scdn.co/image/ab67616d00001e02fb9dac3244b8486758058a81",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273fb9dac3244b8486758058a81",
-   "url": "https://open.spotify.com/track/5t9KYe0Fhd5cW6UYT4qP8f",
-   "album_url": "https://open.spotify.com/album/37rNuexqEXWeSIOiJtn3A9",
-   "played_at": "2026-11-01T19:30:26.017Z"
-  },
-  {
-   "name": "American Woman",
-   "artist": "Lenny Kravitz",
-   "album": "5",
-   "year": 1998,
-   "image": "https://i.scdn.co/image/ab67616d00001e02f1157b7dcd21bae0c2c75d89",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273f1157b7dcd21bae0c2c75d89",
-   "url": "https://open.spotify.com/track/3X6iIrFuQoCshIWBseEKPl",
-   "album_url": "https://open.spotify.com/album/6MCNMOCRsh6nxs7PNzc0zN",
-   "played_at": "2026-11-01T19:26:46.486Z"
-  },
-  {
-   "name": "Live Like This",
-   "artist": "Return to Dust",
-   "album": "Return to Dust",
-   "year": 2024,
-   "image": "https://i.scdn.co/image/ab67616d00001e02416863729de216cc315bac0d",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273416863729de216cc315bac0d",
-   "url": "https://open.spotify.com/track/3XCi9pzqNzPDb2qqrufi1R",
-   "album_url": "https://open.spotify.com/album/2iMQfRVysuYVHB4UEhT6dB",
-   "played_at": "2026-11-01T19:22:21.428Z"
-  },
-  {
-   "name": "Are You Gonna Be My Girl",
-   "artist": "Jet",
-   "album": "Get Born (Deluxe Edition)",
-   "year": 2003,
-   "image": "https://i.scdn.co/image/ab67616d00001e0201fe3e94ab830a543d8f6a93",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27301fe3e94ab830a543d8f6a93",
-   "url": "https://open.spotify.com/track/72zZfHPYx43shcP3eKkYi5",
-   "album_url": "https://open.spotify.com/album/6svS1vGX5qyK9mhz8ijzxs",
-   "played_at": "2026-11-01T19:18:24.866Z"
-  },
-  {
-   "name": "Abracadabra",
-   "artist": "Steve Miller Band",
-   "album": "Abracadabra",
-   "year": 1982,
-   "image": "https://i.scdn.co/image/ab67616d00001e02b80d7868e6e0275d12102508",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273b80d7868e6e0275d12102508",
-   "url": "https://open.spotify.com/track/2E2ZVy2fxslpAUgbb4zu84",
-   "album_url": "https://open.spotify.com/album/0afS7TjKOoq8LzTx9CgOnu",
-   "played_at": "2026-11-01T19:14:50.655Z"
-  },
-  {
-   "name": "Turn! Turn! Turn! (To Everything There Is a Season)",
-   "artist": "The Byrds",
-   "album": "Turn! Turn! Turn!",
-   "year": 1965,
-   "image": "https://i.scdn.co/image/ab67616d00001e028ebc5d5d4fcf960b083af081",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2738ebc5d5d4fcf960b083af081",
-   "url": "https://open.spotify.com/track/5qBqBdfTEIWJwAS0Jm2F5R",
-   "album_url": "https://open.spotify.com/album/3v0i9qyogPoQEQj2bG6Fmn",
-   "played_at": "2026-11-01T19:09:41.805Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10655,
+   "plays": 10656,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
@@ -610,7 +610,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
    "url": "https://open.spotify.com/track/1VcLiPmina1L3xlLkJ5OTS",
    "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
-   "plays": 3482
+   "plays": 3483
   },
   {
    "name": "Dust to Dust",
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28595,
+   "plays": 28596,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32818,
+   "plays": 32821,
    "covers": [
     {
      "name": "Back In Black",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15744,
+   "plays": 15745,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1313,7 +1313,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
      "url": "https://open.spotify.com/track/1VcLiPmina1L3xlLkJ5OTS",
      "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
-     "plays": 3482
+     "plays": 3483
     },
     {
      "name": "Dust to Dust",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18573,
+   "plays": 18574,
    "covers": [
     {
      "name": "ERROR",
