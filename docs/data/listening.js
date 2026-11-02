@@ -1,14 +1,69 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-02T15:40:06Z",
+ "generated": "2026-11-02T16:10:06Z",
  "totals": {
-  "plays": 124723,
-  "hours": 8478.8,
+  "plays": 124728,
+  "hours": 8479.1,
   "artists": 701,
   "albums": 1519,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Rainbow in the Dark",
+   "artist": "Dio",
+   "album": "Holy Diver",
+   "year": 1983,
+   "image": "https://i.scdn.co/image/ab67616d00001e022457ab409ae106f8ae1dff89",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2732457ab409ae106f8ae1dff89",
+   "url": "https://open.spotify.com/track/2PpNgmrS9mAyrkRAwn6YPq",
+   "album_url": "https://open.spotify.com/album/2ivNJLSx8Rbvnsvcn01Yt3",
+   "played_at": "2026-11-02T15:57:35.281Z"
+  },
+  {
+   "name": "Break In",
+   "artist": "Halestorm",
+   "album": "The Strange Case of... (Deluxe)",
+   "year": 2012,
+   "image": "https://i.scdn.co/image/ab67616d00001e02b03ce145dfc370474ce2757a",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273b03ce145dfc370474ce2757a",
+   "url": "https://open.spotify.com/track/5Q7pjvFqm4Pk0voGgutt5G",
+   "album_url": "https://open.spotify.com/album/4TyrGrbnsOVKOXVut2huz2",
+   "played_at": "2026-11-02T15:53:17.827Z"
+  },
+  {
+   "name": "Come On",
+   "artist": "The Sixsters",
+   "album": "Етюди",
+   "year": 2021,
+   "image": "https://i.scdn.co/image/ab67616d00001e02bb762e29a9bb34ff09134256",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273bb762e29a9bb34ff09134256",
+   "url": "https://open.spotify.com/track/4fVyOWxMI6dCIOFbbcALtA",
+   "album_url": "https://open.spotify.com/album/5ylsDPMjSjP1ep0OLGYqA6",
+   "played_at": "2026-11-02T15:48:31.993Z"
+  },
+  {
+   "name": "ERROR - Live from Auditorio Nacional, CDMX",
+   "artist": "The Warning",
+   "album": "Live from Auditorio Nacional, CDMX",
+   "year": 2025,
+   "image": "https://i.scdn.co/image/ab67616d00001e025cda6d880ec3968aa6b6ac2f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
+   "url": "https://open.spotify.com/track/13jql4uJUkPc06JXIC3oiz",
+   "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
+   "played_at": "2026-11-02T15:45:40.301Z"
+  },
+  {
+   "name": "Give A Little Bit",
+   "artist": "Supertramp",
+   "album": "Even In The Quietest Moments... (Remastered 2026)",
+   "year": 1977,
+   "image": "https://i.scdn.co/image/ab67616d00001e02be91795435584ccd90c2a76a",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273be91795435584ccd90c2a76a",
+   "url": "https://open.spotify.com/track/1JI4nBu8CZjKYjyADy8kAv",
+   "album_url": "https://open.spotify.com/album/0kW7WYI6RWpplTyzUg048H",
+   "played_at": "2026-11-02T15:41:42.375Z"
+  },
   {
    "name": "You Give Love A Bad Name",
    "artist": "Bon Jovi",
@@ -481,67 +536,12 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/4KoBKbnRh4BywqvY5VPkts",
    "album_url": "https://open.spotify.com/album/2Hnje5QVKaPVNuGJ5yHC7Z",
    "played_at": "2026-11-01T20:28:31.219Z"
-  },
-  {
-   "name": "Queen Of Hearts",
-   "artist": "Juice Newton",
-   "album": "Juice",
-   "year": 1981,
-   "image": "https://i.scdn.co/image/ab67616d00001e02662ce40b359cf7f6990fbee8",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273662ce40b359cf7f6990fbee8",
-   "url": "https://open.spotify.com/track/6R6ib5FgDYlG0rPA9c5DVv",
-   "album_url": "https://open.spotify.com/album/13TOuCZy3QU2Tt1llKPUqc",
-   "played_at": "2026-11-01T20:24:52.153Z"
-  },
-  {
-   "name": "Break In",
-   "artist": "Halestorm",
-   "album": "The Strange Case of... (Deluxe)",
-   "year": 2012,
-   "image": "https://i.scdn.co/image/ab67616d00001e02b03ce145dfc370474ce2757a",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273b03ce145dfc370474ce2757a",
-   "url": "https://open.spotify.com/track/5Q7pjvFqm4Pk0voGgutt5G",
-   "album_url": "https://open.spotify.com/album/4TyrGrbnsOVKOXVut2huz2",
-   "played_at": "2026-11-01T20:21:25.909Z"
-  },
-  {
-   "name": "Kickstart My Heart",
-   "artist": "Mötley Crüe",
-   "album": "Dr. Feelgood",
-   "year": 1989,
-   "image": "https://i.scdn.co/image/ab67616d00001e02fc30908354ee3be55dc6feb2",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273fc30908354ee3be55dc6feb2",
-   "url": "https://open.spotify.com/track/4Yqy0GpeDEXLibWJCZyQew",
-   "album_url": "https://open.spotify.com/album/4MDYr65P5RQb6VHt80T3o8",
-   "played_at": "2026-11-01T20:16:40.017Z"
-  },
-  {
-   "name": "Cool Change - Remastered 2022",
-   "artist": "Little River Band",
-   "album": "First Under The Wire (Remastered 2022)",
-   "year": 1979,
-   "image": "https://i.scdn.co/image/ab67616d00001e02d45ea4a21fa17a4e3bf9b378",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273d45ea4a21fa17a4e3bf9b378",
-   "url": "https://open.spotify.com/track/2SEGYVnWImKLUOkU3Qa8sX",
-   "album_url": "https://open.spotify.com/album/1pPsslUdE1HeBxdlgXJ7Yp",
-   "played_at": "2026-11-01T20:11:56.897Z"
-  },
-  {
-   "name": "Shooting Star - 2015 Remaster",
-   "artist": "Bad Company",
-   "album": "Straight Shooter (Remastered)",
-   "year": 1975,
-   "image": "https://i.scdn.co/image/ab67616d00001e02e47e0a32972df08dd91ef674",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273e47e0a32972df08dd91ef674",
-   "url": "https://open.spotify.com/track/642U3n2uOkip6RIbLcUCwp",
-   "album_url": "https://open.spotify.com/album/7357FQavIXJYY4p1VYQd1Z",
-   "played_at": "2026-11-01T20:06:40.193Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10656,
+   "plays": 10657,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28598,
+   "plays": 28599,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32822,
+   "plays": 32823,
    "covers": [
     {
      "name": "Back In Black",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15747,
+   "plays": 15748,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18575,
+   "plays": 18577,
    "covers": [
     {
      "name": "ERROR",
@@ -1451,7 +1451,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
      "url": "https://open.spotify.com/track/3zgbw0cxkS1DQ36O5hGydt",
      "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
-     "plays": 475
+     "plays": 476
     },
     {
      "name": "The Barbarians",
