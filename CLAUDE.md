@@ -40,7 +40,7 @@ sync.bat                                     the scheduled job: sync, import --l
 - `backup` keeps it current. It runs every scheduled run but works once a day per playlist (dates in `data/playlist_checks.json`).
   - It compares the playlist's `snapshot_id` from `/me/playlists` (one request) with the last one seen, and downloads the tracks only when it changed.
   - It writes and commits only when the content changed, ignoring `fetched`/`snapshot_id`, and commits only `playlists/` (pathspec), e.g. "My Favs: 3 added, 1 removed", with the tracks in the body. `AUTO_PUBLISH=off` skips the commit.
-  - It prints `Playlist <name> changed: …` with `  + `/`  - ` lines, which `report` shows as "Playlist changes". The report's problem scan skips those lines, since track names can contain words like "Warning".
+  - It prints `Playlist <name> changed: …` with `  + `/`  - ` lines, or `Playlist <name> checked: no changes (N tracks)`. `report` shows these under "Playlist backup", one line per playlist even when unchanged, and "not checked in the last day" for a `BACKUP_PLAYLISTS` name with neither line. The report's problem scan skips those lines, since track names can contain words like "Warning".
 
 **`data/` is a junction into OneDrive** (`C:\Users\zamdr\OneDrive\MusicDashboard_Data`, pinned "always keep on this device"), following GoneWalking, so it's backed up off the computer. It holds irreplaceable state: live plays older than Spotify's last 50, `episodes.json`, the export, and lookups that cost days of API quota. Don't delete or bulk-rewrite it. GoneWalking's `music.py` reads it through the junction as `../MusicDashboard/data`.
 

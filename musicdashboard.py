@@ -488,7 +488,8 @@ def backup_playlists():
     Each playlist in BACKUP_PLAYLISTS (comma-separated, default "My Favs") is checked by its snapshot_id, which
     changes with every edit: one request. Only a changed playlist is downloaded again (about one request per
     50 tracks), and only a real change to it is saved, committed and pushed. The changes are printed as
-    "Playlist <name> changed: ..." with "  + " and "  - " lines, which `report` puts in the email."""
+    "Playlist <name> changed: ..." with "  + " and "  - " lines, or "Playlist <name> checked: no changes",
+    which `report` puts in the email."""
     names = [n.strip() for n in os.environ.get("BACKUP_PLAYLISTS", "My Favs").split(",") if n.strip()]
     checks = json.loads(PLAYLIST_CHECKS.read_text(encoding="utf-8")) if PLAYLIST_CHECKS.exists() else {}
     today = datetime.now().date().isoformat()
@@ -504,15 +505,16 @@ def backup_playlists():
         path = playlist_path(found["name"])
         old = json.loads(path.read_text(encoding="utf-8")) if path.exists() else None
         known = (checks.get(name) or {}).get("snapshot_id") or (old or {}).get("snapshot_id")
-        if found.get("snapshot_id") != known:
-            new = fetch_playlist(session, found)
-            same = lambda p: {k: v for k, v in p.items() if k not in ("fetched", "snapshot_id")}
-            if not old or same(old) != same(new):
-                write_playlist(new)
-                summary, lines = playlist_diff(old, new)
-                print(f"Playlist {new['name']} changed: {summary}")
-                print("\n".join(lines))
-                changed.append((f"{new['name']}: {summary}", lines))
+        new = fetch_playlist(session, found) if found.get("snapshot_id") != known or not old else old
+        same = lambda p: {k: v for k, v in p.items() if k not in ("fetched", "snapshot_id")}
+        if not old or same(old) != same(new):
+            write_playlist(new)
+            summary, lines = playlist_diff(old, new)
+            print(f"Playlist {new['name']} changed: {summary}")
+            print("\n".join(lines))
+            changed.append((f"{new['name']}: {summary}", lines))
+        else:
+            print(f"Playlist {old['name']} checked: no changes ({len(old['tracks']):,} tracks)")
         checks[name] = {"checked": today, "snapshot_id": found.get("snapshot_id")}
     write_atomic(PLAYLIST_CHECKS, json.dumps(checks, indent=2))
     if not changed or os.environ.get("AUTO_PUBLISH", "on").lower() in ("off", "no", "false", "0"):
@@ -1233,15 +1235,21 @@ def report_data(now):
                             "top_plays": n, "image": cover(p), "url": open_url(uri)})
 
     # Lines naming a track or episode are skipped, so a band like The Warning isn't taken for a problem.
-    content = re.compile(r"\d+ new play\(s\), latest: |Podcast (playing|heard): |Playlist .* changed: |  [+-] |Saved \d+ tracks from ")
+    content = re.compile(r"\d+ new play\(s\), latest: |Podcast (playing|heard): |Playlist .* (changed|checked): |  [+-] |Saved \d+ tracks from ")
     problems = list(dict.fromkeys(line for line in log if not content.match(line)
                                   and re.search(r"Traceback|Error|error:|Warning|failed", line)))
-    playlists = []  # backup_playlists() output: "Playlist <name> changed: <summary>", then "  + " / "  - " lines
+    # backup_playlists() output: "Playlist <name> changed: <summary>" then "  + " / "  - " lines, or "... checked: no changes"
+    playlists = []
     for line in log:
-        if m := re.match(r"Playlist (.*) changed: (.*)", line):
-            playlists.append({"name": m.group(1), "summary": m.group(2), "added": [], "removed": []})
+        if m := re.match(r"Playlist (.*) (changed|checked): (.*)", line):
+            playlists.append({"name": m.group(1), "changed": m.group(2) == "changed", "summary": m.group(3),
+                              "added": [], "removed": []})
         elif playlists and line.startswith(("  + ", "  - ")):
             playlists[-1]["added" if line[2] == "+" else "removed"].append(line[4:])
+    seen = {p["name"].casefold() for p in playlists}
+    playlists += [{"name": n, "changed": False, "summary": "not checked in the last day", "added": [], "removed": []}
+                  for n in (n.strip() for n in os.environ.get("BACKUP_PLAYLISTS", "My Favs").split(","))
+                  if n and n.casefold() not in seen]
     published = sum(1 for line in log if line.startswith("Published to GitHub"))
     expected = 48
     status = "bad" if any("Traceback" in l or "rror" in l for l in problems) else \
@@ -1323,9 +1331,11 @@ def report_text(r):
     if r["podcasts"]:
         out += ["", "Podcasts:"] + [f"  {e['show']}: {e['name']}" + (f" ({e['pct']}%)" if e["pct"] is not None else "")
                                     for e in r["podcasts"]]
+    if r["playlists"]:
+        out += ["", "Playlist backup:"]
     for p in r["playlists"]:
-        out += ["", f"Playlist {p['name']} changed: {p['summary']} (backup committed to GitHub)"]
-        out += [f"  + {t}" for t in p["added"][:15]] + [f"  - {t}" for t in p["removed"][:15]]
+        out.append(f"  {p['name']}: {p['summary']}" + (" (backup committed to GitHub)" if p["changed"] else ""))
+        out += [f"    + {t}" for t in p["added"][:15]] + [f"    - {t}" for t in p["removed"][:15]]
     if r["on_this_day"]:
         out += ["", f"On {now:%B} {now.day} in other years:"] + [
             f"  {d['year']}: {d['plays']} plays, top song {d['top']} - {d['artist']}" for d in r["on_this_day"]]
@@ -1460,13 +1470,15 @@ def report_html(r):
         body.append(section("Podcasts", rows(
             (thumb(e["image"]), link(e["url"], e["name"]), h(e["show"]), f'{e["pct"]}%' if e["pct"] is not None else "")
             for e in r["podcasts"])))
-    for p in r["playlists"]:
-        items = ([("#1a7f37", "+", t) for t in p["added"][:15]] + [("#cf222e", "&minus;", t) for t in p["removed"][:15]])
-        body.append(section(f"Playlist changes: {p['name']}",
-            f'<div style="{FONT}font-size:14px;color:{INK};margin:0 0 8px;">{h(p["summary"].capitalize())}. '
-            f'The backup in the GitHub repo is up to date.</div>'
-            + "".join(f'<div style="{FONT}font-size:14px;color:{INK};line-height:1.6;"><b style="color:{c};display:inline-block;'
-                      f'width:16px;">{sign}</b>{h(t)}</div>' for c, sign, t in items)))
+    if r["playlists"]:
+        inner = ""
+        for p in r["playlists"]:
+            items = ([("#1a7f37", "+", t) for t in p["added"][:15]] + [("#cf222e", "&minus;", t) for t in p["removed"][:15]])
+            inner += (f'<div style="{FONT}font-size:14px;color:{INK};margin:0 0 {8 if items else 4}px;"><b>{h(p["name"])}</b>: '
+                      f'{h(p["summary"])}' + (". The backup in the GitHub repo is up to date." if p["changed"] else "") + "</div>"
+                      + "".join(f'<div style="{FONT}font-size:14px;color:{INK};line-height:1.6;"><b style="color:{c};'
+                                f'display:inline-block;width:16px;">{sign}</b>{h(t)}</div>' for c, sign, t in items))
+        body.append(section("Playlist backup", inner))
     if r["on_this_day"]:
         body.append(section(f"On {now:%B} {now.day} in other years", rows(
             (thumb(d["image"]), f'{d["year"]} · ' + link(d["url"], d["top"]), h(d["artist"]),
