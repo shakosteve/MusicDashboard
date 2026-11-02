@@ -6,6 +6,7 @@
     python musicdashboard.py import  read the privacy data export unzipped into data/export/
     python musicdashboard.py build   write docs/data/listening.js for the site (docs/index.html)
     python musicdashboard.py playlist "My Favs"   save a playlist's tracks to playlists/ (committed)
+    python musicdashboard.py backup  once a day: re-save and commit the BACKUP_PLAYLISTS that changed
 
 Settings in .env:
 
@@ -75,6 +76,7 @@ IMPORT_DONE = DATA / "import.done"
 SYNC_LOG = DATA / "sync.log"
 REPORT_SENT = DATA / "report.sent"
 SHOW_CHECKS = DATA / "show_checks.json"
+PLAYLIST_CHECKS = DATA / "playlist_checks.json"
 REPLAYS = DATA / "replays.json"
 PLAYLISTS = ROOT / "playlists"  # committed, unlike data/: a backup of playlists that matter
 MIN_PLAY_MS = 30_000  # Spotify counts a stream from 30 seconds
@@ -405,18 +407,35 @@ def sync():
         print(f"Podcast heard: {found['show']} - {found['name']}")
 
 
-def save_playlist(name, delay=0.2):
+def find_playlist(session, name):
+    """One of my playlists (or ones I follow) by name, any case, from /me/playlists; None if there isn't one."""
+    url, params = f"{API}/me/playlists", {"limit": 50}
+    while url:
+        page = fetch(session, url, params) or {}
+        found = next((p for p in page.get("items") or [] if p and p["name"].casefold() == name.casefold()), None)
+        if found:
+            return found
+        url, params = page.get("next"), None
+    return None
+
+
+def playlist_path(name):
+    return PLAYLISTS / f"{re.sub(r'[^a-z0-9]+', '-', name.lower()).strip('-')}.json"
+
+
+def save_playlist(name):
     """Save one of my playlists, found by name (any case), to playlists/<name>.json and .csv: every track with
     its ISRC (the recording's ID on every service, for moving the playlist elsewhere) and when it was added,
     plus album art into art.json. About one request per 50 tracks. playlists/ is committed as a backup."""
     session = api_session()
-    found, url, params = None, f"{API}/me/playlists", {"limit": 50}
-    while url and not found:
-        page = fetch(session, url, params) or {}
-        found = next((p for p in page.get("items") or [] if p and p["name"].casefold() == name.casefold()), None)
-        url, params = page.get("next"), None
+    found = find_playlist(session, name)
     if not found:
         sys.exit(f"No playlist called {name!r} among yours or the ones you follow.")
+    write_playlist(fetch_playlist(session, found))
+
+
+def fetch_playlist(session, found, delay=0.2):
+    """A playlist from /me/playlists with all its tracks, as saved in playlists/<name>.json."""
     pid = found["id"]
     meta = fetch(session, f"{API}/playlists/{pid}", {"fields": "name,description,public,collaborative,snapshot_id,"
                                                             "owner.display_name,followers.total"}) or {}
@@ -438,14 +457,19 @@ def save_playlist(name, delay=0.2):
         print(f"  {len(tracks)} tracks...")
         url, params = page.get("next"), None
         time.sleep(delay)
-    out = PLAYLISTS / f"{re.sub(r'[^a-z0-9]+', '-', found['name'].lower()).strip('-')}.json"
-    write_atomic(out, json.dumps({"name": found["name"], "uri": found["uri"], "url": open_url(found["uri"]),
-                                  "owner": (meta.get("owner") or {}).get("display_name"),
-                                  "description": meta.get("description"), "public": meta.get("public"),
-                                  "followers": (meta.get("followers") or {}).get("total"),
-                                  "snapshot_id": meta.get("snapshot_id"), "fetched": now_iso(),
-                                  "tracks": tracks}, indent=2, ensure_ascii=False))
-    # The CSV is what transfer services (TuneMyMusic, Soundiiz and the like) take as an upload.
+    write_atomic(ART, json.dumps(art, indent=2, ensure_ascii=False))
+    return {"name": found["name"], "uri": found["uri"], "url": open_url(found["uri"]),
+            "owner": (meta.get("owner") or {}).get("display_name"),
+            "description": meta.get("description"), "public": meta.get("public"),
+            "followers": (meta.get("followers") or {}).get("total"),
+            "snapshot_id": meta.get("snapshot_id"), "fetched": now_iso(), "tracks": tracks}
+
+
+def write_playlist(playlist):
+    """Write playlists/<name>.json, and the .csv that transfer services (TuneMyMusic, Soundiiz and the like)
+    take as an upload."""
+    out, tracks = playlist_path(playlist["name"]), playlist["tracks"]
+    write_atomic(out, json.dumps(playlist, indent=2, ensure_ascii=False))
     with out.with_suffix(".csv").open("w", newline="", encoding="utf-8-sig") as f:
         w = csv.writer(f)
         w.writerow(["Title", "Artist", "Album", "ISRC", "Duration", "Added", "Spotify URI"])
@@ -453,10 +477,65 @@ def save_playlist(name, delay=0.2):
             secs = round((t["duration_ms"] or 0) / 1000)
             w.writerow([t["name"], ", ".join(t["artists"]), t["album"] or "", t["isrc"] or "",
                         f"{secs // 60}:{secs % 60:02d}", (t["added_at"] or "")[:10], t["uri"]])
-    write_atomic(ART, json.dumps(art, indent=2, ensure_ascii=False))
     missing = sum(1 for t in tracks if not t["isrc"])
-    print(f"Saved {len(tracks)} tracks from {found['name']!r} to {out.relative_to(ROOT)} and .csv"
+    print(f"Saved {len(tracks)} tracks from {playlist['name']!r} to {out.relative_to(ROOT)} and .csv"
           + (f" ({missing} without an ISRC, such as local files)." if missing else "."))
+
+
+def backup_playlists():
+    """Keep the committed copies in playlists/ current; sync.bat runs this every time, and it works once a day.
+
+    Each playlist in BACKUP_PLAYLISTS (comma-separated, default "My Favs") is checked by its snapshot_id, which
+    changes with every edit: one request. Only a changed playlist is downloaded again (about one request per
+    50 tracks), and only a real change to it is saved, committed and pushed. The changes are printed as
+    "Playlist <name> changed: ..." with "  + " and "  - " lines, which `report` puts in the email."""
+    names = [n.strip() for n in os.environ.get("BACKUP_PLAYLISTS", "My Favs").split(",") if n.strip()]
+    checks = json.loads(PLAYLIST_CHECKS.read_text(encoding="utf-8")) if PLAYLIST_CHECKS.exists() else {}
+    today = datetime.now().date().isoformat()
+    due = [n for n in names if (checks.get(n) or {}).get("checked") != today]
+    if not due:
+        return
+    session, changed = api_session(), []
+    for name in due:
+        found = find_playlist(session, name)
+        if not found:
+            print(f"Playlist backup failed: no playlist called {name!r} among yours or the ones you follow.")
+            continue
+        path = playlist_path(found["name"])
+        old = json.loads(path.read_text(encoding="utf-8")) if path.exists() else None
+        known = (checks.get(name) or {}).get("snapshot_id") or (old or {}).get("snapshot_id")
+        if found.get("snapshot_id") != known:
+            new = fetch_playlist(session, found)
+            same = lambda p: {k: v for k, v in p.items() if k not in ("fetched", "snapshot_id")}
+            if not old or same(old) != same(new):
+                write_playlist(new)
+                summary, lines = playlist_diff(old, new)
+                print(f"Playlist {new['name']} changed: {summary}")
+                print("\n".join(lines))
+                changed.append((f"{new['name']}: {summary}", lines))
+        checks[name] = {"checked": today, "snapshot_id": found.get("snapshot_id")}
+    write_atomic(PLAYLIST_CHECKS, json.dumps(checks, indent=2))
+    if not changed or os.environ.get("AUTO_PUBLISH", "on").lower() in ("off", "no", "false", "0"):
+        return
+    git("add", "playlists")
+    ok, out = git("commit", "-q", "-m", "; ".join(title for title, _ in changed),
+                  "-m", "\n\n".join(f"{title}\n" + "\n".join(lines) for title, lines in changed), "--", "playlists")
+    if ok:
+        ok, out = push()
+    print("Playlist backup pushed to GitHub." if ok else
+          f"Playlist backup push failed: {(out.splitlines() or ['git error'])[-1]} (the commit is kept; it goes out next run)")
+
+
+def playlist_diff(old, new):
+    """('3 added, 1 removed', ['  + Song - Artist', ..., '  - Song - Artist']) between two saved playlists."""
+    label = lambda t: f"{clean_title(t['name'])} - {', '.join(t['artists'])}"
+    before = Counter(t["uri"] for t in (old or {}).get("tracks", []))
+    after = Counter(t["uri"] for t in new["tracks"])
+    tracks = {t["uri"]: t for t in (old or {}).get("tracks", []) + new["tracks"]}
+    added, removed = list((after - before).elements()), list((before - after).elements())
+    parts = ([f"{len(added)} added"] if added else []) + ([f"{len(removed)} removed"] if removed else [])
+    summary = ", ".join(parts) if parts else "reordered or details edited"
+    return summary, [f"  + {label(tracks[u])}" for u in added] + [f"  - {label(tracks[u])}" for u in removed]
 
 
 def fill_art(delay=0.2):
@@ -932,6 +1011,15 @@ def git(*args):
         return False, f"{type(exc).__name__}: {exc}"
 
 
+def push():
+    """Rebase onto origin (the scheduled task and hand edits both commit) and push; (ok, git output)."""
+    ok, out = git("pull", "-q", "--rebase", "--autostash")
+    if not ok:
+        git("rebase", "--abort")
+        return ok, out
+    return git("push", "-q")
+
+
 def site_url():
     """The GitHub Pages address for the origin remote (github.com/owner/repo -> owner.github.io/repo/)."""
     if os.environ.get("SITE_URL"):
@@ -1032,11 +1120,7 @@ def publish():
         ok, out = git("commit", "-q", "-m", f"Listening data through {last:%b} {last.day}, {last:%I:%M %p}"
                       if last else "Update listening data")
     if ok:
-        ok, out = git("pull", "-q", "--rebase", "--autostash")
-        if not ok:
-            git("rebase", "--abort")
-    if ok:
-        ok, out = git("push", "-q")
+        ok, out = push()
     print("Published to GitHub." if ok else
           f"Publish failed: {(out.splitlines() or ['git error'])[-1]} (the commit is kept; it goes out next run)")
 
@@ -1149,9 +1233,15 @@ def report_data(now):
                             "top_plays": n, "image": cover(p), "url": open_url(uri)})
 
     # Lines naming a track or episode are skipped, so a band like The Warning isn't taken for a problem.
-    content = re.compile(r"\d+ new play\(s\), latest: |Podcast (playing|heard): ")
+    content = re.compile(r"\d+ new play\(s\), latest: |Podcast (playing|heard): |Playlist .* changed: |  [+-] |Saved \d+ tracks from ")
     problems = list(dict.fromkeys(line for line in log if not content.match(line)
                                   and re.search(r"Traceback|Error|error:|Warning|failed", line)))
+    playlists = []  # backup_playlists() output: "Playlist <name> changed: <summary>", then "  + " / "  - " lines
+    for line in log:
+        if m := re.match(r"Playlist (.*) changed: (.*)", line):
+            playlists.append({"name": m.group(1), "summary": m.group(2), "added": [], "removed": []})
+        elif playlists and line.startswith(("  + ", "  - ")):
+            playlists[-1]["added" if line[2] == "+" else "removed"].append(line[4:])
     published = sum(1 for line in log if line.startswith("Published to GitHub"))
     expected = 48
     status = "bad" if any("Traceback" in l or "rror" in l for l in problems) else \
@@ -1192,7 +1282,7 @@ def report_data(now):
             "last_run": runs[-1][0] if runs else None, "problems": problems[:12], "plays": len(plays),
             "minutes": minutes, "artist_count": len(artists), "podcasts": podcasts[:6],
             "top_tracks": top_tracks, "top_artists": sorted(artists.values(), key=lambda a: -a["plays"])[:5],
-            "on_this_day": on_this_day, "import": imported, "published": published, "site": site_url(), "reauth": reauth,
+            "on_this_day": on_this_day, "import": imported, "published": published, "site": site_url(), "reauth": reauth, "playlists": playlists,
             "totals": {"plays": len(all_plays), "since": all_plays[0]["local"].year if all_plays else None}}
 
 
@@ -1233,6 +1323,9 @@ def report_text(r):
     if r["podcasts"]:
         out += ["", "Podcasts:"] + [f"  {e['show']}: {e['name']}" + (f" ({e['pct']}%)" if e["pct"] is not None else "")
                                     for e in r["podcasts"]]
+    for p in r["playlists"]:
+        out += ["", f"Playlist {p['name']} changed: {p['summary']} (backup committed to GitHub)"]
+        out += [f"  + {t}" for t in p["added"][:15]] + [f"  - {t}" for t in p["removed"][:15]]
     if r["on_this_day"]:
         out += ["", f"On {now:%B} {now.day} in other years:"] + [
             f"  {d['year']}: {d['plays']} plays, top song {d['top']} - {d['artist']}" for d in r["on_this_day"]]
@@ -1367,6 +1460,13 @@ def report_html(r):
         body.append(section("Podcasts", rows(
             (thumb(e["image"]), link(e["url"], e["name"]), h(e["show"]), f'{e["pct"]}%' if e["pct"] is not None else "")
             for e in r["podcasts"])))
+    for p in r["playlists"]:
+        items = ([("#1a7f37", "+", t) for t in p["added"][:15]] + [("#cf222e", "&minus;", t) for t in p["removed"][:15]])
+        body.append(section(f"Playlist changes: {p['name']}",
+            f'<div style="{FONT}font-size:14px;color:{INK};margin:0 0 8px;">{h(p["summary"].capitalize())}. '
+            f'The backup in the GitHub repo is up to date.</div>'
+            + "".join(f'<div style="{FONT}font-size:14px;color:{INK};line-height:1.6;"><b style="color:{c};display:inline-block;'
+                      f'width:16px;">{sign}</b>{h(t)}</div>' for c, sign, t in items)))
     if r["on_this_day"]:
         body.append(section(f"On {now:%B} {now.day} in other years", rows(
             (thumb(d["image"]), f'{d["year"]} · ' + link(d["url"], d["top"]), h(d["artist"]),
@@ -1419,8 +1519,9 @@ def main():
     wrap.add_argument("years", nargs="*", metavar="YEAR or YEAR-YEAR",
                       type=lambda s: s if re.fullmatch(r"\d{4}(-\d{4})?", s) else sys.exit(f"Not a year or span: {s}"))
     sub.add_parser("sharecard", help="draw docs/images/share.png, the site's social media preview picture")
-    pl = sub.add_parser("playlist", help="save one of your playlists, by name, to data/playlists/")
+    pl = sub.add_parser("playlist", help="save one of your playlists, by name, to playlists/")
     pl.add_argument("name", help='the playlist\'s name, e.g. "My Favs"')
+    sub.add_parser("backup", help="once a day, save and commit the BACKUP_PLAYLISTS that changed (sync.bat runs this)")
     sub.add_parser("publish", help="commit and push docs/data/ to GitHub when it changed (sync.bat runs this)")
     rep = sub.add_parser("report", help="email the daily summary (sync.bat runs this; sends once a day)")
     rep.add_argument("--force", action="store_true", help="send now, even if today's report went out")
@@ -1439,7 +1540,8 @@ def main():
         elif args.command == "playlist":
             save_playlist(args.name)
         else:
-            {"auth": auth, "sync": sync, "art": fill_art, "build": build, "sharecard": share_card}[args.command]()
+            {"auth": auth, "sync": sync, "art": fill_art, "build": build, "sharecard": share_card,
+             "backup": backup_playlists}[args.command]()
     except RateLimited as e:
         sys.exit(str(e))
 

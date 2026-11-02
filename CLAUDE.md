@@ -17,9 +17,10 @@ python musicdashboard.py build               write docs/data/listening.js
 python musicdashboard.py wrapped [YEAR|YEAR-YEAR ...]  write docs/data/wrapped/<period>.js for docs/wrapped.html?year=<period> (default: see below)
 python musicdashboard.py report [--dry-run|--force]  daily summary email of data/sync.log, listening and import progress
 python musicdashboard.py playlist "NAME"     save one of the owner's playlists (by name) to playlists/<name>.json + .csv, with ISRCs; ~1 request per 50 tracks
+python musicdashboard.py backup              once a day: re-save + commit + push the BACKUP_PLAYLISTS (default "My Favs") that changed
 python musicdashboard.py sharecard            redraw docs/images/share.png, the 1200x630 social preview, from listening.js totals (headless Edge)
 python musicdashboard.py publish             commit + push docs/data/ if it changed beyond the "generated" timestamp
-sync.bat                                     the scheduled job: sync, import --limit 20 (until data\import.done exists), build, publish, report
+sync.bat                                     the scheduled job: sync, import --limit 20 (until data\import.done exists), backup, build, publish, report
 ```
 
 - The repo is public at github.com/shakosteve/MusicDashboard. GitHub Pages serves `docs/` from `main` at https://shakosteve.github.io/MusicDashboard/.
@@ -36,7 +37,10 @@ sync.bat                                     the scheduled job: sync, import --l
 `playlists/` is the exception to personal data being gitignored. The owner wants it committed as an off-computer backup, so a playlist ("My Favs" is the important one) can be moved to another service later.
 - Each track has its ISRC, the recording's ID on every service.
 - The `.csv` uses the columns that transfer services accept as an upload.
-- Re-run `playlist` after the playlist changes, then commit. This isn't automated.
+- `backup` keeps it current. It runs every scheduled run but works once a day per playlist (dates in `data/playlist_checks.json`).
+  - It compares the playlist's `snapshot_id` from `/me/playlists` (one request) with the last one seen, and downloads the tracks only when it changed.
+  - It writes and commits only when the content changed, ignoring `fetched`/`snapshot_id`, and commits only `playlists/` (pathspec), e.g. "My Favs: 3 added, 1 removed", with the tracks in the body. `AUTO_PUBLISH=off` skips the commit.
+  - It prints `Playlist <name> changed: …` with `  + `/`  - ` lines, which `report` shows as "Playlist changes". The report's problem scan skips those lines, since track names can contain words like "Warning".
 
 **`data/` is a junction into OneDrive** (`C:\Users\zamdr\OneDrive\MusicDashboard_Data`, pinned "always keep on this device"), following GoneWalking, so it's backed up off the computer. It holds irreplaceable state: live plays older than Spotify's last 50, `episodes.json`, the export, and lookups that cost days of API quota. Don't delete or bulk-rewrite it. GoneWalking's `music.py` reads it through the junction as `../MusicDashboard/data`.
 
