@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-02T04:10:05Z",
+ "generated": "2026-11-02T12:40:05Z",
  "totals": {
   "plays": 124703,
   "hours": 8477.4,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Erik Kramer’s Ultimate Comeback",
+   "show": "Adam Carolla Show",
+   "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
+   "release_date": "2026-11-02",
+   "duration_ms": 6346397,
+   "image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f",
+   "first_seen": "2026-11-02T12:40:03Z",
+   "progress_ms": 1718762,
+   "last_seen": "2026-11-02T12:40:03Z",
+   "url": "https://open.spotify.com/episode/1Z4EjHOLgijxYCfbuV1MIS",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
+  },
+  {
    "name": "#692 - Sophie Cunningham",
    "show": "This Past Weekend w/ Theo Von",
    "show_uri": "spotify:show:6PwE1CIZsgfrhX6Bw96PUN",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-10-30T17:10:03Z",
    "url": "https://open.spotify.com/episode/53IPpj6FlbKBbzxEbY2JtU",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
-  },
-  {
-   "name": "The Great Washington Retreat",
-   "show": "The Powers That Be: Daily",
-   "show_uri": "spotify:show:5ZChG4x3aogGtKGkxU6nMH",
-   "release_date": "2026-10-30",
-   "duration_ms": 1227624,
-   "image": "https://i.scdn.co/image/ab67656300005f1f55386ae3fe554333e1a85785",
-   "first_seen": "2026-10-30T12:40:03Z",
-   "progress_ms": 1227624,
-   "last_seen": "2026-10-30T12:40:03Z",
-   "url": "https://open.spotify.com/episode/0RRCu0LaHOznGGe9pnZ3Dx",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f55386ae3fe554333e1a85785"
   }
  ],
  "top_shows": [
