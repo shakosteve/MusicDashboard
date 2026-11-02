@@ -1,14 +1,69 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-02T18:40:06Z",
+ "generated": "2026-11-02T19:10:06Z",
  "totals": {
-  "plays": 124741,
-  "hours": 8480.0,
+  "plays": 124746,
+  "hours": 8480.4,
   "artists": 701,
   "albums": 1519,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Pour Some Sugar On Me - Remastered 2017",
+   "artist": "Def Leppard",
+   "album": "Hysteria (Super Deluxe)",
+   "year": 1987,
+   "image": "https://i.scdn.co/image/ab67616d00001e02222cb38afc3b3b47d9df26aa",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273222cb38afc3b3b47d9df26aa",
+   "url": "https://open.spotify.com/track/0PdM2a6oIjqepoEfcJo0RO",
+   "album_url": "https://open.spotify.com/album/31oeDyCOLhgeZyktfxo0pE",
+   "played_at": "2026-11-02T18:58:03.980Z"
+  },
+  {
+   "name": "Smooth (feat. Rob Thomas)",
+   "artist": "Santana, Rob Thomas",
+   "album": "Supernatural (Remastered)",
+   "year": 1999,
+   "image": "https://i.scdn.co/image/ab67616d00001e0247eb3ea5a92904c19e102e54",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27347eb3ea5a92904c19e102e54",
+   "url": "https://open.spotify.com/track/0n2SEXB2qoRQg171q7XqeW",
+   "album_url": "https://open.spotify.com/album/10aiDpdFGyfCFEcqpx6XTq",
+   "played_at": "2026-11-02T18:53:36.112Z"
+  },
+  {
+   "name": "Unmendable",
+   "artist": "The Warning",
+   "album": "XXI Century Blood",
+   "year": 2017,
+   "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
+   "url": "https://open.spotify.com/track/3YPWoSTTdI97QeyjV9t68F",
+   "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
+   "played_at": "2026-11-02T18:48:40.698Z"
+  },
+  {
+   "name": "Nobody's Fool",
+   "artist": "Cinderella",
+   "album": "Night Songs",
+   "year": 1986,
+   "image": "https://i.scdn.co/image/ab67616d00001e028e591199defaa8a0fcfca286",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2738e591199defaa8a0fcfca286",
+   "url": "https://open.spotify.com/track/01Q4wU19hamqnhNjtuvTyI",
+   "album_url": "https://open.spotify.com/album/6Af1uU7Di8q9oHyXpgvrmY",
+   "played_at": "2026-11-02T18:45:05.064Z"
+  },
+  {
+   "name": "Roll Over Beethoven - Live at Wembley Stadium",
+   "artist": "Electric Light Orchestra",
+   "album": "Jeff Lynne's ELO - Wembley or Bust",
+   "year": 2017,
+   "image": "https://i.scdn.co/image/ab67616d00001e02cbc233cd23d3bd3989bb30c7",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273cbc233cd23d3bd3989bb30c7",
+   "url": "https://open.spotify.com/track/48SNVQrgRLqOmId1piQL0f",
+   "album_url": "https://open.spotify.com/album/1XbEZpVOHsd6xzPxbTnMi3",
+   "played_at": "2026-11-02T18:40:17.133Z"
+  },
   {
    "name": "Only Love Can Save Me Now [Feat. Matt Cameron & Kim Thayil]",
    "artist": "The Pretty Reckless, Matt Cameron, Kim Thayil",
@@ -481,67 +536,12 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/5f7KV4oOHZylrpa5XKFu6G",
    "album_url": "https://open.spotify.com/album/7wLd9KZsIrtpcRCVOjq7v8",
    "played_at": "2026-11-02T01:11:39.849Z"
-  },
-  {
-   "name": "The Sound of Silence",
-   "artist": "Disturbed",
-   "album": "Immortalized (Deluxe Edition)",
-   "year": 2015,
-   "image": "https://i.scdn.co/image/ab67616d00001e02a58c62e75b82e9c3b47d9ef3",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273a58c62e75b82e9c3b47d9ef3",
-   "url": "https://open.spotify.com/track/0eZBeB2xFIS65jQHerispi",
-   "album_url": "https://open.spotify.com/album/1ROVEUk4lc2vD4a0IN1TWS",
-   "played_at": "2026-11-02T01:07:48.061Z"
-  },
-  {
-   "name": "Crumblin' Down",
-   "artist": "John Mellencamp",
-   "album": "Uh-HUH!",
-   "year": 1983,
-   "image": "https://i.scdn.co/image/ab67616d00001e02cd949894aa0df080ed50ff9b",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273cd949894aa0df080ed50ff9b",
-   "url": "https://open.spotify.com/track/4uqmzWlYa0eLKmbcHNgLej",
-   "album_url": "https://open.spotify.com/album/1p4YwrjrP7t6Rfb755yoTQ",
-   "played_at": "2026-11-02T01:03:39.060Z"
-  },
-  {
-   "name": "Is This Love - 2018 Remaster",
-   "artist": "Whitesnake",
-   "album": "Whitesnake (2018 Remaster)",
-   "year": 1987,
-   "image": "https://i.scdn.co/image/ab67616d00001e0249113b5921d7a53f49b64bfd",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27349113b5921d7a53f49b64bfd",
-   "url": "https://open.spotify.com/track/6QyWVCLASvvtpKD0KJZs5e",
-   "album_url": "https://open.spotify.com/album/7swyGza0lOXnnkfSupULM5",
-   "played_at": "2026-11-02T01:00:04.504Z"
-  },
-  {
-   "name": "All Too Well (10 Minute Version) (Taylor's Version) (From The Vault)",
-   "artist": "Taylor Swift",
-   "album": "Red (Taylor's Version)",
-   "year": 2021,
-   "image": "https://i.scdn.co/image/ab67616d00001e02318443aab3531a0558e79a4d",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273318443aab3531a0558e79a4d",
-   "url": "https://open.spotify.com/track/5enxwA8aAbwZbf5qCHORXi",
-   "album_url": "https://open.spotify.com/album/6kZ42qRrzov54LcAk4onW9",
-   "played_at": "2026-11-02T00:55:19.458Z"
-  },
-  {
-   "name": "Slide",
-   "artist": "Plastic Picnic",
-   "album": "As Long As You Need",
-   "year": 2022,
-   "image": "https://i.scdn.co/image/ab67616d00001e0233ed65aef7428608f5b33f17",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27333ed65aef7428608f5b33f17",
-   "url": "https://open.spotify.com/track/5Rokkaaomfmom5BOm19A8b",
-   "album_url": "https://open.spotify.com/album/615Oddpje0fnkwigsDZYIU",
-   "played_at": "2026-11-02T00:45:05.942Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10657,
+   "plays": 10658,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
@@ -610,7 +610,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
    "url": "https://open.spotify.com/track/1VcLiPmina1L3xlLkJ5OTS",
    "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
-   "plays": 3483
+   "plays": 3484
   },
   {
    "name": "Dust to Dust",
@@ -654,7 +654,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b273222cb38afc3b3b47d9df26aa",
    "url": "https://open.spotify.com/track/1F1ek5FOLawYoPuZI0GITr",
    "album_url": "https://open.spotify.com/album/31oeDyCOLhgeZyktfxo0pE",
-   "plays": 1326
+   "plays": 1327
   },
   {
    "name": "ERROR",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32827,
+   "plays": 32829,
    "covers": [
     {
      "name": "Back In Black",
@@ -1042,7 +1042,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273222cb38afc3b3b47d9df26aa",
      "url": "https://open.spotify.com/track/1F1ek5FOLawYoPuZI0GITr",
      "album_url": "https://open.spotify.com/album/31oeDyCOLhgeZyktfxo0pE",
-     "plays": 1326
+     "plays": 1327
     },
     {
      "name": "My Kinda Lover - Remastered 2010",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9687,
+   "plays": 9688,
    "covers": [
     {
      "name": "Amazing",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15748,
+   "plays": 15750,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1313,7 +1313,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
      "url": "https://open.spotify.com/track/1VcLiPmina1L3xlLkJ5OTS",
      "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
-     "plays": 3483
+     "plays": 3484
     },
     {
      "name": "Dust to Dust",
@@ -1498,8 +1498,8 @@ window.LISTENING = {
    "duration_ms": 2035147,
    "image": "https://i.scdn.co/image/ab67656300005f1fba28c6f23eab3b47a9abea06",
    "first_seen": "2026-11-02T17:40:03Z",
-   "progress_ms": 585659,
-   "last_seen": "2026-11-02T17:40:03Z",
+   "progress_ms": 2035147,
+   "last_seen": "2026-11-02T19:10:04Z",
    "url": "https://open.spotify.com/episode/2Y6wCczqDEDso73UMAGIrh",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
   },
