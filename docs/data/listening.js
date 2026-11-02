@@ -1,14 +1,69 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-02T00:40:07Z",
+ "generated": "2026-11-02T01:10:06Z",
  "totals": {
-  "plays": 124692,
-  "hours": 8476.6,
+  "plays": 124698,
+  "hours": 8477.1,
   "artists": 701,
-  "albums": 1517,
+  "albums": 1518,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "The Sound of Silence",
+   "artist": "Disturbed",
+   "album": "Immortalized (Deluxe Edition)",
+   "year": 2015,
+   "image": "https://i.scdn.co/image/ab67616d00001e02a58c62e75b82e9c3b47d9ef3",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273a58c62e75b82e9c3b47d9ef3",
+   "url": "https://open.spotify.com/track/0eZBeB2xFIS65jQHerispi",
+   "album_url": "https://open.spotify.com/album/1ROVEUk4lc2vD4a0IN1TWS",
+   "played_at": "2026-11-02T01:07:48.061Z"
+  },
+  {
+   "name": "Crumblin' Down",
+   "artist": "John Mellencamp",
+   "album": "Uh-HUH!",
+   "year": 1983,
+   "image": "https://i.scdn.co/image/ab67616d00001e02cd949894aa0df080ed50ff9b",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273cd949894aa0df080ed50ff9b",
+   "url": "https://open.spotify.com/track/4uqmzWlYa0eLKmbcHNgLej",
+   "album_url": "https://open.spotify.com/album/1p4YwrjrP7t6Rfb755yoTQ",
+   "played_at": "2026-11-02T01:03:39.060Z"
+  },
+  {
+   "name": "Is This Love - 2018 Remaster",
+   "artist": "Whitesnake",
+   "album": "Whitesnake (2018 Remaster)",
+   "year": 1987,
+   "image": "https://i.scdn.co/image/ab67616d00001e0249113b5921d7a53f49b64bfd",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27349113b5921d7a53f49b64bfd",
+   "url": "https://open.spotify.com/track/6QyWVCLASvvtpKD0KJZs5e",
+   "album_url": "https://open.spotify.com/album/7swyGza0lOXnnkfSupULM5",
+   "played_at": "2026-11-02T01:00:04.504Z"
+  },
+  {
+   "name": "All Too Well (10 Minute Version) (Taylor's Version) (From The Vault)",
+   "artist": "Taylor Swift",
+   "album": "Red (Taylor's Version)",
+   "year": 2021,
+   "image": "https://i.scdn.co/image/ab67616d00001e02318443aab3531a0558e79a4d",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273318443aab3531a0558e79a4d",
+   "url": "https://open.spotify.com/track/5enxwA8aAbwZbf5qCHORXi",
+   "album_url": "https://open.spotify.com/album/6kZ42qRrzov54LcAk4onW9",
+   "played_at": "2026-11-02T00:55:19.458Z"
+  },
+  {
+   "name": "Slide",
+   "artist": "Plastic Picnic",
+   "album": "As Long As You Need",
+   "year": 2022,
+   "image": "https://i.scdn.co/image/ab67616d00001e0233ed65aef7428608f5b33f17",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27333ed65aef7428608f5b33f17",
+   "url": "https://open.spotify.com/track/5Rokkaaomfmom5BOm19A8b",
+   "album_url": "https://open.spotify.com/album/615Oddpje0fnkwigsDZYIU",
+   "played_at": "2026-11-02T00:45:05.942Z"
+  },
   {
    "name": "My Kinda Lover - Remastered 2010",
    "artist": "Billy Squier",
@@ -18,7 +73,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b273f4822f8034e697410a14a297",
    "url": "https://open.spotify.com/track/6g14FUj5zU9FDRwBi963vS",
    "album_url": "https://open.spotify.com/album/6TwlLNU5Zd9qGuNgSLeWPt",
-   "played_at": "2026-11-01T23:13:02.050Z"
+   "played_at": "2026-11-02T00:41:23.535Z"
   },
   {
    "name": "Tick Of The Clock (Extended Overdrive)",
@@ -481,61 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/6pivm7pNF4GyBkHNGseHCS",
    "album_url": "https://open.spotify.com/album/10v912xgTZbjAtYfyKWJCS",
    "played_at": "2026-11-01T17:45:29.657Z"
-  },
-  {
-   "name": "46 and 2",
-   "artist": "O'keefe Music Foundation",
-   "album": "46 and 2",
-   "year": 2015,
-   "image": "https://i.scdn.co/image/ab67616d00001e02c953a05b22cfd7dc11d3d7a6",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273c953a05b22cfd7dc11d3d7a6",
-   "url": "https://open.spotify.com/track/1Mfb4wUz54L6wW900FfWtG",
-   "album_url": "https://open.spotify.com/album/68bP3r8G6e4ej006S1eWmg",
-   "played_at": "2026-11-01T17:42:06.197Z"
-  },
-  {
-   "name": "Don't Bring Me Down",
-   "artist": "Electric Light Orchestra",
-   "album": "Discovery",
-   "year": 1979,
-   "image": "https://i.scdn.co/image/ab67616d00001e0237e78b6638f7737adee73d6f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27337e78b6638f7737adee73d6f",
-   "url": "https://open.spotify.com/track/72ahyckBJfTigJCFCviVN7",
-   "album_url": "https://open.spotify.com/album/1CvVSn2MtKDBR6aWMkNkem",
-   "played_at": "2026-11-01T13:42:21.130Z"
-  },
-  {
-   "name": "Legendary",
-   "artist": "Bon Jovi",
-   "album": "Legendary",
-   "year": 2024,
-   "image": "https://i.scdn.co/image/ab67616d00001e02609d2eccae6c68757f77d376",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273609d2eccae6c68757f77d376",
-   "url": "https://open.spotify.com/track/0NJKX45ZZnGWyDcEnoH7C5",
-   "album_url": "https://open.spotify.com/album/4Qp0INJYYCPCOnUpOREZnb",
-   "played_at": "2026-11-01T13:38:17.517Z"
-  },
-  {
-   "name": "Sweet Child O' Mine",
-   "artist": "Guns N' Roses",
-   "album": "Appetite For Destruction",
-   "year": 1987,
-   "image": "https://i.scdn.co/image/ab67616d00001e0221ebf49b3292c3f0f575f0f5",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27321ebf49b3292c3f0f575f0f5",
-   "url": "https://open.spotify.com/track/7snQQk1zcKl8gZ92AnueZW",
-   "album_url": "https://open.spotify.com/album/28yHV3Gdg30AiB8h8em1eW",
-   "played_at": "2026-11-01T13:34:11.623Z"
-  },
-  {
-   "name": "Let It All Go",
-   "artist": "Beats Antique, Preservation Hall Jazz Band",
-   "album": "Shadowbox",
-   "year": 2016,
-   "image": "https://i.scdn.co/image/ab67616d00001e0200a7c78579418967f80cbfb2",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27300a7c78579418967f80cbfb2",
-   "url": "https://open.spotify.com/track/5xDBeP7eDtTIh9xlWG1ZuZ",
-   "album_url": "https://open.spotify.com/album/4a9ZBC1e52r3z79P3MX6zn",
-   "played_at": "2026-11-01T13:28:15.013Z"
   }
  ],
  "top_artists": [
@@ -731,7 +731,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b273f4822f8034e697410a14a297",
    "url": "https://open.spotify.com/track/6g14FUj5zU9FDRwBi963vS",
    "album_url": "https://open.spotify.com/album/6TwlLNU5Zd9qGuNgSLeWPt",
-   "plays": 881
+   "plays": 882
   }
  ],
  "decades": [
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32813,
+   "plays": 32816,
    "covers": [
     {
      "name": "Back In Black",
@@ -1053,7 +1053,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273f4822f8034e697410a14a297",
      "url": "https://open.spotify.com/track/6g14FUj5zU9FDRwBi963vS",
      "album_url": "https://open.spotify.com/album/6TwlLNU5Zd9qGuNgSLeWPt",
-     "plays": 881
+     "plays": 882
     },
     {
      "name": "Manic Monday",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15743,
+   "plays": 15744,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18568,
+   "plays": 18570,
    "covers": [
     {
      "name": "ERROR",
@@ -1808,7 +1808,7 @@ window.LISTENING = {
     "image_large": "https://i.scdn.co/image/ab67616d0000b273318443aab3531a0558e79a4d",
     "url": "https://open.spotify.com/track/5enxwA8aAbwZbf5qCHORXi",
     "album_url": "https://open.spotify.com/album/6kZ42qRrzov54LcAk4onW9",
-    "plays": 191,
+    "plays": 192,
     "total": 30,
     "run_back": 28,
     "went_back": 1,
