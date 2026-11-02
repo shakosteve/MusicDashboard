@@ -17,7 +17,7 @@ python musicdashboard.py build               write docs/data/listening.js
 python musicdashboard.py wrapped [YEAR|YEAR-YEAR ...]  write docs/data/wrapped/<period>.js for docs/wrapped.html?year=<period> (default: see below)
 python musicdashboard.py report [--dry-run|--force]  daily summary email of data/sync.log, listening and import progress
 python musicdashboard.py playlist "NAME"     save one of the owner's playlists (by name, ID or link) to playlists/<name>.json + .csv, with ISRCs; ~1 request per 50 tracks
-python musicdashboard.py backup              once a day: re-save + commit + push the playlists in playlists/backup.json that changed
+python musicdashboard.py backup              once a day: re-save + commit + push the playlists in playlists/playlists.json that changed
 python musicdashboard.py sharecard            redraw docs/images/share.png, the 1200x630 social preview, from listening.js totals (headless Edge)
 python musicdashboard.py publish             commit + push docs/data/ if it changed beyond the "generated" timestamp
 sync.bat                                     the scheduled job: sync, import --limit 20 (until data\import.done exists), backup, build, publish, report
@@ -38,7 +38,7 @@ sync.bat                                     the scheduled job: sync, import --l
 - Each track has its ISRC, the recording's ID on every service.
 - The `.csv` uses the columns that transfer services accept as an upload.
 - `backup` keeps it current. It runs every scheduled run but works once a day per playlist (dates in `data/playlist_checks.json`).
-  - The playlists to back up are listed, by Spotify ID, in the committed `playlists/backup.json` (`{"playlists": [{"id", "name"}]}`). It's not in `.env`, at the owner's request.
+  - The playlists to back up are listed, by Spotify ID, in the committed `playlists/playlists.json` (`{"playlists": [{"id", "name"}]}`). It's not in `.env`, at the owner's request.
     - Tracking by ID, never by name, means the owner can rename a playlist. `id` can also be a `spotify:playlist:` URI or a link. `name` is only a label, which `backup` keeps current and commits.
     - A missing file or an unknown ID prints "Playlist backup failed: …", which the report flags.
   - A playlist's file is the existing `playlists/*.json` with its `uri` (`playlist_file()`), so a rename keeps `my-favs.json` and its git history. The rename shows as "renamed from 'Old'".
