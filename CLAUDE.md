@@ -16,8 +16,8 @@ python musicdashboard.py art                 fetch cover art/years for live-sync
 python musicdashboard.py build               write docs/data/listening.js
 python musicdashboard.py wrapped [YEAR|YEAR-YEAR ...]  write docs/data/wrapped/<period>.js for docs/wrapped.html?year=<period> (default: see below)
 python musicdashboard.py report [--dry-run|--force]  daily summary email of data/sync.log, listening and import progress
-python musicdashboard.py playlist "NAME"     save one of the owner's playlists (by name) to playlists/<name>.json + .csv, with ISRCs; ~1 request per 50 tracks
-python musicdashboard.py backup              once a day: re-save + commit + push the BACKUP_PLAYLISTS (default "My Favs") that changed
+python musicdashboard.py playlist "NAME"     save one of the owner's playlists (by name, ID or link) to playlists/<name>.json + .csv, with ISRCs; ~1 request per 50 tracks
+python musicdashboard.py backup              once a day: re-save + commit + push the BACKUP_PLAYLISTS that changed
 python musicdashboard.py sharecard            redraw docs/images/share.png, the 1200x630 social preview, from listening.js totals (headless Edge)
 python musicdashboard.py publish             commit + push docs/data/ if it changed beyond the "generated" timestamp
 sync.bat                                     the scheduled job: sync, import --limit 20 (until data\import.done exists), backup, build, publish, report
@@ -38,9 +38,11 @@ sync.bat                                     the scheduled job: sync, import --l
 - Each track has its ISRC, the recording's ID on every service.
 - The `.csv` uses the columns that transfer services accept as an upload.
 - `backup` keeps it current. It runs every scheduled run but works once a day per playlist (dates in `data/playlist_checks.json`).
-  - It compares the playlist's `snapshot_id` from `/me/playlists` (one request) with the last one seen, and downloads the tracks only when it changed.
+  - Playlists are tracked by Spotify ID, never by name, so the owner can rename them. `.env` has `BACKUP_PLAYLISTS=2SZQM5o7Kw0wkmozPIXufi` (My Favs). Entries can be IDs, `spotify:playlist:` URIs, links or names (default "My Favs"). A name is resolved once, and its ID is kept in `playlist_checks.json`.
+  - A playlist's file is the existing `playlists/*.json` with its `uri` (`playlist_file()`), so a rename keeps `my-favs.json` and its git history. The rename shows as "renamed from 'Old'".
+  - It compares the playlist's `snapshot_id` from `/playlists/{id}` (one request) with the last one seen, and downloads the tracks only when it changed.
   - It writes and commits only when the content changed, ignoring `fetched`/`snapshot_id`, and commits only `playlists/` (pathspec), e.g. "My Favs: 3 added, 1 removed", with the tracks in the body. `AUTO_PUBLISH=off` skips the commit.
-  - It prints `Playlist <name> changed: …` with `  + `/`  - ` lines, or `Playlist <name> checked: no changes (N tracks)`. `report` shows these under "Playlist backup", one line per playlist even when unchanged, and "not checked in the last day" for a `BACKUP_PLAYLISTS` name with neither line. The report's problem scan skips those lines, since track names can contain words like "Warning".
+  - It prints `Playlist <name> changed: …` with `  + `/`  - ` lines, or `Playlist <name> checked: no changes (N tracks)`. `report` shows these under "Playlist backup", one line per playlist even when unchanged, and "not checked today" for an entry whose date in `playlist_checks.json` isn't today. The report's problem scan skips those lines, since track names can contain words like "Warning".
 
 **`data/` is a junction into OneDrive** (`C:\Users\zamdr\OneDrive\MusicDashboard_Data`, pinned "always keep on this device"), following GoneWalking, so it's backed up off the computer. It holds irreplaceable state: live plays older than Spotify's last 50, `episodes.json`, the export, and lookups that cost days of API quota. Don't delete or bulk-rewrite it. GoneWalking's `music.py` reads it through the junction as `../MusicDashboard/data`.
 

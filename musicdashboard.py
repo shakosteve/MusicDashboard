@@ -19,6 +19,8 @@ Settings in .env:
     SMTP_USER=you@gmail.com          optional, for the daily `report` email; SMTP_PASSWORD is a Gmail
     SMTP_PASSWORD=...                app password. Also optional: REPORT_TO (default SMTP_USER),
                                      REPORT_HOUR (default 8), SMTP_HOST/SMTP_PORT (default Gmail, 587)
+    BACKUP_PLAYLISTS=2SZQ...         optional: playlists for `backup`, comma-separated IDs, links or names
+                                     (default "My Favs"); an ID keeps working when the playlist is renamed
 
 Spotify only returns the last 50 played tracks and never includes podcast episodes there, so `sync`
 should run often (every 30-60 minutes, via sync.bat in Task Scheduler). Episodes are caught by
@@ -419,18 +421,43 @@ def find_playlist(session, name):
     return None
 
 
-def playlist_path(name):
-    return PLAYLISTS / f"{re.sub(r'[^a-z0-9]+', '-', name.lower()).strip('-')}.json"
+def playlist_id(text):
+    """The ID in a playlist ID, spotify:playlist: URI or open.spotify.com link; None for anything else (a name)."""
+    m = re.fullmatch(r"(?:spotify:playlist:|https?://open\.spotify\.com/playlist/)?([A-Za-z0-9]{22})(?:\?.*)?", text.strip())
+    return m.group(1) if m else None
+
+
+def get_playlist(session, pid):
+    """id, uri, name and snapshot_id of a playlist by its ID, which survives renames; None if Spotify has no such playlist."""
+    try:
+        return fetch(session, f"{API}/playlists/{pid}", {"fields": "id,uri,name,snapshot_id"})
+    except requests.HTTPError as e:
+        if e.response is not None and e.response.status_code in (400, 404):
+            return None
+        raise
+
+
+def playlist_file(found):
+    """Where a playlist is saved: the existing playlists/*.json with its URI, so the file (and its git history)
+    stays put when the playlist is renamed; for a new one, a file named after it."""
+    for path in sorted(PLAYLISTS.glob("*.json")):
+        try:
+            if json.loads(path.read_text(encoding="utf-8")).get("uri") == found["uri"]:
+                return path
+        except (OSError, ValueError):
+            pass
+    return PLAYLISTS / f"{re.sub(r'[^a-z0-9]+', '-', found['name'].lower()).strip('-')}.json"
 
 
 def save_playlist(name):
-    """Save one of my playlists, found by name (any case), to playlists/<name>.json and .csv: every track with
-    its ISRC (the recording's ID on every service, for moving the playlist elsewhere) and when it was added,
-    plus album art into art.json. About one request per 50 tracks. playlists/ is committed as a backup."""
+    """Save one of my playlists, by ID, URI, link or name (any case), to playlists/<name>.json and .csv: every
+    track with its ISRC (the recording's ID on every service, for moving the playlist elsewhere) and when it was
+    added, plus album art into art.json. About one request per 50 tracks. playlists/ is committed as a backup."""
     session = api_session()
-    found = find_playlist(session, name)
+    pid = playlist_id(name)
+    found = get_playlist(session, pid) if pid else find_playlist(session, name)
     if not found:
-        sys.exit(f"No playlist called {name!r} among yours or the ones you follow.")
+        sys.exit(f"No playlist {name!r} among yours or the ones you follow.")
     write_playlist(fetch_playlist(session, found))
 
 
@@ -468,7 +495,7 @@ def fetch_playlist(session, found, delay=0.2):
 def write_playlist(playlist):
     """Write playlists/<name>.json, and the .csv that transfer services (TuneMyMusic, Soundiiz and the like)
     take as an upload."""
-    out, tracks = playlist_path(playlist["name"]), playlist["tracks"]
+    out, tracks = playlist_file(playlist), playlist["tracks"]
     write_atomic(out, json.dumps(playlist, indent=2, ensure_ascii=False))
     with out.with_suffix(".csv").open("w", newline="", encoding="utf-8-sig") as f:
         w = csv.writer(f)
@@ -485,38 +512,40 @@ def write_playlist(playlist):
 def backup_playlists():
     """Keep the committed copies in playlists/ current; sync.bat runs this every time, and it works once a day.
 
-    Each playlist in BACKUP_PLAYLISTS (comma-separated, default "My Favs") is checked by its snapshot_id, which
-    changes with every edit: one request. Only a changed playlist is downloaded again (about one request per
-    50 tracks), and only a real change to it is saved, committed and pushed. The changes are printed as
+    Each playlist in BACKUP_PLAYLISTS (comma-separated IDs, spotify:playlist: URIs, links or names; default
+    "My Favs") is looked up by its ID, so renaming it on Spotify changes nothing here. A name is turned into
+    an ID once, and the ID is kept in playlist_checks.json. The playlist's snapshot_id, which changes with every
+    edit, costs one request. Only a changed playlist is downloaded again (about one request per 50 tracks),
+    and only a real change to it is saved, committed and pushed. The changes are printed as
     "Playlist <name> changed: ..." with "  + " and "  - " lines, or "Playlist <name> checked: no changes",
     which `report` puts in the email."""
-    names = [n.strip() for n in os.environ.get("BACKUP_PLAYLISTS", "My Favs").split(",") if n.strip()]
+    entries = backup_entries()
     checks = json.loads(PLAYLIST_CHECKS.read_text(encoding="utf-8")) if PLAYLIST_CHECKS.exists() else {}
     today = datetime.now().date().isoformat()
-    due = [n for n in names if (checks.get(n) or {}).get("checked") != today]
+    due = [e for e in entries if (checks.get(e) or {}).get("checked") != today]
     if not due:
         return
     session, changed = api_session(), []
-    for name in due:
-        found = find_playlist(session, name)
+    for entry in due:
+        pid = playlist_id(entry) or (checks.get(entry) or {}).get("id")
+        found = get_playlist(session, pid) if pid else find_playlist(session, entry)
         if not found:
-            print(f"Playlist backup failed: no playlist called {name!r} among yours or the ones you follow.")
+            print(f"Playlist backup failed: no playlist {entry!r} among yours or the ones you follow.")
             continue
-        path = playlist_path(found["name"])
+        path = playlist_file(found)
         old = json.loads(path.read_text(encoding="utf-8")) if path.exists() else None
-        known = (checks.get(name) or {}).get("snapshot_id") or (old or {}).get("snapshot_id")
+        known = (checks.get(entry) or {}).get("snapshot_id") or (old or {}).get("snapshot_id")
         new = fetch_playlist(session, found) if found.get("snapshot_id") != known or not old else old
         same = lambda p: {k: v for k, v in p.items() if k not in ("fetched", "snapshot_id")}
         if not old or same(old) != same(new):
             write_playlist(new)
             summary, lines = playlist_diff(old, new)
-            print(f"Playlist {new['name']} changed: {summary}")
-            print("\n".join(lines))
+            print("\n".join([f"Playlist {new['name']} changed: {summary}"] + lines))
             changed.append((f"{new['name']}: {summary}", lines))
         else:
             print(f"Playlist {old['name']} checked: no changes ({len(old['tracks']):,} tracks)")
-        checks[name] = {"checked": today, "snapshot_id": found.get("snapshot_id")}
-    write_atomic(PLAYLIST_CHECKS, json.dumps(checks, indent=2))
+        checks[entry] = {"checked": today, "id": found["id"], "name": found["name"], "snapshot_id": found.get("snapshot_id")}
+    write_atomic(PLAYLIST_CHECKS, json.dumps(checks, indent=2, ensure_ascii=False))
     if not changed or os.environ.get("AUTO_PUBLISH", "on").lower() in ("off", "no", "false", "0"):
         return
     git("add", "playlists")
@@ -528,6 +557,10 @@ def backup_playlists():
           f"Playlist backup push failed: {(out.splitlines() or ['git error'])[-1]} (the commit is kept; it goes out next run)")
 
 
+def backup_entries():
+    return [e.strip() for e in os.environ.get("BACKUP_PLAYLISTS", "My Favs").split(",") if e.strip()]
+
+
 def playlist_diff(old, new):
     """('3 added, 1 removed', ['  + Song - Artist', ..., '  - Song - Artist']) between two saved playlists."""
     label = lambda t: f"{clean_title(t['name'])} - {', '.join(t['artists'])}"
@@ -535,7 +568,8 @@ def playlist_diff(old, new):
     after = Counter(t["uri"] for t in new["tracks"])
     tracks = {t["uri"]: t for t in (old or {}).get("tracks", []) + new["tracks"]}
     added, removed = list((after - before).elements()), list((before - after).elements())
-    parts = ([f"{len(added)} added"] if added else []) + ([f"{len(removed)} removed"] if removed else [])
+    parts = ([f"renamed from {old['name']!r}"] if old and old["name"] != new["name"] else []) \
+        + ([f"{len(added)} added"] if added else []) + ([f"{len(removed)} removed"] if removed else [])
     summary = ", ".join(parts) if parts else "reordered or details edited"
     return summary, [f"  + {label(tracks[u])}" for u in added] + [f"  - {label(tracks[u])}" for u in removed]
 
@@ -1246,10 +1280,11 @@ def report_data(now):
                               "added": [], "removed": []})
         elif playlists and line.startswith(("  + ", "  - ")):
             playlists[-1]["added" if line[2] == "+" else "removed"].append(line[4:])
-    seen = {p["name"].casefold() for p in playlists}
-    playlists += [{"name": n, "changed": False, "summary": "not checked in the last day", "added": [], "removed": []}
-                  for n in (n.strip() for n in os.environ.get("BACKUP_PLAYLISTS", "My Favs").split(","))
-                  if n and n.casefold() not in seen]
+    checks = json.loads(PLAYLIST_CHECKS.read_text(encoding="utf-8")) if PLAYLIST_CHECKS.exists() else {}
+    # backup runs on the first run after midnight, hours before the report, so each playlist is due a check today.
+    playlists += [{"name": (checks.get(e) or {}).get("name") or e, "changed": False, "summary": "not checked today",
+                   "added": [], "removed": []}
+                  for e in backup_entries() if (checks.get(e) or {}).get("checked", "") < now.date().isoformat()]
     published = sum(1 for line in log if line.startswith("Published to GitHub"))
     expected = 48
     status = "bad" if any("Traceback" in l or "rror" in l for l in problems) else \
