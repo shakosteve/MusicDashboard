@@ -1,14 +1,58 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-02T02:40:05Z",
+ "generated": "2026-11-02T03:40:06Z",
  "totals": {
-  "plays": 124699,
-  "hours": 8477.1,
+  "plays": 124703,
+  "hours": 8477.4,
   "artists": 701,
   "albums": 1518,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Little Queen",
+   "artist": "Heart",
+   "album": "Little Queen",
+   "year": 1977,
+   "image": "https://i.scdn.co/image/ab67616d00001e0266e2e0df78c4ec35a8ed20a0",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27366e2e0df78c4ec35a8ed20a0",
+   "url": "https://open.spotify.com/track/0Mo316Vw5VAKEy2maTlTNS",
+   "album_url": "https://open.spotify.com/album/1LaeNhiUpL3X6N0LcFvuDF",
+   "played_at": "2026-11-02T03:25:55.309Z"
+  },
+  {
+   "name": "Spooky (Single Version)",
+   "artist": "Dusty Springfield",
+   "album": "Love Songs",
+   "year": 2020,
+   "image": "https://i.scdn.co/image/ab67616d00001e025746d44a39a97aaa12309af1",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2735746d44a39a97aaa12309af1",
+   "url": "https://open.spotify.com/track/4RYwE31p4KflK1h7J7m1Yt",
+   "album_url": "https://open.spotify.com/album/2paShliFsxYoO3WJEdTVdA",
+   "played_at": "2026-11-02T03:20:43.176Z"
+  },
+  {
+   "name": "Osiris",
+   "artist": "Jaded Truth",
+   "album": "Rx",
+   "year": 2020,
+   "image": "https://i.scdn.co/image/ab67616d00001e02d11211ad6e388a9a028ff55d",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273d11211ad6e388a9a028ff55d",
+   "url": "https://open.spotify.com/track/2kAXSlmHGIG94NXb8SE4kJ",
+   "album_url": "https://open.spotify.com/album/2F7EGYPCs7N20FZbVeaUR7",
+   "played_at": "2026-11-02T03:17:57.774Z"
+  },
+  {
+   "name": "Rhiannon",
+   "artist": "Fleetwood Mac",
+   "album": "Fleetwood Mac",
+   "year": 1975,
+   "image": "https://i.scdn.co/image/ab67616d00001e024fb043195e8d07e72edc7226",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2734fb043195e8d07e72edc7226",
+   "url": "https://open.spotify.com/track/05oETzWbd4SI33qK2gbJfR",
+   "album_url": "https://open.spotify.com/album/5VIQ3VaAoRKOEpJ0fewdvo",
+   "played_at": "2026-11-02T03:12:19.573Z"
+  },
   {
    "name": "Centerfield",
    "artist": "John Fogerty",
@@ -492,50 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/4UzVcXufOhGUwF56HT7b8M",
    "album_url": "https://open.spotify.com/album/02w1xMzzdF2OJxTeh1basm",
    "played_at": "2026-11-01T18:21:21.174Z"
-  },
-  {
-   "name": "S!CK - Live from Auditorio Nacional, CDMX",
-   "artist": "The Warning",
-   "album": "Live from Auditorio Nacional, CDMX",
-   "year": 2025,
-   "image": "https://i.scdn.co/image/ab67616d00001e025cda6d880ec3968aa6b6ac2f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
-   "url": "https://open.spotify.com/track/10zZP6IvvcFJvFbcCQnGhP",
-   "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
-   "played_at": "2026-11-01T17:59:44.159Z"
-  },
-  {
-   "name": "Kiss",
-   "artist": "Prince",
-   "album": "Parade - Music from the Motion Picture Under the Cherry Moon",
-   "year": 1986,
-   "image": "https://i.scdn.co/image/ab67616d00001e0223cc0f0a925845a3de4aca38",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27323cc0f0a925845a3de4aca38",
-   "url": "https://open.spotify.com/track/62LJFaYihsdVrrkgUOJC05",
-   "album_url": "https://open.spotify.com/album/54DjkEN3wdCQgfCTZ9WjdB",
-   "played_at": "2026-11-01T17:55:57.350Z"
-  },
-  {
-   "name": "Double Trouble",
-   "artist": "Lynyrd Skynyrd",
-   "album": "Gimme Back My Bullets (Expanded Edition)",
-   "year": 1976,
-   "image": "https://i.scdn.co/image/ab67616d00001e0261b3a3d80e51446fdc4e35b5",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27361b3a3d80e51446fdc4e35b5",
-   "url": "https://open.spotify.com/track/5ftkCxdoFGmkXbm5zgu0lS",
-   "album_url": "https://open.spotify.com/album/7nl7cH6KtKcKU7I2Hj2gAM",
-   "played_at": "2026-11-01T17:52:10.548Z"
-  },
-  {
-   "name": "Second Chances",
-   "artist": "Gregory Alan Isakov",
-   "album": "The Weatherman",
-   "year": 2013,
-   "image": "https://i.scdn.co/image/ab67616d00001e0233ffa5c45ccea4103c917964",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27333ffa5c45ccea4103c917964",
-   "url": "https://open.spotify.com/track/6Wu19AEKVNs5bJFuhZb4EZ",
-   "album_url": "https://open.spotify.com/album/3IcfYXw7lTtLfG5XWLlSZi",
-   "played_at": "2026-11-01T17:49:19.571Z"
   }
  ],
  "top_artists": [
@@ -583,7 +583,7 @@ window.LISTENING = {
   },
   {
    "name": "Heart",
-   "plays": 1921,
+   "plays": 1922,
    "url": "https://open.spotify.com/artist/34jw2BbxjoYalTp8cJFCPv",
    "image": "https://i.scdn.co/image/ab67616d00001e0266e2e0df78c4ec35a8ed20a0"
   },
@@ -720,7 +720,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b27366e2e0df78c4ec35a8ed20a0",
    "url": "https://open.spotify.com/track/4KfSdst7rW39C0sfhArdrz",
    "album_url": "https://open.spotify.com/album/1LaeNhiUpL3X6N0LcFvuDF",
-   "plays": 908
+   "plays": 909
   },
   {
    "name": "My Kinda Lover - Remastered 2010",
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28593,
+   "plays": 28595,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -948,7 +948,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b27366e2e0df78c4ec35a8ed20a0",
      "url": "https://open.spotify.com/track/4KfSdst7rW39C0sfhArdrz",
      "album_url": "https://open.spotify.com/album/1LaeNhiUpL3X6N0LcFvuDF",
-     "plays": 908
+     "plays": 909
     },
     {
      "name": "Iron Man - 2012 - Remaster",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18570,
+   "plays": 18572,
    "covers": [
     {
      "name": "ERROR",
