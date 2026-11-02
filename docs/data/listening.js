@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-01T23:10:05Z",
+ "generated": "2026-11-02T00:40:07Z",
  "totals": {
-  "plays": 124691,
-  "hours": 8476.5,
+  "plays": 124692,
+  "hours": 8476.6,
   "artists": 701,
   "albums": 1517,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "My Kinda Lover - Remastered 2010",
+   "artist": "Billy Squier",
+   "album": "Don't Say No (Remastered 2010)",
+   "year": 1981,
+   "image": "https://i.scdn.co/image/ab67616d00001e02f4822f8034e697410a14a297",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273f4822f8034e697410a14a297",
+   "url": "https://open.spotify.com/track/6g14FUj5zU9FDRwBi963vS",
+   "album_url": "https://open.spotify.com/album/6TwlLNU5Zd9qGuNgSLeWPt",
+   "played_at": "2026-11-01T23:13:02.050Z"
+  },
   {
    "name": "Tick Of The Clock (Extended Overdrive)",
    "artist": "Chromatics",
@@ -525,17 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/5xDBeP7eDtTIh9xlWG1ZuZ",
    "album_url": "https://open.spotify.com/album/4a9ZBC1e52r3z79P3MX6zn",
    "played_at": "2026-11-01T13:28:15.013Z"
-  },
-  {
-   "name": "Jet Airliner",
-   "artist": "Steve Miller Band",
-   "album": "Greatest Hits 1974-78",
-   "year": 1978,
-   "image": "https://i.scdn.co/image/ab67616d00001e02632b907273dba6a6062fb780",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273632b907273dba6a6062fb780",
-   "url": "https://open.spotify.com/track/2zI3bUYn2pcF27of6i2oqK",
-   "album_url": "https://open.spotify.com/album/5hLazW5a3Ysgy3dncwGgUn",
-   "played_at": "2026-11-01T13:24:12.210Z"
   }
  ],
  "top_artists": [
@@ -731,7 +731,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b273f4822f8034e697410a14a297",
    "url": "https://open.spotify.com/track/6g14FUj5zU9FDRwBi963vS",
    "album_url": "https://open.spotify.com/album/6TwlLNU5Zd9qGuNgSLeWPt",
-   "plays": 880
+   "plays": 881
   }
  ],
  "decades": [
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32812,
+   "plays": 32813,
    "covers": [
     {
      "name": "Back In Black",
@@ -1053,7 +1053,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273f4822f8034e697410a14a297",
      "url": "https://open.spotify.com/track/6g14FUj5zU9FDRwBi963vS",
      "album_url": "https://open.spotify.com/album/6TwlLNU5Zd9qGuNgSLeWPt",
-     "plays": 880
+     "plays": 881
     },
     {
      "name": "Manic Monday",
