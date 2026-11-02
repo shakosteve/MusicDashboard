@@ -1,14 +1,36 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-02T16:10:06Z",
+ "generated": "2026-11-02T17:10:04Z",
  "totals": {
-  "plays": 124728,
-  "hours": 8479.1,
+  "plays": 124730,
+  "hours": 8479.3,
   "artists": 701,
   "albums": 1519,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Small Town",
+   "artist": "John Mellencamp",
+   "album": "Scarecrow",
+   "year": 1985,
+   "image": "https://i.scdn.co/image/ab67616d00001e02b46e7ea6a6b2fa45caa23393",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273b46e7ea6a6b2fa45caa23393",
+   "url": "https://open.spotify.com/track/2HsjJJL4DhPCzMlnaGv7ap",
+   "album_url": "https://open.spotify.com/album/1BYEhfr8qQGNhbqPAbfnxk",
+   "played_at": "2026-11-02T17:04:02.173Z"
+  },
+  {
+   "name": "Borderline",
+   "artist": "Madonna",
+   "album": "Borderline",
+   "year": 1984,
+   "image": "https://i.scdn.co/image/ab67616d00001e02562ce96025289488ff8ba4b6",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273562ce96025289488ff8ba4b6",
+   "url": "https://open.spotify.com/track/4sfSGt1c19O2LI7lLn272S",
+   "album_url": "https://open.spotify.com/album/6cjHCJvAo9ohp6jsY8QcdQ",
+   "played_at": "2026-11-02T17:00:20.028Z"
+  },
   {
    "name": "Rainbow in the Dark",
    "artist": "Dio",
@@ -514,28 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/05eJthbLhxvnWvB3XF9HaQ",
    "album_url": "https://open.spotify.com/album/3XYqOJI1YlX40kJTdzFEzp",
    "played_at": "2026-11-01T20:38:42.864Z"
-  },
-  {
-   "name": "Kyrie",
-   "artist": "Mr. Mister",
-   "album": "Welcome To The Real World",
-   "year": 1985,
-   "image": "https://i.scdn.co/image/ab67616d00001e02cfccabf39d00d34235d5bcd6",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273cfccabf39d00d34235d5bcd6",
-   "url": "https://open.spotify.com/track/5K3Q1gue9nWLLwh6bYQFoB",
-   "album_url": "https://open.spotify.com/album/682sQ449vmcJXS2AGIMrsl",
-   "played_at": "2026-11-01T20:32:57.488Z"
-  },
-  {
-   "name": "2120 South Michigan Avenue - Long Version",
-   "artist": "The Rolling Stones",
-   "album": "12 X 5",
-   "year": 1964,
-   "image": "https://i.scdn.co/image/ab67616d00001e029d6ee4590d050ec9563daa92",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2739d6ee4590d050ec9563daa92",
-   "url": "https://open.spotify.com/track/4KoBKbnRh4BywqvY5VPkts",
-   "album_url": "https://open.spotify.com/album/2Hnje5QVKaPVNuGJ5yHC7Z",
-   "played_at": "2026-11-01T20:28:31.219Z"
   }
  ],
  "top_artists": [
@@ -565,7 +565,7 @@ window.LISTENING = {
   },
   {
    "name": "Madonna",
-   "plays": 2103,
+   "plays": 2104,
    "url": "https://open.spotify.com/artist/6tbjWDEIzxoDsBA1FuhfPW",
    "image": "https://i.scdn.co/image/ab67616d00001e026b44fa8f5415cc4c945117be"
   },
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32823,
+   "plays": 32825,
    "covers": [
     {
      "name": "Back In Black",
