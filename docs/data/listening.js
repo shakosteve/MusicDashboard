@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-02T01:10:06Z",
+ "generated": "2026-11-02T01:40:06Z",
  "totals": {
-  "plays": 124698,
+  "plays": 124699,
   "hours": 8477.1,
   "artists": 701,
   "albums": 1518,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Centerfield",
+   "artist": "John Fogerty",
+   "album": "Centerfield (25th Anniversary)",
+   "year": 1985,
+   "image": "https://i.scdn.co/image/ab67616d00001e02f2aaa0b785e5a7644ba31e08",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273f2aaa0b785e5a7644ba31e08",
+   "url": "https://open.spotify.com/track/5f7KV4oOHZylrpa5XKFu6G",
+   "album_url": "https://open.spotify.com/album/7wLd9KZsIrtpcRCVOjq7v8",
+   "played_at": "2026-11-02T01:11:39.849Z"
+  },
   {
    "name": "The Sound of Silence",
    "artist": "Disturbed",
@@ -525,17 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/6Wu19AEKVNs5bJFuhZb4EZ",
    "album_url": "https://open.spotify.com/album/3IcfYXw7lTtLfG5XWLlSZi",
    "played_at": "2026-11-01T17:49:19.571Z"
-  },
-  {
-   "name": "Shot Down in Flames",
-   "artist": "AC/DC",
-   "album": "Highway to Hell",
-   "year": 1979,
-   "image": "https://i.scdn.co/image/ab67616d00001e0243058ea096fa35ac33c43587",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27343058ea096fa35ac33c43587",
-   "url": "https://open.spotify.com/track/6pivm7pNF4GyBkHNGseHCS",
-   "album_url": "https://open.spotify.com/album/10v912xgTZbjAtYfyKWJCS",
-   "played_at": "2026-11-01T17:45:29.657Z"
   }
  ],
  "top_artists": [
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32816,
+   "plays": 32817,
    "covers": [
     {
      "name": "Back In Black",
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "#692 - Sophie Cunningham",
+   "show": "This Past Weekend w/ Theo Von",
+   "show_uri": "spotify:show:6PwE1CIZsgfrhX6Bw96PUN",
+   "release_date": "2026-10-28",
+   "duration_ms": 5814357,
+   "image": "https://i.scdn.co/image/ab67656300005f1f99747a9b3d4ed255ad39201f",
+   "first_seen": "2026-11-02T01:40:03Z",
+   "progress_ms": 963011,
+   "last_seen": "2026-11-02T01:40:03Z",
+   "url": "https://open.spotify.com/episode/1ayrg9anuzVuMidTmDkA9W",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f3c4685e830e0ce8b0597e6aa"
+  },
+  {
    "name": "Michael Clarke: Russia Is Making Its Final Desperate Move - And This Winter Will Decide Everything",
    "show": "Decoding Geopolitics Podcast with Dominik Presl",
    "show_uri": "spotify:show:4280ZedhnCYLFurjyzjmco",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-10-30T12:40:03Z",
    "url": "https://open.spotify.com/episode/0RRCu0LaHOznGGe9pnZ3Dx",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f55386ae3fe554333e1a85785"
-  },
-  {
-   "name": "#2110 - SHOCKING Health Secrets with Anna Vocino | Part 2",
-   "show": "The Adam and Dr. Drew Show",
-   "show_uri": "spotify:show:3VN4vP6TztxK3wtT8b9aQL",
-   "release_date": "2026-10-30",
-   "duration_ms": 3235761,
-   "image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b",
-   "first_seen": "2026-10-30T11:40:03Z",
-   "progress_ms": 1472240,
-   "last_seen": "2026-10-30T12:10:03Z",
-   "url": "https://open.spotify.com/episode/6mrYeLiCrFFjjVNEe2df3C",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
   }
  ],
  "top_shows": [
