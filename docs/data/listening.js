@@ -1,14 +1,91 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-02T19:40:04Z",
+ "generated": "2026-11-02T20:10:05Z",
  "totals": {
-  "plays": 124749,
-  "hours": 8480.6,
+  "plays": 124756,
+  "hours": 8481.1,
   "artists": 701,
   "albums": 1519,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Narcisista",
+   "artist": "The Warning",
+   "album": "Narcisista",
+   "year": 2019,
+   "image": "https://i.scdn.co/image/ab67616d00001e026954a9b87f2b99b031c0920b",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2736954a9b87f2b99b031c0920b",
+   "url": "https://open.spotify.com/track/7ECZGiOoEPSxnPBU25Tc3f",
+   "album_url": "https://open.spotify.com/album/0hToDKGzPWAXCrr7n2sKlM",
+   "played_at": "2026-11-02T20:07:19.125Z"
+  },
+  {
+   "name": "Ring of Fire",
+   "artist": "Johnny Cash",
+   "album": "Ring Of Fire: The Best Of Johnny Cash",
+   "year": 1963,
+   "image": "https://i.scdn.co/image/ab67616d00001e02dfe4bfe695c4192e547e72c7",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273dfe4bfe695c4192e547e72c7",
+   "url": "https://open.spotify.com/track/6YffUZJ2R06kyxyK6onezL",
+   "album_url": "https://open.spotify.com/album/0ucV57dbnqmrGv9d60r6X2",
+   "played_at": "2026-11-02T20:03:06.974Z"
+  },
+  {
+   "name": "Double Trouble",
+   "artist": "Lynyrd Skynyrd",
+   "album": "Gimme Back My Bullets (Expanded Edition)",
+   "year": 1976,
+   "image": "https://i.scdn.co/image/ab67616d00001e0261b3a3d80e51446fdc4e35b5",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27361b3a3d80e51446fdc4e35b5",
+   "url": "https://open.spotify.com/track/5ftkCxdoFGmkXbm5zgu0lS",
+   "album_url": "https://open.spotify.com/album/7nl7cH6KtKcKU7I2Hj2gAM",
+   "played_at": "2026-11-02T20:00:27.995Z"
+  },
+  {
+   "name": "Locomotive Breath",
+   "artist": "Jethro Tull",
+   "album": "Aqualung (Special Edition)",
+   "year": 1971,
+   "image": "https://i.scdn.co/image/ab67616d00001e028bc3269ba09264dcf9a5b924",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2738bc3269ba09264dcf9a5b924",
+   "url": "https://open.spotify.com/track/0MYNeFsKpzBHwrJGfWZysV",
+   "album_url": "https://open.spotify.com/album/0NGM3Ftwjw0dLNpAowmz3x",
+   "played_at": "2026-11-02T19:57:36.974Z"
+  },
+  {
+   "name": "Cherish",
+   "artist": "Madonna",
+   "album": "The Immaculate Collection",
+   "year": 1990,
+   "image": "https://i.scdn.co/image/ab67616d00001e02e275f1fbda1c7bc82f9c386b",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273e275f1fbda1c7bc82f9c386b",
+   "url": "https://open.spotify.com/track/6WjrgHvISFS0Oj3vk3XLiE",
+   "album_url": "https://open.spotify.com/album/5MzwGwnO9gkh0z6Nl4FF8h",
+   "played_at": "2026-11-02T19:53:10.334Z"
+  },
+  {
+   "name": "Aqualung",
+   "artist": "Jethro Tull",
+   "album": "Aqualung (Special Edition)",
+   "year": 1971,
+   "image": "https://i.scdn.co/image/ab67616d00001e028bc3269ba09264dcf9a5b924",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2738bc3269ba09264dcf9a5b924",
+   "url": "https://open.spotify.com/track/5UuikgHTxSRFRnC0zXx10i",
+   "album_url": "https://open.spotify.com/album/0NGM3Ftwjw0dLNpAowmz3x",
+   "played_at": "2026-11-02T19:49:17.289Z"
+  },
+  {
+   "name": "Africa",
+   "artist": "TOTO",
+   "album": "Toto IV",
+   "year": 1982,
+   "image": "https://i.scdn.co/image/ab67616d00001e02ebd6d20c0082524244ef83df",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273ebd6d20c0082524244ef83df",
+   "url": "https://open.spotify.com/track/2374M0fQpWi3dLnB54qaLX",
+   "album_url": "https://open.spotify.com/album/62U7xIHcID94o20Of5ea4D",
+   "played_at": "2026-11-02T19:42:40.630Z"
+  },
   {
    "name": "Hey Joe",
    "artist": "Jimi Hendrix",
@@ -459,89 +536,12 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/0S3gpZzlT9Hb7CCSV2owX7",
    "album_url": "https://open.spotify.com/album/6eh82ojicL8RSJF7GkYTh7",
    "played_at": "2026-11-02T14:39:29.009Z"
-  },
-  {
-   "name": "Take The Money And Run - Live",
-   "artist": "Steve Miller Band",
-   "album": "Live! Breaking Ground August 3, 1977",
-   "year": 2021,
-   "image": "https://i.scdn.co/image/ab67616d00001e02bb8183e59cd224aa51e51b0f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273bb8183e59cd224aa51e51b0f",
-   "url": "https://open.spotify.com/track/2QG19QsBSBk7SArTPgNN8g",
-   "album_url": "https://open.spotify.com/album/1GYpibjfj4EFsTsTI1DDjh",
-   "played_at": "2026-11-02T14:35:16.727Z"
-  },
-  {
-   "name": "Give Me One Reason",
-   "artist": "Tracy Chapman",
-   "album": "New Beginning",
-   "year": 1995,
-   "image": "https://i.scdn.co/image/ab67616d00001e026b38571f15487588ed53032f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2736b38571f15487588ed53032f",
-   "url": "https://open.spotify.com/track/4vDBJeeQCbhP9FaPPMsYkY",
-   "album_url": "https://open.spotify.com/album/3XsOzkIBoHsxZ7jP3QF2oB",
-   "played_at": "2026-11-02T14:31:00.333Z"
-  },
-  {
-   "name": "Take Me Home Tonight",
-   "artist": "Eddie Money",
-   "album": "Can't Hold Back",
-   "year": 1986,
-   "image": "https://i.scdn.co/image/ab67616d00001e02b49692931b75588a8453d4c6",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273b49692931b75588a8453d4c6",
-   "url": "https://open.spotify.com/track/7b4yGtR0rujvLi5EBfKKJ2",
-   "album_url": "https://open.spotify.com/album/2gLYQmHLHZhNpTxlnlkXy7",
-   "played_at": "2026-11-02T14:26:31.566Z"
-  },
-  {
-   "name": "Blaze Of Glory - From \"Young Guns II\" Soundtrack",
-   "artist": "Jon Bon Jovi",
-   "album": "Blaze Of Glory",
-   "year": 1990,
-   "image": "https://i.scdn.co/image/ab67616d00001e02573737443786e4aed4c3cff7",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273573737443786e4aed4c3cff7",
-   "url": "https://open.spotify.com/track/1sUTfgduT0WIQO8kXKXxLC",
-   "album_url": "https://open.spotify.com/album/5QsPmoN7UK8tL5NRtSuC2Y",
-   "played_at": "2026-11-02T14:22:59.963Z"
-  },
-  {
-   "name": "Time After Time",
-   "artist": "Ozzy Osbourne",
-   "album": "No More Tears (Expanded Edition)",
-   "year": 1991,
-   "image": "https://i.scdn.co/image/ab67616d00001e02509342e69eb341df70e5c2e3",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273509342e69eb341df70e5c2e3",
-   "url": "https://open.spotify.com/track/1U7WBCkBxc7bGeP6v5juEq",
-   "album_url": "https://open.spotify.com/album/6eh82ojicL8RSJF7GkYTh7",
-   "played_at": "2026-11-02T14:17:24.154Z"
-  },
-  {
-   "name": "Little Queen",
-   "artist": "Heart",
-   "album": "Little Queen",
-   "year": 1977,
-   "image": "https://i.scdn.co/image/ab67616d00001e0266e2e0df78c4ec35a8ed20a0",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27366e2e0df78c4ec35a8ed20a0",
-   "url": "https://open.spotify.com/track/0Mo316Vw5VAKEy2maTlTNS",
-   "album_url": "https://open.spotify.com/album/1LaeNhiUpL3X6N0LcFvuDF",
-   "played_at": "2026-11-02T03:25:55.309Z"
-  },
-  {
-   "name": "Spooky (Single Version)",
-   "artist": "Dusty Springfield",
-   "album": "Love Songs",
-   "year": 2020,
-   "image": "https://i.scdn.co/image/ab67616d00001e025746d44a39a97aaa12309af1",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2735746d44a39a97aaa12309af1",
-   "url": "https://open.spotify.com/track/4RYwE31p4KflK1h7J7m1Yt",
-   "album_url": "https://open.spotify.com/album/2paShliFsxYoO3WJEdTVdA",
-   "played_at": "2026-11-02T03:20:43.176Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10658,
+   "plays": 10659,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
@@ -565,7 +565,7 @@ window.LISTENING = {
   },
   {
    "name": "Madonna",
-   "plays": 2104,
+   "plays": 2105,
    "url": "https://open.spotify.com/artist/6tbjWDEIzxoDsBA1FuhfPW",
    "image": "https://i.scdn.co/image/ab67616d00001e026b44fa8f5415cc4c945117be"
   },
@@ -832,7 +832,7 @@ window.LISTENING = {
   },
   {
    "decade": 1960,
-   "plays": 7050,
+   "plays": 7051,
    "covers": [
     {
      "name": "Your Time Is Gonna Come - 1990 Remaster",
@@ -909,7 +909,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273dfe4bfe695c4192e547e72c7",
      "url": "https://open.spotify.com/track/6YffUZJ2R06kyxyK6onezL",
      "album_url": "https://open.spotify.com/album/0ucV57dbnqmrGv9d60r6X2",
-     "plays": 228
+     "plays": 229
     },
     {
      "name": "Walking The Dog",
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28600,
+   "plays": 28603,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32829,
+   "plays": 32830,
    "covers": [
     {
      "name": "Back In Black",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9688,
+   "plays": 9689,
    "covers": [
     {
      "name": "Amazing",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15750,
+   "plays": 15751,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1763,7 +1763,7 @@ window.LISTENING = {
     "image_large": "https://i.scdn.co/image/ab67616d0000b2736954a9b87f2b99b031c0920b",
     "url": "https://open.spotify.com/track/7ECZGiOoEPSxnPBU25Tc3f",
     "album_url": "https://open.spotify.com/album/0hToDKGzPWAXCrr7n2sKlM",
-    "plays": 319,
+    "plays": 320,
     "total": 44,
     "run_back": 35,
     "went_back": 4,
