@@ -6,7 +6,7 @@
     python musicdashboard.py import  read the privacy data export unzipped into data/export/
     python musicdashboard.py build   write docs/data/listening.js for the site (docs/index.html)
     python musicdashboard.py playlist "My Favs"   save a playlist's tracks to playlists/ (committed)
-    python musicdashboard.py backup  once a day: re-save and commit the BACKUP_PLAYLISTS that changed
+    python musicdashboard.py backup  once a day: re-save and commit the playlists in playlists/backup.json that changed
 
 Settings in .env:
 
@@ -19,8 +19,6 @@ Settings in .env:
     SMTP_USER=you@gmail.com          optional, for the daily `report` email; SMTP_PASSWORD is a Gmail
     SMTP_PASSWORD=...                app password. Also optional: REPORT_TO (default SMTP_USER),
                                      REPORT_HOUR (default 8), SMTP_HOST/SMTP_PORT (default Gmail, 587)
-    BACKUP_PLAYLISTS=2SZQ...         optional: playlists for `backup`, comma-separated IDs, links or names
-                                     (default "My Favs"); an ID keeps working when the playlist is renamed
 
 Spotify only returns the last 50 played tracks and never includes podcast episodes there, so `sync`
 should run often (every 30-60 minutes, via sync.bat in Task Scheduler). Episodes are caught by
@@ -81,6 +79,7 @@ SHOW_CHECKS = DATA / "show_checks.json"
 PLAYLIST_CHECKS = DATA / "playlist_checks.json"
 REPLAYS = DATA / "replays.json"
 PLAYLISTS = ROOT / "playlists"  # committed, unlike data/: a backup of playlists that matter
+BACKUP_LIST = PLAYLISTS / "backup.json"  # which playlists `backup` keeps current, by Spotify ID
 MIN_PLAY_MS = 30_000  # Spotify counts a stream from 30 seconds
 WRAPPED_MIN_PLAYS = 1_000  # years with fewer plays, before the first busy one, share one review
 MIN_EPISODE_MS = 10_000  # an episode stopped sooner than this wasn't really listened to
@@ -441,6 +440,8 @@ def playlist_file(found):
     """Where a playlist is saved: the existing playlists/*.json with its URI, so the file (and its git history)
     stays put when the playlist is renamed; for a new one, a file named after it."""
     for path in sorted(PLAYLISTS.glob("*.json")):
+        if path == BACKUP_LIST:
+            continue
         try:
             if json.loads(path.read_text(encoding="utf-8")).get("uri") == found["uri"]:
                 return path
@@ -512,29 +513,34 @@ def write_playlist(playlist):
 def backup_playlists():
     """Keep the committed copies in playlists/ current; sync.bat runs this every time, and it works once a day.
 
-    Each playlist in BACKUP_PLAYLISTS (comma-separated IDs, spotify:playlist: URIs, links or names; default
-    "My Favs") is looked up by its ID, so renaming it on Spotify changes nothing here. A name is turned into
-    an ID once, and the ID is kept in playlist_checks.json. The playlist's snapshot_id, which changes with every
-    edit, costs one request. Only a changed playlist is downloaded again (about one request per 50 tracks),
-    and only a real change to it is saved, committed and pushed. The changes are printed as
-    "Playlist <name> changed: ..." with "  + " and "  - " lines, or "Playlist <name> checked: no changes",
-    which `report` puts in the email."""
-    entries = backup_entries()
+    The playlists are listed in playlists/backup.json (committed) by Spotify ID, so renaming one on Spotify
+    changes nothing here; its "name" there is only a label, which this keeps current. The playlist's
+    snapshot_id, which changes with every edit, costs one request. Only a changed playlist is downloaded again
+    (about one request per 50 tracks), and only a real change to it is saved, committed and pushed. The changes
+    are printed as "Playlist <name> changed: ..." with "  + " and "  - " lines, or "Playlist <name> checked:
+    no changes", which `report` puts in the email."""
+    if not BACKUP_LIST.exists():
+        print(f"Playlist backup failed: {BACKUP_LIST.relative_to(ROOT)} is missing.")
+        return
+    listing = json.loads(BACKUP_LIST.read_text(encoding="utf-8"))
     checks = json.loads(PLAYLIST_CHECKS.read_text(encoding="utf-8")) if PLAYLIST_CHECKS.exists() else {}
     today = datetime.now().date().isoformat()
-    due = [e for e in entries if (checks.get(e) or {}).get("checked") != today]
+    due = [e for e in listing["playlists"] if (checks.get(playlist_id(e["id"]) or e["id"]) or {}).get("checked") != today]
     if not due:
         return
-    session, changed = api_session(), []
+    session, changed, relabeled = api_session(), [], False
     for entry in due:
-        pid = playlist_id(entry) or (checks.get(entry) or {}).get("id")
-        found = get_playlist(session, pid) if pid else find_playlist(session, entry)
+        pid = playlist_id(entry["id"])
+        found = get_playlist(session, pid) if pid else None
         if not found:
-            print(f"Playlist backup failed: no playlist {entry!r} among yours or the ones you follow.")
+            print(f"Playlist backup failed: no playlist with ID {entry['id']!r} ({entry.get('name')}) among yours "
+                  f"or the ones you follow.")
             continue
+        relabeled = relabeled or entry.get("name") != found["name"]
+        entry["name"] = found["name"]
         path = playlist_file(found)
         old = json.loads(path.read_text(encoding="utf-8")) if path.exists() else None
-        known = (checks.get(entry) or {}).get("snapshot_id") or (old or {}).get("snapshot_id")
+        known = (checks.get(pid) or {}).get("snapshot_id") or (old or {}).get("snapshot_id")
         new = fetch_playlist(session, found) if found.get("snapshot_id") != known or not old else old
         same = lambda p: {k: v for k, v in p.items() if k not in ("fetched", "snapshot_id")}
         if not old or same(old) != same(new):
@@ -544,21 +550,18 @@ def backup_playlists():
             changed.append((f"{new['name']}: {summary}", lines))
         else:
             print(f"Playlist {old['name']} checked: no changes ({len(old['tracks']):,} tracks)")
-        checks[entry] = {"checked": today, "id": found["id"], "name": found["name"], "snapshot_id": found.get("snapshot_id")}
+        checks[pid] = {"checked": today, "name": found["name"], "snapshot_id": found.get("snapshot_id")}
     write_atomic(PLAYLIST_CHECKS, json.dumps(checks, indent=2, ensure_ascii=False))
-    if not changed or os.environ.get("AUTO_PUBLISH", "on").lower() in ("off", "no", "false", "0"):
+    write_atomic(BACKUP_LIST, json.dumps(listing, indent=2, ensure_ascii=False) + "\n")
+    if not (changed or relabeled) or os.environ.get("AUTO_PUBLISH", "on").lower() in ("off", "no", "false", "0"):
         return
     git("add", "playlists")
-    ok, out = git("commit", "-q", "-m", "; ".join(title for title, _ in changed),
+    ok, out = git("commit", "-q", "-m", "; ".join(title for title, _ in changed) or "Update playlist names in backup.json",
                   "-m", "\n\n".join(f"{title}\n" + "\n".join(lines) for title, lines in changed), "--", "playlists")
     if ok:
         ok, out = push()
     print("Playlist backup pushed to GitHub." if ok else
           f"Playlist backup push failed: {(out.splitlines() or ['git error'])[-1]} (the commit is kept; it goes out next run)")
-
-
-def backup_entries():
-    return [e.strip() for e in os.environ.get("BACKUP_PLAYLISTS", "My Favs").split(",") if e.strip()]
 
 
 def playlist_diff(old, new):
@@ -1282,9 +1285,11 @@ def report_data(now):
             playlists[-1]["added" if line[2] == "+" else "removed"].append(line[4:])
     checks = json.loads(PLAYLIST_CHECKS.read_text(encoding="utf-8")) if PLAYLIST_CHECKS.exists() else {}
     # backup runs on the first run after midnight, hours before the report, so each playlist is due a check today.
-    playlists += [{"name": (checks.get(e) or {}).get("name") or e, "changed": False, "summary": "not checked today",
-                   "added": [], "removed": []}
-                  for e in backup_entries() if (checks.get(e) or {}).get("checked", "") < now.date().isoformat()]
+    listing = json.loads(BACKUP_LIST.read_text(encoding="utf-8"))["playlists"] if BACKUP_LIST.exists() else []
+    playlists += [{"name": (checks.get(pid) or {}).get("name") or e.get("name") or e["id"], "changed": False,
+                   "summary": "not checked today", "added": [], "removed": []}
+                  for e in listing for pid in [playlist_id(e["id"]) or e["id"]]
+                  if (checks.get(pid) or {}).get("checked", "") < now.date().isoformat()]
     published = sum(1 for line in log if line.startswith("Published to GitHub"))
     expected = 48
     status = "bad" if any("Traceback" in l or "rror" in l for l in problems) else \
@@ -1568,7 +1573,8 @@ def main():
     sub.add_parser("sharecard", help="draw docs/images/share.png, the site's social media preview picture")
     pl = sub.add_parser("playlist", help="save one of your playlists, by name, to playlists/")
     pl.add_argument("name", help='the playlist\'s name, e.g. "My Favs"')
-    sub.add_parser("backup", help="once a day, save and commit the BACKUP_PLAYLISTS that changed (sync.bat runs this)")
+    sub.add_parser("backup", help="once a day, save and commit the playlists in playlists/backup.json that changed "
+                                     "(sync.bat runs this)")
     sub.add_parser("publish", help="commit and push docs/data/ to GitHub when it changed (sync.bat runs this)")
     rep = sub.add_parser("report", help="email the daily summary (sync.bat runs this; sends once a day)")
     rep.add_argument("--force", action="store_true", help="send now, even if today's report went out")
