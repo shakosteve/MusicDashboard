@@ -1,14 +1,80 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-02T14:10:06Z",
+ "generated": "2026-11-02T14:40:04Z",
  "totals": {
-  "plays": 124703,
-  "hours": 8477.4,
+  "plays": 124709,
+  "hours": 8477.9,
   "artists": 701,
   "albums": 1518,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Mama, I'm Coming Home",
+   "artist": "Ozzy Osbourne",
+   "album": "No More Tears (Expanded Edition)",
+   "year": 1991,
+   "image": "https://i.scdn.co/image/ab67616d00001e02509342e69eb341df70e5c2e3",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273509342e69eb341df70e5c2e3",
+   "url": "https://open.spotify.com/track/0S3gpZzlT9Hb7CCSV2owX7",
+   "album_url": "https://open.spotify.com/album/6eh82ojicL8RSJF7GkYTh7",
+   "played_at": "2026-11-02T14:39:29.009Z"
+  },
+  {
+   "name": "Take The Money And Run - Live",
+   "artist": "Steve Miller Band",
+   "album": "Live! Breaking Ground August 3, 1977",
+   "year": 2021,
+   "image": "https://i.scdn.co/image/ab67616d00001e02bb8183e59cd224aa51e51b0f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273bb8183e59cd224aa51e51b0f",
+   "url": "https://open.spotify.com/track/2QG19QsBSBk7SArTPgNN8g",
+   "album_url": "https://open.spotify.com/album/1GYpibjfj4EFsTsTI1DDjh",
+   "played_at": "2026-11-02T14:35:16.727Z"
+  },
+  {
+   "name": "Give Me One Reason",
+   "artist": "Tracy Chapman",
+   "album": "New Beginning",
+   "year": 1995,
+   "image": "https://i.scdn.co/image/ab67616d00001e026b38571f15487588ed53032f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2736b38571f15487588ed53032f",
+   "url": "https://open.spotify.com/track/4vDBJeeQCbhP9FaPPMsYkY",
+   "album_url": "https://open.spotify.com/album/3XsOzkIBoHsxZ7jP3QF2oB",
+   "played_at": "2026-11-02T14:31:00.333Z"
+  },
+  {
+   "name": "Take Me Home Tonight",
+   "artist": "Eddie Money",
+   "album": "Can't Hold Back",
+   "year": 1986,
+   "image": "https://i.scdn.co/image/ab67616d00001e02b49692931b75588a8453d4c6",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273b49692931b75588a8453d4c6",
+   "url": "https://open.spotify.com/track/7b4yGtR0rujvLi5EBfKKJ2",
+   "album_url": "https://open.spotify.com/album/2gLYQmHLHZhNpTxlnlkXy7",
+   "played_at": "2026-11-02T14:26:31.566Z"
+  },
+  {
+   "name": "Blaze Of Glory - From \"Young Guns II\" Soundtrack",
+   "artist": "Jon Bon Jovi",
+   "album": "Blaze Of Glory",
+   "year": 1990,
+   "image": "https://i.scdn.co/image/ab67616d00001e02573737443786e4aed4c3cff7",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273573737443786e4aed4c3cff7",
+   "url": "https://open.spotify.com/track/1sUTfgduT0WIQO8kXKXxLC",
+   "album_url": "https://open.spotify.com/album/5QsPmoN7UK8tL5NRtSuC2Y",
+   "played_at": "2026-11-02T14:22:59.963Z"
+  },
+  {
+   "name": "Time After Time",
+   "artist": "Ozzy Osbourne",
+   "album": "No More Tears (Expanded Edition)",
+   "year": 1991,
+   "image": "https://i.scdn.co/image/ab67616d00001e02509342e69eb341df70e5c2e3",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273509342e69eb341df70e5c2e3",
+   "url": "https://open.spotify.com/track/1U7WBCkBxc7bGeP6v5juEq",
+   "album_url": "https://open.spotify.com/album/6eh82ojicL8RSJF7GkYTh7",
+   "played_at": "2026-11-02T14:17:24.154Z"
+  },
   {
    "name": "Little Queen",
    "artist": "Heart",
@@ -470,72 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/5qBqBdfTEIWJwAS0Jm2F5R",
    "album_url": "https://open.spotify.com/album/3v0i9qyogPoQEQj2bG6Fmn",
    "played_at": "2026-11-01T19:09:41.805Z"
-  },
-  {
-   "name": "She's Always a Woman",
-   "artist": "Billy Joel",
-   "album": "The Stranger (Legacy Edition)",
-   "year": 1977,
-   "image": "https://i.scdn.co/image/ab67616d00001e026ce61113662ecf693b605ee5",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2736ce61113662ecf693b605ee5",
-   "url": "https://open.spotify.com/track/5RgFlk1fcClZd0Y4SGYhqH",
-   "album_url": "https://open.spotify.com/album/1Mhn9VosyjtWn4dMPFlna6",
-   "played_at": "2026-11-01T19:05:51.917Z"
-  },
-  {
-   "name": "Tall Cool One - 2006 Remaster",
-   "artist": "Robert Plant",
-   "album": "Now and Zen",
-   "year": 2007,
-   "image": "https://i.scdn.co/image/ab67616d00001e02237101c710f6d7155dbf6c0f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273237101c710f6d7155dbf6c0f",
-   "url": "https://open.spotify.com/track/6vejDalRlBqPrr7s3iwi9U",
-   "album_url": "https://open.spotify.com/album/7MwPi2NpS2OoZ8K1h5tmXV",
-   "played_at": "2026-11-01T19:02:30.021Z"
-  },
-  {
-   "name": "Bad Company - 2015 Remaster",
-   "artist": "Bad Company",
-   "album": "Bad Company (Deluxe)",
-   "year": 1974,
-   "image": "https://i.scdn.co/image/ab67616d00001e029adafd7f9d57380d1d0373af",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2739adafd7f9d57380d1d0373af",
-   "url": "https://open.spotify.com/track/36vTL8WP4ZoD1bbUaW0V3E",
-   "album_url": "https://open.spotify.com/album/4fuDpBLCt9ChDlqw48bj7p",
-   "played_at": "2026-11-01T18:57:51.037Z"
-  },
-  {
-   "name": "Two Princes",
-   "artist": "Spin Doctors",
-   "album": "Pocket Full Of Kryptonite (Anniversary Edition)",
-   "year": 1991,
-   "image": "https://i.scdn.co/image/ab67616d00001e0290126a3a12ad644fa6d3221c",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27390126a3a12ad644fa6d3221c",
-   "url": "https://open.spotify.com/track/0cuq829zRNq4AEdmDJA4aw",
-   "album_url": "https://open.spotify.com/album/3jx5C8Z66FwdjNkqsSDBQh",
-   "played_at": "2026-11-01T18:53:02.429Z"
-  },
-  {
-   "name": "Shoot to Thrill",
-   "artist": "AC/DC",
-   "album": "Back In Black",
-   "year": 1980,
-   "image": "https://i.scdn.co/image/ab67616d00001e02ff191d7fbdb5a13eaf84132b",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273ff191d7fbdb5a13eaf84132b",
-   "url": "https://open.spotify.com/track/0C80GCp0mMuBzLf3EAXqxv",
-   "album_url": "https://open.spotify.com/album/6mUdeDZCsExyJLMdAfDuwh",
-   "played_at": "2026-11-01T18:48:43.624Z"
-  },
-  {
-   "name": "My Immortal",
-   "artist": "Evanescence",
-   "album": "Fallen",
-   "year": 2003,
-   "image": "https://i.scdn.co/image/ab67616d00001e0225f49ab23f0ec6332efef432",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27325f49ab23f0ec6332efef432",
-   "url": "https://open.spotify.com/track/4UzVcXufOhGUwF56HT7b8M",
-   "album_url": "https://open.spotify.com/album/02w1xMzzdF2OJxTeh1basm",
-   "played_at": "2026-11-01T18:21:21.174Z"
   }
  ],
  "top_artists": [
@@ -577,7 +577,7 @@ window.LISTENING = {
   },
   {
    "name": "Steve Miller Band",
-   "plays": 1951,
+   "plays": 1952,
    "url": "https://open.spotify.com/artist/6QtGlUje9TIkLrgPZrESuk",
    "image": "https://i.scdn.co/image/ab67616d00001e02632b907273dba6a6062fb780"
   },
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32817,
+   "plays": 32818,
    "covers": [
     {
      "name": "Back In Black",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9681,
+   "plays": 9685,
    "covers": [
     {
      "name": "Amazing",
@@ -1136,7 +1136,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273509342e69eb341df70e5c2e3",
      "url": "https://open.spotify.com/track/0S3gpZzlT9Hb7CCSV2owX7",
      "album_url": "https://open.spotify.com/album/6eh82ojicL8RSJF7GkYTh7",
-     "plays": 528
+     "plays": 530
     },
     {
      "name": "Janie's Got A Gun",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18572,
+   "plays": 18573,
    "covers": [
     {
      "name": "ERROR",
