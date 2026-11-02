@@ -1,14 +1,47 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-02T22:40:05Z",
+ "generated": "2026-11-02T23:10:06Z",
  "totals": {
-  "plays": 124760,
-  "hours": 8481.5,
+  "plays": 124763,
+  "hours": 8481.7,
   "artists": 701,
   "albums": 1519,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Abracadabra",
+   "artist": "Steve Miller Band",
+   "album": "Abracadabra",
+   "year": 1982,
+   "image": "https://i.scdn.co/image/ab67616d00001e02b80d7868e6e0275d12102508",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273b80d7868e6e0275d12102508",
+   "url": "https://open.spotify.com/track/2E2ZVy2fxslpAUgbb4zu84",
+   "album_url": "https://open.spotify.com/album/0afS7TjKOoq8LzTx9CgOnu",
+   "played_at": "2026-11-02T22:51:46.656Z"
+  },
+  {
+   "name": "Givin the Dog a Bone",
+   "artist": "AC/DC",
+   "album": "Back In Black",
+   "year": 1980,
+   "image": "https://i.scdn.co/image/ab67616d00001e02ff191d7fbdb5a13eaf84132b",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273ff191d7fbdb5a13eaf84132b",
+   "url": "https://open.spotify.com/track/6rAy2MsMUabbqu2VygrblP",
+   "album_url": "https://open.spotify.com/album/6mUdeDZCsExyJLMdAfDuwh",
+   "played_at": "2026-11-02T22:45:32.545Z"
+  },
+  {
+   "name": "Exterminated - Live Session",
+   "artist": "The Warning",
+   "album": "XXI Century Blood",
+   "year": 2017,
+   "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
+   "url": "https://open.spotify.com/track/1ulNyubwfadZFZkAScTnx7",
+   "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
+   "played_at": "2026-11-02T22:41:59.721Z"
+  },
   {
    "name": "46 and 2",
    "artist": "O'keefe Music Foundation",
@@ -503,51 +536,18 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/5zVKisBri6JH1fooBhUaVq",
    "album_url": "https://open.spotify.com/album/5moFY0K48zOBW37SsThYL0",
    "played_at": "2026-11-02T15:10:26.430Z"
-  },
-  {
-   "name": "Don't Stop Believin' (2022 Remaster)",
-   "artist": "Journey",
-   "album": "Escape (2022 Remaster)",
-   "year": 1981,
-   "image": "https://i.scdn.co/image/ab67616d00001e0223290120a609a65e14cfe018",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27323290120a609a65e14cfe018",
-   "url": "https://open.spotify.com/track/5RKQ5NdjSh2QzD4MaunT91",
-   "album_url": "https://open.spotify.com/album/4guAwaniEAEQSW0NCpo4gm",
-   "played_at": "2026-11-02T15:03:42.836Z"
-  },
-  {
-   "name": "Tom Sawyer",
-   "artist": "Rush",
-   "album": "Moving Pictures (2011 Remaster)",
-   "year": 1981,
-   "image": "https://i.scdn.co/image/ab67616d00001e0272833c1ae3343cbfb4617073",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27372833c1ae3343cbfb4617073",
-   "url": "https://open.spotify.com/track/3QZ7uX97s82HFYSmQUAN1D",
-   "album_url": "https://open.spotify.com/album/2xg7iIKoSqaDNpDbJnyCjY",
-   "played_at": "2026-11-02T14:59:32.657Z"
-  },
-  {
-   "name": "Mainstreet",
-   "artist": "Bob Seger",
-   "album": "Night Moves",
-   "year": 1976,
-   "image": "https://i.scdn.co/image/ab67616d00001e02676a8230a422123e8012557e",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273676a8230a422123e8012557e",
-   "url": "https://open.spotify.com/track/0XVR94voJPToKX1XoOw0ot",
-   "album_url": "https://open.spotify.com/album/5QkOpsZupEPLq186YOrBNe",
-   "played_at": "2026-11-02T14:54:55.445Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10659,
+   "plays": 10660,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
   {
    "name": "AC/DC",
-   "plays": 3986,
+   "plays": 3987,
    "url": "https://open.spotify.com/artist/711MCceyCBcFnzjGY4Q7Un",
    "image": "https://i.scdn.co/image/ab67616d00001e02ff191d7fbdb5a13eaf84132b"
   },
@@ -577,7 +577,7 @@ window.LISTENING = {
   },
   {
    "name": "Steve Miller Band",
-   "plays": 1952,
+   "plays": 1953,
    "url": "https://open.spotify.com/artist/6QtGlUje9TIkLrgPZrESuk",
    "image": "https://i.scdn.co/image/ab67616d00001e02632b907273dba6a6062fb780"
   },
@@ -610,7 +610,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
    "url": "https://open.spotify.com/track/1VcLiPmina1L3xlLkJ5OTS",
    "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
-   "plays": 3484
+   "plays": 3485
   },
   {
    "name": "Dust to Dust",
@@ -632,7 +632,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b273ff191d7fbdb5a13eaf84132b",
    "url": "https://open.spotify.com/track/08mG3Y1vljYA6bvDt4Wqkj",
    "album_url": "https://open.spotify.com/album/6mUdeDZCsExyJLMdAfDuwh",
-   "plays": 1582
+   "plays": 1583
   },
   {
    "name": "Material Girl",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32832,
+   "plays": 32834,
    "covers": [
     {
      "name": "Back In Black",
@@ -1031,7 +1031,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273ff191d7fbdb5a13eaf84132b",
      "url": "https://open.spotify.com/track/08mG3Y1vljYA6bvDt4Wqkj",
      "album_url": "https://open.spotify.com/album/6mUdeDZCsExyJLMdAfDuwh",
-     "plays": 1582
+     "plays": 1583
     },
     {
      "name": "Rocket - Remastered 2017",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15752,
+   "plays": 15753,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1313,7 +1313,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
      "url": "https://open.spotify.com/track/1VcLiPmina1L3xlLkJ5OTS",
      "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
-     "plays": 3484
+     "plays": 3485
     },
     {
      "name": "Dust to Dust",
