@@ -1,14 +1,47 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-02T19:10:06Z",
+ "generated": "2026-11-02T19:40:04Z",
  "totals": {
-  "plays": 124746,
-  "hours": 8480.4,
+  "plays": 124749,
+  "hours": 8480.6,
   "artists": 701,
   "albums": 1519,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Hey Joe",
+   "artist": "Jimi Hendrix",
+   "album": "Are You Experienced",
+   "year": 1967,
+   "image": "https://i.scdn.co/image/ab67616d00001e02c9adfbd773852e286faed040",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273c9adfbd773852e286faed040",
+   "url": "https://open.spotify.com/track/0NWPxcsf5vdjdiFUI8NgkP",
+   "album_url": "https://open.spotify.com/album/7rSZXXHHvIhF4yUFdaOCy9",
+   "played_at": "2026-11-02T19:37:44.796Z"
+  },
+  {
+   "name": "Crazy On You",
+   "artist": "Heart",
+   "album": "Dreamboat Annie",
+   "year": 1975,
+   "image": "https://i.scdn.co/image/ab67616d00001e028e8c08ca2feb999bb84f05e6",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2738e8c08ca2feb999bb84f05e6",
+   "url": "https://open.spotify.com/track/5zH710lFSLtkHbMkslLDjR",
+   "album_url": "https://open.spotify.com/album/2N0AgtWbCmVoNUl2GN1opH",
+   "played_at": "2026-11-02T19:34:14.077Z"
+  },
+  {
+   "name": "Both Sides Now",
+   "artist": "Jackie Evancho",
+   "album": "Both Sides Now",
+   "year": 2022,
+   "image": "https://i.scdn.co/image/ab67616d00001e02ccbc69ffa3bab593a3a34564",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273ccbc69ffa3bab593a3a34564",
+   "url": "https://open.spotify.com/track/3Phl3f1Qnt2c7FQdLQq0NQ",
+   "album_url": "https://open.spotify.com/album/5Bp0BnoT1qHhqhEVcFnEVH",
+   "played_at": "2026-11-02T19:29:20.204Z"
+  },
   {
    "name": "Pour Some Sugar On Me - Remastered 2017",
    "artist": "Def Leppard",
@@ -503,39 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/4RYwE31p4KflK1h7J7m1Yt",
    "album_url": "https://open.spotify.com/album/2paShliFsxYoO3WJEdTVdA",
    "played_at": "2026-11-02T03:20:43.176Z"
-  },
-  {
-   "name": "Osiris",
-   "artist": "Jaded Truth",
-   "album": "Rx",
-   "year": 2020,
-   "image": "https://i.scdn.co/image/ab67616d00001e02d11211ad6e388a9a028ff55d",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273d11211ad6e388a9a028ff55d",
-   "url": "https://open.spotify.com/track/2kAXSlmHGIG94NXb8SE4kJ",
-   "album_url": "https://open.spotify.com/album/2F7EGYPCs7N20FZbVeaUR7",
-   "played_at": "2026-11-02T03:17:57.774Z"
-  },
-  {
-   "name": "Rhiannon",
-   "artist": "Fleetwood Mac",
-   "album": "Fleetwood Mac",
-   "year": 1975,
-   "image": "https://i.scdn.co/image/ab67616d00001e024fb043195e8d07e72edc7226",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2734fb043195e8d07e72edc7226",
-   "url": "https://open.spotify.com/track/05oETzWbd4SI33qK2gbJfR",
-   "album_url": "https://open.spotify.com/album/5VIQ3VaAoRKOEpJ0fewdvo",
-   "played_at": "2026-11-02T03:12:19.573Z"
-  },
-  {
-   "name": "Centerfield",
-   "artist": "John Fogerty",
-   "album": "Centerfield (25th Anniversary)",
-   "year": 1985,
-   "image": "https://i.scdn.co/image/ab67616d00001e02f2aaa0b785e5a7644ba31e08",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273f2aaa0b785e5a7644ba31e08",
-   "url": "https://open.spotify.com/track/5f7KV4oOHZylrpa5XKFu6G",
-   "album_url": "https://open.spotify.com/album/7wLd9KZsIrtpcRCVOjq7v8",
-   "played_at": "2026-11-02T01:11:39.849Z"
   }
  ],
  "top_artists": [
@@ -583,7 +583,7 @@ window.LISTENING = {
   },
   {
    "name": "Heart",
-   "plays": 1922,
+   "plays": 1923,
    "url": "https://open.spotify.com/artist/34jw2BbxjoYalTp8cJFCPv",
    "image": "https://i.scdn.co/image/ab67616d00001e0266e2e0df78c4ec35a8ed20a0"
   },
@@ -832,7 +832,7 @@ window.LISTENING = {
   },
   {
    "decade": 1960,
-   "plays": 7049,
+   "plays": 7050,
    "covers": [
     {
      "name": "Your Time Is Gonna Come - 1990 Remaster",
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28599,
+   "plays": 28600,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -970,7 +970,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2738e8c08ca2feb999bb84f05e6",
      "url": "https://open.spotify.com/track/5zH710lFSLtkHbMkslLDjR",
      "album_url": "https://open.spotify.com/album/2N0AgtWbCmVoNUl2GN1opH",
-     "plays": 704
+     "plays": 705
     },
     {
      "name": "Stairway to Heaven - Remaster",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18580,
+   "plays": 18581,
    "covers": [
     {
      "name": "ERROR",
