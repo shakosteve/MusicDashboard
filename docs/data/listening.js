@@ -1,14 +1,47 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-02T20:10:05Z",
+ "generated": "2026-11-02T20:40:06Z",
  "totals": {
-  "plays": 124756,
-  "hours": 8481.1,
+  "plays": 124759,
+  "hours": 8481.4,
   "artists": 701,
   "albums": 1519,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Cherry Bomb",
+   "artist": "John Mellencamp",
+   "album": "The Lonesome Jubilee",
+   "year": 1987,
+   "image": "https://i.scdn.co/image/ab67616d00001e02070f39b3a5350af6e9fa3780",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273070f39b3a5350af6e9fa3780",
+   "url": "https://open.spotify.com/track/43oPpqzWPSZmeiwYicmzjG",
+   "album_url": "https://open.spotify.com/album/1UiIinWX5c5fxGSpRCvjNR",
+   "played_at": "2026-11-02T20:22:57.996Z"
+  },
+  {
+   "name": "Da Ya Think I'm Sexy?",
+   "artist": "Rod Stewart",
+   "album": "Blondes Have More Fun",
+   "year": 1978,
+   "image": "https://i.scdn.co/image/ab67616d00001e02d6806ddfc58bbaa0cb3e9fa5",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273d6806ddfc58bbaa0cb3e9fa5",
+   "url": "https://open.spotify.com/track/4z7maGZkAonDlXlwo8q69f",
+   "album_url": "https://open.spotify.com/album/38tXOrjXUUfQWWV2DRwMio",
+   "played_at": "2026-11-02T20:18:10.338Z"
+  },
+  {
+   "name": "Mandolin Rain",
+   "artist": "Bruce Hornsby and the Range",
+   "album": "The Way It Is",
+   "year": 1986,
+   "image": "https://i.scdn.co/image/ab67616d00001e026cfad72543b5cf95b5864146",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2736cfad72543b5cf95b5864146",
+   "url": "https://open.spotify.com/track/3T8Ye4NB0MQhcEcxzMdAuH",
+   "album_url": "https://open.spotify.com/album/243jhZJtyIZtEkrD6vhRLn",
+   "played_at": "2026-11-02T20:12:38.464Z"
+  },
   {
    "name": "Narcisista",
    "artist": "The Warning",
@@ -503,39 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/6AyWHf259DGuxOnwdsz1Lf",
    "album_url": "https://open.spotify.com/album/3pJvA2HMStNO5I4W6uUKRh",
    "played_at": "2026-11-02T14:51:11.690Z"
-  },
-  {
-   "name": "XXI Century Blood",
-   "artist": "The Warning",
-   "album": "XXI Century Blood",
-   "year": 2017,
-   "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
-   "url": "https://open.spotify.com/track/1VcLiPmina1L3xlLkJ5OTS",
-   "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
-   "played_at": "2026-11-02T14:46:44.566Z"
-  },
-  {
-   "name": "Babylon",
-   "artist": "Faster Pussycat",
-   "album": "Faster Pussycat",
-   "year": 1987,
-   "image": "https://i.scdn.co/image/ab67616d00001e02044d242cfff617749cd740d7",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273044d242cfff617749cd740d7",
-   "url": "https://open.spotify.com/track/2Mt7VAy2lQLDxRTMtK5Oue",
-   "album_url": "https://open.spotify.com/album/4lFOgddadA9jHAO96kVniB",
-   "played_at": "2026-11-02T14:42:46.736Z"
-  },
-  {
-   "name": "Mama, I'm Coming Home",
-   "artist": "Ozzy Osbourne",
-   "album": "No More Tears (Expanded Edition)",
-   "year": 1991,
-   "image": "https://i.scdn.co/image/ab67616d00001e02509342e69eb341df70e5c2e3",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273509342e69eb341df70e5c2e3",
-   "url": "https://open.spotify.com/track/0S3gpZzlT9Hb7CCSV2owX7",
-   "album_url": "https://open.spotify.com/album/6eh82ojicL8RSJF7GkYTh7",
-   "played_at": "2026-11-02T14:39:29.009Z"
   }
  ],
  "top_artists": [
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28603,
+   "plays": 28604,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32830,
+   "plays": 32832,
    "covers": [
     {
      "name": "Back In Black",
