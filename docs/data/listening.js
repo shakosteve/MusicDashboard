@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-02T20:40:06Z",
+ "generated": "2026-11-02T22:40:05Z",
  "totals": {
-  "plays": 124759,
-  "hours": 8481.4,
+  "plays": 124760,
+  "hours": 8481.5,
   "artists": 701,
   "albums": 1519,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "46 and 2",
+   "artist": "O'keefe Music Foundation",
+   "album": "46 and 2",
+   "year": 2015,
+   "image": "https://i.scdn.co/image/ab67616d00001e02c953a05b22cfd7dc11d3d7a6",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273c953a05b22cfd7dc11d3d7a6",
+   "url": "https://open.spotify.com/track/1Mfb4wUz54L6wW900FfWtG",
+   "album_url": "https://open.spotify.com/album/68bP3r8G6e4ej006S1eWmg",
+   "played_at": "2026-11-02T22:38:33.327Z"
+  },
   {
    "name": "Cherry Bomb",
    "artist": "John Mellencamp",
@@ -525,17 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/0XVR94voJPToKX1XoOw0ot",
    "album_url": "https://open.spotify.com/album/5QkOpsZupEPLq186YOrBNe",
    "played_at": "2026-11-02T14:54:55.445Z"
-  },
-  {
-   "name": "Bitter Taste",
-   "artist": "Billy Idol",
-   "album": "Bitter Taste",
-   "year": 2021,
-   "image": "https://i.scdn.co/image/ab67616d00001e02a7dfeada96d83af1b297b225",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273a7dfeada96d83af1b297b225",
-   "url": "https://open.spotify.com/track/6AyWHf259DGuxOnwdsz1Lf",
-   "album_url": "https://open.spotify.com/album/3pJvA2HMStNO5I4W6uUKRh",
-   "played_at": "2026-11-02T14:51:11.690Z"
   }
  ],
  "top_artists": [
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15751,
+   "plays": 15752,
    "covers": [
     {
      "name": "XXI Century Blood",
