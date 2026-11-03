@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-03T22:40:06Z",
+ "generated": "2026-11-03T23:10:05Z",
  "totals": {
   "plays": 124801,
   "hours": 8484.1,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Is MAGA done with Trump?",
+   "show": "Christiane Amanpour Presents: The Ex Files",
+   "show_uri": "spotify:show:3ZpgFegm3q3AGjiFbjLV59",
+   "release_date": "2026-11-03",
+   "duration_ms": 2877910,
+   "image": "https://i.scdn.co/image/ab67656300005f1f5a4e319927f9dcfb7453f69d",
+   "first_seen": "2026-11-03T23:10:03Z",
+   "progress_ms": 358911,
+   "last_seen": "2026-11-03T23:10:03Z",
+   "url": "https://open.spotify.com/episode/4jpQNcm3yZZAvtjsB9bgSC",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f5a4e319927f9dcfb7453f69d"
+  },
+  {
    "name": "US bombs Iran’s Qeshm Island as Tehran weighs nuclear weapons breakout",
    "show": "Iran: The Latest",
    "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-01T17:40:03Z",
    "url": "https://open.spotify.com/episode/6ENZSg73hton67DCSNT0XK",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f78954c21afd24c90334deba4"
-  },
-  {
-   "name": "In Moscow's Shadows 269: White Flags and Red Banners",
-   "show": "In Moscow's Shadows",
-   "show_uri": "spotify:show:1NKCazxYstY6o8vhpGQSjF",
-   "release_date": "2026-11-01",
-   "duration_ms": 3264908,
-   "image": "https://i.scdn.co/image/ab67656300005f1fd2dd1e74bffcd7cabc91a62c",
-   "first_seen": "2026-11-01T14:10:03Z",
-   "progress_ms": 1382680,
-   "last_seen": "2026-11-01T16:40:03Z",
-   "url": "https://open.spotify.com/episode/4Yq6HmPUjylV8OAWPZ3zF0",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fd2dd1e74bffcd7cabc91a62c"
   }
  ],
  "top_shows": [
