@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-03T13:40:06Z",
+ "generated": "2026-11-03T14:10:07Z",
  "totals": {
   "plays": 124764,
   "hours": 8481.7,
@@ -1491,19 +1491,6 @@ window.LISTENING = {
  ],
  "episodes": [
   {
-   "name": "Danica McKellar: Finding God Cured My Anxiety",
-   "show": "Adam Carolla Show",
-   "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
-   "release_date": "2026-11-03",
-   "duration_ms": 6423536,
-   "image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f",
-   "first_seen": "2026-11-03T13:10:03Z",
-   "progress_ms": 2779998,
-   "last_seen": "2026-11-03T13:40:03Z",
-   "url": "https://open.spotify.com/episode/3HsdDcOkMUE7XeYDN4eDdZ",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
-  },
-  {
    "name": "#2110 - SHOCKING Health Secrets with Anna Vocino | Part 2",
    "show": "The Adam and Dr. Drew Show",
    "show_uri": "spotify:show:3VN4vP6TztxK3wtT8b9aQL",
@@ -1511,10 +1498,36 @@ window.LISTENING = {
    "duration_ms": 3235761,
    "image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b",
    "first_seen": "2026-10-30T11:40:03Z",
-   "progress_ms": 2915759,
-   "last_seen": "2026-11-03T12:40:03Z",
+   "progress_ms": 3166152,
+   "last_seen": "2026-11-03T14:10:05Z",
    "url": "https://open.spotify.com/episode/6mrYeLiCrFFjjVNEe2df3C",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
+  },
+  {
+   "name": "Classic #723: Would You Let Them Coach Your Team?",
+   "show": "The Adam and Dr. Drew Show",
+   "show_uri": "spotify:show:3VN4vP6TztxK3wtT8b9aQL",
+   "release_date": "2026-10-15",
+   "duration_ms": 1883219,
+   "image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b",
+   "first_seen": "2026-11-03T14:10:05Z",
+   "progress_ms": 80409,
+   "last_seen": "2026-11-03T14:10:05Z",
+   "url": "https://open.spotify.com/episode/2mAudvC0n6AyuWl542Wtj9",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
+  },
+  {
+   "name": "Danica McKellar: Finding God Cured My Anxiety",
+   "show": "Adam Carolla Show",
+   "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
+   "release_date": "2026-11-03",
+   "duration_ms": 6423536,
+   "image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f",
+   "first_seen": "2026-11-03T13:10:03Z",
+   "progress_ms": 3902100,
+   "last_seen": "2026-11-03T14:10:04Z",
+   "url": "https://open.spotify.com/episode/3HsdDcOkMUE7XeYDN4eDdZ",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
   },
   {
    "name": "Iran vows ‘no limits’ war as Trump threatens Pickaxe Mountain strikes",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-10-31T12:16:55Z",
    "url": "https://open.spotify.com/episode/5kdTNxnHsall8ofxFmptux",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f083f152347124d54a12d4ca0"
-  },
-  {
-   "name": "I'll Have Another: 'Oreogate' & Gentle Parenting with Jessica Tarlov",
-   "show": "Kennedy Saves the World",
-   "show_uri": "spotify:show:5DEwjZIkxrUhkM1nlqLagd",
-   "release_date": "2026-10-30",
-   "duration_ms": 1445824,
-   "image": "https://i.scdn.co/image/ab67656300005f1fc306eb9be2f4da68a4f7f2be",
-   "first_seen": "2026-10-31T11:40:03Z",
-   "progress_ms": 1445824,
-   "last_seen": "2026-10-31T11:40:03Z",
-   "url": "https://open.spotify.com/episode/48emIw5Hnv1tWsr4UZGNkY",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fc306eb9be2f4da68a4f7f2be"
   }
  ],
  "top_shows": [
