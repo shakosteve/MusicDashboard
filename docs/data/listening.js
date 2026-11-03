@@ -1,14 +1,102 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-03T16:10:04Z",
+ "generated": "2026-11-03T16:40:06Z",
  "totals": {
-  "plays": 124779,
-  "hours": 8482.7,
+  "plays": 124787,
+  "hours": 8483.1,
   "artists": 701,
   "albums": 1519,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Right Down the Line",
+   "artist": "Gerry Rafferty",
+   "album": "City to City",
+   "year": 1978,
+   "image": "https://i.scdn.co/image/ab67616d00001e02dc60cf9a010f86354e6735dd",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273dc60cf9a010f86354e6735dd",
+   "url": "https://open.spotify.com/track/2Xb6wJYGi0QXwURw5WWvI5",
+   "album_url": "https://open.spotify.com/album/35yZZTWeSrszSKjRlFETwf",
+   "played_at": "2026-11-03T16:38:46.865Z"
+  },
+  {
+   "name": "Jet Airliner",
+   "artist": "Steve Miller Band",
+   "album": "Greatest Hits 1974-78",
+   "year": 1978,
+   "image": "https://i.scdn.co/image/ab67616d00001e02632b907273dba6a6062fb780",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273632b907273dba6a6062fb780",
+   "url": "https://open.spotify.com/track/2zI3bUYn2pcF27of6i2oqK",
+   "album_url": "https://open.spotify.com/album/5hLazW5a3Ysgy3dncwGgUn",
+   "played_at": "2026-11-03T16:34:18.569Z"
+  },
+  {
+   "name": "You Ain't Seen Nothing Yet",
+   "artist": "Bachman-Turner Overdrive",
+   "album": "Not Fragile",
+   "year": 1974,
+   "image": "https://i.scdn.co/image/ab67616d00001e02d109a35f286685993cf03050",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273d109a35f286685993cf03050",
+   "url": "https://open.spotify.com/track/0HOrDVS349XFcpCYsO2hAP",
+   "album_url": "https://open.spotify.com/album/3TtCMt4XLddj9PQeVBfsK1",
+   "played_at": "2026-11-03T16:30:42.420Z"
+  },
+  {
+   "name": "You Really Got Me - 2015 Remaster",
+   "artist": "Van Halen",
+   "album": "Van Halen (Remastered)",
+   "year": 1978,
+   "image": "https://i.scdn.co/image/ab67616d00001e0217dd812df38fed44d6d2036e",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27317dd812df38fed44d6d2036e",
+   "url": "https://open.spotify.com/track/0upLyFR8Rr52ZpMp5esQoq",
+   "album_url": "https://open.spotify.com/album/7DdEbYFPKTZ8KB4z6L4UnQ",
+   "played_at": "2026-11-03T16:26:47.096Z"
+  },
+  {
+   "name": "We've Got Tonight",
+   "artist": "Bob Seger",
+   "album": "Stranger In Town",
+   "year": 1978,
+   "image": "https://i.scdn.co/image/ab67616d00001e02ef063cb80508c55eb443a671",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273ef063cb80508c55eb443a671",
+   "url": "https://open.spotify.com/track/3mj46XKJ2aEm1z7ZvbwyLi",
+   "album_url": "https://open.spotify.com/album/1vhib5WLHRVdOpRjiTHk15",
+   "played_at": "2026-11-03T16:24:10.276Z"
+  },
+  {
+   "name": "Come On, Let's Go",
+   "artist": "Ritchie Valens",
+   "album": "Ritchie Valens",
+   "year": 1959,
+   "image": "https://i.scdn.co/image/ab67616d00001e02027a47865c8c6215aa72b9df",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273027a47865c8c6215aa72b9df",
+   "url": "https://open.spotify.com/track/4cRfSR0QxDlXRHTKyEOu93",
+   "album_url": "https://open.spotify.com/album/77UI8F1LuhiQaKIL1qOE1W",
+   "played_at": "2026-11-03T16:19:28.686Z"
+  },
+  {
+   "name": "Wouldn't It Be Nice - Remastered 1999",
+   "artist": "The Beach Boys",
+   "album": "The Beach Boys Love Songs",
+   "year": 2006,
+   "image": "https://i.scdn.co/image/ab67616d00001e02e53d342c933a9138b2b51f71",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273e53d342c933a9138b2b51f71",
+   "url": "https://open.spotify.com/track/0cx32rX0uZvcJUP92Wkj2y",
+   "album_url": "https://open.spotify.com/album/4NnBDxnxiiXiMlssBi9Bsq",
+   "played_at": "2026-11-03T16:17:23.562Z"
+  },
+  {
+   "name": "I Love Playin' with Fire",
+   "artist": "The Rumours",
+   "album": "I Love Playin' with Fire",
+   "year": 2022,
+   "image": "https://i.scdn.co/image/ab67616d00001e02cf7d0e252938b2eede111d00",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273cf7d0e252938b2eede111d00",
+   "url": "https://open.spotify.com/track/4gZT93314AIdRIRipyI3wT",
+   "album_url": "https://open.spotify.com/album/59UFk4z6tOxats1KHFklEY",
+   "played_at": "2026-11-03T16:14:58.007Z"
+  },
   {
    "name": "Shout",
    "artist": "Tears For Fears",
@@ -448,94 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/2WfaOiMkCvy7F5fcp2zZ8L",
    "album_url": "https://open.spotify.com/album/1ER3B6zev5JEAaqhnyyfbf",
    "played_at": "2026-11-02T18:28:55.603Z"
-  },
-  {
-   "name": "Paralyzer",
-   "artist": "Finger Eleven",
-   "album": "Them Vs. You Vs. Me (Deluxe Edition)",
-   "year": 2007,
-   "image": "https://i.scdn.co/image/ab67616d00001e02e9c3c16b480e1c5a84d7b188",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273e9c3c16b480e1c5a84d7b188",
-   "url": "https://open.spotify.com/track/28IEbk5a7twNTbUEvWslUb",
-   "album_url": "https://open.spotify.com/album/2pCfqddO9tLKRz3wzSNGsZ",
-   "played_at": "2026-11-02T18:25:12.767Z"
-  },
-  {
-   "name": "Puttin' On The Ritz",
-   "artist": "Judy Garland",
-   "album": "That's Entertainment!",
-   "year": 1960,
-   "image": "https://i.scdn.co/image/ab67616d00001e02e6c8a398377d3767ccc08a96",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273e6c8a398377d3767ccc08a96",
-   "url": "https://open.spotify.com/track/5ohoJB0WhfcEzuSVhVQ0s0",
-   "album_url": "https://open.spotify.com/album/4e8L2weEFgkFQZJosoTMGi",
-   "played_at": "2026-11-02T18:21:44.315Z"
-  },
-  {
-   "name": "Slither",
-   "artist": "Velvet Revolver",
-   "album": "Contraband",
-   "year": 2004,
-   "image": "https://i.scdn.co/image/ab67616d00001e02e95d233a9df33d6c9992b449",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273e95d233a9df33d6c9992b449",
-   "url": "https://open.spotify.com/track/7kF1iPJTj3VFJX9XokQ80F",
-   "album_url": "https://open.spotify.com/album/64GnrmrpL1fvfF0r1AoZLB",
-   "played_at": "2026-11-02T18:19:44.773Z"
-  },
-  {
-   "name": "Mexican Moon",
-   "artist": "Concrete Blonde",
-   "album": "Mexican Moon",
-   "year": 1993,
-   "image": "https://i.scdn.co/image/ab67616d00001e02c787b18e75b8f9cde01b548d",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273c787b18e75b8f9cde01b548d",
-   "url": "https://open.spotify.com/track/0wGXmuLI1BxPngWHVGmCaz",
-   "album_url": "https://open.spotify.com/album/1ID2r3PEzWEVGpvqljPtzO",
-   "played_at": "2026-11-02T17:29:36.939Z"
-  },
-  {
-   "name": "Pain on a Chain",
-   "artist": "Speed of Light",
-   "album": "Pain on a Chain",
-   "year": 2025,
-   "image": "https://i.scdn.co/image/ab67616d00001e02bd490c93ab6b22836881027a",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273bd490c93ab6b22836881027a",
-   "url": "https://open.spotify.com/track/2J3Om9weznMixCXGaM9lCm",
-   "album_url": "https://open.spotify.com/album/665P8jG1v3RyOv0qK9Zidu",
-   "played_at": "2026-11-02T17:24:33.437Z"
-  },
-  {
-   "name": "Everybody Wants You",
-   "artist": "Billy Squier",
-   "album": "Absolute Hits",
-   "year": 2005,
-   "image": "https://i.scdn.co/image/ab67616d00001e02fddbed2db48c40dbb2b6a093",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273fddbed2db48c40dbb2b6a093",
-   "url": "https://open.spotify.com/track/2Z9B8sd6HgEfCWqvOfhFD0",
-   "album_url": "https://open.spotify.com/album/36vJNbcqq5tRLh8yHwjsBG",
-   "played_at": "2026-11-02T17:21:30.938Z"
-  },
-  {
-   "name": "Good Golly, Miss Molly",
-   "artist": "Little Richard",
-   "album": "Good Golly!",
-   "year": 1969,
-   "image": "https://i.scdn.co/image/ab67616d00001e02cc4c510d6d19a2d03e2fc757",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273cc4c510d6d19a2d03e2fc757",
-   "url": "https://open.spotify.com/track/0ZvgXNstN4o2ZXPomtBYVp",
-   "album_url": "https://open.spotify.com/album/18VnWTsdEcofimkOHcWBAu",
-   "played_at": "2026-11-02T17:17:42.216Z"
-  },
-  {
-   "name": "I Love Playin' with Fire",
-   "artist": "The Rumours",
-   "album": "I Love Playin' with Fire",
-   "year": 2022,
-   "image": "https://i.scdn.co/image/ab67616d00001e02cf7d0e252938b2eede111d00",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273cf7d0e252938b2eede111d00",
-   "url": "https://open.spotify.com/track/4gZT93314AIdRIRipyI3wT",
-   "album_url": "https://open.spotify.com/album/59UFk4z6tOxats1KHFklEY",
-   "played_at": "2026-11-02T17:15:32.533Z"
   }
  ],
  "top_artists": [
@@ -571,13 +571,13 @@ window.LISTENING = {
   },
   {
    "name": "Van Halen",
-   "plays": 2048,
+   "plays": 2049,
    "url": "https://open.spotify.com/artist/2cnMpRsOVqtPMfq7YiFE6K",
    "image": "https://i.scdn.co/image/ab67616d00001e02b414c63fb435b622238c15ed"
   },
   {
    "name": "Steve Miller Band",
-   "plays": 1954,
+   "plays": 1955,
    "url": "https://open.spotify.com/artist/6QtGlUje9TIkLrgPZrESuk",
    "image": "https://i.scdn.co/image/ab67616d00001e02632b907273dba6a6062fb780"
   },
@@ -771,7 +771,7 @@ window.LISTENING = {
   },
   {
    "decade": 1950,
-   "plays": 270,
+   "plays": 271,
    "covers": [
     {
      "name": "Come On, Let's Go",
@@ -782,7 +782,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273027a47865c8c6215aa72b9df",
      "url": "https://open.spotify.com/track/4cRfSR0QxDlXRHTKyEOu93",
      "album_url": "https://open.spotify.com/album/77UI8F1LuhiQaKIL1qOE1W",
-     "plays": 217
+     "plays": 218
     },
     {
      "name": "Long Tall Sally (The Thing)",
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28605,
+   "plays": 28610,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -992,7 +992,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273632b907273dba6a6062fb780",
      "url": "https://open.spotify.com/track/2zI3bUYn2pcF27of6i2oqK",
      "album_url": "https://open.spotify.com/album/5hLazW5a3Ysgy3dncwGgUn",
-     "plays": 665
+     "plays": 666
     },
     {
      "name": "Take It Easy - 2013 Remaster",
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 11980,
+   "plays": 11981,
    "covers": [
     {
      "name": "Material Girl",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18588,
+   "plays": 18589,
    "covers": [
     {
      "name": "ERROR",
