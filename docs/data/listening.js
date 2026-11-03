@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-03T21:10:05Z",
+ "generated": "2026-11-03T21:40:06Z",
  "totals": {
-  "plays": 124800,
-  "hours": 8484.0,
+  "plays": 124801,
+  "hours": 8484.1,
   "artists": 701,
   "albums": 1520,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Dancing Queen",
+   "artist": "ABBA",
+   "album": "Arrival",
+   "year": 1976,
+   "image": "https://i.scdn.co/image/ab67616d00001e0270f7a1b35d5165c85b95a0e0",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27370f7a1b35d5165c85b95a0e0",
+   "url": "https://open.spotify.com/track/0GjEhVFGZW8afUYGChu3Rr",
+   "album_url": "https://open.spotify.com/album/1V6a99EbTTIegOhWoPxYI9",
+   "played_at": "2026-11-03T21:07:00.222Z"
+  },
   {
    "name": "Talk Dirty To Me",
    "artist": "Poison",
@@ -525,17 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/5ftkCxdoFGmkXbm5zgu0lS",
    "album_url": "https://open.spotify.com/album/7nl7cH6KtKcKU7I2Hj2gAM",
    "played_at": "2026-11-02T20:00:27.995Z"
-  },
-  {
-   "name": "Locomotive Breath",
-   "artist": "Jethro Tull",
-   "album": "Aqualung (Special Edition)",
-   "year": 1971,
-   "image": "https://i.scdn.co/image/ab67616d00001e028bc3269ba09264dcf9a5b924",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2738bc3269ba09264dcf9a5b924",
-   "url": "https://open.spotify.com/track/0MYNeFsKpzBHwrJGfWZysV",
-   "album_url": "https://open.spotify.com/album/0NGM3Ftwjw0dLNpAowmz3x",
-   "played_at": "2026-11-02T19:57:36.974Z"
   }
  ],
  "top_artists": [
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28613,
+   "plays": 28614,
    "covers": [
     {
      "name": "More Than a Feeling",
