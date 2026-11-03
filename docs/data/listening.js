@@ -1,14 +1,102 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-03T14:10:07Z",
+ "generated": "2026-11-03T14:40:07Z",
  "totals": {
-  "plays": 124764,
-  "hours": 8481.7,
+  "plays": 124772,
+  "hours": 8482.2,
   "artists": 701,
   "albums": 1519,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Man I Need (Live) – Spotify Live Room",
+   "artist": "Olivia Dean",
+   "album": "Olivia Dean - Spotify Live Room",
+   "year": 2025,
+   "image": "https://i.scdn.co/image/ab67616d00001e0283a8582a02ba58639b3fce04",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27383a8582a02ba58639b3fce04",
+   "url": "https://open.spotify.com/track/3yYuSzBhxR4kd4CNtfyHN7",
+   "album_url": "https://open.spotify.com/album/2BH28DBpJbk7fVT7a4IdYX",
+   "played_at": "2026-11-03T14:37:59.859Z"
+  },
+  {
+   "name": "Señorita",
+   "artist": "Shawn Mendes, Camila Cabello",
+   "album": "Shawn Mendes (Deluxe)",
+   "year": 2019,
+   "image": "https://i.scdn.co/image/ab67616d00001e02c820f033bd82bef4355d1563",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273c820f033bd82bef4355d1563",
+   "url": "https://open.spotify.com/track/6v3KW9xbzN5yKLt9YKDYA2",
+   "album_url": "https://open.spotify.com/album/0xzScN8P3hQAz3BT3YYX5w",
+   "played_at": "2026-11-03T14:34:55.350Z"
+  },
+  {
+   "name": "Swingtown",
+   "artist": "Steve Miller Band",
+   "album": "Greatest Hits 1974-78",
+   "year": 1978,
+   "image": "https://i.scdn.co/image/ab67616d00001e02632b907273dba6a6062fb780",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273632b907273dba6a6062fb780",
+   "url": "https://open.spotify.com/track/4F01HOLdVKrIfH6LwOi07f",
+   "album_url": "https://open.spotify.com/album/5hLazW5a3Ysgy3dncwGgUn",
+   "played_at": "2026-11-03T14:31:44.128Z"
+  },
+  {
+   "name": "The Tide Is High - Remastered 2001",
+   "artist": "Blondie",
+   "album": "Greatest Hits",
+   "year": 2002,
+   "image": "https://i.scdn.co/image/ab67616d00001e022847f04f9de392e290b5a0be",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2732847f04f9de392e290b5a0be",
+   "url": "https://open.spotify.com/track/6UYVDYeTRGYULthAwMIpYB",
+   "album_url": "https://open.spotify.com/album/4pIYJsJ8GkYWM1rvqy45ug",
+   "played_at": "2026-11-03T14:28:13.771Z"
+  },
+  {
+   "name": "Love the One You're With",
+   "artist": "Crosby, Stills & Nash",
+   "album": "Replay",
+   "year": 1980,
+   "image": "https://i.scdn.co/image/ab67616d00001e021fce24e5e0896809397a3210",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2731fce24e5e0896809397a3210",
+   "url": "https://open.spotify.com/track/6kXGGyEPSRS1g9Ltm70jo9",
+   "album_url": "https://open.spotify.com/album/1ZMa2C7vUFFCqX8xcFuFX3",
+   "played_at": "2026-11-03T14:23:29.186Z"
+  },
+  {
+   "name": "Automatic Sun",
+   "artist": "The Warning",
+   "album": "Automatic Sun",
+   "year": 2024,
+   "image": "https://i.scdn.co/image/ab67616d00001e02c182aaf9aa95dab76259045d",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273c182aaf9aa95dab76259045d",
+   "url": "https://open.spotify.com/track/3p8SLhMdp3M5cusqAp6H3L",
+   "album_url": "https://open.spotify.com/album/1j7amuuid5B0Hf9I6I1PLZ",
+   "played_at": "2026-11-03T14:20:24.104Z"
+  },
+  {
+   "name": "Come Away With Me",
+   "artist": "Norah Jones",
+   "album": "Come Away With Me (Super Deluxe Edition)",
+   "year": 2002,
+   "image": "https://i.scdn.co/image/ab67616d00001e02c648a42b5dad72c8aafceeec",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273c648a42b5dad72c8aafceeec",
+   "url": "https://open.spotify.com/track/6jGnykaS6TkWp15utXSAeI",
+   "album_url": "https://open.spotify.com/album/3ArSFkv4OQOosOvYTrZNIl",
+   "played_at": "2026-11-03T14:17:12.702Z"
+  },
+  {
+   "name": "Tom Sawyer",
+   "artist": "Rush",
+   "album": "Moving Pictures (2011 Remaster)",
+   "year": 1981,
+   "image": "https://i.scdn.co/image/ab67616d00001e0272833c1ae3343cbfb4617073",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27372833c1ae3343cbfb4617073",
+   "url": "https://open.spotify.com/track/3QZ7uX97s82HFYSmQUAN1D",
+   "album_url": "https://open.spotify.com/album/2xg7iIKoSqaDNpDbJnyCjY",
+   "played_at": "2026-11-03T14:13:54.055Z"
+  },
   {
    "name": "Dirty Diana - 2012 Remaster",
    "artist": "Michael Jackson",
@@ -448,100 +536,12 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/13jql4uJUkPc06JXIC3oiz",
    "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
    "played_at": "2026-11-02T15:45:40.301Z"
-  },
-  {
-   "name": "Give A Little Bit",
-   "artist": "Supertramp",
-   "album": "Even In The Quietest Moments... (Remastered 2026)",
-   "year": 1977,
-   "image": "https://i.scdn.co/image/ab67616d00001e02be91795435584ccd90c2a76a",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273be91795435584ccd90c2a76a",
-   "url": "https://open.spotify.com/track/1JI4nBu8CZjKYjyADy8kAv",
-   "album_url": "https://open.spotify.com/album/0kW7WYI6RWpplTyzUg048H",
-   "played_at": "2026-11-02T15:41:42.375Z"
-  },
-  {
-   "name": "You Give Love A Bad Name",
-   "artist": "Bon Jovi",
-   "album": "Slippery When Wet",
-   "year": 1986,
-   "image": "https://i.scdn.co/image/ab67616d00001e021336b31b6a1799f0de5807ac",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2731336b31b6a1799f0de5807ac",
-   "url": "https://open.spotify.com/track/0rmGAIH9LNJewFw7nKzZnc",
-   "album_url": "https://open.spotify.com/album/0kBfgEilUFCMIQY5IOjG4t",
-   "played_at": "2026-11-02T15:37:32.863Z"
-  },
-  {
-   "name": "Monster",
-   "artist": "L7",
-   "album": "Bricks Are Heavy",
-   "year": 1992,
-   "image": "https://i.scdn.co/image/ab67616d00001e02946c2a344a47393f80170cdc",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273946c2a344a47393f80170cdc",
-   "url": "https://open.spotify.com/track/4gEmS1pwdSjAEmrHdar9je",
-   "album_url": "https://open.spotify.com/album/0z7Dc7FRsDH7E4kj32mKyM",
-   "played_at": "2026-11-02T15:33:49.843Z"
-  },
-  {
-   "name": "Rise Above This",
-   "artist": "Seether",
-   "album": "Finding Beauty In Negative Spaces (Bonus Track Version)",
-   "year": 2007,
-   "image": "https://i.scdn.co/image/ab67616d00001e02c418220159462cdd7cfeb9a1",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273c418220159462cdd7cfeb9a1",
-   "url": "https://open.spotify.com/track/4dZ4iHhsqQAQ4em4abLB6C",
-   "album_url": "https://open.spotify.com/album/59Tni3gA1OczshFWTMxmbo",
-   "played_at": "2026-11-02T15:30:52.717Z"
-  },
-  {
-   "name": "Rolling in the Deep",
-   "artist": "Adele",
-   "album": "21",
-   "year": 2011,
-   "image": "https://i.scdn.co/image/ab67616d00001e027e7e5dd9d1ab19fcded8a17f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2737e7e5dd9d1ab19fcded8a17f",
-   "url": "https://open.spotify.com/track/1c8gk2PeTE04A1pIDH9YMk",
-   "album_url": "https://open.spotify.com/album/0Lg1uZvI312TPqxNWShFXL",
-   "played_at": "2026-11-02T15:24:39.823Z"
-  },
-  {
-   "name": "Sweet Lovin'",
-   "artist": "Saving Escape",
-   "album": "Sweet Lovin'",
-   "year": 2022,
-   "image": "https://i.scdn.co/image/ab67616d00001e02b94ea8e89ca894d33e380801",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273b94ea8e89ca894d33e380801",
-   "url": "https://open.spotify.com/track/1zk1dg2bLI5CSgVAkOdCgc",
-   "album_url": "https://open.spotify.com/album/05SKvplbcT8L4inSKn7Z2x",
-   "played_at": "2026-11-02T15:20:51.260Z"
-  },
-  {
-   "name": "Fuera o Más Allá",
-   "artist": "Eruca Sativa",
-   "album": "Blanco",
-   "year": 2012,
-   "image": "https://i.scdn.co/image/ab67616d00001e02fb60d4076cb86adcf2f7383f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273fb60d4076cb86adcf2f7383f",
-   "url": "https://open.spotify.com/track/3qQ0TTpIt0OXH7plhxeISL",
-   "album_url": "https://open.spotify.com/album/3MC1mUaL0H7kcVgTEFXLWv",
-   "played_at": "2026-11-02T15:17:41.531Z"
-  },
-  {
-   "name": "Two Tickets to Paradise (2022 Remaster)",
-   "artist": "Eddie Money",
-   "album": "Eddie Money (2022 Remaster)",
-   "year": 1977,
-   "image": "https://i.scdn.co/image/ab67616d00001e023678634414f6ced7e0f1a480",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2733678634414f6ced7e0f1a480",
-   "url": "https://open.spotify.com/track/22CIOfLZB9z8He7WgHYAgH",
-   "album_url": "https://open.spotify.com/album/5gMrkmI53zEn98WDwU0iye",
-   "played_at": "2026-11-02T15:14:27.343Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10660,
+   "plays": 10661,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
@@ -577,7 +577,7 @@ window.LISTENING = {
   },
   {
    "name": "Steve Miller Band",
-   "plays": 1953,
+   "plays": 1954,
    "url": "https://open.spotify.com/artist/6QtGlUje9TIkLrgPZrESuk",
    "image": "https://i.scdn.co/image/ab67616d00001e02632b907273dba6a6062fb780"
   },
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28604,
+   "plays": 28605,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -992,7 +992,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273632b907273dba6a6062fb780",
      "url": "https://open.spotify.com/track/2zI3bUYn2pcF27of6i2oqK",
      "album_url": "https://open.spotify.com/album/5hLazW5a3Ysgy3dncwGgUn",
-     "plays": 664
+     "plays": 665
     },
     {
      "name": "Take It Easy - 2013 Remaster",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32835,
+   "plays": 32837,
    "covers": [
     {
      "name": "Back In Black",
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 11977,
+   "plays": 11979,
    "covers": [
     {
      "name": "Material Girl",
@@ -1274,7 +1274,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273c648a42b5dad72c8aafceeec",
      "url": "https://open.spotify.com/track/1zNXF2svmdlNxfS5XeNUgr",
      "album_url": "https://open.spotify.com/album/3ArSFkv4OQOosOvYTrZNIl",
-     "plays": 253
+     "plays": 254
     },
     {
      "name": "Superstition - Single Version",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15753,
+   "plays": 15754,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18581,
+   "plays": 18583,
    "covers": [
     {
      "name": "ERROR",
