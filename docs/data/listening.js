@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-03T18:10:07Z",
+ "generated": "2026-11-03T18:40:05Z",
  "totals": {
   "plays": 124800,
   "hours": 8484.0,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "‘Fellowship of the Ring’ Revisited Episode 1: Prologue and Concerning Hobbits With Kumail Nanjiani | Fellowship of the Pod",
+   "show": "House of R",
+   "show_uri": "spotify:show:4GyqecnSWZxUGNEUqJNNT7",
+   "release_date": "2026-11-01",
+   "duration_ms": 11460800,
+   "image": "https://i.scdn.co/image/ab67656300005f1f2da6dd17b5ba7a24e9783d64",
+   "first_seen": "2026-11-03T18:40:03Z",
+   "progress_ms": 209193,
+   "last_seen": "2026-11-03T18:40:03Z",
+   "url": "https://open.spotify.com/episode/54QYWTMQloySMidylP1VaD",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f889a0a13b01115497f3a866f"
+  },
+  {
    "name": "Danica McKellar: Finding God Cured My Anxiety",
    "show": "Adam Carolla Show",
    "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-10-31T13:10:03Z",
    "url": "https://open.spotify.com/episode/5iJN5LDBEHMgeHHWnYqXdM",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f836e33e0257047ce378ffcd1"
-  },
-  {
-   "name": "Election Preview with POLITICO's Charlie Mahtesian",
-   "show": "The Middle with Jeremy Hobson",
-   "show_uri": "spotify:show:5l5B4IoLnVHnFMLmGSar2f",
-   "release_date": "2026-10-31",
-   "duration_ms": 1871273,
-   "image": "https://i.scdn.co/image/ab67656300005f1ff41e868c508ff334fe5720fe",
-   "first_seen": "2026-10-31T12:10:02Z",
-   "progress_ms": 1871273,
-   "last_seen": "2026-10-31T12:16:55Z",
-   "url": "https://open.spotify.com/episode/5kdTNxnHsall8ofxFmptux",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f083f152347124d54a12d4ca0"
   }
  ],
  "top_shows": [
