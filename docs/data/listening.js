@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-03T21:40:06Z",
+ "generated": "2026-11-03T22:40:06Z",
  "totals": {
   "plays": 124801,
   "hours": 8484.1,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "US bombs Iran’s Qeshm Island as Tehran weighs nuclear weapons breakout",
+   "show": "Iran: The Latest",
+   "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
+   "release_date": "2026-11-03",
+   "duration_ms": 2400627,
+   "image": "https://i.scdn.co/image/ab67656300005f1f29c019851b8f1e8b3295bc40",
+   "first_seen": "2026-11-03T22:40:03Z",
+   "progress_ms": 1255741,
+   "last_seen": "2026-11-03T22:40:03Z",
+   "url": "https://open.spotify.com/episode/61tFOAn6RUS3DhlY26qrD4",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
+  },
+  {
    "name": "‘Fellowship of the Ring’ Revisited Episode 1: Prologue and Concerning Hobbits With Kumail Nanjiani | Fellowship of the Pod",
    "show": "House of R",
    "show_uri": "spotify:show:4GyqecnSWZxUGNEUqJNNT7",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-01T16:40:03Z",
    "url": "https://open.spotify.com/episode/4Yq6HmPUjylV8OAWPZ3zF0",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fd2dd1e74bffcd7cabc91a62c"
-  },
-  {
-   "name": "Will a blue wave sweep the South? Jennifer Palmieri explains why it might",
-   "show": "Firing Line with Margaret Hoover",
-   "show_uri": "spotify:show:1uBimoCIw9AqeoN2RwlUBq",
-   "release_date": "2026-10-31",
-   "duration_ms": 2813017,
-   "image": "https://i.scdn.co/image/ab67656300005f1f836e33e0257047ce378ffcd1",
-   "first_seen": "2026-10-31T12:40:02Z",
-   "progress_ms": 2813017,
-   "last_seen": "2026-10-31T13:10:03Z",
-   "url": "https://open.spotify.com/episode/5iJN5LDBEHMgeHHWnYqXdM",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f836e33e0257047ce378ffcd1"
   }
  ],
  "top_shows": [
