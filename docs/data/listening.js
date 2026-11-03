@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-03T19:10:06Z",
+ "generated": "2026-11-03T21:10:05Z",
  "totals": {
   "plays": 124800,
   "hours": 8484.0,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "‘Fellowship of the Ring’ Revisited Episode 1: Prologue and Concerning Hobbits With Kumail Nanjiani | Fellowship of the Pod",
+   "show": "House of R",
+   "show_uri": "spotify:show:4GyqecnSWZxUGNEUqJNNT7",
+   "release_date": "2026-11-01",
+   "duration_ms": 11460800,
+   "image": "https://i.scdn.co/image/ab67656300005f1f2da6dd17b5ba7a24e9783d64",
+   "first_seen": "2026-11-03T18:40:03Z",
+   "progress_ms": 1394801,
+   "last_seen": "2026-11-03T21:10:03Z",
+   "url": "https://open.spotify.com/episode/54QYWTMQloySMidylP1VaD",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f889a0a13b01115497f3a866f"
+  },
+  {
    "name": "Danica McKellar: Finding God Cured My Anxiety",
    "show": "Adam Carolla Show",
    "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
@@ -1502,19 +1515,6 @@ window.LISTENING = {
    "last_seen": "2026-11-03T19:10:04Z",
    "url": "https://open.spotify.com/episode/3HsdDcOkMUE7XeYDN4eDdZ",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
-  },
-  {
-   "name": "‘Fellowship of the Ring’ Revisited Episode 1: Prologue and Concerning Hobbits With Kumail Nanjiani | Fellowship of the Pod",
-   "show": "House of R",
-   "show_uri": "spotify:show:4GyqecnSWZxUGNEUqJNNT7",
-   "release_date": "2026-11-01",
-   "duration_ms": 11460800,
-   "image": "https://i.scdn.co/image/ab67656300005f1f2da6dd17b5ba7a24e9783d64",
-   "first_seen": "2026-11-03T18:40:03Z",
-   "progress_ms": 209193,
-   "last_seen": "2026-11-03T18:40:03Z",
-   "url": "https://open.spotify.com/episode/54QYWTMQloySMidylP1VaD",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f889a0a13b01115497f3a866f"
   },
   {
    "name": "#2110 - SHOCKING Health Secrets with Anna Vocino | Part 2",
