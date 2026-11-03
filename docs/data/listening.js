@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-03T04:10:07Z",
+ "generated": "2026-11-03T12:40:07Z",
  "totals": {
   "plays": 124764,
   "hours": 8481.7,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "#2110 - SHOCKING Health Secrets with Anna Vocino | Part 2",
+   "show": "The Adam and Dr. Drew Show",
+   "show_uri": "spotify:show:3VN4vP6TztxK3wtT8b9aQL",
+   "release_date": "2026-10-30",
+   "duration_ms": 3235761,
+   "image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b",
+   "first_seen": "2026-10-30T11:40:03Z",
+   "progress_ms": 2915759,
+   "last_seen": "2026-11-03T12:40:03Z",
+   "url": "https://open.spotify.com/episode/6mrYeLiCrFFjjVNEe2df3C",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
+  },
+  {
    "name": "Iran vows ‘no limits’ war as Trump threatens Pickaxe Mountain strikes",
    "show": "Iran: The Latest",
    "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-10-31T01:40:03Z",
    "url": "https://open.spotify.com/episode/0svFHdvTg2zTCFGRU8UOw3",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fc306eb9be2f4da68a4f7f2be"
-  },
-  {
-   "name": "President Donald Trump Reschedules Rallies in Iowa and Kansas",
-   "show": "RealClearPolitics Podcast",
-   "show_uri": "spotify:show:5FkNemg3aIaPPNBImIcW2l",
-   "release_date": "2026-10-30",
-   "duration_ms": 3306814,
-   "image": "https://i.scdn.co/image/ab67656300005f1fb7104361264b689c24881374",
-   "first_seen": "2026-10-30T21:10:03Z",
-   "progress_ms": 3197400,
-   "last_seen": "2026-10-30T22:10:03Z",
-   "url": "https://open.spotify.com/episode/2S4MMg7rGzAXfmoe4uaWkC",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fe19edf2c6856b8b09c057f38"
   }
  ],
  "top_shows": [
