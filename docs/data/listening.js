@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-03T14:40:07Z",
+ "generated": "2026-11-03T15:10:06Z",
  "totals": {
-  "plays": 124772,
-  "hours": 8482.2,
+  "plays": 124773,
+  "hours": 8482.3,
   "artists": 701,
   "albums": 1519,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Wherever You May Go - 2024 Remix",
+   "artist": "Whitesnake",
+   "album": "Into The Light: The Solo Albums",
+   "year": 2024,
+   "image": "https://i.scdn.co/image/ab67616d00001e0275054a7528a57bf4c4db64d3",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27375054a7528a57bf4c4db64d3",
+   "url": "https://open.spotify.com/track/3kXFGV9scmzkuAO4yrCOaj",
+   "album_url": "https://open.spotify.com/album/4ZK8lI716dYtCXQd8qlcsI",
+   "played_at": "2026-11-03T14:41:57.353Z"
+  },
   {
    "name": "Man I Need (Live) – Spotify Live Room",
    "artist": "Olivia Dean",
@@ -525,17 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/4fVyOWxMI6dCIOFbbcALtA",
    "album_url": "https://open.spotify.com/album/5ylsDPMjSjP1ep0OLGYqA6",
    "played_at": "2026-11-02T15:48:31.993Z"
-  },
-  {
-   "name": "ERROR - Live from Auditorio Nacional, CDMX",
-   "artist": "The Warning",
-   "album": "Live from Auditorio Nacional, CDMX",
-   "year": 2025,
-   "image": "https://i.scdn.co/image/ab67616d00001e025cda6d880ec3968aa6b6ac2f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
-   "url": "https://open.spotify.com/track/13jql4uJUkPc06JXIC3oiz",
-   "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
-   "played_at": "2026-11-02T15:45:40.301Z"
   }
  ],
  "top_artists": [
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18583,
+   "plays": 18584,
    "covers": [
     {
      "name": "ERROR",
