@@ -1,14 +1,69 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-03T15:40:04Z",
+ "generated": "2026-11-03T16:10:04Z",
  "totals": {
-  "plays": 124774,
-  "hours": 8482.3,
+  "plays": 124779,
+  "hours": 8482.7,
   "artists": 701,
   "albums": 1519,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Shout",
+   "artist": "Tears For Fears",
+   "album": "Songs From The Big Chair",
+   "year": 1985,
+   "image": "https://i.scdn.co/image/ab67616d00001e025e12c35cb4c848a927ef4b69",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2735e12c35cb4c848a927ef4b69",
+   "url": "https://open.spotify.com/track/6UQDkQdtvj3f7F7edAsqda",
+   "album_url": "https://open.spotify.com/album/5STbVtgFy6y7uPshY1RRqb",
+   "played_at": "2026-11-03T15:59:55.487Z"
+  },
+  {
+   "name": "Can I Get It",
+   "artist": "Adele",
+   "album": "30",
+   "year": 2021,
+   "image": "https://i.scdn.co/image/ab67616d00001e02c6b577e4c4a6d326354a89f7",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273c6b577e4c4a6d326354a89f7",
+   "url": "https://open.spotify.com/track/6w8ZPYdnGajyfPddTWdthN",
+   "album_url": "https://open.spotify.com/album/21jF5jlMtzo94wbxmJ18aa",
+   "played_at": "2026-11-03T15:53:21.338Z"
+  },
+  {
+   "name": "Slide",
+   "artist": "Plastic Picnic",
+   "album": "As Long As You Need",
+   "year": 2022,
+   "image": "https://i.scdn.co/image/ab67616d00001e0233ed65aef7428608f5b33f17",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27333ed65aef7428608f5b33f17",
+   "url": "https://open.spotify.com/track/5Rokkaaomfmom5BOm19A8b",
+   "album_url": "https://open.spotify.com/album/615Oddpje0fnkwigsDZYIU",
+   "played_at": "2026-11-03T15:49:50.427Z"
+  },
+  {
+   "name": "Don't Let Me Get Me - Radio Edit",
+   "artist": "P!nk",
+   "album": "M!ssundaztood (Expanded Edition)",
+   "year": 2001,
+   "image": "https://i.scdn.co/image/ab67616d00001e029da93c573c5ce2d9deb98e4f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2739da93c573c5ce2d9deb98e4f",
+   "url": "https://open.spotify.com/track/1BfRdnfPYrni7zj4ANodBX",
+   "album_url": "https://open.spotify.com/album/57wJKO7qrPw56iOEKhTmg2",
+   "played_at": "2026-11-03T15:46:08.107Z"
+  },
+  {
+   "name": "Metal Chestnut",
+   "artist": "Slash",
+   "album": "Orgy of the Damned",
+   "year": 2024,
+   "image": "https://i.scdn.co/image/ab67616d00001e02e66f735898f62043666589b3",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273e66f735898f62043666589b3",
+   "url": "https://open.spotify.com/track/0hx19Rxlafp5mpiRa2FEIF",
+   "album_url": "https://open.spotify.com/album/6aTrDhVw5QgXSz2JM4V8hc",
+   "played_at": "2026-11-03T15:42:36.859Z"
+  },
   {
    "name": "MORE",
    "artist": "The Warning",
@@ -481,61 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/4gZT93314AIdRIRipyI3wT",
    "album_url": "https://open.spotify.com/album/59UFk4z6tOxats1KHFklEY",
    "played_at": "2026-11-02T17:15:32.533Z"
-  },
-  {
-   "name": "Money for Nothing",
-   "artist": "Dire Straits",
-   "album": "Brothers in Arms",
-   "year": 1985,
-   "image": "https://i.scdn.co/image/ab67616d00001e02fb995d2871f084b34afae3b3",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273fb995d2871f084b34afae3b3",
-   "url": "https://open.spotify.com/track/4yqtwO7MQIIXqoiRBPHAgR",
-   "album_url": "https://open.spotify.com/album/7jvcSnCnugLcisBCNBm60s",
-   "played_at": "2026-11-02T17:12:29.136Z"
-  },
-  {
-   "name": "Small Town",
-   "artist": "John Mellencamp",
-   "album": "Scarecrow",
-   "year": 1985,
-   "image": "https://i.scdn.co/image/ab67616d00001e02b46e7ea6a6b2fa45caa23393",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273b46e7ea6a6b2fa45caa23393",
-   "url": "https://open.spotify.com/track/2HsjJJL4DhPCzMlnaGv7ap",
-   "album_url": "https://open.spotify.com/album/1BYEhfr8qQGNhbqPAbfnxk",
-   "played_at": "2026-11-02T17:04:02.173Z"
-  },
-  {
-   "name": "Borderline",
-   "artist": "Madonna",
-   "album": "Borderline",
-   "year": 1984,
-   "image": "https://i.scdn.co/image/ab67616d00001e02562ce96025289488ff8ba4b6",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273562ce96025289488ff8ba4b6",
-   "url": "https://open.spotify.com/track/4sfSGt1c19O2LI7lLn272S",
-   "album_url": "https://open.spotify.com/album/6cjHCJvAo9ohp6jsY8QcdQ",
-   "played_at": "2026-11-02T17:00:20.028Z"
-  },
-  {
-   "name": "Rainbow in the Dark",
-   "artist": "Dio",
-   "album": "Holy Diver",
-   "year": 1983,
-   "image": "https://i.scdn.co/image/ab67616d00001e022457ab409ae106f8ae1dff89",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2732457ab409ae106f8ae1dff89",
-   "url": "https://open.spotify.com/track/2PpNgmrS9mAyrkRAwn6YPq",
-   "album_url": "https://open.spotify.com/album/2ivNJLSx8Rbvnsvcn01Yt3",
-   "played_at": "2026-11-02T15:57:35.281Z"
-  },
-  {
-   "name": "Break In",
-   "artist": "Halestorm",
-   "album": "The Strange Case of... (Deluxe)",
-   "year": 2012,
-   "image": "https://i.scdn.co/image/ab67616d00001e02b03ce145dfc370474ce2757a",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273b03ce145dfc370474ce2757a",
-   "url": "https://open.spotify.com/track/5Q7pjvFqm4Pk0voGgutt5G",
-   "album_url": "https://open.spotify.com/album/4TyrGrbnsOVKOXVut2huz2",
-   "played_at": "2026-11-02T15:53:17.827Z"
   }
  ],
  "top_artists": [
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32837,
+   "plays": 32838,
    "covers": [
     {
      "name": "Back In Black",
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 11979,
+   "plays": 11980,
    "covers": [
     {
      "name": "Material Girl",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18585,
+   "plays": 18588,
    "covers": [
     {
      "name": "ERROR",
