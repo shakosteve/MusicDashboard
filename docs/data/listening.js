@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-02T23:10:06Z",
+ "generated": "2026-11-03T04:10:07Z",
  "totals": {
-  "plays": 124763,
+  "plays": 124764,
   "hours": 8481.7,
   "artists": 701,
   "albums": 1519,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Dirty Diana - 2012 Remaster",
+   "artist": "Michael Jackson",
+   "album": "Bad (Remastered)",
+   "year": 1987,
+   "image": "https://i.scdn.co/image/ab67616d00001e02eb2087dcd1eb61f833bdedff",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273eb2087dcd1eb61f833bdedff",
+   "url": "https://open.spotify.com/track/0AcgKF7kbSoCkh3n7vlHwK",
+   "album_url": "https://open.spotify.com/album/3Us57CjssWnHjTUIXBuIeH",
+   "played_at": "2026-11-02T23:18:15.058Z"
+  },
   {
    "name": "Abracadabra",
    "artist": "Steve Miller Band",
@@ -525,17 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/22CIOfLZB9z8He7WgHYAgH",
    "album_url": "https://open.spotify.com/album/5gMrkmI53zEn98WDwU0iye",
    "played_at": "2026-11-02T15:14:27.343Z"
-  },
-  {
-   "name": "Time Passages",
-   "artist": "Al Stewart",
-   "album": "Time Passages",
-   "year": 1978,
-   "image": "https://i.scdn.co/image/ab67616d00001e0287cd60f090f08ec6f6051144",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27387cd60f090f08ec6f6051144",
-   "url": "https://open.spotify.com/track/5zVKisBri6JH1fooBhUaVq",
-   "album_url": "https://open.spotify.com/album/5moFY0K48zOBW37SsThYL0",
-   "played_at": "2026-11-02T15:10:26.430Z"
   }
  ],
  "top_artists": [
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32834,
+   "plays": 32835,
    "covers": [
     {
      "name": "Back In Black",
