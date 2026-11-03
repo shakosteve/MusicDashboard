@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-03T12:40:07Z",
+ "generated": "2026-11-03T13:10:05Z",
  "totals": {
   "plays": 124764,
   "hours": 8481.7,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Danica McKellar: Finding God Cured My Anxiety",
+   "show": "Adam Carolla Show",
+   "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
+   "release_date": "2026-11-03",
+   "duration_ms": 6423536,
+   "image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f",
+   "first_seen": "2026-11-03T13:10:03Z",
+   "progress_ms": 936662,
+   "last_seen": "2026-11-03T13:10:03Z",
+   "url": "https://open.spotify.com/episode/3HsdDcOkMUE7XeYDN4eDdZ",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
+  },
+  {
    "name": "#2110 - SHOCKING Health Secrets with Anna Vocino | Part 2",
    "show": "The Adam and Dr. Drew Show",
    "show_uri": "spotify:show:3VN4vP6TztxK3wtT8b9aQL",
@@ -1631,19 +1644,6 @@ window.LISTENING = {
    "progress_ms": 1445824,
    "last_seen": "2026-10-31T11:40:03Z",
    "url": "https://open.spotify.com/episode/48emIw5Hnv1tWsr4UZGNkY",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fc306eb9be2f4da68a4f7f2be"
-  },
-  {
-   "name": "Kennedy Classic: How Pottery & Quilting Are Saving Gen Z from Smartphone Addiction",
-   "show": "Kennedy Saves the World",
-   "show_uri": "spotify:show:5DEwjZIkxrUhkM1nlqLagd",
-   "release_date": "2026-10-28",
-   "duration_ms": 521130,
-   "image": "https://i.scdn.co/image/ab67656300005f1fc306eb9be2f4da68a4f7f2be",
-   "first_seen": "2026-10-31T01:40:03Z",
-   "progress_ms": 521130,
-   "last_seen": "2026-10-31T01:40:03Z",
-   "url": "https://open.spotify.com/episode/0svFHdvTg2zTCFGRU8UOw3",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fc306eb9be2f4da68a4f7f2be"
   }
  ],
