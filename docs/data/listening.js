@@ -1,14 +1,91 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-03T17:10:06Z",
+ "generated": "2026-11-03T17:40:07Z",
  "totals": {
-  "plays": 124793,
-  "hours": 8483.6,
+  "plays": 124800,
+  "hours": 8484.0,
   "artists": 701,
-  "albums": 1519,
+  "albums": 1520,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Talk Dirty To Me",
+   "artist": "Poison",
+   "album": "Look What The Cat Dragged In - 20th Anniversary Edition",
+   "year": 1986,
+   "image": "https://i.scdn.co/image/ab67616d00001e02d007e25f2264718c5a9dde34",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273d007e25f2264718c5a9dde34",
+   "url": "https://open.spotify.com/track/08QP0rwnQSbbpGRIuXfrAY",
+   "album_url": "https://open.spotify.com/album/2SkbSj0eZ2H5uqKYEnMmIe",
+   "played_at": "2026-11-03T17:34:23.740Z"
+  },
+  {
+   "name": "Under Pressure (feat. David Bowie)",
+   "artist": "Queen, David Bowie",
+   "album": "Hot Space",
+   "year": 1982,
+   "image": "https://i.scdn.co/image/ab67616d00001e0244c0a9843fac69db4d56d14e",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27344c0a9843fac69db4d56d14e",
+   "url": "https://open.spotify.com/track/2nrG5UtAcqXbYttu7MXP1p",
+   "album_url": "https://open.spotify.com/album/4pFJdTvK6zNyWOO3W1hkGd",
+   "played_at": "2026-11-03T17:30:39.512Z"
+  },
+  {
+   "name": "Back In The High Life Again",
+   "artist": "Steve Winwood",
+   "album": "Back In The High Life",
+   "year": 1986,
+   "image": "https://i.scdn.co/image/ab67616d00001e028362a7a26eaf279f336f1494",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2738362a7a26eaf279f336f1494",
+   "url": "https://open.spotify.com/track/1Bj6YgjjPbEb4jhQ50T8tJ",
+   "album_url": "https://open.spotify.com/album/1VV4tdUYIjRlhKxu1gMw4d",
+   "played_at": "2026-11-03T17:26:32.889Z"
+  },
+  {
+   "name": "It Ain't Me Babe",
+   "artist": "Joaquin Phoenix, Reese Witherspoon",
+   "album": "Walk The Line (Original Motion Picture Soundtrack)",
+   "year": 2005,
+   "image": "https://i.scdn.co/image/ab67616d00001e020ff166bfd4a462cc7f4068a6",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2730ff166bfd4a462cc7f4068a6",
+   "url": "https://open.spotify.com/track/0jasbGRELTM14tJi9SxGGF",
+   "album_url": "https://open.spotify.com/album/6ICcWbsZxt5fVG02IbZuZg",
+   "played_at": "2026-11-03T17:20:56.486Z"
+  },
+  {
+   "name": "Sharp Dressed Man (2008 Remaster)",
+   "artist": "ZZ Top",
+   "album": "Eliminator",
+   "year": 1983,
+   "image": "https://i.scdn.co/image/ab67616d00001e02a2b4f98f60e3cacf3866b2e3",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273a2b4f98f60e3cacf3866b2e3",
+   "url": "https://open.spotify.com/track/0bRNszTbTFLNlunAeh7eom",
+   "album_url": "https://open.spotify.com/album/4KW6YVbF8E3kexYcl0k4IK",
+   "played_at": "2026-11-03T17:17:50.480Z"
+  },
+  {
+   "name": "Sweet Caroline",
+   "artist": "Neil Diamond",
+   "album": "Sweet Caroline",
+   "year": 1969,
+   "image": "https://i.scdn.co/image/ab67616d00001e024d1a7a3e5043173883653ffc",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2734d1a7a3e5043173883653ffc",
+   "url": "https://open.spotify.com/track/62AuGbAkt8Ox2IrFFb8GKV",
+   "album_url": "https://open.spotify.com/album/6RfgcwsOUlWkGNAd6zjjYd",
+   "played_at": "2026-11-03T17:13:31.993Z"
+  },
+  {
+   "name": "Barracuda",
+   "artist": "Heart",
+   "album": "Little Queen",
+   "year": 1977,
+   "image": "https://i.scdn.co/image/ab67616d00001e0266e2e0df78c4ec35a8ed20a0",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27366e2e0df78c4ec35a8ed20a0",
+   "url": "https://open.spotify.com/track/4KfSdst7rW39C0sfhArdrz",
+   "album_url": "https://open.spotify.com/album/1LaeNhiUpL3X6N0LcFvuDF",
+   "played_at": "2026-11-03T17:10:07.790Z"
+  },
   {
    "name": "Still Got This Thing",
    "artist": "Alannah Myles",
@@ -459,83 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/0MYNeFsKpzBHwrJGfWZysV",
    "album_url": "https://open.spotify.com/album/0NGM3Ftwjw0dLNpAowmz3x",
    "played_at": "2026-11-02T19:57:36.974Z"
-  },
-  {
-   "name": "Cherish",
-   "artist": "Madonna",
-   "album": "The Immaculate Collection",
-   "year": 1990,
-   "image": "https://i.scdn.co/image/ab67616d00001e02e275f1fbda1c7bc82f9c386b",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273e275f1fbda1c7bc82f9c386b",
-   "url": "https://open.spotify.com/track/6WjrgHvISFS0Oj3vk3XLiE",
-   "album_url": "https://open.spotify.com/album/5MzwGwnO9gkh0z6Nl4FF8h",
-   "played_at": "2026-11-02T19:53:10.334Z"
-  },
-  {
-   "name": "Aqualung",
-   "artist": "Jethro Tull",
-   "album": "Aqualung (Special Edition)",
-   "year": 1971,
-   "image": "https://i.scdn.co/image/ab67616d00001e028bc3269ba09264dcf9a5b924",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2738bc3269ba09264dcf9a5b924",
-   "url": "https://open.spotify.com/track/5UuikgHTxSRFRnC0zXx10i",
-   "album_url": "https://open.spotify.com/album/0NGM3Ftwjw0dLNpAowmz3x",
-   "played_at": "2026-11-02T19:49:17.289Z"
-  },
-  {
-   "name": "Africa",
-   "artist": "TOTO",
-   "album": "Toto IV",
-   "year": 1982,
-   "image": "https://i.scdn.co/image/ab67616d00001e02ebd6d20c0082524244ef83df",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273ebd6d20c0082524244ef83df",
-   "url": "https://open.spotify.com/track/2374M0fQpWi3dLnB54qaLX",
-   "album_url": "https://open.spotify.com/album/62U7xIHcID94o20Of5ea4D",
-   "played_at": "2026-11-02T19:42:40.630Z"
-  },
-  {
-   "name": "Hey Joe",
-   "artist": "Jimi Hendrix",
-   "album": "Are You Experienced",
-   "year": 1967,
-   "image": "https://i.scdn.co/image/ab67616d00001e02c9adfbd773852e286faed040",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273c9adfbd773852e286faed040",
-   "url": "https://open.spotify.com/track/0NWPxcsf5vdjdiFUI8NgkP",
-   "album_url": "https://open.spotify.com/album/7rSZXXHHvIhF4yUFdaOCy9",
-   "played_at": "2026-11-02T19:37:44.796Z"
-  },
-  {
-   "name": "Crazy On You",
-   "artist": "Heart",
-   "album": "Dreamboat Annie",
-   "year": 1975,
-   "image": "https://i.scdn.co/image/ab67616d00001e028e8c08ca2feb999bb84f05e6",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2738e8c08ca2feb999bb84f05e6",
-   "url": "https://open.spotify.com/track/5zH710lFSLtkHbMkslLDjR",
-   "album_url": "https://open.spotify.com/album/2N0AgtWbCmVoNUl2GN1opH",
-   "played_at": "2026-11-02T19:34:14.077Z"
-  },
-  {
-   "name": "Both Sides Now",
-   "artist": "Jackie Evancho",
-   "album": "Both Sides Now",
-   "year": 2022,
-   "image": "https://i.scdn.co/image/ab67616d00001e02ccbc69ffa3bab593a3a34564",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273ccbc69ffa3bab593a3a34564",
-   "url": "https://open.spotify.com/track/3Phl3f1Qnt2c7FQdLQq0NQ",
-   "album_url": "https://open.spotify.com/album/5Bp0BnoT1qHhqhEVcFnEVH",
-   "played_at": "2026-11-02T19:29:20.204Z"
-  },
-  {
-   "name": "Pour Some Sugar On Me - Remastered 2017",
-   "artist": "Def Leppard",
-   "album": "Hysteria (Super Deluxe)",
-   "year": 1987,
-   "image": "https://i.scdn.co/image/ab67616d00001e02222cb38afc3b3b47d9df26aa",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273222cb38afc3b3b47d9df26aa",
-   "url": "https://open.spotify.com/track/0PdM2a6oIjqepoEfcJo0RO",
-   "album_url": "https://open.spotify.com/album/31oeDyCOLhgeZyktfxo0pE",
-   "played_at": "2026-11-02T18:58:03.980Z"
   }
  ],
  "top_artists": [
@@ -583,13 +583,13 @@ window.LISTENING = {
   },
   {
    "name": "Heart",
-   "plays": 1923,
+   "plays": 1924,
    "url": "https://open.spotify.com/artist/34jw2BbxjoYalTp8cJFCPv",
    "image": "https://i.scdn.co/image/ab67616d00001e0266e2e0df78c4ec35a8ed20a0"
   },
   {
    "name": "Queen",
-   "plays": 1914,
+   "plays": 1915,
    "url": "https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d",
    "image": "https://i.scdn.co/image/ab67616d00001e0207744e2ed983efa3e6620a47"
   },
@@ -720,7 +720,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b27366e2e0df78c4ec35a8ed20a0",
    "url": "https://open.spotify.com/track/4KfSdst7rW39C0sfhArdrz",
    "album_url": "https://open.spotify.com/album/1LaeNhiUpL3X6N0LcFvuDF",
-   "plays": 909
+   "plays": 910
   },
   {
    "name": "My Kinda Lover - Remastered 2010",
@@ -832,7 +832,7 @@ window.LISTENING = {
   },
   {
    "decade": 1960,
-   "plays": 7051,
+   "plays": 7052,
    "covers": [
     {
      "name": "Your Time Is Gonna Come - 1990 Remaster",
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28612,
+   "plays": 28613,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -948,7 +948,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b27366e2e0df78c4ec35a8ed20a0",
      "url": "https://open.spotify.com/track/4KfSdst7rW39C0sfhArdrz",
      "album_url": "https://open.spotify.com/album/1LaeNhiUpL3X6N0LcFvuDF",
-     "plays": 909
+     "plays": 910
     },
     {
      "name": "Iron Man - 2012 - Remaster",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32839,
+   "plays": 32843,
    "covers": [
     {
      "name": "Back In Black",
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 11982,
+   "plays": 11983,
    "covers": [
     {
      "name": "Material Girl",
@@ -1230,7 +1230,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2730ff166bfd4a462cc7f4068a6",
      "url": "https://open.spotify.com/track/7bh6o0jqTn2Bh0M7vHln6f",
      "album_url": "https://open.spotify.com/album/6ICcWbsZxt5fVG02IbZuZg",
-     "plays": 880
+     "plays": 881
     },
     {
      "name": "My Immortal",
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Danica McKellar: Finding God Cured My Anxiety",
+   "show": "Adam Carolla Show",
+   "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
+   "release_date": "2026-11-03",
+   "duration_ms": 6423536,
+   "image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f",
+   "first_seen": "2026-11-03T13:10:03Z",
+   "progress_ms": 4033819,
+   "last_seen": "2026-11-03T17:40:04Z",
+   "url": "https://open.spotify.com/episode/3HsdDcOkMUE7XeYDN4eDdZ",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
+  },
+  {
    "name": "#2110 - SHOCKING Health Secrets with Anna Vocino | Part 2",
    "show": "The Adam and Dr. Drew Show",
    "show_uri": "spotify:show:3VN4vP6TztxK3wtT8b9aQL",
@@ -1515,19 +1528,6 @@ window.LISTENING = {
    "last_seen": "2026-11-03T14:10:05Z",
    "url": "https://open.spotify.com/episode/2mAudvC0n6AyuWl542Wtj9",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
-  },
-  {
-   "name": "Danica McKellar: Finding God Cured My Anxiety",
-   "show": "Adam Carolla Show",
-   "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
-   "release_date": "2026-11-03",
-   "duration_ms": 6423536,
-   "image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f",
-   "first_seen": "2026-11-03T13:10:03Z",
-   "progress_ms": 3902100,
-   "last_seen": "2026-11-03T14:10:04Z",
-   "url": "https://open.spotify.com/episode/3HsdDcOkMUE7XeYDN4eDdZ",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
   },
   {
    "name": "Iran vows ‘no limits’ war as Trump threatens Pickaxe Mountain strikes",
