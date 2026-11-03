@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-03T15:10:06Z",
+ "generated": "2026-11-03T15:40:04Z",
  "totals": {
-  "plays": 124773,
+  "plays": 124774,
   "hours": 8482.3,
   "artists": 701,
   "albums": 1519,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "MORE",
+   "artist": "The Warning",
+   "album": "Keep Me Fed",
+   "year": 2024,
+   "image": "https://i.scdn.co/image/ab67616d00001e0293c50048dce0f88071728c8c",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27393c50048dce0f88071728c8c",
+   "url": "https://open.spotify.com/track/5IDRSA83ayUGCCRdfdl04z",
+   "album_url": "https://open.spotify.com/album/1rYHznqLeJVXuy0YqwERGv",
+   "played_at": "2026-11-03T15:39:34.574Z"
+  },
   {
    "name": "Wherever You May Go - 2024 Remix",
    "artist": "Whitesnake",
@@ -525,23 +536,12 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/5Q7pjvFqm4Pk0voGgutt5G",
    "album_url": "https://open.spotify.com/album/4TyrGrbnsOVKOXVut2huz2",
    "played_at": "2026-11-02T15:53:17.827Z"
-  },
-  {
-   "name": "Come On",
-   "artist": "The Sixsters",
-   "album": "Етюди",
-   "year": 2021,
-   "image": "https://i.scdn.co/image/ab67616d00001e02bb762e29a9bb34ff09134256",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273bb762e29a9bb34ff09134256",
-   "url": "https://open.spotify.com/track/4fVyOWxMI6dCIOFbbcALtA",
-   "album_url": "https://open.spotify.com/album/5ylsDPMjSjP1ep0OLGYqA6",
-   "played_at": "2026-11-02T15:48:31.993Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10661,
+   "plays": 10662,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18584,
+   "plays": 18585,
    "covers": [
     {
      "name": "ERROR",
