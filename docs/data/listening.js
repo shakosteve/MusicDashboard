@@ -1,14 +1,80 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-03T16:40:06Z",
+ "generated": "2026-11-03T17:10:06Z",
  "totals": {
-  "plays": 124787,
-  "hours": 8483.1,
+  "plays": 124793,
+  "hours": 8483.6,
   "artists": 701,
   "albums": 1519,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Still Got This Thing",
+   "artist": "Alannah Myles",
+   "album": "Alannah Myles",
+   "year": 1989,
+   "image": "https://i.scdn.co/image/ab67616d00001e02c45bb46127a23d1beeead273",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273c45bb46127a23d1beeead273",
+   "url": "https://open.spotify.com/track/1ogO2Wj9qEMMjo7UDejvsh",
+   "album_url": "https://open.spotify.com/album/552joC0kVpcbJm7LFLqGDm",
+   "played_at": "2026-11-03T17:05:45.888Z"
+  },
+  {
+   "name": "Give Me One Reason",
+   "artist": "Tracy Chapman",
+   "album": "New Beginning",
+   "year": 1995,
+   "image": "https://i.scdn.co/image/ab67616d00001e026b38571f15487588ed53032f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2736b38571f15487588ed53032f",
+   "url": "https://open.spotify.com/track/4vDBJeeQCbhP9FaPPMsYkY",
+   "album_url": "https://open.spotify.com/album/3XsOzkIBoHsxZ7jP3QF2oB",
+   "played_at": "2026-11-03T17:01:08.198Z"
+  },
+  {
+   "name": "A Thousand Miles",
+   "artist": "Vanessa Carlton",
+   "album": "Be Not Nobody",
+   "year": 2002,
+   "image": "https://i.scdn.co/image/ab67616d00001e02bc3ada3a19bb4e657f10917e",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273bc3ada3a19bb4e657f10917e",
+   "url": "https://open.spotify.com/track/4w1lzcaoZ1IC2K5TwjalRP",
+   "album_url": "https://open.spotify.com/album/5e7T2qUigzt0oIr50KsOld",
+   "played_at": "2026-11-03T16:56:39.490Z"
+  },
+  {
+   "name": "Me and Bobby McGee",
+   "artist": "Janis Joplin",
+   "album": "Pearl (Legacy Edition)",
+   "year": 1971,
+   "image": "https://i.scdn.co/image/ab67616d00001e026f8c26346723dd0531696bed",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2736f8c26346723dd0531696bed",
+   "url": "https://open.spotify.com/track/1IqFh00G2kvvMm8pRMpehA",
+   "album_url": "https://open.spotify.com/album/3j7nicLAWXM0Fb08q9XGyf",
+   "played_at": "2026-11-03T16:52:41.332Z"
+  },
+  {
+   "name": "Tears in Heaven",
+   "artist": "Eric Clapton",
+   "album": "Rush (Music from the Motion Picture Soundtrack)",
+   "year": 1992,
+   "image": "https://i.scdn.co/image/ab67616d00001e0244cb13558d57f5a066fac381",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27344cb13558d57f5a066fac381",
+   "url": "https://open.spotify.com/track/1kgdslQYmeTR4thk9whoRw",
+   "album_url": "https://open.spotify.com/album/5uKWy85xmgOuRrWuXr98b2",
+   "played_at": "2026-11-03T16:48:09.570Z"
+  },
+  {
+   "name": "Lady - Remastered 2022",
+   "artist": "Little River Band",
+   "album": "Sleeper Catcher (Remastered 2022)",
+   "year": 1978,
+   "image": "https://i.scdn.co/image/ab67616d00001e02ad53be7d2ec379399660c1ec",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273ad53be7d2ec379399660c1ec",
+   "url": "https://open.spotify.com/track/23TrwDkYnBPea6i6FPd6Wd",
+   "album_url": "https://open.spotify.com/album/5XXymqS9NunPlUbovZK8WJ",
+   "played_at": "2026-11-03T16:43:37.328Z"
+  },
   {
    "name": "Right Down the Line",
    "artist": "Gerry Rafferty",
@@ -470,72 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/0PdM2a6oIjqepoEfcJo0RO",
    "album_url": "https://open.spotify.com/album/31oeDyCOLhgeZyktfxo0pE",
    "played_at": "2026-11-02T18:58:03.980Z"
-  },
-  {
-   "name": "Smooth (feat. Rob Thomas)",
-   "artist": "Santana, Rob Thomas",
-   "album": "Supernatural (Remastered)",
-   "year": 1999,
-   "image": "https://i.scdn.co/image/ab67616d00001e0247eb3ea5a92904c19e102e54",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27347eb3ea5a92904c19e102e54",
-   "url": "https://open.spotify.com/track/0n2SEXB2qoRQg171q7XqeW",
-   "album_url": "https://open.spotify.com/album/10aiDpdFGyfCFEcqpx6XTq",
-   "played_at": "2026-11-02T18:53:36.112Z"
-  },
-  {
-   "name": "Unmendable",
-   "artist": "The Warning",
-   "album": "XXI Century Blood",
-   "year": 2017,
-   "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
-   "url": "https://open.spotify.com/track/3YPWoSTTdI97QeyjV9t68F",
-   "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
-   "played_at": "2026-11-02T18:48:40.698Z"
-  },
-  {
-   "name": "Nobody's Fool",
-   "artist": "Cinderella",
-   "album": "Night Songs",
-   "year": 1986,
-   "image": "https://i.scdn.co/image/ab67616d00001e028e591199defaa8a0fcfca286",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2738e591199defaa8a0fcfca286",
-   "url": "https://open.spotify.com/track/01Q4wU19hamqnhNjtuvTyI",
-   "album_url": "https://open.spotify.com/album/6Af1uU7Di8q9oHyXpgvrmY",
-   "played_at": "2026-11-02T18:45:05.064Z"
-  },
-  {
-   "name": "Roll Over Beethoven - Live at Wembley Stadium",
-   "artist": "Electric Light Orchestra",
-   "album": "Jeff Lynne's ELO - Wembley or Bust",
-   "year": 2017,
-   "image": "https://i.scdn.co/image/ab67616d00001e02cbc233cd23d3bd3989bb30c7",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273cbc233cd23d3bd3989bb30c7",
-   "url": "https://open.spotify.com/track/48SNVQrgRLqOmId1piQL0f",
-   "album_url": "https://open.spotify.com/album/1XbEZpVOHsd6xzPxbTnMi3",
-   "played_at": "2026-11-02T18:40:17.133Z"
-  },
-  {
-   "name": "Only Love Can Save Me Now [Feat. Matt Cameron & Kim Thayil]",
-   "artist": "The Pretty Reckless, Matt Cameron, Kim Thayil",
-   "album": "Death By Rock And Roll",
-   "year": 2021,
-   "image": "https://i.scdn.co/image/ab67616d00001e02a8045b6cc934e134e99eddd6",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273a8045b6cc934e134e99eddd6",
-   "url": "https://open.spotify.com/track/4jXoiJSLQkAft0L5D1yjDb",
-   "album_url": "https://open.spotify.com/album/2ysgEIHY4aOMMbbu0uV6ey",
-   "played_at": "2026-11-02T18:34:08.249Z"
-  },
-  {
-   "name": "Take on Me",
-   "artist": "a-ha",
-   "album": "Hunting High and Low",
-   "year": 1985,
-   "image": "https://i.scdn.co/image/ab67616d00001e02e8dd4db47e7177c63b0b7d53",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273e8dd4db47e7177c63b0b7d53",
-   "url": "https://open.spotify.com/track/2WfaOiMkCvy7F5fcp2zZ8L",
-   "album_url": "https://open.spotify.com/album/1ER3B6zev5JEAaqhnyyfbf",
-   "played_at": "2026-11-02T18:28:55.603Z"
   }
  ],
  "top_artists": [
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28610,
+   "plays": 28612,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32838,
+   "plays": 32839,
    "covers": [
     {
      "name": "Back In Black",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9689,
+   "plays": 9691,
    "covers": [
     {
      "name": "Amazing",
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 11981,
+   "plays": 11982,
    "covers": [
     {
      "name": "Material Girl",
