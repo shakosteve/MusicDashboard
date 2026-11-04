@@ -1,11 +1,11 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-04T22:40:06Z",
+ "generated": "2026-11-04T23:40:04Z",
  "totals": {
-  "plays": 124829,
-  "hours": 8486.0,
-  "artists": 701,
-  "albums": 1520,
+  "plays": 124876,
+  "hours": 8488.9,
+  "artists": 702,
+  "albums": 1523,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
@@ -329,6 +329,17 @@ window.LISTENING = {
    "played_at": "2026-11-03T21:07:00.222Z"
   },
   {
+   "name": "Borderline",
+   "artist": "Madonna",
+   "album": "Borderline",
+   "year": 1984,
+   "image": "https://i.scdn.co/image/ab67616d00001e02562ce96025289488ff8ba4b6",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273562ce96025289488ff8ba4b6",
+   "url": "https://open.spotify.com/track/4sfSGt1c19O2LI7lLn272S",
+   "album_url": "https://open.spotify.com/album/6cjHCJvAo9ohp6jsY8QcdQ",
+   "played_at": "2026-11-03T17:37:00Z"
+  },
+  {
    "name": "Talk Dirty To Me",
    "artist": "Poison",
    "album": "Look What The Cat Dragged In - 20th Anniversary Edition",
@@ -525,29 +536,18 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/3mj46XKJ2aEm1z7ZvbwyLi",
    "album_url": "https://open.spotify.com/album/1vhib5WLHRVdOpRjiTHk15",
    "played_at": "2026-11-03T16:24:10.276Z"
-  },
-  {
-   "name": "Come On, Let's Go",
-   "artist": "Ritchie Valens",
-   "album": "Ritchie Valens",
-   "year": 1959,
-   "image": "https://i.scdn.co/image/ab67616d00001e02027a47865c8c6215aa72b9df",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273027a47865c8c6215aa72b9df",
-   "url": "https://open.spotify.com/track/4cRfSR0QxDlXRHTKyEOu93",
-   "album_url": "https://open.spotify.com/album/77UI8F1LuhiQaKIL1qOE1W",
-   "played_at": "2026-11-03T16:19:28.686Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10664,
+   "plays": 10670,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
   {
    "name": "AC/DC",
-   "plays": 3988,
+   "plays": 3989,
    "url": "https://open.spotify.com/artist/711MCceyCBcFnzjGY4Q7Un",
    "image": "https://i.scdn.co/image/ab67616d00001e02ff191d7fbdb5a13eaf84132b"
   },
@@ -559,13 +559,13 @@ window.LISTENING = {
   },
   {
    "name": "Led Zeppelin",
-   "plays": 2298,
+   "plays": 2299,
    "url": "https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp",
    "image": "https://i.scdn.co/image/ab67616d00001e02c8a11e48c91a982d086afc69"
   },
   {
    "name": "Madonna",
-   "plays": 2105,
+   "plays": 2106,
    "url": "https://open.spotify.com/artist/6tbjWDEIzxoDsBA1FuhfPW",
    "image": "https://i.scdn.co/image/ab67616d00001e026b44fa8f5415cc4c945117be"
   },
@@ -577,13 +577,13 @@ window.LISTENING = {
   },
   {
    "name": "Steve Miller Band",
-   "plays": 1956,
+   "plays": 1957,
    "url": "https://open.spotify.com/artist/6QtGlUje9TIkLrgPZrESuk",
    "image": "https://i.scdn.co/image/ab67616d00001e02632b907273dba6a6062fb780"
   },
   {
    "name": "Heart",
-   "plays": 1925,
+   "plays": 1928,
    "url": "https://open.spotify.com/artist/34jw2BbxjoYalTp8cJFCPv",
    "image": "https://i.scdn.co/image/ab67616d00001e0266e2e0df78c4ec35a8ed20a0"
   },
@@ -595,7 +595,7 @@ window.LISTENING = {
   },
   {
    "name": "Saving Escape",
-   "plays": 1677,
+   "plays": 1678,
    "url": "https://open.spotify.com/artist/2VfhnjHV7e3M499VPa1w71",
    "image": "https://i.scdn.co/image/ab67616d00001e02a8e9a07f9110e842adaa5c13"
   }
@@ -665,7 +665,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b27309fe21cd518d989e0c31224d",
    "url": "https://open.spotify.com/track/5On0z2PZjPf5x7eB2afLEf",
    "album_url": "https://open.spotify.com/album/0el7KHRPZwYXPwXNeSNdJB",
-   "plays": 1317
+   "plays": 1318
   },
   {
    "name": "More Than a Feeling",
@@ -676,7 +676,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b2738c1fadcc997a65384f34d694",
    "url": "https://open.spotify.com/track/1QEEqeFIZktqIpPI4jSVSF",
    "album_url": "https://open.spotify.com/album/2QLp07RO6anZHmtcKTEvSC",
-   "plays": 1106
+   "plays": 1107
   },
   {
    "name": "Leroy",
@@ -720,7 +720,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b27366e2e0df78c4ec35a8ed20a0",
    "url": "https://open.spotify.com/track/4KfSdst7rW39C0sfhArdrz",
    "album_url": "https://open.spotify.com/album/1LaeNhiUpL3X6N0LcFvuDF",
-   "plays": 910
+   "plays": 911
   },
   {
    "name": "My Kinda Lover - Remastered 2010",
@@ -771,7 +771,7 @@ window.LISTENING = {
   },
   {
    "decade": 1950,
-   "plays": 271,
+   "plays": 272,
    "covers": [
     {
      "name": "Come On, Let's Go",
@@ -793,7 +793,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2738a22827b01e5d68d3736d58b",
      "url": "https://open.spotify.com/track/507IFqPuG8mBQoKebfGG9t",
      "album_url": "https://open.spotify.com/album/18tV6PLXYvVjsdOVk0S7M8",
-     "plays": 50
+     "plays": 51
     },
     {
      "name": "Jackson (with June Carter Cash)",
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28621,
+   "plays": 28639,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -937,7 +937,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2738c1fadcc997a65384f34d694",
      "url": "https://open.spotify.com/track/1QEEqeFIZktqIpPI4jSVSF",
      "album_url": "https://open.spotify.com/album/2QLp07RO6anZHmtcKTEvSC",
-     "plays": 1106
+     "plays": 1107
     },
     {
      "name": "Barracuda",
@@ -948,7 +948,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b27366e2e0df78c4ec35a8ed20a0",
      "url": "https://open.spotify.com/track/4KfSdst7rW39C0sfhArdrz",
      "album_url": "https://open.spotify.com/album/1LaeNhiUpL3X6N0LcFvuDF",
-     "plays": 910
+     "plays": 911
     },
     {
      "name": "Iron Man - 2012 - Remaster",
@@ -959,7 +959,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273d5fccf9ce08b6a1e7d12a222",
      "url": "https://open.spotify.com/track/3IOQZRcEkplCXg6LofKqE9",
      "album_url": "https://open.spotify.com/album/6r7LZXAVueS5DqdrvXJJK7",
-     "plays": 716
+     "plays": 717
     },
     {
      "name": "Crazy On You",
@@ -970,7 +970,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2738e8c08ca2feb999bb84f05e6",
      "url": "https://open.spotify.com/track/5zH710lFSLtkHbMkslLDjR",
      "album_url": "https://open.spotify.com/album/2N0AgtWbCmVoNUl2GN1opH",
-     "plays": 706
+     "plays": 707
     },
     {
      "name": "Stairway to Heaven - Remaster",
@@ -1003,7 +1003,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273c13acd642ba9f6f5f127aa1b",
      "url": "https://open.spotify.com/track/4yugZvBYaoREkJKtbG08Qr",
      "album_url": "https://open.spotify.com/album/51B7LbLWgYLKBVSpkan8Z7",
-     "plays": 501
+     "plays": 503
     },
     {
      "name": "Sweet Emotion",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32846,
+   "plays": 32855,
    "covers": [
     {
      "name": "Back In Black",
@@ -1097,7 +1097,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b27328a00032ff3b86af3d7e0e54",
      "url": "https://open.spotify.com/track/1UBQ5GK8JaQjm5VbkBZY66",
      "album_url": "https://open.spotify.com/album/5LMGAYhn2ywaxGZdtmXGpw",
-     "plays": 675
+     "plays": 676
     },
     {
      "name": "Poison",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9696,
+   "plays": 9697,
    "covers": [
     {
      "name": "Amazing",
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 11985,
+   "plays": 11988,
    "covers": [
     {
      "name": "Material Girl",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15755,
+   "plays": 15762,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18597,
+   "plays": 18605,
    "covers": [
     {
      "name": "ERROR",
@@ -1407,7 +1407,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b27309fe21cd518d989e0c31224d",
      "url": "https://open.spotify.com/track/5On0z2PZjPf5x7eB2afLEf",
      "album_url": "https://open.spotify.com/album/0el7KHRPZwYXPwXNeSNdJB",
-     "plays": 1317
+     "plays": 1318
     },
     {
      "name": "Leroy",
@@ -1429,7 +1429,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2739163a72affa104f29fc576fb",
      "url": "https://open.spotify.com/track/2AxlSslgR8v0Hqq079x7vv",
      "album_url": "https://open.spotify.com/album/1rWkxCNuPFzDRFANL8lLnG",
-     "plays": 529
+     "plays": 530
     },
     {
      "name": "CHOKE - Live from Auditorio Nacional, CDMX",
@@ -1440,7 +1440,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
      "url": "https://open.spotify.com/track/3zgbw0cxkS1DQ36O5hGydt",
      "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
-     "plays": 478
+     "plays": 479
     },
     {
      "name": "Shot In The Dark",
@@ -1490,6 +1490,19 @@ window.LISTENING = {
   }
  ],
  "episodes": [
+  {
+   "name": "Reviewing Voter Data After the Bluenami",
+   "show": "RealClearPolitics Podcast",
+   "show_uri": "spotify:show:5FkNemg3aIaPPNBImIcW2l",
+   "release_date": "2026-11-04",
+   "duration_ms": 3124480,
+   "image": "https://i.scdn.co/image/ab67656300005f1f255a582fbb7e5531b953d635",
+   "first_seen": "2026-11-04T23:40:02Z",
+   "progress_ms": 1546293,
+   "last_seen": "2026-11-04T23:40:02Z",
+   "url": "https://open.spotify.com/episode/2EzQjWJMd2JAGJMOSCHYyI",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fe19edf2c6856b8b09c057f38"
+  },
   {
    "name": "Jamie Lissow: Greg Gutfeld Is Our Carson & What Makes A Great City",
    "show": "Adam Carolla Show",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-02T04:10:03Z",
    "url": "https://open.spotify.com/episode/1ayrg9anuzVuMidTmDkA9W",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f3c4685e830e0ce8b0597e6aa"
-  },
-  {
-   "name": "Michael Clarke: Russia Is Making Its Final Desperate Move - And This Winter Will Decide Everything",
-   "show": "Decoding Geopolitics Podcast with Dominik Presl",
-   "show_uri": "spotify:show:4280ZedhnCYLFurjyzjmco",
-   "release_date": "2026-11-01",
-   "duration_ms": 1632000,
-   "image": "https://i.scdn.co/image/ab67656300005f1fae567258433f5224b4366698",
-   "first_seen": "2026-11-01T17:10:03Z",
-   "progress_ms": 1573309,
-   "last_seen": "2026-11-01T19:40:03Z",
-   "url": "https://open.spotify.com/episode/2zSmwEkgGhMp0XKHfw2l7x",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fab3cb125200d6c73efdfc670"
   }
  ],
  "top_shows": [
@@ -1763,7 +1763,7 @@ window.LISTENING = {
     "image_large": "https://i.scdn.co/image/ab67616d0000b2736954a9b87f2b99b031c0920b",
     "url": "https://open.spotify.com/track/7ECZGiOoEPSxnPBU25Tc3f",
     "album_url": "https://open.spotify.com/album/0hToDKGzPWAXCrr7n2sKlM",
-    "plays": 320,
+    "plays": 322,
     "total": 44,
     "run_back": 35,
     "went_back": 4,
