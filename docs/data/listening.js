@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-04T17:40:07Z",
+ "generated": "2026-11-04T18:10:06Z",
  "totals": {
-  "plays": 124823,
-  "hours": 8485.5,
+  "plays": 124824,
+  "hours": 8485.6,
   "artists": 701,
   "albums": 1520,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Age of Machine",
+   "artist": "Greta Van Fleet",
+   "album": "The Battle at Garden’s Gate",
+   "year": 2021,
+   "image": "https://i.scdn.co/image/ab67616d00001e02339cc033bcc476d11dffba4c",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273339cc033bcc476d11dffba4c",
+   "url": "https://open.spotify.com/track/6XALorRRo9aQdBIQN0UWyn",
+   "album_url": "https://open.spotify.com/album/7kjLKy9JLbwM9F7eDQEnd2",
+   "played_at": "2026-11-04T17:40:12.629Z"
+  },
   {
    "name": "Good Times Bad Times - 1993 Remaster",
    "artist": "Led Zeppelin",
@@ -525,17 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/5Rokkaaomfmom5BOm19A8b",
    "album_url": "https://open.spotify.com/album/615Oddpje0fnkwigsDZYIU",
    "played_at": "2026-11-03T15:49:50.427Z"
-  },
-  {
-   "name": "Don't Let Me Get Me - Radio Edit",
-   "artist": "P!nk",
-   "album": "M!ssundaztood (Expanded Edition)",
-   "year": 2001,
-   "image": "https://i.scdn.co/image/ab67616d00001e029da93c573c5ce2d9deb98e4f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2739da93c573c5ce2d9deb98e4f",
-   "url": "https://open.spotify.com/track/1BfRdnfPYrni7zj4ANodBX",
-   "album_url": "https://open.spotify.com/album/57wJKO7qrPw56iOEKhTmg2",
-   "played_at": "2026-11-03T15:46:08.107Z"
   }
  ],
  "top_artists": [
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18596,
+   "plays": 18597,
    "covers": [
     {
      "name": "ERROR",
@@ -1462,7 +1462,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273339cc033bcc476d11dffba4c",
      "url": "https://open.spotify.com/track/3RQjHiFJnKQKFKjQ7XI8DD",
      "album_url": "https://open.spotify.com/album/7kjLKy9JLbwM9F7eDQEnd2",
-     "plays": 443
+     "plays": 444
     },
     {
      "name": "You Suck, Baby",
