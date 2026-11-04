@@ -1,14 +1,102 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-04T16:40:05Z",
+ "generated": "2026-11-04T17:10:05Z",
  "totals": {
-  "plays": 124808,
-  "hours": 8484.6,
+  "plays": 124816,
+  "hours": 8485.1,
   "artists": 701,
   "albums": 1520,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Death By Rock And Roll",
+   "artist": "The Pretty Reckless",
+   "album": "Death By Rock And Roll",
+   "year": 2021,
+   "image": "https://i.scdn.co/image/ab67616d00001e02a8045b6cc934e134e99eddd6",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273a8045b6cc934e134e99eddd6",
+   "url": "https://open.spotify.com/track/6ISZ6sKcNBdYJS7XYHm5cV",
+   "album_url": "https://open.spotify.com/album/2ysgEIHY4aOMMbbu0uV6ey",
+   "played_at": "2026-11-04T17:08:42.833Z"
+  },
+  {
+   "name": "Folsom Prison Blues",
+   "artist": "Joaquin Phoenix",
+   "album": "Walk The Line (Original Motion Picture Soundtrack)",
+   "year": 2005,
+   "image": "https://i.scdn.co/image/ab67616d00001e020ff166bfd4a462cc7f4068a6",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2730ff166bfd4a462cc7f4068a6",
+   "url": "https://open.spotify.com/track/7bh6o0jqTn2Bh0M7vHln6f",
+   "album_url": "https://open.spotify.com/album/6ICcWbsZxt5fVG02IbZuZg",
+   "played_at": "2026-11-04T17:04:47.939Z"
+  },
+  {
+   "name": "EVOLVE - Live from Auditorio Nacional, CDMX",
+   "artist": "The Warning",
+   "album": "Live from Auditorio Nacional, CDMX",
+   "year": 2025,
+   "image": "https://i.scdn.co/image/ab67616d00001e025cda6d880ec3968aa6b6ac2f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
+   "url": "https://open.spotify.com/track/5s6qXpfXp9aO0UM4YEy1hE",
+   "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
+   "played_at": "2026-11-04T17:01:55.210Z"
+  },
+  {
+   "name": "Too Young to Fall in Love",
+   "artist": "Mötley Crüe",
+   "album": "Shout At The Devil",
+   "year": 1983,
+   "image": "https://i.scdn.co/image/ab67616d00001e0232d1c00a69d70510d18a032e",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27332d1c00a69d70510d18a032e",
+   "url": "https://open.spotify.com/track/08zvzy2FD1V0wFn8mhiQaH",
+   "album_url": "https://open.spotify.com/album/61tegsknhtO0WKmkyPqvly",
+   "played_at": "2026-11-04T16:58:13.610Z"
+  },
+  {
+   "name": "Teach Your Children",
+   "artist": "Crosby, Stills, Nash & Young",
+   "album": "Deja Vu",
+   "year": 1970,
+   "image": "https://i.scdn.co/image/ab67616d00001e0206e00756085191abc01e4cf0",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27306e00756085191abc01e4cf0",
+   "url": "https://open.spotify.com/track/29HaKOpeLSYvqdFyEQSRdj",
+   "album_url": "https://open.spotify.com/album/5bHkK1X4WEOzNvRhehvOcb",
+   "played_at": "2026-11-04T16:54:37.537Z"
+  },
+  {
+   "name": "Crazy On You",
+   "artist": "Heart",
+   "album": "Dreamboat Annie",
+   "year": 1975,
+   "image": "https://i.scdn.co/image/ab67616d00001e028e8c08ca2feb999bb84f05e6",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2738e8c08ca2feb999bb84f05e6",
+   "url": "https://open.spotify.com/track/5zH710lFSLtkHbMkslLDjR",
+   "album_url": "https://open.spotify.com/album/2N0AgtWbCmVoNUl2GN1opH",
+   "played_at": "2026-11-04T16:51:43.522Z"
+  },
+  {
+   "name": "Tall Cool One - 2006 Remaster",
+   "artist": "Robert Plant",
+   "album": "Now and Zen",
+   "year": 2007,
+   "image": "https://i.scdn.co/image/ab67616d00001e02237101c710f6d7155dbf6c0f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273237101c710f6d7155dbf6c0f",
+   "url": "https://open.spotify.com/track/6vejDalRlBqPrr7s3iwi9U",
+   "album_url": "https://open.spotify.com/album/7MwPi2NpS2OoZ8K1h5tmXV",
+   "played_at": "2026-11-04T16:46:49.629Z"
+  },
+  {
+   "name": "Rumour Has It",
+   "artist": "Adele",
+   "album": "21",
+   "year": 2011,
+   "image": "https://i.scdn.co/image/ab67616d00001e027e7e5dd9d1ab19fcded8a17f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2737e7e5dd9d1ab19fcded8a17f",
+   "url": "https://open.spotify.com/track/2A73XBDBQgmdXO8VsXPWIs",
+   "album_url": "https://open.spotify.com/album/0Lg1uZvI312TPqxNWShFXL",
+   "played_at": "2026-11-04T16:42:10.631Z"
+  },
   {
    "name": "Broken Bells",
    "artist": "Greta Van Fleet",
@@ -448,100 +536,12 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/6UYVDYeTRGYULthAwMIpYB",
    "album_url": "https://open.spotify.com/album/4pIYJsJ8GkYWM1rvqy45ug",
    "played_at": "2026-11-03T14:28:13.771Z"
-  },
-  {
-   "name": "Love the One You're With",
-   "artist": "Crosby, Stills & Nash",
-   "album": "Replay",
-   "year": 1980,
-   "image": "https://i.scdn.co/image/ab67616d00001e021fce24e5e0896809397a3210",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2731fce24e5e0896809397a3210",
-   "url": "https://open.spotify.com/track/6kXGGyEPSRS1g9Ltm70jo9",
-   "album_url": "https://open.spotify.com/album/1ZMa2C7vUFFCqX8xcFuFX3",
-   "played_at": "2026-11-03T14:23:29.186Z"
-  },
-  {
-   "name": "Automatic Sun",
-   "artist": "The Warning",
-   "album": "Automatic Sun",
-   "year": 2024,
-   "image": "https://i.scdn.co/image/ab67616d00001e02c182aaf9aa95dab76259045d",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273c182aaf9aa95dab76259045d",
-   "url": "https://open.spotify.com/track/3p8SLhMdp3M5cusqAp6H3L",
-   "album_url": "https://open.spotify.com/album/1j7amuuid5B0Hf9I6I1PLZ",
-   "played_at": "2026-11-03T14:20:24.104Z"
-  },
-  {
-   "name": "Come Away With Me",
-   "artist": "Norah Jones",
-   "album": "Come Away With Me (Super Deluxe Edition)",
-   "year": 2002,
-   "image": "https://i.scdn.co/image/ab67616d00001e02c648a42b5dad72c8aafceeec",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273c648a42b5dad72c8aafceeec",
-   "url": "https://open.spotify.com/track/6jGnykaS6TkWp15utXSAeI",
-   "album_url": "https://open.spotify.com/album/3ArSFkv4OQOosOvYTrZNIl",
-   "played_at": "2026-11-03T14:17:12.702Z"
-  },
-  {
-   "name": "Tom Sawyer",
-   "artist": "Rush",
-   "album": "Moving Pictures (2011 Remaster)",
-   "year": 1981,
-   "image": "https://i.scdn.co/image/ab67616d00001e0272833c1ae3343cbfb4617073",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27372833c1ae3343cbfb4617073",
-   "url": "https://open.spotify.com/track/3QZ7uX97s82HFYSmQUAN1D",
-   "album_url": "https://open.spotify.com/album/2xg7iIKoSqaDNpDbJnyCjY",
-   "played_at": "2026-11-03T14:13:54.055Z"
-  },
-  {
-   "name": "Dirty Diana - 2012 Remaster",
-   "artist": "Michael Jackson",
-   "album": "Bad (Remastered)",
-   "year": 1987,
-   "image": "https://i.scdn.co/image/ab67616d00001e02eb2087dcd1eb61f833bdedff",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273eb2087dcd1eb61f833bdedff",
-   "url": "https://open.spotify.com/track/0AcgKF7kbSoCkh3n7vlHwK",
-   "album_url": "https://open.spotify.com/album/3Us57CjssWnHjTUIXBuIeH",
-   "played_at": "2026-11-02T23:18:15.058Z"
-  },
-  {
-   "name": "Abracadabra",
-   "artist": "Steve Miller Band",
-   "album": "Abracadabra",
-   "year": 1982,
-   "image": "https://i.scdn.co/image/ab67616d00001e02b80d7868e6e0275d12102508",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273b80d7868e6e0275d12102508",
-   "url": "https://open.spotify.com/track/2E2ZVy2fxslpAUgbb4zu84",
-   "album_url": "https://open.spotify.com/album/0afS7TjKOoq8LzTx9CgOnu",
-   "played_at": "2026-11-02T22:51:46.656Z"
-  },
-  {
-   "name": "Givin the Dog a Bone",
-   "artist": "AC/DC",
-   "album": "Back In Black",
-   "year": 1980,
-   "image": "https://i.scdn.co/image/ab67616d00001e02ff191d7fbdb5a13eaf84132b",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273ff191d7fbdb5a13eaf84132b",
-   "url": "https://open.spotify.com/track/6rAy2MsMUabbqu2VygrblP",
-   "album_url": "https://open.spotify.com/album/6mUdeDZCsExyJLMdAfDuwh",
-   "played_at": "2026-11-02T22:45:32.545Z"
-  },
-  {
-   "name": "Exterminated - Live Session",
-   "artist": "The Warning",
-   "album": "XXI Century Blood",
-   "year": 2017,
-   "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
-   "url": "https://open.spotify.com/track/1ulNyubwfadZFZkAScTnx7",
-   "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
-   "played_at": "2026-11-02T22:41:59.721Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10662,
+   "plays": 10663,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
@@ -583,7 +583,7 @@ window.LISTENING = {
   },
   {
    "name": "Heart",
-   "plays": 1924,
+   "plays": 1925,
    "url": "https://open.spotify.com/artist/34jw2BbxjoYalTp8cJFCPv",
    "image": "https://i.scdn.co/image/ab67616d00001e0266e2e0df78c4ec35a8ed20a0"
   },
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28617,
+   "plays": 28619,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -970,7 +970,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2738e8c08ca2feb999bb84f05e6",
      "url": "https://open.spotify.com/track/5zH710lFSLtkHbMkslLDjR",
      "album_url": "https://open.spotify.com/album/2N0AgtWbCmVoNUl2GN1opH",
-     "plays": 705
+     "plays": 706
     },
     {
      "name": "Stairway to Heaven - Remaster",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32843,
+   "plays": 32844,
    "covers": [
     {
      "name": "Back In Black",
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 11983,
+   "plays": 11985,
    "covers": [
     {
      "name": "Material Girl",
@@ -1230,7 +1230,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2730ff166bfd4a462cc7f4068a6",
      "url": "https://open.spotify.com/track/7bh6o0jqTn2Bh0M7vHln6f",
      "album_url": "https://open.spotify.com/album/6ICcWbsZxt5fVG02IbZuZg",
-     "plays": 881
+     "plays": 882
     },
     {
      "name": "My Immortal",
@@ -1263,7 +1263,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273237101c710f6d7155dbf6c0f",
      "url": "https://open.spotify.com/track/6vejDalRlBqPrr7s3iwi9U",
      "album_url": "https://open.spotify.com/album/7MwPi2NpS2OoZ8K1h5tmXV",
-     "plays": 254
+     "plays": 255
     },
     {
      "name": "Don't Know Why",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15754,
+   "plays": 15755,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1379,7 +1379,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2737e7e5dd9d1ab19fcded8a17f",
      "url": "https://open.spotify.com/track/1c8gk2PeTE04A1pIDH9YMk",
      "album_url": "https://open.spotify.com/album/0Lg1uZvI312TPqxNWShFXL",
-     "plays": 465
+     "plays": 466
     },
     {
      "name": "N.I.B.",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18591,
+   "plays": 18593,
    "covers": [
     {
      "name": "ERROR",
@@ -1432,17 +1432,6 @@ window.LISTENING = {
      "plays": 529
     },
     {
-     "name": "Shot In The Dark",
-     "artist": "AC/DC",
-     "album": "POWER UP",
-     "year": 2020,
-     "image": "https://i.scdn.co/image/ab67616d00001e026ee202215547101d947d4b9f",
-     "image_large": "https://i.scdn.co/image/ab67616d0000b2736ee202215547101d947d4b9f",
-     "url": "https://open.spotify.com/track/0sfdiwck2xr4PteGOdyOfz",
-     "album_url": "https://open.spotify.com/album/3bTNxJYk2bwdWBMtrjBxb0",
-     "plays": 476
-    },
-    {
      "name": "CHOKE - Live from Auditorio Nacional, CDMX",
      "artist": "The Warning",
      "album": "Live from Auditorio Nacional, CDMX",
@@ -1451,6 +1440,17 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
      "url": "https://open.spotify.com/track/3zgbw0cxkS1DQ36O5hGydt",
      "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
+     "plays": 477
+    },
+    {
+     "name": "Shot In The Dark",
+     "artist": "AC/DC",
+     "album": "POWER UP",
+     "year": 2020,
+     "image": "https://i.scdn.co/image/ab67616d00001e026ee202215547101d947d4b9f",
+     "image_large": "https://i.scdn.co/image/ab67616d0000b2736ee202215547101d947d4b9f",
+     "url": "https://open.spotify.com/track/0sfdiwck2xr4PteGOdyOfz",
+     "album_url": "https://open.spotify.com/album/3bTNxJYk2bwdWBMtrjBxb0",
      "plays": 476
     },
     {
