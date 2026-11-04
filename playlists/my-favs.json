@@ -6,8 +6,8 @@
   "description": "",
   "public": true,
   "followers": 0,
-  "snapshot_id": "AAAC5mguBS/n5DcNQYYjj9Qfyc8XPssm",
-  "fetched": "2026-10-31T17:18:48Z",
+  "snapshot_id": "AAAC50erAOJ2i9jBN1soSZu1uRHMGOWY",
+  "fetched": "2026-11-04T23:32:09Z",
   "tracks": [
     {
       "uri": "spotify:track:08mG3Y1vljYA6bvDt4Wqkj",
@@ -13306,6 +13306,24 @@
       "isrc": "USAT29600038",
       "added_at": "2026-10-12T19:25:15Z",
       "release_date": "1996-10-01",
+      "explicit": false,
+      "is_local": false
+    },
+    {
+      "uri": "spotify:track:7LRMbd3LEoV5wZJvXT1Lwb",
+      "name": "T.N.T.",
+      "artists": [
+        "AC/DC"
+      ],
+      "artist_uris": [
+        "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+      ],
+      "album": "High Voltage",
+      "album_uri": "spotify:album:19AUoKWRAaQYrggVvdQnqq",
+      "duration_ms": 215096,
+      "isrc": "AUAP07600012",
+      "added_at": "2026-11-04T14:21:34Z",
+      "release_date": "1976-05-14",
       "explicit": false,
       "is_local": false
     }

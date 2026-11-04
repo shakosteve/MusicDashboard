@@ -3,7 +3,7 @@
   <title>My Favs</title>
   <creator>Steven</creator>
   <info>https://open.spotify.com/playlist/2SZQM5o7Kw0wkmozPIXufi</info>
-  <date>2026-10-31T17:18:48Z</date>
+  <date>2026-11-04T23:32:09Z</date>
   <trackList>
     <track>
       <title>Back In Black</title>
@@ -6594,6 +6594,15 @@
       <identifier>isrc:USAT29600038</identifier>
       <identifier>spotify:track:5vYA1mW9g2Coh1HUFUSmlb</identifier>
       <info>https://open.spotify.com/track/5vYA1mW9g2Coh1HUFUSmlb</info>
+    </track>
+    <track>
+      <title>T.N.T.</title>
+      <creator>AC/DC</creator>
+      <album>High Voltage</album>
+      <duration>215096</duration>
+      <identifier>isrc:AUAP07600012</identifier>
+      <identifier>spotify:track:7LRMbd3LEoV5wZJvXT1Lwb</identifier>
+      <info>https://open.spotify.com/track/7LRMbd3LEoV5wZJvXT1Lwb</info>
     </track>
   </trackList>
 </playlist>
