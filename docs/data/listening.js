@@ -1,14 +1,80 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-04T16:10:05Z",
+ "generated": "2026-11-04T16:40:05Z",
  "totals": {
-  "plays": 124802,
-  "hours": 8484.2,
+  "plays": 124808,
+  "hours": 8484.6,
   "artists": 701,
   "albums": 1520,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Broken Bells",
+   "artist": "Greta Van Fleet",
+   "album": "Broken Bells",
+   "year": 2021,
+   "image": "https://i.scdn.co/image/ab67616d00001e029163a72affa104f29fc576fb",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2739163a72affa104f29fc576fb",
+   "url": "https://open.spotify.com/track/2AxlSslgR8v0Hqq079x7vv",
+   "album_url": "https://open.spotify.com/album/1rWkxCNuPFzDRFANL8lLnG",
+   "played_at": "2026-11-04T16:38:26.818Z"
+  },
+  {
+   "name": "We've Got Tonight",
+   "artist": "Bob Seger",
+   "album": "Stranger In Town",
+   "year": 1978,
+   "image": "https://i.scdn.co/image/ab67616d00001e02ef063cb80508c55eb443a671",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273ef063cb80508c55eb443a671",
+   "url": "https://open.spotify.com/track/3mj46XKJ2aEm1z7ZvbwyLi",
+   "album_url": "https://open.spotify.com/album/1vhib5WLHRVdOpRjiTHk15",
+   "played_at": "2026-11-04T16:32:35.621Z"
+  },
+  {
+   "name": "Dance the Night Away",
+   "artist": "Van Halen",
+   "album": "Best of Volume 1",
+   "year": 1996,
+   "image": "https://i.scdn.co/image/ab67616d00001e0243de9079ae02773c1fae9a26",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27343de9079ae02773c1fae9a26",
+   "url": "https://open.spotify.com/track/7E8sTX79VcbCaWnCu3jsko",
+   "album_url": "https://open.spotify.com/album/7ndqT6LH9o6YQ5uA7aT0St",
+   "played_at": "2026-11-04T16:27:53.990Z"
+  },
+  {
+   "name": "All That She Wants",
+   "artist": "Ace of Base",
+   "album": "The Sign",
+   "year": 1993,
+   "image": "https://i.scdn.co/image/ab67616d00001e02fda5556cb6981c3113df6175",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273fda5556cb6981c3113df6175",
+   "url": "https://open.spotify.com/track/6kWJvPfC4DgUpRsXKNa9z9",
+   "album_url": "https://open.spotify.com/album/5UwIyIyFzkM7wKeGtRJPgB",
+   "played_at": "2026-11-04T16:24:43.745Z"
+  },
+  {
+   "name": "Fever",
+   "artist": "The Sixsters",
+   "album": "I'm Gonna Be",
+   "year": 2022,
+   "image": "https://i.scdn.co/image/ab67616d00001e020cde6e1513d7528fb789d708",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2730cde6e1513d7528fb789d708",
+   "url": "https://open.spotify.com/track/2UjzN59gFTmybXfT3aeZBh",
+   "album_url": "https://open.spotify.com/album/0Qv3cNebPzkTO8CNcbJLsd",
+   "played_at": "2026-11-04T16:21:12.130Z"
+  },
+  {
+   "name": "Fly Like An Eagle",
+   "artist": "Steve Miller Band",
+   "album": "Fly Like An Eagle",
+   "year": 1976,
+   "image": "https://i.scdn.co/image/ab67616d00001e022fc23e78e87d793054bba090",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2732fc23e78e87d793054bba090",
+   "url": "https://open.spotify.com/track/3e0FzZjTXOUtiJGSClOBrI",
+   "album_url": "https://open.spotify.com/album/0fjJOLqG3v7vXRYhz2wxPC",
+   "played_at": "2026-11-04T16:17:50.540Z"
+  },
   {
    "name": "T.N.T.",
    "artist": "AC/DC",
@@ -470,72 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/1ulNyubwfadZFZkAScTnx7",
    "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
    "played_at": "2026-11-02T22:41:59.721Z"
-  },
-  {
-   "name": "46 and 2",
-   "artist": "O'keefe Music Foundation",
-   "album": "46 and 2",
-   "year": 2015,
-   "image": "https://i.scdn.co/image/ab67616d00001e02c953a05b22cfd7dc11d3d7a6",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273c953a05b22cfd7dc11d3d7a6",
-   "url": "https://open.spotify.com/track/1Mfb4wUz54L6wW900FfWtG",
-   "album_url": "https://open.spotify.com/album/68bP3r8G6e4ej006S1eWmg",
-   "played_at": "2026-11-02T22:38:33.327Z"
-  },
-  {
-   "name": "Cherry Bomb",
-   "artist": "John Mellencamp",
-   "album": "The Lonesome Jubilee",
-   "year": 1987,
-   "image": "https://i.scdn.co/image/ab67616d00001e02070f39b3a5350af6e9fa3780",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273070f39b3a5350af6e9fa3780",
-   "url": "https://open.spotify.com/track/43oPpqzWPSZmeiwYicmzjG",
-   "album_url": "https://open.spotify.com/album/1UiIinWX5c5fxGSpRCvjNR",
-   "played_at": "2026-11-02T20:22:57.996Z"
-  },
-  {
-   "name": "Da Ya Think I'm Sexy?",
-   "artist": "Rod Stewart",
-   "album": "Blondes Have More Fun",
-   "year": 1978,
-   "image": "https://i.scdn.co/image/ab67616d00001e02d6806ddfc58bbaa0cb3e9fa5",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273d6806ddfc58bbaa0cb3e9fa5",
-   "url": "https://open.spotify.com/track/4z7maGZkAonDlXlwo8q69f",
-   "album_url": "https://open.spotify.com/album/38tXOrjXUUfQWWV2DRwMio",
-   "played_at": "2026-11-02T20:18:10.338Z"
-  },
-  {
-   "name": "Mandolin Rain",
-   "artist": "Bruce Hornsby and the Range",
-   "album": "The Way It Is",
-   "year": 1986,
-   "image": "https://i.scdn.co/image/ab67616d00001e026cfad72543b5cf95b5864146",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2736cfad72543b5cf95b5864146",
-   "url": "https://open.spotify.com/track/3T8Ye4NB0MQhcEcxzMdAuH",
-   "album_url": "https://open.spotify.com/album/243jhZJtyIZtEkrD6vhRLn",
-   "played_at": "2026-11-02T20:12:38.464Z"
-  },
-  {
-   "name": "Narcisista",
-   "artist": "The Warning",
-   "album": "Narcisista",
-   "year": 2019,
-   "image": "https://i.scdn.co/image/ab67616d00001e026954a9b87f2b99b031c0920b",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2736954a9b87f2b99b031c0920b",
-   "url": "https://open.spotify.com/track/7ECZGiOoEPSxnPBU25Tc3f",
-   "album_url": "https://open.spotify.com/album/0hToDKGzPWAXCrr7n2sKlM",
-   "played_at": "2026-11-02T20:07:19.125Z"
-  },
-  {
-   "name": "Ring of Fire",
-   "artist": "Johnny Cash",
-   "album": "Ring Of Fire: The Best Of Johnny Cash",
-   "year": 1963,
-   "image": "https://i.scdn.co/image/ab67616d00001e02dfe4bfe695c4192e547e72c7",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273dfe4bfe695c4192e547e72c7",
-   "url": "https://open.spotify.com/track/6YffUZJ2R06kyxyK6onezL",
-   "album_url": "https://open.spotify.com/album/0ucV57dbnqmrGv9d60r6X2",
-   "played_at": "2026-11-02T20:03:06.974Z"
   }
  ],
  "top_artists": [
@@ -571,13 +571,13 @@ window.LISTENING = {
   },
   {
    "name": "Van Halen",
-   "plays": 2049,
+   "plays": 2050,
    "url": "https://open.spotify.com/artist/2cnMpRsOVqtPMfq7YiFE6K",
    "image": "https://i.scdn.co/image/ab67616d00001e02b414c63fb435b622238c15ed"
   },
   {
    "name": "Steve Miller Band",
-   "plays": 1955,
+   "plays": 1956,
    "url": "https://open.spotify.com/artist/6QtGlUje9TIkLrgPZrESuk",
    "image": "https://i.scdn.co/image/ab67616d00001e02632b907273dba6a6062fb780"
   },
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28615,
+   "plays": 28617,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9691,
+   "plays": 9693,
    "covers": [
     {
      "name": "Amazing",
@@ -1169,7 +1169,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273fda5556cb6981c3113df6175",
      "url": "https://open.spotify.com/track/0hrBpAOgrt8RXigk83LLNE",
      "album_url": "https://open.spotify.com/album/5UwIyIyFzkM7wKeGtRJPgB",
-     "plays": 441
+     "plays": 442
     },
     {
      "name": "Walkin' On The Sun",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18589,
+   "plays": 18591,
    "covers": [
     {
      "name": "ERROR",
@@ -1429,7 +1429,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2739163a72affa104f29fc576fb",
      "url": "https://open.spotify.com/track/2AxlSslgR8v0Hqq079x7vv",
      "album_url": "https://open.spotify.com/album/1rWkxCNuPFzDRFANL8lLnG",
-     "plays": 528
+     "plays": 529
     },
     {
      "name": "Shot In The Dark",
