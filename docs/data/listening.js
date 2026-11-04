@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-04T13:40:05Z",
+ "generated": "2026-11-04T15:10:07Z",
  "totals": {
   "plays": 124801,
   "hours": 8484.1,
@@ -1491,19 +1491,6 @@ window.LISTENING = {
  ],
  "episodes": [
   {
-   "name": "Jamie Lissow: Greg Gutfeld Is Our Carson & What Makes A Great City",
-   "show": "Adam Carolla Show",
-   "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
-   "release_date": "2026-11-04",
-   "duration_ms": 6337645,
-   "image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f",
-   "first_seen": "2026-11-04T13:10:03Z",
-   "progress_ms": 3291388,
-   "last_seen": "2026-11-04T13:40:03Z",
-   "url": "https://open.spotify.com/episode/2iz3CQyRPGO5IWJOv15cXz",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
-  },
-  {
    "name": "Midterms-palooza 2026: An Election Night Special Report!",
    "show": "The Powers That Be: Daily",
    "show_uri": "spotify:show:5ZChG4x3aogGtKGkxU6nMH",
@@ -1511,10 +1498,23 @@ window.LISTENING = {
    "duration_ms": 1844662,
    "image": "https://i.scdn.co/image/ab67656300005f1f36f39d45bf295cbf58d41331",
    "first_seen": "2026-11-04T12:10:03Z",
-   "progress_ms": 1779906,
-   "last_seen": "2026-11-04T12:40:04Z",
+   "progress_ms": 2019760,
+   "last_seen": "2026-11-04T15:10:04Z",
    "url": "https://open.spotify.com/episode/3164sQ06w3Cw41nVrpColM",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f55386ae3fe554333e1a85785"
+  },
+  {
+   "name": "Jamie Lissow: Greg Gutfeld Is Our Carson & What Makes A Great City",
+   "show": "Adam Carolla Show",
+   "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
+   "release_date": "2026-11-04",
+   "duration_ms": 6337645,
+   "image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f",
+   "first_seen": "2026-11-04T13:10:03Z",
+   "progress_ms": 3291646,
+   "last_seen": "2026-11-04T15:10:04Z",
+   "url": "https://open.spotify.com/episode/2iz3CQyRPGO5IWJOv15cXz",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
   },
   {
    "name": "Is MAGA done with Trump?",
