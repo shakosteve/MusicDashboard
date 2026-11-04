@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-04T12:40:07Z",
+ "generated": "2026-11-04T13:10:07Z",
  "totals": {
   "plays": 124801,
   "hours": 8484.1,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Jamie Lissow: Greg Gutfeld Is Our Carson & What Makes A Great City",
+   "show": "Adam Carolla Show",
+   "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
+   "release_date": "2026-11-04",
+   "duration_ms": 6337645,
+   "image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f",
+   "first_seen": "2026-11-04T13:10:03Z",
+   "progress_ms": 1480829,
+   "last_seen": "2026-11-04T13:10:03Z",
+   "url": "https://open.spotify.com/episode/2iz3CQyRPGO5IWJOv15cXz",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
+  },
+  {
    "name": "Midterms-palooza 2026: An Election Night Special Report!",
    "show": "The Powers That Be: Daily",
    "show_uri": "spotify:show:5ZChG4x3aogGtKGkxU6nMH",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-01T19:40:03Z",
    "url": "https://open.spotify.com/episode/2zSmwEkgGhMp0XKHfw2l7x",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fab3cb125200d6c73efdfc670"
-  },
-  {
-   "name": "Putin hails Musk the 'genius' as Moscow builds its own version of Starlink",
-   "show": "Ukraine: The Latest",
-   "show_uri": "spotify:show:6cnkk1J0I1UqtxTYVUL4Fe",
-   "release_date": "2026-10-29",
-   "duration_ms": 2902961,
-   "image": "https://i.scdn.co/image/ab67656300005f1fbb54afc4dc5ba94d3d1c901d",
-   "first_seen": "2026-11-01T14:40:03Z",
-   "progress_ms": 3045309,
-   "last_seen": "2026-11-01T17:40:03Z",
-   "url": "https://open.spotify.com/episode/6l4cHPhuvSEirn2ZAGIYgi",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f78954c21afd24c90334deba4"
   }
  ],
  "top_shows": [
