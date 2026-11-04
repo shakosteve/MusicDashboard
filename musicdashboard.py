@@ -59,6 +59,7 @@ from email.message import EmailMessage
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from pathlib import Path
 from urllib.parse import parse_qs, urlencode, urlparse
+from xml.sax.saxutils import escape as xml_escape
 
 import requests
 
@@ -495,8 +496,8 @@ def fetch_playlist(session, found, delay=0.2):
 
 
 def write_playlist(playlist):
-    """Write playlists/<name>.json, and the .csv that transfer services (TuneMyMusic, Soundiiz and the like)
-    take as an upload."""
+    """Write playlists/<name>.json, the .csv that transfer services (TuneMyMusic, Soundiiz and the like)
+    take as an upload, and an .xspf, the open playlist format that players such as VLC can read."""
     out, tracks = playlist_file(playlist), playlist["tracks"]
     write_atomic(out, json.dumps(playlist, indent=2, ensure_ascii=False))
     with out.with_suffix(".csv").open("w", newline="", encoding="utf-8-sig") as f:
@@ -506,9 +507,31 @@ def write_playlist(playlist):
             secs = round((t["duration_ms"] or 0) / 1000)
             w.writerow([t["name"], ", ".join(t["artists"]), t["album"] or "", t["isrc"] or "",
                         f"{secs // 60}:{secs % 60:02d}", (t["added_at"] or "")[:10], t["uri"]])
+    write_atomic(out.with_suffix(".xspf"), playlist_xspf(playlist))
     missing = sum(1 for t in tracks if not t["isrc"])
-    print(f"Saved {len(tracks)} tracks from {playlist['name']!r} to {out.relative_to(ROOT)} and .csv"
+    print(f"Saved {len(tracks)} tracks from {playlist['name']!r} to {out.relative_to(ROOT)}, .csv and .xspf"
           + (f" ({missing} without an ISRC, such as local files)." if missing else "."))
+
+
+def playlist_xspf(playlist):
+    """A saved playlist as XSPF (xspf.org): tracks described by what they are, not where a file is. The ISRC
+    goes in an "isrc:" identifier, a common convention rather than part of the standard, next to the Spotify URI.
+    There's no <location>, since there's no file; a player can match the tracks against its own library."""
+    def el(tag, value, indent=4):
+        return f'{" " * indent}<{tag}>{xml_escape(str(value))}</{tag}>\n' if value not in (None, "") else ""
+
+    head = (el("title", playlist["name"], 2) + el("creator", playlist.get("owner"), 2)
+            + el("annotation", playlist.get("description"), 2) + el("info", playlist.get("url"), 2)
+            + el("date", playlist.get("fetched"), 2))
+    tracks = "".join(
+        "    <track>\n" + "".join(el(*pair, 6) for pair in (
+            ("title", t["name"]), ("creator", ", ".join(t["artists"])), ("album", t["album"]),
+            ("duration", t["duration_ms"]), ("identifier", f"isrc:{t['isrc']}" if t["isrc"] else None),
+            ("identifier", t["uri"]),
+            ("info", None if t.get("is_local") else open_url(t["uri"])))) + "    </track>\n"
+        for t in playlist["tracks"])
+    return ('<?xml version="1.0" encoding="UTF-8"?>\n<playlist version="1" xmlns="http://xspf.org/ns/0/">\n'
+            + head + "  <trackList>\n" + tracks + "  </trackList>\n</playlist>\n")
 
 
 def backup_playlists():
