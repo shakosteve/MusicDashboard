@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-04T20:40:06Z",
+ "generated": "2026-11-04T22:40:06Z",
  "totals": {
-  "plays": 124828,
-  "hours": 8485.9,
+  "plays": 124829,
+  "hours": 8486.0,
   "artists": 701,
   "albums": 1520,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Back In The High Life Again",
+   "artist": "Steve Winwood",
+   "album": "Back In The High Life",
+   "year": 1986,
+   "image": "https://i.scdn.co/image/ab67616d00001e028362a7a26eaf279f336f1494",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2738362a7a26eaf279f336f1494",
+   "url": "https://open.spotify.com/track/1Bj6YgjjPbEb4jhQ50T8tJ",
+   "album_url": "https://open.spotify.com/album/1VV4tdUYIjRlhKxu1gMw4d",
+   "played_at": "2026-11-04T21:54:39.513Z"
+  },
   {
    "name": "You Ain't Seen Nothing Yet",
    "artist": "Bachman-Turner Overdrive",
@@ -525,17 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/4cRfSR0QxDlXRHTKyEOu93",
    "album_url": "https://open.spotify.com/album/77UI8F1LuhiQaKIL1qOE1W",
    "played_at": "2026-11-03T16:19:28.686Z"
-  },
-  {
-   "name": "Wouldn't It Be Nice - Remastered 1999",
-   "artist": "The Beach Boys",
-   "album": "The Beach Boys Love Songs",
-   "year": 2006,
-   "image": "https://i.scdn.co/image/ab67616d00001e02e53d342c933a9138b2b51f71",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273e53d342c933a9138b2b51f71",
-   "url": "https://open.spotify.com/track/0cx32rX0uZvcJUP92Wkj2y",
-   "album_url": "https://open.spotify.com/album/4NnBDxnxiiXiMlssBi9Bsq",
-   "played_at": "2026-11-03T16:17:23.562Z"
   }
  ],
  "top_artists": [
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32845,
+   "plays": 32846,
    "covers": [
     {
      "name": "Back In Black",
