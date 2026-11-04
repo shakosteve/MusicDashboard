@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-03T23:10:05Z",
+ "generated": "2026-11-04T01:10:06Z",
  "totals": {
   "plays": 124801,
   "hours": 8484.1,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "US bombs Iran’s Qeshm Island as Tehran weighs nuclear weapons breakout",
+   "show": "Iran: The Latest",
+   "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
+   "release_date": "2026-11-03",
+   "duration_ms": 2400627,
+   "image": "https://i.scdn.co/image/ab67656300005f1f29c019851b8f1e8b3295bc40",
+   "first_seen": "2026-11-03T22:40:03Z",
+   "progress_ms": 2516441,
+   "last_seen": "2026-11-04T01:10:03Z",
+   "url": "https://open.spotify.com/episode/61tFOAn6RUS3DhlY26qrD4",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
+  },
+  {
    "name": "Is MAGA done with Trump?",
    "show": "Christiane Amanpour Presents: The Ex Files",
    "show_uri": "spotify:show:3ZpgFegm3q3AGjiFbjLV59",
@@ -1502,19 +1515,6 @@ window.LISTENING = {
    "last_seen": "2026-11-03T23:10:03Z",
    "url": "https://open.spotify.com/episode/4jpQNcm3yZZAvtjsB9bgSC",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f5a4e319927f9dcfb7453f69d"
-  },
-  {
-   "name": "US bombs Iran’s Qeshm Island as Tehran weighs nuclear weapons breakout",
-   "show": "Iran: The Latest",
-   "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
-   "release_date": "2026-11-03",
-   "duration_ms": 2400627,
-   "image": "https://i.scdn.co/image/ab67656300005f1f29c019851b8f1e8b3295bc40",
-   "first_seen": "2026-11-03T22:40:03Z",
-   "progress_ms": 1255741,
-   "last_seen": "2026-11-03T22:40:03Z",
-   "url": "https://open.spotify.com/episode/61tFOAn6RUS3DhlY26qrD4",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
   },
   {
    "name": "‘Fellowship of the Ring’ Revisited Episode 1: Prologue and Concerning Hobbits With Kumail Nanjiani | Fellowship of the Pod",
