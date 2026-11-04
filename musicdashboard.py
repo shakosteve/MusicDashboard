@@ -81,6 +81,7 @@ PLAYLIST_CHECKS = DATA / "playlist_checks.json"
 REPLAYS = DATA / "replays.json"
 PLAYLISTS = ROOT / "playlists"  # committed, unlike data/: a backup of playlists that matter
 PLAYLIST_LIST = PLAYLISTS / "playlists.json"  # which playlists `backup` keeps current, by Spotify ID
+UNAVAILABLE = PLAYLISTS / "unavailable.json"  # running record of those playlists' tracks that won't play here
 MIN_PLAY_MS = 30_000  # Spotify counts a stream from 30 seconds
 WRAPPED_MIN_PLAYS = 1_000  # years with fewer plays, before the first busy one, share one review
 MIN_EPISODE_MS = 10_000  # an episode stopped sooner than this wasn't really listened to
@@ -441,7 +442,7 @@ def playlist_file(found):
     """Where a playlist is saved: the existing playlists/*.json with its URI, so the file (and its git history)
     stays put when the playlist is renamed; for a new one, a file named after it."""
     for path in sorted(PLAYLISTS.glob("*.json")):
-        if path == PLAYLIST_LIST:
+        if path in (PLAYLIST_LIST, UNAVAILABLE):
             continue
         try:
             if json.loads(path.read_text(encoding="utf-8")).get("uri") == found["uri"]:
@@ -449,7 +450,8 @@ def playlist_file(found):
         except (OSError, ValueError):
             pass
     path = PLAYLISTS / f"{re.sub(r'[^a-z0-9]+', '-', found['name'].lower()).strip('-')}.json"
-    return path.with_stem(path.stem + "-playlist") if path == PLAYLIST_LIST else path  # a playlist called "Playlists"
+    # A playlist called "Playlists" or "Unavailable" mustn't overwrite those files.
+    return path.with_stem(path.stem + "-playlist") if path in (PLAYLIST_LIST, UNAVAILABLE) else path
 
 
 def save_playlist(name):
@@ -465,12 +467,17 @@ def save_playlist(name):
 
 
 def fetch_playlist(session, found, delay=0.2):
-    """A playlist from /me/playlists with all its tracks, as saved in playlists/<name>.json."""
+    """A playlist from /me/playlists with all its tracks, as saved in playlists/<name>.json.
+
+    Tracks are asked for in my account's country, so Spotify says which won't play here. Those are returned
+    in "_unplayable" ({uri: reason, e.g. "market"}), which isn't saved with the playlist. When Spotify plays a
+    stand-in version of a track (relinking), the one in the playlist is kept."""
     pid = found["id"]
     meta = fetch(session, f"{API}/playlists/{pid}", {"fields": "name,description,public,collaborative,snapshot_id,"
                                                             "owner.display_name,followers.total"}) or {}
     art = load_art()
-    tracks, url, params = [], f"{API}/playlists/{pid}/items", {"limit": 50}
+    tracks, unplayable = [], {}
+    url, params = f"{API}/playlists/{pid}/items", {"limit": 50, "market": "from_token"}
     while url:
         page = fetch(session, url, params) or {}
         for entry in page.get("items") or []:
@@ -478,12 +485,16 @@ def fetch_playlist(session, found, delay=0.2):
             if not t or t.get("type", "track") != "track":
                 continue
             remember_art(art, t.get("album"))
-            tracks.append({**slim_track(t),
-                           "isrc": (t.get("external_ids") or {}).get("isrc"),
-                           "added_at": entry.get("added_at"),
-                           "release_date": (t.get("album") or {}).get("release_date"),
-                           "explicit": t.get("explicit"),
-                           "is_local": t.get("is_local") or entry.get("is_local", False)})
+            track = {**slim_track(t),
+                     "isrc": (t.get("external_ids") or {}).get("isrc"),
+                     "added_at": entry.get("added_at"),
+                     "release_date": (t.get("album") or {}).get("release_date"),
+                     "explicit": t.get("explicit"),
+                     "is_local": t.get("is_local") or entry.get("is_local", False)}
+            track["uri"] = (t.get("linked_from") or {}).get("uri") or track["uri"]
+            if t.get("is_playable") is False and not track["is_local"]:
+                unplayable[track["uri"]] = (t.get("restrictions") or {}).get("reason")
+            tracks.append(track)
         print(f"  {len(tracks)} tracks...")
         url, params = page.get("next"), None
         time.sleep(delay)
@@ -492,14 +503,14 @@ def fetch_playlist(session, found, delay=0.2):
             "owner": (meta.get("owner") or {}).get("display_name"),
             "description": meta.get("description"), "public": meta.get("public"),
             "followers": (meta.get("followers") or {}).get("total"),
-            "snapshot_id": meta.get("snapshot_id"), "fetched": now_iso(), "tracks": tracks}
+            "snapshot_id": meta.get("snapshot_id"), "fetched": now_iso(), "tracks": tracks, "_unplayable": unplayable}
 
 
 def write_playlist(playlist):
     """Write playlists/<name>.json, the .csv that transfer services (TuneMyMusic, Soundiiz and the like)
     take as an upload, and an .xspf, the open playlist format that players such as VLC can read."""
     out, tracks = playlist_file(playlist), playlist["tracks"]
-    write_atomic(out, json.dumps(playlist, indent=2, ensure_ascii=False))
+    write_atomic(out, json.dumps({k: v for k, v in playlist.items() if not k.startswith("_")}, indent=2, ensure_ascii=False))
     with out.with_suffix(".csv").open("w", newline="", encoding="utf-8-sig") as f:
         w = csv.writer(f)
         w.writerow(["Title", "Artist", "Album", "ISRC", "Duration", "Added", "Spotify URI"])
@@ -538,11 +549,12 @@ def backup_playlists():
     """Keep the committed copies in playlists/ current; sync.bat runs this every time, and it works once a day.
 
     The playlists are listed in playlists/playlists.json (committed) by Spotify ID, so renaming one on Spotify
-    changes nothing here; its "name" there is only a label, which this keeps current. The playlist's
-    snapshot_id, which changes with every edit, costs one request. Only a changed playlist is downloaded again
-    (about one request per 50 tracks), and only a real change to it is saved, committed and pushed. The changes
-    are printed as "Playlist <name> changed: ..." with "  + " and "  - " lines, or "Playlist <name> checked:
-    no changes", which `report` puts in the email."""
+    changes nothing here; its "name" there is only a label, which this keeps current. Each playlist is
+    downloaded every day (about one request per 50 tracks), even when its snapshot_id is unchanged, since a track
+    going unplayable doesn't change that. Only a real change is saved, committed and pushed. The changes are
+    printed as "Playlist <name> changed: ..." with "  + " and "  - " lines, or "Playlist <name> checked: no
+    changes", which `report` puts in the email. Tracks that won't play here are kept in playlists/unavailable.json
+    (see update_unavailable)."""
     if not PLAYLIST_LIST.exists():
         print(f"Playlist backup failed: {PLAYLIST_LIST.relative_to(ROOT)} is missing.")
         return
@@ -552,6 +564,7 @@ def backup_playlists():
     due = [e for e in listing["playlists"] if (checks.get(playlist_id(e["id"]) or e["id"]) or {}).get("checked") != today]
     if not due:
         return
+    unavailable = json.loads(UNAVAILABLE.read_text(encoding="utf-8")) if UNAVAILABLE.exists() else {"tracks": []}
     session, changed, relabeled = api_session(), [], False
     for entry in due:
         pid = playlist_id(entry["id"])
@@ -564,9 +577,8 @@ def backup_playlists():
         entry["name"] = found["name"]
         path = playlist_file(found)
         old = json.loads(path.read_text(encoding="utf-8")) if path.exists() else None
-        known = (checks.get(pid) or {}).get("snapshot_id") or (old or {}).get("snapshot_id")
-        new = fetch_playlist(session, found) if found.get("snapshot_id") != known or not old else old
-        same = lambda p: {k: v for k, v in p.items() if k not in ("fetched", "snapshot_id")}
+        new = fetch_playlist(session, found)
+        same = lambda p: {k: v for k, v in p.items() if k not in ("fetched", "snapshot_id") and not k.startswith("_")}
         if not old or same(old) != same(new):
             write_playlist(new)
             summary, lines = playlist_diff(old, new)
@@ -574,9 +586,19 @@ def backup_playlists():
             changed.append((f"{new['name']}: {summary}", lines))
         else:
             print(f"Playlist {old['name']} checked: no changes ({len(old['tracks']):,} tracks)")
+        went, back = update_unavailable(unavailable, pid, new, today)
+        label = lambda e: f"{clean_title(e['name'])} - {', '.join(e['artists'])}"
+        print(f"Playlist {new['name']} unplayable here: {len(new['_unplayable'])}")
+        if went or back:
+            lines = [f"  ! {label(e)}" for e in went] + [f"  ~ {label(e)} ({e['outcome']})" for e in back]
+            print("\n".join(lines))
+            changed.append((f"{new['name']}: " + ", ".join(
+                ([f"{len(went)} became unplayable"] if went else []) + ([f"{len(back)} no longer unplayable"] if back else [])),
+                lines))
         checks[pid] = {"checked": today, "name": found["name"], "snapshot_id": found.get("snapshot_id")}
     write_atomic(PLAYLIST_CHECKS, json.dumps(checks, indent=2, ensure_ascii=False))
     write_atomic(PLAYLIST_LIST, json.dumps(listing, indent=2, ensure_ascii=False) + "\n")
+    write_atomic(UNAVAILABLE, json.dumps(unavailable, indent=2, ensure_ascii=False) + "\n")
     if not (changed or relabeled) or os.environ.get("AUTO_PUBLISH", "on").lower() in ("off", "no", "false", "0"):
         return
     git("add", "playlists")
@@ -586,6 +608,33 @@ def backup_playlists():
         ok, out = push()
     print("Playlist backup pushed to GitHub." if ok else
           f"Playlist backup push failed: {(out.splitlines() or ['git error'])[-1]} (the commit is kept; it goes out next run)")
+
+
+def update_unavailable(record, pid, playlist, today):
+    """Bring playlists/unavailable.json up to date for one playlist; returns (newly unplayable, no longer) entries.
+
+    Each entry is a track of a backed-up playlist that Spotify won't play in my country, kept for good as a
+    record of what licensing took away: the track with its ISRC (to find it elsewhere), Spotify's reason, and
+    "since", the first day it was seen unplayable. When it plays again or leaves the playlist, the entry gets
+    "until" and an "outcome" of "playable again" or "removed from playlist"; if it goes again, a new entry starts."""
+    tracks = {t["uri"]: t for t in playlist["tracks"]}
+    current = {e["uri"]: e for e in record["tracks"] if e["playlist_id"] == pid and not e.get("until")}
+    for e in record["tracks"]:
+        if e["playlist_id"] == pid:
+            e["playlist"] = playlist["name"]
+    back = []
+    for uri, e in current.items():
+        if uri not in playlist["_unplayable"]:
+            e.update(until=today, outcome="playable again" if uri in tracks else "removed from playlist")
+            back.append(e)
+    went = []
+    for uri, reason in playlist["_unplayable"].items():
+        if uri not in current:
+            t = tracks[uri]
+            went.append({"playlist": playlist["name"], "playlist_id": pid, "uri": uri, "name": t["name"],
+                         "artists": t["artists"], "album": t["album"], "isrc": t["isrc"], "reason": reason, "since": today})
+    record["tracks"] += went
+    return went, back
 
 
 def playlist_diff(old, new):
@@ -1083,6 +1132,13 @@ def push():
     return git("push", "-q")
 
 
+def repo_url():
+    """The origin remote's GitHub page (https://github.com/owner/repo), for links in the report."""
+    ok, url = git("remote", "get-url", "origin")
+    m = re.search(r"github\.com[:/]([^/]+)/([^/]+?)(\.git)?$", url) if ok else None
+    return f"https://github.com/{m.group(1)}/{m.group(2)}" if m else None
+
+
 def site_url():
     """The GitHub Pages address for the origin remote (github.com/owner/repo -> owner.github.io/repo/)."""
     if os.environ.get("SITE_URL"):
@@ -1296,7 +1352,8 @@ def report_data(now):
                             "top_plays": n, "image": cover(p), "url": open_url(uri)})
 
     # Lines naming a track or episode are skipped, so a band like The Warning isn't taken for a problem.
-    content = re.compile(r"\d+ new play\(s\), latest: |Podcast (playing|heard): |Playlist .* (changed|checked): |  [+-] |Saved \d+ tracks from ")
+    content = re.compile(r"\d+ new play\(s\), latest: |Podcast (playing|heard): |Playlist .* (changed|checked|unplayable here): "
+                         r"|  [+\-!~] |Saved \d+ tracks from ")
     problems = list(dict.fromkeys(line for line in log if not content.match(line)
                                   and re.search(r"Traceback|Error|error:|Warning|failed", line)))
     # backup_playlists() output: "Playlist <name> changed: <summary>" then "  + " / "  - " lines, or "... checked: no changes"
@@ -1314,7 +1371,15 @@ def report_data(now):
                    "summary": "not checked today", "added": [], "removed": []}
                   for e in listing for pid in [playlist_id(e["id"]) or e["id"]]
                   if (checks.get(pid) or {}).get("checked", "") < now.date().isoformat()]
-    published = sum(1 for line in log if line.startswith("Published to GitHub"))
+    # What won't play here, from playlists/unavailable.json: still unplayable, first seen today, and back today.
+    unavailable = json.loads(UNAVAILABLE.read_text(encoding="utf-8"))["tracks"] if UNAVAILABLE.exists() else None
+    label = lambda e: f"{clean_title(e['name'])} - {', '.join(e['artists'])}"
+    for p in playlists:
+        mine = [e for e in unavailable or [] if e["playlist"] == p["name"]]
+        p["unplayable"] = None if unavailable is None else sum(1 for e in mine if not e.get("until"))
+        p["went"] = [label(e) for e in mine if e["since"] == now.date().isoformat() and not e.get("until")]
+        p["back"] = [f"{label(e)} ({e['outcome']})" for e in mine if e.get("until") == now.date().isoformat()]
+    published =sum(1 for line in log if line.startswith("Published to GitHub"))
     expected = 48
     status = "bad" if any("Traceback" in l or "rror" in l for l in problems) else \
              "warn" if problems or len(runs) < expected - 4 else "ok"
@@ -1355,6 +1420,7 @@ def report_data(now):
             "minutes": minutes, "artist_count": len(artists), "podcasts": podcasts[:6],
             "top_tracks": top_tracks, "top_artists": sorted(artists.values(), key=lambda a: -a["plays"])[:5],
             "on_this_day": on_this_day, "import": imported, "published": published, "site": site_url(), "reauth": reauth, "playlists": playlists,
+            "unavailable_url": f"{repo_url()}/blob/main/{UNAVAILABLE.relative_to(ROOT).as_posix()}" if repo_url() else None,
             "totals": {"plays": len(all_plays), "since": all_plays[0]["local"].year if all_plays else None}}
 
 
@@ -1400,6 +1466,11 @@ def report_text(r):
     for p in r["playlists"]:
         out.append(f"  {p['name']}: {p['summary']}" + (" (backup committed to GitHub)" if p["changed"] else ""))
         out += [f"    + {t}" for t in p["added"][:15]] + [f"    - {t}" for t in p["removed"][:15]]
+        if p["unplayable"] is not None:
+            out.append(f"    {p['unplayable']} track{'s' if p['unplayable'] != 1 else ''} unplayable in your country"
+                       + (f" (full list: {r['unavailable_url']})" if r["unavailable_url"] else "")
+                       if p["unplayable"] else "    Every track is playable")
+            out += [f"    ! Now unplayable: {t}" for t in p["went"][:15]] + [f"    ~ {t}" for t in p["back"][:15]]
     if r["on_this_day"]:
         out += ["", f"On {now:%B} {now.day} in other years:"] + [
             f"  {d['year']}: {d['plays']} plays, top song {d['top']} - {d['artist']}" for d in r["on_this_day"]]
@@ -1542,6 +1613,16 @@ def report_html(r):
                       f'{h(p["summary"])}' + (". The backup in the GitHub repo is up to date." if p["changed"] else "") + "</div>"
                       + "".join(f'<div style="{FONT}font-size:14px;color:{INK};line-height:1.6;"><b style="color:{c};'
                                 f'display:inline-block;width:16px;">{sign}</b>{h(t)}</div>' for c, sign, t in items))
+            if p["unplayable"] is not None:
+                n = p["unplayable"]
+                inner += (f'<div style="{FONT}font-size:14px;color:{"#9a6700" if n else MUTED};margin:6px 0 4px;">'
+                          + (f'{n} track{"s" if n != 1 else ""} unplayable in your country'
+                             + (f' &middot; {link(r["unavailable_url"], "full list", "#9a6700")}' if r["unavailable_url"] else "")
+                             if n else "Every track is playable") + "</div>"
+                          + "".join(f'<div style="{FONT}font-size:14px;color:{INK};line-height:1.6;"><b style="color:{c};'
+                                    f'display:inline-block;width:16px;">{sign}</b>{h(t)}</div>'
+                                    for c, sign, t in [("#9a6700", "!", f"Now unplayable: {t}") for t in p["went"][:15]]
+                                    + [("#1a7f37", "&#10003;", t) for t in p["back"][:15]]))
         body.append(section("Playlist backup", inner))
     if r["on_this_day"]:
         body.append(section(f"On {now:%B} {now.day} in other years", rows(

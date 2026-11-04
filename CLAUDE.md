@@ -45,9 +45,15 @@ sync.bat                                     the scheduled job: sync, import --l
     - Tracking by ID, never by name, means the owner can rename a playlist. `id` can also be a `spotify:playlist:` URI or a link. `name` is only a label, which `backup` keeps current and commits.
     - A missing file or an unknown ID prints "Playlist backup failed: …", which the report flags.
   - A playlist's file is the existing `playlists/*.json` with its `uri` (`playlist_file()`), so a rename keeps `my-favs.json` and its git history. The rename shows as "renamed from 'Old'".
-  - It compares the playlist's `snapshot_id` from `/playlists/{id}` (one request) with the last one seen, and downloads the tracks only when it changed.
+  - It downloads every backed-up playlist in full once a day (~1 request per 50 tracks). It doesn't skip on an unchanged `snapshot_id`, because a track going unplayable doesn't change it.
+  - Tracks are fetched with `market=from_token`. `fetch_playlist()` returns the unplayable ones in `_unplayable` (`{uri: reason}`). `write_playlist()` drops `_` keys, so availability never enters `my-favs.json`. A relinked track keeps its `linked_from` URI.
   - It writes and commits only when the content changed, ignoring `fetched`/`snapshot_id`, and commits only `playlists/` (pathspec), e.g. "My Favs: 3 added, 1 removed", with the tracks in the body. `AUTO_PUBLISH=off` skips the commit.
   - It prints `Playlist <name> changed: …` with `  + `/`  - ` lines, or `Playlist <name> checked: no changes (N tracks)`. `report` shows these under "Playlist backup", one line per playlist even when unchanged, and "not checked today" for an entry whose date in `playlist_checks.json` isn't today. The report's problem scan skips those lines, since track names can contain words like "Warning".
+  - **`playlists/unavailable.json`** (committed, `update_unavailable()`) is the running record of backed-up tracks Spotify won't play in the owner's country. It exists because licensing usually greys a track out rather than removing it.
+    - Each entry has the track, its ISRC, `reason` (e.g. `market`), `since` (the first day it was seen unplayable) and, once it ends, `until` with an `outcome` of "playable again" or "removed from playlist". A track that goes again gets a new entry.
+    - The first run, on 2026-11-04, found 13 in My Favs, so their `since` is the day the check began, not when they went.
+    - `backup` prints `Playlist <name> unplayable here: N`, with `  ! ` (newly unplayable) and `  ~ ` (ended) lines, and commits the changes.
+    - The report reads the file directly. Under each playlist it shows "N tracks unplayable in your country", with a GitHub link to the file, or "Every track is playable", plus that day's new and ended entries. The owner asked for this line daily.
 
 **`data/` is a junction into OneDrive** (`C:\Users\zamdr\OneDrive\MusicDashboard_Data`, pinned "always keep on this device"), following GoneWalking, so it's backed up off the computer. It holds irreplaceable state: live plays older than Spotify's last 50, `episodes.json`, the export, and lookups that cost days of API quota. Don't delete or bulk-rewrite it. GoneWalking's `music.py` reads it through the junction as `../MusicDashboard/data`.
 
