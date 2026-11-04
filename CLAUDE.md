@@ -64,6 +64,11 @@ The data has two sources, which `build()` merges:
      - Episodes with under 10s of progress (`MIN_EPISODE_MS`) are skipped by `sync_shows()` and hidden by `build()` and `report`. The poll still records them, because the episode may have only just started.
      - A show not heard in the last 30 days isn't checked, so a new or dormant show is only picked up once currently-playing sees it.
    - Plays are deduped by `played_at`.
+   - 47 plays from Oct 26 to Nov 3, 2026 that sync missed (mostly before the scheduled task started) were backfilled from the Account data export (`data/account/StreamingHistory_music_*.json`).
+     - They carry `"source": "account_export"` and `ms_played`.
+     - Their `played_at` is only to the minute (`…T18:15:00Z`), because that export has no seconds.
+     - Their song details were copied from known plays of the same title and lead artist, or found by `/search` for 4 songs.
+     - The pre-backfill file is kept as `data/recently_played.jsonl.before-backfill`.
 2. **Privacy export ("Extended streaming history")**: the `Streaming_History_Audio_*.json` files, unzipped into `data/export/`.
    - `import` keeps streams of at least 30s (`MIN_PLAY_MS`).
    - It writes music plays to `history.jsonl`, in the same record shape as `recently_played.jsonl` plus `ms_played`.
