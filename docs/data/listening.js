@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-04T15:10:07Z",
+ "generated": "2026-11-04T16:10:05Z",
  "totals": {
-  "plays": 124801,
-  "hours": 8484.1,
+  "plays": 124802,
+  "hours": 8484.2,
   "artists": 701,
   "albums": 1520,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "T.N.T.",
+   "artist": "AC/DC",
+   "album": "High Voltage",
+   "year": 1976,
+   "image": "https://i.scdn.co/image/ab67616d00001e028c7f355d649e0a3cfcf6fc39",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2738c7f355d649e0a3cfcf6fc39",
+   "url": "https://open.spotify.com/track/7LRMbd3LEoV5wZJvXT1Lwb",
+   "album_url": "https://open.spotify.com/album/19AUoKWRAaQYrggVvdQnqq",
+   "played_at": "2026-11-04T15:57:46Z"
+  },
   {
    "name": "Dancing Queen",
    "artist": "ABBA",
@@ -525,17 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/6YffUZJ2R06kyxyK6onezL",
    "album_url": "https://open.spotify.com/album/0ucV57dbnqmrGv9d60r6X2",
    "played_at": "2026-11-02T20:03:06.974Z"
-  },
-  {
-   "name": "Double Trouble",
-   "artist": "Lynyrd Skynyrd",
-   "album": "Gimme Back My Bullets (Expanded Edition)",
-   "year": 1976,
-   "image": "https://i.scdn.co/image/ab67616d00001e0261b3a3d80e51446fdc4e35b5",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27361b3a3d80e51446fdc4e35b5",
-   "url": "https://open.spotify.com/track/5ftkCxdoFGmkXbm5zgu0lS",
-   "album_url": "https://open.spotify.com/album/7nl7cH6KtKcKU7I2Hj2gAM",
-   "played_at": "2026-11-02T20:00:27.995Z"
   }
  ],
  "top_artists": [
@@ -547,7 +547,7 @@ window.LISTENING = {
   },
   {
    "name": "AC/DC",
-   "plays": 3987,
+   "plays": 3988,
    "url": "https://open.spotify.com/artist/711MCceyCBcFnzjGY4Q7Un",
    "image": "https://i.scdn.co/image/ab67616d00001e02ff191d7fbdb5a13eaf84132b"
   },
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28614,
+   "plays": 28615,
    "covers": [
     {
      "name": "More Than a Feeling",
