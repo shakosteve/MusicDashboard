@@ -1,14 +1,91 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-04T17:10:05Z",
+ "generated": "2026-11-04T17:40:07Z",
  "totals": {
-  "plays": 124816,
-  "hours": 8485.1,
+  "plays": 124823,
+  "hours": 8485.5,
   "artists": 701,
   "albums": 1520,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Good Times Bad Times - 1993 Remaster",
+   "artist": "Led Zeppelin",
+   "album": "Led Zeppelin",
+   "year": 1969,
+   "image": "https://i.scdn.co/image/ab67616d00001e026f2f499c1df1f210c9b34b32",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2736f2f499c1df1f210c9b34b32",
+   "url": "https://open.spotify.com/track/0QwZfbw26QeUoIy82Z2jYp",
+   "album_url": "https://open.spotify.com/album/3ycjBixZf7S3WpC5WZhhUK",
+   "played_at": "2026-11-04T17:33:18.522Z"
+  },
+  {
+   "name": "Candle In The Wind 1997",
+   "artist": "Elton John",
+   "album": "Candle In The Wind 1997 / Something About ...",
+   "year": 1997,
+   "image": "https://i.scdn.co/image/ab67616d00001e0252a56df14c3a5e318925787c",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27352a56df14c3a5e318925787c",
+   "url": "https://open.spotify.com/track/3DUcaEvPO72PijivCjtZcU",
+   "album_url": "https://open.spotify.com/album/3g61rwvRs1NPeVBxuAMmHZ",
+   "played_at": "2026-11-04T17:30:31.828Z"
+  },
+  {
+   "name": "S!CK - Live from Auditorio Nacional, CDMX",
+   "artist": "The Warning",
+   "album": "Live from Auditorio Nacional, CDMX",
+   "year": 2025,
+   "image": "https://i.scdn.co/image/ab67616d00001e025cda6d880ec3968aa6b6ac2f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
+   "url": "https://open.spotify.com/track/10zZP6IvvcFJvFbcCQnGhP",
+   "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
+   "played_at": "2026-11-04T17:26:21.205Z"
+  },
+  {
+   "name": "Bad News",
+   "artist": "NOAPOLOGY",
+   "album": "Uncovered",
+   "year": 2025,
+   "image": "https://i.scdn.co/image/ab67616d00001e02e2128ce797b85ee7de274abb",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273e2128ce797b85ee7de274abb",
+   "url": "https://open.spotify.com/track/6WXnv6IZK6ogP6ZJnmQbwr",
+   "album_url": "https://open.spotify.com/album/3xhloSIytfKpvaWWrMHjOs",
+   "played_at": "2026-11-04T17:22:34.340Z"
+  },
+  {
+   "name": "Tears in Heaven",
+   "artist": "Eric Clapton",
+   "album": "Rush (Music from the Motion Picture Soundtrack)",
+   "year": 1992,
+   "image": "https://i.scdn.co/image/ab67616d00001e0244cb13558d57f5a066fac381",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27344cb13558d57f5a066fac381",
+   "url": "https://open.spotify.com/track/1kgdslQYmeTR4thk9whoRw",
+   "album_url": "https://open.spotify.com/album/5uKWy85xmgOuRrWuXr98b2",
+   "played_at": "2026-11-04T17:19:31.936Z"
+  },
+  {
+   "name": "Night Fever - From \"Saturday Night Fever\" Soundtrack",
+   "artist": "Bee Gees",
+   "album": "How Can You Mend A Broken Heart",
+   "year": 2020,
+   "image": "https://i.scdn.co/image/ab67616d00001e02bdcea025a483b9642f17a9f8",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273bdcea025a483b9642f17a9f8",
+   "url": "https://open.spotify.com/track/0qemIQjSxcKyf42VPfZnfa",
+   "album_url": "https://open.spotify.com/album/4vAhQeeWkSjVn0p5GAaLBx",
+   "played_at": "2026-11-04T17:14:59.575Z"
+  },
+  {
+   "name": "Bang Bang (My Baby Shot Me Down)",
+   "artist": "Nancy Sinatra",
+   "album": "How Does That Grab You? (2024 Reissue)",
+   "year": 1966,
+   "image": "https://i.scdn.co/image/ab67616d00001e02c98f495819698b300a53cc32",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273c98f495819698b300a53cc32",
+   "url": "https://open.spotify.com/track/1hvKYV2SkmX1D2AeRCDxLH",
+   "album_url": "https://open.spotify.com/album/7lkW8dx8Feb7tzVNMgxGCm",
+   "played_at": "2026-11-04T17:11:26.303Z"
+  },
   {
    "name": "Death By Rock And Roll",
    "artist": "The Pretty Reckless",
@@ -459,89 +536,12 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/1BfRdnfPYrni7zj4ANodBX",
    "album_url": "https://open.spotify.com/album/57wJKO7qrPw56iOEKhTmg2",
    "played_at": "2026-11-03T15:46:08.107Z"
-  },
-  {
-   "name": "Metal Chestnut",
-   "artist": "Slash",
-   "album": "Orgy of the Damned",
-   "year": 2024,
-   "image": "https://i.scdn.co/image/ab67616d00001e02e66f735898f62043666589b3",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273e66f735898f62043666589b3",
-   "url": "https://open.spotify.com/track/0hx19Rxlafp5mpiRa2FEIF",
-   "album_url": "https://open.spotify.com/album/6aTrDhVw5QgXSz2JM4V8hc",
-   "played_at": "2026-11-03T15:42:36.859Z"
-  },
-  {
-   "name": "MORE",
-   "artist": "The Warning",
-   "album": "Keep Me Fed",
-   "year": 2024,
-   "image": "https://i.scdn.co/image/ab67616d00001e0293c50048dce0f88071728c8c",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27393c50048dce0f88071728c8c",
-   "url": "https://open.spotify.com/track/5IDRSA83ayUGCCRdfdl04z",
-   "album_url": "https://open.spotify.com/album/1rYHznqLeJVXuy0YqwERGv",
-   "played_at": "2026-11-03T15:39:34.574Z"
-  },
-  {
-   "name": "Wherever You May Go - 2024 Remix",
-   "artist": "Whitesnake",
-   "album": "Into The Light: The Solo Albums",
-   "year": 2024,
-   "image": "https://i.scdn.co/image/ab67616d00001e0275054a7528a57bf4c4db64d3",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27375054a7528a57bf4c4db64d3",
-   "url": "https://open.spotify.com/track/3kXFGV9scmzkuAO4yrCOaj",
-   "album_url": "https://open.spotify.com/album/4ZK8lI716dYtCXQd8qlcsI",
-   "played_at": "2026-11-03T14:41:57.353Z"
-  },
-  {
-   "name": "Man I Need (Live) – Spotify Live Room",
-   "artist": "Olivia Dean",
-   "album": "Olivia Dean - Spotify Live Room",
-   "year": 2025,
-   "image": "https://i.scdn.co/image/ab67616d00001e0283a8582a02ba58639b3fce04",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27383a8582a02ba58639b3fce04",
-   "url": "https://open.spotify.com/track/3yYuSzBhxR4kd4CNtfyHN7",
-   "album_url": "https://open.spotify.com/album/2BH28DBpJbk7fVT7a4IdYX",
-   "played_at": "2026-11-03T14:37:59.859Z"
-  },
-  {
-   "name": "Señorita",
-   "artist": "Shawn Mendes, Camila Cabello",
-   "album": "Shawn Mendes (Deluxe)",
-   "year": 2019,
-   "image": "https://i.scdn.co/image/ab67616d00001e02c820f033bd82bef4355d1563",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273c820f033bd82bef4355d1563",
-   "url": "https://open.spotify.com/track/6v3KW9xbzN5yKLt9YKDYA2",
-   "album_url": "https://open.spotify.com/album/0xzScN8P3hQAz3BT3YYX5w",
-   "played_at": "2026-11-03T14:34:55.350Z"
-  },
-  {
-   "name": "Swingtown",
-   "artist": "Steve Miller Band",
-   "album": "Greatest Hits 1974-78",
-   "year": 1978,
-   "image": "https://i.scdn.co/image/ab67616d00001e02632b907273dba6a6062fb780",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273632b907273dba6a6062fb780",
-   "url": "https://open.spotify.com/track/4F01HOLdVKrIfH6LwOi07f",
-   "album_url": "https://open.spotify.com/album/5hLazW5a3Ysgy3dncwGgUn",
-   "played_at": "2026-11-03T14:31:44.128Z"
-  },
-  {
-   "name": "The Tide Is High - Remastered 2001",
-   "artist": "Blondie",
-   "album": "Greatest Hits",
-   "year": 2002,
-   "image": "https://i.scdn.co/image/ab67616d00001e022847f04f9de392e290b5a0be",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2732847f04f9de392e290b5a0be",
-   "url": "https://open.spotify.com/track/6UYVDYeTRGYULthAwMIpYB",
-   "album_url": "https://open.spotify.com/album/4pIYJsJ8GkYWM1rvqy45ug",
-   "played_at": "2026-11-03T14:28:13.771Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10663,
+   "plays": 10664,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
@@ -559,7 +559,7 @@ window.LISTENING = {
   },
   {
    "name": "Led Zeppelin",
-   "plays": 2297,
+   "plays": 2298,
    "url": "https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp",
    "image": "https://i.scdn.co/image/ab67616d00001e02c8a11e48c91a982d086afc69"
   },
@@ -832,7 +832,7 @@ window.LISTENING = {
   },
   {
    "decade": 1960,
-   "plays": 7052,
+   "plays": 7054,
    "covers": [
     {
      "name": "Your Time Is Gonna Come - 1990 Remaster",
@@ -843,7 +843,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2736f2f499c1df1f210c9b34b32",
      "url": "https://open.spotify.com/track/3Zr81qUZEhR4vPeUFUsBB0",
      "album_url": "https://open.spotify.com/album/3ycjBixZf7S3WpC5WZhhUK",
-     "plays": 509
+     "plays": 510
     },
     {
      "name": "Whole Lotta Love - 1990 Remaster",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9693,
+   "plays": 9695,
    "covers": [
     {
      "name": "Amazing",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18593,
+   "plays": 18596,
    "covers": [
     {
      "name": "ERROR",
@@ -1440,7 +1440,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
      "url": "https://open.spotify.com/track/3zgbw0cxkS1DQ36O5hGydt",
      "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
-     "plays": 477
+     "plays": 478
     },
     {
      "name": "Shot In The Dark",
