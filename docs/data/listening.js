@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-04T01:40:05Z",
+ "generated": "2026-11-04T12:10:05Z",
  "totals": {
   "plays": 124801,
   "hours": 8484.1,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Midterms-palooza 2026: An Election Night Special Report!",
+   "show": "The Powers That Be: Daily",
+   "show_uri": "spotify:show:5ZChG4x3aogGtKGkxU6nMH",
+   "release_date": "2026-11-04",
+   "duration_ms": 1844662,
+   "image": "https://i.scdn.co/image/ab67656300005f1f36f39d45bf295cbf58d41331",
+   "first_seen": "2026-11-04T12:10:03Z",
+   "progress_ms": 28615,
+   "last_seen": "2026-11-04T12:10:03Z",
+   "url": "https://open.spotify.com/episode/3164sQ06w3Cw41nVrpColM",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f55386ae3fe554333e1a85785"
+  },
+  {
    "name": "Is MAGA done with Trump?",
    "show": "Christiane Amanpour Presents: The Ex Files",
    "show_uri": "spotify:show:3ZpgFegm3q3AGjiFbjLV59",
@@ -1631,19 +1644,6 @@ window.LISTENING = {
    "progress_ms": 3045309,
    "last_seen": "2026-11-01T17:40:03Z",
    "url": "https://open.spotify.com/episode/6l4cHPhuvSEirn2ZAGIYgi",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f78954c21afd24c90334deba4"
-  },
-  {
-   "name": "Inside Oleshky’s chaotic evacuation as Russia ‘prepares fresh offensive’",
-   "show": "Ukraine: The Latest",
-   "show_uri": "spotify:show:6cnkk1J0I1UqtxTYVUL4Fe",
-   "release_date": "2026-10-30",
-   "duration_ms": 2834547,
-   "image": "https://i.scdn.co/image/ab67656300005f1ffe3b9cc8c2923cb151f897f9",
-   "first_seen": "2026-11-01T15:40:03Z",
-   "progress_ms": 2965749,
-   "last_seen": "2026-11-01T17:40:03Z",
-   "url": "https://open.spotify.com/episode/6ENZSg73hton67DCSNT0XK",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f78954c21afd24c90334deba4"
   }
  ],
