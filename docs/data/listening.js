@@ -1,14 +1,58 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-04T20:10:05Z",
+ "generated": "2026-11-04T20:40:06Z",
  "totals": {
-  "plays": 124824,
-  "hours": 8485.6,
+  "plays": 124828,
+  "hours": 8485.9,
   "artists": 701,
   "albums": 1520,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "You Ain't Seen Nothing Yet",
+   "artist": "Bachman-Turner Overdrive",
+   "album": "Not Fragile",
+   "year": 1974,
+   "image": "https://i.scdn.co/image/ab67616d00001e02d109a35f286685993cf03050",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273d109a35f286685993cf03050",
+   "url": "https://open.spotify.com/track/0HOrDVS349XFcpCYsO2hAP",
+   "album_url": "https://open.spotify.com/album/3TtCMt4XLddj9PQeVBfsK1",
+   "played_at": "2026-11-04T20:25:40.020Z"
+  },
+  {
+   "name": "Love's Been A Little Bit Hard On Me",
+   "artist": "Juice Newton",
+   "album": "Juice Newton's Greatest Hits",
+   "year": 1988,
+   "image": "https://i.scdn.co/image/ab67616d00001e0299a6a7a4b4fe71d5362d16b7",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27399a6a7a4b4fe71d5362d16b7",
+   "url": "https://open.spotify.com/track/37zpChlZkoFuScXLoiu0WE",
+   "album_url": "https://open.spotify.com/album/0fSvQOkU8rRgcsW6MerdVw",
+   "played_at": "2026-11-04T20:21:44.752Z"
+  },
+  {
+   "name": "Night Moves",
+   "artist": "Bob Seger",
+   "album": "Night Moves",
+   "year": 1976,
+   "image": "https://i.scdn.co/image/ab67616d00001e02676a8230a422123e8012557e",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273676a8230a422123e8012557e",
+   "url": "https://open.spotify.com/track/6UBjSnyP1O5W5ndJoO9vUk",
+   "album_url": "https://open.spotify.com/album/5QkOpsZupEPLq186YOrBNe",
+   "played_at": "2026-11-04T20:18:28.560Z"
+  },
+  {
+   "name": "Crazy",
+   "artist": "Aerosmith",
+   "album": "Get A Grip",
+   "year": 1993,
+   "image": "https://i.scdn.co/image/ab67616d00001e0291b246743456e285a20a46ed",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27391b246743456e285a20a46ed",
+   "url": "https://open.spotify.com/track/3QxKpdTB8ZSFn8MGeCCpsQ",
+   "album_url": "https://open.spotify.com/album/180jTzor4W2MQ9HW5h5Fh4",
+   "played_at": "2026-11-04T20:13:03.561Z"
+  },
   {
    "name": "Age of Machine",
    "artist": "Greta Van Fleet",
@@ -492,50 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/0cx32rX0uZvcJUP92Wkj2y",
    "album_url": "https://open.spotify.com/album/4NnBDxnxiiXiMlssBi9Bsq",
    "played_at": "2026-11-03T16:17:23.562Z"
-  },
-  {
-   "name": "I Love Playin' with Fire",
-   "artist": "The Rumours",
-   "album": "I Love Playin' with Fire",
-   "year": 2022,
-   "image": "https://i.scdn.co/image/ab67616d00001e02cf7d0e252938b2eede111d00",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273cf7d0e252938b2eede111d00",
-   "url": "https://open.spotify.com/track/4gZT93314AIdRIRipyI3wT",
-   "album_url": "https://open.spotify.com/album/59UFk4z6tOxats1KHFklEY",
-   "played_at": "2026-11-03T16:14:58.007Z"
-  },
-  {
-   "name": "Shout",
-   "artist": "Tears For Fears",
-   "album": "Songs From The Big Chair",
-   "year": 1985,
-   "image": "https://i.scdn.co/image/ab67616d00001e025e12c35cb4c848a927ef4b69",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2735e12c35cb4c848a927ef4b69",
-   "url": "https://open.spotify.com/track/6UQDkQdtvj3f7F7edAsqda",
-   "album_url": "https://open.spotify.com/album/5STbVtgFy6y7uPshY1RRqb",
-   "played_at": "2026-11-03T15:59:55.487Z"
-  },
-  {
-   "name": "Can I Get It",
-   "artist": "Adele",
-   "album": "30",
-   "year": 2021,
-   "image": "https://i.scdn.co/image/ab67616d00001e02c6b577e4c4a6d326354a89f7",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273c6b577e4c4a6d326354a89f7",
-   "url": "https://open.spotify.com/track/6w8ZPYdnGajyfPddTWdthN",
-   "album_url": "https://open.spotify.com/album/21jF5jlMtzo94wbxmJ18aa",
-   "played_at": "2026-11-03T15:53:21.338Z"
-  },
-  {
-   "name": "Slide",
-   "artist": "Plastic Picnic",
-   "album": "As Long As You Need",
-   "year": 2022,
-   "image": "https://i.scdn.co/image/ab67616d00001e0233ed65aef7428608f5b33f17",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27333ed65aef7428608f5b33f17",
-   "url": "https://open.spotify.com/track/5Rokkaaomfmom5BOm19A8b",
-   "album_url": "https://open.spotify.com/album/615Oddpje0fnkwigsDZYIU",
-   "played_at": "2026-11-03T15:49:50.427Z"
   }
  ],
  "top_artists": [
@@ -553,7 +553,7 @@ window.LISTENING = {
   },
   {
    "name": "Aerosmith",
-   "plays": 2597,
+   "plays": 2598,
    "url": "https://open.spotify.com/artist/7Ey4PD4MYsKc5I2dolUwbH",
    "image": "https://i.scdn.co/image/ab67616d00001e02587b26d49596162397b29ec8"
   },
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28619,
+   "plays": 28621,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32844,
+   "plays": 32845,
    "covers": [
     {
      "name": "Back In Black",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9695,
+   "plays": 9696,
    "covers": [
     {
      "name": "Amazing",
