@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-04T23:40:04Z",
+ "generated": "2026-11-05T00:10:04Z",
  "totals": {
-  "plays": 124876,
-  "hours": 8488.9,
+  "plays": 124877,
+  "hours": 8489.0,
   "artists": 702,
-  "albums": 1523,
+  "albums": 1524,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Bring It on Home - Remaster",
+   "artist": "Led Zeppelin",
+   "album": "Led Zeppelin II (Remaster)",
+   "year": 1969,
+   "image": "https://i.scdn.co/image/ab67616d00001e02f396ea414b735ef23e2ed1a9",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273f396ea414b735ef23e2ed1a9",
+   "url": "https://open.spotify.com/track/1rxD34LAtkafrMUHqHIV76",
+   "album_url": "https://open.spotify.com/album/58MQ0PLijVHePUonQlK76Y",
+   "played_at": "2026-11-05T00:08:18.838Z"
+  },
   {
    "name": "Back In The High Life Again",
    "artist": "Steve Winwood",
@@ -525,17 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/0upLyFR8Rr52ZpMp5esQoq",
    "album_url": "https://open.spotify.com/album/7DdEbYFPKTZ8KB4z6L4UnQ",
    "played_at": "2026-11-03T16:26:47.096Z"
-  },
-  {
-   "name": "We've Got Tonight",
-   "artist": "Bob Seger",
-   "album": "Stranger In Town",
-   "year": 1978,
-   "image": "https://i.scdn.co/image/ab67616d00001e02ef063cb80508c55eb443a671",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273ef063cb80508c55eb443a671",
-   "url": "https://open.spotify.com/track/3mj46XKJ2aEm1z7ZvbwyLi",
-   "album_url": "https://open.spotify.com/album/1vhib5WLHRVdOpRjiTHk15",
-   "played_at": "2026-11-03T16:24:10.276Z"
   }
  ],
  "top_artists": [
@@ -559,7 +559,7 @@ window.LISTENING = {
   },
   {
    "name": "Led Zeppelin",
-   "plays": 2299,
+   "plays": 2300,
    "url": "https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp",
    "image": "https://i.scdn.co/image/ab67616d00001e02c8a11e48c91a982d086afc69"
   },
@@ -832,7 +832,7 @@ window.LISTENING = {
   },
   {
    "decade": 1960,
-   "plays": 7054,
+   "plays": 7055,
    "covers": [
     {
      "name": "Your Time Is Gonna Come - 1990 Remaster",
