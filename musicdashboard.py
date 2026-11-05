@@ -865,6 +865,26 @@ def replay_stats():
     return result
 
 
+def song_key(p):
+    """One song across its versions, as Spotify's Wrapped counts it: the title without a remaster suffix, and
+    the lead artist. "Rocket" and "Rocket - Remastered 2017" are one song; "Oh Well - Live" stays apart from
+    "Oh Well", since a live take can be another performance."""
+    return clean_title(p["name"]).casefold(), (p["artists"][0] if p["artists"] else "").casefold()
+
+
+def merge_shows(shows):
+    """podcast_history.json's totals, which are by show name, combined per show URI so a renamed show
+    ("Talkin' Tolkien" -> "Talkin' Rings of Power") counts once, under its most recent name."""
+    merged = {}
+    for s in shows.values():
+        m = merged.setdefault(s.get("uri") or s["name"], {**s, "plays": 0, "ms_played": 0, "last": ""})
+        m["plays"] += s["plays"]
+        m["ms_played"] += s["ms_played"]
+        if (s.get("last") or "") >= m["last"]:
+            m.update(name=s["name"], last=s.get("last") or "")
+    return list(merged.values())
+
+
 def build():
     """Write docs/data/listening.js (a script, so docs/index.html also works opened as a file)."""
     art = load_art()
@@ -930,7 +950,7 @@ def build():
                            key=lambda e: e["last_seen"], reverse=True)[:12],
         "top_shows": [{"name": s["name"], "plays": s["plays"], "hours": round(s["ms_played"] / 3_600_000),
                        "image": art.get(s["uri"], {}).get("image"), "url": open_url(s["uri"])}
-                      for s in sorted(shows.values(), key=lambda s: -s["ms_played"])[:12]],
+                      for s in sorted(merge_shows(shows), key=lambda s: -s["ms_played"])[:12]],
     }
     replays = replay_stats()
     if replays:
@@ -985,6 +1005,11 @@ def wrapped(periods=None):
                 "image": a.get("image"), "image_large": a.get("image_large"), "year": a.get("year"),
                 "url": open_url(p["uri"]), **extra}
 
+    def song_card(tr, **extra):
+        """A song's card, from its most-played version, under its title without a remaster suffix."""
+        p = tr["versions"][tr["plays_by_uri"].most_common(1)[0][0]]
+        return {**track_card(p, **extra), "name": clean_title(p["name"])}
+
     for period in periods:
         first, _, last = str(period).partition("-")
         first, last = int(first), int(last or first)
@@ -1007,7 +1032,10 @@ def wrapped(periods=None):
             a["plays"] += 1
             a["albums"][p.get("album_uri")] += t
             a["url"] = a["url"] or open_url((p.get("artist_uris") or [None])[0])
-            tr = tracks.setdefault(p["uri"], {"p": p, "ms": 0, "plays": 0, "first": p["played_at"]})
+            tr = tracks.setdefault(song_key(p), {"versions": {}, "plays_by_uri": Counter(), "ms": 0, "plays": 0,
+                                                 "first": p["played_at"]})
+            tr["versions"][p["uri"]] = p
+            tr["plays_by_uri"][p["uri"]] += 1
             tr["ms"] += t
             tr["plays"] += 1
             if p.get("album_uri"):
@@ -1020,7 +1048,7 @@ def wrapped(periods=None):
             hours[d.hour] += t
             weekdays[d.weekday()] += t
             days[d.date().isoformat()] += t
-            day_track[(d.date().isoformat(), p["uri"])] += 1
+            day_track[(d.date().isoformat(), song_key(p))] += 1
 
         total = sum(ms(p) for p in plays)
         ranked_artists = sorted(artists.values(), key=lambda a: -a["ms"])
@@ -1031,7 +1059,7 @@ def wrapped(periods=None):
         top_albums = sorted(albums.values(), key=lambda a: -a["ms"])[:10]
         best_day, best_day_ms = days.most_common(1)[0]
         best_day_plays = [p for p in plays if p["local"].date().isoformat() == best_day]
-        (repeat_day, repeat_uri), repeat_n = day_track.most_common(1)[0]
+        (repeat_day, repeat_song), repeat_n = day_track.most_common(1)[0]
 
         listened = sorted(days)
         streak = best = 1
@@ -1047,11 +1075,15 @@ def wrapped(periods=None):
         for p in prev:
             prev_top[p["artists"][0] if p["artists"] else "Unknown"] += ms(p)
 
-        shows = {}
+        shows = {}  # by show URI, so a renamed show counts once, under the name of its latest episode
         for s in (s for y in span for s in episodes_by_year.get(y, [])):
-            sh = shows.setdefault(s["episode_show_name"], {"name": s["episode_show_name"], "ms": 0, "episodes": set()})
+            uri = (shows_cache.get(s["episode_show_name"]) or {}).get("uri") or None  # False: not found on Spotify
+            sh = shows.setdefault(uri or s["episode_show_name"], {"name": s["episode_show_name"], "uri": uri, "ms": 0,
+                                                                  "episodes": set(), "latest": ""})
             sh["ms"] += s["ms_played"]
             sh["episodes"].add(s["spotify_episode_uri"])
+            if s["ts"] >= sh["latest"]:
+                sh["latest"], sh["name"] = s["ts"], s["episode_show_name"]
         top_shows = sorted(shows.values(), key=lambda s: -s["ms"])[:5]
 
         data = {
@@ -1081,7 +1113,7 @@ def wrapped(periods=None):
                              "last_year_rank": next((i + 1 for i, (n, _) in enumerate(prev_top.most_common())
                                                      if n == a["name"]), None)}
                             for a in ranked_artists[:10]],
-            "top_tracks": [track_card(t["p"], plays=t["plays"], minutes=minutes(t["ms"]), first=t["first"])
+            "top_tracks": [song_card(t, plays=t["plays"], minutes=minutes(t["ms"]), first=t["first"])
                            for t in top_tracks],
             "top_albums": [{**track_card(a["p"]), "name": a["p"].get("album"), "artist": a["artist"],
                             "url": open_url(a["p"]["album_uri"]), "plays": a["plays"], "minutes": minutes(a["ms"])}
@@ -1089,7 +1121,7 @@ def wrapped(periods=None):
             "best_day": {"date": best_day, "minutes": minutes(best_day_ms), "plays": len(best_day_plays),
                          "artists": [n for n, _ in Counter(p["artists"][0] for p in best_day_plays
                                                             if p["artists"]).most_common(3)]},
-            "on_repeat": {"date": repeat_day, "plays": repeat_n, **track_card(tracks[repeat_uri]["p"])},
+            "on_repeat": {"date": repeat_day, "plays": repeat_n, **song_card(tracks[repeat_song])},
             "first_song": track_card(plays[0], played_at=plays[0]["played_at"]),
             "decades": [{"decade": d, "minutes": minutes(n)} for d, n in sorted(decades.items())],
             "discoveries": {"count": len(new_artists),
@@ -1098,8 +1130,7 @@ def wrapped(periods=None):
             "podcasts": {"minutes": minutes(sum(s["ms"] for s in shows.values())),
                          "shows_count": len(shows),
                          "top": [{"name": s["name"], "minutes": minutes(s["ms"]), "episodes": len(s["episodes"]),
-                                  "image": art.get((shows_cache.get(s["name"]) or {}).get("uri"), {}).get("image"),
-                                  "url": open_url((shows_cache.get(s["name"]) or {}).get("uri"))}
+                                  "image": art.get(s["uri"], {}).get("image"), "url": open_url(s["uri"])}
                                  for s in top_shows]},
         }
         out = out_dir / f"{key}.js"
@@ -1319,7 +1350,7 @@ def report_data(now):
 
     tracks = {}
     for p in plays:
-        t = tracks.setdefault(p["uri"], {"name": clean_title(p["name"]), "artist": ", ".join(p["artists"]), "album": p.get("album"),
+        t = tracks.setdefault(song_key(p), {"name": clean_title(p["name"]), "artist": ", ".join(p["artists"]), "album": p.get("album"),
                                          "year": art.get(p.get("album_uri"), {}).get("year"), "plays": 0,
                                          "image": cover(p), "image_large": cover(p, "image_large"),
                                          "url": open_url(p["uri"])})

@@ -137,5 +137,12 @@ Their pages load `data/listening.js` directly, so they need copying into `docs/`
   - A span's data has `span`, `label`, `period_days` and `by_year` (minutes and days per year). In `wrapped.html` a span gets bars per year instead of the monthly bars and the calendar, no "vs last year" and no rank badges, and dates that include the year.
   - The discoveries card is skipped when every artist counts as new.
 - Its podcast stats come only from the export.
+- Songs are counted as Spotify's Wrapped counts them, across versions. `song_key()` is the title after `clean_title()` (remaster suffixes dropped) plus the lead artist.
+  - "Rocket" and "Rocket - Remastered 2017" are one song, while "Oh Well - Live" stays separate from "Oh Well".
+  - A song's card comes from its most-played version, under the cleaned title. The daily report's top songs use the same key.
+  - Albums and replays are still per recording.
+- Podcast shows are combined by show URI and shown under their latest name, so a renamed show ("Talkin' Rings of Power"/"Talkin' Tolkien", "Battle Lines"/"Iran: The Latest") counts once.
+  - In `wrapped()` the latest name is the name on the period's latest episode. `build()` uses `merge_shows()` over `podcast_history.json`, which stays keyed by name.
+- The owner compared these with Spotify's own Wrapped 2025 (in `data/account/Wrapped2025.json`, the only year the account export includes). Its year ends earlier, so its counts run a little lower.
 - "Discoveries" are artists whose first-ever play falls in that year.
 - Card links (`#streak`) are followed after render. Headless screenshots of a scrolled card come out blank, so to check a card, hide the other cards instead of scrolling to it.
