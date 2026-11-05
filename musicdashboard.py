@@ -52,6 +52,7 @@ import sys
 import time
 import webbrowser
 import smtplib
+import socket
 import subprocess
 from collections import Counter
 from datetime import datetime, timedelta, timezone
@@ -225,6 +226,30 @@ class RateLimited(Exception):
     def __init__(self, seconds):
         super().__init__(f"Spotify's rate limit for this app is reached; try again in about "
                          f"{seconds / 3600:.1f} hours.")
+
+
+def network_down(e):
+    """A one-line "Network unavailable: ..." when `e` means the internet couldn't be reached at all (the address
+    lookup or the connection itself failed, as when the connection drops or the PC has just woken); else None.
+    Only that case is shortened: SSL and proxy errors, and anything Spotify or MusicBrainz sent back, keep their
+    full traceback. The line avoids the words the report scans for; report_data() flags it when it repeats."""
+    if not isinstance(e, requests.ConnectionError) or isinstance(e, (requests.exceptions.SSLError,
+                                                                     requests.exceptions.ProxyError)):
+        return None
+    text = str(e)
+    host = re.search(r"host='([^']+)'", text)
+    why = "address lookup" if re.search(r"NameResolution|getaddrinfo", text) else "no connection"
+    return (f"Network unavailable: couldn't reach {host.group(1) if host else 'the internet'} ({why}); "
+            "will retry next run.")
+
+
+def git_offline(out):
+    """network_down() for a git push: the one-line note when git couldn't reach GitHub at all, else None."""
+    m = re.search(r"Could not resolve host: (\S+)|(?:Failed to connect to|Couldn't connect to server)\D*?([\w.-]+\.\w+)", out)
+    if not m:
+        return None
+    why = "address lookup" if m.group(1) else "no connection"
+    return f"Network unavailable: couldn't reach {m.group(1) or m.group(2)} ({why}); the commit is kept and goes out next run."
 
 
 def fetch(session, url, params=None, retries=4):
@@ -607,7 +632,7 @@ def backup_playlists():
                   "-m", "\n\n".join(f"{title}\n" + "\n".join(lines) for title, lines in changed), "--", "playlists")
     if ok:
         ok, out = push()
-    print("Playlist backup pushed to GitHub." if ok else
+    print("Playlist backup pushed to GitHub." if ok else git_offline(out) or
           f"Playlist backup push failed: {(out.splitlines() or ['git error'])[-1]} (the commit is kept; it goes out next run)")
 
 
@@ -732,7 +757,7 @@ def fill_genres(limit=None, delay=1.1):
             if done % 20 == 0:
                 write_atomic(GENRES, json.dumps(cache, indent=1, ensure_ascii=False))
     except requests.RequestException as e:
-        print(f"Genre lookup stopped: {e}")
+        print(network_down(e) or f"Genre lookup stopped: {e}")
     write_atomic(GENRES, json.dumps(cache, indent=1, ensure_ascii=False))
     left = sum(1 for u in listened if u not in cache)
     print(f"Genres looked up for {done} artist(s)" + (f"; {left} to go." if left else "; every artist checked."))
@@ -1495,7 +1520,7 @@ def publish():
                       if last else "Update listening data")
     if ok:
         ok, out = push()
-    print("Published to GitHub." if ok else
+    print("Published to GitHub." if ok else git_offline(out) or
           f"Publish failed: {(out.splitlines() or ['git error'])[-1]} (the commit is kept; it goes out next run)")
 
 
@@ -1543,11 +1568,16 @@ def report(force=False, dry_run=False):
     msg["Subject"], msg["From"], msg["To"] = r["subject"], f"The Listening Booth <{user}>", os.environ.get("REPORT_TO") or user
     msg.set_content(text)
     msg.add_alternative(html, subtype="html")
-    with smtplib.SMTP(os.environ.get("SMTP_HOST") or "smtp.gmail.com", int(os.environ.get("SMTP_PORT") or 587),
-                      timeout=30) as smtp:
-        smtp.starttls()
-        smtp.login(user, password.replace(" ", ""))
-        smtp.send_message(msg)
+    host = os.environ.get("SMTP_HOST") or "smtp.gmail.com"
+    try:
+        with smtplib.SMTP(host, int(os.environ.get("SMTP_PORT") or 587), timeout=30) as smtp:
+            smtp.starttls()
+            smtp.login(user, password.replace(" ", ""))
+            smtp.send_message(msg)
+    except (socket.gaierror, ConnectionError) as e:  # offline; a rejected login or message still raises in full
+        why = "address lookup" if isinstance(e, socket.gaierror) else "no connection"
+        print(f"Network unavailable: couldn't reach {host} ({why}); the report goes out next run.")
+        return
     REPORT_SENT.write_text(today + "\n", encoding="utf-8")
     print(f"Sent the daily report to {msg['To']}.")
 
@@ -1634,6 +1664,21 @@ def report_data(now):
         p["unplayable"] = None if unavailable is None else sum(1 for e in mine if not e.get("until"))
         p["went"] = [label(e) for e in mine if e["since"] == now.date().isoformat() and not e.get("until")]
         p["back"] = [f"{label(e)} ({e['outcome']})" for e in mine if e.get("until") == now.date().isoformat()]
+    # A network dropout logs one "Network unavailable" line (network_down) instead of a traceback. A brief one is
+    # only noted; 3 runs or more in a row (1.5 hours) is flagged, since that's no longer a blip.
+    offline = [t for t, lines in runs if any(l.startswith("Network unavailable") for l in lines)]
+    streak = longest = 0
+    for _, lines in runs:
+        streak = streak + 1 if any(l.startswith("Network unavailable") for l in lines) else 0
+        longest = max(longest, streak)
+    at = lambda t: f"{t:%I:%M %p}".lstrip("0")
+    network = None
+    if longest >= 3:
+        problems.insert(0, f"No internet for {longest} scheduled runs in a row; {len(offline)} run"
+                           f"{'s' if len(offline) != 1 else ''} in all, from {at(offline[0])} to {at(offline[-1])}.")
+    elif offline:
+        network = (f"The internet dropped out briefly ({len(offline)} run{'s' if len(offline) != 1 else ''}, at "
+                   + ", ".join(at(t) for t in offline[:6]) + "); the next run caught up.")
     published =sum(1 for line in log if line.startswith("Published to GitHub"))
     expected = 48
     status = "bad" if any("Traceback" in l or "rror" in l for l in problems) else \
@@ -1674,7 +1719,7 @@ def report_data(now):
             "last_run": runs[-1][0] if runs else None, "problems": problems[:12], "plays": len(plays),
             "minutes": minutes, "artist_count": len(artists), "podcasts": podcasts[:6],
             "top_tracks": top_tracks, "top_artists": sorted(artists.values(), key=lambda a: -a["plays"])[:5],
-            "on_this_day": on_this_day, "import": imported, "published": published, "site": site_url(), "reauth": reauth, "playlists": playlists,
+            "on_this_day": on_this_day, "import": imported, "published": published, "site": site_url(), "reauth": reauth, "playlists": playlists, "network": network,
             "unavailable_url": f"{repo_url()}/blob/main/{UNAVAILABLE.relative_to(ROOT).as_posix()}" if repo_url() else None,
             "totals": {"plays": len(all_plays), "since": all_plays[0]["local"].year if all_plays else None}}
 
@@ -1703,7 +1748,7 @@ def report_text(r):
            f"Scheduled runs in the last 24 hours: {r['runs']} of {r['expected']}"
            + (f", last at {r['last_run']:%I:%M %p}".replace(" 0", " ") if r["last_run"] else " - is the task still enabled?"),
            f"Published to the site {r['published']} time{'s' if r['published'] != 1 else ''}"
-           + (f": {r['site']}" if r["site"] else "")]
+           + (f": {r['site']}" if r["site"] else "")] + ([r["network"]] if r["network"] else [])
     if r["reauth"]:
         summary, steps = reauth_note(r["reauth"])
         out += ["", "ACTION NEEDED: sign in to Spotify again", summary] + [f"  {i}. {s}" for i, s in enumerate(steps, 1)]
@@ -1804,7 +1849,9 @@ def report_html(r):
            if r["site"] else "") + '</td></tr>',
         f'<tr><td class="px" style="padding:20px 28px 0;"><div style="{FONT}background:{tint};border-left:4px solid {color};'
         f'border-radius:6px;padding:12px 16px;"><div style="font-size:16px;font-weight:700;color:{color};">{h(headline)}</div>'
-        f'<div style="font-size:14px;color:{INK};margin-top:2px;">{h(runs)}</div></div></td></tr>']
+        f'<div style="font-size:14px;color:{INK};margin-top:2px;">{h(runs)}</div>'
+        + (f'<div style="font-size:13px;color:{MUTED};margin-top:4px;">{h(r["network"])}</div>' if r["network"] else "")
+        + '</div></td></tr>']
     if r["reauth"]:
         summary, steps = reauth_note(r["reauth"])
         command = re.compile(r"(python musicdashboard\.py \w+)")
@@ -1965,6 +2012,10 @@ def main():
              "backup": backup_playlists}[args.command]()
     except RateLimited as e:
         sys.exit(str(e))
+    except requests.ConnectionError as e:
+        if not network_down(e):
+            raise
+        sys.exit(network_down(e))
 
 
 if __name__ == "__main__":
