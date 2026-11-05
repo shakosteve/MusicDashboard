@@ -1588,6 +1588,30 @@ def clean_title(name):
     return re.sub(r"\s+\((\d{4}\s+)?remaster(ed)?(\s+\d{4})?(\s+version)?\)$", "", name, flags=re.I)
 
 
+def unplayable_summary(n, removed, restored):
+    """The email's line on a playlist's unplayable tracks: how many are unplayable now, and how today's changes
+    got it there, e.g. "Every track is playable now: the 13 unplayable tracks were removed from the playlist
+    today" or "2 tracks unplayable in your country (3 others removed today)". None without unavailable.json."""
+    if n is None:
+        return None
+    s = lambda k, word="track": f"{k} {word}{'s' if k != 1 else ''}"
+    if not n:
+        if not (removed or restored):
+            return "Every track is playable"
+        if removed and not restored:
+            why = (f"the {s(removed, 'unplayable track')} {'were' if removed != 1 else 'was'} "
+                   "removed from the playlist today")
+        elif restored and not removed:
+            why = f"Spotify made the {s(restored, 'unplayable track')} playable again today"
+        else:
+            why = (f"{s(removed, 'unplayable track')} {'were' if removed != 1 else 'was'} removed from the playlist "
+                   f"today, and Spotify made {restored} playable again")
+        return f"Every track is playable now: {why}"
+    others = ([f"{removed} other{'s' if removed != 1 else ''} removed today"] if removed else []) \
+        + ([f"{restored} playable again today"] if restored else [])
+    return f"{s(n)} unplayable in your country" + (f" ({', '.join(others)})" if others else "")
+
+
 def report_data(now):
     """Everything the daily report says, for report_text and report_html."""
     since = now - timedelta(days=1)
@@ -1663,7 +1687,12 @@ def report_data(now):
         mine = [e for e in unavailable or [] if e["playlist"] == p["name"]]
         p["unplayable"] = None if unavailable is None else sum(1 for e in mine if not e.get("until"))
         p["went"] = [label(e) for e in mine if e["since"] == now.date().isoformat() and not e.get("until")]
-        p["back"] = [f"{label(e)} ({e['outcome']})" for e in mine if e.get("until") == now.date().isoformat()]
+        ended = [e for e in mine if e.get("until") == now.date().isoformat()]
+        removed = sum(1 for e in ended if e["outcome"] == "removed from playlist")
+        # Each line names its outcome only when both kinds ended today; otherwise the summary says which.
+        mixed = 0 < removed < len(ended)
+        p["back"] = [label(e) + (f" ({e['outcome']})" if mixed else "") for e in ended]
+        p["unplayable_summary"] = unplayable_summary(p["unplayable"], removed, len(ended) - removed)
     # A network dropout logs one "Network unavailable" line (network_down) instead of a traceback. A brief one is
     # only noted; 3 runs or more in a row (1.5 hours) is flagged, since that's no longer a blip.
     offline = [t for t, lines in runs if any(l.startswith("Network unavailable") for l in lines)]
@@ -1774,9 +1803,8 @@ def report_text(r):
         out.append(f"  {p['name']}: {p['summary']}" + (" (backup committed to GitHub)" if p["changed"] else ""))
         out += [f"    + {t}" for t in p["added"][:15]] + [f"    - {t}" for t in p["removed"][:15]]
         if p["unplayable"] is not None:
-            out.append(f"    {p['unplayable']} track{'s' if p['unplayable'] != 1 else ''} unplayable in your country"
-                       + (f" (full list: {r['unavailable_url']})" if r["unavailable_url"] else "")
-                       if p["unplayable"] else "    Every track is playable")
+            out.append(f"    {p['unplayable_summary']}"
+                       + (f" - full list: {r['unavailable_url']}" if p["unplayable"] and r["unavailable_url"] else ""))
             out += [f"    ! Now unplayable: {t}" for t in p["went"][:15]] + [f"    ✓ {t}" for t in p["back"][:15]]
     if r["playlists"]:
         out += ["  Key: " + "   ".join(f"{sign} {what}" for _, sign, what in PLAYLIST_LEGEND)]
@@ -1927,9 +1955,9 @@ def report_html(r):
             if p["unplayable"] is not None:
                 n = p["unplayable"]
                 inner += (f'<div style="{FONT}font-size:14px;color:{"#9a6700" if n else MUTED};margin:6px 0 4px;">'
-                          + (f'{n} track{"s" if n != 1 else ""} unplayable in your country'
-                             + (f' &middot; {link(r["unavailable_url"], "full list", "#9a6700")}' if r["unavailable_url"] else "")
-                             if n else "Every track is playable") + "</div>"
+                          + h(p["unplayable_summary"])
+                          + (f' &middot; {link(r["unavailable_url"], "full list", "#9a6700")}' if n and r["unavailable_url"] else "")
+                          + "</div>"
                           + "".join(f'<div style="{FONT}font-size:14px;color:{INK};line-height:1.6;"><b style="color:{c};'
                                     f'display:inline-block;width:16px;">{sign}</b>{h(t)}</div>'
                                     for c, sign, t in [("#9a6700", "!", f"Now unplayable: {t}") for t in p["went"][:15]]
