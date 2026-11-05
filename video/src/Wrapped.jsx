@@ -39,6 +39,7 @@ export const plan = (lines) => {
 };
 
 const fmt = (n) => Math.round(n).toLocaleString("en-US");
+const ordinal = (n) => n + (n % 100 >= 11 && n % 100 <= 13 ? "th" : ["th", "st", "nd", "rd"][n % 10] || "th");
 const day = (iso) => new Date(iso + "T12:00:00").toLocaleDateString("en-US", { month: "long", day: "numeric" });
 const ACRONYMS = new Set(["aor", "r&b", "edm", "idm", "nwobhm", "uk", "us", "dj", "ebm"]);
 const genreName = (g, title = false) => g.split(/([\s-]+)/).map((w) => ACRONYMS.has(w) ? w.toUpperCase()
@@ -154,15 +155,20 @@ const cards = {
       </>
     );
   },
-  artist: ({ d }) => {
+  // With several lines (the "again?" banter for a repeat #1), the name waits for the second line.
+  artist: ({ d, c }) => {
     const a = d.top_artists[0];
+    const at = c.lines.length > 1 ? c.lines[1].at : 10;
+    const then = c.lines.length > 2 ? c.lines[2].at - 8 : at;  // the streak and stats wait for the payoff line
+    const streak = d.top_artist_streak || 0;
     return (
       <>
         <Reveal><Kicker>Your top artist</Kicker></Reveal>
         <Reveal delay={4}><div style={{ font: `400 300px/.9 ${DISPLAY}`, color: "transparent", WebkitTextStroke: `5px ${C.accent}` }}>#1</div></Reveal>
-        <Reveal delay={10}><Mid size={140}>{a.name}</Mid></Reveal>
-        <Reveal delay={18}><Lede>{a.last_year_rank === 1 ? `Number one again, same as ${d.year - 1}.` : a.last_year_rank ? `Up from #${a.last_year_rank} in ${d.year - 1}.` : "Brand new at the top."}</Lede></Reveal>
-        <Reveal delay={26}><Stats items={[["Minutes", <Count to={a.minutes} delay={26} />], ["Plays", fmt(a.plays)], ["Of all listening", `${a.share}%`]]} /></Reveal>
+        <Reveal delay={at}><Mid size={140}>{a.name}</Mid></Reveal>
+        <Reveal delay={then + 8}><Lede>{streak > 2 ? <>Number one for the <B>{ordinal(streak)} year in a row</B>. Yes, again.</>
+          : a.last_year_rank === 1 ? `Number one again, same as ${d.year - 1}.` : a.last_year_rank ? `Up from #${a.last_year_rank} in ${d.year - 1}.` : "Brand new at the top."}</Lede></Reveal>
+        <Reveal delay={then + 16}><Stats items={[["Minutes", <Count to={a.minutes} delay={then + 16} />], ["Plays", fmt(a.plays)], ["Of all listening", `${a.share}%`]]} /></Reveal>
       </>
     );
   },

@@ -1113,6 +1113,17 @@ def wrapped(periods=None):
     def minutes(n):
         return round(n / 60_000)
 
+    tops = {}
+
+    def top_of(year):
+        """The year's top artist by minutes (None for a year with no plays)."""
+        if year not in tops:
+            t = Counter()
+            for p in by_year.get(year, []):
+                t[p["artists"][0] if p["artists"] else "Unknown"] += ms(p)
+            tops[year] = t.most_common(1)[0][0] if t else None
+        return tops[year]
+
     def track_card(p, **extra):
         a = art.get(p.get("album_uri"), {})
         return {"name": p["name"], "artist": ", ".join(p["artists"]), "album": p.get("album"),
@@ -1195,6 +1206,12 @@ def wrapped(periods=None):
         prev_top = Counter()
         for p in prev:
             prev_top[p["artists"][0] if p["artists"] else "Unknown"] += ms(p)
+        # How many years in a row, ending with this one, the top artist was the year's top artist, counting only
+        # years busy enough for their own review (The Warning also topped 2019, on 57 plays).
+        streak = 0
+        while (len(span) == 1 and len(by_year.get(first - streak, [])) >= WRAPPED_MIN_PLAYS
+               and top_of(first - streak) == ranked_artists[0]["name"]):
+            streak += 1
 
         shows = {}  # by show URI, so a renamed show counts once, under the name of its latest episode
         for s in (s for y in span for s in episodes_by_year.get(y, [])):
@@ -1251,6 +1268,7 @@ def wrapped(periods=None):
             "days_listened": len(days),
             "longest_streak": {"days": best, "ended": streak_end},
             "previous_minutes": minutes(sum(ms(p) for p in prev)) if prev else None,
+            "top_artist_streak": streak,  # years in a row at #1, this one included (0 for a span)
             "months": [minutes(m) for m in months],
             "hours": [minutes(h) for h in hours],
             "weekdays": [minutes(w) for w in weekdays],
@@ -1350,6 +1368,11 @@ def narrate(year):
     write_atomic(out / "data.json", review[review.index("] = ") + 4:].rstrip().rstrip(";"))
     old = {line["hash"]: line for line in json.loads((out / "narration.json").read_text(encoding="utf-8"))["lines"]} \
         if (out / "narration.json").exists() else {}
+    # Set the voiced files aside by hash first: renumbered lines would otherwise overwrite one another.
+    for digest, line in old.items():
+        if (out / line["file"]).exists():
+            (out / line["file"]).replace(out / f"voiced-{digest}.wav")
+            line["file"] = f"voiced-{digest}.wav"
     key, region = require("AZURE_SPEECH_KEY"), require("AZURE_SPEECH_REGION")
     lines = []
     for n, line in enumerate(script["lines"], 1):
@@ -1357,8 +1380,7 @@ def narrate(year):
         digest = hashlib.sha1(f"{voice}|{line['text']}".encode()).hexdigest()[:12]
         f = out / f"line-{n:02}.wav"
         if digest in old and (out / old[digest]["file"]).exists():
-            if old[digest]["file"] != f.name:
-                (out / old[digest]["file"]).replace(f)
+            (out / old[digest]["file"]).replace(f)
             seconds = old[digest]["seconds"]
         else:
             ssml = (f'<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="en-US">'
@@ -1375,6 +1397,8 @@ def narrate(year):
                 seconds = round(w.getnframes() / w.getframerate(), 3)
             print(f"  {n:02} {line['voice']:<7} {seconds:5.1f}s  {line['text'][:60]}")
         lines.append({**line, "file": f.name, "seconds": seconds, "hash": digest})
+    for leftover in out.glob("voiced-*.wav"):  # lines that were cut from the script
+        leftover.unlink()
     write_atomic(out / "narration.json", json.dumps({"year": year, "lines": lines}, indent=1, ensure_ascii=False))
     print(f"Narration for {year}: {len(lines)} lines, {sum(l['seconds'] for l in lines):.0f}s, in {out.relative_to(ROOT)}")
 

@@ -194,3 +194,10 @@ Their pages load `data/listening.js` directly, so they need copying into `docs/`
 - A song is an outlier when under half of its artist's genre weight falls in usual families. It's labelled with that artist's top genre in its biggest other family.
 - Genres are per artist, so a hard rock band's one country song isn't caught. Local files and artists without genres are skipped.
 - 2026 found 7: Will Smith and Digital Underground (hip hop), Prince ×2 and the Bee Gees (R&B and soul), and Juice Newton and Eddie Rabbitt (country).
+- **A repeat #1 gets teased.** The owner asked for this: when the top artist repeats, the narrators get sarcastic.
+  - `wrapped()` gives `top_artist_streak`, the years in a row at #1, counting only years with their own review (`WRAPPED_MIN_PLAYS`). The Warning topped 2019 too, on 57 plays, so that year is left out.
+  - For 2025 it's 6, and for 2026 it'll be 7.
+  - The script splits the top-artist card into banter: a setup ("Your number one artist of … is..."), the other voice guessing ("Let me guess. The Warning. Again?"), then the payoff with the streak.
+  - The card holds back the name until the second line, and the streak and stats until the third.
+  - `wrapped.html` says "Number one for the Nth year in a row. Yes, again." when the streak is over 2.
+- `narrate` moves reused audio aside by hash before renumbering, because lines shift when the script grows. Azure's HD voices vary slightly between takes, so a re-voiced line's length can change.

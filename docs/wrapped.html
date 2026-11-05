@@ -249,6 +249,7 @@
   const link = (url, text) => url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(text)}</a>` : esc(text);
   const card = (id, body, style = "") => `<section class="card" id="${id}" style="${style}">${body}</section>`;
   const argmax = (xs) => xs.indexOf(Math.max(...xs));
+  const ordinal = (n) => n + (n % 100 >= 11 && n % 100 <= 13 ? "th" : ["th", "st", "nd", "rd"][n % 10] || "th");
   // MusicBrainz genres are lower case ("hard rock", "aor", "r&b"): acronyms in capitals, and Title Case for labels.
   const ACRONYMS = new Set(["aor", "r&b", "edm", "idm", "nwobhm", "uk", "us", "dj", "ebm"]);
   const genreName = (g, title = false) => g.split(/([\s-]+)/).map((w) => ACRONYMS.has(w) ? w.toUpperCase()
@@ -316,7 +317,7 @@
       ${a1.image ? `<img class="cover-art reveal" src="${esc(a1.image)}" alt="">` : ""}
       <p class="rank reveal">Your top artist</p>
       <h2 class="mid reveal">${link(a1.url, a1.name)}</h2>
-      <p class="lede reveal">${span ? `On top across all ${span[1] - span[0] + 1} years.` : a1.last_year_rank === 1 ? `Number one again, same as ${w.year - 1}.` : a1.last_year_rank ? `Up from #${a1.last_year_rank} in ${w.year - 1}.` : `Brand new at the top.`}
+      <p class="lede reveal">${span ? `On top across all ${span[1] - span[0] + 1} years.` : w.top_artist_streak > 2 ? `Number one for the ${ordinal(w.top_artist_streak)} year in a row. Yes, again.` : a1.last_year_rank === 1 ? `Number one again, same as ${w.year - 1}.` : a1.last_year_rank ? `Up from #${a1.last_year_rank} in ${w.year - 1}.` : `Brand new at the top.`}
         First play${span ? "" : " of the year"}: ${day(a1.first.slice(0, 10))}.</p>
       <dl class="stats reveal">
         <div><dt>Minutes</dt><dd>${fmt(a1.minutes)}</dd></div>
