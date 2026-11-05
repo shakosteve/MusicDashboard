@@ -27,7 +27,10 @@
     <div class="faceplate">
       <div class="brandline">
         <span class="model" id="title">The Listening Booth</span>
-        <span class="spec">Auto reverse · Stereo · <span id="since"></span></span>
+        <span class="brand-right">
+          <span class="spec">Auto reverse · Stereo · <span id="since"></span></span>
+          <a class="vid" id="watch-video" hidden>▶ Watch</a>
+        </span>
       </div>
       <div class="deck">
         <a class="slot" id="now-art" target="_blank" rel="noopener" aria-label="Last played on Spotify"></a>
@@ -120,7 +123,8 @@
     document.body.appendChild(s);
   };
   const t = Date.now();
-  load(`${base}data/listening.js?t=${t}`, () => load(`${base}data/wrapped/index.js?t=${t}`, () => load("app.js")));
+  load(`${base}data/listening.js?t=${t}`, () => load(`${base}data/wrapped/index.js?t=${t}`,
+    () => load(`${base}video/index.js?t=${t}`, () => load("app.js"))));
   const loaded = Date.now();
   const refresh = () => { if (!document.hidden && Date.now() - loaded > 10 * 60 * 1000) location.reload(); };
   setInterval(refresh, 60 * 1000);

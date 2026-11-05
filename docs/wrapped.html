@@ -71,7 +71,16 @@
   .year-outline { font: 400 clamp(7rem, 30vw, 22rem)/.8 var(--display); color: transparent; -webkit-text-stroke: 2px var(--text); letter-spacing: -.04em; margin: 0; }
   .year-fill { color: var(--text); -webkit-text-stroke: 0; }
   .picker { position: fixed; top: 14px; right: 16px; z-index: 10; display: flex; gap: 8px; align-items: center; font-size: .85rem; }
-  .picker select, .picker a.home { background: rgba(14, 14, 16, .7); color: var(--text); border: 1px solid var(--faint); border-radius: 999px; padding: 6px 12px; font: inherit; backdrop-filter: blur(6px); }
+  .picker select, .picker a.home, .picker button, .player .close { background: rgba(14, 14, 16, .7); color: var(--text); border: 1px solid var(--faint); border-radius: 999px; padding: 6px 12px; font: inherit; backdrop-filter: blur(6px); cursor: pointer; }
+  .picker button.watch { color: var(--accent); border-color: var(--accent); font-weight: 600; }
+  .picker [hidden] { display: none; }
+  /* The year's narrated video (docs/video/), in an overlay. */
+  .player { position: fixed; inset: 0; z-index: 30; display: none; flex-direction: column; align-items: center; justify-content: center; gap: 10px; padding: 56px 16px 16px; background: rgba(0, 0, 0, .96); }
+  .player.open { display: flex; }
+  .player video { height: min(calc(100vh - 110px), calc((100vw - 32px) * 16 / 9)); aspect-ratio: 9 / 16; border-radius: 12px; background: #000; }
+  .player .close { position: absolute; top: 14px; right: 16px; font-size: .85rem; }
+  .player p { margin: 0; color: var(--muted); font-size: .78rem; text-align: center; }
+  .player p a { color: inherit; }
   .scroll-hint { position: absolute; bottom: 22px; left: 50%; transform: translateX(-50%); font-size: .8rem; color: var(--muted); letter-spacing: .1em; text-transform: uppercase; }
 
   /* dots */
@@ -174,13 +183,19 @@
 </style>
 </head>
 <body>
-<nav class="picker"><a class="home" href="index.html">← Dashboard</a><select id="year" aria-label="Year"></select></nav>
+<nav class="picker"><button class="watch" id="watch" type="button" hidden>▶ Watch</button><a class="home" href="index.html">← Dashboard</a><select id="year" aria-label="Year"></select></nav>
+<div class="player" id="player" role="dialog" aria-modal="true" aria-label="Year in review video">
+  <button class="close" id="close" type="button">Close ✕</button>
+  <video id="video" controls playsinline preload="none"></video>
+  <p>Narration: Azure AI voices. Music, photos and footage: <a href="https://pixabay.com" target="_blank" rel="noopener">Pixabay</a>. Genres: MusicBrainz.</p>
+</div>
 <nav class="dots" id="dots" aria-label="Sections"></nav>
 <main id="story"><section class="card"><p class="lede">Loading…</p></section></main>
 <footer>Reconstructed from your Spotify listening history. Artwork and links from <a href="https://open.spotify.com" rel="noopener">Spotify</a>.</footer>
 <div class="tip" id="tip" role="tooltip"></div>
 
 <script src="data/wrapped/index.js"></script>
+<script src="video/index.js"></script>
 <script>
 (function () {
   const years = window.WRAPPED_YEARS || [];  // numbers for years, "2013-2019" strings for spans
@@ -194,6 +209,27 @@
   const select = document.getElementById("year");
   select.innerHTML = years.slice().reverse().map((y) => `<option value="${y}"${y === year ? " selected" : ""}>${String(y).replace("-", "–")}</option>`).join("");
   select.onchange = () => { location.search = `?year=${select.value}`; };
+
+  // Narrated videos, listed in video/index.js. The Watch button shows only for those years; #watch in the URL
+  // opens the player straight away.
+  const VIDEOS = window.WRAPPED_VIDEOS || {};
+  const player = document.getElementById("player"), video = document.getElementById("video");
+  if (VIDEOS[year]) {
+    const watch = document.getElementById("watch");
+    watch.hidden = false;
+    video.poster = `${VIDEOS[year]}.jpg`;
+    const open = () => {
+      if (!video.src) video.src = `${VIDEOS[year]}.mp4`;
+      player.classList.add("open");
+      video.play().catch(() => {});  // a browser may want a tap first, as when opened from #watch
+    };
+    const shut = () => { video.pause(); player.classList.remove("open"); };
+    watch.onclick = open;
+    document.getElementById("close").onclick = shut;
+    player.onclick = (e) => { if (e.target === player) shut(); };
+    document.addEventListener("keydown", (e) => { if (e.key === "Escape" && player.classList.contains("open")) shut(); });
+    if (location.hash === "#watch") open();
+  }
   const s = document.createElement("script");
   s.src = `data/wrapped/${year}.js`;
   s.onload = () => render(window.WRAPPED[year]);

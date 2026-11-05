@@ -182,3 +182,8 @@ Their pages load `data/listening.js` directly, so they need copying into `docs/`
   - `npx remotion studio src/index.jsx` opens a live preview.
 - npm blocks esbuild's install script, and that's fine: its Windows binary installs as `@esbuild/win32-x64`.
 - `video/node_modules/`, `video/public/` and `video/out/` are gitignored.
+- **On the site:** the web copy is `docs/video/wrapped-<year>.mp4` (committed) with a `.jpg` poster, listed in `docs/video/index.js` (`window.WRAPPED_VIDEOS`).
+  - **Encoding:** re-encode from `video/out/` at 720x1280 with CRF 26, `-movflags +faststart` and 128k AAC, using `npx remotion ffmpeg`. 2025 comes to 5.3 MB, smaller than the 11 MB 1080p render.
+  - **The year in review:** `wrapped.html` shows a "▶ Watch" button for listed years. It opens an overlay player, and `#watch` in the URL opens it on load.
+  - **The dashboard:** `app.js` puts a "▶ Watch <year>" key, the `.vid` style, on the faceplate's brandline for the latest listed year.
+  - **Commit only final cuts.** Each committed version stays in git history forever, and Git LFS isn't an option because Pages doesn't serve LFS files.

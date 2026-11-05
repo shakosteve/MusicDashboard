@@ -31,6 +31,12 @@
   if (t.first) $("since").textContent = `Since ${new Date(t.first).getFullYear()}`;
   if ((window.WRAPPED_YEARS || []).length) $("preset-year").href = `${base}wrapped.html`;
   else $("preset-year").remove();
+  // A faceplate key for the latest year with a narrated video (video/index.js), opening it in the review.
+  const videoYears = Object.keys(window.WRAPPED_VIDEOS || {}).sort();
+  if (videoYears.length) {
+    const y = videoYears[videoYears.length - 1];
+    Object.assign($("watch-video"), { href: `${base}wrapped.html?year=${y}#watch`, textContent: `▶ Watch ${y}`, hidden: false });
+  } else $("watch-video").remove();
 
   // Head unit: the last played track in the display, its cover in the slot.
   const last = site.recent[0];
