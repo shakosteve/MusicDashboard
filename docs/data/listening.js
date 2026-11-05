@@ -1,14 +1,69 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-05T15:40:07Z",
+ "generated": "2026-11-05T16:10:05Z",
  "totals": {
-  "plays": 124906,
-  "hours": 8491.1,
+  "plays": 124911,
+  "hours": 8491.5,
   "artists": 702,
   "albums": 1525,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Round and Round",
+   "artist": "Ratt",
+   "album": "The Essentials: Ratt",
+   "year": 1984,
+   "image": "https://i.scdn.co/image/ab67616d00001e023e6f0c0b02ca72a70f6b9b50",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2733e6f0c0b02ca72a70f6b9b50",
+   "url": "https://open.spotify.com/track/57P8gH8rjt4OqEoqzut1bL",
+   "album_url": "https://open.spotify.com/album/0zhBC0ytIvsL8Kvf0xtPMp",
+   "played_at": "2026-11-05T15:59:49.999Z"
+  },
+  {
+   "name": "Take A Chance On Me",
+   "artist": "ABBA",
+   "album": "The Album",
+   "year": 1977,
+   "image": "https://i.scdn.co/image/ab67616d00001e026f705bef76c1d861c4d51d8c",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2736f705bef76c1d861c4d51d8c",
+   "url": "https://open.spotify.com/track/5BckPAYcKEJuYs1eV1BHHe",
+   "album_url": "https://open.spotify.com/album/5fLOHW1UXr1cJrnXiU3FBt",
+   "played_at": "2026-11-05T15:55:23.484Z"
+  },
+  {
+   "name": "Once in a Lifetime - 2005 Remaster",
+   "artist": "Talking Heads",
+   "album": "Remain in Light (Deluxe Version)",
+   "year": 1980,
+   "image": "https://i.scdn.co/image/ab67616d00001e02e56fa8c916dc6ce419dcf557",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273e56fa8c916dc6ce419dcf557",
+   "url": "https://open.spotify.com/track/38Ngied9rBORlAbLYNCl4k",
+   "album_url": "https://open.spotify.com/album/3AQgdwMNCiN7awXch5fAaG",
+   "played_at": "2026-11-05T15:51:19.074Z"
+  },
+  {
+   "name": "Wizard Flurry Home",
+   "artist": "Mariee Sioux",
+   "album": "Faces in the Rocks",
+   "year": 2007,
+   "image": "https://i.scdn.co/image/ab67616d00001e024f828e8c0317be3b69347874",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2734f828e8c0317be3b69347874",
+   "url": "https://open.spotify.com/track/0kBIf10ovrGvEPQ5sP0nB3",
+   "album_url": "https://open.spotify.com/album/4uTqDWrJqOHYp1DCtkun16",
+   "played_at": "2026-11-05T15:46:58.561Z"
+  },
+  {
+   "name": "That's All - 2007 Remaster",
+   "artist": "Genesis",
+   "album": "Genesis (2007 Remaster)",
+   "year": 1983,
+   "image": "https://i.scdn.co/image/ab67616d00001e02945c366eda66495226e4a46d",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273945c366eda66495226e4a46d",
+   "url": "https://open.spotify.com/track/2zFdsAIk9r2Mi7Lmm1w3sM",
+   "album_url": "https://open.spotify.com/album/6BX8AS7J97PSQNrteX325Z",
+   "played_at": "2026-11-05T15:41:41.915Z"
+  },
   {
    "name": "Closer To The Heart",
    "artist": "Rush",
@@ -481,61 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/1hvKYV2SkmX1D2AeRCDxLH",
    "album_url": "https://open.spotify.com/album/7lkW8dx8Feb7tzVNMgxGCm",
    "played_at": "2026-11-04T17:11:26.303Z"
-  },
-  {
-   "name": "Death By Rock And Roll",
-   "artist": "The Pretty Reckless",
-   "album": "Death By Rock And Roll",
-   "year": 2021,
-   "image": "https://i.scdn.co/image/ab67616d00001e02a8045b6cc934e134e99eddd6",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273a8045b6cc934e134e99eddd6",
-   "url": "https://open.spotify.com/track/6ISZ6sKcNBdYJS7XYHm5cV",
-   "album_url": "https://open.spotify.com/album/2ysgEIHY4aOMMbbu0uV6ey",
-   "played_at": "2026-11-04T17:08:42.833Z"
-  },
-  {
-   "name": "Folsom Prison Blues",
-   "artist": "Joaquin Phoenix",
-   "album": "Walk The Line (Original Motion Picture Soundtrack)",
-   "year": 2005,
-   "image": "https://i.scdn.co/image/ab67616d00001e020ff166bfd4a462cc7f4068a6",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2730ff166bfd4a462cc7f4068a6",
-   "url": "https://open.spotify.com/track/7bh6o0jqTn2Bh0M7vHln6f",
-   "album_url": "https://open.spotify.com/album/6ICcWbsZxt5fVG02IbZuZg",
-   "played_at": "2026-11-04T17:04:47.939Z"
-  },
-  {
-   "name": "EVOLVE - Live from Auditorio Nacional, CDMX",
-   "artist": "The Warning",
-   "album": "Live from Auditorio Nacional, CDMX",
-   "year": 2025,
-   "image": "https://i.scdn.co/image/ab67616d00001e025cda6d880ec3968aa6b6ac2f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
-   "url": "https://open.spotify.com/track/5s6qXpfXp9aO0UM4YEy1hE",
-   "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
-   "played_at": "2026-11-04T17:01:55.210Z"
-  },
-  {
-   "name": "Too Young to Fall in Love",
-   "artist": "Mötley Crüe",
-   "album": "Shout At The Devil",
-   "year": 1983,
-   "image": "https://i.scdn.co/image/ab67616d00001e0232d1c00a69d70510d18a032e",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27332d1c00a69d70510d18a032e",
-   "url": "https://open.spotify.com/track/08zvzy2FD1V0wFn8mhiQaH",
-   "album_url": "https://open.spotify.com/album/61tegsknhtO0WKmkyPqvly",
-   "played_at": "2026-11-04T16:58:13.610Z"
-  },
-  {
-   "name": "Teach Your Children",
-   "artist": "Crosby, Stills, Nash & Young",
-   "album": "Deja Vu",
-   "year": 1970,
-   "image": "https://i.scdn.co/image/ab67616d00001e0206e00756085191abc01e4cf0",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27306e00756085191abc01e4cf0",
-   "url": "https://open.spotify.com/track/29HaKOpeLSYvqdFyEQSRdj",
-   "album_url": "https://open.spotify.com/album/5bHkK1X4WEOzNvRhehvOcb",
-   "played_at": "2026-11-04T16:54:37.537Z"
   }
  ],
  "top_artists": [
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28648,
+   "plays": 28649,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32860,
+   "plays": 32863,
    "covers": [
     {
      "name": "Back In Black",
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 11989,
+   "plays": 11990,
    "covers": [
     {
      "name": "Material Girl",
