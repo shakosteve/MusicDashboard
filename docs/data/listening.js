@@ -1,14 +1,47 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-05T22:10:07Z",
+ "generated": "2026-11-05T22:40:06Z",
  "totals": {
-  "plays": 124923,
-  "hours": 8492.4,
+  "plays": 124927,
+  "hours": 8492.7,
   "artists": 702,
   "albums": 1525,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Six Feet Deep - Live from Auditorio Nacional, CDMX",
+   "artist": "The Warning",
+   "album": "Live from Auditorio Nacional, CDMX",
+   "year": 2025,
+   "image": "https://i.scdn.co/image/ab67616d00001e025cda6d880ec3968aa6b6ac2f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
+   "url": "https://open.spotify.com/track/54SyANvduVctJjUQAsQiGM",
+   "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
+   "played_at": "2026-11-05T22:37:26.465Z"
+  },
+  {
+   "name": "Wanted Dead Or Alive",
+   "artist": "Bon Jovi",
+   "album": "Slippery When Wet",
+   "year": 1986,
+   "image": "https://i.scdn.co/image/ab67616d00001e021336b31b6a1799f0de5807ac",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2731336b31b6a1799f0de5807ac",
+   "url": "https://open.spotify.com/track/0oerlffJSzhRVvtDfLcp3N",
+   "album_url": "https://open.spotify.com/album/0kBfgEilUFCMIQY5IOjG4t",
+   "played_at": "2026-11-05T22:34:24.088Z"
+  },
+  {
+   "name": "Hotel California - 2013 Remaster",
+   "artist": "Eagles",
+   "album": "Hotel California (2013 Remaster)",
+   "year": 1976,
+   "image": "https://i.scdn.co/image/ab67616d00001e024637341b9f507521afa9a778",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2734637341b9f507521afa9a778",
+   "url": "https://open.spotify.com/track/40riOy7x9W7GXjyGp4pjAv",
+   "album_url": "https://open.spotify.com/album/2widuo17g5CEC66IbzveRu",
+   "played_at": "2026-11-05T22:26:03.440Z"
+  },
   {
    "name": "Teach Your Children",
    "artist": "Crosby, Stills, Nash & Young",
@@ -18,7 +51,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b27306e00756085191abc01e4cf0",
    "url": "https://open.spotify.com/track/29HaKOpeLSYvqdFyEQSRdj",
    "album_url": "https://open.spotify.com/album/5bHkK1X4WEOzNvRhehvOcb",
-   "played_at": "2026-11-05T20:44:20.387Z"
+   "played_at": "2026-11-05T22:17:22.722Z"
   },
   {
    "name": "Linger - Remastered 2026",
@@ -503,45 +536,12 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/3Vr6jPaMGWI98BdGNW5S5P",
    "album_url": "https://open.spotify.com/album/27DJov9N9ian0RrcMO1Iak",
    "played_at": "2026-11-05T00:18:54.052Z"
-  },
-  {
-   "name": "Misty Mountain Hop - Live",
-   "artist": "Jimmy Page, The Black Crowes",
-   "album": "Live at the Greek",
-   "year": 2025,
-   "image": "https://i.scdn.co/image/ab67616d00001e02fa6e624fbe4dbca748770195",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273fa6e624fbe4dbca748770195",
-   "url": "https://open.spotify.com/track/4oiH09Gi8ygNHjCewF61XA",
-   "album_url": "https://open.spotify.com/album/27DJov9N9ian0RrcMO1Iak",
-   "played_at": "2026-11-05T00:14:08.268Z"
-  },
-  {
-   "name": "Bring It on Home - Remaster",
-   "artist": "Led Zeppelin",
-   "album": "Led Zeppelin II (Remaster)",
-   "year": 1969,
-   "image": "https://i.scdn.co/image/ab67616d00001e02f396ea414b735ef23e2ed1a9",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273f396ea414b735ef23e2ed1a9",
-   "url": "https://open.spotify.com/track/1rxD34LAtkafrMUHqHIV76",
-   "album_url": "https://open.spotify.com/album/58MQ0PLijVHePUonQlK76Y",
-   "played_at": "2026-11-05T00:08:18.838Z"
-  },
-  {
-   "name": "Back In The High Life Again",
-   "artist": "Steve Winwood",
-   "album": "Back In The High Life",
-   "year": 1986,
-   "image": "https://i.scdn.co/image/ab67616d00001e028362a7a26eaf279f336f1494",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2738362a7a26eaf279f336f1494",
-   "url": "https://open.spotify.com/track/1Bj6YgjjPbEb4jhQ50T8tJ",
-   "album_url": "https://open.spotify.com/album/1VV4tdUYIjRlhKxu1gMw4d",
-   "played_at": "2026-11-04T21:54:39.513Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10672,
+   "plays": 10673,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28652,
+   "plays": 28654,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32865,
+   "plays": 32866,
    "covers": [
     {
      "name": "Back In Black",
@@ -1086,7 +1086,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2731336b31b6a1799f0de5807ac",
      "url": "https://open.spotify.com/track/0rmGAIH9LNJewFw7nKzZnc",
      "album_url": "https://open.spotify.com/album/0kBfgEilUFCMIQY5IOjG4t",
-     "plays": 682
+     "plays": 683
     },
     {
      "name": "Sharp Dressed Man - 2008 Remaster",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18612,
+   "plays": 18613,
    "covers": [
     {
      "name": "ERROR",
@@ -1440,7 +1440,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
      "url": "https://open.spotify.com/track/3zgbw0cxkS1DQ36O5hGydt",
      "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
-     "plays": 479
+     "plays": 480
     },
     {
      "name": "Shot In The Dark",
