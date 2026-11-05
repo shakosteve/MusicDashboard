@@ -1,4 +1,5 @@
-import { AbsoluteFill, Audio, Sequence, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
+import { AbsoluteFill, Audio, Img, Loop, OffthreadVideo, Sequence, interpolate, spring, staticFile, useCurrentFrame,
+  useVideoConfig } from "remotion";
 import { loadFont as loadDisplay } from "@remotion/google-fonts/ArchivoBlack";
 import { loadFont as loadSans } from "@remotion/google-fonts/Inter";
 
@@ -66,11 +67,26 @@ const Lede = ({ children }) => <div style={{ font: `400 46px/1.35 ${SANS}`, colo
 const B = ({ children }) => <b style={{ color: C.text, fontWeight: 600 }}>{children}</b>;
 const A = ({ children }) => <span style={{ color: C.accent }}>{children}</span>;
 
-const Frame = ({ frames, wash, children }) => {
+// A card's backdrop: its photo or clip, blurred, darkened and slowly zooming, with the card's colour wash over
+// it; or just the wash on black. Clips loop if the card outlasts them.
+const Backdrop = ({ v, frames }) => {
+  const scale = interpolate(useCurrentFrame(), [0, frames], [1.06, 1.16]);
+  const style = { position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover",
+    filter: "blur(5px) brightness(.4) saturate(1.1)", transform: `scale(${scale})` };
+  return v.kind === "video"
+    ? <Loop durationInFrames={Math.round((v.seconds || 8) * FPS)}><OffthreadVideo src={staticFile(v.file)} muted style={style} /></Loop>
+    : <Img src={staticFile(v.file)} style={style} />;
+};
+
+const Frame = ({ frames, wash, visual, children }) => {
   const f = useCurrentFrame();
   const opacity = interpolate(f, [0, 10, frames - 10, frames], [0, 1, 1, 0], CLAMP);
+  const [color, at] = wash;
+  const base = visual ? "rgba(14,14,16,.35)" : C.bg;
   return (
-    <AbsoluteFill style={{ background: wash || C.bg, opacity }}>
+    <AbsoluteFill style={{ background: C.bg, opacity }}>
+      {visual && <Backdrop v={visual} frames={frames} />}
+      <AbsoluteFill style={{ background: `radial-gradient(110% 60% at ${at}, ${color}${visual ? "b0" : ""} 0%, transparent 60%), ${base}` }} />
       <div style={{ position: "absolute", inset: "0 90px", display: "flex", flexDirection: "column", justifyContent: "center" }}>{children}</div>
     </AbsoluteFill>
   );
@@ -90,7 +106,7 @@ const Bar = ({ label, value, max, text, delay, peak }) => {
   );
 };
 
-const wash = (color, at) => `radial-gradient(110% 60% at ${at}, ${color} 0%, transparent 60%), ${C.bg}`;
+const wash = (color, at) => [color, at];
 
 const cards = {
   cover: ({ d }) => (
@@ -321,7 +337,7 @@ const Record = ({ label }) => {
   );
 };
 
-export const Wrapped = ({ year, data, music, timeline }) => {
+export const Wrapped = ({ year, data, music, visuals = {}, timeline }) => {
   if (!timeline) return null;
   return (
     <AbsoluteFill style={{ background: C.bg, color: C.text, fontFamily: SANS }}>
@@ -335,7 +351,7 @@ export const Wrapped = ({ year, data, music, timeline }) => {
         const Card = cards[c.card];
         return (
           <Sequence key={i} from={c.from} durationInFrames={c.frames}>
-            <Frame frames={c.frames} wash={washes[c.card]}><Card d={data} c={c} /></Frame>
+            <Frame frames={c.frames} wash={washes[c.card]} visual={visuals[c.card]}><Card d={data} c={c} /></Frame>
             {c.lines.map((l) => (
               <Sequence key={l.n} from={l.at}><Audio src={staticFile(`${year}/${l.file}`)} /></Sequence>
             ))}

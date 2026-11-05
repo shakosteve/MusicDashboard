@@ -171,8 +171,10 @@ Their pages load `data/listening.js` directly, so they need copying into `docs/`
   - Music beds play at 0.16 volume and are merged across adjacent cards with the same style.
   - The look matches `wrapped.html`: Archivo Black and Inter, a coloured wash per card, and the lime accent.
   - **There's no album art.** Spotify art must link back to Spotify, and a video can't. The song card draws a record instead.
+  - Each card has a backdrop instead: a Pixabay photo or clip (no people, band logos or album art), blurred, darkened and slowly zooming under the card's wash. `video/public/visuals.json` maps cards to files in `images/` and `clips/`.
+  - They were picked with the owner from contact sheets of Pixabay API searches (`PIXABAY_API_KEY` in `.env`). Pixabay has no photos of guitar effects pedals.
 - **Music:** `video/public/music/<style>.mp3`, Pixabay tracks the owner downloads.
-  - The picks and credits are in `video/MUSIC.md`. The MP3s aren't committed, because Pixabay's license doesn't allow sharing the files themselves.
+  - The picks and credits, with the backdrops' credits, are in `video/CREDITS.md`. The MP3s aren't committed, because Pixabay's license doesn't allow sharing the files themselves.
   - A missing file just leaves that part silent. `Root.jsx` finds them with `getStaticFiles()`, because Remotion's file server doesn't answer HEAD requests.
 - **Rendering:** run from `video/`, after `npm install`:
   - `npx remotion render src/index.jsx Wrapped2025 out/wrapped-2025.mp4` renders the full video, about 10 minutes.

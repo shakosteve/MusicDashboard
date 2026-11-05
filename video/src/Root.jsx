@@ -12,8 +12,10 @@ const load = async ({ props }) => {
   const present = new Set(getStaticFiles().map((f) => f.name));
   const music = Object.fromEntries([...new Set(narration.lines.map((l) => l.music))]
     .filter((style) => present.has(`music/${style}.mp3`)).map((style) => [style, true]));
+  // Card backgrounds (photos and clips from Pixabay, see CREDITS.md), by card, if visuals.json is there.
+  const visuals = present.has("visuals.json") ? await get("visuals.json") : {};
   const timeline = plan(narration.lines);
-  return { durationInFrames: timeline.total, props: { ...props, data, music, timeline } };
+  return { durationInFrames: timeline.total, props: { ...props, data, music, visuals, timeline } };
 };
 
 export const Root = () => (
