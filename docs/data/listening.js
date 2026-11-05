@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-05T18:40:06Z",
+ "generated": "2026-11-05T19:10:05Z",
  "totals": {
-  "plays": 124916,
+  "plays": 124917,
   "hours": 8491.9,
   "artists": 702,
   "albums": 1525,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Let It All Go",
+   "artist": "Beats Antique, Preservation Hall Jazz Band",
+   "album": "Shadowbox",
+   "year": 2016,
+   "image": "https://i.scdn.co/image/ab67616d00001e0200a7c78579418967f80cbfb2",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27300a7c78579418967f80cbfb2",
+   "url": "https://open.spotify.com/track/5xDBeP7eDtTIh9xlWG1ZuZ",
+   "album_url": "https://open.spotify.com/album/4a9ZBC1e52r3z79P3MX6zn",
+   "played_at": "2026-11-05T19:04:13.743Z"
+  },
   {
    "name": "My Way, Soon",
    "artist": "Greta Van Fleet",
@@ -525,17 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/0QwZfbw26QeUoIy82Z2jYp",
    "album_url": "https://open.spotify.com/album/3ycjBixZf7S3WpC5WZhhUK",
    "played_at": "2026-11-04T17:33:18.522Z"
-  },
-  {
-   "name": "Candle In The Wind 1997",
-   "artist": "Elton John",
-   "album": "Candle In The Wind 1997 / Something About ...",
-   "year": 1997,
-   "image": "https://i.scdn.co/image/ab67616d00001e0252a56df14c3a5e318925787c",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27352a56df14c3a5e318925787c",
-   "url": "https://open.spotify.com/track/3DUcaEvPO72PijivCjtZcU",
-   "album_url": "https://open.spotify.com/album/3g61rwvRs1NPeVBxuAMmHZ",
-   "played_at": "2026-11-04T17:30:31.828Z"
   }
  ],
  "top_artists": [
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15766,
+   "plays": 15767,
    "covers": [
     {
      "name": "XXI Century Blood",
