@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-05T05:10:07Z",
+ "generated": "2026-11-05T12:40:06Z",
  "totals": {
   "plays": 124888,
   "hours": 8489.9,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Blake J. Harris: Larry David Was My Hero Before And After Writing His Book",
+   "show": "Adam Carolla Show",
+   "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
+   "release_date": "2026-11-05",
+   "duration_ms": 6309877,
+   "image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f",
+   "first_seen": "2026-11-05T12:40:02Z",
+   "progress_ms": 253190,
+   "last_seen": "2026-11-05T12:40:02Z",
+   "url": "https://open.spotify.com/episode/2OHmugQreS1DEAi7QuZ6Vk",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
+  },
+  {
    "name": "Iran threatens ‘nightmare’ if Trump launches attack after midterms bloodbath",
    "show": "Iran: The Latest",
    "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-02T19:10:04Z",
    "url": "https://open.spotify.com/episode/2Y6wCczqDEDso73UMAGIrh",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
-  },
-  {
-   "name": "Erik Kramer’s Ultimate Comeback",
-   "show": "Adam Carolla Show",
-   "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
-   "release_date": "2026-11-02",
-   "duration_ms": 6346397,
-   "image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f",
-   "first_seen": "2026-11-02T12:40:03Z",
-   "progress_ms": 6356802,
-   "last_seen": "2026-11-02T15:40:03Z",
-   "url": "https://open.spotify.com/episode/1Z4EjHOLgijxYCfbuV1MIS",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
   }
  ],
  "top_shows": [
