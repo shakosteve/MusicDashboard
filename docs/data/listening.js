@@ -1,14 +1,47 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-05T02:10:07Z",
+ "generated": "2026-11-05T03:40:06Z",
  "totals": {
-  "plays": 124884,
-  "hours": 8489.6,
+  "plays": 124887,
+  "hours": 8489.8,
   "artists": 702,
   "albums": 1525,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Gettin' Jiggy Wit It",
+   "artist": "Will Smith",
+   "album": "Big Willie Style",
+   "year": 1997,
+   "image": "https://i.scdn.co/image/ab67616d00001e02ddf2f9edabd166c60047e3c4",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273ddf2f9edabd166c60047e3c4",
+   "url": "https://open.spotify.com/track/0weAUscowxeqDtpCgtbpgp",
+   "album_url": "https://open.spotify.com/album/2esWeP8Ln1sXA0jbDmi3Zq",
+   "played_at": "2026-11-05T03:36:48.060Z"
+  },
+  {
+   "name": "Bad Company - 2015 Remaster",
+   "artist": "Bad Company",
+   "album": "Bad Company (Deluxe)",
+   "year": 1974,
+   "image": "https://i.scdn.co/image/ab67616d00001e029adafd7f9d57380d1d0373af",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2739adafd7f9d57380d1d0373af",
+   "url": "https://open.spotify.com/track/36vTL8WP4ZoD1bbUaW0V3E",
+   "album_url": "https://open.spotify.com/album/4fuDpBLCt9ChDlqw48bj7p",
+   "played_at": "2026-11-05T03:32:59.667Z"
+  },
+  {
+   "name": "The Grand Illusion",
+   "artist": "Styx",
+   "album": "The Grand Illusion",
+   "year": 1977,
+   "image": "https://i.scdn.co/image/ab67616d00001e0288f0f719259b0dec23a7c367",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27388f0f719259b0dec23a7c367",
+   "url": "https://open.spotify.com/track/0FFdCFGfmtqVaHTBYXybkx",
+   "album_url": "https://open.spotify.com/album/6MFIBPVrZjHjP0pPkVF3IU",
+   "played_at": "2026-11-05T03:28:11.142Z"
+  },
   {
    "name": "All Too Well (10 Minute Version) (Taylor's Version) (From The Vault)",
    "artist": "Taylor Swift",
@@ -503,39 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/4KfSdst7rW39C0sfhArdrz",
    "album_url": "https://open.spotify.com/album/1LaeNhiUpL3X6N0LcFvuDF",
    "played_at": "2026-11-03T17:10:07.790Z"
-  },
-  {
-   "name": "Still Got This Thing",
-   "artist": "Alannah Myles",
-   "album": "Alannah Myles",
-   "year": 1989,
-   "image": "https://i.scdn.co/image/ab67616d00001e02c45bb46127a23d1beeead273",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273c45bb46127a23d1beeead273",
-   "url": "https://open.spotify.com/track/1ogO2Wj9qEMMjo7UDejvsh",
-   "album_url": "https://open.spotify.com/album/552joC0kVpcbJm7LFLqGDm",
-   "played_at": "2026-11-03T17:05:45.888Z"
-  },
-  {
-   "name": "Give Me One Reason",
-   "artist": "Tracy Chapman",
-   "album": "New Beginning",
-   "year": 1995,
-   "image": "https://i.scdn.co/image/ab67616d00001e026b38571f15487588ed53032f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2736b38571f15487588ed53032f",
-   "url": "https://open.spotify.com/track/4vDBJeeQCbhP9FaPPMsYkY",
-   "album_url": "https://open.spotify.com/album/3XsOzkIBoHsxZ7jP3QF2oB",
-   "played_at": "2026-11-03T17:01:08.198Z"
-  },
-  {
-   "name": "A Thousand Miles",
-   "artist": "Vanessa Carlton",
-   "album": "Be Not Nobody",
-   "year": 2002,
-   "image": "https://i.scdn.co/image/ab67616d00001e02bc3ada3a19bb4e657f10917e",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273bc3ada3a19bb4e657f10917e",
-   "url": "https://open.spotify.com/track/4w1lzcaoZ1IC2K5TwjalRP",
-   "album_url": "https://open.spotify.com/album/5e7T2qUigzt0oIr50KsOld",
-   "played_at": "2026-11-03T16:56:39.490Z"
   }
  ],
  "top_artists": [
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28640,
+   "plays": 28642,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9698,
+   "plays": 9699,
    "covers": [
     {
      "name": "Amazing",
