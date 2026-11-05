@@ -413,6 +413,25 @@
         by artist${g.coverage < 95 ? `, known for ${g.coverage}% of your listening` : ""}.</p>`,
       "--wash: radial-gradient(80% 60% at 100% 50%, #a16207 0%, transparent 60%), #15120c;"));
 
+    // Songs added to My Favs this year from outside the usual genre families (from 2026 on; see wrapped()).
+    const o = w.outliers;
+    if (o && o.songs.length) {
+      const usual = o.usual.map((u) => u.family).join(" and ");
+      const shares = o.usual.map((u) => `${esc(u.family)} is ${u.share}%`).join(", ");
+      const tally = Object.entries(o.songs.reduce((t, s) => ({ ...t, [s.family]: (t[s.family] || 0) + 1 }), {}))
+        .sort((a, b) => b[1] - a[1]).map(([f, n]) => `<b>${n}</b> ${esc(f)}`).join(", ").replace(/, ([^,]*)$/, " and $1");
+      cards.push(card("outliers", `
+        <p class="kicker reveal">Outside your usual</p>
+        <h2 class="mid reveal">Not just <span class="accent">${esc(usual)}</span></h2>
+        <p class="lede reveal">${shares[0].toUpperCase() + shares.slice(1)} of what you played before ${w.year},
+          but ${o.songs.length === 1 ? "one song" : `${o.songs.length} songs`} you added to ${esc([...new Set(o.songs.map((s) => s.playlist))].join(" and "))}
+          this year went somewhere else: ${tally}.</p>
+        <ol class="ranked reveal">${o.songs.map((s, i) => `<li><span class="n">${i + 1}</span>${img(s.image)}
+          <span class="t"><span class="name">${link(s.url, clean(s.name))}</span><span class="sub">${esc(s.artist)} · added ${day(s.added)}</span></span>
+          <span class="v">${esc(genreName(s.genre))}</span></li>`).join("")}</ol>`,
+        "--wash: radial-gradient(90% 70% at 0% 100%, #0e7490 0%, transparent 60%), #0d1314;"));
+    }
+
     // Skipped when everything counts as new, as in the period the history starts with.
     if (w.discoveries.count && w.discoveries.count < w.artists_count) cards.push(card("new", `
       <p class="kicker reveal">New to you</p>

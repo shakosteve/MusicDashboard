@@ -751,6 +751,33 @@ def artist_genres(genres):
     return {g: n / total for g, n in kept}
 
 
+GENRE_FAMILIES = [  # MusicBrainz's fine genres grouped broadly; the first family with a matching word wins
+    ("hip hop", ("hip hop", "hip-hop", "rap", "trap", "g-funk", "boom bap")),
+    ("R&B and soul", ("r&b", "soul", "funk", "motown", "new jack swing", "disco", "quiet storm")),
+    ("country", ("country", "bluegrass", "americana", "honky tonk", "outlaw", "western", "nashville")),
+    ("jazz", ("jazz", "swing", "bebop", "big band", "bossa nova")),
+    ("classical and soundtrack", ("classical", "orchestral", "soundtrack", "score", "opera", "baroque", "choral", "film", "video game")),
+    ("electronic and dance", ("electronic", "house", "techno", "trance", "edm", "dubstep", "drum and bass", "electro",
+                              "synthwave", "dance", "ambient", "idm")),
+    ("folk and singer-songwriter", ("folk", "singer-songwriter", "acoustic", "celtic", "traditional")),
+    ("reggae and latin", ("reggae", "ska", "dub", "latin", "salsa", "reggaeton", "cumbia", "bachata")),
+    ("blues", ("blues",)),
+    ("rock and metal", ("aor", "nwobhm", "hardcore", "emo", "shoegaze", "new wave", "post-punk", "glam")),
+    ("pop", ("pop", "adult contemporary", "easy listening")),
+]
+OUTLIERS_FROM = 2026  # the first year whose review calls out My Favs additions outside the usual sound
+USUAL_SHARE = 0.15    # a family with this much of the earlier years' listening counts as the usual
+
+
+def genre_family(genre):
+    """A genre's broad family: "blues rock", "pop rock" and "synth rock" are rock (but "country rock" and
+    "folk rock" aren't); otherwise the first family in GENRE_FAMILIES with a word in the genre, or "other"."""
+    g = genre.lower()
+    if any(w in g for w in ("rock", "metal", "punk", "grunge")) and not any(w in g for w in ("country rock", "folk rock")):
+        return "rock and metal"
+    return next((fam for fam, words in GENRE_FAMILIES if any(w in g for w in words)), "other")
+
+
 def try_fetch(session, url, params=None):
     """fetch, but None for a track or episode Spotify no longer has (404 and the like)."""
     try:
@@ -1054,6 +1081,13 @@ def wrapped(periods=None):
     shows_cache = json.loads(SHOWS.read_text(encoding="utf-8")) if SHOWS.exists() else {}
     genre_cache = json.loads(GENRES.read_text(encoding="utf-8")) if GENRES.exists() else {}
     genre_weights = {uri: artist_genres(a["genres"]) for uri, a in genre_cache.items()}
+    # The backed-up playlists' tracks (My Favs), for the "outside your usual" card: (playlist name, track).
+    playlist_tracks = []
+    for entry in json.loads(PLAYLIST_LIST.read_text(encoding="utf-8"))["playlists"] if PLAYLIST_LIST.exists() else []:
+        path = playlist_file({"uri": f"spotify:playlist:{playlist_id(entry['id'])}", "name": entry["name"]})
+        if path.exists():
+            saved = json.loads(path.read_text(encoding="utf-8"))
+            playlist_tracks += [(saved["name"], t) for t in saved["tracks"] if not t.get("is_local")]
     first_year = {}  # artist -> first year heard, for "discoveries"
     by_year = {}
     for p in load_plays():
@@ -1174,6 +1208,32 @@ def wrapped(periods=None):
         top_shows = sorted(shows.values(), key=lambda s: -s["ms"])[:5]
         diverse = max(day_genres, key=lambda d: len(day_genres[d])) if day_genres else None  # most genres in a day
 
+        # Songs added to the backed-up playlists this year whose artist is mostly outside the usual families:
+        # those with USUAL_SHARE of the minutes of known genre in all the years before.
+        outliers = None
+        if len(span) == 1 and first >= OUTLIERS_FROM and playlist_tracks:
+            usual_ms = Counter()
+            for p in (p for y in by_year if y < first for p in by_year[y]):
+                for g, share in (genre_weights.get((p.get("artist_uris") or [None])[0]) or {}).items():
+                    usual_ms[genre_family(g)] += ms(p) * share
+            known = sum(usual_ms.values())
+            usual = {f for f, n in usual_ms.items() if n >= known * USUAL_SHARE}
+            songs = []
+            for playlist, t in playlist_tracks:
+                if not t.get("added_at") or datetime.fromisoformat(t["added_at"].replace("Z", "+00:00")).astimezone().year != first:
+                    continue
+                families, example = Counter(), {}
+                for g, share in (genre_weights.get((t.get("artist_uris") or [None])[0]) or {}).items():
+                    families[genre_family(g)] += share
+                    example.setdefault(genre_family(g), g)  # the family's top-voted genre for this artist
+                if not families or sum(families[f] for f in usual) >= .5:
+                    continue
+                family = next(f for f, _ in families.most_common() if f not in usual)
+                songs.append({**track_card(t), "name": clean_title(t["name"]), "family": family, "genre": example[family],
+                              "playlist": playlist, "added": t["added_at"][:10]})
+            outliers = {"usual": [{"family": f, "share": round(n / known * 100)} for f, n in usual_ms.most_common() if f in usual],
+                        "songs": sorted(songs, key=lambda s: s["added"])}
+
         data = {
             "year": key,
             "label": label,
@@ -1219,6 +1279,7 @@ def wrapped(periods=None):
                                for g, n in genre_ms.most_common(10)],
                        "diverse_day": {"date": diverse, "count": len(day_genres[diverse])} if diverse else None}
                       if genre_ms else None,
+            "outliers": outliers,
             "discoveries": {"count": len(new_artists),
                             "top": [{"name": a["name"], "minutes": minutes(a["ms"]), "image": a.get("image"),
                                      "url": a["url"]} for a in new_artists[:5]]},

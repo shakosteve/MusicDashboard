@@ -187,3 +187,10 @@ Their pages load `data/listening.js` directly, so they need copying into `docs/`
   - **The year in review:** `wrapped.html` shows a "▶ Watch" button for listed years. It opens an overlay player, and `#watch` in the URL opens it on load.
   - **The dashboard:** `app.js` puts a "▶ Watch <year>" key, the `.vid` style, on the faceplate's brandline for the latest listed year.
   - **Commit only final cuts.** Each committed version stays in git history forever, and Git LFS isn't an option because Pages doesn't serve LFS files.
+
+**"Outside your usual"** (the `outliers` card, from `OUTLIERS_FROM` = 2026, single years only) lists songs added to the backed-up playlists (My Favs) that year whose lead artist is mostly outside the owner's usual genre families. The owner asked for this, and wants it in any 2026 video too.
+- `genre_family()` groups MusicBrainz genres into broad families (`GENRE_FAMILIES`). Anything with rock, metal, punk or grunge in it is "rock and metal", except country rock and folk rock.
+- "Usual" means families with `USUAL_SHARE` (15%) or more of the known-genre minutes in all earlier years. For the owner that's only rock and metal, at 78%.
+- A song is an outlier when under half of its artist's genre weight falls in usual families. It's labelled with that artist's top genre in its biggest other family.
+- Genres are per artist, so a hard rock band's one country song isn't caught. Local files and artists without genres are skipped.
+- 2026 found 7: Will Smith and Digital Underground (hip hop), Prince ×2 and the Bee Gees (R&B and soul), and Juice Newton and Eddie Rabbitt (country).
