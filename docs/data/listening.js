@@ -1,14 +1,91 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-05T15:10:06Z",
+ "generated": "2026-11-05T15:40:07Z",
  "totals": {
-  "plays": 124899,
-  "hours": 8490.6,
+  "plays": 124906,
+  "hours": 8491.1,
   "artists": 702,
   "albums": 1525,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Closer To The Heart",
+   "artist": "Rush",
+   "album": "A Farewell To Kings",
+   "year": 1977,
+   "image": "https://i.scdn.co/image/ab67616d00001e02c3d872d5405c76e3956cbbb6",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273c3d872d5405c76e3956cbbb6",
+   "url": "https://open.spotify.com/track/4u3oXuVeOGoByIMz9pnOKf",
+   "album_url": "https://open.spotify.com/album/18i33u5FvfvgHjZMulpyO2",
+   "played_at": "2026-11-05T15:37:16.864Z"
+  },
+  {
+   "name": "Girls Got Rhythm",
+   "artist": "AC/DC",
+   "album": "Highway to Hell",
+   "year": 1979,
+   "image": "https://i.scdn.co/image/ab67616d00001e0243058ea096fa35ac33c43587",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27343058ea096fa35ac33c43587",
+   "url": "https://open.spotify.com/track/6Wn3pdFtAcnYJyJVITwt7N",
+   "album_url": "https://open.spotify.com/album/10v912xgTZbjAtYfyKWJCS",
+   "played_at": "2026-11-05T15:34:24.347Z"
+  },
+  {
+   "name": "Point of Know Return",
+   "artist": "Kansas",
+   "album": "Point Of Know Return (Expanded Edition)",
+   "year": 1977,
+   "image": "https://i.scdn.co/image/ab67616d00001e0259f0f56a7cd13526b5b4204c",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27359f0f56a7cd13526b5b4204c",
+   "url": "https://open.spotify.com/track/0YoAVHXeEPPzZxK0xPQqYn",
+   "album_url": "https://open.spotify.com/album/6oU298pdPTCQnMx1PYwyUA",
+   "played_at": "2026-11-05T15:30:59.935Z"
+  },
+  {
+   "name": "Here I Go Again - 1987 Version / 2018 Remaster",
+   "artist": "Whitesnake",
+   "album": "Whitesnake (2018 Remaster)",
+   "year": 1987,
+   "image": "https://i.scdn.co/image/ab67616d00001e0249113b5921d7a53f49b64bfd",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27349113b5921d7a53f49b64bfd",
+   "url": "https://open.spotify.com/track/58z9sfHe9s9zTvYGKehCWM",
+   "album_url": "https://open.spotify.com/album/7swyGza0lOXnnkfSupULM5",
+   "played_at": "2026-11-05T15:27:48.663Z"
+  },
+  {
+   "name": "Folsom Prison Blues",
+   "artist": "Joaquin Phoenix",
+   "album": "Walk The Line (Original Motion Picture Soundtrack)",
+   "year": 2005,
+   "image": "https://i.scdn.co/image/ab67616d00001e020ff166bfd4a462cc7f4068a6",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2730ff166bfd4a462cc7f4068a6",
+   "url": "https://open.spotify.com/track/7bh6o0jqTn2Bh0M7vHln6f",
+   "album_url": "https://open.spotify.com/album/6ICcWbsZxt5fVG02IbZuZg",
+   "played_at": "2026-11-05T15:23:12.678Z"
+  },
+  {
+   "name": "Séance",
+   "artist": "Speed of Light",
+   "album": "Séance",
+   "year": 2024,
+   "image": "https://i.scdn.co/image/ab67616d00001e02e43f6681a9e6e990b63be5cb",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273e43f6681a9e6e990b63be5cb",
+   "url": "https://open.spotify.com/track/6xQ8uphGxXzJDUziFapHZZ",
+   "album_url": "https://open.spotify.com/album/0JwzG7MVtzubfIOf0L445q",
+   "played_at": "2026-11-05T15:20:20.166Z"
+  },
+  {
+   "name": "Foreplay / Long Time",
+   "artist": "Boston",
+   "album": "Boston",
+   "year": 1976,
+   "image": "https://i.scdn.co/image/ab67616d00001e028c1fadcc997a65384f34d694",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2738c1fadcc997a65384f34d694",
+   "url": "https://open.spotify.com/track/39C5FuZ8C8M0QI8CrMsPkR",
+   "album_url": "https://open.spotify.com/album/2QLp07RO6anZHmtcKTEvSC",
+   "played_at": "2026-11-05T15:16:23.653Z"
+  },
   {
    "name": "Come On, Let's Go",
    "artist": "Ritchie Valens",
@@ -459,83 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/29HaKOpeLSYvqdFyEQSRdj",
    "album_url": "https://open.spotify.com/album/5bHkK1X4WEOzNvRhehvOcb",
    "played_at": "2026-11-04T16:54:37.537Z"
-  },
-  {
-   "name": "Crazy On You",
-   "artist": "Heart",
-   "album": "Dreamboat Annie",
-   "year": 1975,
-   "image": "https://i.scdn.co/image/ab67616d00001e028e8c08ca2feb999bb84f05e6",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2738e8c08ca2feb999bb84f05e6",
-   "url": "https://open.spotify.com/track/5zH710lFSLtkHbMkslLDjR",
-   "album_url": "https://open.spotify.com/album/2N0AgtWbCmVoNUl2GN1opH",
-   "played_at": "2026-11-04T16:51:43.522Z"
-  },
-  {
-   "name": "Tall Cool One - 2006 Remaster",
-   "artist": "Robert Plant",
-   "album": "Now and Zen",
-   "year": 2007,
-   "image": "https://i.scdn.co/image/ab67616d00001e02237101c710f6d7155dbf6c0f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273237101c710f6d7155dbf6c0f",
-   "url": "https://open.spotify.com/track/6vejDalRlBqPrr7s3iwi9U",
-   "album_url": "https://open.spotify.com/album/7MwPi2NpS2OoZ8K1h5tmXV",
-   "played_at": "2026-11-04T16:46:49.629Z"
-  },
-  {
-   "name": "Rumour Has It",
-   "artist": "Adele",
-   "album": "21",
-   "year": 2011,
-   "image": "https://i.scdn.co/image/ab67616d00001e027e7e5dd9d1ab19fcded8a17f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2737e7e5dd9d1ab19fcded8a17f",
-   "url": "https://open.spotify.com/track/2A73XBDBQgmdXO8VsXPWIs",
-   "album_url": "https://open.spotify.com/album/0Lg1uZvI312TPqxNWShFXL",
-   "played_at": "2026-11-04T16:42:10.631Z"
-  },
-  {
-   "name": "Broken Bells",
-   "artist": "Greta Van Fleet",
-   "album": "Broken Bells",
-   "year": 2021,
-   "image": "https://i.scdn.co/image/ab67616d00001e029163a72affa104f29fc576fb",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2739163a72affa104f29fc576fb",
-   "url": "https://open.spotify.com/track/2AxlSslgR8v0Hqq079x7vv",
-   "album_url": "https://open.spotify.com/album/1rWkxCNuPFzDRFANL8lLnG",
-   "played_at": "2026-11-04T16:38:26.818Z"
-  },
-  {
-   "name": "We've Got Tonight",
-   "artist": "Bob Seger",
-   "album": "Stranger In Town",
-   "year": 1978,
-   "image": "https://i.scdn.co/image/ab67616d00001e02ef063cb80508c55eb443a671",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273ef063cb80508c55eb443a671",
-   "url": "https://open.spotify.com/track/3mj46XKJ2aEm1z7ZvbwyLi",
-   "album_url": "https://open.spotify.com/album/1vhib5WLHRVdOpRjiTHk15",
-   "played_at": "2026-11-04T16:32:35.621Z"
-  },
-  {
-   "name": "Dance the Night Away",
-   "artist": "Van Halen",
-   "album": "Best of Volume 1",
-   "year": 1996,
-   "image": "https://i.scdn.co/image/ab67616d00001e0243de9079ae02773c1fae9a26",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27343de9079ae02773c1fae9a26",
-   "url": "https://open.spotify.com/track/7E8sTX79VcbCaWnCu3jsko",
-   "album_url": "https://open.spotify.com/album/7ndqT6LH9o6YQ5uA7aT0St",
-   "played_at": "2026-11-04T16:27:53.990Z"
-  },
-  {
-   "name": "All That She Wants",
-   "artist": "Ace of Base",
-   "album": "The Sign",
-   "year": 1993,
-   "image": "https://i.scdn.co/image/ab67616d00001e02fda5556cb6981c3113df6175",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273fda5556cb6981c3113df6175",
-   "url": "https://open.spotify.com/track/6kWJvPfC4DgUpRsXKNa9z9",
-   "album_url": "https://open.spotify.com/album/5UwIyIyFzkM7wKeGtRJPgB",
-   "played_at": "2026-11-04T16:24:43.745Z"
   }
  ],
  "top_artists": [
@@ -547,7 +547,7 @@ window.LISTENING = {
   },
   {
    "name": "AC/DC",
-   "plays": 3989,
+   "plays": 3990,
    "url": "https://open.spotify.com/artist/711MCceyCBcFnzjGY4Q7Un",
    "image": "https://i.scdn.co/image/ab67616d00001e02ff191d7fbdb5a13eaf84132b"
   },
@@ -676,7 +676,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b2738c1fadcc997a65384f34d694",
    "url": "https://open.spotify.com/track/1QEEqeFIZktqIpPI4jSVSF",
    "album_url": "https://open.spotify.com/album/2QLp07RO6anZHmtcKTEvSC",
-   "plays": 1107
+   "plays": 1108
   },
   {
    "name": "Leroy",
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28644,
+   "plays": 28648,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -937,7 +937,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2738c1fadcc997a65384f34d694",
      "url": "https://open.spotify.com/track/1QEEqeFIZktqIpPI4jSVSF",
      "album_url": "https://open.spotify.com/album/2QLp07RO6anZHmtcKTEvSC",
-     "plays": 1107
+     "plays": 1108
     },
     {
      "name": "Barracuda",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32859,
+   "plays": 32860,
    "covers": [
     {
      "name": "Back In Black",
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 11988,
+   "plays": 11989,
    "covers": [
     {
      "name": "Material Girl",
@@ -1230,7 +1230,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2730ff166bfd4a462cc7f4068a6",
      "url": "https://open.spotify.com/track/7bh6o0jqTn2Bh0M7vHln6f",
      "album_url": "https://open.spotify.com/album/6ICcWbsZxt5fVG02IbZuZg",
-     "plays": 882
+     "plays": 883
     },
     {
      "name": "My Immortal",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18610,
+   "plays": 18611,
    "covers": [
     {
      "name": "ERROR",
@@ -1498,8 +1498,8 @@ window.LISTENING = {
    "duration_ms": 6309877,
    "image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f",
    "first_seen": "2026-11-05T12:40:02Z",
-   "progress_ms": 5551160,
-   "last_seen": "2026-11-05T14:10:02Z",
+   "progress_ms": 6274920,
+   "last_seen": "2026-11-05T15:40:04Z",
    "url": "https://open.spotify.com/episode/2OHmugQreS1DEAi7QuZ6Vk",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
   },
