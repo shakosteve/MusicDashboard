@@ -698,9 +698,14 @@ def fill_genres(limit=None, delay=1.1):
                             "Accept": "application/json"})
 
     def mb(path, **params):
-        for attempt in range(4):  # 503 is MusicBrainz asking to slow down
+        for attempt in range(4):  # 503 is MusicBrainz asking to slow down; a dropped connection is retried too
             time.sleep(delay * (1 + 4 * attempt))
-            r = session.get(f"https://musicbrainz.org/ws/2/{path}", params={**params, "fmt": "json"}, timeout=30)
+            try:
+                r = session.get(f"https://musicbrainz.org/ws/2/{path}", params={**params, "fmt": "json"}, timeout=30)
+            except requests.ConnectionError:
+                if attempt == 3:
+                    raise
+                continue
             if r.status_code != 503:
                 break
         if r.status_code == 404:
