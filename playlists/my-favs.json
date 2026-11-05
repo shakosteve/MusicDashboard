@@ -6,8 +6,8 @@
   "description": "",
   "public": true,
   "followers": 0,
-  "snapshot_id": "AAAC50erAOJ2i9jBN1soSZu1uRHMGOWY",
-  "fetched": "2026-11-04T23:32:09Z",
+  "snapshot_id": "AAAC9sNvWCvk3b6pVfgNBdI/1kG/jEYp",
+  "fetched": "2026-11-05T06:10:13Z",
   "tracks": [
     {
       "uri": "spotify:track:08mG3Y1vljYA6bvDt4Wqkj",
@@ -6896,60 +6896,6 @@
       "is_local": false
     },
     {
-      "uri": "spotify:track:3LZeqfAMTW0suTUnQzmkjd",
-      "name": "The Cliff",
-      "artists": [
-        "Jasmine Star"
-      ],
-      "artist_uris": [
-        "spotify:artist:1aMkawZecuLm2hu66cAEjh"
-      ],
-      "album": "The Cliff",
-      "album_uri": "spotify:album:0VQ02j6CaGpv9ygZYI5kmA",
-      "duration_ms": 196949,
-      "isrc": "QZES92151864",
-      "added_at": "2021-07-10T22:18:26Z",
-      "release_date": "2021-04-15",
-      "explicit": false,
-      "is_local": false
-    },
-    {
-      "uri": "spotify:track:1eZyUvmif7yBCAqMp8KM9w",
-      "name": "Tide",
-      "artists": [
-        "Jasmine Star"
-      ],
-      "artist_uris": [
-        "spotify:artist:1aMkawZecuLm2hu66cAEjh"
-      ],
-      "album": "Tide",
-      "album_uri": "spotify:album:6FIDhleSPCgVVsQJqVazCX",
-      "duration_ms": 202918,
-      "isrc": "ushm91982890",
-      "added_at": "2021-07-10T22:22:43Z",
-      "release_date": "2019-10-25",
-      "explicit": false,
-      "is_local": false
-    },
-    {
-      "uri": "spotify:track:2Anzr0Zg9Uuz9JQllJsJVj",
-      "name": "Alive",
-      "artists": [
-        "Snow White In The Dark"
-      ],
-      "artist_uris": [
-        "spotify:artist:4E35v5KzEdrU0OQNHT00qc"
-      ],
-      "album": "Alive",
-      "album_uri": "spotify:album:154NM1vLbnw61a1EGd4dMV",
-      "duration_ms": 201750,
-      "isrc": "FRX282156027",
-      "added_at": "2021-07-16T17:18:45Z",
-      "release_date": "2021-07-16",
-      "explicit": false,
-      "is_local": false
-    },
-    {
       "uri": "spotify:track:6DWK2Ob0jEsqalt4mbiaLj",
       "name": "Leroy",
       "artists": [
@@ -7422,42 +7368,6 @@
       "is_local": false
     },
     {
-      "uri": "spotify:track:0S3TryqfN8SOuGgQvLaYdv",
-      "name": "DRIVE",
-      "artists": [
-        "Jasmine Star"
-      ],
-      "artist_uris": [
-        "spotify:artist:1aMkawZecuLm2hu66cAEjh"
-      ],
-      "album": "DRIVE",
-      "album_uri": "spotify:album:1yASxlGj6d4X7XCbb1HyiI",
-      "duration_ms": 177813,
-      "isrc": "QZPLS2128751",
-      "added_at": "2021-12-11T19:24:57Z",
-      "release_date": "2021-12-10",
-      "explicit": false,
-      "is_local": false
-    },
-    {
-      "uri": "spotify:track:0Xev9hpI10egcj7mDitdB4",
-      "name": "Breakthrough",
-      "artists": [
-        "Jasmine Star"
-      ],
-      "artist_uris": [
-        "spotify:artist:1aMkawZecuLm2hu66cAEjh"
-      ],
-      "album": "Breakthrough",
-      "album_uri": "spotify:album:306ySBAcBEKOBNP9XWjER8",
-      "duration_ms": 209387,
-      "isrc": "uscgj2091474",
-      "added_at": "2021-12-11T19:28:08Z",
-      "release_date": "2020-04-09",
-      "explicit": false,
-      "is_local": false
-    },
-    {
       "uri": "spotify:track:4KoecuyOpZaNFZ0UqVsllc",
       "name": "Follow Me",
       "artists": [
@@ -7473,24 +7383,6 @@
       "added_at": "2021-12-21T15:02:12Z",
       "release_date": "2000-06-13",
       "explicit": true,
-      "is_local": false
-    },
-    {
-      "uri": "spotify:track:1nRnxSzhuzhgmGgcMwMwOJ",
-      "name": "Without me",
-      "artists": [
-        "Snow White In The Dark"
-      ],
-      "artist_uris": [
-        "spotify:artist:4E35v5KzEdrU0OQNHT00qc"
-      ],
-      "album": "Without me",
-      "album_uri": "spotify:album:08mspMpNFM5figUEeWMuau",
-      "duration_ms": 258760,
-      "isrc": "DE1A92100012",
-      "added_at": "2021-12-25T13:23:26Z",
-      "release_date": "2021-12-24",
-      "explicit": false,
       "is_local": false
     },
     {
@@ -7706,24 +7598,6 @@
       "isrc": "GBAHT0500593",
       "added_at": "2022-03-28T00:51:11Z",
       "release_date": "2006-06-28",
-      "explicit": false,
-      "is_local": false
-    },
-    {
-      "uri": "spotify:track:6Smy0OgmUE59LjmWRTmxJz",
-      "name": "Perfect Day",
-      "artists": [
-        "Jasmine Star"
-      ],
-      "artist_uris": [
-        "spotify:artist:1aMkawZecuLm2hu66cAEjh"
-      ],
-      "album": "Perfect Day",
-      "album_uri": "spotify:album:1Q0kseI1VfPunSyCxoJ35a",
-      "duration_ms": 165000,
-      "isrc": "QZES52277618",
-      "added_at": "2022-04-09T10:35:54Z",
-      "release_date": "2022-04-08",
       "explicit": false,
       "is_local": false
     },
@@ -8016,24 +7890,6 @@
       "is_local": false
     },
     {
-      "uri": "spotify:track:56VvVWzJLs4pKu6a6OUvJ9",
-      "name": "Whole Lotta Sabbath (Wax Audio Lance Herbstrong Edit)",
-      "artists": [
-        "Lance Herbstrong"
-      ],
-      "artist_uris": [
-        "spotify:artist:4ebzmU6DUgrfjKkRQBjjzj"
-      ],
-      "album": "Meth Breakfast",
-      "album_uri": "spotify:album:17hcVR1tYt8nHqAhFWwip1",
-      "duration_ms": 193693,
-      "isrc": "TCABL1359335",
-      "added_at": "2022-08-28T19:46:37Z",
-      "release_date": "2013-01-14",
-      "explicit": false,
-      "is_local": false
-    },
-    {
       "uri": "spotify:track:10sWvaY5yelQYHEvKfce4x",
       "name": "Sabbath Bloody Sabbath",
       "artists": [
@@ -8265,24 +8121,6 @@
       "added_at": "2022-12-08T01:41:26Z",
       "release_date": "2020-03-19",
       "explicit": true,
-      "is_local": false
-    },
-    {
-      "uri": "spotify:track:3BEi0jGZCkwqKJuvjSJZd2",
-      "name": "She's Got the Looks That Kill",
-      "artists": [
-        "The Rumours"
-      ],
-      "artist_uris": [
-        "spotify:artist:3AQmUdWyaopctcHvsPtgDC"
-      ],
-      "album": "Hotbang",
-      "album_uri": "spotify:album:3jbdzIwPzhWZUMDtyxboAW",
-      "duration_ms": 185986,
-      "isrc": "USCGJ1722282",
-      "added_at": "2022-12-08T01:46:18Z",
-      "release_date": "2017-03-30",
-      "explicit": false,
       "is_local": false
     },
     {
@@ -8574,26 +8412,6 @@
       "isrc": "USSM16500041",
       "added_at": "2023-01-20T18:25:52Z",
       "release_date": "1965-12-06",
-      "explicit": false,
-      "is_local": false
-    },
-    {
-      "uri": "spotify:track:5ucXfilvtzz7pZslFn8a3n",
-      "name": "Nobody's Fault but Mine",
-      "artists": [
-        "Jimmy Page",
-        "The Black Crowes"
-      ],
-      "artist_uris": [
-        "spotify:artist:55bGuHb50r5c0PeqqMeNBV",
-        "spotify:artist:5krkohEVJYw0qoB5VWwxaC"
-      ],
-      "album": "Live at the Greek",
-      "album_uri": "spotify:album:4LgSNfHfSLGEB0EufP9aIB",
-      "duration_ms": 401613,
-      "isrc": "QM6N21713434",
-      "added_at": "2023-02-04T20:15:06Z",
-      "release_date": "2017-07-14",
       "explicit": false,
       "is_local": false
     },
@@ -8980,24 +8798,6 @@
       "is_local": false
     },
     {
-      "uri": "spotify:track:6AcCvbJxR4PO6Fzv0UYdyW",
-      "name": "Sadie Sorceress",
-      "artists": [
-        "King Gizzard & The Lizard Wizard"
-      ],
-      "artist_uris": [
-        "spotify:artist:6XYvaoDGE0VmRt83Jss9Sn"
-      ],
-      "album": "Omnium Gatherum",
-      "album_uri": "spotify:album:4tuqA7qbVsPukqsYPPrcF7",
-      "duration_ms": 187532,
-      "isrc": "AU2ZC2100207",
-      "added_at": "2023-05-07T23:18:04Z",
-      "release_date": "2022-04-22",
-      "explicit": true,
-      "is_local": false
-    },
-    {
       "uri": "spotify:track:2uqCJn5VFTf3sZEDJZvvX0",
       "name": "MORE",
       "artists": [
@@ -9012,24 +8812,6 @@
       "isrc": "USUM72306520",
       "added_at": "2023-05-12T11:46:50Z",
       "release_date": "2023-05-12",
-      "explicit": false,
-      "is_local": false
-    },
-    {
-      "uri": "spotify:track:7zHiG2FFEpeGvBmJkgZzVv",
-      "name": "Gila Monster",
-      "artists": [
-        "King Gizzard & The Lizard Wizard"
-      ],
-      "artist_uris": [
-        "spotify:artist:6XYvaoDGE0VmRt83Jss9Sn"
-      ],
-      "album": "Gila Monster",
-      "album_uri": "spotify:album:7o29QKPMZsDZ64DDBrzQzN",
-      "duration_ms": 275774,
-      "isrc": "AU2ZC2300172",
-      "added_at": "2023-05-16T13:43:41Z",
-      "release_date": "2023-05-16",
       "explicit": false,
       "is_local": false
     },
@@ -10136,26 +9918,6 @@
       "isrc": "QZWH32400007",
       "added_at": "2024-04-13T22:00:47Z",
       "release_date": "2024-04-12",
-      "explicit": false,
-      "is_local": false
-    },
-    {
-      "uri": "spotify:track:53O0aHdCuGrrkRnDYtgJXf",
-      "name": "Oh Well",
-      "artists": [
-        "Jimmy Page",
-        "The Black Crowes"
-      ],
-      "artist_uris": [
-        "spotify:artist:55bGuHb50r5c0PeqqMeNBV",
-        "spotify:artist:5krkohEVJYw0qoB5VWwxaC"
-      ],
-      "album": "Live at the Greek",
-      "album_uri": "spotify:album:4LgSNfHfSLGEB0EufP9aIB",
-      "duration_ms": 250666,
-      "isrc": "QM6N21713438",
-      "added_at": "2024-04-15T22:20:00Z",
-      "release_date": "2017-07-14",
       "explicit": false,
       "is_local": false
     },
@@ -13324,6 +13086,44 @@
       "isrc": "AUAP07600012",
       "added_at": "2026-11-04T14:21:34Z",
       "release_date": "1976-05-14",
+      "explicit": false,
+      "is_local": false
+    },
+    {
+      "uri": "spotify:track:1rxD34LAtkafrMUHqHIV76",
+      "name": "Bring It on Home - Remaster",
+      "artists": [
+        "Led Zeppelin"
+      ],
+      "artist_uris": [
+        "spotify:artist:36QJpDe2go2KgaRleHCDTp"
+      ],
+      "album": "Led Zeppelin II (Remaster)",
+      "album_uri": "spotify:album:58MQ0PLijVHePUonQlK76Y",
+      "duration_ms": 259741,
+      "isrc": "USAT21300933",
+      "added_at": "2026-11-05T00:04:29Z",
+      "release_date": "1969-10-22",
+      "explicit": false,
+      "is_local": false
+    },
+    {
+      "uri": "spotify:track:1NpILLKnL2kQYwb6bCtiPe",
+      "name": "Whole Lotta Love - Live",
+      "artists": [
+        "Jimmy Page",
+        "The Black Crowes"
+      ],
+      "artist_uris": [
+        "spotify:artist:55bGuHb50r5c0PeqqMeNBV",
+        "spotify:artist:5krkohEVJYw0qoB5VWwxaC"
+      ],
+      "album": "Live at the Greek",
+      "album_uri": "spotify:album:27DJov9N9ian0RrcMO1Iak",
+      "duration_ms": 350637,
+      "isrc": "QMBZ92466377",
+      "added_at": "2026-11-05T00:08:37Z",
+      "release_date": "2025-03-14",
       "explicit": false,
       "is_local": false
     }
