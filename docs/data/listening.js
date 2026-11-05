@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-05T19:40:06Z",
+ "generated": "2026-11-05T22:10:07Z",
  "totals": {
-  "plays": 124922,
-  "hours": 8492.3,
+  "plays": 124923,
+  "hours": 8492.4,
   "artists": 702,
   "albums": 1525,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Teach Your Children",
+   "artist": "Crosby, Stills, Nash & Young",
+   "album": "Deja Vu",
+   "year": 1970,
+   "image": "https://i.scdn.co/image/ab67616d00001e0206e00756085191abc01e4cf0",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27306e00756085191abc01e4cf0",
+   "url": "https://open.spotify.com/track/29HaKOpeLSYvqdFyEQSRdj",
+   "album_url": "https://open.spotify.com/album/5bHkK1X4WEOzNvRhehvOcb",
+   "played_at": "2026-11-05T20:44:20.387Z"
+  },
   {
    "name": "Linger - Remastered 2026",
    "artist": "The Cranberries",
@@ -525,17 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/1Bj6YgjjPbEb4jhQ50T8tJ",
    "album_url": "https://open.spotify.com/album/1VV4tdUYIjRlhKxu1gMw4d",
    "played_at": "2026-11-04T21:54:39.513Z"
-  },
-  {
-   "name": "You Ain't Seen Nothing Yet",
-   "artist": "Bachman-Turner Overdrive",
-   "album": "Not Fragile",
-   "year": 1974,
-   "image": "https://i.scdn.co/image/ab67616d00001e02d109a35f286685993cf03050",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273d109a35f286685993cf03050",
-   "url": "https://open.spotify.com/track/0HOrDVS349XFcpCYsO2hAP",
-   "album_url": "https://open.spotify.com/album/3TtCMt4XLddj9PQeVBfsK1",
-   "played_at": "2026-11-04T20:25:40.020Z"
   }
  ],
  "top_artists": [
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28651,
+   "plays": 28652,
    "covers": [
     {
      "name": "More Than a Feeling",
