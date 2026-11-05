@@ -1,14 +1,47 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-05T14:10:05Z",
+ "generated": "2026-11-05T14:40:06Z",
  "totals": {
-  "plays": 124888,
-  "hours": 8489.9,
+  "plays": 124891,
+  "hours": 8490.1,
   "artists": 702,
   "albums": 1525,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Turning Back the Time",
+   "artist": "Foreigner",
+   "album": "Turning Back the Time",
+   "year": 2024,
+   "image": "https://i.scdn.co/image/ab67616d00001e026d2fda7a23fa14e019a60b46",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2736d2fda7a23fa14e019a60b46",
+   "url": "https://open.spotify.com/track/0OULlj9KLRXrQCIpF6Y2MB",
+   "album_url": "https://open.spotify.com/album/0OJ57wFQe0A7cGS1RrHyVv",
+   "played_at": "2026-11-05T14:37:53.958Z"
+  },
+  {
+   "name": "Death Letter Blues",
+   "artist": "Son House",
+   "album": "Father Of The Delta Blues: The Complete 1965 Sessions",
+   "year": 1992,
+   "image": "https://i.scdn.co/image/ab67616d00001e02059c952d7ccc5a617cc9a383",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273059c952d7ccc5a617cc9a383",
+   "url": "https://open.spotify.com/track/0W0euvQlhbcsTydzsD4EQk",
+   "album_url": "https://open.spotify.com/album/5SsZBxF3sRSJnFd0rZ3vcF",
+   "played_at": "2026-11-05T14:33:59.825Z"
+  },
+  {
+   "name": "Still Got This Thing",
+   "artist": "Alannah Myles",
+   "album": "Alannah Myles",
+   "year": 1989,
+   "image": "https://i.scdn.co/image/ab67616d00001e02c45bb46127a23d1beeead273",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273c45bb46127a23d1beeead273",
+   "url": "https://open.spotify.com/track/1ogO2Wj9qEMMjo7UDejvsh",
+   "album_url": "https://open.spotify.com/album/552joC0kVpcbJm7LFLqGDm",
+   "played_at": "2026-11-05T14:29:40.236Z"
+  },
   {
    "name": "With Or Without You",
    "artist": "U2",
@@ -503,39 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/1Bj6YgjjPbEb4jhQ50T8tJ",
    "album_url": "https://open.spotify.com/album/1VV4tdUYIjRlhKxu1gMw4d",
    "played_at": "2026-11-03T17:26:32.889Z"
-  },
-  {
-   "name": "It Ain't Me Babe",
-   "artist": "Joaquin Phoenix, Reese Witherspoon",
-   "album": "Walk The Line (Original Motion Picture Soundtrack)",
-   "year": 2005,
-   "image": "https://i.scdn.co/image/ab67616d00001e020ff166bfd4a462cc7f4068a6",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2730ff166bfd4a462cc7f4068a6",
-   "url": "https://open.spotify.com/track/0jasbGRELTM14tJi9SxGGF",
-   "album_url": "https://open.spotify.com/album/6ICcWbsZxt5fVG02IbZuZg",
-   "played_at": "2026-11-03T17:20:56.486Z"
-  },
-  {
-   "name": "Sharp Dressed Man (2008 Remaster)",
-   "artist": "ZZ Top",
-   "album": "Eliminator",
-   "year": 1983,
-   "image": "https://i.scdn.co/image/ab67616d00001e02a2b4f98f60e3cacf3866b2e3",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273a2b4f98f60e3cacf3866b2e3",
-   "url": "https://open.spotify.com/track/0bRNszTbTFLNlunAeh7eom",
-   "album_url": "https://open.spotify.com/album/4KW6YVbF8E3kexYcl0k4IK",
-   "played_at": "2026-11-03T17:17:50.480Z"
-  },
-  {
-   "name": "Sweet Caroline",
-   "artist": "Neil Diamond",
-   "album": "Sweet Caroline",
-   "year": 1969,
-   "image": "https://i.scdn.co/image/ab67616d00001e024d1a7a3e5043173883653ffc",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2734d1a7a3e5043173883653ffc",
-   "url": "https://open.spotify.com/track/62AuGbAkt8Ox2IrFFb8GKV",
-   "album_url": "https://open.spotify.com/album/6RfgcwsOUlWkGNAd6zjjYd",
-   "played_at": "2026-11-03T17:13:31.993Z"
   }
  ],
  "top_artists": [
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32858,
+   "plays": 32859,
    "covers": [
     {
      "name": "Back In Black",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9699,
+   "plays": 9700,
    "covers": [
     {
      "name": "Amazing",
@@ -1202,7 +1202,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273059c952d7ccc5a617cc9a383",
      "url": "https://open.spotify.com/track/0W0euvQlhbcsTydzsD4EQk",
      "album_url": "https://open.spotify.com/album/5SsZBxF3sRSJnFd0rZ3vcF",
-     "plays": 347
+     "plays": 348
     }
    ]
   },
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18608,
+   "plays": 18609,
    "covers": [
     {
      "name": "ERROR",
