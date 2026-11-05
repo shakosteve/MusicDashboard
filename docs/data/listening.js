@@ -1,14 +1,36 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-05T17:40:06Z",
+ "generated": "2026-11-05T18:10:06Z",
  "totals": {
-  "plays": 124912,
-  "hours": 8491.5,
+  "plays": 124914,
+  "hours": 8491.7,
   "artists": 702,
   "albums": 1525,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Two Princes",
+   "artist": "Spin Doctors",
+   "album": "Pocket Full Of Kryptonite (Anniversary Edition)",
+   "year": 1991,
+   "image": "https://i.scdn.co/image/ab67616d00001e0290126a3a12ad644fa6d3221c",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27390126a3a12ad644fa6d3221c",
+   "url": "https://open.spotify.com/track/0cuq829zRNq4AEdmDJA4aw",
+   "album_url": "https://open.spotify.com/album/3jx5C8Z66FwdjNkqsSDBQh",
+   "played_at": "2026-11-05T17:46:34.140Z"
+  },
+  {
+   "name": "Rhiannon",
+   "artist": "Fleetwood Mac",
+   "album": "Fleetwood Mac",
+   "year": 1975,
+   "image": "https://i.scdn.co/image/ab67616d00001e024fb043195e8d07e72edc7226",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2734fb043195e8d07e72edc7226",
+   "url": "https://open.spotify.com/track/05oETzWbd4SI33qK2gbJfR",
+   "album_url": "https://open.spotify.com/album/5VIQ3VaAoRKOEpJ0fewdvo",
+   "played_at": "2026-11-05T17:42:16.845Z"
+  },
   {
    "name": "Dirty Deeds",
    "artist": "Joan Jett & the Blackhearts",
@@ -514,28 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/6WXnv6IZK6ogP6ZJnmQbwr",
    "album_url": "https://open.spotify.com/album/3xhloSIytfKpvaWWrMHjOs",
    "played_at": "2026-11-04T17:22:34.340Z"
-  },
-  {
-   "name": "Tears in Heaven",
-   "artist": "Eric Clapton",
-   "album": "Rush (Music from the Motion Picture Soundtrack)",
-   "year": 1992,
-   "image": "https://i.scdn.co/image/ab67616d00001e0244cb13558d57f5a066fac381",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27344cb13558d57f5a066fac381",
-   "url": "https://open.spotify.com/track/1kgdslQYmeTR4thk9whoRw",
-   "album_url": "https://open.spotify.com/album/5uKWy85xmgOuRrWuXr98b2",
-   "played_at": "2026-11-04T17:19:31.936Z"
-  },
-  {
-   "name": "Night Fever - From \"Saturday Night Fever\" Soundtrack",
-   "artist": "Bee Gees",
-   "album": "How Can You Mend A Broken Heart",
-   "year": 2020,
-   "image": "https://i.scdn.co/image/ab67616d00001e02bdcea025a483b9642f17a9f8",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273bdcea025a483b9642f17a9f8",
-   "url": "https://open.spotify.com/track/0qemIQjSxcKyf42VPfZnfa",
-   "album_url": "https://open.spotify.com/album/4vAhQeeWkSjVn0p5GAaLBx",
-   "played_at": "2026-11-04T17:14:59.575Z"
   }
  ],
  "top_artists": [
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28649,
+   "plays": 28650,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9702,
+   "plays": 9703,
    "covers": [
     {
      "name": "Amazing",
