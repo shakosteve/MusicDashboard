@@ -1,14 +1,102 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-05T14:40:06Z",
+ "generated": "2026-11-05T15:10:06Z",
  "totals": {
-  "plays": 124891,
-  "hours": 8490.1,
+  "plays": 124899,
+  "hours": 8490.6,
   "artists": 702,
   "albums": 1525,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Come On, Let's Go",
+   "artist": "Ritchie Valens",
+   "album": "Ritchie Valens",
+   "year": 1959,
+   "image": "https://i.scdn.co/image/ab67616d00001e02027a47865c8c6215aa72b9df",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273027a47865c8c6215aa72b9df",
+   "url": "https://open.spotify.com/track/4cRfSR0QxDlXRHTKyEOu93",
+   "album_url": "https://open.spotify.com/album/77UI8F1LuhiQaKIL1qOE1W",
+   "played_at": "2026-11-05T15:08:35.594Z"
+  },
+  {
+   "name": "Give Me One Reason",
+   "artist": "Tracy Chapman",
+   "album": "New Beginning",
+   "year": 1995,
+   "image": "https://i.scdn.co/image/ab67616d00001e026b38571f15487588ed53032f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2736b38571f15487588ed53032f",
+   "url": "https://open.spotify.com/track/4vDBJeeQCbhP9FaPPMsYkY",
+   "album_url": "https://open.spotify.com/album/3XsOzkIBoHsxZ7jP3QF2oB",
+   "played_at": "2026-11-05T15:06:30.372Z"
+  },
+  {
+   "name": "Oh Well feat. Chris Stapleton",
+   "artist": "Slash, Chris Stapleton",
+   "album": "Oh Well feat. Chris Stapleton",
+   "year": 2024,
+   "image": "https://i.scdn.co/image/ab67616d00001e02a288a30f4133154538ea5d3d",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273a288a30f4133154538ea5d3d",
+   "url": "https://open.spotify.com/track/6xvriZfsi9MZ8TAE2wqY2z",
+   "album_url": "https://open.spotify.com/album/0Rl9omLw3rdkK7OiSnHGAG",
+   "played_at": "2026-11-05T15:02:01.571Z"
+  },
+  {
+   "name": "Fade Away",
+   "artist": "The Warning",
+   "album": "ESCAPE THE MIND",
+   "year": 2015,
+   "image": "https://i.scdn.co/image/ab67616d00001e02ebd25082bf514bd05cc4cfd2",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273ebd25082bf514bd05cc4cfd2",
+   "url": "https://open.spotify.com/track/5tn18hld9Kj4H4fuLJ2Wck",
+   "album_url": "https://open.spotify.com/album/0Zj4AvZpKzStGARIOkoDS5",
+   "played_at": "2026-11-05T14:57:27.549Z"
+  },
+  {
+   "name": "Paranoid - 2012 - Remaster",
+   "artist": "Black Sabbath",
+   "album": "Paranoid (Remaster)",
+   "year": 1970,
+   "image": "https://i.scdn.co/image/ab67616d00001e02d5fccf9ce08b6a1e7d12a222",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273d5fccf9ce08b6a1e7d12a222",
+   "url": "https://open.spotify.com/track/1Y373MqadDRtclJNdnUXVc",
+   "album_url": "https://open.spotify.com/album/6r7LZXAVueS5DqdrvXJJK7",
+   "played_at": "2026-11-05T14:54:07.203Z"
+  },
+  {
+   "name": "Wildfire",
+   "artist": "The Warning",
+   "album": "XXI Century Blood",
+   "year": 2017,
+   "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
+   "url": "https://open.spotify.com/track/5z8BrKpxvNqcsSQKzwYODJ",
+   "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
+   "played_at": "2026-11-05T14:51:18.330Z"
+  },
+  {
+   "name": "Take It Easy - 2013 Remaster",
+   "artist": "Eagles",
+   "album": "Eagles (2013 Remaster)",
+   "year": 1972,
+   "image": "https://i.scdn.co/image/ab67616d00001e02c13acd642ba9f6f5f127aa1b",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273c13acd642ba9f6f5f127aa1b",
+   "url": "https://open.spotify.com/track/4yugZvBYaoREkJKtbG08Qr",
+   "album_url": "https://open.spotify.com/album/51B7LbLWgYLKBVSpkan8Z7",
+   "played_at": "2026-11-05T14:47:45.482Z"
+  },
+  {
+   "name": "Umai",
+   "artist": "Shireen",
+   "album": "Matriarch",
+   "year": 2017,
+   "image": "https://i.scdn.co/image/ab67616d00001e022855aaa0eefc3e6586a46d5f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2732855aaa0eefc3e6586a46d5f",
+   "url": "https://open.spotify.com/track/3C821qtpWKmA0acEYMjXLQ",
+   "album_url": "https://open.spotify.com/album/4ENwBjtTvOOWfl0hrbVAyD",
+   "played_at": "2026-11-05T14:44:13.454Z"
+  },
   {
    "name": "Turning Back the Time",
    "artist": "Foreigner",
@@ -448,100 +536,12 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/6kWJvPfC4DgUpRsXKNa9z9",
    "album_url": "https://open.spotify.com/album/5UwIyIyFzkM7wKeGtRJPgB",
    "played_at": "2026-11-04T16:24:43.745Z"
-  },
-  {
-   "name": "Fever",
-   "artist": "The Sixsters",
-   "album": "I'm Gonna Be",
-   "year": 2022,
-   "image": "https://i.scdn.co/image/ab67616d00001e020cde6e1513d7528fb789d708",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2730cde6e1513d7528fb789d708",
-   "url": "https://open.spotify.com/track/2UjzN59gFTmybXfT3aeZBh",
-   "album_url": "https://open.spotify.com/album/0Qv3cNebPzkTO8CNcbJLsd",
-   "played_at": "2026-11-04T16:21:12.130Z"
-  },
-  {
-   "name": "Fly Like An Eagle",
-   "artist": "Steve Miller Band",
-   "album": "Fly Like An Eagle",
-   "year": 1976,
-   "image": "https://i.scdn.co/image/ab67616d00001e022fc23e78e87d793054bba090",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2732fc23e78e87d793054bba090",
-   "url": "https://open.spotify.com/track/3e0FzZjTXOUtiJGSClOBrI",
-   "album_url": "https://open.spotify.com/album/0fjJOLqG3v7vXRYhz2wxPC",
-   "played_at": "2026-11-04T16:17:50.540Z"
-  },
-  {
-   "name": "T.N.T.",
-   "artist": "AC/DC",
-   "album": "High Voltage",
-   "year": 1976,
-   "image": "https://i.scdn.co/image/ab67616d00001e028c7f355d649e0a3cfcf6fc39",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2738c7f355d649e0a3cfcf6fc39",
-   "url": "https://open.spotify.com/track/7LRMbd3LEoV5wZJvXT1Lwb",
-   "album_url": "https://open.spotify.com/album/19AUoKWRAaQYrggVvdQnqq",
-   "played_at": "2026-11-04T15:57:46Z"
-  },
-  {
-   "name": "Dancing Queen",
-   "artist": "ABBA",
-   "album": "Arrival",
-   "year": 1976,
-   "image": "https://i.scdn.co/image/ab67616d00001e0270f7a1b35d5165c85b95a0e0",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27370f7a1b35d5165c85b95a0e0",
-   "url": "https://open.spotify.com/track/0GjEhVFGZW8afUYGChu3Rr",
-   "album_url": "https://open.spotify.com/album/1V6a99EbTTIegOhWoPxYI9",
-   "played_at": "2026-11-03T21:07:00.222Z"
-  },
-  {
-   "name": "Borderline",
-   "artist": "Madonna",
-   "album": "Borderline",
-   "year": 1984,
-   "image": "https://i.scdn.co/image/ab67616d00001e02562ce96025289488ff8ba4b6",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273562ce96025289488ff8ba4b6",
-   "url": "https://open.spotify.com/track/4sfSGt1c19O2LI7lLn272S",
-   "album_url": "https://open.spotify.com/album/6cjHCJvAo9ohp6jsY8QcdQ",
-   "played_at": "2026-11-03T17:37:00Z"
-  },
-  {
-   "name": "Talk Dirty To Me",
-   "artist": "Poison",
-   "album": "Look What The Cat Dragged In - 20th Anniversary Edition",
-   "year": 1986,
-   "image": "https://i.scdn.co/image/ab67616d00001e02d007e25f2264718c5a9dde34",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273d007e25f2264718c5a9dde34",
-   "url": "https://open.spotify.com/track/08QP0rwnQSbbpGRIuXfrAY",
-   "album_url": "https://open.spotify.com/album/2SkbSj0eZ2H5uqKYEnMmIe",
-   "played_at": "2026-11-03T17:34:23.740Z"
-  },
-  {
-   "name": "Under Pressure (feat. David Bowie)",
-   "artist": "Queen, David Bowie",
-   "album": "Hot Space",
-   "year": 1982,
-   "image": "https://i.scdn.co/image/ab67616d00001e0244c0a9843fac69db4d56d14e",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27344c0a9843fac69db4d56d14e",
-   "url": "https://open.spotify.com/track/2nrG5UtAcqXbYttu7MXP1p",
-   "album_url": "https://open.spotify.com/album/4pFJdTvK6zNyWOO3W1hkGd",
-   "played_at": "2026-11-03T17:30:39.512Z"
-  },
-  {
-   "name": "Back In The High Life Again",
-   "artist": "Steve Winwood",
-   "album": "Back In The High Life",
-   "year": 1986,
-   "image": "https://i.scdn.co/image/ab67616d00001e028362a7a26eaf279f336f1494",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2738362a7a26eaf279f336f1494",
-   "url": "https://open.spotify.com/track/1Bj6YgjjPbEb4jhQ50T8tJ",
-   "album_url": "https://open.spotify.com/album/1VV4tdUYIjRlhKxu1gMw4d",
-   "played_at": "2026-11-03T17:26:32.889Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10670,
+   "plays": 10672,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
@@ -610,7 +610,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
    "url": "https://open.spotify.com/track/1VcLiPmina1L3xlLkJ5OTS",
    "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
-   "plays": 3485
+   "plays": 3486
   },
   {
    "name": "Dust to Dust",
@@ -771,7 +771,7 @@ window.LISTENING = {
   },
   {
    "decade": 1950,
-   "plays": 272,
+   "plays": 273,
    "covers": [
     {
      "name": "Come On, Let's Go",
@@ -782,7 +782,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273027a47865c8c6215aa72b9df",
      "url": "https://open.spotify.com/track/4cRfSR0QxDlXRHTKyEOu93",
      "album_url": "https://open.spotify.com/album/77UI8F1LuhiQaKIL1qOE1W",
-     "plays": 218
+     "plays": 219
     },
     {
      "name": "Long Tall Sally (The Thing)",
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28642,
+   "plays": 28644,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -959,7 +959,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273d5fccf9ce08b6a1e7d12a222",
      "url": "https://open.spotify.com/track/3IOQZRcEkplCXg6LofKqE9",
      "album_url": "https://open.spotify.com/album/6r7LZXAVueS5DqdrvXJJK7",
-     "plays": 717
+     "plays": 718
     },
     {
      "name": "Crazy On You",
@@ -1003,7 +1003,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273c13acd642ba9f6f5f127aa1b",
      "url": "https://open.spotify.com/track/4yugZvBYaoREkJKtbG08Qr",
      "album_url": "https://open.spotify.com/album/51B7LbLWgYLKBVSpkan8Z7",
-     "plays": 503
+     "plays": 504
     },
     {
      "name": "Sweet Emotion",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9700,
+   "plays": 9701,
    "covers": [
     {
      "name": "Amazing",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15762,
+   "plays": 15765,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1313,7 +1313,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
      "url": "https://open.spotify.com/track/1VcLiPmina1L3xlLkJ5OTS",
      "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
-     "plays": 3485
+     "plays": 3486
     },
     {
      "name": "Dust to Dust",
@@ -1357,7 +1357,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273ebd25082bf514bd05cc4cfd2",
      "url": "https://open.spotify.com/track/2drd2oHqFi0PCW13FXQnDG",
      "album_url": "https://open.spotify.com/album/0Zj4AvZpKzStGARIOkoDS5",
-     "plays": 517
+     "plays": 518
     },
     {
      "name": "If You Want Blood (You've Got It)",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18609,
+   "plays": 18610,
    "covers": [
     {
      "name": "ERROR",
