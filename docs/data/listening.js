@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-05T00:40:04Z",
+ "generated": "2026-11-05T01:11:21Z",
  "totals": {
-  "plays": 124883,
-  "hours": 8489.4,
+  "plays": 124884,
+  "hours": 8489.6,
   "artists": 702,
   "albums": 1525,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "All Too Well (10 Minute Version) (Taylor's Version) (From The Vault)",
+   "artist": "Taylor Swift",
+   "album": "Red (Taylor's Version)",
+   "year": 2021,
+   "image": "https://i.scdn.co/image/ab67616d00001e02318443aab3531a0558e79a4d",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273318443aab3531a0558e79a4d",
+   "url": "https://open.spotify.com/track/5enxwA8aAbwZbf5qCHORXi",
+   "album_url": "https://open.spotify.com/album/6kZ42qRrzov54LcAk4onW9",
+   "played_at": "2026-11-05T00:46:47.250Z"
+  },
   {
    "name": "Sundown",
    "artist": "Gordon Lightfoot",
@@ -525,17 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/4w1lzcaoZ1IC2K5TwjalRP",
    "album_url": "https://open.spotify.com/album/5e7T2qUigzt0oIr50KsOld",
    "played_at": "2026-11-03T16:56:39.490Z"
-  },
-  {
-   "name": "Me and Bobby McGee",
-   "artist": "Janis Joplin",
-   "album": "Pearl (Legacy Edition)",
-   "year": 1971,
-   "image": "https://i.scdn.co/image/ab67616d00001e026f8c26346723dd0531696bed",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2736f8c26346723dd0531696bed",
-   "url": "https://open.spotify.com/track/1IqFh00G2kvvMm8pRMpehA",
-   "album_url": "https://open.spotify.com/album/3j7nicLAWXM0Fb08q9XGyf",
-   "played_at": "2026-11-03T16:52:41.332Z"
   }
  ],
  "top_artists": [
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18607,
+   "plays": 18608,
    "covers": [
     {
      "name": "ERROR",
@@ -1498,8 +1498,8 @@ window.LISTENING = {
    "duration_ms": 3124480,
    "image": "https://i.scdn.co/image/ab67656300005f1f255a582fbb7e5531b953d635",
    "first_seen": "2026-11-04T23:40:02Z",
-   "progress_ms": 1546293,
-   "last_seen": "2026-11-04T23:40:02Z",
+   "progress_ms": 2736190,
+   "last_seen": "2026-11-05T01:10:02Z",
    "url": "https://open.spotify.com/episode/2EzQjWJMd2JAGJMOSCHYyI",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fe19edf2c6856b8b09c057f38"
   },
@@ -1656,9 +1656,9 @@ window.LISTENING = {
    "url": "https://open.spotify.com/show/6cnkk1J0I1UqtxTYVUL4Fe"
   },
   {
-   "name": "An Unexpected Podcast: Talkin' Rings of Power",
-   "plays": 302,
-   "hours": 278,
+   "name": "An Unexpected Podcast: Talkin' Tolkien",
+   "plays": 359,
+   "hours": 336,
    "image": "https://i.scdn.co/image/ab67656300005f1f886dd25a83ead6abeffe92b0",
    "url": "https://open.spotify.com/show/6FPTndfWLnXeXsc64HGGa5"
   },
@@ -1691,6 +1691,13 @@ window.LISTENING = {
    "url": "https://open.spotify.com/show/5ZChG4x3aogGtKGkxU6nMH"
   },
   {
+   "name": "Iran: The Latest",
+   "plays": 373,
+   "hours": 176,
+   "image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30",
+   "url": "https://open.spotify.com/show/7gPBO0qnZI1YBi25zaVT1c"
+  },
+  {
    "name": "Odd Lots",
    "plays": 244,
    "hours": 128,
@@ -1705,20 +1712,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/show/42ntT7XnfdbbYetUQu0vu5"
   },
   {
-   "name": "Iran: The Latest",
-   "plays": 201,
-   "hours": 93,
-   "image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30",
-   "url": "https://open.spotify.com/show/7gPBO0qnZI1YBi25zaVT1c"
-  },
-  {
-   "name": "Battle Lines",
-   "plays": 172,
-   "hours": 83,
-   "image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30",
-   "url": "https://open.spotify.com/show/7gPBO0qnZI1YBi25zaVT1c"
-  },
-  {
    "name": "RealClearPolitics Podcast",
    "plays": 171,
    "hours": 80,
@@ -1731,6 +1724,13 @@ window.LISTENING = {
    "hours": 68,
    "image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b",
    "url": "https://open.spotify.com/show/3VN4vP6TztxK3wtT8b9aQL"
+  },
+  {
+   "name": "Minnesota Now",
+   "plays": 196,
+   "hours": 67,
+   "image": "https://i.scdn.co/image/ab67656300005f1f110dfea289c0685fcc6c4343",
+   "url": "https://open.spotify.com/show/61oEbjIMX0lVNvf0MyrEX8"
   }
  ],
  "replays": {
@@ -1808,7 +1808,7 @@ window.LISTENING = {
     "image_large": "https://i.scdn.co/image/ab67616d0000b273318443aab3531a0558e79a4d",
     "url": "https://open.spotify.com/track/5enxwA8aAbwZbf5qCHORXi",
     "album_url": "https://open.spotify.com/album/6kZ42qRrzov54LcAk4onW9",
-    "plays": 192,
+    "plays": 193,
     "total": 30,
     "run_back": 28,
     "went_back": 1,
