@@ -1,14 +1,80 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-05T00:10:04Z",
+ "generated": "2026-11-05T00:40:04Z",
  "totals": {
-  "plays": 124877,
-  "hours": 8489.0,
+  "plays": 124883,
+  "hours": 8489.4,
   "artists": 702,
-  "albums": 1524,
+  "albums": 1525,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Sundown",
+   "artist": "Gordon Lightfoot",
+   "album": "Sundown",
+   "year": 1974,
+   "image": "https://i.scdn.co/image/ab67616d00001e028f2b3a1c0559ca6188de574b",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2738f2b3a1c0559ca6188de574b",
+   "url": "https://open.spotify.com/track/0SjnBEHZVXgCKvOrpvzL2k",
+   "album_url": "https://open.spotify.com/album/2IPD9EcNjUmsHvqULDMU9Y",
+   "played_at": "2026-11-05T00:36:35.243Z"
+  },
+  {
+   "name": "Cradle Of Love",
+   "artist": "Billy Idol",
+   "album": "Charmed Life",
+   "year": 1990,
+   "image": "https://i.scdn.co/image/ab67616d00001e029290a5f1a7e0e3e9ddb11073",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2739290a5f1a7e0e3e9ddb11073",
+   "url": "https://open.spotify.com/track/5TSANSqPTD6nBG0NSJWmVB",
+   "album_url": "https://open.spotify.com/album/4GCciwt8efweJZ4AEEvnTQ",
+   "played_at": "2026-11-05T00:33:01.242Z"
+  },
+  {
+   "name": "Lonely Is The Night - Remastered 2010",
+   "artist": "Billy Squier",
+   "album": "Don't Say No (Remastered 2010)",
+   "year": 1981,
+   "image": "https://i.scdn.co/image/ab67616d00001e02f4822f8034e697410a14a297",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273f4822f8034e697410a14a297",
+   "url": "https://open.spotify.com/track/28eg5bkYvIHT7HPmzZFwLN",
+   "album_url": "https://open.spotify.com/album/6TwlLNU5Zd9qGuNgSLeWPt",
+   "played_at": "2026-11-05T00:28:19.335Z"
+  },
+  {
+   "name": "Love the One You're With",
+   "artist": "Crosby, Stills & Nash",
+   "album": "Replay",
+   "year": 1980,
+   "image": "https://i.scdn.co/image/ab67616d00001e021fce24e5e0896809397a3210",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2731fce24e5e0896809397a3210",
+   "url": "https://open.spotify.com/track/6kXGGyEPSRS1g9Ltm70jo9",
+   "album_url": "https://open.spotify.com/album/1ZMa2C7vUFFCqX8xcFuFX3",
+   "played_at": "2026-11-05T00:23:35.595Z"
+  },
+  {
+   "name": "Hots On For Nowhere - Live",
+   "artist": "Jimmy Page, The Black Crowes",
+   "album": "Live at the Greek",
+   "year": 2025,
+   "image": "https://i.scdn.co/image/ab67616d00001e02fa6e624fbe4dbca748770195",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273fa6e624fbe4dbca748770195",
+   "url": "https://open.spotify.com/track/3Vr6jPaMGWI98BdGNW5S5P",
+   "album_url": "https://open.spotify.com/album/27DJov9N9ian0RrcMO1Iak",
+   "played_at": "2026-11-05T00:18:54.052Z"
+  },
+  {
+   "name": "Misty Mountain Hop - Live",
+   "artist": "Jimmy Page, The Black Crowes",
+   "album": "Live at the Greek",
+   "year": 2025,
+   "image": "https://i.scdn.co/image/ab67616d00001e02fa6e624fbe4dbca748770195",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273fa6e624fbe4dbca748770195",
+   "url": "https://open.spotify.com/track/4oiH09Gi8ygNHjCewF61XA",
+   "album_url": "https://open.spotify.com/album/27DJov9N9ian0RrcMO1Iak",
+   "played_at": "2026-11-05T00:14:08.268Z"
+  },
   {
    "name": "Bring It on Home - Remaster",
    "artist": "Led Zeppelin",
@@ -470,72 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/1IqFh00G2kvvMm8pRMpehA",
    "album_url": "https://open.spotify.com/album/3j7nicLAWXM0Fb08q9XGyf",
    "played_at": "2026-11-03T16:52:41.332Z"
-  },
-  {
-   "name": "Tears in Heaven",
-   "artist": "Eric Clapton",
-   "album": "Rush (Music from the Motion Picture Soundtrack)",
-   "year": 1992,
-   "image": "https://i.scdn.co/image/ab67616d00001e0244cb13558d57f5a066fac381",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27344cb13558d57f5a066fac381",
-   "url": "https://open.spotify.com/track/1kgdslQYmeTR4thk9whoRw",
-   "album_url": "https://open.spotify.com/album/5uKWy85xmgOuRrWuXr98b2",
-   "played_at": "2026-11-03T16:48:09.570Z"
-  },
-  {
-   "name": "Lady - Remastered 2022",
-   "artist": "Little River Band",
-   "album": "Sleeper Catcher (Remastered 2022)",
-   "year": 1978,
-   "image": "https://i.scdn.co/image/ab67616d00001e02ad53be7d2ec379399660c1ec",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273ad53be7d2ec379399660c1ec",
-   "url": "https://open.spotify.com/track/23TrwDkYnBPea6i6FPd6Wd",
-   "album_url": "https://open.spotify.com/album/5XXymqS9NunPlUbovZK8WJ",
-   "played_at": "2026-11-03T16:43:37.328Z"
-  },
-  {
-   "name": "Right Down the Line",
-   "artist": "Gerry Rafferty",
-   "album": "City to City",
-   "year": 1978,
-   "image": "https://i.scdn.co/image/ab67616d00001e02dc60cf9a010f86354e6735dd",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273dc60cf9a010f86354e6735dd",
-   "url": "https://open.spotify.com/track/2Xb6wJYGi0QXwURw5WWvI5",
-   "album_url": "https://open.spotify.com/album/35yZZTWeSrszSKjRlFETwf",
-   "played_at": "2026-11-03T16:38:46.865Z"
-  },
-  {
-   "name": "Jet Airliner",
-   "artist": "Steve Miller Band",
-   "album": "Greatest Hits 1974-78",
-   "year": 1978,
-   "image": "https://i.scdn.co/image/ab67616d00001e02632b907273dba6a6062fb780",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273632b907273dba6a6062fb780",
-   "url": "https://open.spotify.com/track/2zI3bUYn2pcF27of6i2oqK",
-   "album_url": "https://open.spotify.com/album/5hLazW5a3Ysgy3dncwGgUn",
-   "played_at": "2026-11-03T16:34:18.569Z"
-  },
-  {
-   "name": "You Ain't Seen Nothing Yet",
-   "artist": "Bachman-Turner Overdrive",
-   "album": "Not Fragile",
-   "year": 1974,
-   "image": "https://i.scdn.co/image/ab67616d00001e02d109a35f286685993cf03050",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273d109a35f286685993cf03050",
-   "url": "https://open.spotify.com/track/0HOrDVS349XFcpCYsO2hAP",
-   "album_url": "https://open.spotify.com/album/3TtCMt4XLddj9PQeVBfsK1",
-   "played_at": "2026-11-03T16:30:42.420Z"
-  },
-  {
-   "name": "You Really Got Me - 2015 Remaster",
-   "artist": "Van Halen",
-   "album": "Van Halen (Remastered)",
-   "year": 1978,
-   "image": "https://i.scdn.co/image/ab67616d00001e0217dd812df38fed44d6d2036e",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27317dd812df38fed44d6d2036e",
-   "url": "https://open.spotify.com/track/0upLyFR8Rr52ZpMp5esQoq",
-   "album_url": "https://open.spotify.com/album/7DdEbYFPKTZ8KB4z6L4UnQ",
-   "played_at": "2026-11-03T16:26:47.096Z"
   }
  ],
  "top_artists": [
@@ -731,7 +731,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b273f4822f8034e697410a14a297",
    "url": "https://open.spotify.com/track/6g14FUj5zU9FDRwBi963vS",
    "album_url": "https://open.spotify.com/album/6TwlLNU5Zd9qGuNgSLeWPt",
-   "plays": 882
+   "plays": 883
   }
  ],
  "decades": [
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28639,
+   "plays": 28640,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32855,
+   "plays": 32857,
    "covers": [
     {
      "name": "Back In Black",
@@ -1053,7 +1053,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273f4822f8034e697410a14a297",
      "url": "https://open.spotify.com/track/6g14FUj5zU9FDRwBi963vS",
      "album_url": "https://open.spotify.com/album/6TwlLNU5Zd9qGuNgSLeWPt",
-     "plays": 882
+     "plays": 883
     },
     {
      "name": "Manic Monday",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9697,
+   "plays": 9698,
    "covers": [
     {
      "name": "Amazing",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18605,
+   "plays": 18607,
    "covers": [
     {
      "name": "ERROR",
