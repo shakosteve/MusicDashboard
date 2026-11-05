@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-05T04:40:06Z",
+ "generated": "2026-11-05T05:10:07Z",
  "totals": {
-  "plays": 124887,
-  "hours": 8489.8,
+  "plays": 124888,
+  "hours": 8489.9,
   "artists": 702,
   "albums": 1525,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "With Or Without You",
+   "artist": "U2",
+   "album": "The Joshua Tree (Super Deluxe)",
+   "year": 1987,
+   "image": "https://i.scdn.co/image/ab67616d00001e02b7bea3d01f04e6d0408d2afe",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273b7bea3d01f04e6d0408d2afe",
+   "url": "https://open.spotify.com/track/6ADSaE87h8Y3lccZlBJdXH",
+   "album_url": "https://open.spotify.com/album/5y6wlw1LnqFnQFruMeiwGU",
+   "played_at": "2026-11-05T04:00:21.221Z"
+  },
   {
    "name": "Gettin' Jiggy Wit It",
    "artist": "Will Smith",
@@ -525,17 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/62AuGbAkt8Ox2IrFFb8GKV",
    "album_url": "https://open.spotify.com/album/6RfgcwsOUlWkGNAd6zjjYd",
    "played_at": "2026-11-03T17:13:31.993Z"
-  },
-  {
-   "name": "Barracuda",
-   "artist": "Heart",
-   "album": "Little Queen",
-   "year": 1977,
-   "image": "https://i.scdn.co/image/ab67616d00001e0266e2e0df78c4ec35a8ed20a0",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27366e2e0df78c4ec35a8ed20a0",
-   "url": "https://open.spotify.com/track/4KfSdst7rW39C0sfhArdrz",
-   "album_url": "https://open.spotify.com/album/1LaeNhiUpL3X6N0LcFvuDF",
-   "played_at": "2026-11-03T17:10:07.790Z"
   }
  ],
  "top_artists": [
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32857,
+   "plays": 32858,
    "covers": [
     {
      "name": "Back In Black",
