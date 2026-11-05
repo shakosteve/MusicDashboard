@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-05T01:11:21Z",
+ "generated": "2026-11-05T02:10:07Z",
  "totals": {
   "plays": 124884,
   "hours": 8489.6,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Iran threatens ‘nightmare’ if Trump launches attack after midterms bloodbath",
+   "show": "Iran: The Latest",
+   "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
+   "release_date": "2026-11-04",
+   "duration_ms": 2543595,
+   "image": "https://i.scdn.co/image/ab67656300005f1f6b69db3d38c9b2d95c0745a2",
+   "first_seen": "2026-11-05T02:10:02Z",
+   "progress_ms": 2538200,
+   "last_seen": "2026-11-05T02:10:04Z",
+   "url": "https://open.spotify.com/episode/3zQqbfCjhAMwoyrEoke5bQ",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
+  },
+  {
    "name": "Reviewing Voter Data After the Bluenami",
    "show": "RealClearPolitics Podcast",
    "show_uri": "spotify:show:5FkNemg3aIaPPNBImIcW2l",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-02T15:40:03Z",
    "url": "https://open.spotify.com/episode/1Z4EjHOLgijxYCfbuV1MIS",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
-  },
-  {
-   "name": "#692 - Sophie Cunningham",
-   "show": "This Past Weekend w/ Theo Von",
-   "show_uri": "spotify:show:6PwE1CIZsgfrhX6Bw96PUN",
-   "release_date": "2026-10-28",
-   "duration_ms": 5814357,
-   "image": "https://i.scdn.co/image/ab67656300005f1f99747a9b3d4ed255ad39201f",
-   "first_seen": "2026-11-02T01:40:03Z",
-   "progress_ms": 5814357,
-   "last_seen": "2026-11-02T04:10:03Z",
-   "url": "https://open.spotify.com/episode/1ayrg9anuzVuMidTmDkA9W",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f3c4685e830e0ce8b0597e6aa"
   }
  ],
  "top_shows": [
