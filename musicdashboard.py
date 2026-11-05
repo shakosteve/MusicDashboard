@@ -1741,6 +1741,13 @@ def reauth_note(a):
     return summary, steps
 
 
+# The marks beside tracks in the email's playlist section, explained in a key under it: (colour, mark, meaning).
+PLAYLIST_LEGEND = [("#1a7f37", "+", "added to the playlist"), ("#cf222e", "-", "removed from the playlist"),
+                   ("#9a6700", "!", "Spotify made it unplayable in your country"),
+                   ("#1a7f37", "✓", "no longer unplayable (playable again, or removed)")]
+PLAYLIST_LEGEND_HTML = [(c, "&minus;" if s == "-" else s, w) for c, s, w in PLAYLIST_LEGEND]
+
+
 def report_text(r):
     now = r["now"]
     out = [f"The Listening Booth - daily report, {now:%A, %B} {now.day}, {now.year}", "",
@@ -1770,7 +1777,9 @@ def report_text(r):
             out.append(f"    {p['unplayable']} track{'s' if p['unplayable'] != 1 else ''} unplayable in your country"
                        + (f" (full list: {r['unavailable_url']})" if r["unavailable_url"] else "")
                        if p["unplayable"] else "    Every track is playable")
-            out += [f"    ! Now unplayable: {t}" for t in p["went"][:15]] + [f"    ~ {t}" for t in p["back"][:15]]
+            out += [f"    ! Now unplayable: {t}" for t in p["went"][:15]] + [f"    ✓ {t}" for t in p["back"][:15]]
+    if r["playlists"]:
+        out += ["  Key: " + "   ".join(f"{sign} {what}" for _, sign, what in PLAYLIST_LEGEND)]
     if r["on_this_day"]:
         out += ["", f"On {now:%B} {now.day} in other years:"] + [
             f"  {d['year']}: {d['plays']} plays, top song {d['top']} - {d['artist']}" for d in r["on_this_day"]]
@@ -1925,6 +1934,10 @@ def report_html(r):
                                     f'display:inline-block;width:16px;">{sign}</b>{h(t)}</div>'
                                     for c, sign, t in [("#9a6700", "!", f"Now unplayable: {t}") for t in p["went"][:15]]
                                     + [("#1a7f37", "&#10003;", t) for t in p["back"][:15]]))
+        legend = "".join(f'<span style="white-space:nowrap;margin-right:14px;"><b style="color:{c};">{sign}</b> {h(what)}</span> '
+                         for c, sign, what in PLAYLIST_LEGEND_HTML)
+        inner += (f'<div style="{FONT}font-size:12px;color:{MUTED};line-height:1.7;margin-top:10px;padding-top:8px;'
+                  f'border-top:1px solid {LINE};">{legend}</div>')
         body.append(section("Playlist backup", inner))
     if r["on_this_day"]:
         body.append(section(f"On {now:%B} {now.day} in other years", rows(
