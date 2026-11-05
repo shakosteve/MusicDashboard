@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-05T22:40:06Z",
+ "generated": "2026-11-05T23:10:07Z",
  "totals": {
-  "plays": 124927,
-  "hours": 8492.7,
+  "plays": 124929,
+  "hours": 8492.8,
   "artists": 702,
   "albums": 1525,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Supermassive Black Hole",
+   "artist": "Muse",
+   "album": "Black Holes and Revelations",
+   "year": 2006,
+   "image": "https://i.scdn.co/image/ab67616d00001e0228933b808bfb4cbbd0385400",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27328933b808bfb4cbbd0385400",
+   "url": "https://open.spotify.com/track/3lPr8ghNDBLc2uZovNyLs9",
+   "album_url": "https://open.spotify.com/album/0lw68yx3MhKflWFqCsGkIs",
+   "played_at": "2026-11-05T23:00:18.496Z"
+  },
   {
    "name": "Six Feet Deep - Live from Auditorio Nacional, CDMX",
    "artist": "The Warning",
@@ -525,17 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/6kXGGyEPSRS1g9Ltm70jo9",
    "album_url": "https://open.spotify.com/album/1ZMa2C7vUFFCqX8xcFuFX3",
    "played_at": "2026-11-05T00:23:35.595Z"
-  },
-  {
-   "name": "Hots On For Nowhere - Live",
-   "artist": "Jimmy Page, The Black Crowes",
-   "album": "Live at the Greek",
-   "year": 2025,
-   "image": "https://i.scdn.co/image/ab67616d00001e02fa6e624fbe4dbca748770195",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273fa6e624fbe4dbca748770195",
-   "url": "https://open.spotify.com/track/3Vr6jPaMGWI98BdGNW5S5P",
-   "album_url": "https://open.spotify.com/album/27DJov9N9ian0RrcMO1Iak",
-   "played_at": "2026-11-05T00:18:54.052Z"
   }
  ],
  "top_artists": [
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 11991,
+   "plays": 11993,
    "covers": [
     {
      "name": "Material Girl",
