@@ -1,0 +1,16 @@
+{
+  "name": "listening-booth-video",
+  "private": true,
+  "description": "Animated, narrated year-in-review video (9:16) rendered with Remotion from video/public/<year>/",
+  "scripts": {
+    "studio": "remotion studio src/index.jsx",
+    "render": "remotion render src/index.jsx"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.540",
+    "@remotion/google-fonts": "4.0.540",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.540"
+  }
+}

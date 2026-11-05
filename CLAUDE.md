@@ -19,6 +19,7 @@ python musicdashboard.py wrapped [YEAR|YEAR-YEAR ...]  write docs/data/wrapped/<
 python musicdashboard.py report [--dry-run|--force]  daily summary email of data/sync.log, listening and import progress
 python musicdashboard.py playlist "NAME"     save one of the owner's playlists (by name, ID or link) to playlists/<name>.json + .csv + .xspf, with ISRCs; ~1 request per 50 tracks
 python musicdashboard.py backup              once a day: re-save + commit + push the playlists in playlists/playlists.json that changed
+python musicdashboard.py narrate YEAR         voice video/script-YEAR.json with Azure HD voices into video/public/YEAR/ (for the video)
 python musicdashboard.py sharecard            redraw docs/images/share.png, the 1200x630 social preview, from listening.js totals (headless Edge)
 python musicdashboard.py publish             commit + push docs/data/ if it changed beyond the "generated" timestamp
 sync.bat                                     the scheduled job: sync, import --limit 20 (until data\import.done exists), genres --limit 15, backup, build, publish, report
@@ -153,3 +154,29 @@ Their pages load `data/listening.js` directly, so they need copying into `docs/`
 - The owner compared these with Spotify's own Wrapped 2025 (in `data/account/Wrapped2025.json`, the only year the account export includes). Its year ends earlier, so its counts run a little lower.
 - "Discoveries" are artists whose first-ever play falls in that year.
 - Card links (`#streak`) are followed after render. Headless screenshots of a scrolled card come out blank, so to check a card, hide the other cards instead of scrolling to it.
+
+## Video
+
+`video/` is a Remotion (Node) project that renders a narrated, animated 9:16 year in review to `video/out/wrapped-<year>.mp4`. Only 2025 exists so far. The owner chose the HD voices and the vertical format.
+
+- **Script:** `video/script-2025.json` (committed) has one line per card, each with a `card`, a `voice` (`ava` or `andrew`, Azure's `Dragon HD` voices, alternating female and male) and a `music` style.
+  - The figures in the text were checked against the 2025 review by hand, so re-check them if the data changes.
+  - Song release years are left out on purpose, because Spotify's years are sometimes reissue dates.
+- **`narrate YEAR`:**
+  - Calls Azure Speech using `AZURE_SPEECH_KEY` and `AZURE_SPEECH_REGION` in `.env`. That's a free F0 resource on the owner's Azure free account.
+  - Writes `video/public/YEAR/line-NN.wav`, plus `narration.json` with each line's length in seconds, and `data.json`, copied from `docs/data/wrapped/YEAR.js`.
+  - Unchanged lines (same text and voice) aren't voiced again.
+- **The composition:** `video/src/Wrapped.jsx`.
+  - `plan()` merges adjacent lines with the same card into one card. A card lasts 18 frames of lead-in, then its lines with 10-frame gaps, then a 22-frame tail, at 30 fps.
+  - Music beds play at 0.16 volume and are merged across adjacent cards with the same style.
+  - The look matches `wrapped.html`: Archivo Black and Inter, a coloured wash per card, and the lime accent.
+  - **There's no album art.** Spotify art must link back to Spotify, and a video can't. The song card draws a record instead.
+- **Music:** `video/public/music/<style>.mp3`, Pixabay tracks the owner downloads.
+  - The picks and credits are in `video/MUSIC.md`. The MP3s aren't committed, because Pixabay's license doesn't allow sharing the files themselves.
+  - A missing file just leaves that part silent. `Root.jsx` checks each one with a HEAD request, so 404s in the render log are expected.
+- **Rendering:** run from `video/`, after `npm install`:
+  - `npx remotion render src/index.jsx Wrapped2025 out/wrapped-2025.mp4` renders the full video, about 10 minutes.
+  - `npx remotion still … --frame=N` renders a single frame.
+  - `npx remotion studio src/index.jsx` opens a live preview.
+- npm blocks esbuild's install script, and that's fine: its Windows binary installs as `@esbuild/win32-x64`.
+- `video/node_modules/`, `video/public/` and `video/out/` are gitignored.

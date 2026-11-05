@@ -1274,6 +1274,50 @@ def site_url():
     return f"https://{m.group(1).lower()}.github.io/{m.group(2)}/" if m else None
 
 
+def narrate(year):
+    """Voice video/script-<year>.json with Azure's neural voices, for the Remotion video in video/.
+
+    Writes video/public/<year>/: line-NN.wav per line, narration.json (each line with its length in seconds,
+    which sets how long its card stays up) and data.json, the year's review from docs/data/wrapped/<year>.js
+    for the cards' numbers. A line is only voiced again when its text or voice changed. Needs
+    AZURE_SPEECH_KEY and AZURE_SPEECH_REGION in .env (a Speech resource; the free F0 tier covers this)."""
+    import hashlib, io, wave
+    script = json.loads((ROOT / "video" / f"script-{year}.json").read_text(encoding="utf-8"))
+    review = (ROOT / "docs" / "data" / "wrapped" / f"{year}.js").read_text(encoding="utf-8")
+    out = ROOT / "video" / "public" / str(year)
+    out.mkdir(parents=True, exist_ok=True)
+    write_atomic(out / "data.json", review[review.index("] = ") + 4:].rstrip().rstrip(";"))
+    old = {line["hash"]: line for line in json.loads((out / "narration.json").read_text(encoding="utf-8"))["lines"]} \
+        if (out / "narration.json").exists() else {}
+    key, region = require("AZURE_SPEECH_KEY"), require("AZURE_SPEECH_REGION")
+    lines = []
+    for n, line in enumerate(script["lines"], 1):
+        voice = script["voices"][line["voice"]]
+        digest = hashlib.sha1(f"{voice}|{line['text']}".encode()).hexdigest()[:12]
+        f = out / f"line-{n:02}.wav"
+        if digest in old and (out / old[digest]["file"]).exists():
+            if old[digest]["file"] != f.name:
+                (out / old[digest]["file"]).replace(f)
+            seconds = old[digest]["seconds"]
+        else:
+            ssml = (f'<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="en-US">'
+                    f'<voice name="{voice}">{xml_escape(line["text"])}</voice></speak>')
+            r = requests.post(f"https://{region}.tts.speech.microsoft.com/cognitiveservices/v1",
+                              data=ssml.encode("utf-8"), timeout=60,
+                              headers={"Ocp-Apim-Subscription-Key": key, "Content-Type": "application/ssml+xml",
+                                       "X-Microsoft-OutputFormat": "riff-48khz-16bit-mono-pcm",
+                                       "User-Agent": "MusicDashboard"})
+            if not r.ok:
+                sys.exit(f"Azure speech failed on line {n} ({r.status_code}): {r.text[:200]}")
+            f.write_bytes(r.content)
+            with wave.open(io.BytesIO(r.content)) as w:
+                seconds = round(w.getnframes() / w.getframerate(), 3)
+            print(f"  {n:02} {line['voice']:<7} {seconds:5.1f}s  {line['text'][:60]}")
+        lines.append({**line, "file": f.name, "seconds": seconds, "hash": digest})
+    write_atomic(out / "narration.json", json.dumps({"year": year, "lines": lines}, indent=1, ensure_ascii=False))
+    print(f"Narration for {year}: {len(lines)} lines, {sum(l['seconds'] for l in lines):.0f}s, in {out.relative_to(ROOT)}")
+
+
 def share_card():
     """Draw docs/images/share.png, the 1200x630 picture social media shows for a link to the site, from the
     totals in docs/data/listening.js, by screenshotting a card page with headless Microsoft Edge. No album art:
@@ -1804,6 +1848,8 @@ def main():
     wrap.add_argument("years", nargs="*", metavar="YEAR or YEAR-YEAR",
                       type=lambda s: s if re.fullmatch(r"\d{4}(-\d{4})?", s) else sys.exit(f"Not a year or span: {s}"))
     sub.add_parser("sharecard", help="draw docs/images/share.png, the site's social media preview picture")
+    nar = sub.add_parser("narrate", help="voice video/script-YEAR.json with Azure for the video in video/")
+    nar.add_argument("year", type=int)
     pl = sub.add_parser("playlist", help="save one of your playlists, by name, to playlists/")
     pl.add_argument("name", help='the playlist\'s name, e.g. "My Favs"')
     sub.add_parser("backup", help="once a day, save and commit the playlists in playlists/playlists.json that changed "
@@ -1819,6 +1865,8 @@ def main():
             import_history(args.limit)
         elif args.command == "genres":
             fill_genres(args.limit)
+        elif args.command == "narrate":
+            narrate(args.year)
         elif args.command == "wrapped":
             wrapped(args.years)
         elif args.command == "report":

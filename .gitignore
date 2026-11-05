@@ -8,3 +8,8 @@
 __pycache__/
 *.pyc
 .venv/
+
+# Video (video/): dependencies, generated narration and data, downloaded music, renders
+video/node_modules/
+video/public/
+video/out/
