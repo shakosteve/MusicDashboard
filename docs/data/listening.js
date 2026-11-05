@@ -1,14 +1,36 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-05T18:10:06Z",
+ "generated": "2026-11-05T18:40:06Z",
  "totals": {
-  "plays": 124914,
-  "hours": 8491.7,
+  "plays": 124916,
+  "hours": 8491.9,
   "artists": 702,
   "albums": 1525,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "My Way, Soon",
+   "artist": "Greta Van Fleet",
+   "album": "Broken Bells",
+   "year": 2021,
+   "image": "https://i.scdn.co/image/ab67616d00001e029163a72affa104f29fc576fb",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2739163a72affa104f29fc576fb",
+   "url": "https://open.spotify.com/track/2IsuiHhWDj8ByvznN04v7S",
+   "album_url": "https://open.spotify.com/album/1rWkxCNuPFzDRFANL8lLnG",
+   "played_at": "2026-11-05T18:35:20.129Z"
+  },
+  {
+   "name": "Tick Of The Clock (Extended Overdrive)",
+   "artist": "Chromatics",
+   "album": "Tick Of The Clock",
+   "year": 2013,
+   "image": "https://i.scdn.co/image/ab67616d00001e02bb53c786a9aebe91240a8dce",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273bb53c786a9aebe91240a8dce",
+   "url": "https://open.spotify.com/track/0I2uIgFFNynFnH9PhUsiuz",
+   "album_url": "https://open.spotify.com/album/5whQsHpQHWMoNqLSut0o2a",
+   "played_at": "2026-11-05T18:31:04.435Z"
+  },
   {
    "name": "Two Princes",
    "artist": "Spin Doctors",
@@ -514,28 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/3DUcaEvPO72PijivCjtZcU",
    "album_url": "https://open.spotify.com/album/3g61rwvRs1NPeVBxuAMmHZ",
    "played_at": "2026-11-04T17:30:31.828Z"
-  },
-  {
-   "name": "S!CK - Live from Auditorio Nacional, CDMX",
-   "artist": "The Warning",
-   "album": "Live from Auditorio Nacional, CDMX",
-   "year": 2025,
-   "image": "https://i.scdn.co/image/ab67616d00001e025cda6d880ec3968aa6b6ac2f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
-   "url": "https://open.spotify.com/track/10zZP6IvvcFJvFbcCQnGhP",
-   "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
-   "played_at": "2026-11-04T17:26:21.205Z"
-  },
-  {
-   "name": "Bad News",
-   "artist": "NOAPOLOGY",
-   "album": "Uncovered",
-   "year": 2025,
-   "image": "https://i.scdn.co/image/ab67616d00001e02e2128ce797b85ee7de274abb",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273e2128ce797b85ee7de274abb",
-   "url": "https://open.spotify.com/track/6WXnv6IZK6ogP6ZJnmQbwr",
-   "album_url": "https://open.spotify.com/album/3xhloSIytfKpvaWWrMHjOs",
-   "played_at": "2026-11-04T17:22:34.340Z"
   }
  ],
  "top_artists": [
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15765,
+   "plays": 15766,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18611,
+   "plays": 18612,
    "covers": [
     {
      "name": "ERROR",
@@ -1429,7 +1429,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2739163a72affa104f29fc576fb",
      "url": "https://open.spotify.com/track/2AxlSslgR8v0Hqq079x7vv",
      "album_url": "https://open.spotify.com/album/1rWkxCNuPFzDRFANL8lLnG",
-     "plays": 530
+     "plays": 531
     },
     {
      "name": "CHOKE - Live from Auditorio Nacional, CDMX",
