@@ -173,7 +173,7 @@ Their pages load `data/listening.js` directly, so they need copying into `docs/`
   - **There's no album art.** Spotify art must link back to Spotify, and a video can't. The song card draws a record instead.
 - **Music:** `video/public/music/<style>.mp3`, Pixabay tracks the owner downloads.
   - The picks and credits are in `video/MUSIC.md`. The MP3s aren't committed, because Pixabay's license doesn't allow sharing the files themselves.
-  - A missing file just leaves that part silent. `Root.jsx` checks each one with a HEAD request, so 404s in the render log are expected.
+  - A missing file just leaves that part silent. `Root.jsx` finds them with `getStaticFiles()`, because Remotion's file server doesn't answer HEAD requests.
 - **Rendering:** run from `video/`, after `npm install`:
   - `npx remotion render src/index.jsx Wrapped2025 out/wrapped-2025.mp4` renders the full video, about 10 minutes.
   - `npx remotion still … --frame=N` renders a single frame.
