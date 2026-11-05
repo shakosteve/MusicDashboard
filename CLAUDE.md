@@ -13,6 +13,7 @@ python musicdashboard.py auth                one-time browser sign-in; writes SP
 python musicdashboard.py sync                save new recently-played tracks + podcast episodes (playing now, or found via resume points)
 python musicdashboard.py import [--limit N]  convert the privacy export in data/export/ into history files
 python musicdashboard.py art                 fetch cover art/years for live-synced albums missing them
+python musicdashboard.py genres [--limit N]  look up artists' genres on MusicBrainz into data/artist_genres.json, most-listened first
 python musicdashboard.py build               write docs/data/listening.js
 python musicdashboard.py wrapped [YEAR|YEAR-YEAR ...]  write docs/data/wrapped/<period>.js for docs/wrapped.html?year=<period> (default: see below)
 python musicdashboard.py report [--dry-run|--force]  daily summary email of data/sync.log, listening and import progress
@@ -20,7 +21,7 @@ python musicdashboard.py playlist "NAME"     save one of the owner's playlists (
 python musicdashboard.py backup              once a day: re-save + commit + push the playlists in playlists/playlists.json that changed
 python musicdashboard.py sharecard            redraw docs/images/share.png, the 1200x630 social preview, from listening.js totals (headless Edge)
 python musicdashboard.py publish             commit + push docs/data/ if it changed beyond the "generated" timestamp
-sync.bat                                     the scheduled job: sync, import --limit 20 (until data\import.done exists), backup, build, publish, report
+sync.bat                                     the scheduled job: sync, import --limit 20 (until data\import.done exists), genres --limit 15, backup, build, publish, report
 ```
 
 - The repo is public at github.com/shakosteve/MusicDashboard. GitHub Pages serves `docs/` from `main` at https://shakosteve.github.io/MusicDashboard/.
@@ -143,6 +144,12 @@ Their pages load `data/listening.js` directly, so they need copying into `docs/`
   - Albums and replays are still per recording.
 - Podcast shows are combined by show URI and shown under their latest name, so a renamed show ("Talkin' Rings of Power"/"Talkin' Tolkien", "Battle Lines"/"Iran: The Latest") counts once.
   - In `wrapped()` the latest name is the name on the period's latest episode. `build()` uses `merge_shows()` over `podcast_history.json`, which stays keyed by name.
+- **Genres** (the "Your sound" card, `w.genres`) come from MusicBrainz, because Spotify returns artist objects without `genres` (or popularity/followers) to this development-mode app.
+  - `fill_genres()` (`genres`) finds each artist by the MusicBrainz URL relation to its `open.spotify.com/artist/…` page, falling back to an exact name match with a score of 95 or more.
+    - It caches `{name, mbid, found_by, genres: [[name, votes]], checked}` by artist URI in `data/artist_genres.json`, and retries misses after 30 days.
+    - MusicBrainz wants about 1 request a second and a User-Agent naming the app (the repo URL, never the owner's email).
+  - `artist_genres()` turns votes into weights: at most 3 genres, each with at least a fifth of the top one's votes. An umbrella genre is dropped when a narrower one ends in it ("rock" beside "hard rock"). Each play's minutes are split across its lead artist's genres.
+  - The card shows the top 8 genres by share of the minutes with known genres, the genre count, the most genre-varied day, and coverage when under 95%. It credits MusicBrainz.
 - The owner compared these with Spotify's own Wrapped 2025 (in `data/account/Wrapped2025.json`, the only year the account export includes). Its year ends earlier, so its counts run a little lower.
 - "Discoveries" are artists whose first-ever play falls in that year.
 - Card links (`#streak`) are followed after render. Headless screenshots of a scrolled card come out blank, so to check a card, hide the other cards instead of scrolling to it.

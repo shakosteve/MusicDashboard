@@ -4,12 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Year in Review</title>
-<meta name="description" content="A year of Spotify listening, card by card: minutes, streaks, top artists and songs, biggest days, decades and discoveries.">
+<meta name="description" content="A year of Spotify listening, card by card: minutes, streaks, top artists and songs, biggest days, genres, decades and discoveries.">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="The Listening Booth">
 <meta property="og:url" content="https://shakosteve.github.io/MusicDashboard/wrapped.html">
 <meta property="og:title" content="Year in Review · The Listening Booth">
-<meta property="og:description" content="A year of Spotify listening, card by card: minutes, streaks, top artists and songs, biggest days, decades and discoveries.">
+<meta property="og:description" content="A year of Spotify listening, card by card: minutes, streaks, top artists and songs, biggest days, genres, decades and discoveries.">
 <meta property="og:image" content="https://shakosteve.github.io/MusicDashboard/images/share.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -143,6 +143,9 @@
   .hbar .fill { height: 100%; border-radius: 0 4px 4px 0; background: var(--accent); opacity: .5; }
   .hbar.peak .fill, .hbar:hover .fill { opacity: 1; }
   .hbar .v { text-align: right; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .hbars.genres .hbar { grid-template-columns: minmax(6em, 10em) minmax(0, 1fr) 4em; }
+  .hbars.genres .hbar > span:first-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .credit { margin-top: 22px; color: var(--muted); font-size: .85rem; }
 
   /* summary poster */
   #summary { --wash: radial-gradient(100% 70% at 100% 0%, #1f6f5c 0%, transparent 60%), radial-gradient(80% 60% at 0% 100%, #6b2fb3 0%, transparent 60%), #101014; }
@@ -210,6 +213,10 @@
   const link = (url, text) => url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(text)}</a>` : esc(text);
   const card = (id, body, style = "") => `<section class="card" id="${id}" style="${style}">${body}</section>`;
   const argmax = (xs) => xs.indexOf(Math.max(...xs));
+  // MusicBrainz genres are lower case ("hard rock", "aor", "r&b"): acronyms in capitals, and Title Case for labels.
+  const ACRONYMS = new Set(["aor", "r&b", "edm", "idm", "nwobhm", "uk", "us", "dj", "ebm"]);
+  const genreName = (g, title = false) => g.split(/([\s-]+)/).map((w) => ACRONYMS.has(w) ? w.toUpperCase()
+    : title && /\S/.test(w) && !/^[\s-]+$/.test(w) ? w[0].toUpperCase() + w.slice(1) : w).join("");
 
   function render(w) {
     // A span ("2013-2019") is one review of several years: bars per year instead of per month, no calendar,
@@ -353,6 +360,22 @@
           <div class="track"><div class="fill" style="width:${(d.minutes / topDecade.minutes) * 100}%"></div></div>
           <span class="v">${fmt(Math.round(d.minutes / 60))} h</span></div>`).join("")}</div>`,
       "--wash: radial-gradient(80% 60% at 0% 50%, #3730a3 0%, transparent 60%), #0f0f17;"));
+
+    // Genres are MusicBrainz's, by each play's lead artist; shares are of the listening with known genres.
+    const g = w.genres;
+    if (g && g.top.length) cards.push(card("genres", `
+      <p class="kicker reveal">Your sound</p>
+      <h2 class="mid reveal">Mostly <span class="accent">${esc(genreName(g.top[0].name))}</span></h2>
+      <p class="lede reveal"><b>${fmt(g.count)} genres</b> in all. The top one was <b>${g.top[0].share}%</b> of your listening,
+        led by ${g.top[0].artists.map(esc).join(", ").replace(/, ([^,]*)$/, " and $1")}.
+        ${g.diverse_day ? `Your most varied day was ${day(g.diverse_day.date)}, with <b>${g.diverse_day.count} genres</b>.` : ""}</p>
+      <div class="hbars genres reveal" role="img" aria-label="Share of listening by genre">${g.top.slice(0, 8).map((x, i) => `
+        <div class="hbar${i === 0 ? " peak" : ""}" data-tip="${esc(x.artists.join(", "))}"><span>${esc(genreName(x.name, true))}</span>
+          <div class="track"><div class="fill" style="width:${(x.share / g.top[0].share) * 100}%"></div></div>
+          <span class="v">${x.share}%</span></div>`).join("")}</div>
+      <p class="credit reveal">Genres from <a href="https://musicbrainz.org" target="_blank" rel="noopener">MusicBrainz</a>,
+        by artist${g.coverage < 95 ? `, known for ${g.coverage}% of your listening` : ""}.</p>`,
+      "--wash: radial-gradient(80% 60% at 100% 50%, #a16207 0%, transparent 60%), #15120c;"));
 
     // Skipped when everything counts as new, as in the period the history starts with.
     if (w.discoveries.count && w.discoveries.count < w.artists_count) cards.push(card("new", `

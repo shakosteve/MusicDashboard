@@ -79,6 +79,7 @@ REPORT_SENT = DATA / "report.sent"
 SHOW_CHECKS = DATA / "show_checks.json"
 PLAYLIST_CHECKS = DATA / "playlist_checks.json"
 REPLAYS = DATA / "replays.json"
+GENRES = DATA / "artist_genres.json"  # MusicBrainz genres by Spotify artist URI (`genres`)
 PLAYLISTS = ROOT / "playlists"  # committed, unlike data/: a backup of playlists that matter
 PLAYLIST_LIST = PLAYLISTS / "playlists.json"  # which playlists `backup` keeps current, by Spotify ID
 UNAVAILABLE = PLAYLISTS / "unavailable.json"  # running record of those playlists' tracks that won't play here
@@ -673,6 +674,78 @@ def fill_art(delay=0.2):
     print(f"Cover art fetched for {len(wanted)} album(s).")
 
 
+def fill_genres(limit=None, delay=1.1):
+    """Look up artists' genres on MusicBrainz into data/artist_genres.json, most-listened artists first.
+
+    Spotify gives this app no genres (artist objects come back without them), so they're MusicBrainz's
+    community-voted ones. An artist is found by its Spotify page, which MusicBrainz links to its own artist
+    entry, or failing that by an exact name match. A miss is saved as {"genres": []} and retried after 30 days.
+    MusicBrainz allows about a request a second and asks for a User-Agent naming the app; there's no daily cap."""
+    cache = json.loads(GENRES.read_text(encoding="utf-8")) if GENRES.exists() else {}
+    listened, names = Counter(), {}
+    for p in load_plays():
+        uri = (p.get("artist_uris") or [None])[0]
+        if uri and p["artists"]:
+            listened[uri] += p.get("ms_played") or p.get("duration_ms") or 0
+            names[uri] = p["artists"][0]
+    retry = (datetime.now(timezone.utc) - timedelta(days=30)).strftime("%Y-%m-%d")
+    wanted = [u for u, _ in listened.most_common()
+              if u not in cache or (not cache[u]["genres"] and cache[u]["checked"] < retry)][:limit]
+    if not wanted:
+        return
+    session = requests.Session()
+    session.headers.update({"User-Agent": f"MusicDashboard/1.0 ({repo_url() or 'personal listening dashboard'})",
+                            "Accept": "application/json"})
+
+    def mb(path, **params):
+        for attempt in range(4):  # 503 is MusicBrainz asking to slow down
+            time.sleep(delay * (1 + 4 * attempt))
+            r = session.get(f"https://musicbrainz.org/ws/2/{path}", params={**params, "fmt": "json"}, timeout=30)
+            if r.status_code != 503:
+                break
+        if r.status_code == 404:
+            return {}
+        r.raise_for_status()
+        return r.json()
+
+    done = 0
+    try:
+        for uri in wanted:
+            link = mb("url", resource=f"https://open.spotify.com/artist/{uri.split(':')[-1]}", inc="artist-rels")
+            mbid = next((x["artist"]["id"] for x in link.get("relations", []) if x.get("artist")), None)
+            how = "spotify link"
+            if not mbid:
+                found = mb("artist", query=f'artist:"{names[uri]}"', limit=5).get("artists", [])
+                mbid = next((a["id"] for a in found if a["name"].casefold() == names[uri].casefold()
+                             and a.get("score", 0) >= 95), None)
+                how = "name"
+            genres = (mb(f"artist/{mbid}", inc="genres").get("genres", []) if mbid else [])
+            cache[uri] = {"name": names[uri], "mbid": mbid, "found_by": how if mbid else None,
+                          "genres": sorted(([g["name"], g["count"]] for g in genres), key=lambda g: -g[1]),
+                          "checked": now_iso()[:10]}
+            done += 1
+            if done % 20 == 0:
+                write_atomic(GENRES, json.dumps(cache, indent=1, ensure_ascii=False))
+    except requests.RequestException as e:
+        print(f"Genre lookup stopped: {e}")
+    write_atomic(GENRES, json.dumps(cache, indent=1, ensure_ascii=False))
+    left = sum(1 for u in listened if u not in cache)
+    print(f"Genres looked up for {done} artist(s)" + (f"; {left} to go." if left else "; every artist checked."))
+
+
+def artist_genres(genres):
+    """An artist's genres as {genre: weight}, weights adding up to 1, from MusicBrainz's [[name, votes], ...].
+
+    Up to three genres, each with at least a fifth of the top one's votes, so one stray vote doesn't count.
+    An umbrella genre is dropped when the artist has a narrower one ending in it ("rock" beside "hard rock",
+    "pop" beside "art pop"); otherwise "rock" would top everyone's list."""
+    names = [g for g, _ in genres]
+    kept = [(g, n) for g, n in genres if not any(o != g and (o.endswith(" " + g) or o.endswith("-" + g)) for o in names)]
+    kept = [(g, n) for g, n in kept if n >= kept[0][1] / 5][:3] if kept else []
+    total = sum(n for _, n in kept)
+    return {g: n / total for g, n in kept}
+
+
 def try_fetch(session, url, params=None):
     """fetch, but None for a track or episode Spotify no longer has (404 and the like)."""
     try:
@@ -974,6 +1047,8 @@ def wrapped(periods=None):
     from the export only, since live sync sees episodes just when one happens to be playing."""
     art = load_art()
     shows_cache = json.loads(SHOWS.read_text(encoding="utf-8")) if SHOWS.exists() else {}
+    genre_cache = json.loads(GENRES.read_text(encoding="utf-8")) if GENRES.exists() else {}
+    genre_weights = {uri: artist_genres(a["genres"]) for uri, a in genre_cache.items()}
     first_year = {}  # artist -> first year heard, for "discoveries"
     by_year = {}
     for p in load_plays():
@@ -1023,9 +1098,16 @@ def wrapped(periods=None):
         artists, tracks, albums = {}, {}, {}
         months, hours, weekdays = [0] * 12, [0] * 24, [0] * 7
         days, day_track, decades = Counter(), Counter(), Counter()
+        genre_ms, genre_artists, day_genres, genre_known = Counter(), {}, {}, 0
         for p in plays:
             t, d = ms(p), p["local"]
             name = p["artists"][0] if p["artists"] else "Unknown"
+            weights = genre_weights.get((p.get("artist_uris") or [None])[0]) or {}
+            genre_known += t if weights else 0
+            for g, share in weights.items():  # a play's minutes split across its lead artist's genres
+                genre_ms[g] += t * share
+                genre_artists.setdefault(g, Counter())[name] += t * share
+                day_genres.setdefault(d.date().isoformat(), set()).add(g)
             a = artists.setdefault(name, {"name": name, "ms": 0, "plays": 0, "albums": Counter(),
                                           "first": p["played_at"], "url": None})
             a["ms"] += t
@@ -1085,6 +1167,7 @@ def wrapped(periods=None):
             if s["ts"] >= sh["latest"]:
                 sh["latest"], sh["name"] = s["ts"], s["episode_show_name"]
         top_shows = sorted(shows.values(), key=lambda s: -s["ms"])[:5]
+        diverse = max(day_genres, key=lambda d: len(day_genres[d])) if day_genres else None  # most genres in a day
 
         data = {
             "year": key,
@@ -1124,6 +1207,13 @@ def wrapped(periods=None):
             "on_repeat": {"date": repeat_day, "plays": repeat_n, **song_card(tracks[repeat_song])},
             "first_song": track_card(plays[0], played_at=plays[0]["played_at"]),
             "decades": [{"decade": d, "minutes": minutes(n)} for d, n in sorted(decades.items())],
+            # Shares are of the listening whose genres are known ("coverage", in % of all minutes).
+            "genres": {"count": len(genre_ms), "coverage": round(genre_known / total * 100) if total else 0,
+                       "top": [{"name": g, "minutes": minutes(n), "share": round(n / genre_known * 100, 1),
+                                "artists": [a for a, _ in genre_artists[g].most_common(3)]}
+                               for g, n in genre_ms.most_common(10)],
+                       "diverse_day": {"date": diverse, "count": len(day_genres[diverse])} if diverse else None}
+                      if genre_ms else None,
             "discoveries": {"count": len(new_artists),
                             "top": [{"name": a["name"], "minutes": minutes(a["ms"]), "image": a.get("image"),
                                      "url": a["url"]} for a in new_artists[:5]]},
@@ -1701,6 +1791,8 @@ def main():
     sub.add_parser("art", help="fetch cover art and release years for saved albums that don't have them yet")
     imp = sub.add_parser("import", help="read the privacy data export in data/export/ into the listening history")
     imp.add_argument("--limit", type=int, help="look up at most this many tracks/shows this run")
+    gen = sub.add_parser("genres", help="look up artists' genres on MusicBrainz, most-listened first")
+    gen.add_argument("--limit", type=int, help="look up at most this many artists this run")
     sub.add_parser("build", help="write the site's data file, docs/data/listening.js")
     wrap = sub.add_parser("wrapped", help="write a year in review for docs/wrapped.html "
                                           "(default: every year, with the sparse early years as one span)")
@@ -1720,6 +1812,8 @@ def main():
     try:
         if args.command == "import":
             import_history(args.limit)
+        elif args.command == "genres":
+            fill_genres(args.limit)
         elif args.command == "wrapped":
             wrapped(args.years)
         elif args.command == "report":
