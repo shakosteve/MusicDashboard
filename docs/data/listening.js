@@ -1,14 +1,69 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-05T19:10:05Z",
+ "generated": "2026-11-05T19:40:06Z",
  "totals": {
-  "plays": 124917,
-  "hours": 8491.9,
+  "plays": 124922,
+  "hours": 8492.3,
   "artists": 702,
   "albums": 1525,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Linger - Remastered 2026",
+   "artist": "The Cranberries",
+   "album": "Everybody Else Is Doing It, So Why Can't We? (Remastered 2026)",
+   "year": 1993,
+   "image": "https://i.scdn.co/image/ab67616d00001e02753dbf92830094154a21b193",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273753dbf92830094154a21b193",
+   "url": "https://open.spotify.com/track/1WYrTfvKjQYaYfVziGG1ET",
+   "album_url": "https://open.spotify.com/album/4xIcI1EC3MoCNZWkhMjShN",
+   "played_at": "2026-11-05T19:27:45.876Z"
+  },
+  {
+   "name": "If She Knew What She Wants",
+   "artist": "The Bangles, Susanna Hoffs",
+   "album": "Different Light (Expanded Edition)",
+   "year": 1986,
+   "image": "https://i.scdn.co/image/ab67616d00001e024aaad3bb593721bcaa6827d6",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2734aaad3bb593721bcaa6827d6",
+   "url": "https://open.spotify.com/track/4Qr3jHjvmFN5iTSR1H9pw4",
+   "album_url": "https://open.spotify.com/album/7qEP3i0f0zfk6JUFW3SyeN",
+   "played_at": "2026-11-05T19:23:10.600Z"
+  },
+  {
+   "name": "Judith",
+   "artist": "A Perfect Circle",
+   "album": "Mer De Noms",
+   "year": 2000,
+   "image": "https://i.scdn.co/image/ab67616d00001e022d73b494efcb99356f8c7b28",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2732d73b494efcb99356f8c7b28",
+   "url": "https://open.spotify.com/track/5KDNFlHAdDJ84fhK27c35X",
+   "album_url": "https://open.spotify.com/album/0GeWd0yUKXHbCXVag1mJvO",
+   "played_at": "2026-11-05T19:19:21.612Z"
+  },
+  {
+   "name": "Free Fallin'",
+   "artist": "Tom Petty",
+   "album": "Full Moon Fever",
+   "year": 1989,
+   "image": "https://i.scdn.co/image/ab67616d00001e0236572e6726714544f5bed456",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27336572e6726714544f5bed456",
+   "url": "https://open.spotify.com/track/5tVA6TkbaAH9QMITTQRrNv",
+   "album_url": "https://open.spotify.com/album/5d71Imt5CIb7LpQwDMQ093",
+   "played_at": "2026-11-05T19:15:13.780Z"
+  },
+  {
+   "name": "Time Passages",
+   "artist": "Al Stewart",
+   "album": "Time Passages",
+   "year": 1978,
+   "image": "https://i.scdn.co/image/ab67616d00001e0287cd60f090f08ec6f6051144",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27387cd60f090f08ec6f6051144",
+   "url": "https://open.spotify.com/track/5zVKisBri6JH1fooBhUaVq",
+   "album_url": "https://open.spotify.com/album/5moFY0K48zOBW37SsThYL0",
+   "played_at": "2026-11-05T19:10:57.281Z"
+  },
   {
    "name": "Let It All Go",
    "artist": "Beats Antique, Preservation Hall Jazz Band",
@@ -481,61 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/0HOrDVS349XFcpCYsO2hAP",
    "album_url": "https://open.spotify.com/album/3TtCMt4XLddj9PQeVBfsK1",
    "played_at": "2026-11-04T20:25:40.020Z"
-  },
-  {
-   "name": "Love's Been A Little Bit Hard On Me",
-   "artist": "Juice Newton",
-   "album": "Juice Newton's Greatest Hits",
-   "year": 1988,
-   "image": "https://i.scdn.co/image/ab67616d00001e0299a6a7a4b4fe71d5362d16b7",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27399a6a7a4b4fe71d5362d16b7",
-   "url": "https://open.spotify.com/track/37zpChlZkoFuScXLoiu0WE",
-   "album_url": "https://open.spotify.com/album/0fSvQOkU8rRgcsW6MerdVw",
-   "played_at": "2026-11-04T20:21:44.752Z"
-  },
-  {
-   "name": "Night Moves",
-   "artist": "Bob Seger",
-   "album": "Night Moves",
-   "year": 1976,
-   "image": "https://i.scdn.co/image/ab67616d00001e02676a8230a422123e8012557e",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273676a8230a422123e8012557e",
-   "url": "https://open.spotify.com/track/6UBjSnyP1O5W5ndJoO9vUk",
-   "album_url": "https://open.spotify.com/album/5QkOpsZupEPLq186YOrBNe",
-   "played_at": "2026-11-04T20:18:28.560Z"
-  },
-  {
-   "name": "Crazy",
-   "artist": "Aerosmith",
-   "album": "Get A Grip",
-   "year": 1993,
-   "image": "https://i.scdn.co/image/ab67616d00001e0291b246743456e285a20a46ed",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27391b246743456e285a20a46ed",
-   "url": "https://open.spotify.com/track/3QxKpdTB8ZSFn8MGeCCpsQ",
-   "album_url": "https://open.spotify.com/album/180jTzor4W2MQ9HW5h5Fh4",
-   "played_at": "2026-11-04T20:13:03.561Z"
-  },
-  {
-   "name": "Age of Machine",
-   "artist": "Greta Van Fleet",
-   "album": "The Battle at Garden’s Gate",
-   "year": 2021,
-   "image": "https://i.scdn.co/image/ab67616d00001e02339cc033bcc476d11dffba4c",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273339cc033bcc476d11dffba4c",
-   "url": "https://open.spotify.com/track/6XALorRRo9aQdBIQN0UWyn",
-   "album_url": "https://open.spotify.com/album/7kjLKy9JLbwM9F7eDQEnd2",
-   "played_at": "2026-11-04T17:40:12.629Z"
-  },
-  {
-   "name": "Good Times Bad Times - 1993 Remaster",
-   "artist": "Led Zeppelin",
-   "album": "Led Zeppelin",
-   "year": 1969,
-   "image": "https://i.scdn.co/image/ab67616d00001e026f2f499c1df1f210c9b34b32",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2736f2f499c1df1f210c9b34b32",
-   "url": "https://open.spotify.com/track/0QwZfbw26QeUoIy82Z2jYp",
-   "album_url": "https://open.spotify.com/album/3ycjBixZf7S3WpC5WZhhUK",
-   "played_at": "2026-11-04T17:33:18.522Z"
   }
  ],
  "top_artists": [
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28650,
+   "plays": 28651,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32863,
+   "plays": 32865,
    "covers": [
     {
      "name": "Back In Black",
@@ -1064,7 +1064,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2734aaad3bb593721bcaa6827d6",
      "url": "https://open.spotify.com/track/00vYs0qZA40Z8AAaN7xmMO",
      "album_url": "https://open.spotify.com/album/7qEP3i0f0zfk6JUFW3SyeN",
-     "plays": 695
+     "plays": 696
     },
     {
      "name": "Panama - 2015 Remaster",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9703,
+   "plays": 9704,
    "covers": [
     {
      "name": "Amazing",
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 11990,
+   "plays": 11991,
    "covers": [
     {
      "name": "Material Girl",
