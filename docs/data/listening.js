@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-05T16:10:05Z",
+ "generated": "2026-11-05T17:40:06Z",
  "totals": {
-  "plays": 124911,
+  "plays": 124912,
   "hours": 8491.5,
   "artists": 702,
   "albums": 1525,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Dirty Deeds",
+   "artist": "Joan Jett & the Blackhearts",
+   "album": "The Hit List",
+   "year": 1990,
+   "image": "https://i.scdn.co/image/ab67616d00001e024762653c281c71d8837d180b",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2734762653c281c71d8837d180b",
+   "url": "https://open.spotify.com/track/5EmjBlrR2TzVzyveICMllj",
+   "album_url": "https://open.spotify.com/album/2mIFpqxnoM71gHMBKlzZtM",
+   "played_at": "2026-11-05T17:38:03.552Z"
+  },
   {
    "name": "Round and Round",
    "artist": "Ratt",
@@ -525,17 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/0qemIQjSxcKyf42VPfZnfa",
    "album_url": "https://open.spotify.com/album/4vAhQeeWkSjVn0p5GAaLBx",
    "played_at": "2026-11-04T17:14:59.575Z"
-  },
-  {
-   "name": "Bang Bang (My Baby Shot Me Down)",
-   "artist": "Nancy Sinatra",
-   "album": "How Does That Grab You? (2024 Reissue)",
-   "year": 1966,
-   "image": "https://i.scdn.co/image/ab67616d00001e02c98f495819698b300a53cc32",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273c98f495819698b300a53cc32",
-   "url": "https://open.spotify.com/track/1hvKYV2SkmX1D2AeRCDxLH",
-   "album_url": "https://open.spotify.com/album/7lkW8dx8Feb7tzVNMgxGCm",
-   "played_at": "2026-11-04T17:11:26.303Z"
   }
  ],
  "top_artists": [
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9701,
+   "plays": 9702,
    "covers": [
     {
      "name": "Amazing",
