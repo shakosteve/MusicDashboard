@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-06T02:40:05Z",
+ "generated": "2026-11-06T12:10:05Z",
  "totals": {
-  "plays": 124940,
-  "hours": 8493.6,
+  "plays": 124941,
+  "hours": 8493.7,
   "artists": 702,
   "albums": 1526,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Dirty Deeds Done Dirt Cheap",
+   "artist": "AC/DC",
+   "album": "Dirty Deeds Done Dirt Cheap",
+   "year": 1976,
+   "image": "https://i.scdn.co/image/ab67616d00001e02dfce70698f4d925525383c7c",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273dfce70698f4d925525383c7c",
+   "url": "https://open.spotify.com/track/2d4e45fmUnguxh6yqC7gNT",
+   "album_url": "https://open.spotify.com/album/76mvVgXOde87B9aOzLXCOI",
+   "played_at": "2026-11-06T03:48:02.690Z"
+  },
   {
    "name": "Long Tall Sally (The Thing)",
    "artist": "Little Richard",
@@ -525,17 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/0W0euvQlhbcsTydzsD4EQk",
    "album_url": "https://open.spotify.com/album/5SsZBxF3sRSJnFd0rZ3vcF",
    "played_at": "2026-11-05T14:33:59.825Z"
-  },
-  {
-   "name": "Still Got This Thing",
-   "artist": "Alannah Myles",
-   "album": "Alannah Myles",
-   "year": 1989,
-   "image": "https://i.scdn.co/image/ab67616d00001e02c45bb46127a23d1beeead273",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273c45bb46127a23d1beeead273",
-   "url": "https://open.spotify.com/track/1ogO2Wj9qEMMjo7UDejvsh",
-   "album_url": "https://open.spotify.com/album/552joC0kVpcbJm7LFLqGDm",
-   "played_at": "2026-11-05T14:29:40.236Z"
   }
  ],
  "top_artists": [
@@ -547,7 +547,7 @@ window.LISTENING = {
   },
   {
    "name": "AC/DC",
-   "plays": 3990,
+   "plays": 3991,
    "url": "https://open.spotify.com/artist/711MCceyCBcFnzjGY4Q7Un",
    "image": "https://i.scdn.co/image/ab67616d00001e02ff191d7fbdb5a13eaf84132b"
   },
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28656,
+   "plays": 28657,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "A Generational Win for Democrats Sends the GOP Reeling",
+   "show": "WSJ Opinion: Potomac Watch",
+   "show_uri": "spotify:show:4sMCRFb3B4g9Ax3lDCOOTX",
+   "release_date": "2026-11-04",
+   "duration_ms": 1862034,
+   "image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97",
+   "first_seen": "2026-11-06T12:10:02Z",
+   "progress_ms": 324418,
+   "last_seen": "2026-11-06T12:10:02Z",
+   "url": "https://open.spotify.com/episode/12gS9UyfXA5iTMs2BEqLpN",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97"
+  },
+  {
    "name": "Blake J. Harris: Larry David Was My Hero Before And After Writing His Book",
    "show": "Adam Carolla Show",
    "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-03T14:10:05Z",
    "url": "https://open.spotify.com/episode/2mAudvC0n6AyuWl542Wtj9",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
-  },
-  {
-   "name": "Iran vows ‘no limits’ war as Trump threatens Pickaxe Mountain strikes",
-   "show": "Iran: The Latest",
-   "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
-   "release_date": "2026-11-02",
-   "duration_ms": 2035147,
-   "image": "https://i.scdn.co/image/ab67656300005f1fba28c6f23eab3b47a9abea06",
-   "first_seen": "2026-11-02T17:40:03Z",
-   "progress_ms": 2035147,
-   "last_seen": "2026-11-02T19:10:04Z",
-   "url": "https://open.spotify.com/episode/2Y6wCczqDEDso73UMAGIrh",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
   }
  ],
  "top_shows": [
