@@ -1,14 +1,80 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-06T14:40:05Z",
+ "generated": "2026-11-06T15:10:06Z",
  "totals": {
-  "plays": 124949,
-  "hours": 8494.3,
+  "plays": 124955,
+  "hours": 8494.7,
   "artists": 702,
   "albums": 1526,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Don't Stop Believin' (2022 Remaster)",
+   "artist": "Journey",
+   "album": "Escape (2022 Remaster)",
+   "year": 1981,
+   "image": "https://i.scdn.co/image/ab67616d00001e0223290120a609a65e14cfe018",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27323290120a609a65e14cfe018",
+   "url": "https://open.spotify.com/track/5RKQ5NdjSh2QzD4MaunT91",
+   "album_url": "https://open.spotify.com/album/4guAwaniEAEQSW0NCpo4gm",
+   "played_at": "2026-11-06T15:06:30.981Z"
+  },
+  {
+   "name": "Bad News",
+   "artist": "NOAPOLOGY",
+   "album": "Uncovered",
+   "year": 2025,
+   "image": "https://i.scdn.co/image/ab67616d00001e02e2128ce797b85ee7de274abb",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273e2128ce797b85ee7de274abb",
+   "url": "https://open.spotify.com/track/6WXnv6IZK6ogP6ZJnmQbwr",
+   "album_url": "https://open.spotify.com/album/3xhloSIytfKpvaWWrMHjOs",
+   "played_at": "2026-11-06T15:02:20.605Z"
+  },
+  {
+   "name": "Fast Car",
+   "artist": "Tracy Chapman",
+   "album": "Tracy Chapman",
+   "year": 1988,
+   "image": "https://i.scdn.co/image/ab67616d00001e0290b8a540137ee2a718a369f9",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27390b8a540137ee2a718a369f9",
+   "url": "https://open.spotify.com/track/2M9ro2krNb7nr7HSprkEgo",
+   "album_url": "https://open.spotify.com/album/6hmmX5UP4rIvOpGSaPerV8",
+   "played_at": "2026-11-06T14:59:18.063Z"
+  },
+  {
+   "name": "Shake That",
+   "artist": "BAND-MAID",
+   "album": "New Beginning",
+   "year": 2015,
+   "image": "https://i.scdn.co/image/ab67616d00001e02c9d078b963bf1205f26eb90b",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273c9d078b963bf1205f26eb90b",
+   "url": "https://open.spotify.com/track/4UlybsnjfVNPtn6rdliNUB",
+   "album_url": "https://open.spotify.com/album/3fGJG29oqHwWqqyV5UGUQa",
+   "played_at": "2026-11-06T14:54:20.873Z"
+  },
+  {
+   "name": "All I Know So Far",
+   "artist": "P!nk",
+   "album": "All I Know So Far",
+   "year": 2021,
+   "image": "https://i.scdn.co/image/ab67616d00001e024bbe90f83d8fcf0c88e0b3cc",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2734bbe90f83d8fcf0c88e0b3cc",
+   "url": "https://open.spotify.com/track/4LmN3eU1R1vVEdKuDELpGk",
+   "album_url": "https://open.spotify.com/album/0uVOhoZbkmOIM4kxJFT2IH",
+   "played_at": "2026-11-06T14:50:14.600Z"
+  },
+  {
+   "name": "Riders on the Storm",
+   "artist": "The Doors",
+   "album": "L.A. Woman",
+   "year": 1971,
+   "image": "https://i.scdn.co/image/ab67616d00001e0211d9db4f0db1e2689ca22c3d",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27311d9db4f0db1e2689ca22c3d",
+   "url": "https://open.spotify.com/track/14XWXWv5FoCbFzLksawpEe",
+   "album_url": "https://open.spotify.com/album/7IKUTIc9UWuVngyGPtqNHS",
+   "played_at": "2026-11-06T14:45:36.801Z"
+  },
   {
    "name": "Dany’s Guitar Solo - Live from Auditorio Nacional, CDMX",
    "artist": "The Warning",
@@ -470,72 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/0YoAVHXeEPPzZxK0xPQqYn",
    "album_url": "https://open.spotify.com/album/6oU298pdPTCQnMx1PYwyUA",
    "played_at": "2026-11-05T15:30:59.935Z"
-  },
-  {
-   "name": "Here I Go Again - 1987 Version / 2018 Remaster",
-   "artist": "Whitesnake",
-   "album": "Whitesnake (2018 Remaster)",
-   "year": 1987,
-   "image": "https://i.scdn.co/image/ab67616d00001e0249113b5921d7a53f49b64bfd",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27349113b5921d7a53f49b64bfd",
-   "url": "https://open.spotify.com/track/58z9sfHe9s9zTvYGKehCWM",
-   "album_url": "https://open.spotify.com/album/7swyGza0lOXnnkfSupULM5",
-   "played_at": "2026-11-05T15:27:48.663Z"
-  },
-  {
-   "name": "Folsom Prison Blues",
-   "artist": "Joaquin Phoenix",
-   "album": "Walk The Line (Original Motion Picture Soundtrack)",
-   "year": 2005,
-   "image": "https://i.scdn.co/image/ab67616d00001e020ff166bfd4a462cc7f4068a6",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2730ff166bfd4a462cc7f4068a6",
-   "url": "https://open.spotify.com/track/7bh6o0jqTn2Bh0M7vHln6f",
-   "album_url": "https://open.spotify.com/album/6ICcWbsZxt5fVG02IbZuZg",
-   "played_at": "2026-11-05T15:23:12.678Z"
-  },
-  {
-   "name": "Séance",
-   "artist": "Speed of Light",
-   "album": "Séance",
-   "year": 2024,
-   "image": "https://i.scdn.co/image/ab67616d00001e02e43f6681a9e6e990b63be5cb",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273e43f6681a9e6e990b63be5cb",
-   "url": "https://open.spotify.com/track/6xQ8uphGxXzJDUziFapHZZ",
-   "album_url": "https://open.spotify.com/album/0JwzG7MVtzubfIOf0L445q",
-   "played_at": "2026-11-05T15:20:20.166Z"
-  },
-  {
-   "name": "Foreplay / Long Time",
-   "artist": "Boston",
-   "album": "Boston",
-   "year": 1976,
-   "image": "https://i.scdn.co/image/ab67616d00001e028c1fadcc997a65384f34d694",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2738c1fadcc997a65384f34d694",
-   "url": "https://open.spotify.com/track/39C5FuZ8C8M0QI8CrMsPkR",
-   "album_url": "https://open.spotify.com/album/2QLp07RO6anZHmtcKTEvSC",
-   "played_at": "2026-11-05T15:16:23.653Z"
-  },
-  {
-   "name": "Come On, Let's Go",
-   "artist": "Ritchie Valens",
-   "album": "Ritchie Valens",
-   "year": 1959,
-   "image": "https://i.scdn.co/image/ab67616d00001e02027a47865c8c6215aa72b9df",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273027a47865c8c6215aa72b9df",
-   "url": "https://open.spotify.com/track/4cRfSR0QxDlXRHTKyEOu93",
-   "album_url": "https://open.spotify.com/album/77UI8F1LuhiQaKIL1qOE1W",
-   "played_at": "2026-11-05T15:08:35.594Z"
-  },
-  {
-   "name": "Give Me One Reason",
-   "artist": "Tracy Chapman",
-   "album": "New Beginning",
-   "year": 1995,
-   "image": "https://i.scdn.co/image/ab67616d00001e026b38571f15487588ed53032f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2736b38571f15487588ed53032f",
-   "url": "https://open.spotify.com/track/4vDBJeeQCbhP9FaPPMsYkY",
-   "album_url": "https://open.spotify.com/album/3XsOzkIBoHsxZ7jP3QF2oB",
-   "played_at": "2026-11-05T15:06:30.372Z"
   }
  ],
  "top_artists": [
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28658,
+   "plays": 28659,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32868,
+   "plays": 32870,
    "covers": [
     {
      "name": "Back In Black",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15769,
+   "plays": 15770,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18618,
+   "plays": 18620,
    "covers": [
     {
      "name": "ERROR",
