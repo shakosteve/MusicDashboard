@@ -1,14 +1,102 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-06T15:10:06Z",
+ "generated": "2026-11-06T15:40:05Z",
  "totals": {
-  "plays": 124955,
-  "hours": 8494.7,
+  "plays": 124963,
+  "hours": 8495.3,
   "artists": 702,
   "albums": 1526,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "In the Air Tonight - 2015 Remaster",
+   "artist": "Phil Collins",
+   "album": "Face Value (Deluxe Editon)",
+   "year": 1981,
+   "image": "https://i.scdn.co/image/ab67616d00001e028a1d7cf42a84b10bd1ff8e56",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2738a1d7cf42a84b10bd1ff8e56",
+   "url": "https://open.spotify.com/track/18AXbzPzBS8Y3AkgSxzJPb",
+   "album_url": "https://open.spotify.com/album/1cM3r0WQZWNkCpEbmFjLln",
+   "played_at": "2026-11-06T15:38:15.788Z"
+  },
+  {
+   "name": "I Won't Back Down",
+   "artist": "Tom Petty",
+   "album": "Full Moon Fever",
+   "year": 1989,
+   "image": "https://i.scdn.co/image/ab67616d00001e0236572e6726714544f5bed456",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27336572e6726714544f5bed456",
+   "url": "https://open.spotify.com/track/7gSQv1OHpkIoAdUiRLdmI6",
+   "album_url": "https://open.spotify.com/album/5d71Imt5CIb7LpQwDMQ093",
+   "played_at": "2026-11-06T15:32:38.915Z"
+  },
+  {
+   "name": "Bad Company - 2015 Remaster",
+   "artist": "Bad Company",
+   "album": "Bad Company (Deluxe)",
+   "year": 1974,
+   "image": "https://i.scdn.co/image/ab67616d00001e029adafd7f9d57380d1d0373af",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2739adafd7f9d57380d1d0373af",
+   "url": "https://open.spotify.com/track/36vTL8WP4ZoD1bbUaW0V3E",
+   "album_url": "https://open.spotify.com/album/4fuDpBLCt9ChDlqw48bj7p",
+   "played_at": "2026-11-06T15:29:40.059Z"
+  },
+  {
+   "name": "Rock & Roll Band",
+   "artist": "Boston",
+   "album": "Boston",
+   "year": 1976,
+   "image": "https://i.scdn.co/image/ab67616d00001e028c1fadcc997a65384f34d694",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2738c1fadcc997a65384f34d694",
+   "url": "https://open.spotify.com/track/5E89Izp4YhPyNShoxiOJ1u",
+   "album_url": "https://open.spotify.com/album/2QLp07RO6anZHmtcKTEvSC",
+   "played_at": "2026-11-06T15:24:51.430Z"
+  },
+  {
+   "name": "My Way, Soon",
+   "artist": "Greta Van Fleet",
+   "album": "Broken Bells",
+   "year": 2021,
+   "image": "https://i.scdn.co/image/ab67616d00001e029163a72affa104f29fc576fb",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2739163a72affa104f29fc576fb",
+   "url": "https://open.spotify.com/track/2IsuiHhWDj8ByvznN04v7S",
+   "album_url": "https://open.spotify.com/album/1rWkxCNuPFzDRFANL8lLnG",
+   "played_at": "2026-11-06T15:21:50.606Z"
+  },
+  {
+   "name": "Fly By Night",
+   "artist": "Rush",
+   "album": "Fly By Night",
+   "year": 1975,
+   "image": "https://i.scdn.co/image/ab67616d00001e0211079bb97e1f95d1a917ce0b",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27311079bb97e1f95d1a917ce0b",
+   "url": "https://open.spotify.com/track/54TaGh2JKs1pO9daXNXI5q",
+   "album_url": "https://open.spotify.com/album/3ZtICWkqezf0bBTUwY1Khe",
+   "played_at": "2026-11-06T15:17:34.820Z"
+  },
+  {
+   "name": "Kiss Me Deadly",
+   "artist": "Lita Ford",
+   "album": "Lita",
+   "year": 1988,
+   "image": "https://i.scdn.co/image/ab67616d00001e022dbf0cc843a4a0fe8c8f5482",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2732dbf0cc843a4a0fe8c8f5482",
+   "url": "https://open.spotify.com/track/0kFM6t9htbB53Dg8frGDGh",
+   "album_url": "https://open.spotify.com/album/5nfd1bXqze24U3EZXP1Qlk",
+   "played_at": "2026-11-06T15:14:12.228Z"
+  },
+  {
+   "name": "MORE - Live from Auditorio Nacional, CDMX",
+   "artist": "The Warning",
+   "album": "Live from Auditorio Nacional, CDMX",
+   "year": 2025,
+   "image": "https://i.scdn.co/image/ab67616d00001e025cda6d880ec3968aa6b6ac2f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
+   "url": "https://open.spotify.com/track/0cRNHbTM0dpFLwGHWiv195",
+   "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
+   "played_at": "2026-11-06T15:10:09.808Z"
+  },
   {
    "name": "Don't Stop Believin' (2022 Remaster)",
    "artist": "Journey",
@@ -448,100 +536,12 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/5EmjBlrR2TzVzyveICMllj",
    "album_url": "https://open.spotify.com/album/2mIFpqxnoM71gHMBKlzZtM",
    "played_at": "2026-11-05T17:38:03.552Z"
-  },
-  {
-   "name": "Round and Round",
-   "artist": "Ratt",
-   "album": "The Essentials: Ratt",
-   "year": 1984,
-   "image": "https://i.scdn.co/image/ab67616d00001e023e6f0c0b02ca72a70f6b9b50",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2733e6f0c0b02ca72a70f6b9b50",
-   "url": "https://open.spotify.com/track/57P8gH8rjt4OqEoqzut1bL",
-   "album_url": "https://open.spotify.com/album/0zhBC0ytIvsL8Kvf0xtPMp",
-   "played_at": "2026-11-05T15:59:49.999Z"
-  },
-  {
-   "name": "Take A Chance On Me",
-   "artist": "ABBA",
-   "album": "The Album",
-   "year": 1977,
-   "image": "https://i.scdn.co/image/ab67616d00001e026f705bef76c1d861c4d51d8c",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2736f705bef76c1d861c4d51d8c",
-   "url": "https://open.spotify.com/track/5BckPAYcKEJuYs1eV1BHHe",
-   "album_url": "https://open.spotify.com/album/5fLOHW1UXr1cJrnXiU3FBt",
-   "played_at": "2026-11-05T15:55:23.484Z"
-  },
-  {
-   "name": "Once in a Lifetime - 2005 Remaster",
-   "artist": "Talking Heads",
-   "album": "Remain in Light (Deluxe Version)",
-   "year": 1980,
-   "image": "https://i.scdn.co/image/ab67616d00001e02e56fa8c916dc6ce419dcf557",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273e56fa8c916dc6ce419dcf557",
-   "url": "https://open.spotify.com/track/38Ngied9rBORlAbLYNCl4k",
-   "album_url": "https://open.spotify.com/album/3AQgdwMNCiN7awXch5fAaG",
-   "played_at": "2026-11-05T15:51:19.074Z"
-  },
-  {
-   "name": "Wizard Flurry Home",
-   "artist": "Mariee Sioux",
-   "album": "Faces in the Rocks",
-   "year": 2007,
-   "image": "https://i.scdn.co/image/ab67616d00001e024f828e8c0317be3b69347874",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2734f828e8c0317be3b69347874",
-   "url": "https://open.spotify.com/track/0kBIf10ovrGvEPQ5sP0nB3",
-   "album_url": "https://open.spotify.com/album/4uTqDWrJqOHYp1DCtkun16",
-   "played_at": "2026-11-05T15:46:58.561Z"
-  },
-  {
-   "name": "That's All - 2007 Remaster",
-   "artist": "Genesis",
-   "album": "Genesis (2007 Remaster)",
-   "year": 1983,
-   "image": "https://i.scdn.co/image/ab67616d00001e02945c366eda66495226e4a46d",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273945c366eda66495226e4a46d",
-   "url": "https://open.spotify.com/track/2zFdsAIk9r2Mi7Lmm1w3sM",
-   "album_url": "https://open.spotify.com/album/6BX8AS7J97PSQNrteX325Z",
-   "played_at": "2026-11-05T15:41:41.915Z"
-  },
-  {
-   "name": "Closer To The Heart",
-   "artist": "Rush",
-   "album": "A Farewell To Kings",
-   "year": 1977,
-   "image": "https://i.scdn.co/image/ab67616d00001e02c3d872d5405c76e3956cbbb6",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273c3d872d5405c76e3956cbbb6",
-   "url": "https://open.spotify.com/track/4u3oXuVeOGoByIMz9pnOKf",
-   "album_url": "https://open.spotify.com/album/18i33u5FvfvgHjZMulpyO2",
-   "played_at": "2026-11-05T15:37:16.864Z"
-  },
-  {
-   "name": "Girls Got Rhythm",
-   "artist": "AC/DC",
-   "album": "Highway to Hell",
-   "year": 1979,
-   "image": "https://i.scdn.co/image/ab67616d00001e0243058ea096fa35ac33c43587",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27343058ea096fa35ac33c43587",
-   "url": "https://open.spotify.com/track/6Wn3pdFtAcnYJyJVITwt7N",
-   "album_url": "https://open.spotify.com/album/10v912xgTZbjAtYfyKWJCS",
-   "played_at": "2026-11-05T15:34:24.347Z"
-  },
-  {
-   "name": "Point of Know Return",
-   "artist": "Kansas",
-   "album": "Point Of Know Return (Expanded Edition)",
-   "year": 1977,
-   "image": "https://i.scdn.co/image/ab67616d00001e0259f0f56a7cd13526b5b4204c",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27359f0f56a7cd13526b5b4204c",
-   "url": "https://open.spotify.com/track/0YoAVHXeEPPzZxK0xPQqYn",
-   "album_url": "https://open.spotify.com/album/6oU298pdPTCQnMx1PYwyUA",
-   "played_at": "2026-11-05T15:30:59.935Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10677,
+   "plays": 10678,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
@@ -676,7 +676,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b2738c1fadcc997a65384f34d694",
    "url": "https://open.spotify.com/track/1QEEqeFIZktqIpPI4jSVSF",
    "album_url": "https://open.spotify.com/album/2QLp07RO6anZHmtcKTEvSC",
-   "plays": 1108
+   "plays": 1109
   },
   {
    "name": "Leroy",
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28659,
+   "plays": 28662,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -937,7 +937,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2738c1fadcc997a65384f34d694",
      "url": "https://open.spotify.com/track/1QEEqeFIZktqIpPI4jSVSF",
      "album_url": "https://open.spotify.com/album/2QLp07RO6anZHmtcKTEvSC",
-     "plays": 1108
+     "plays": 1109
     },
     {
      "name": "Barracuda",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32870,
+   "plays": 32873,
    "covers": [
     {
      "name": "Back In Black",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18620,
+   "plays": 18622,
    "covers": [
     {
      "name": "ERROR",
@@ -1429,7 +1429,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2739163a72affa104f29fc576fb",
      "url": "https://open.spotify.com/track/2AxlSslgR8v0Hqq079x7vv",
      "album_url": "https://open.spotify.com/album/1rWkxCNuPFzDRFANL8lLnG",
-     "plays": 531
+     "plays": 532
     },
     {
      "name": "CHOKE - Live from Auditorio Nacional, CDMX",
@@ -1440,7 +1440,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
      "url": "https://open.spotify.com/track/3zgbw0cxkS1DQ36O5hGydt",
      "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
-     "plays": 481
+     "plays": 482
     },
     {
      "name": "Shot In The Dark",
