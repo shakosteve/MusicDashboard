@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-05T23:10:07Z",
+ "generated": "2026-11-06T00:10:04Z",
  "totals": {
-  "plays": 124929,
-  "hours": 8492.8,
+  "plays": 124930,
+  "hours": 8493.0,
   "artists": 702,
   "albums": 1525,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "All Too Well (10 Minute Version) (Taylor's Version) (From The Vault)",
+   "artist": "Taylor Swift",
+   "album": "Red (Taylor's Version)",
+   "year": 2021,
+   "image": "https://i.scdn.co/image/ab67616d00001e02318443aab3531a0558e79a4d",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273318443aab3531a0558e79a4d",
+   "url": "https://open.spotify.com/track/5enxwA8aAbwZbf5qCHORXi",
+   "album_url": "https://open.spotify.com/album/6kZ42qRrzov54LcAk4onW9",
+   "played_at": "2026-11-05T23:41:53.690Z"
+  },
   {
    "name": "Supermassive Black Hole",
    "artist": "Muse",
@@ -525,17 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/28eg5bkYvIHT7HPmzZFwLN",
    "album_url": "https://open.spotify.com/album/6TwlLNU5Zd9qGuNgSLeWPt",
    "played_at": "2026-11-05T00:28:19.335Z"
-  },
-  {
-   "name": "Love the One You're With",
-   "artist": "Crosby, Stills & Nash",
-   "album": "Replay",
-   "year": 1980,
-   "image": "https://i.scdn.co/image/ab67616d00001e021fce24e5e0896809397a3210",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2731fce24e5e0896809397a3210",
-   "url": "https://open.spotify.com/track/6kXGGyEPSRS1g9Ltm70jo9",
-   "album_url": "https://open.spotify.com/album/1ZMa2C7vUFFCqX8xcFuFX3",
-   "played_at": "2026-11-05T00:23:35.595Z"
   }
  ],
  "top_artists": [
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18613,
+   "plays": 18614,
    "covers": [
     {
      "name": "ERROR",
@@ -1808,7 +1808,7 @@ window.LISTENING = {
     "image_large": "https://i.scdn.co/image/ab67616d0000b273318443aab3531a0558e79a4d",
     "url": "https://open.spotify.com/track/5enxwA8aAbwZbf5qCHORXi",
     "album_url": "https://open.spotify.com/album/6kZ42qRrzov54LcAk4onW9",
-    "plays": 193,
+    "plays": 194,
     "total": 30,
     "run_back": 28,
     "went_back": 1,
