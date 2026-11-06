@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-06T13:40:06Z",
+ "generated": "2026-11-06T14:10:06Z",
  "totals": {
-  "plays": 124941,
+  "plays": 124942,
   "hours": 8493.7,
   "artists": 702,
   "albums": 1526,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Sharp Dressed Man (2008 Remaster)",
+   "artist": "ZZ Top",
+   "album": "Eliminator",
+   "year": 1983,
+   "image": "https://i.scdn.co/image/ab67616d00001e02a2b4f98f60e3cacf3866b2e3",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273a2b4f98f60e3cacf3866b2e3",
+   "url": "https://open.spotify.com/track/0bRNszTbTFLNlunAeh7eom",
+   "album_url": "https://open.spotify.com/album/4KW6YVbF8E3kexYcl0k4IK",
+   "played_at": "2026-11-06T14:07:39.703Z"
+  },
   {
    "name": "Dirty Deeds Done Dirt Cheap",
    "artist": "AC/DC",
@@ -525,17 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/0OULlj9KLRXrQCIpF6Y2MB",
    "album_url": "https://open.spotify.com/album/0OJ57wFQe0A7cGS1RrHyVv",
    "played_at": "2026-11-05T14:37:53.958Z"
-  },
-  {
-   "name": "Death Letter Blues",
-   "artist": "Son House",
-   "album": "Father Of The Delta Blues: The Complete 1965 Sessions",
-   "year": 1992,
-   "image": "https://i.scdn.co/image/ab67616d00001e02059c952d7ccc5a617cc9a383",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273059c952d7ccc5a617cc9a383",
-   "url": "https://open.spotify.com/track/0W0euvQlhbcsTydzsD4EQk",
-   "album_url": "https://open.spotify.com/album/5SsZBxF3sRSJnFd0rZ3vcF",
-   "played_at": "2026-11-05T14:33:59.825Z"
   }
  ],
  "top_artists": [
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32867,
+   "plays": 32868,
    "covers": [
     {
      "name": "Back In Black",
