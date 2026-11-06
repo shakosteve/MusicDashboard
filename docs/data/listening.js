@@ -1,14 +1,36 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-06T21:40:09Z",
+ "generated": "2026-11-06T22:10:05Z",
  "totals": {
-  "plays": 124970,
-  "hours": 8495.7,
+  "plays": 124972,
+  "hours": 8495.8,
   "artists": 702,
   "albums": 1526,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Smooth (feat. Rob Thomas)",
+   "artist": "Santana, Rob Thomas",
+   "album": "Supernatural (Remastered)",
+   "year": 1999,
+   "image": "https://i.scdn.co/image/ab67616d00001e0247eb3ea5a92904c19e102e54",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27347eb3ea5a92904c19e102e54",
+   "url": "https://open.spotify.com/track/0n2SEXB2qoRQg171q7XqeW",
+   "album_url": "https://open.spotify.com/album/10aiDpdFGyfCFEcqpx6XTq",
+   "played_at": "2026-11-06T22:07:35.941Z"
+  },
+  {
+   "name": "Have You Ever Seen The Rain",
+   "artist": "Creedence Clearwater Revival",
+   "album": "Pendulum (Expanded Edition)",
+   "year": 1970,
+   "image": "https://i.scdn.co/image/ab67616d00001e0251f311c2fb06ad2789e3ff91",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27351f311c2fb06ad2789e3ff91",
+   "url": "https://open.spotify.com/track/2LawezPeJhN4AWuSB0GtAU",
+   "album_url": "https://open.spotify.com/album/372cMadhAGlNuDnc8TssqF",
+   "played_at": "2026-11-06T22:02:40.186Z"
+  },
   {
    "name": "Suicide Blonde",
    "artist": "INXS",
@@ -514,28 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/4Qr3jHjvmFN5iTSR1H9pw4",
    "album_url": "https://open.spotify.com/album/7qEP3i0f0zfk6JUFW3SyeN",
    "played_at": "2026-11-05T19:23:10.600Z"
-  },
-  {
-   "name": "Judith",
-   "artist": "A Perfect Circle",
-   "album": "Mer De Noms",
-   "year": 2000,
-   "image": "https://i.scdn.co/image/ab67616d00001e022d73b494efcb99356f8c7b28",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2732d73b494efcb99356f8c7b28",
-   "url": "https://open.spotify.com/track/5KDNFlHAdDJ84fhK27c35X",
-   "album_url": "https://open.spotify.com/album/0GeWd0yUKXHbCXVag1mJvO",
-   "played_at": "2026-11-05T19:19:21.612Z"
-  },
-  {
-   "name": "Free Fallin'",
-   "artist": "Tom Petty",
-   "album": "Full Moon Fever",
-   "year": 1989,
-   "image": "https://i.scdn.co/image/ab67616d00001e0236572e6726714544f5bed456",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27336572e6726714544f5bed456",
-   "url": "https://open.spotify.com/track/5tVA6TkbaAH9QMITTQRrNv",
-   "album_url": "https://open.spotify.com/album/5d71Imt5CIb7LpQwDMQ093",
-   "played_at": "2026-11-05T19:15:13.780Z"
   }
  ],
  "top_artists": [
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28663,
+   "plays": 28664,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9708,
+   "plays": 9709,
    "covers": [
     {
      "name": "Amazing",
