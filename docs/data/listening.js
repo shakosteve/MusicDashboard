@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-06T00:10:04Z",
+ "generated": "2026-11-06T01:10:06Z",
  "totals": {
-  "plays": 124930,
-  "hours": 8493.0,
+  "plays": 124932,
+  "hours": 8493.1,
   "artists": 702,
   "albums": 1525,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Ugh",
+   "artist": "The Warning",
+   "album": "Queen of the Murder Scene",
+   "year": 2018,
+   "image": "https://i.scdn.co/image/ab67616d00001e02e0871bbaad013df7b7e56c2a",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273e0871bbaad013df7b7e56c2a",
+   "url": "https://open.spotify.com/track/6LZj44LIoPChkWVxqjobso",
+   "album_url": "https://open.spotify.com/album/2kB1Qqw3YOR9i3nbNxXWRs",
+   "played_at": "2026-11-06T01:07:54.782Z"
+  },
   {
    "name": "All Too Well (10 Minute Version) (Taylor's Version) (From The Vault)",
    "artist": "Taylor Swift",
@@ -525,23 +536,12 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/5TSANSqPTD6nBG0NSJWmVB",
    "album_url": "https://open.spotify.com/album/4GCciwt8efweJZ4AEEvnTQ",
    "played_at": "2026-11-05T00:33:01.242Z"
-  },
-  {
-   "name": "Lonely Is The Night - Remastered 2010",
-   "artist": "Billy Squier",
-   "album": "Don't Say No (Remastered 2010)",
-   "year": 1981,
-   "image": "https://i.scdn.co/image/ab67616d00001e02f4822f8034e697410a14a297",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273f4822f8034e697410a14a297",
-   "url": "https://open.spotify.com/track/28eg5bkYvIHT7HPmzZFwLN",
-   "album_url": "https://open.spotify.com/album/6TwlLNU5Zd9qGuNgSLeWPt",
-   "played_at": "2026-11-05T00:28:19.335Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10673,
+   "plays": 10675,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
@@ -621,7 +621,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b273e0871bbaad013df7b7e56c2a",
    "url": "https://open.spotify.com/track/3byoK5Yi2YT9Gcc4xS8qKE",
    "album_url": "https://open.spotify.com/album/2kB1Qqw3YOR9i3nbNxXWRs",
-   "plays": 1894
+   "plays": 1896
   },
   {
    "name": "Back In Black",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15767,
+   "plays": 15769,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1324,7 +1324,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273e0871bbaad013df7b7e56c2a",
      "url": "https://open.spotify.com/track/3byoK5Yi2YT9Gcc4xS8qKE",
      "album_url": "https://open.spotify.com/album/2kB1Qqw3YOR9i3nbNxXWRs",
-     "plays": 1894
+     "plays": 1896
     },
     {
      "name": "Rhyme or Reason",
