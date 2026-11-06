@@ -1,14 +1,36 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-06T20:10:06Z",
+ "generated": "2026-11-06T21:40:09Z",
  "totals": {
-  "plays": 124968,
-  "hours": 8495.6,
+  "plays": 124970,
+  "hours": 8495.7,
   "artists": 702,
   "albums": 1526,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Suicide Blonde",
+   "artist": "INXS",
+   "album": "X",
+   "year": 1990,
+   "image": "https://i.scdn.co/image/ab67616d00001e02232a7dbebc9249b8c2fc1b4c",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273232a7dbebc9249b8c2fc1b4c",
+   "url": "https://open.spotify.com/track/3DPyS3odFIWQ3E2IFqHEdG",
+   "album_url": "https://open.spotify.com/album/688l8IJXR4cmgGj0Ekl0DR",
+   "played_at": "2026-11-06T21:26:29.067Z"
+  },
+  {
+   "name": "Crumblin' Down",
+   "artist": "John Mellencamp",
+   "album": "Uh-HUH!",
+   "year": 1983,
+   "image": "https://i.scdn.co/image/ab67616d00001e02cd949894aa0df080ed50ff9b",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273cd949894aa0df080ed50ff9b",
+   "url": "https://open.spotify.com/track/4uqmzWlYa0eLKmbcHNgLej",
+   "album_url": "https://open.spotify.com/album/1p4YwrjrP7t6Rfb755yoTQ",
+   "played_at": "2026-11-06T21:22:36.591Z"
+  },
   {
    "name": "Brown Sugar",
    "artist": "The Rolling Stones",
@@ -514,28 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/5tVA6TkbaAH9QMITTQRrNv",
    "album_url": "https://open.spotify.com/album/5d71Imt5CIb7LpQwDMQ093",
    "played_at": "2026-11-05T19:15:13.780Z"
-  },
-  {
-   "name": "Time Passages",
-   "artist": "Al Stewart",
-   "album": "Time Passages",
-   "year": 1978,
-   "image": "https://i.scdn.co/image/ab67616d00001e0287cd60f090f08ec6f6051144",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27387cd60f090f08ec6f6051144",
-   "url": "https://open.spotify.com/track/5zVKisBri6JH1fooBhUaVq",
-   "album_url": "https://open.spotify.com/album/5moFY0K48zOBW37SsThYL0",
-   "played_at": "2026-11-05T19:10:57.281Z"
-  },
-  {
-   "name": "Let It All Go",
-   "artist": "Beats Antique, Preservation Hall Jazz Band",
-   "album": "Shadowbox",
-   "year": 2016,
-   "image": "https://i.scdn.co/image/ab67616d00001e0200a7c78579418967f80cbfb2",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27300a7c78579418967f80cbfb2",
-   "url": "https://open.spotify.com/track/5xDBeP7eDtTIh9xlWG1ZuZ",
-   "album_url": "https://open.spotify.com/album/4a9ZBC1e52r3z79P3MX6zn",
-   "played_at": "2026-11-05T19:04:13.743Z"
   }
  ],
  "top_artists": [
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32874,
+   "plays": 32875,
    "covers": [
     {
      "name": "Back In Black",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9707,
+   "plays": 9708,
    "covers": [
     {
      "name": "Amazing",
