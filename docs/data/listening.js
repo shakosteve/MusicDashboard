@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-06T12:10:05Z",
+ "generated": "2026-11-06T12:40:08Z",
  "totals": {
   "plays": 124941,
   "hours": 8493.7,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "It’s the War, Stupid? / Trump’s Next Steps in Iran",
+   "show": "WSJ Opinion: Potomac Watch",
+   "show_uri": "spotify:show:4sMCRFb3B4g9Ax3lDCOOTX",
+   "release_date": "2026-11-05",
+   "duration_ms": 1935046,
+   "image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97",
+   "first_seen": "2026-11-06T12:40:04Z",
+   "progress_ms": 264159,
+   "last_seen": "2026-11-06T12:40:04Z",
+   "url": "https://open.spotify.com/episode/3DEItItUBqFjZzFA8pmee9",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97"
+  },
+  {
    "name": "A Generational Win for Democrats Sends the GOP Reeling",
    "show": "WSJ Opinion: Potomac Watch",
    "show_uri": "spotify:show:4sMCRFb3B4g9Ax3lDCOOTX",
@@ -1631,19 +1644,6 @@ window.LISTENING = {
    "progress_ms": 3166152,
    "last_seen": "2026-11-03T14:10:05Z",
    "url": "https://open.spotify.com/episode/6mrYeLiCrFFjjVNEe2df3C",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
-  },
-  {
-   "name": "Classic #723: Would You Let Them Coach Your Team?",
-   "show": "The Adam and Dr. Drew Show",
-   "show_uri": "spotify:show:3VN4vP6TztxK3wtT8b9aQL",
-   "release_date": "2026-10-15",
-   "duration_ms": 1883219,
-   "image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b",
-   "first_seen": "2026-11-03T14:10:05Z",
-   "progress_ms": 80409,
-   "last_seen": "2026-11-03T14:10:05Z",
-   "url": "https://open.spotify.com/episode/2mAudvC0n6AyuWl542Wtj9",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
   }
  ],
