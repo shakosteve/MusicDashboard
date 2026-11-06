@@ -1,14 +1,58 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-06T15:40:05Z",
+ "generated": "2026-11-06T16:10:06Z",
  "totals": {
-  "plays": 124963,
-  "hours": 8495.3,
+  "plays": 124967,
+  "hours": 8495.5,
   "artists": 702,
   "albums": 1526,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "If She Knew What She Wants",
+   "artist": "The Bangles, Susanna Hoffs",
+   "album": "Different Light (Expanded Edition)",
+   "year": 1986,
+   "image": "https://i.scdn.co/image/ab67616d00001e024aaad3bb593721bcaa6827d6",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2734aaad3bb593721bcaa6827d6",
+   "url": "https://open.spotify.com/track/4Qr3jHjvmFN5iTSR1H9pw4",
+   "album_url": "https://open.spotify.com/album/7qEP3i0f0zfk6JUFW3SyeN",
+   "played_at": "2026-11-06T15:53:53.801Z"
+  },
+  {
+   "name": "Wildfire",
+   "artist": "The Warning",
+   "album": "XXI Century Blood",
+   "year": 2017,
+   "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
+   "url": "https://open.spotify.com/track/5z8BrKpxvNqcsSQKzwYODJ",
+   "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
+   "played_at": "2026-11-06T15:50:04.596Z"
+  },
+  {
+   "name": "Erotica",
+   "artist": "Madonna",
+   "album": "Erotica",
+   "year": 1992,
+   "image": "https://i.scdn.co/image/ab67616d00001e02bc3f5b9fac4dd2324757257c",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273bc3f5b9fac4dd2324757257c",
+   "url": "https://open.spotify.com/track/1eUBaizmRytNQuc55EyqWN",
+   "album_url": "https://open.spotify.com/album/0iK9cBzawSgH4iQcPiPpFD",
+   "played_at": "2026-11-06T15:46:31.934Z"
+  },
+  {
+   "name": "Fly Away",
+   "artist": "Lenny Kravitz",
+   "album": "5",
+   "year": 1998,
+   "image": "https://i.scdn.co/image/ab67616d00001e02f1157b7dcd21bae0c2c75d89",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273f1157b7dcd21bae0c2c75d89",
+   "url": "https://open.spotify.com/track/1OxcIUqVmVYxT6427tbhDW",
+   "album_url": "https://open.spotify.com/album/6MCNMOCRsh6nxs7PNzc0zN",
+   "played_at": "2026-11-06T15:41:57.595Z"
+  },
   {
    "name": "In the Air Tonight - 2015 Remaster",
    "artist": "Phil Collins",
@@ -492,56 +536,12 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/2IsuiHhWDj8ByvznN04v7S",
    "album_url": "https://open.spotify.com/album/1rWkxCNuPFzDRFANL8lLnG",
    "played_at": "2026-11-05T18:35:20.129Z"
-  },
-  {
-   "name": "Tick Of The Clock (Extended Overdrive)",
-   "artist": "Chromatics",
-   "album": "Tick Of The Clock",
-   "year": 2013,
-   "image": "https://i.scdn.co/image/ab67616d00001e02bb53c786a9aebe91240a8dce",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273bb53c786a9aebe91240a8dce",
-   "url": "https://open.spotify.com/track/0I2uIgFFNynFnH9PhUsiuz",
-   "album_url": "https://open.spotify.com/album/5whQsHpQHWMoNqLSut0o2a",
-   "played_at": "2026-11-05T18:31:04.435Z"
-  },
-  {
-   "name": "Two Princes",
-   "artist": "Spin Doctors",
-   "album": "Pocket Full Of Kryptonite (Anniversary Edition)",
-   "year": 1991,
-   "image": "https://i.scdn.co/image/ab67616d00001e0290126a3a12ad644fa6d3221c",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27390126a3a12ad644fa6d3221c",
-   "url": "https://open.spotify.com/track/0cuq829zRNq4AEdmDJA4aw",
-   "album_url": "https://open.spotify.com/album/3jx5C8Z66FwdjNkqsSDBQh",
-   "played_at": "2026-11-05T17:46:34.140Z"
-  },
-  {
-   "name": "Rhiannon",
-   "artist": "Fleetwood Mac",
-   "album": "Fleetwood Mac",
-   "year": 1975,
-   "image": "https://i.scdn.co/image/ab67616d00001e024fb043195e8d07e72edc7226",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2734fb043195e8d07e72edc7226",
-   "url": "https://open.spotify.com/track/05oETzWbd4SI33qK2gbJfR",
-   "album_url": "https://open.spotify.com/album/5VIQ3VaAoRKOEpJ0fewdvo",
-   "played_at": "2026-11-05T17:42:16.845Z"
-  },
-  {
-   "name": "Dirty Deeds",
-   "artist": "Joan Jett & the Blackhearts",
-   "album": "The Hit List",
-   "year": 1990,
-   "image": "https://i.scdn.co/image/ab67616d00001e024762653c281c71d8837d180b",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2734762653c281c71d8837d180b",
-   "url": "https://open.spotify.com/track/5EmjBlrR2TzVzyveICMllj",
-   "album_url": "https://open.spotify.com/album/2mIFpqxnoM71gHMBKlzZtM",
-   "played_at": "2026-11-05T17:38:03.552Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10678,
+   "plays": 10679,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
@@ -565,7 +565,7 @@ window.LISTENING = {
   },
   {
    "name": "Madonna",
-   "plays": 2106,
+   "plays": 2107,
    "url": "https://open.spotify.com/artist/6tbjWDEIzxoDsBA1FuhfPW",
    "image": "https://i.scdn.co/image/ab67616d00001e026b44fa8f5415cc4c945117be"
   },
@@ -610,7 +610,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
    "url": "https://open.spotify.com/track/1VcLiPmina1L3xlLkJ5OTS",
    "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
-   "plays": 3486
+   "plays": 3487
   },
   {
    "name": "Dust to Dust",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32873,
+   "plays": 32874,
    "covers": [
     {
      "name": "Back In Black",
@@ -1064,7 +1064,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2734aaad3bb593721bcaa6827d6",
      "url": "https://open.spotify.com/track/00vYs0qZA40Z8AAaN7xmMO",
      "album_url": "https://open.spotify.com/album/7qEP3i0f0zfk6JUFW3SyeN",
-     "plays": 696
+     "plays": 697
     },
     {
      "name": "Panama - 2015 Remaster",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9705,
+   "plays": 9707,
    "covers": [
     {
      "name": "Amazing",
@@ -1191,7 +1191,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273f1157b7dcd21bae0c2c75d89",
      "url": "https://open.spotify.com/track/1OxcIUqVmVYxT6427tbhDW",
      "album_url": "https://open.spotify.com/album/6MCNMOCRsh6nxs7PNzc0zN",
-     "plays": 420
+     "plays": 421
     },
     {
      "name": "Death Letter Blues",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15770,
+   "plays": 15771,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1313,7 +1313,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
      "url": "https://open.spotify.com/track/1VcLiPmina1L3xlLkJ5OTS",
      "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
-     "plays": 3486
+     "plays": 3487
     },
     {
      "name": "Dust to Dust",
