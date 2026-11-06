@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-06T13:10:05Z",
+ "generated": "2026-11-06T13:40:06Z",
  "totals": {
   "plays": 124941,
   "hours": 8493.7,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "#2111- LA Needs to Hit The Pavement & The Obama Speech That Ruined America | Part 1",
+   "show": "The Adam and Dr. Drew Show",
+   "show_uri": "spotify:show:3VN4vP6TztxK3wtT8b9aQL",
+   "release_date": "2026-11-04",
+   "duration_ms": 3177560,
+   "image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b",
+   "first_seen": "2026-11-06T13:40:02Z",
+   "progress_ms": 1550877,
+   "last_seen": "2026-11-06T13:40:02Z",
+   "url": "https://open.spotify.com/episode/1v01GZjc3lTnL6imzrUwhf",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
+  },
+  {
    "name": "It’s the War, Stupid? / Trump’s Next Steps in Iran",
    "show": "WSJ Opinion: Potomac Watch",
    "show_uri": "spotify:show:4sMCRFb3B4g9Ax3lDCOOTX",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-03T19:10:04Z",
    "url": "https://open.spotify.com/episode/3HsdDcOkMUE7XeYDN4eDdZ",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
-  },
-  {
-   "name": "#2110 - SHOCKING Health Secrets with Anna Vocino | Part 2",
-   "show": "The Adam and Dr. Drew Show",
-   "show_uri": "spotify:show:3VN4vP6TztxK3wtT8b9aQL",
-   "release_date": "2026-10-30",
-   "duration_ms": 3235761,
-   "image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b",
-   "first_seen": "2026-10-30T11:40:03Z",
-   "progress_ms": 3166152,
-   "last_seen": "2026-11-03T14:10:05Z",
-   "url": "https://open.spotify.com/episode/6mrYeLiCrFFjjVNEe2df3C",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
   }
  ],
  "top_shows": [
