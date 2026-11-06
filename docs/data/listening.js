@@ -1,14 +1,36 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-06T22:10:05Z",
+ "generated": "2026-11-06T22:40:05Z",
  "totals": {
-  "plays": 124972,
-  "hours": 8495.8,
+  "plays": 124974,
+  "hours": 8496.0,
   "artists": 702,
   "albums": 1526,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Hallelujah",
+   "artist": "Rufus Wainwright",
+   "album": "Shrek (Music From The Original Motion Picture)",
+   "year": 2001,
+   "image": "https://i.scdn.co/image/ab67616d00001e026608b12a4cbbb2ab179c7738",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2736608b12a4cbbb2ab179c7738",
+   "url": "https://open.spotify.com/track/5USZyz6dnBEn1oLsKcAKQy",
+   "album_url": "https://open.spotify.com/album/4fFn4t0JoZrNB3VY4HZ970",
+   "played_at": "2026-11-06T22:17:53.804Z"
+  },
+  {
+   "name": "Don't Stand So Close To Me",
+   "artist": "The Police",
+   "album": "Zenyatta Mondatta (Remastered 2003)",
+   "year": 1980,
+   "image": "https://i.scdn.co/image/ab67616d00001e02fb1bc65edf4717e75fbc70ab",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273fb1bc65edf4717e75fbc70ab",
+   "url": "https://open.spotify.com/track/5veJDT0MLsLbhYsx42GXUD",
+   "album_url": "https://open.spotify.com/album/23enz9nXJhH1BR1Rm5CzDJ",
+   "played_at": "2026-11-06T22:11:40.226Z"
+  },
   {
    "name": "Smooth (feat. Rob Thomas)",
    "artist": "Santana, Rob Thomas",
@@ -514,28 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/29HaKOpeLSYvqdFyEQSRdj",
    "album_url": "https://open.spotify.com/album/5bHkK1X4WEOzNvRhehvOcb",
    "played_at": "2026-11-05T22:17:22.722Z"
-  },
-  {
-   "name": "Linger - Remastered 2026",
-   "artist": "The Cranberries",
-   "album": "Everybody Else Is Doing It, So Why Can't We? (Remastered 2026)",
-   "year": 1993,
-   "image": "https://i.scdn.co/image/ab67616d00001e02753dbf92830094154a21b193",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273753dbf92830094154a21b193",
-   "url": "https://open.spotify.com/track/1WYrTfvKjQYaYfVziGG1ET",
-   "album_url": "https://open.spotify.com/album/4xIcI1EC3MoCNZWkhMjShN",
-   "played_at": "2026-11-05T19:27:45.876Z"
-  },
-  {
-   "name": "If She Knew What She Wants",
-   "artist": "The Bangles, Susanna Hoffs",
-   "album": "Different Light (Expanded Edition)",
-   "year": 1986,
-   "image": "https://i.scdn.co/image/ab67616d00001e024aaad3bb593721bcaa6827d6",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2734aaad3bb593721bcaa6827d6",
-   "url": "https://open.spotify.com/track/4Qr3jHjvmFN5iTSR1H9pw4",
-   "album_url": "https://open.spotify.com/album/7qEP3i0f0zfk6JUFW3SyeN",
-   "played_at": "2026-11-05T19:23:10.600Z"
   }
  ],
  "top_artists": [
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32875,
+   "plays": 32876,
    "covers": [
     {
      "name": "Back In Black",
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 11996,
+   "plays": 11997,
    "covers": [
     {
      "name": "Material Girl",
