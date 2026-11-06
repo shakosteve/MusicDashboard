@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-06T01:40:07Z",
+ "generated": "2026-11-06T02:40:05Z",
  "totals": {
-  "plays": 124938,
-  "hours": 8493.5,
+  "plays": 124940,
+  "hours": 8493.6,
   "artists": 702,
   "albums": 1526,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Long Tall Sally (The Thing)",
+   "artist": "Little Richard",
+   "album": "Here's Little Richard (Deluxe Edition)",
+   "year": 1957,
+   "image": "https://i.scdn.co/image/ab67616d00001e028a22827b01e5d68d3736d58b",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2738a22827b01e5d68d3736d58b",
+   "url": "https://open.spotify.com/track/507IFqPuG8mBQoKebfGG9t",
+   "album_url": "https://open.spotify.com/album/18tV6PLXYvVjsdOVk0S7M8",
+   "played_at": "2026-11-06T02:35:15.256Z"
+  },
   {
    "name": "The Rain Song - Remaster",
    "artist": "Led Zeppelin",
@@ -525,17 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/1ogO2Wj9qEMMjo7UDejvsh",
    "album_url": "https://open.spotify.com/album/552joC0kVpcbJm7LFLqGDm",
    "played_at": "2026-11-05T14:29:40.236Z"
-  },
-  {
-   "name": "With Or Without You",
-   "artist": "U2",
-   "album": "The Joshua Tree (Super Deluxe)",
-   "year": 1987,
-   "image": "https://i.scdn.co/image/ab67616d00001e02b7bea3d01f04e6d0408d2afe",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273b7bea3d01f04e6d0408d2afe",
-   "url": "https://open.spotify.com/track/6ADSaE87h8Y3lccZlBJdXH",
-   "album_url": "https://open.spotify.com/album/5y6wlw1LnqFnQFruMeiwGU",
-   "played_at": "2026-11-05T04:00:21.221Z"
   }
  ],
  "top_artists": [
@@ -771,7 +771,7 @@ window.LISTENING = {
   },
   {
    "decade": 1950,
-   "plays": 273,
+   "plays": 275,
    "covers": [
     {
      "name": "Come On, Let's Go",
@@ -793,7 +793,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2738a22827b01e5d68d3736d58b",
      "url": "https://open.spotify.com/track/507IFqPuG8mBQoKebfGG9t",
      "album_url": "https://open.spotify.com/album/18tV6PLXYvVjsdOVk0S7M8",
-     "plays": 51
+     "plays": 53
     },
     {
      "name": "Jackson (with June Carter Cash)",
