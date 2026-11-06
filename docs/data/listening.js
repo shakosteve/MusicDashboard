@@ -1,14 +1,58 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-06T22:40:05Z",
+ "generated": "2026-11-06T23:10:05Z",
  "totals": {
-  "plays": 124974,
-  "hours": 8496.0,
+  "plays": 124978,
+  "hours": 8496.3,
   "artists": 702,
   "albums": 1526,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Billie Jean",
+   "artist": "Michael Jackson",
+   "album": "Thriller 25 Super Deluxe Edition",
+   "year": 2008,
+   "image": "https://i.scdn.co/image/ab67616d00001e024121faee8df82c526cbab2be",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2734121faee8df82c526cbab2be",
+   "url": "https://open.spotify.com/track/5ChkMS8OtdzJeqyybCc9R5",
+   "album_url": "https://open.spotify.com/album/1C2h7mLntPSeVYciMRTF4a",
+   "played_at": "2026-11-06T23:09:35.832Z"
+  },
+  {
+   "name": "Unmendable",
+   "artist": "The Warning",
+   "album": "XXI Century Blood",
+   "year": 2017,
+   "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
+   "url": "https://open.spotify.com/track/3YPWoSTTdI97QeyjV9t68F",
+   "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
+   "played_at": "2026-11-06T23:04:41.477Z"
+  },
+  {
+   "name": "Over the Hills and Far Away - Remaster",
+   "artist": "Led Zeppelin",
+   "album": "Houses of the Holy (Remaster)",
+   "year": 1973,
+   "image": "https://i.scdn.co/image/ab67616d00001e021aa47e71c4edfeaddb65cd54",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2731aa47e71c4edfeaddb65cd54",
+   "url": "https://open.spotify.com/track/2eDdFHgqNJltzlvlZFVDWd",
+   "album_url": "https://open.spotify.com/album/0GqpoHJREPp0iuXK3HzrHk",
+   "played_at": "2026-11-06T23:01:04.259Z"
+  },
+  {
+   "name": "No More Tears",
+   "artist": "Ozzy Osbourne",
+   "album": "No More Tears (Expanded Edition)",
+   "year": 1991,
+   "image": "https://i.scdn.co/image/ab67616d00001e02509342e69eb341df70e5c2e3",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273509342e69eb341df70e5c2e3",
+   "url": "https://open.spotify.com/track/7w6PJe5KBPyvuRYxFkPssC",
+   "album_url": "https://open.spotify.com/album/6eh82ojicL8RSJF7GkYTh7",
+   "played_at": "2026-11-06T22:45:42.907Z"
+  },
   {
    "name": "Hallelujah",
    "artist": "Rufus Wainwright",
@@ -492,56 +536,12 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/3lPr8ghNDBLc2uZovNyLs9",
    "album_url": "https://open.spotify.com/album/0lw68yx3MhKflWFqCsGkIs",
    "played_at": "2026-11-05T23:00:18.496Z"
-  },
-  {
-   "name": "Six Feet Deep - Live from Auditorio Nacional, CDMX",
-   "artist": "The Warning",
-   "album": "Live from Auditorio Nacional, CDMX",
-   "year": 2025,
-   "image": "https://i.scdn.co/image/ab67616d00001e025cda6d880ec3968aa6b6ac2f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
-   "url": "https://open.spotify.com/track/54SyANvduVctJjUQAsQiGM",
-   "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
-   "played_at": "2026-11-05T22:37:26.465Z"
-  },
-  {
-   "name": "Wanted Dead Or Alive",
-   "artist": "Bon Jovi",
-   "album": "Slippery When Wet",
-   "year": 1986,
-   "image": "https://i.scdn.co/image/ab67616d00001e021336b31b6a1799f0de5807ac",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2731336b31b6a1799f0de5807ac",
-   "url": "https://open.spotify.com/track/0oerlffJSzhRVvtDfLcp3N",
-   "album_url": "https://open.spotify.com/album/0kBfgEilUFCMIQY5IOjG4t",
-   "played_at": "2026-11-05T22:34:24.088Z"
-  },
-  {
-   "name": "Hotel California - 2013 Remaster",
-   "artist": "Eagles",
-   "album": "Hotel California (2013 Remaster)",
-   "year": 1976,
-   "image": "https://i.scdn.co/image/ab67616d00001e024637341b9f507521afa9a778",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2734637341b9f507521afa9a778",
-   "url": "https://open.spotify.com/track/40riOy7x9W7GXjyGp4pjAv",
-   "album_url": "https://open.spotify.com/album/2widuo17g5CEC66IbzveRu",
-   "played_at": "2026-11-05T22:26:03.440Z"
-  },
-  {
-   "name": "Teach Your Children",
-   "artist": "Crosby, Stills, Nash & Young",
-   "album": "Deja Vu",
-   "year": 1970,
-   "image": "https://i.scdn.co/image/ab67616d00001e0206e00756085191abc01e4cf0",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27306e00756085191abc01e4cf0",
-   "url": "https://open.spotify.com/track/29HaKOpeLSYvqdFyEQSRdj",
-   "album_url": "https://open.spotify.com/album/5bHkK1X4WEOzNvRhehvOcb",
-   "played_at": "2026-11-05T22:17:22.722Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10679,
+   "plays": 10680,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
@@ -559,7 +559,7 @@ window.LISTENING = {
   },
   {
    "name": "Led Zeppelin",
-   "plays": 2301,
+   "plays": 2302,
    "url": "https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp",
    "image": "https://i.scdn.co/image/ab67616d00001e02c8a11e48c91a982d086afc69"
   },
@@ -610,7 +610,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
    "url": "https://open.spotify.com/track/1VcLiPmina1L3xlLkJ5OTS",
    "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
-   "plays": 3487
+   "plays": 3488
   },
   {
    "name": "Dust to Dust",
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28664,
+   "plays": 28665,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9709,
+   "plays": 9710,
    "covers": [
     {
      "name": "Amazing",
@@ -1136,7 +1136,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273509342e69eb341df70e5c2e3",
      "url": "https://open.spotify.com/track/0S3gpZzlT9Hb7CCSV2owX7",
      "album_url": "https://open.spotify.com/album/6eh82ojicL8RSJF7GkYTh7",
-     "plays": 530
+     "plays": 531
     },
     {
      "name": "Janie's Got A Gun",
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 11997,
+   "plays": 11998,
    "covers": [
     {
      "name": "Material Girl",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15771,
+   "plays": 15772,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1313,7 +1313,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
      "url": "https://open.spotify.com/track/1VcLiPmina1L3xlLkJ5OTS",
      "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
-     "plays": 3487
+     "plays": 3488
     },
     {
      "name": "Dust to Dust",
