@@ -1,14 +1,91 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-06T14:10:06Z",
+ "generated": "2026-11-06T14:40:05Z",
  "totals": {
-  "plays": 124942,
-  "hours": 8493.7,
+  "plays": 124949,
+  "hours": 8494.3,
   "artists": 702,
   "albums": 1526,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Dany’s Guitar Solo - Live from Auditorio Nacional, CDMX",
+   "artist": "The Warning",
+   "album": "Live from Auditorio Nacional, CDMX",
+   "year": 2025,
+   "image": "https://i.scdn.co/image/ab67616d00001e025cda6d880ec3968aa6b6ac2f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
+   "url": "https://open.spotify.com/track/7buuAwgtMcwqZTUYSqGNDK",
+   "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
+   "played_at": "2026-11-06T14:38:21.504Z"
+  },
+  {
+   "name": "Folsom Prison Blues",
+   "artist": "Joaquin Phoenix",
+   "album": "Walk The Line (Original Motion Picture Soundtrack)",
+   "year": 2005,
+   "image": "https://i.scdn.co/image/ab67616d00001e020ff166bfd4a462cc7f4068a6",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2730ff166bfd4a462cc7f4068a6",
+   "url": "https://open.spotify.com/track/7bh6o0jqTn2Bh0M7vHln6f",
+   "album_url": "https://open.spotify.com/album/6ICcWbsZxt5fVG02IbZuZg",
+   "played_at": "2026-11-06T14:34:07.094Z"
+  },
+  {
+   "name": "Gettin' Jiggy Wit It",
+   "artist": "Will Smith",
+   "album": "Big Willie Style",
+   "year": 1997,
+   "image": "https://i.scdn.co/image/ab67616d00001e02ddf2f9edabd166c60047e3c4",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273ddf2f9edabd166c60047e3c4",
+   "url": "https://open.spotify.com/track/0weAUscowxeqDtpCgtbpgp",
+   "album_url": "https://open.spotify.com/album/2esWeP8Ln1sXA0jbDmi3Zq",
+   "played_at": "2026-11-06T14:31:14.367Z"
+  },
+  {
+   "name": "Tall Cool One - 2006 Remaster",
+   "artist": "Robert Plant",
+   "album": "Now and Zen",
+   "year": 2007,
+   "image": "https://i.scdn.co/image/ab67616d00001e02237101c710f6d7155dbf6c0f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273237101c710f6d7155dbf6c0f",
+   "url": "https://open.spotify.com/track/6vejDalRlBqPrr7s3iwi9U",
+   "album_url": "https://open.spotify.com/album/7MwPi2NpS2OoZ8K1h5tmXV",
+   "played_at": "2026-11-06T14:27:25.945Z"
+  },
+  {
+   "name": "Only Love Can Save Me Now [Feat. Matt Cameron & Kim Thayil]",
+   "artist": "The Pretty Reckless, Matt Cameron, Kim Thayil",
+   "album": "Death By Rock And Roll",
+   "year": 2021,
+   "image": "https://i.scdn.co/image/ab67616d00001e02a8045b6cc934e134e99eddd6",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273a8045b6cc934e134e99eddd6",
+   "url": "https://open.spotify.com/track/4jXoiJSLQkAft0L5D1yjDb",
+   "album_url": "https://open.spotify.com/album/2ysgEIHY4aOMMbbu0uV6ey",
+   "played_at": "2026-11-06T14:22:46.988Z"
+  },
+  {
+   "name": "Consequences",
+   "artist": "Jackie Evancho",
+   "album": "Consequences",
+   "year": 2023,
+   "image": "https://i.scdn.co/image/ab67616d00001e022c07b9d7e43650e02d3b4e4a",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2732c07b9d7e43650e02d3b4e4a",
+   "url": "https://open.spotify.com/track/7B7SdxrXwUkIprHAnmADv1",
+   "album_url": "https://open.spotify.com/album/32lWTQ1vmZdNzzDkCE26t4",
+   "played_at": "2026-11-06T14:17:34.400Z"
+  },
+  {
+   "name": "Bohemian Rhapsody",
+   "artist": "Queen",
+   "album": "A Night At The Opera",
+   "year": 1975,
+   "image": "https://i.scdn.co/image/ab67616d00001e02fdab4a163ab9f6db72c952ee",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273fdab4a163ab9f6db72c952ee",
+   "url": "https://open.spotify.com/track/2JiDi0qAXsPwhPqA2qaKGt",
+   "album_url": "https://open.spotify.com/album/1TkbyIkf6GSrO5e7gWS4AM",
+   "played_at": "2026-11-06T14:13:34.597Z"
+  },
   {
    "name": "Sharp Dressed Man (2008 Remaster)",
    "artist": "ZZ Top",
@@ -459,89 +536,12 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/4vDBJeeQCbhP9FaPPMsYkY",
    "album_url": "https://open.spotify.com/album/3XsOzkIBoHsxZ7jP3QF2oB",
    "played_at": "2026-11-05T15:06:30.372Z"
-  },
-  {
-   "name": "Oh Well feat. Chris Stapleton",
-   "artist": "Slash, Chris Stapleton",
-   "album": "Oh Well feat. Chris Stapleton",
-   "year": 2024,
-   "image": "https://i.scdn.co/image/ab67616d00001e02a288a30f4133154538ea5d3d",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273a288a30f4133154538ea5d3d",
-   "url": "https://open.spotify.com/track/6xvriZfsi9MZ8TAE2wqY2z",
-   "album_url": "https://open.spotify.com/album/0Rl9omLw3rdkK7OiSnHGAG",
-   "played_at": "2026-11-05T15:02:01.571Z"
-  },
-  {
-   "name": "Fade Away",
-   "artist": "The Warning",
-   "album": "ESCAPE THE MIND",
-   "year": 2015,
-   "image": "https://i.scdn.co/image/ab67616d00001e02ebd25082bf514bd05cc4cfd2",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273ebd25082bf514bd05cc4cfd2",
-   "url": "https://open.spotify.com/track/5tn18hld9Kj4H4fuLJ2Wck",
-   "album_url": "https://open.spotify.com/album/0Zj4AvZpKzStGARIOkoDS5",
-   "played_at": "2026-11-05T14:57:27.549Z"
-  },
-  {
-   "name": "Paranoid - 2012 - Remaster",
-   "artist": "Black Sabbath",
-   "album": "Paranoid (Remaster)",
-   "year": 1970,
-   "image": "https://i.scdn.co/image/ab67616d00001e02d5fccf9ce08b6a1e7d12a222",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273d5fccf9ce08b6a1e7d12a222",
-   "url": "https://open.spotify.com/track/1Y373MqadDRtclJNdnUXVc",
-   "album_url": "https://open.spotify.com/album/6r7LZXAVueS5DqdrvXJJK7",
-   "played_at": "2026-11-05T14:54:07.203Z"
-  },
-  {
-   "name": "Wildfire",
-   "artist": "The Warning",
-   "album": "XXI Century Blood",
-   "year": 2017,
-   "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
-   "url": "https://open.spotify.com/track/5z8BrKpxvNqcsSQKzwYODJ",
-   "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
-   "played_at": "2026-11-05T14:51:18.330Z"
-  },
-  {
-   "name": "Take It Easy - 2013 Remaster",
-   "artist": "Eagles",
-   "album": "Eagles (2013 Remaster)",
-   "year": 1972,
-   "image": "https://i.scdn.co/image/ab67616d00001e02c13acd642ba9f6f5f127aa1b",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273c13acd642ba9f6f5f127aa1b",
-   "url": "https://open.spotify.com/track/4yugZvBYaoREkJKtbG08Qr",
-   "album_url": "https://open.spotify.com/album/51B7LbLWgYLKBVSpkan8Z7",
-   "played_at": "2026-11-05T14:47:45.482Z"
-  },
-  {
-   "name": "Umai",
-   "artist": "Shireen",
-   "album": "Matriarch",
-   "year": 2017,
-   "image": "https://i.scdn.co/image/ab67616d00001e022855aaa0eefc3e6586a46d5f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2732855aaa0eefc3e6586a46d5f",
-   "url": "https://open.spotify.com/track/3C821qtpWKmA0acEYMjXLQ",
-   "album_url": "https://open.spotify.com/album/4ENwBjtTvOOWfl0hrbVAyD",
-   "played_at": "2026-11-05T14:44:13.454Z"
-  },
-  {
-   "name": "Turning Back the Time",
-   "artist": "Foreigner",
-   "album": "Turning Back the Time",
-   "year": 2024,
-   "image": "https://i.scdn.co/image/ab67616d00001e026d2fda7a23fa14e019a60b46",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2736d2fda7a23fa14e019a60b46",
-   "url": "https://open.spotify.com/track/0OULlj9KLRXrQCIpF6Y2MB",
-   "album_url": "https://open.spotify.com/album/0OJ57wFQe0A7cGS1RrHyVv",
-   "played_at": "2026-11-05T14:37:53.958Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10676,
+   "plays": 10677,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
@@ -589,7 +589,7 @@ window.LISTENING = {
   },
   {
    "name": "Queen",
-   "plays": 1915,
+   "plays": 1916,
    "url": "https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d",
    "image": "https://i.scdn.co/image/ab67616d00001e0207744e2ed983efa3e6620a47"
   },
@@ -723,15 +723,15 @@ window.LISTENING = {
    "plays": 911
   },
   {
-   "name": "My Kinda Lover - Remastered 2010",
-   "artist": "Billy Squier",
-   "album": "Don't Say No (Remastered 2010)",
-   "year": 1981,
-   "image": "https://i.scdn.co/image/ab67616d00001e02f4822f8034e697410a14a297",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273f4822f8034e697410a14a297",
-   "url": "https://open.spotify.com/track/6g14FUj5zU9FDRwBi963vS",
-   "album_url": "https://open.spotify.com/album/6TwlLNU5Zd9qGuNgSLeWPt",
-   "plays": 883
+   "name": "Folsom Prison Blues",
+   "artist": "Joaquin Phoenix",
+   "album": "Walk The Line (Original Motion Picture Soundtrack)",
+   "year": 2005,
+   "image": "https://i.scdn.co/image/ab67616d00001e020ff166bfd4a462cc7f4068a6",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2730ff166bfd4a462cc7f4068a6",
+   "url": "https://open.spotify.com/track/7bh6o0jqTn2Bh0M7vHln6f",
+   "album_url": "https://open.spotify.com/album/6ICcWbsZxt5fVG02IbZuZg",
+   "plays": 884
   }
  ],
  "decades": [
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28657,
+   "plays": 28658,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9704,
+   "plays": 9705,
    "covers": [
     {
      "name": "Amazing",
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 11994,
+   "plays": 11996,
    "covers": [
     {
      "name": "Material Girl",
@@ -1230,7 +1230,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2730ff166bfd4a462cc7f4068a6",
      "url": "https://open.spotify.com/track/7bh6o0jqTn2Bh0M7vHln6f",
      "album_url": "https://open.spotify.com/album/6ICcWbsZxt5fVG02IbZuZg",
-     "plays": 883
+     "plays": 884
     },
     {
      "name": "My Immortal",
@@ -1263,7 +1263,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273237101c710f6d7155dbf6c0f",
      "url": "https://open.spotify.com/track/6vejDalRlBqPrr7s3iwi9U",
      "album_url": "https://open.spotify.com/album/7MwPi2NpS2OoZ8K1h5tmXV",
-     "plays": 255
+     "plays": 256
     },
     {
      "name": "Don't Know Why",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18615,
+   "plays": 18618,
    "covers": [
     {
      "name": "ERROR",
@@ -1440,7 +1440,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
      "url": "https://open.spotify.com/track/3zgbw0cxkS1DQ36O5hGydt",
      "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
-     "plays": 480
+     "plays": 481
     },
     {
      "name": "Shot In The Dark",
@@ -1491,17 +1491,17 @@ window.LISTENING = {
  ],
  "episodes": [
   {
-   "name": "#2111- LA Needs to Hit The Pavement & The Obama Speech That Ruined America | Part 1",
-   "show": "The Adam and Dr. Drew Show",
-   "show_uri": "spotify:show:3VN4vP6TztxK3wtT8b9aQL",
+   "name": "A Generational Win for Democrats Sends the GOP Reeling",
+   "show": "WSJ Opinion: Potomac Watch",
+   "show_uri": "spotify:show:4sMCRFb3B4g9Ax3lDCOOTX",
    "release_date": "2026-11-04",
-   "duration_ms": 3177560,
-   "image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b",
-   "first_seen": "2026-11-06T13:40:02Z",
-   "progress_ms": 1550877,
-   "last_seen": "2026-11-06T13:40:02Z",
-   "url": "https://open.spotify.com/episode/1v01GZjc3lTnL6imzrUwhf",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
+   "duration_ms": 1862034,
+   "image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97",
+   "first_seen": "2026-11-06T12:10:02Z",
+   "progress_ms": 1862034,
+   "last_seen": "2026-11-06T14:40:02Z",
+   "url": "https://open.spotify.com/episode/12gS9UyfXA5iTMs2BEqLpN",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97"
   },
   {
    "name": "It’s the War, Stupid? / Trump’s Next Steps in Iran",
@@ -1511,23 +1511,23 @@ window.LISTENING = {
    "duration_ms": 1935046,
    "image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97",
    "first_seen": "2026-11-06T12:40:04Z",
-   "progress_ms": 1776028,
-   "last_seen": "2026-11-06T13:10:02Z",
+   "progress_ms": 1935046,
+   "last_seen": "2026-11-06T14:40:02Z",
    "url": "https://open.spotify.com/episode/3DEItItUBqFjZzFA8pmee9",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97"
   },
   {
-   "name": "A Generational Win for Democrats Sends the GOP Reeling",
-   "show": "WSJ Opinion: Potomac Watch",
-   "show_uri": "spotify:show:4sMCRFb3B4g9Ax3lDCOOTX",
+   "name": "#2111- LA Needs to Hit The Pavement & The Obama Speech That Ruined America | Part 1",
+   "show": "The Adam and Dr. Drew Show",
+   "show_uri": "spotify:show:3VN4vP6TztxK3wtT8b9aQL",
    "release_date": "2026-11-04",
-   "duration_ms": 1862034,
-   "image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97",
-   "first_seen": "2026-11-06T12:10:02Z",
-   "progress_ms": 324418,
-   "last_seen": "2026-11-06T12:10:02Z",
-   "url": "https://open.spotify.com/episode/12gS9UyfXA5iTMs2BEqLpN",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97"
+   "duration_ms": 3177560,
+   "image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b",
+   "first_seen": "2026-11-06T13:40:02Z",
+   "progress_ms": 2939920,
+   "last_seen": "2026-11-06T14:40:02Z",
+   "url": "https://open.spotify.com/episode/1v01GZjc3lTnL6imzrUwhf",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
   },
   {
    "name": "Blake J. Harris: Larry David Was My Hero Before And After Writing His Book",
