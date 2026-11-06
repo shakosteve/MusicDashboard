@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-06T16:10:06Z",
+ "generated": "2026-11-06T18:40:06Z",
  "totals": {
-  "plays": 124967,
-  "hours": 8495.5,
+  "plays": 124968,
+  "hours": 8495.6,
   "artists": 702,
   "albums": 1526,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Brown Sugar",
+   "artist": "The Rolling Stones",
+   "album": "Hot Rocks 1964-1971",
+   "year": 1971,
+   "image": "https://i.scdn.co/image/ab67616d00001e02b11b3fc3c89477a7dd473bd7",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273b11b3fc3c89477a7dd473bd7",
+   "url": "https://open.spotify.com/track/34K7nU8EWQIRI93RfqhdRJ",
+   "album_url": "https://open.spotify.com/album/0aqZJlugIkTUWW1sa4BANp",
+   "played_at": "2026-11-06T16:15:55.325Z"
+  },
   {
    "name": "If She Knew What She Wants",
    "artist": "The Bangles, Susanna Hoffs",
@@ -525,17 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/5xDBeP7eDtTIh9xlWG1ZuZ",
    "album_url": "https://open.spotify.com/album/4a9ZBC1e52r3z79P3MX6zn",
    "played_at": "2026-11-05T19:04:13.743Z"
-  },
-  {
-   "name": "My Way, Soon",
-   "artist": "Greta Van Fleet",
-   "album": "Broken Bells",
-   "year": 2021,
-   "image": "https://i.scdn.co/image/ab67616d00001e029163a72affa104f29fc576fb",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2739163a72affa104f29fc576fb",
-   "url": "https://open.spotify.com/track/2IsuiHhWDj8ByvznN04v7S",
-   "album_url": "https://open.spotify.com/album/1rWkxCNuPFzDRFANL8lLnG",
-   "played_at": "2026-11-05T18:35:20.129Z"
   }
  ],
  "top_artists": [
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28662,
+   "plays": 28663,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Vance revolts over Iran war. Will Israel go it alone?",
+   "show": "Iran: The Latest",
+   "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
+   "release_date": "2026-11-05",
+   "duration_ms": 2717492,
+   "image": "https://i.scdn.co/image/ab67656300005f1f9a1edb1e2710e431e7c6c008",
+   "first_seen": "2026-11-06T18:40:02Z",
+   "progress_ms": 940340,
+   "last_seen": "2026-11-06T18:40:02Z",
+   "url": "https://open.spotify.com/episode/11PhEfzuu8yOB45HCvqu5B",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
+  },
+  {
    "name": "A Generational Win for Democrats Sends the GOP Reeling",
    "show": "WSJ Opinion: Potomac Watch",
    "show_uri": "spotify:show:4sMCRFb3B4g9Ax3lDCOOTX",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-03T21:10:03Z",
    "url": "https://open.spotify.com/episode/54QYWTMQloySMidylP1VaD",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f889a0a13b01115497f3a866f"
-  },
-  {
-   "name": "Danica McKellar: Finding God Cured My Anxiety",
-   "show": "Adam Carolla Show",
-   "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
-   "release_date": "2026-11-03",
-   "duration_ms": 6423536,
-   "image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f",
-   "first_seen": "2026-11-03T13:10:03Z",
-   "progress_ms": 6415335,
-   "last_seen": "2026-11-03T19:10:04Z",
-   "url": "https://open.spotify.com/episode/3HsdDcOkMUE7XeYDN4eDdZ",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
   }
  ],
  "top_shows": [
