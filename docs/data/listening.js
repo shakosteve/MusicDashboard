@@ -1,14 +1,80 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-06T01:10:06Z",
+ "generated": "2026-11-06T01:40:07Z",
  "totals": {
-  "plays": 124932,
-  "hours": 8493.1,
+  "plays": 124938,
+  "hours": 8493.5,
   "artists": 702,
-  "albums": 1525,
+  "albums": 1526,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "The Rain Song - Remaster",
+   "artist": "Led Zeppelin",
+   "album": "Houses of the Holy (Remaster)",
+   "year": 1973,
+   "image": "https://i.scdn.co/image/ab67616d00001e021aa47e71c4edfeaddb65cd54",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2731aa47e71c4edfeaddb65cd54",
+   "url": "https://open.spotify.com/track/3JLrri1xSCui3bzITDJbkk",
+   "album_url": "https://open.spotify.com/album/0GqpoHJREPp0iuXK3HzrHk",
+   "played_at": "2026-11-06T01:33:35.980Z"
+  },
+  {
+   "name": "Son of a Preacher Man",
+   "artist": "Dusty Springfield",
+   "album": "Dusty In Memphis [Deluxe Edition]",
+   "year": 1969,
+   "image": "https://i.scdn.co/image/ab67616d00001e025aaa2395bb5c2016c1e2f6f0",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2735aaa2395bb5c2016c1e2f6f0",
+   "url": "https://open.spotify.com/track/7odHgoLFi3GQ90E9PeraI3",
+   "album_url": "https://open.spotify.com/album/6SNMenG3NjZyqgI5p4Hcmg",
+   "played_at": "2026-11-06T01:25:56.464Z"
+  },
+  {
+   "name": "Automatic Sun - Live from Auditorio Nacional, CDMX",
+   "artist": "The Warning",
+   "album": "Qué Más Quieres / Sharks / Automatic Sun (Live from Auditorio Nacional, CDMX)",
+   "year": 2025,
+   "image": "https://i.scdn.co/image/ab67616d00001e02e6d30343fb059f0b62c38fb3",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273e6d30343fb059f0b62c38fb3",
+   "url": "https://open.spotify.com/track/52Rhi563GFryRxSuxdBtyy",
+   "album_url": "https://open.spotify.com/album/4YKEYnqb55Gw4g8uMHMKSo",
+   "played_at": "2026-11-06T01:23:26.671Z"
+  },
+  {
+   "name": "Leaky Little Boat",
+   "artist": "Roger Clyne & The Peacemakers",
+   "album": "Americano",
+   "year": 2004,
+   "image": "https://i.scdn.co/image/ab67616d00001e022b6b176f0dcb55badc2c9458",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2732b6b176f0dcb55badc2c9458",
+   "url": "https://open.spotify.com/track/1aStydRWaPMzwjxi5GAnkO",
+   "album_url": "https://open.spotify.com/album/1jbnwCuyLW2PHExqaZpGRJ",
+   "played_at": "2026-11-06T01:19:33.688Z"
+  },
+  {
+   "name": "Tom Sawyer",
+   "artist": "Rush",
+   "album": "Moving Pictures (2011 Remaster)",
+   "year": 1981,
+   "image": "https://i.scdn.co/image/ab67616d00001e0272833c1ae3343cbfb4617073",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27372833c1ae3343cbfb4617073",
+   "url": "https://open.spotify.com/track/3QZ7uX97s82HFYSmQUAN1D",
+   "album_url": "https://open.spotify.com/album/2xg7iIKoSqaDNpDbJnyCjY",
+   "played_at": "2026-11-06T01:15:02.597Z"
+  },
+  {
+   "name": "Time in a Bottle",
+   "artist": "Jim Croce",
+   "album": "You Don't Mess Around With Jim",
+   "year": 1972,
+   "image": "https://i.scdn.co/image/ab67616d00001e025b7a6cabbcb9fe150966563c",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2735b7a6cabbcb9fe150966563c",
+   "url": "https://open.spotify.com/track/7uWFUpGuEfmxYeymkV95jn",
+   "album_url": "https://open.spotify.com/album/0dZaHQ0OJlIyVrEuvnXmS9",
+   "played_at": "2026-11-06T01:10:25.173Z"
+  },
   {
    "name": "Ugh",
    "artist": "The Warning",
@@ -470,78 +536,12 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/6ADSaE87h8Y3lccZlBJdXH",
    "album_url": "https://open.spotify.com/album/5y6wlw1LnqFnQFruMeiwGU",
    "played_at": "2026-11-05T04:00:21.221Z"
-  },
-  {
-   "name": "Gettin' Jiggy Wit It",
-   "artist": "Will Smith",
-   "album": "Big Willie Style",
-   "year": 1997,
-   "image": "https://i.scdn.co/image/ab67616d00001e02ddf2f9edabd166c60047e3c4",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273ddf2f9edabd166c60047e3c4",
-   "url": "https://open.spotify.com/track/0weAUscowxeqDtpCgtbpgp",
-   "album_url": "https://open.spotify.com/album/2esWeP8Ln1sXA0jbDmi3Zq",
-   "played_at": "2026-11-05T03:36:48.060Z"
-  },
-  {
-   "name": "Bad Company - 2015 Remaster",
-   "artist": "Bad Company",
-   "album": "Bad Company (Deluxe)",
-   "year": 1974,
-   "image": "https://i.scdn.co/image/ab67616d00001e029adafd7f9d57380d1d0373af",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2739adafd7f9d57380d1d0373af",
-   "url": "https://open.spotify.com/track/36vTL8WP4ZoD1bbUaW0V3E",
-   "album_url": "https://open.spotify.com/album/4fuDpBLCt9ChDlqw48bj7p",
-   "played_at": "2026-11-05T03:32:59.667Z"
-  },
-  {
-   "name": "The Grand Illusion",
-   "artist": "Styx",
-   "album": "The Grand Illusion",
-   "year": 1977,
-   "image": "https://i.scdn.co/image/ab67616d00001e0288f0f719259b0dec23a7c367",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27388f0f719259b0dec23a7c367",
-   "url": "https://open.spotify.com/track/0FFdCFGfmtqVaHTBYXybkx",
-   "album_url": "https://open.spotify.com/album/6MFIBPVrZjHjP0pPkVF3IU",
-   "played_at": "2026-11-05T03:28:11.142Z"
-  },
-  {
-   "name": "All Too Well (10 Minute Version) (Taylor's Version) (From The Vault)",
-   "artist": "Taylor Swift",
-   "album": "Red (Taylor's Version)",
-   "year": 2021,
-   "image": "https://i.scdn.co/image/ab67616d00001e02318443aab3531a0558e79a4d",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273318443aab3531a0558e79a4d",
-   "url": "https://open.spotify.com/track/5enxwA8aAbwZbf5qCHORXi",
-   "album_url": "https://open.spotify.com/album/6kZ42qRrzov54LcAk4onW9",
-   "played_at": "2026-11-05T00:46:47.250Z"
-  },
-  {
-   "name": "Sundown",
-   "artist": "Gordon Lightfoot",
-   "album": "Sundown",
-   "year": 1974,
-   "image": "https://i.scdn.co/image/ab67616d00001e028f2b3a1c0559ca6188de574b",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2738f2b3a1c0559ca6188de574b",
-   "url": "https://open.spotify.com/track/0SjnBEHZVXgCKvOrpvzL2k",
-   "album_url": "https://open.spotify.com/album/2IPD9EcNjUmsHvqULDMU9Y",
-   "played_at": "2026-11-05T00:36:35.243Z"
-  },
-  {
-   "name": "Cradle Of Love",
-   "artist": "Billy Idol",
-   "album": "Charmed Life",
-   "year": 1990,
-   "image": "https://i.scdn.co/image/ab67616d00001e029290a5f1a7e0e3e9ddb11073",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2739290a5f1a7e0e3e9ddb11073",
-   "url": "https://open.spotify.com/track/5TSANSqPTD6nBG0NSJWmVB",
-   "album_url": "https://open.spotify.com/album/4GCciwt8efweJZ4AEEvnTQ",
-   "played_at": "2026-11-05T00:33:01.242Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10675,
+   "plays": 10676,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
@@ -559,7 +559,7 @@ window.LISTENING = {
   },
   {
    "name": "Led Zeppelin",
-   "plays": 2300,
+   "plays": 2301,
    "url": "https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp",
    "image": "https://i.scdn.co/image/ab67616d00001e02c8a11e48c91a982d086afc69"
   },
@@ -832,7 +832,7 @@ window.LISTENING = {
   },
   {
    "decade": 1960,
-   "plays": 7055,
+   "plays": 7056,
    "covers": [
     {
      "name": "Your Time Is Gonna Come - 1990 Remaster",
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28654,
+   "plays": 28656,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32866,
+   "plays": 32867,
    "covers": [
     {
      "name": "Back In Black",
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 11993,
+   "plays": 11994,
    "covers": [
     {
      "name": "Material Girl",
@@ -1252,7 +1252,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2732b6b176f0dcb55badc2c9458",
      "url": "https://open.spotify.com/track/19sVCFHM39UPba8BagNqW4",
      "album_url": "https://open.spotify.com/album/1jbnwCuyLW2PHExqaZpGRJ",
-     "plays": 537
+     "plays": 538
     },
     {
      "name": "Tall Cool One - 2006 Remaster",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18614,
+   "plays": 18615,
    "covers": [
     {
      "name": "ERROR",
