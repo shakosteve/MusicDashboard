@@ -1,14 +1,80 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-07T03:40:05Z",
+ "generated": "2026-11-07T04:10:04Z",
  "totals": {
-  "plays": 124995,
-  "hours": 8497.5,
+  "plays": 125001,
+  "hours": 8497.9,
   "artists": 702,
   "albums": 1526,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Sorry About Your Penis",
+   "artist": "Smash Mouth",
+   "album": "Fush Yu Mang (20th Anniversary Edition)",
+   "year": 1997,
+   "image": "https://i.scdn.co/image/ab67616d00001e0266ec7d795b727cd90bd09690",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27366ec7d795b727cd90bd09690",
+   "url": "https://open.spotify.com/track/7csvkxEkiuRbAfE6XhDPUC",
+   "album_url": "https://open.spotify.com/album/1CsztoJYGwGURMCppulrOt",
+   "played_at": "2026-11-07T04:01:25.568Z"
+  },
+  {
+   "name": "Walk This Way",
+   "artist": "Aerosmith",
+   "album": "Toys In The Attic",
+   "year": 1975,
+   "image": "https://i.scdn.co/image/ab67616d00001e028cffbbb7fe8645a486a85ea9",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2738cffbbb7fe8645a486a85ea9",
+   "url": "https://open.spotify.com/track/4JfuiOWlWCkjP6OKurHjSn",
+   "album_url": "https://open.spotify.com/album/6As5aOEQjfxLIChIB3fQRD",
+   "played_at": "2026-11-07T03:58:28.122Z"
+  },
+  {
+   "name": "Bring It on Home - Remaster",
+   "artist": "Led Zeppelin",
+   "album": "Led Zeppelin II (Remaster)",
+   "year": 1969,
+   "image": "https://i.scdn.co/image/ab67616d00001e02f396ea414b735ef23e2ed1a9",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273f396ea414b735ef23e2ed1a9",
+   "url": "https://open.spotify.com/track/1rxD34LAtkafrMUHqHIV76",
+   "album_url": "https://open.spotify.com/album/58MQ0PLijVHePUonQlK76Y",
+   "played_at": "2026-11-07T03:54:47.200Z"
+  },
+  {
+   "name": "Under African Skies",
+   "artist": "Paul Simon",
+   "album": "Graceland (25th Anniversary Deluxe Edition)",
+   "year": 1986,
+   "image": "https://i.scdn.co/image/ab67616d00001e02e5855edffddef46b7feff49b",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273e5855edffddef46b7feff49b",
+   "url": "https://open.spotify.com/track/40ZTTezGy5R2Led0sO0kn6",
+   "album_url": "https://open.spotify.com/album/6WgGWYw6XXQyLTsWt7tXky",
+   "played_at": "2026-11-07T03:50:26.937Z"
+  },
+  {
+   "name": "Weatherman",
+   "artist": "Saving Escape",
+   "album": "Old Soul",
+   "year": 2019,
+   "image": "https://i.scdn.co/image/ab67616d00001e02a8e9a07f9110e842adaa5c13",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273a8e9a07f9110e842adaa5c13",
+   "url": "https://open.spotify.com/track/0ZyPLbtDjjCG9Sieby9WM2",
+   "album_url": "https://open.spotify.com/album/7MTe3RHk7fkzS75PNoWfRN",
+   "played_at": "2026-11-07T03:46:49.291Z"
+  },
+  {
+   "name": "All That She Wants",
+   "artist": "Ace of Base",
+   "album": "The Sign",
+   "year": 1993,
+   "image": "https://i.scdn.co/image/ab67616d00001e02fda5556cb6981c3113df6175",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273fda5556cb6981c3113df6175",
+   "url": "https://open.spotify.com/track/6kWJvPfC4DgUpRsXKNa9z9",
+   "album_url": "https://open.spotify.com/album/5UwIyIyFzkM7wKeGtRJPgB",
+   "played_at": "2026-11-07T03:42:13.441Z"
+  },
   {
    "name": "American Girl",
    "artist": "Tom Petty and the Heartbreakers",
@@ -470,72 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/6WXnv6IZK6ogP6ZJnmQbwr",
    "album_url": "https://open.spotify.com/album/3xhloSIytfKpvaWWrMHjOs",
    "played_at": "2026-11-06T15:02:20.605Z"
-  },
-  {
-   "name": "Fast Car",
-   "artist": "Tracy Chapman",
-   "album": "Tracy Chapman",
-   "year": 1988,
-   "image": "https://i.scdn.co/image/ab67616d00001e0290b8a540137ee2a718a369f9",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27390b8a540137ee2a718a369f9",
-   "url": "https://open.spotify.com/track/2M9ro2krNb7nr7HSprkEgo",
-   "album_url": "https://open.spotify.com/album/6hmmX5UP4rIvOpGSaPerV8",
-   "played_at": "2026-11-06T14:59:18.063Z"
-  },
-  {
-   "name": "Shake That",
-   "artist": "BAND-MAID",
-   "album": "New Beginning",
-   "year": 2015,
-   "image": "https://i.scdn.co/image/ab67616d00001e02c9d078b963bf1205f26eb90b",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273c9d078b963bf1205f26eb90b",
-   "url": "https://open.spotify.com/track/4UlybsnjfVNPtn6rdliNUB",
-   "album_url": "https://open.spotify.com/album/3fGJG29oqHwWqqyV5UGUQa",
-   "played_at": "2026-11-06T14:54:20.873Z"
-  },
-  {
-   "name": "All I Know So Far",
-   "artist": "P!nk",
-   "album": "All I Know So Far",
-   "year": 2021,
-   "image": "https://i.scdn.co/image/ab67616d00001e024bbe90f83d8fcf0c88e0b3cc",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2734bbe90f83d8fcf0c88e0b3cc",
-   "url": "https://open.spotify.com/track/4LmN3eU1R1vVEdKuDELpGk",
-   "album_url": "https://open.spotify.com/album/0uVOhoZbkmOIM4kxJFT2IH",
-   "played_at": "2026-11-06T14:50:14.600Z"
-  },
-  {
-   "name": "Riders on the Storm",
-   "artist": "The Doors",
-   "album": "L.A. Woman",
-   "year": 1971,
-   "image": "https://i.scdn.co/image/ab67616d00001e0211d9db4f0db1e2689ca22c3d",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27311d9db4f0db1e2689ca22c3d",
-   "url": "https://open.spotify.com/track/14XWXWv5FoCbFzLksawpEe",
-   "album_url": "https://open.spotify.com/album/7IKUTIc9UWuVngyGPtqNHS",
-   "played_at": "2026-11-06T14:45:36.801Z"
-  },
-  {
-   "name": "Dany’s Guitar Solo - Live from Auditorio Nacional, CDMX",
-   "artist": "The Warning",
-   "album": "Live from Auditorio Nacional, CDMX",
-   "year": 2025,
-   "image": "https://i.scdn.co/image/ab67616d00001e025cda6d880ec3968aa6b6ac2f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
-   "url": "https://open.spotify.com/track/7buuAwgtMcwqZTUYSqGNDK",
-   "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
-   "played_at": "2026-11-06T14:38:21.504Z"
-  },
-  {
-   "name": "Folsom Prison Blues",
-   "artist": "Joaquin Phoenix",
-   "album": "Walk The Line (Original Motion Picture Soundtrack)",
-   "year": 2005,
-   "image": "https://i.scdn.co/image/ab67616d00001e020ff166bfd4a462cc7f4068a6",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2730ff166bfd4a462cc7f4068a6",
-   "url": "https://open.spotify.com/track/7bh6o0jqTn2Bh0M7vHln6f",
-   "album_url": "https://open.spotify.com/album/6ICcWbsZxt5fVG02IbZuZg",
-   "played_at": "2026-11-06T14:34:07.094Z"
   }
  ],
  "top_artists": [
@@ -553,13 +553,13 @@ window.LISTENING = {
   },
   {
    "name": "Aerosmith",
-   "plays": 2598,
+   "plays": 2599,
    "url": "https://open.spotify.com/artist/7Ey4PD4MYsKc5I2dolUwbH",
    "image": "https://i.scdn.co/image/ab67616d00001e02587b26d49596162397b29ec8"
   },
   {
    "name": "Led Zeppelin",
-   "plays": 2302,
+   "plays": 2303,
    "url": "https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp",
    "image": "https://i.scdn.co/image/ab67616d00001e02c8a11e48c91a982d086afc69"
   },
@@ -595,7 +595,7 @@ window.LISTENING = {
   },
   {
    "name": "Saving Escape",
-   "plays": 1678,
+   "plays": 1679,
    "url": "https://open.spotify.com/artist/2VfhnjHV7e3M499VPa1w71",
    "image": "https://i.scdn.co/image/ab67616d00001e02a8e9a07f9110e842adaa5c13"
   }
@@ -698,7 +698,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b273a8e9a07f9110e842adaa5c13",
    "url": "https://open.spotify.com/track/7sBi5RImk3idy4kfSkbsMq",
    "album_url": "https://open.spotify.com/album/7MTe3RHk7fkzS75PNoWfRN",
-   "plays": 1006
+   "plays": 1007
   },
   {
    "name": "Escape the Mind",
@@ -832,7 +832,7 @@ window.LISTENING = {
   },
   {
    "decade": 1960,
-   "plays": 7056,
+   "plays": 7057,
    "covers": [
     {
      "name": "Your Time Is Gonna Come - 1990 Remaster",
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28670,
+   "plays": 28671,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32883,
+   "plays": 32884,
    "covers": [
     {
      "name": "Back In Black",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9710,
+   "plays": 9712,
    "covers": [
     {
      "name": "Amazing",
@@ -1169,7 +1169,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273fda5556cb6981c3113df6175",
      "url": "https://open.spotify.com/track/0hrBpAOgrt8RXigk83LLNE",
      "album_url": "https://open.spotify.com/album/5UwIyIyFzkM7wKeGtRJPgB",
-     "plays": 442
+     "plays": 443
     },
     {
      "name": "Walkin' On The Sun",
@@ -1180,7 +1180,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b27366ec7d795b727cd90bd09690",
      "url": "https://open.spotify.com/track/4TQeNHx85xcP9YRkvJC6K1",
      "album_url": "https://open.spotify.com/album/1CsztoJYGwGURMCppulrOt",
-     "plays": 435
+     "plays": 436
     },
     {
      "name": "Fly Away",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15772,
+   "plays": 15773,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1335,7 +1335,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273a8e9a07f9110e842adaa5c13",
      "url": "https://open.spotify.com/track/7sBi5RImk3idy4kfSkbsMq",
      "album_url": "https://open.spotify.com/album/7MTe3RHk7fkzS75PNoWfRN",
-     "plays": 1006
+     "plays": 1007
     },
     {
      "name": "Escape the Mind",
