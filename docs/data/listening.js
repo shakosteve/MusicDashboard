@@ -1,14 +1,91 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-07T04:40:05Z",
+ "generated": "2026-11-07T05:10:06Z",
  "totals": {
-  "plays": 125009,
-  "hours": 8498.5,
+  "plays": 125016,
+  "hours": 8499.0,
   "artists": 702,
   "albums": 1526,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Little Queen",
+   "artist": "Heart",
+   "album": "Little Queen",
+   "year": 1977,
+   "image": "https://i.scdn.co/image/ab67616d00001e0266e2e0df78c4ec35a8ed20a0",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27366e2e0df78c4ec35a8ed20a0",
+   "url": "https://open.spotify.com/track/0Mo316Vw5VAKEy2maTlTNS",
+   "album_url": "https://open.spotify.com/album/1LaeNhiUpL3X6N0LcFvuDF",
+   "played_at": "2026-11-07T05:07:07.746Z"
+  },
+  {
+   "name": "Silent Lucidity",
+   "artist": "Queensrÿche",
+   "album": "Empire (20th Anniversary Edition)",
+   "year": 1990,
+   "image": "https://i.scdn.co/image/ab67616d00001e02eeb8caa4fee70e9f8ec15d3b",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273eeb8caa4fee70e9f8ec15d3b",
+   "url": "https://open.spotify.com/track/6OSyCAmXT4Gkd3OQ2aPOaF",
+   "album_url": "https://open.spotify.com/album/6jmesEKzKTLAa3oI96jWow",
+   "played_at": "2026-11-07T05:01:55.647Z"
+  },
+  {
+   "name": "Americano",
+   "artist": "Roger Clyne & The Peacemakers",
+   "album": "Americano",
+   "year": 2004,
+   "image": "https://i.scdn.co/image/ab67616d00001e022b6b176f0dcb55badc2c9458",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2732b6b176f0dcb55badc2c9458",
+   "url": "https://open.spotify.com/track/19sVCFHM39UPba8BagNqW4",
+   "album_url": "https://open.spotify.com/album/1jbnwCuyLW2PHExqaZpGRJ",
+   "played_at": "2026-11-07T04:56:07.349Z"
+  },
+  {
+   "name": "California Girls",
+   "artist": "David Lee Roth",
+   "album": "Crazy from the Heat",
+   "year": 1985,
+   "image": "https://i.scdn.co/image/ab67616d00001e0266e28c0e65ec2e3886a57a6a",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27366e28c0e65ec2e3886a57a6a",
+   "url": "https://open.spotify.com/track/4H3vuLX59XPqdtTpIesGyS",
+   "album_url": "https://open.spotify.com/album/2CLt8z7ozftRAx6I37C7rE",
+   "played_at": "2026-11-07T04:52:13.594Z"
+  },
+  {
+   "name": "Killing Me Softly With His Song",
+   "artist": "Roberta Flack",
+   "album": "Killing Me Softly",
+   "year": 1973,
+   "image": "https://i.scdn.co/image/ab67616d00001e02bc161bb58763f72fc71a3a01",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273bc161bb58763f72fc71a3a01",
+   "url": "https://open.spotify.com/track/3gsCAGsWr6pUm1Vy7CPPob",
+   "album_url": "https://open.spotify.com/album/4GxrvKiysSiDU1HHifh1PA",
+   "played_at": "2026-11-07T04:49:21.679Z"
+  },
+  {
+   "name": "Lay Down Sally",
+   "artist": "Eric Clapton",
+   "album": "Slowhand 35th Anniversary (Super Deluxe)",
+   "year": 1977,
+   "image": "https://i.scdn.co/image/ab67616d00001e026f093a6ae88a5ca8ed53b9f7",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2736f093a6ae88a5ca8ed53b9f7",
+   "url": "https://open.spotify.com/track/6io0LJIP9ntX35hTfaxwQG",
+   "album_url": "https://open.spotify.com/album/5MAL7e4EnKXW1hFg6NbFqP",
+   "played_at": "2026-11-07T04:44:34.249Z"
+  },
+  {
+   "name": "Queen Of Hearts",
+   "artist": "Juice Newton",
+   "album": "Juice",
+   "year": 1981,
+   "image": "https://i.scdn.co/image/ab67616d00001e02662ce40b359cf7f6990fbee8",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273662ce40b359cf7f6990fbee8",
+   "url": "https://open.spotify.com/track/6R6ib5FgDYlG0rPA9c5DVv",
+   "album_url": "https://open.spotify.com/album/13TOuCZy3QU2Tt1llKPUqc",
+   "played_at": "2026-11-07T04:40:37.648Z"
+  },
   {
    "name": "Take on Me",
    "artist": "a-ha",
@@ -459,83 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/4uqmzWlYa0eLKmbcHNgLej",
    "album_url": "https://open.spotify.com/album/1p4YwrjrP7t6Rfb755yoTQ",
    "played_at": "2026-11-06T21:22:36.591Z"
-  },
-  {
-   "name": "Brown Sugar",
-   "artist": "The Rolling Stones",
-   "album": "Hot Rocks 1964-1971",
-   "year": 1971,
-   "image": "https://i.scdn.co/image/ab67616d00001e02b11b3fc3c89477a7dd473bd7",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273b11b3fc3c89477a7dd473bd7",
-   "url": "https://open.spotify.com/track/34K7nU8EWQIRI93RfqhdRJ",
-   "album_url": "https://open.spotify.com/album/0aqZJlugIkTUWW1sa4BANp",
-   "played_at": "2026-11-06T16:15:55.325Z"
-  },
-  {
-   "name": "If She Knew What She Wants",
-   "artist": "The Bangles, Susanna Hoffs",
-   "album": "Different Light (Expanded Edition)",
-   "year": 1986,
-   "image": "https://i.scdn.co/image/ab67616d00001e024aaad3bb593721bcaa6827d6",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2734aaad3bb593721bcaa6827d6",
-   "url": "https://open.spotify.com/track/4Qr3jHjvmFN5iTSR1H9pw4",
-   "album_url": "https://open.spotify.com/album/7qEP3i0f0zfk6JUFW3SyeN",
-   "played_at": "2026-11-06T15:53:53.801Z"
-  },
-  {
-   "name": "Wildfire",
-   "artist": "The Warning",
-   "album": "XXI Century Blood",
-   "year": 2017,
-   "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
-   "url": "https://open.spotify.com/track/5z8BrKpxvNqcsSQKzwYODJ",
-   "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
-   "played_at": "2026-11-06T15:50:04.596Z"
-  },
-  {
-   "name": "Erotica",
-   "artist": "Madonna",
-   "album": "Erotica",
-   "year": 1992,
-   "image": "https://i.scdn.co/image/ab67616d00001e02bc3f5b9fac4dd2324757257c",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273bc3f5b9fac4dd2324757257c",
-   "url": "https://open.spotify.com/track/1eUBaizmRytNQuc55EyqWN",
-   "album_url": "https://open.spotify.com/album/0iK9cBzawSgH4iQcPiPpFD",
-   "played_at": "2026-11-06T15:46:31.934Z"
-  },
-  {
-   "name": "Fly Away",
-   "artist": "Lenny Kravitz",
-   "album": "5",
-   "year": 1998,
-   "image": "https://i.scdn.co/image/ab67616d00001e02f1157b7dcd21bae0c2c75d89",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273f1157b7dcd21bae0c2c75d89",
-   "url": "https://open.spotify.com/track/1OxcIUqVmVYxT6427tbhDW",
-   "album_url": "https://open.spotify.com/album/6MCNMOCRsh6nxs7PNzc0zN",
-   "played_at": "2026-11-06T15:41:57.595Z"
-  },
-  {
-   "name": "In the Air Tonight - 2015 Remaster",
-   "artist": "Phil Collins",
-   "album": "Face Value (Deluxe Editon)",
-   "year": 1981,
-   "image": "https://i.scdn.co/image/ab67616d00001e028a1d7cf42a84b10bd1ff8e56",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2738a1d7cf42a84b10bd1ff8e56",
-   "url": "https://open.spotify.com/track/18AXbzPzBS8Y3AkgSxzJPb",
-   "album_url": "https://open.spotify.com/album/1cM3r0WQZWNkCpEbmFjLln",
-   "played_at": "2026-11-06T15:38:15.788Z"
-  },
-  {
-   "name": "I Won't Back Down",
-   "artist": "Tom Petty",
-   "album": "Full Moon Fever",
-   "year": 1989,
-   "image": "https://i.scdn.co/image/ab67616d00001e0236572e6726714544f5bed456",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27336572e6726714544f5bed456",
-   "url": "https://open.spotify.com/track/7gSQv1OHpkIoAdUiRLdmI6",
-   "album_url": "https://open.spotify.com/album/5d71Imt5CIb7LpQwDMQ093",
-   "played_at": "2026-11-06T15:32:38.915Z"
   }
  ],
  "top_artists": [
@@ -583,7 +583,7 @@ window.LISTENING = {
   },
   {
    "name": "Heart",
-   "plays": 1928,
+   "plays": 1929,
    "url": "https://open.spotify.com/artist/34jw2BbxjoYalTp8cJFCPv",
    "image": "https://i.scdn.co/image/ab67616d00001e0266e2e0df78c4ec35a8ed20a0"
   },
@@ -720,7 +720,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b27366e2e0df78c4ec35a8ed20a0",
    "url": "https://open.spotify.com/track/4KfSdst7rW39C0sfhArdrz",
    "album_url": "https://open.spotify.com/album/1LaeNhiUpL3X6N0LcFvuDF",
-   "plays": 911
+   "plays": 912
   },
   {
    "name": "Folsom Prison Blues",
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28672,
+   "plays": 28675,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -948,7 +948,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b27366e2e0df78c4ec35a8ed20a0",
      "url": "https://open.spotify.com/track/4KfSdst7rW39C0sfhArdrz",
      "album_url": "https://open.spotify.com/album/1LaeNhiUpL3X6N0LcFvuDF",
-     "plays": 911
+     "plays": 912
     },
     {
      "name": "Iron Man - 2012 - Remaster",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32888,
+   "plays": 32890,
    "covers": [
     {
      "name": "Back In Black",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9713,
+   "plays": 9714,
    "covers": [
     {
      "name": "Amazing",
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 11999,
+   "plays": 12000,
    "covers": [
     {
      "name": "Material Girl",
@@ -1252,7 +1252,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2732b6b176f0dcb55badc2c9458",
      "url": "https://open.spotify.com/track/19sVCFHM39UPba8BagNqW4",
      "album_url": "https://open.spotify.com/album/1jbnwCuyLW2PHExqaZpGRJ",
-     "plays": 538
+     "plays": 539
     },
     {
      "name": "Tall Cool One - 2006 Remaster",
