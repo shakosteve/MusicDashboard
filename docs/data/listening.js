@@ -1,14 +1,58 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-07T05:10:06Z",
+ "generated": "2026-11-07T05:40:05Z",
  "totals": {
-  "plays": 125016,
-  "hours": 8499.0,
+  "plays": 125020,
+  "hours": 8499.3,
   "artists": 702,
   "albums": 1526,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Glitch",
+   "artist": "Freeze the Fall",
+   "album": "Glitch",
+   "year": 2024,
+   "image": "https://i.scdn.co/image/ab67616d00001e02309c17ed3cfd2645414d755d",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273309c17ed3cfd2645414d755d",
+   "url": "https://open.spotify.com/track/7nVvFUMdzAzxok6QO4I6B5",
+   "album_url": "https://open.spotify.com/album/4Uinxyppo7XgR1VyMYxMSV",
+   "played_at": "2026-11-07T05:26:58.750Z"
+  },
+  {
+   "name": "Osiris",
+   "artist": "Jaded Truth",
+   "album": "Rx",
+   "year": 2020,
+   "image": "https://i.scdn.co/image/ab67616d00001e02d11211ad6e388a9a028ff55d",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273d11211ad6e388a9a028ff55d",
+   "url": "https://open.spotify.com/track/2kAXSlmHGIG94NXb8SE4kJ",
+   "album_url": "https://open.spotify.com/album/2F7EGYPCs7N20FZbVeaUR7",
+   "played_at": "2026-11-07T05:23:37.758Z"
+  },
+  {
+   "name": "Renegade",
+   "artist": "Styx",
+   "album": "Pieces Of Eight",
+   "year": 1978,
+   "image": "https://i.scdn.co/image/ab67616d00001e02f106d873a30a31efa73f4e74",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273f106d873a30a31efa73f4e74",
+   "url": "https://open.spotify.com/track/1CQqupcyMg7176PPmIVmSj",
+   "album_url": "https://open.spotify.com/album/294yFGYq9SBXWR4g6dK63D",
+   "played_at": "2026-11-07T05:17:59.628Z"
+  },
+  {
+   "name": "Shout",
+   "artist": "Tears For Fears",
+   "album": "Songs From The Big Chair",
+   "year": 1985,
+   "image": "https://i.scdn.co/image/ab67616d00001e025e12c35cb4c848a927ef4b69",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2735e12c35cb4c848a927ef4b69",
+   "url": "https://open.spotify.com/track/6UQDkQdtvj3f7F7edAsqda",
+   "album_url": "https://open.spotify.com/album/5STbVtgFy6y7uPshY1RRqb",
+   "played_at": "2026-11-07T05:13:41.899Z"
+  },
   {
    "name": "Little Queen",
    "artist": "Heart",
@@ -492,50 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/5veJDT0MLsLbhYsx42GXUD",
    "album_url": "https://open.spotify.com/album/23enz9nXJhH1BR1Rm5CzDJ",
    "played_at": "2026-11-06T22:11:40.226Z"
-  },
-  {
-   "name": "Smooth (feat. Rob Thomas)",
-   "artist": "Santana, Rob Thomas",
-   "album": "Supernatural (Remastered)",
-   "year": 1999,
-   "image": "https://i.scdn.co/image/ab67616d00001e0247eb3ea5a92904c19e102e54",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27347eb3ea5a92904c19e102e54",
-   "url": "https://open.spotify.com/track/0n2SEXB2qoRQg171q7XqeW",
-   "album_url": "https://open.spotify.com/album/10aiDpdFGyfCFEcqpx6XTq",
-   "played_at": "2026-11-06T22:07:35.941Z"
-  },
-  {
-   "name": "Have You Ever Seen The Rain",
-   "artist": "Creedence Clearwater Revival",
-   "album": "Pendulum (Expanded Edition)",
-   "year": 1970,
-   "image": "https://i.scdn.co/image/ab67616d00001e0251f311c2fb06ad2789e3ff91",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27351f311c2fb06ad2789e3ff91",
-   "url": "https://open.spotify.com/track/2LawezPeJhN4AWuSB0GtAU",
-   "album_url": "https://open.spotify.com/album/372cMadhAGlNuDnc8TssqF",
-   "played_at": "2026-11-06T22:02:40.186Z"
-  },
-  {
-   "name": "Suicide Blonde",
-   "artist": "INXS",
-   "album": "X",
-   "year": 1990,
-   "image": "https://i.scdn.co/image/ab67616d00001e02232a7dbebc9249b8c2fc1b4c",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273232a7dbebc9249b8c2fc1b4c",
-   "url": "https://open.spotify.com/track/3DPyS3odFIWQ3E2IFqHEdG",
-   "album_url": "https://open.spotify.com/album/688l8IJXR4cmgGj0Ekl0DR",
-   "played_at": "2026-11-06T21:26:29.067Z"
-  },
-  {
-   "name": "Crumblin' Down",
-   "artist": "John Mellencamp",
-   "album": "Uh-HUH!",
-   "year": 1983,
-   "image": "https://i.scdn.co/image/ab67616d00001e02cd949894aa0df080ed50ff9b",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273cd949894aa0df080ed50ff9b",
-   "url": "https://open.spotify.com/track/4uqmzWlYa0eLKmbcHNgLej",
-   "album_url": "https://open.spotify.com/album/1p4YwrjrP7t6Rfb755yoTQ",
-   "played_at": "2026-11-06T21:22:36.591Z"
   }
  ],
  "top_artists": [
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28675,
+   "plays": 28676,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32890,
+   "plays": 32891,
    "covers": [
     {
      "name": "Back In Black",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18626,
+   "plays": 18628,
    "covers": [
     {
      "name": "ERROR",
