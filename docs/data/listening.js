@@ -1,14 +1,36 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-07T17:40:07Z",
+ "generated": "2026-11-07T18:10:13Z",
  "totals": {
-  "plays": 125030,
-  "hours": 8500.0,
+  "plays": 125032,
+  "hours": 8500.2,
   "artists": 702,
   "albums": 1526,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Higher Love",
+   "artist": "Steve Winwood",
+   "album": "Back In The High Life",
+   "year": 1986,
+   "image": "https://i.scdn.co/image/ab67616d00001e028362a7a26eaf279f336f1494",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2738362a7a26eaf279f336f1494",
+   "url": "https://open.spotify.com/track/4ZExvJvQXPEeYzGU0N3THi",
+   "album_url": "https://open.spotify.com/album/1VV4tdUYIjRlhKxu1gMw4d",
+   "played_at": "2026-11-07T17:48:59.591Z"
+  },
+  {
+   "name": "Save Me Now",
+   "artist": "Billy Idol",
+   "album": "Kings & Queens Of The Underground",
+   "year": 2014,
+   "image": "https://i.scdn.co/image/ab67616d00001e02f21a536f6ae9d324f29917ed",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273f21a536f6ae9d324f29917ed",
+   "url": "https://open.spotify.com/track/2rbH7E6pLeAOsgE5PUIEgT",
+   "album_url": "https://open.spotify.com/album/1WQHG6CYgc5fB9ByTLkskB",
+   "played_at": "2026-11-07T17:43:07.500Z"
+  },
   {
    "name": "Sledgehammer - 2012 Remaster",
    "artist": "Peter Gabriel",
@@ -514,28 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/6FWoYwZa13llS7nj0SG65F",
    "album_url": "https://open.spotify.com/album/19AUoKWRAaQYrggVvdQnqq",
    "played_at": "2026-11-07T02:55:55.946Z"
-  },
-  {
-   "name": "MORE",
-   "artist": "The Warning",
-   "album": "Keep Me Fed",
-   "year": 2024,
-   "image": "https://i.scdn.co/image/ab67616d00001e0293c50048dce0f88071728c8c",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27393c50048dce0f88071728c8c",
-   "url": "https://open.spotify.com/track/5IDRSA83ayUGCCRdfdl04z",
-   "album_url": "https://open.spotify.com/album/1rYHznqLeJVXuy0YqwERGv",
-   "played_at": "2026-11-07T02:50:05.044Z"
-  },
-  {
-   "name": "Wanted Dead Or Alive",
-   "artist": "Bon Jovi",
-   "album": "Slippery When Wet",
-   "year": 1986,
-   "image": "https://i.scdn.co/image/ab67616d00001e021336b31b6a1799f0de5807ac",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2731336b31b6a1799f0de5807ac",
-   "url": "https://open.spotify.com/track/0oerlffJSzhRVvtDfLcp3N",
-   "album_url": "https://open.spotify.com/album/0kBfgEilUFCMIQY5IOjG4t",
-   "played_at": "2026-11-07T02:46:56.883Z"
   }
  ],
  "top_artists": [
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32895,
+   "plays": 32896,
    "covers": [
     {
      "name": "Back In Black",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15775,
+   "plays": 15776,
    "covers": [
     {
      "name": "XXI Century Blood",
