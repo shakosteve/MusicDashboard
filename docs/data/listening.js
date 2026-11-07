@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-07T13:40:05Z",
+ "generated": "2026-11-07T14:10:05Z",
  "totals": {
   "plays": 125021,
   "hours": 8499.4,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "2026 Election: What Happens Next?",
+   "show": "The Middle with Jeremy Hobson",
+   "show_uri": "spotify:show:5l5B4IoLnVHnFMLmGSar2f",
+   "release_date": "2026-11-06",
+   "duration_ms": 3041450,
+   "image": "https://i.scdn.co/image/ab67656300005f1fba6d574ea990c0caa70cbf80",
+   "first_seen": "2026-11-07T13:40:02Z",
+   "progress_ms": 1906513,
+   "last_seen": "2026-11-07T14:10:02Z",
+   "url": "https://open.spotify.com/episode/4JB9eV1C4Tbs9y1YPB06us",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f083f152347124d54a12d4ca0"
+  },
+  {
    "name": "Is this the end of Trump? With Anthony Scaramucci",
    "show": "Christiane Amanpour Presents: The Ex Files",
    "show_uri": "spotify:show:3ZpgFegm3q3AGjiFbjLV59",
@@ -1502,19 +1515,6 @@ window.LISTENING = {
    "last_seen": "2026-11-07T13:40:02Z",
    "url": "https://open.spotify.com/episode/3WGlGHFsIY6Z2QCGVYn5SC",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f5a4e319927f9dcfb7453f69d"
-  },
-  {
-   "name": "2026 Election: What Happens Next?",
-   "show": "The Middle with Jeremy Hobson",
-   "show_uri": "spotify:show:5l5B4IoLnVHnFMLmGSar2f",
-   "release_date": "2026-11-06",
-   "duration_ms": 3041450,
-   "image": "https://i.scdn.co/image/ab67656300005f1fba6d574ea990c0caa70cbf80",
-   "first_seen": "2026-11-07T13:40:02Z",
-   "progress_ms": 107018,
-   "last_seen": "2026-11-07T13:40:02Z",
-   "url": "https://open.spotify.com/episode/4JB9eV1C4Tbs9y1YPB06us",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f083f152347124d54a12d4ca0"
   },
   {
    "name": "The Macro Implications of the Blue Tsunami",
