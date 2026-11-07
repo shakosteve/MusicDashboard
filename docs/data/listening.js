@@ -1,14 +1,91 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-07T02:40:07Z",
+ "generated": "2026-11-07T03:10:06Z",
  "totals": {
-  "plays": 124981,
-  "hours": 8496.6,
+  "plays": 124988,
+  "hours": 8497.0,
   "artists": 702,
   "albums": 1526,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "25 or 6 to 4 - 2002 Remaster",
+   "artist": "Chicago",
+   "album": "Chicago II",
+   "year": 1970,
+   "image": "https://i.scdn.co/image/ab67616d00001e02f97c928726d4abbaed5aebf9",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273f97c928726d4abbaed5aebf9",
+   "url": "https://open.spotify.com/track/7GqIDx2QVGOpd4r1fZaUUW",
+   "album_url": "https://open.spotify.com/album/0PRgsdDXQ8QPaDUetVF7yN",
+   "played_at": "2026-11-07T03:07:50.549Z"
+  },
+  {
+   "name": "Superstition - Single Version",
+   "artist": "Stevie Wonder",
+   "album": "The Definitive Collection",
+   "year": 2002,
+   "image": "https://i.scdn.co/image/ab67616d00001e029e447b59bd3e2cbefaa31d91",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2739e447b59bd3e2cbefaa31d91",
+   "url": "https://open.spotify.com/track/1h2xVEoJORqrg71HocgqXd",
+   "album_url": "https://open.spotify.com/album/4E1itnJOhTMRSATNaxh0Sq",
+   "played_at": "2026-11-07T03:03:00.150Z"
+  },
+  {
+   "name": "Lady",
+   "artist": "Styx",
+   "album": "Styx II",
+   "year": 1973,
+   "image": "https://i.scdn.co/image/ab67616d00001e025053c9e335609a8de97e5669",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2735053c9e335609a8de97e5669",
+   "url": "https://open.spotify.com/track/1wpRglLhQ092N1rftlDMD3",
+   "album_url": "https://open.spotify.com/album/6QRpuaqB1chM6wemxQlcy1",
+   "played_at": "2026-11-07T02:58:54.199Z"
+  },
+  {
+   "name": "Live Wire",
+   "artist": "AC/DC",
+   "album": "High Voltage",
+   "year": 1976,
+   "image": "https://i.scdn.co/image/ab67616d00001e028c7f355d649e0a3cfcf6fc39",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2738c7f355d649e0a3cfcf6fc39",
+   "url": "https://open.spotify.com/track/6FWoYwZa13llS7nj0SG65F",
+   "album_url": "https://open.spotify.com/album/19AUoKWRAaQYrggVvdQnqq",
+   "played_at": "2026-11-07T02:55:55.946Z"
+  },
+  {
+   "name": "MORE",
+   "artist": "The Warning",
+   "album": "Keep Me Fed",
+   "year": 2024,
+   "image": "https://i.scdn.co/image/ab67616d00001e0293c50048dce0f88071728c8c",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27393c50048dce0f88071728c8c",
+   "url": "https://open.spotify.com/track/5IDRSA83ayUGCCRdfdl04z",
+   "album_url": "https://open.spotify.com/album/1rYHznqLeJVXuy0YqwERGv",
+   "played_at": "2026-11-07T02:50:05.044Z"
+  },
+  {
+   "name": "Wanted Dead Or Alive",
+   "artist": "Bon Jovi",
+   "album": "Slippery When Wet",
+   "year": 1986,
+   "image": "https://i.scdn.co/image/ab67616d00001e021336b31b6a1799f0de5807ac",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2731336b31b6a1799f0de5807ac",
+   "url": "https://open.spotify.com/track/0oerlffJSzhRVvtDfLcp3N",
+   "album_url": "https://open.spotify.com/album/0kBfgEilUFCMIQY5IOjG4t",
+   "played_at": "2026-11-07T02:46:56.883Z"
+  },
+  {
+   "name": "Teach Your Children",
+   "artist": "Crosby, Stills, Nash & Young",
+   "album": "Deja Vu",
+   "year": 1970,
+   "image": "https://i.scdn.co/image/ab67616d00001e0206e00756085191abc01e4cf0",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27306e00756085191abc01e4cf0",
+   "url": "https://open.spotify.com/track/29HaKOpeLSYvqdFyEQSRdj",
+   "album_url": "https://open.spotify.com/album/5bHkK1X4WEOzNvRhehvOcb",
+   "played_at": "2026-11-07T02:41:47.627Z"
+  },
   {
    "name": "Wild Side",
    "artist": "Mötley Crüe",
@@ -459,95 +536,18 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/2d4e45fmUnguxh6yqC7gNT",
    "album_url": "https://open.spotify.com/album/76mvVgXOde87B9aOzLXCOI",
    "played_at": "2026-11-06T03:48:02.690Z"
-  },
-  {
-   "name": "Long Tall Sally (The Thing)",
-   "artist": "Little Richard",
-   "album": "Here's Little Richard (Deluxe Edition)",
-   "year": 1957,
-   "image": "https://i.scdn.co/image/ab67616d00001e028a22827b01e5d68d3736d58b",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2738a22827b01e5d68d3736d58b",
-   "url": "https://open.spotify.com/track/507IFqPuG8mBQoKebfGG9t",
-   "album_url": "https://open.spotify.com/album/18tV6PLXYvVjsdOVk0S7M8",
-   "played_at": "2026-11-06T02:35:15.256Z"
-  },
-  {
-   "name": "The Rain Song - Remaster",
-   "artist": "Led Zeppelin",
-   "album": "Houses of the Holy (Remaster)",
-   "year": 1973,
-   "image": "https://i.scdn.co/image/ab67616d00001e021aa47e71c4edfeaddb65cd54",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2731aa47e71c4edfeaddb65cd54",
-   "url": "https://open.spotify.com/track/3JLrri1xSCui3bzITDJbkk",
-   "album_url": "https://open.spotify.com/album/0GqpoHJREPp0iuXK3HzrHk",
-   "played_at": "2026-11-06T01:33:35.980Z"
-  },
-  {
-   "name": "Son of a Preacher Man",
-   "artist": "Dusty Springfield",
-   "album": "Dusty In Memphis [Deluxe Edition]",
-   "year": 1969,
-   "image": "https://i.scdn.co/image/ab67616d00001e025aaa2395bb5c2016c1e2f6f0",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2735aaa2395bb5c2016c1e2f6f0",
-   "url": "https://open.spotify.com/track/7odHgoLFi3GQ90E9PeraI3",
-   "album_url": "https://open.spotify.com/album/6SNMenG3NjZyqgI5p4Hcmg",
-   "played_at": "2026-11-06T01:25:56.464Z"
-  },
-  {
-   "name": "Automatic Sun - Live from Auditorio Nacional, CDMX",
-   "artist": "The Warning",
-   "album": "Qué Más Quieres / Sharks / Automatic Sun (Live from Auditorio Nacional, CDMX)",
-   "year": 2025,
-   "image": "https://i.scdn.co/image/ab67616d00001e02e6d30343fb059f0b62c38fb3",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273e6d30343fb059f0b62c38fb3",
-   "url": "https://open.spotify.com/track/52Rhi563GFryRxSuxdBtyy",
-   "album_url": "https://open.spotify.com/album/4YKEYnqb55Gw4g8uMHMKSo",
-   "played_at": "2026-11-06T01:23:26.671Z"
-  },
-  {
-   "name": "Leaky Little Boat",
-   "artist": "Roger Clyne & The Peacemakers",
-   "album": "Americano",
-   "year": 2004,
-   "image": "https://i.scdn.co/image/ab67616d00001e022b6b176f0dcb55badc2c9458",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2732b6b176f0dcb55badc2c9458",
-   "url": "https://open.spotify.com/track/1aStydRWaPMzwjxi5GAnkO",
-   "album_url": "https://open.spotify.com/album/1jbnwCuyLW2PHExqaZpGRJ",
-   "played_at": "2026-11-06T01:19:33.688Z"
-  },
-  {
-   "name": "Tom Sawyer",
-   "artist": "Rush",
-   "album": "Moving Pictures (2011 Remaster)",
-   "year": 1981,
-   "image": "https://i.scdn.co/image/ab67616d00001e0272833c1ae3343cbfb4617073",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27372833c1ae3343cbfb4617073",
-   "url": "https://open.spotify.com/track/3QZ7uX97s82HFYSmQUAN1D",
-   "album_url": "https://open.spotify.com/album/2xg7iIKoSqaDNpDbJnyCjY",
-   "played_at": "2026-11-06T01:15:02.597Z"
-  },
-  {
-   "name": "Time in a Bottle",
-   "artist": "Jim Croce",
-   "album": "You Don't Mess Around With Jim",
-   "year": 1972,
-   "image": "https://i.scdn.co/image/ab67616d00001e025b7a6cabbcb9fe150966563c",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2735b7a6cabbcb9fe150966563c",
-   "url": "https://open.spotify.com/track/7uWFUpGuEfmxYeymkV95jn",
-   "album_url": "https://open.spotify.com/album/0dZaHQ0OJlIyVrEuvnXmS9",
-   "played_at": "2026-11-06T01:10:25.173Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10680,
+   "plays": 10681,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
   {
    "name": "AC/DC",
-   "plays": 3991,
+   "plays": 3992,
    "url": "https://open.spotify.com/artist/711MCceyCBcFnzjGY4Q7Un",
    "image": "https://i.scdn.co/image/ab67616d00001e02ff191d7fbdb5a13eaf84132b"
   },
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28665,
+   "plays": 28669,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32879,
+   "plays": 32880,
    "covers": [
     {
      "name": "Back In Black",
@@ -1086,7 +1086,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2731336b31b6a1799f0de5807ac",
      "url": "https://open.spotify.com/track/0rmGAIH9LNJewFw7nKzZnc",
      "album_url": "https://open.spotify.com/album/0kBfgEilUFCMIQY5IOjG4t",
-     "plays": 683
+     "plays": 684
     },
     {
      "name": "Sharp Dressed Man - 2008 Remaster",
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 11998,
+   "plays": 11999,
    "covers": [
     {
      "name": "Material Girl",
@@ -1285,7 +1285,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2739e447b59bd3e2cbefaa31d91",
      "url": "https://open.spotify.com/track/1h2xVEoJORqrg71HocgqXd",
      "album_url": "https://open.spotify.com/album/4E1itnJOhTMRSATNaxh0Sq",
-     "plays": 251
+     "plays": 252
     },
     {
      "name": "Dynamite",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18622,
+   "plays": 18623,
    "covers": [
     {
      "name": "ERROR",
@@ -1491,6 +1491,32 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "#2111- LA Needs to Hit The Pavement & The Obama Speech That Ruined America | Part 1",
+   "show": "The Adam and Dr. Drew Show",
+   "show_uri": "spotify:show:3VN4vP6TztxK3wtT8b9aQL",
+   "release_date": "2026-11-04",
+   "duration_ms": 3177560,
+   "image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b",
+   "first_seen": "2026-11-06T13:40:02Z",
+   "progress_ms": 3401424,
+   "last_seen": "2026-11-07T03:10:02Z",
+   "url": "https://open.spotify.com/episode/1v01GZjc3lTnL6imzrUwhf",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
+  },
+  {
+   "name": "#2111- LA Needs to Hit The Pavement & The Obama Speech That Ruined America | Part 2",
+   "show": "The Adam and Dr. Drew Show",
+   "show_uri": "spotify:show:3VN4vP6TztxK3wtT8b9aQL",
+   "release_date": "2026-11-06",
+   "duration_ms": 2957662,
+   "image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b",
+   "first_seen": "2026-11-07T01:10:02Z",
+   "progress_ms": 2957662,
+   "last_seen": "2026-11-07T03:10:02Z",
+   "url": "https://open.spotify.com/episode/7rUakM8WblJ9b3wLsaRkVD",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
+  },
+  {
    "name": "Iran rebuilds missile sites as Trump’s war cabinet falls apart",
    "show": "Iran: The Latest",
    "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
@@ -1502,19 +1528,6 @@ window.LISTENING = {
    "last_seen": "2026-11-07T02:10:02Z",
    "url": "https://open.spotify.com/episode/2EzKXrv805pZ2k2T8ejCG1",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
-  },
-  {
-   "name": "#2111- LA Needs to Hit The Pavement & The Obama Speech That Ruined America | Part 2",
-   "show": "The Adam and Dr. Drew Show",
-   "show_uri": "spotify:show:3VN4vP6TztxK3wtT8b9aQL",
-   "release_date": "2026-11-06",
-   "duration_ms": 2957662,
-   "image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b",
-   "first_seen": "2026-11-07T01:10:02Z",
-   "progress_ms": 2809736,
-   "last_seen": "2026-11-07T01:40:02Z",
-   "url": "https://open.spotify.com/episode/7rUakM8WblJ9b3wLsaRkVD",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
   },
   {
    "name": "Vance revolts over Iran war. Will Israel go it alone?",
@@ -1554,19 +1567,6 @@ window.LISTENING = {
    "last_seen": "2026-11-06T14:40:02Z",
    "url": "https://open.spotify.com/episode/3DEItItUBqFjZzFA8pmee9",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97"
-  },
-  {
-   "name": "#2111- LA Needs to Hit The Pavement & The Obama Speech That Ruined America | Part 1",
-   "show": "The Adam and Dr. Drew Show",
-   "show_uri": "spotify:show:3VN4vP6TztxK3wtT8b9aQL",
-   "release_date": "2026-11-04",
-   "duration_ms": 3177560,
-   "image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b",
-   "first_seen": "2026-11-06T13:40:02Z",
-   "progress_ms": 2939920,
-   "last_seen": "2026-11-06T14:40:02Z",
-   "url": "https://open.spotify.com/episode/1v01GZjc3lTnL6imzrUwhf",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
   },
   {
    "name": "Blake J. Harris: Larry David Was My Hero Before And After Writing His Book",
