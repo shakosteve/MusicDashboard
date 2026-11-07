@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-07T16:40:05Z",
+ "generated": "2026-11-07T17:10:05Z",
  "totals": {
-  "plays": 125024,
-  "hours": 8499.6,
+  "plays": 125025,
+  "hours": 8499.7,
   "artists": 702,
   "albums": 1526,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Hurts So Good",
+   "artist": "John Mellencamp",
+   "album": "American Fool",
+   "year": 1982,
+   "image": "https://i.scdn.co/image/ab67616d00001e02b1945b44ce8868740f132f8e",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273b1945b44ce8868740f132f8e",
+   "url": "https://open.spotify.com/track/67eX1ovaHyVPUinMHeUtIM",
+   "album_url": "https://open.spotify.com/album/4gouGcdQn9OvjX42xnWrF0",
+   "played_at": "2026-11-07T17:06:51.816Z"
+  },
   {
    "name": "Vogue",
    "artist": "Madonna",
@@ -525,17 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/5ChkMS8OtdzJeqyybCc9R5",
    "album_url": "https://open.spotify.com/album/1C2h7mLntPSeVYciMRTF4a",
    "played_at": "2026-11-06T23:09:35.832Z"
-  },
-  {
-   "name": "Unmendable",
-   "artist": "The Warning",
-   "album": "XXI Century Blood",
-   "year": 2017,
-   "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
-   "url": "https://open.spotify.com/track/3YPWoSTTdI97QeyjV9t68F",
-   "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
-   "played_at": "2026-11-06T23:04:41.477Z"
   }
  ],
  "top_artists": [
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32892,
+   "plays": 32893,
    "covers": [
     {
      "name": "Back In Black",
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "What Do the Dead Internet Theory and Russian Intelligence Operations Have in Common? With Carl Miller",
+   "show": "Intelligence Squared",
+   "show_uri": "spotify:show:7gnNY9Fy8QSRbjXZ00A9jW",
+   "release_date": "2026-11-04",
+   "duration_ms": 2376202,
+   "image": "https://i.scdn.co/image/ab67656300005f1fc7218bf98d44b6b022c2c23e",
+   "first_seen": "2026-11-07T14:40:02Z",
+   "progress_ms": 1731640,
+   "last_seen": "2026-11-07T17:10:02Z",
+   "url": "https://open.spotify.com/episode/2kAUSg57qGAB1kcEcAAbO3",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f4b328600f6be4cce175cc6b9"
+  },
+  {
    "name": "Sophie Wants to Play Theo Von 1-on-1, Plus Game 7 Valkyries-Dream Breakdown",
    "show": "No Hesitation with Sophie Cunningham & Drew Hanlen",
    "show_uri": "spotify:show:0wBDPmxsp4ivXog31cGmTX",
@@ -1515,19 +1528,6 @@ window.LISTENING = {
    "last_seen": "2026-11-07T16:10:03Z",
    "url": "https://open.spotify.com/episode/4JB9eV1C4Tbs9y1YPB06us",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f083f152347124d54a12d4ca0"
-  },
-  {
-   "name": "What Do the Dead Internet Theory and Russian Intelligence Operations Have in Common? With Carl Miller",
-   "show": "Intelligence Squared",
-   "show_uri": "spotify:show:7gnNY9Fy8QSRbjXZ00A9jW",
-   "release_date": "2026-11-04",
-   "duration_ms": 2376202,
-   "image": "https://i.scdn.co/image/ab67656300005f1fc7218bf98d44b6b022c2c23e",
-   "first_seen": "2026-11-07T14:40:02Z",
-   "progress_ms": 1638557,
-   "last_seen": "2026-11-07T14:40:02Z",
-   "url": "https://open.spotify.com/episode/2kAUSg57qGAB1kcEcAAbO3",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f4b328600f6be4cce175cc6b9"
   },
   {
    "name": "Is this the end of Trump? With Anthony Scaramucci",
