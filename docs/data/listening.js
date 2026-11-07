@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-07T16:10:06Z",
+ "generated": "2026-11-07T16:40:05Z",
  "totals": {
   "plays": 125024,
   "hours": 8499.6,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Sophie Wants to Play Theo Von 1-on-1, Plus Game 7 Valkyries-Dream Breakdown",
+   "show": "No Hesitation with Sophie Cunningham & Drew Hanlen",
+   "show_uri": "spotify:show:0wBDPmxsp4ivXog31cGmTX",
+   "release_date": "2026-11-02",
+   "duration_ms": 3594083,
+   "image": "https://i.scdn.co/image/ab67656300005f1f38f7420439fd9196a273a078",
+   "first_seen": "2026-11-07T15:10:02Z",
+   "progress_ms": 2544518,
+   "last_seen": "2026-11-07T16:40:02Z",
+   "url": "https://open.spotify.com/episode/6rrV9lsJFr0IFHCpdtZOeW",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1ff71d281479683178fec972fc"
+  },
+  {
    "name": "2026 Election: What Happens Next?",
    "show": "The Middle with Jeremy Hobson",
    "show_uri": "spotify:show:5l5B4IoLnVHnFMLmGSar2f",
@@ -1502,19 +1515,6 @@ window.LISTENING = {
    "last_seen": "2026-11-07T16:10:03Z",
    "url": "https://open.spotify.com/episode/4JB9eV1C4Tbs9y1YPB06us",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f083f152347124d54a12d4ca0"
-  },
-  {
-   "name": "Sophie Wants to Play Theo Von 1-on-1, Plus Game 7 Valkyries-Dream Breakdown",
-   "show": "No Hesitation with Sophie Cunningham & Drew Hanlen",
-   "show_uri": "spotify:show:0wBDPmxsp4ivXog31cGmTX",
-   "release_date": "2026-11-02",
-   "duration_ms": 3594083,
-   "image": "https://i.scdn.co/image/ab67656300005f1f38f7420439fd9196a273a078",
-   "first_seen": "2026-11-07T15:10:02Z",
-   "progress_ms": 630186,
-   "last_seen": "2026-11-07T15:10:02Z",
-   "url": "https://open.spotify.com/episode/6rrV9lsJFr0IFHCpdtZOeW",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1ff71d281479683178fec972fc"
   },
   {
    "name": "What Do the Dead Internet Theory and Russian Intelligence Operations Have in Common? With Carl Miller",
