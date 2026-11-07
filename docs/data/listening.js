@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-07T12:40:06Z",
+ "generated": "2026-11-07T13:10:07Z",
  "totals": {
   "plays": 125021,
   "hours": 8499.4,
@@ -1498,10 +1498,23 @@ window.LISTENING = {
    "duration_ms": 2232633,
    "image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42",
    "first_seen": "2026-11-07T12:40:02Z",
-   "progress_ms": 861303,
-   "last_seen": "2026-11-07T12:40:02Z",
+   "progress_ms": 1851440,
+   "last_seen": "2026-11-07T13:10:04Z",
    "url": "https://open.spotify.com/episode/55pJWtDAFF2VPMw9wOJblh",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42"
+  },
+  {
+   "name": "Is this the end of Trump? With Anthony Scaramucci",
+   "show": "Christiane Amanpour Presents: The Ex Files",
+   "show_uri": "spotify:show:3ZpgFegm3q3AGjiFbjLV59",
+   "release_date": "2026-11-04",
+   "duration_ms": 2237596,
+   "image": "https://i.scdn.co/image/ab67656300005f1f5a4e319927f9dcfb7453f69d",
+   "first_seen": "2026-11-07T13:10:03Z",
+   "progress_ms": 594846,
+   "last_seen": "2026-11-07T13:10:03Z",
+   "url": "https://open.spotify.com/episode/3WGlGHFsIY6Z2QCGVYn5SC",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f5a4e319927f9dcfb7453f69d"
   },
   {
    "name": "The Russian Officer Secretly Working for Ukraine",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-05T04:40:03Z",
    "url": "https://open.spotify.com/episode/3zQqbfCjhAMwoyrEoke5bQ",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
-  },
-  {
-   "name": "Reviewing Voter Data After the Bluenami",
-   "show": "RealClearPolitics Podcast",
-   "show_uri": "spotify:show:5FkNemg3aIaPPNBImIcW2l",
-   "release_date": "2026-11-04",
-   "duration_ms": 3124480,
-   "image": "https://i.scdn.co/image/ab67656300005f1f255a582fbb7e5531b953d635",
-   "first_seen": "2026-11-04T23:40:02Z",
-   "progress_ms": 2736190,
-   "last_seen": "2026-11-05T01:10:02Z",
-   "url": "https://open.spotify.com/episode/2EzQjWJMd2JAGJMOSCHYyI",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fe19edf2c6856b8b09c057f38"
   }
  ],
  "top_shows": [
