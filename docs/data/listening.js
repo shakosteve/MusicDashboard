@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-07T01:40:05Z",
+ "generated": "2026-11-07T02:10:06Z",
  "totals": {
   "plays": 124979,
   "hours": 8496.4,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Iran rebuilds missile sites as Trump’s war cabinet falls apart",
+   "show": "Iran: The Latest",
+   "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
+   "release_date": "2026-11-06",
+   "duration_ms": 2136529,
+   "image": "https://i.scdn.co/image/ab67656300005f1f6f8e238e997c7ea142fd27f6",
+   "first_seen": "2026-11-07T02:10:02Z",
+   "progress_ms": 1243281,
+   "last_seen": "2026-11-07T02:10:02Z",
+   "url": "https://open.spotify.com/episode/2EzKXrv805pZ2k2T8ejCG1",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
+  },
+  {
    "name": "#2111- LA Needs to Hit The Pavement & The Obama Speech That Ruined America | Part 2",
    "show": "The Adam and Dr. Drew Show",
    "show_uri": "spotify:show:3VN4vP6TztxK3wtT8b9aQL",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-04T01:40:03Z",
    "url": "https://open.spotify.com/episode/4jpQNcm3yZZAvtjsB9bgSC",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f5a4e319927f9dcfb7453f69d"
-  },
-  {
-   "name": "US bombs Iran’s Qeshm Island as Tehran weighs nuclear weapons breakout",
-   "show": "Iran: The Latest",
-   "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
-   "release_date": "2026-11-03",
-   "duration_ms": 2400627,
-   "image": "https://i.scdn.co/image/ab67656300005f1f29c019851b8f1e8b3295bc40",
-   "first_seen": "2026-11-03T22:40:03Z",
-   "progress_ms": 2516441,
-   "last_seen": "2026-11-04T01:10:03Z",
-   "url": "https://open.spotify.com/episode/61tFOAn6RUS3DhlY26qrD4",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
   }
  ],
  "top_shows": [
