@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-07T14:10:05Z",
+ "generated": "2026-11-07T14:40:06Z",
  "totals": {
   "plays": 125021,
   "hours": 8499.4,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "What Do the Dead Internet Theory and Russian Intelligence Operations Have in Common? With Carl Miller",
+   "show": "Intelligence Squared",
+   "show_uri": "spotify:show:7gnNY9Fy8QSRbjXZ00A9jW",
+   "release_date": "2026-11-04",
+   "duration_ms": 2376202,
+   "image": "https://i.scdn.co/image/ab67656300005f1fc7218bf98d44b6b022c2c23e",
+   "first_seen": "2026-11-07T14:40:02Z",
+   "progress_ms": 1638557,
+   "last_seen": "2026-11-07T14:40:02Z",
+   "url": "https://open.spotify.com/episode/2kAUSg57qGAB1kcEcAAbO3",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f4b328600f6be4cce175cc6b9"
+  },
+  {
    "name": "2026 Election: What Happens Next?",
    "show": "The Middle with Jeremy Hobson",
    "show_uri": "spotify:show:5l5B4IoLnVHnFMLmGSar2f",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-06T14:40:02Z",
    "url": "https://open.spotify.com/episode/3DEItItUBqFjZzFA8pmee9",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97"
-  },
-  {
-   "name": "Blake J. Harris: Larry David Was My Hero Before And After Writing His Book",
-   "show": "Adam Carolla Show",
-   "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
-   "release_date": "2026-11-05",
-   "duration_ms": 6309877,
-   "image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f",
-   "first_seen": "2026-11-05T12:40:02Z",
-   "progress_ms": 6274920,
-   "last_seen": "2026-11-05T15:40:04Z",
-   "url": "https://open.spotify.com/episode/2OHmugQreS1DEAi7QuZ6Vk",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
   }
  ],
  "top_shows": [
