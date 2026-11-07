@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-07T13:10:07Z",
+ "generated": "2026-11-07T13:40:05Z",
  "totals": {
   "plays": 125021,
   "hours": 8499.4,
@@ -1491,6 +1491,32 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Is this the end of Trump? With Anthony Scaramucci",
+   "show": "Christiane Amanpour Presents: The Ex Files",
+   "show_uri": "spotify:show:3ZpgFegm3q3AGjiFbjLV59",
+   "release_date": "2026-11-04",
+   "duration_ms": 2237596,
+   "image": "https://i.scdn.co/image/ab67656300005f1f5a4e319927f9dcfb7453f69d",
+   "first_seen": "2026-11-07T13:10:03Z",
+   "progress_ms": 2273440,
+   "last_seen": "2026-11-07T13:40:02Z",
+   "url": "https://open.spotify.com/episode/3WGlGHFsIY6Z2QCGVYn5SC",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f5a4e319927f9dcfb7453f69d"
+  },
+  {
+   "name": "2026 Election: What Happens Next?",
+   "show": "The Middle with Jeremy Hobson",
+   "show_uri": "spotify:show:5l5B4IoLnVHnFMLmGSar2f",
+   "release_date": "2026-11-06",
+   "duration_ms": 3041450,
+   "image": "https://i.scdn.co/image/ab67656300005f1fba6d574ea990c0caa70cbf80",
+   "first_seen": "2026-11-07T13:40:02Z",
+   "progress_ms": 107018,
+   "last_seen": "2026-11-07T13:40:02Z",
+   "url": "https://open.spotify.com/episode/4JB9eV1C4Tbs9y1YPB06us",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f083f152347124d54a12d4ca0"
+  },
+  {
    "name": "The Macro Implications of the Blue Tsunami",
    "show": "Odd Lots",
    "show_uri": "spotify:show:1te7oSFyRVekxMBJUSethH",
@@ -1502,19 +1528,6 @@ window.LISTENING = {
    "last_seen": "2026-11-07T13:10:04Z",
    "url": "https://open.spotify.com/episode/55pJWtDAFF2VPMw9wOJblh",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42"
-  },
-  {
-   "name": "Is this the end of Trump? With Anthony Scaramucci",
-   "show": "Christiane Amanpour Presents: The Ex Files",
-   "show_uri": "spotify:show:3ZpgFegm3q3AGjiFbjLV59",
-   "release_date": "2026-11-04",
-   "duration_ms": 2237596,
-   "image": "https://i.scdn.co/image/ab67656300005f1f5a4e319927f9dcfb7453f69d",
-   "first_seen": "2026-11-07T13:10:03Z",
-   "progress_ms": 594846,
-   "last_seen": "2026-11-07T13:10:03Z",
-   "url": "https://open.spotify.com/episode/3WGlGHFsIY6Z2QCGVYn5SC",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f5a4e319927f9dcfb7453f69d"
   },
   {
    "name": "The Russian Officer Secretly Working for Ukraine",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-05T15:40:04Z",
    "url": "https://open.spotify.com/episode/2OHmugQreS1DEAi7QuZ6Vk",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
-  },
-  {
-   "name": "Iran threatens ‘nightmare’ if Trump launches attack after midterms bloodbath",
-   "show": "Iran: The Latest",
-   "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
-   "release_date": "2026-11-04",
-   "duration_ms": 2543595,
-   "image": "https://i.scdn.co/image/ab67656300005f1f6b69db3d38c9b2d95c0745a2",
-   "first_seen": "2026-11-05T02:10:02Z",
-   "progress_ms": 2558548,
-   "last_seen": "2026-11-05T04:40:03Z",
-   "url": "https://open.spotify.com/episode/3zQqbfCjhAMwoyrEoke5bQ",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
   }
  ],
  "top_shows": [
