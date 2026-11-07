@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-06T23:10:05Z",
+ "generated": "2026-11-07T01:10:06Z",
  "totals": {
-  "plays": 124978,
-  "hours": 8496.3,
+  "plays": 124979,
+  "hours": 8496.4,
   "artists": 702,
   "albums": 1526,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Is This Love - 2018 Remaster",
+   "artist": "Whitesnake",
+   "album": "Whitesnake (2018 Remaster)",
+   "year": 1987,
+   "image": "https://i.scdn.co/image/ab67616d00001e0249113b5921d7a53f49b64bfd",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27349113b5921d7a53f49b64bfd",
+   "url": "https://open.spotify.com/track/6QyWVCLASvvtpKD0KJZs5e",
+   "album_url": "https://open.spotify.com/album/7swyGza0lOXnnkfSupULM5",
+   "played_at": "2026-11-06T23:51:08.497Z"
+  },
   {
    "name": "Billie Jean",
    "artist": "Michael Jackson",
@@ -525,17 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/5enxwA8aAbwZbf5qCHORXi",
    "album_url": "https://open.spotify.com/album/6kZ42qRrzov54LcAk4onW9",
    "played_at": "2026-11-05T23:41:53.690Z"
-  },
-  {
-   "name": "Supermassive Black Hole",
-   "artist": "Muse",
-   "album": "Black Holes and Revelations",
-   "year": 2006,
-   "image": "https://i.scdn.co/image/ab67616d00001e0228933b808bfb4cbbd0385400",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27328933b808bfb4cbbd0385400",
-   "url": "https://open.spotify.com/track/3lPr8ghNDBLc2uZovNyLs9",
-   "album_url": "https://open.spotify.com/album/0lw68yx3MhKflWFqCsGkIs",
-   "played_at": "2026-11-05T23:00:18.496Z"
   }
  ],
  "top_artists": [
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32876,
+   "plays": 32877,
    "covers": [
     {
      "name": "Back In Black",
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "#2111- LA Needs to Hit The Pavement & The Obama Speech That Ruined America | Part 2",
+   "show": "The Adam and Dr. Drew Show",
+   "show_uri": "spotify:show:3VN4vP6TztxK3wtT8b9aQL",
+   "release_date": "2026-11-06",
+   "duration_ms": 2957662,
+   "image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b",
+   "first_seen": "2026-11-07T01:10:02Z",
+   "progress_ms": 1290337,
+   "last_seen": "2026-11-07T01:10:02Z",
+   "url": "https://open.spotify.com/episode/7rUakM8WblJ9b3wLsaRkVD",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
+  },
+  {
    "name": "Vance revolts over Iran war. Will Israel go it alone?",
    "show": "Iran: The Latest",
    "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-04T01:10:03Z",
    "url": "https://open.spotify.com/episode/61tFOAn6RUS3DhlY26qrD4",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
-  },
-  {
-   "name": "‘Fellowship of the Ring’ Revisited Episode 1: Prologue and Concerning Hobbits With Kumail Nanjiani | Fellowship of the Pod",
-   "show": "House of R",
-   "show_uri": "spotify:show:4GyqecnSWZxUGNEUqJNNT7",
-   "release_date": "2026-11-01",
-   "duration_ms": 11460800,
-   "image": "https://i.scdn.co/image/ab67656300005f1f2da6dd17b5ba7a24e9783d64",
-   "first_seen": "2026-11-03T18:40:03Z",
-   "progress_ms": 1394801,
-   "last_seen": "2026-11-03T21:10:03Z",
-   "url": "https://open.spotify.com/episode/54QYWTMQloySMidylP1VaD",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f889a0a13b01115497f3a866f"
   }
  ],
  "top_shows": [
