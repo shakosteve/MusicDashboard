@@ -1,14 +1,102 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-07T04:10:04Z",
+ "generated": "2026-11-07T04:40:05Z",
  "totals": {
-  "plays": 125001,
-  "hours": 8497.9,
+  "plays": 125009,
+  "hours": 8498.5,
   "artists": 702,
   "albums": 1526,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Take on Me",
+   "artist": "a-ha",
+   "album": "Hunting High and Low",
+   "year": 1985,
+   "image": "https://i.scdn.co/image/ab67616d00001e02e8dd4db47e7177c63b0b7d53",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273e8dd4db47e7177c63b0b7d53",
+   "url": "https://open.spotify.com/track/2WfaOiMkCvy7F5fcp2zZ8L",
+   "album_url": "https://open.spotify.com/album/1ER3B6zev5JEAaqhnyyfbf",
+   "played_at": "2026-11-07T04:37:11.344Z"
+  },
+  {
+   "name": "Kiss",
+   "artist": "Prince",
+   "album": "Parade - Music from the Motion Picture Under the Cherry Moon",
+   "year": 1986,
+   "image": "https://i.scdn.co/image/ab67616d00001e0223cc0f0a925845a3de4aca38",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27323cc0f0a925845a3de4aca38",
+   "url": "https://open.spotify.com/track/62LJFaYihsdVrrkgUOJC05",
+   "album_url": "https://open.spotify.com/album/54DjkEN3wdCQgfCTZ9WjdB",
+   "played_at": "2026-11-07T04:33:25.539Z"
+  },
+  {
+   "name": "18 and Life",
+   "artist": "Skid Row",
+   "album": "Skid Row",
+   "year": 1989,
+   "image": "https://i.scdn.co/image/ab67616d00001e02bb639863b7b716acf67bfa64",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273bb639863b7b716acf67bfa64",
+   "url": "https://open.spotify.com/track/3620P9KJS2PDebJ9ABFitc",
+   "album_url": "https://open.spotify.com/album/0L5J7BLU1AKDuSewTMpw7E",
+   "played_at": "2026-11-07T04:29:38.789Z"
+  },
+  {
+   "name": "Rolling in the Deep",
+   "artist": "Adele",
+   "album": "21",
+   "year": 2011,
+   "image": "https://i.scdn.co/image/ab67616d00001e027e7e5dd9d1ab19fcded8a17f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2737e7e5dd9d1ab19fcded8a17f",
+   "url": "https://open.spotify.com/track/1c8gk2PeTE04A1pIDH9YMk",
+   "album_url": "https://open.spotify.com/album/0Lg1uZvI312TPqxNWShFXL",
+   "played_at": "2026-11-07T04:25:48.289Z"
+  },
+  {
+   "name": "Thrill",
+   "artist": "BAND-MAID",
+   "album": "New Beginning",
+   "year": 2015,
+   "image": "https://i.scdn.co/image/ab67616d00001e02c9d078b963bf1205f26eb90b",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273c9d078b963bf1205f26eb90b",
+   "url": "https://open.spotify.com/track/7wBVGv4ZncSobd8fCu0WM1",
+   "album_url": "https://open.spotify.com/album/3fGJG29oqHwWqqyV5UGUQa",
+   "played_at": "2026-11-07T04:21:59.700Z"
+  },
+  {
+   "name": "Just Like Paradise",
+   "artist": "David Lee Roth",
+   "album": "Skyscraper",
+   "year": 1988,
+   "image": "https://i.scdn.co/image/ab67616d00001e0296e6dd224811d84e0f3f625f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27396e6dd224811d84e0f3f625f",
+   "url": "https://open.spotify.com/track/5ZY7Gug850kv4heJcWZGHM",
+   "album_url": "https://open.spotify.com/album/2mYFKWSxCYhLHSXsjLDmp4",
+   "played_at": "2026-11-07T04:17:53.341Z"
+  },
+  {
+   "name": "Du hast",
+   "artist": "Rammstein",
+   "album": "Sehnsucht (Remastered 2023)",
+   "year": 1997,
+   "image": "https://i.scdn.co/image/ab67616d00001e02030cda12ffbebd6561c1c0f0",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273030cda12ffbebd6561c1c0f0",
+   "url": "https://open.spotify.com/track/6XcoiOYiNbIxzpt8WRxq8Z",
+   "album_url": "https://open.spotify.com/album/6hh5ax5BomINXGoi4q7FDP",
+   "played_at": "2026-11-07T04:13:49.428Z"
+  },
+  {
+   "name": "Since I've Been Loving You - (Live at MSG 1973) [Remaster]",
+   "artist": "Led Zeppelin",
+   "album": "The Song Remains the Same (Remaster)",
+   "year": 1976,
+   "image": "https://i.scdn.co/image/ab67616d00001e021ac4670157a26949de3ba875",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2731ac4670157a26949de3ba875",
+   "url": "https://open.spotify.com/track/6Xfw7G8EZXh9QIh8faW6q4",
+   "album_url": "https://open.spotify.com/album/0ui4S0TZghkf1d1Wz0oWpk",
+   "played_at": "2026-11-07T04:09:53.441Z"
+  },
   {
    "name": "Sorry About Your Penis",
    "artist": "Smash Mouth",
@@ -448,94 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/7gSQv1OHpkIoAdUiRLdmI6",
    "album_url": "https://open.spotify.com/album/5d71Imt5CIb7LpQwDMQ093",
    "played_at": "2026-11-06T15:32:38.915Z"
-  },
-  {
-   "name": "Bad Company - 2015 Remaster",
-   "artist": "Bad Company",
-   "album": "Bad Company (Deluxe)",
-   "year": 1974,
-   "image": "https://i.scdn.co/image/ab67616d00001e029adafd7f9d57380d1d0373af",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2739adafd7f9d57380d1d0373af",
-   "url": "https://open.spotify.com/track/36vTL8WP4ZoD1bbUaW0V3E",
-   "album_url": "https://open.spotify.com/album/4fuDpBLCt9ChDlqw48bj7p",
-   "played_at": "2026-11-06T15:29:40.059Z"
-  },
-  {
-   "name": "Rock & Roll Band",
-   "artist": "Boston",
-   "album": "Boston",
-   "year": 1976,
-   "image": "https://i.scdn.co/image/ab67616d00001e028c1fadcc997a65384f34d694",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2738c1fadcc997a65384f34d694",
-   "url": "https://open.spotify.com/track/5E89Izp4YhPyNShoxiOJ1u",
-   "album_url": "https://open.spotify.com/album/2QLp07RO6anZHmtcKTEvSC",
-   "played_at": "2026-11-06T15:24:51.430Z"
-  },
-  {
-   "name": "My Way, Soon",
-   "artist": "Greta Van Fleet",
-   "album": "Broken Bells",
-   "year": 2021,
-   "image": "https://i.scdn.co/image/ab67616d00001e029163a72affa104f29fc576fb",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2739163a72affa104f29fc576fb",
-   "url": "https://open.spotify.com/track/2IsuiHhWDj8ByvznN04v7S",
-   "album_url": "https://open.spotify.com/album/1rWkxCNuPFzDRFANL8lLnG",
-   "played_at": "2026-11-06T15:21:50.606Z"
-  },
-  {
-   "name": "Fly By Night",
-   "artist": "Rush",
-   "album": "Fly By Night",
-   "year": 1975,
-   "image": "https://i.scdn.co/image/ab67616d00001e0211079bb97e1f95d1a917ce0b",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27311079bb97e1f95d1a917ce0b",
-   "url": "https://open.spotify.com/track/54TaGh2JKs1pO9daXNXI5q",
-   "album_url": "https://open.spotify.com/album/3ZtICWkqezf0bBTUwY1Khe",
-   "played_at": "2026-11-06T15:17:34.820Z"
-  },
-  {
-   "name": "Kiss Me Deadly",
-   "artist": "Lita Ford",
-   "album": "Lita",
-   "year": 1988,
-   "image": "https://i.scdn.co/image/ab67616d00001e022dbf0cc843a4a0fe8c8f5482",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2732dbf0cc843a4a0fe8c8f5482",
-   "url": "https://open.spotify.com/track/0kFM6t9htbB53Dg8frGDGh",
-   "album_url": "https://open.spotify.com/album/5nfd1bXqze24U3EZXP1Qlk",
-   "played_at": "2026-11-06T15:14:12.228Z"
-  },
-  {
-   "name": "MORE - Live from Auditorio Nacional, CDMX",
-   "artist": "The Warning",
-   "album": "Live from Auditorio Nacional, CDMX",
-   "year": 2025,
-   "image": "https://i.scdn.co/image/ab67616d00001e025cda6d880ec3968aa6b6ac2f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
-   "url": "https://open.spotify.com/track/0cRNHbTM0dpFLwGHWiv195",
-   "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
-   "played_at": "2026-11-06T15:10:09.808Z"
-  },
-  {
-   "name": "Don't Stop Believin' (2022 Remaster)",
-   "artist": "Journey",
-   "album": "Escape (2022 Remaster)",
-   "year": 1981,
-   "image": "https://i.scdn.co/image/ab67616d00001e0223290120a609a65e14cfe018",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27323290120a609a65e14cfe018",
-   "url": "https://open.spotify.com/track/5RKQ5NdjSh2QzD4MaunT91",
-   "album_url": "https://open.spotify.com/album/4guAwaniEAEQSW0NCpo4gm",
-   "played_at": "2026-11-06T15:06:30.981Z"
-  },
-  {
-   "name": "Bad News",
-   "artist": "NOAPOLOGY",
-   "album": "Uncovered",
-   "year": 2025,
-   "image": "https://i.scdn.co/image/ab67616d00001e02e2128ce797b85ee7de274abb",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273e2128ce797b85ee7de274abb",
-   "url": "https://open.spotify.com/track/6WXnv6IZK6ogP6ZJnmQbwr",
-   "album_url": "https://open.spotify.com/album/3xhloSIytfKpvaWWrMHjOs",
-   "played_at": "2026-11-06T15:02:20.605Z"
   }
  ],
  "top_artists": [
@@ -559,7 +559,7 @@ window.LISTENING = {
   },
   {
    "name": "Led Zeppelin",
-   "plays": 2303,
+   "plays": 2304,
    "url": "https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp",
    "image": "https://i.scdn.co/image/ab67616d00001e02c8a11e48c91a982d086afc69"
   },
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28671,
+   "plays": 28672,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32884,
+   "plays": 32888,
    "covers": [
     {
      "name": "Back In Black",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9712,
+   "plays": 9713,
    "covers": [
     {
      "name": "Amazing",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15773,
+   "plays": 15775,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1379,7 +1379,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2737e7e5dd9d1ab19fcded8a17f",
      "url": "https://open.spotify.com/track/1c8gk2PeTE04A1pIDH9YMk",
      "album_url": "https://open.spotify.com/album/0Lg1uZvI312TPqxNWShFXL",
-     "plays": 466
+     "plays": 467
     },
     {
      "name": "N.I.B.",
