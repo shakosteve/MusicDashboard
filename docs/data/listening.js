@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-07T18:10:13Z",
+ "generated": "2026-11-07T19:10:05Z",
  "totals": {
   "plays": 125032,
   "hours": 8500.2,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "174. Why The Rings of Power is AWESOME (a tongue-in-cheek retrospective)",
+   "show": "Exploring Tolkien",
+   "show_uri": "spotify:show:053v5PsgtE8TmMiXXAyThG",
+   "release_date": "2026-10-28",
+   "duration_ms": 3911963,
+   "image": "https://i.scdn.co/image/ab67656300005f1f456b5fd789c9b8b79ec2be34",
+   "first_seen": "2026-11-07T19:10:02Z",
+   "progress_ms": 689190,
+   "last_seen": "2026-11-07T19:10:02Z",
+   "url": "https://open.spotify.com/episode/5q7VepcJ9r3xKEPBfXBaPQ",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f437d42fd22f6b88af853b190"
+  },
+  {
    "name": "Sophie Wants to Play Theo Von 1-on-1, Plus Game 7 Valkyries-Dream Breakdown",
    "show": "No Hesitation with Sophie Cunningham & Drew Hanlen",
    "show_uri": "spotify:show:0wBDPmxsp4ivXog31cGmTX",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-06T20:10:02Z",
    "url": "https://open.spotify.com/episode/11PhEfzuu8yOB45HCvqu5B",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
-  },
-  {
-   "name": "A Generational Win for Democrats Sends the GOP Reeling",
-   "show": "WSJ Opinion: Potomac Watch",
-   "show_uri": "spotify:show:4sMCRFb3B4g9Ax3lDCOOTX",
-   "release_date": "2026-11-04",
-   "duration_ms": 1862034,
-   "image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97",
-   "first_seen": "2026-11-06T12:10:02Z",
-   "progress_ms": 1862034,
-   "last_seen": "2026-11-06T14:40:02Z",
-   "url": "https://open.spotify.com/episode/12gS9UyfXA5iTMs2BEqLpN",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97"
   }
  ],
  "top_shows": [
