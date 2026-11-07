@@ -1,14 +1,47 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-07T14:40:06Z",
+ "generated": "2026-11-07T15:10:07Z",
  "totals": {
-  "plays": 125021,
-  "hours": 8499.4,
+  "plays": 125024,
+  "hours": 8499.6,
   "artists": 702,
   "albums": 1526,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Vogue",
+   "artist": "Madonna",
+   "album": "The Immaculate Collection",
+   "year": 1990,
+   "image": "https://i.scdn.co/image/ab67616d00001e02e275f1fbda1c7bc82f9c386b",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273e275f1fbda1c7bc82f9c386b",
+   "url": "https://open.spotify.com/track/7j5TIXPi0cCbSSqItmbyZy",
+   "album_url": "https://open.spotify.com/album/5MzwGwnO9gkh0z6Nl4FF8h",
+   "played_at": "2026-11-07T14:55:27.936Z"
+  },
+  {
+   "name": "Mr. Bojangles - Remastered 2001",
+   "artist": "Nitty Gritty Dirt Band",
+   "album": "Certified Hits (Remastered)",
+   "year": 2001,
+   "image": "https://i.scdn.co/image/ab67616d00001e026b83cabfed67cdd0016b0191",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2736b83cabfed67cdd0016b0191",
+   "url": "https://open.spotify.com/track/3cq6mwsjgygbwRIi9wVPGv",
+   "album_url": "https://open.spotify.com/album/2ZJcwgKQMSLyQAfBJsWfbD",
+   "played_at": "2026-11-07T14:50:09.426Z"
+  },
+  {
+   "name": "Pink Houses",
+   "artist": "John Mellencamp",
+   "album": "Uh-HUH!",
+   "year": 1983,
+   "image": "https://i.scdn.co/image/ab67616d00001e02cd949894aa0df080ed50ff9b",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273cd949894aa0df080ed50ff9b",
+   "url": "https://open.spotify.com/track/5JKQMoGmXwDHCodn5pFVHB",
+   "album_url": "https://open.spotify.com/album/1p4YwrjrP7t6Rfb755yoTQ",
+   "played_at": "2026-11-07T14:46:33.441Z"
+  },
   {
    "name": "Somebody To Love",
    "artist": "Queen",
@@ -503,39 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/3YPWoSTTdI97QeyjV9t68F",
    "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
    "played_at": "2026-11-06T23:04:41.477Z"
-  },
-  {
-   "name": "Over the Hills and Far Away - Remaster",
-   "artist": "Led Zeppelin",
-   "album": "Houses of the Holy (Remaster)",
-   "year": 1973,
-   "image": "https://i.scdn.co/image/ab67616d00001e021aa47e71c4edfeaddb65cd54",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2731aa47e71c4edfeaddb65cd54",
-   "url": "https://open.spotify.com/track/2eDdFHgqNJltzlvlZFVDWd",
-   "album_url": "https://open.spotify.com/album/0GqpoHJREPp0iuXK3HzrHk",
-   "played_at": "2026-11-06T23:01:04.259Z"
-  },
-  {
-   "name": "No More Tears",
-   "artist": "Ozzy Osbourne",
-   "album": "No More Tears (Expanded Edition)",
-   "year": 1991,
-   "image": "https://i.scdn.co/image/ab67616d00001e02509342e69eb341df70e5c2e3",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273509342e69eb341df70e5c2e3",
-   "url": "https://open.spotify.com/track/7w6PJe5KBPyvuRYxFkPssC",
-   "album_url": "https://open.spotify.com/album/6eh82ojicL8RSJF7GkYTh7",
-   "played_at": "2026-11-06T22:45:42.907Z"
-  },
-  {
-   "name": "Hallelujah",
-   "artist": "Rufus Wainwright",
-   "album": "Shrek (Music From The Original Motion Picture)",
-   "year": 2001,
-   "image": "https://i.scdn.co/image/ab67616d00001e026608b12a4cbbb2ab179c7738",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2736608b12a4cbbb2ab179c7738",
-   "url": "https://open.spotify.com/track/5USZyz6dnBEn1oLsKcAKQy",
-   "album_url": "https://open.spotify.com/album/4fFn4t0JoZrNB3VY4HZ970",
-   "played_at": "2026-11-06T22:17:53.804Z"
   }
  ],
  "top_artists": [
@@ -565,7 +565,7 @@ window.LISTENING = {
   },
   {
    "name": "Madonna",
-   "plays": 2107,
+   "plays": 2108,
    "url": "https://open.spotify.com/artist/6tbjWDEIzxoDsBA1FuhfPW",
    "image": "https://i.scdn.co/image/ab67616d00001e026b44fa8f5415cc4c945117be"
   },
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32891,
+   "plays": 32892,
    "covers": [
     {
      "name": "Back In Black",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9714,
+   "plays": 9715,
    "covers": [
     {
      "name": "Amazing",
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 12000,
+   "plays": 12001,
    "covers": [
     {
      "name": "Material Girl",
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Sophie Wants to Play Theo Von 1-on-1, Plus Game 7 Valkyries-Dream Breakdown",
+   "show": "No Hesitation with Sophie Cunningham & Drew Hanlen",
+   "show_uri": "spotify:show:0wBDPmxsp4ivXog31cGmTX",
+   "release_date": "2026-11-02",
+   "duration_ms": 3594083,
+   "image": "https://i.scdn.co/image/ab67656300005f1f38f7420439fd9196a273a078",
+   "first_seen": "2026-11-07T15:10:02Z",
+   "progress_ms": 630186,
+   "last_seen": "2026-11-07T15:10:02Z",
+   "url": "https://open.spotify.com/episode/6rrV9lsJFr0IFHCpdtZOeW",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1ff71d281479683178fec972fc"
+  },
+  {
    "name": "What Do the Dead Internet Theory and Russian Intelligence Operations Have in Common? With Carl Miller",
    "show": "Intelligence Squared",
    "show_uri": "spotify:show:7gnNY9Fy8QSRbjXZ00A9jW",
@@ -1631,19 +1644,6 @@ window.LISTENING = {
    "progress_ms": 1862034,
    "last_seen": "2026-11-06T14:40:02Z",
    "url": "https://open.spotify.com/episode/12gS9UyfXA5iTMs2BEqLpN",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97"
-  },
-  {
-   "name": "It’s the War, Stupid? / Trump’s Next Steps in Iran",
-   "show": "WSJ Opinion: Potomac Watch",
-   "show_uri": "spotify:show:4sMCRFb3B4g9Ax3lDCOOTX",
-   "release_date": "2026-11-05",
-   "duration_ms": 1935046,
-   "image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97",
-   "first_seen": "2026-11-06T12:40:04Z",
-   "progress_ms": 1935046,
-   "last_seen": "2026-11-06T14:40:02Z",
-   "url": "https://open.spotify.com/episode/3DEItItUBqFjZzFA8pmee9",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97"
   }
  ],
