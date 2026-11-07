@@ -1,14 +1,36 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-07T02:10:06Z",
+ "generated": "2026-11-07T02:40:07Z",
  "totals": {
-  "plays": 124979,
-  "hours": 8496.4,
+  "plays": 124981,
+  "hours": 8496.6,
   "artists": 702,
   "albums": 1526,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Wild Side",
+   "artist": "Mötley Crüe",
+   "album": "Girls, Girls, Girls (Deluxe Version)",
+   "year": 1987,
+   "image": "https://i.scdn.co/image/ab67616d00001e02c1b41df3ca1fc7f6a69feb4f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273c1b41df3ca1fc7f6a69feb4f",
+   "url": "https://open.spotify.com/track/7zVpUAOuXY7pHHSm21jFEq",
+   "album_url": "https://open.spotify.com/album/0vPZhR1KpbRNBOQBsDScS8",
+   "played_at": "2026-11-07T02:38:53.592Z"
+  },
+  {
+   "name": "Love Song",
+   "artist": "Tesla",
+   "album": "The Great Radio Controversy",
+   "year": 1989,
+   "image": "https://i.scdn.co/image/ab67616d00001e026dca0336b9bde7b08c190209",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2736dca0336b9bde7b08c190209",
+   "url": "https://open.spotify.com/track/0vJUdIefT5caKla9H8b1q4",
+   "album_url": "https://open.spotify.com/album/6E84FmjNjs38HXdhtOzbCM",
+   "played_at": "2026-11-07T02:34:09.531Z"
+  },
   {
    "name": "Is This Love - 2018 Remaster",
    "artist": "Whitesnake",
@@ -514,28 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/7uWFUpGuEfmxYeymkV95jn",
    "album_url": "https://open.spotify.com/album/0dZaHQ0OJlIyVrEuvnXmS9",
    "played_at": "2026-11-06T01:10:25.173Z"
-  },
-  {
-   "name": "Ugh",
-   "artist": "The Warning",
-   "album": "Queen of the Murder Scene",
-   "year": 2018,
-   "image": "https://i.scdn.co/image/ab67616d00001e02e0871bbaad013df7b7e56c2a",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273e0871bbaad013df7b7e56c2a",
-   "url": "https://open.spotify.com/track/6LZj44LIoPChkWVxqjobso",
-   "album_url": "https://open.spotify.com/album/2kB1Qqw3YOR9i3nbNxXWRs",
-   "played_at": "2026-11-06T01:07:54.782Z"
-  },
-  {
-   "name": "All Too Well (10 Minute Version) (Taylor's Version) (From The Vault)",
-   "artist": "Taylor Swift",
-   "album": "Red (Taylor's Version)",
-   "year": 2021,
-   "image": "https://i.scdn.co/image/ab67616d00001e02318443aab3531a0558e79a4d",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273318443aab3531a0558e79a4d",
-   "url": "https://open.spotify.com/track/5enxwA8aAbwZbf5qCHORXi",
-   "album_url": "https://open.spotify.com/album/6kZ42qRrzov54LcAk4onW9",
-   "played_at": "2026-11-05T23:41:53.690Z"
   }
  ],
  "top_artists": [
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32877,
+   "plays": 32879,
    "covers": [
     {
      "name": "Back In Black",
