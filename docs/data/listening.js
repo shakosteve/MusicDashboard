@@ -1,14 +1,91 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-07T03:10:06Z",
+ "generated": "2026-11-07T03:40:05Z",
  "totals": {
-  "plays": 124988,
-  "hours": 8497.0,
+  "plays": 124995,
+  "hours": 8497.5,
   "artists": 702,
   "albums": 1526,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "American Girl",
+   "artist": "Tom Petty and the Heartbreakers",
+   "album": "Tom Petty And The Heartbreakers",
+   "year": 1976,
+   "image": "https://i.scdn.co/image/ab67616d00001e02d38733f240ef69763120a469",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273d38733f240ef69763120a469",
+   "url": "https://open.spotify.com/track/53LwBS4bovyljsMlLqGfd6",
+   "album_url": "https://open.spotify.com/album/0JBy4lxBlQIxMZ8qPMIJER",
+   "played_at": "2026-11-07T03:38:41.672Z"
+  },
+  {
+   "name": "Oh Well feat. Chris Stapleton",
+   "artist": "Slash, Chris Stapleton",
+   "album": "Oh Well feat. Chris Stapleton",
+   "year": 2024,
+   "image": "https://i.scdn.co/image/ab67616d00001e02a288a30f4133154538ea5d3d",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273a288a30f4133154538ea5d3d",
+   "url": "https://open.spotify.com/track/6xvriZfsi9MZ8TAE2wqY2z",
+   "album_url": "https://open.spotify.com/album/0Rl9omLw3rdkK7OiSnHGAG",
+   "played_at": "2026-11-07T03:35:06.445Z"
+  },
+  {
+   "name": "Everything’s Falling",
+   "artist": "The Warning",
+   "album": "Everything’s Falling",
+   "year": 2026,
+   "image": "https://i.scdn.co/image/ab67616d00001e023d3a5263cbb23d7b8866a08c",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2733d3a5263cbb23d7b8866a08c",
+   "url": "https://open.spotify.com/track/4GVXHZ4QJe1lOvtfLsIORd",
+   "album_url": "https://open.spotify.com/album/0YJACBRXuL7jthY9RBtlS5",
+   "played_at": "2026-11-07T03:30:32.442Z"
+  },
+  {
+   "name": "Manic Monday",
+   "artist": "The Bangles",
+   "album": "Different Light (Expanded Edition)",
+   "year": 1986,
+   "image": "https://i.scdn.co/image/ab67616d00001e024aaad3bb593721bcaa6827d6",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2734aaad3bb593721bcaa6827d6",
+   "url": "https://open.spotify.com/track/00vYs0qZA40Z8AAaN7xmMO",
+   "album_url": "https://open.spotify.com/album/7qEP3i0f0zfk6JUFW3SyeN",
+   "played_at": "2026-11-07T03:24:05.436Z"
+  },
+  {
+   "name": "Diamonds on the Soles of Her Shoes",
+   "artist": "Paul Simon",
+   "album": "Graceland (25th Anniversary Deluxe Edition)",
+   "year": 1986,
+   "image": "https://i.scdn.co/image/ab67616d00001e02e5855edffddef46b7feff49b",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273e5855edffddef46b7feff49b",
+   "url": "https://open.spotify.com/track/71GvlH0VdeClloLIkHrAVu",
+   "album_url": "https://open.spotify.com/album/6WgGWYw6XXQyLTsWt7tXky",
+   "played_at": "2026-11-07T03:21:00.706Z"
+  },
+  {
+   "name": "True Colors",
+   "artist": "Cyndi Lauper",
+   "album": "True Colors",
+   "year": 1986,
+   "image": "https://i.scdn.co/image/ab67616d00001e02edbbd1e4dde99597ce850c54",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273edbbd1e4dde99597ce850c54",
+   "url": "https://open.spotify.com/track/2A6yzRGMgSQCUapR2ptm6A",
+   "album_url": "https://open.spotify.com/album/31TRqoVBTQi0lzlPLtvINn",
+   "played_at": "2026-11-07T03:15:09.548Z"
+  },
+  {
+   "name": "Can I Get It",
+   "artist": "Adele",
+   "album": "30",
+   "year": 2021,
+   "image": "https://i.scdn.co/image/ab67616d00001e02c6b577e4c4a6d326354a89f7",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273c6b577e4c4a6d326354a89f7",
+   "url": "https://open.spotify.com/track/6w8ZPYdnGajyfPddTWdthN",
+   "album_url": "https://open.spotify.com/album/21jF5jlMtzo94wbxmJ18aa",
+   "played_at": "2026-11-07T03:11:21.340Z"
+  },
   {
    "name": "25 or 6 to 4 - 2002 Remaster",
    "artist": "Chicago",
@@ -459,89 +536,12 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/7bh6o0jqTn2Bh0M7vHln6f",
    "album_url": "https://open.spotify.com/album/6ICcWbsZxt5fVG02IbZuZg",
    "played_at": "2026-11-06T14:34:07.094Z"
-  },
-  {
-   "name": "Gettin' Jiggy Wit It",
-   "artist": "Will Smith",
-   "album": "Big Willie Style",
-   "year": 1997,
-   "image": "https://i.scdn.co/image/ab67616d00001e02ddf2f9edabd166c60047e3c4",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273ddf2f9edabd166c60047e3c4",
-   "url": "https://open.spotify.com/track/0weAUscowxeqDtpCgtbpgp",
-   "album_url": "https://open.spotify.com/album/2esWeP8Ln1sXA0jbDmi3Zq",
-   "played_at": "2026-11-06T14:31:14.367Z"
-  },
-  {
-   "name": "Tall Cool One - 2006 Remaster",
-   "artist": "Robert Plant",
-   "album": "Now and Zen",
-   "year": 2007,
-   "image": "https://i.scdn.co/image/ab67616d00001e02237101c710f6d7155dbf6c0f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273237101c710f6d7155dbf6c0f",
-   "url": "https://open.spotify.com/track/6vejDalRlBqPrr7s3iwi9U",
-   "album_url": "https://open.spotify.com/album/7MwPi2NpS2OoZ8K1h5tmXV",
-   "played_at": "2026-11-06T14:27:25.945Z"
-  },
-  {
-   "name": "Only Love Can Save Me Now [Feat. Matt Cameron & Kim Thayil]",
-   "artist": "The Pretty Reckless, Matt Cameron, Kim Thayil",
-   "album": "Death By Rock And Roll",
-   "year": 2021,
-   "image": "https://i.scdn.co/image/ab67616d00001e02a8045b6cc934e134e99eddd6",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273a8045b6cc934e134e99eddd6",
-   "url": "https://open.spotify.com/track/4jXoiJSLQkAft0L5D1yjDb",
-   "album_url": "https://open.spotify.com/album/2ysgEIHY4aOMMbbu0uV6ey",
-   "played_at": "2026-11-06T14:22:46.988Z"
-  },
-  {
-   "name": "Consequences",
-   "artist": "Jackie Evancho",
-   "album": "Consequences",
-   "year": 2023,
-   "image": "https://i.scdn.co/image/ab67616d00001e022c07b9d7e43650e02d3b4e4a",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2732c07b9d7e43650e02d3b4e4a",
-   "url": "https://open.spotify.com/track/7B7SdxrXwUkIprHAnmADv1",
-   "album_url": "https://open.spotify.com/album/32lWTQ1vmZdNzzDkCE26t4",
-   "played_at": "2026-11-06T14:17:34.400Z"
-  },
-  {
-   "name": "Bohemian Rhapsody",
-   "artist": "Queen",
-   "album": "A Night At The Opera",
-   "year": 1975,
-   "image": "https://i.scdn.co/image/ab67616d00001e02fdab4a163ab9f6db72c952ee",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273fdab4a163ab9f6db72c952ee",
-   "url": "https://open.spotify.com/track/2JiDi0qAXsPwhPqA2qaKGt",
-   "album_url": "https://open.spotify.com/album/1TkbyIkf6GSrO5e7gWS4AM",
-   "played_at": "2026-11-06T14:13:34.597Z"
-  },
-  {
-   "name": "Sharp Dressed Man (2008 Remaster)",
-   "artist": "ZZ Top",
-   "album": "Eliminator",
-   "year": 1983,
-   "image": "https://i.scdn.co/image/ab67616d00001e02a2b4f98f60e3cacf3866b2e3",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273a2b4f98f60e3cacf3866b2e3",
-   "url": "https://open.spotify.com/track/0bRNszTbTFLNlunAeh7eom",
-   "album_url": "https://open.spotify.com/album/4KW6YVbF8E3kexYcl0k4IK",
-   "played_at": "2026-11-06T14:07:39.703Z"
-  },
-  {
-   "name": "Dirty Deeds Done Dirt Cheap",
-   "artist": "AC/DC",
-   "album": "Dirty Deeds Done Dirt Cheap",
-   "year": 1976,
-   "image": "https://i.scdn.co/image/ab67616d00001e02dfce70698f4d925525383c7c",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273dfce70698f4d925525383c7c",
-   "url": "https://open.spotify.com/track/2d4e45fmUnguxh6yqC7gNT",
-   "album_url": "https://open.spotify.com/album/76mvVgXOde87B9aOzLXCOI",
-   "played_at": "2026-11-06T03:48:02.690Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10681,
+   "plays": 10682,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28669,
+   "plays": 28670,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32880,
+   "plays": 32883,
    "covers": [
     {
      "name": "Back In Black",
@@ -1064,7 +1064,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2734aaad3bb593721bcaa6827d6",
      "url": "https://open.spotify.com/track/00vYs0qZA40Z8AAaN7xmMO",
      "album_url": "https://open.spotify.com/album/7qEP3i0f0zfk6JUFW3SyeN",
-     "plays": 697
+     "plays": 698
     },
     {
      "name": "Panama - 2015 Remaster",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18623,
+   "plays": 18626,
    "covers": [
     {
      "name": "ERROR",
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Iran rebuilds missile sites as Trump’s war cabinet falls apart",
+   "show": "Iran: The Latest",
+   "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
+   "release_date": "2026-11-06",
+   "duration_ms": 2136529,
+   "image": "https://i.scdn.co/image/ab67656300005f1f6f8e238e997c7ea142fd27f6",
+   "first_seen": "2026-11-07T02:10:02Z",
+   "progress_ms": 2136529,
+   "last_seen": "2026-11-07T03:40:02Z",
+   "url": "https://open.spotify.com/episode/2EzKXrv805pZ2k2T8ejCG1",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
+  },
+  {
    "name": "#2111- LA Needs to Hit The Pavement & The Obama Speech That Ruined America | Part 1",
    "show": "The Adam and Dr. Drew Show",
    "show_uri": "spotify:show:3VN4vP6TztxK3wtT8b9aQL",
@@ -1515,19 +1528,6 @@ window.LISTENING = {
    "last_seen": "2026-11-07T03:10:02Z",
    "url": "https://open.spotify.com/episode/7rUakM8WblJ9b3wLsaRkVD",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
-  },
-  {
-   "name": "Iran rebuilds missile sites as Trump’s war cabinet falls apart",
-   "show": "Iran: The Latest",
-   "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
-   "release_date": "2026-11-06",
-   "duration_ms": 2136529,
-   "image": "https://i.scdn.co/image/ab67656300005f1f6f8e238e997c7ea142fd27f6",
-   "first_seen": "2026-11-07T02:10:02Z",
-   "progress_ms": 1243281,
-   "last_seen": "2026-11-07T02:10:02Z",
-   "url": "https://open.spotify.com/episode/2EzKXrv805pZ2k2T8ejCG1",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
   },
   {
    "name": "Vance revolts over Iran war. Will Israel go it alone?",
