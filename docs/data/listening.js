@@ -1,14 +1,69 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-07T17:10:05Z",
+ "generated": "2026-11-07T17:40:07Z",
  "totals": {
-  "plays": 125025,
-  "hours": 8499.7,
+  "plays": 125030,
+  "hours": 8500.0,
   "artists": 702,
   "albums": 1526,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Sledgehammer - 2012 Remaster",
+   "artist": "Peter Gabriel",
+   "album": "So (25th Anniversary Deluxe Edition)",
+   "year": 1986,
+   "image": "https://i.scdn.co/image/ab67616d00001e0255ca4eeb9d2b6d51d04f19eb",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27355ca4eeb9d2b6d51d04f19eb",
+   "url": "https://open.spotify.com/track/4AUS8KNz7zX8XFu9L38GT0",
+   "album_url": "https://open.spotify.com/album/1vJ8rCzq6BJtKGz9Yf6oT3",
+   "played_at": "2026-11-07T17:38:34.094Z"
+  },
+  {
+   "name": "Whole Lotta Love - Live",
+   "artist": "Jimmy Page, The Black Crowes",
+   "album": "Live at the Greek",
+   "year": 2025,
+   "image": "https://i.scdn.co/image/ab67616d00001e02fa6e624fbe4dbca748770195",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273fa6e624fbe4dbca748770195",
+   "url": "https://open.spotify.com/track/1NpILLKnL2kQYwb6bCtiPe",
+   "album_url": "https://open.spotify.com/album/27DJov9N9ian0RrcMO1Iak",
+   "played_at": "2026-11-07T17:33:21.661Z"
+  },
+  {
+   "name": "Keep on Loving You",
+   "artist": "REO Speedwagon",
+   "album": "Hi Infidelity (30th Anniversary Edition)",
+   "year": 1980,
+   "image": "https://i.scdn.co/image/ab67616d00001e02d514470784e3d02ee0bcdb80",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273d514470784e3d02ee0bcdb80",
+   "url": "https://open.spotify.com/track/4rcHWl68ai6KvpXlc8vbnE",
+   "album_url": "https://open.spotify.com/album/0X4ZNTZw7SYgrp5rlBQC3N",
+   "played_at": "2026-11-07T17:27:30.445Z"
+  },
+  {
+   "name": "No Rain",
+   "artist": "Blind Melon",
+   "album": "Blind Melon",
+   "year": 1992,
+   "image": "https://i.scdn.co/image/ab67616d00001e027ed1df1690df31d094d7c2bc",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2737ed1df1690df31d094d7c2bc",
+   "url": "https://open.spotify.com/track/6txWz9UapYHVxEd7dDIHXT",
+   "album_url": "https://open.spotify.com/album/55jET4vDioHHd7ztX7OX3h",
+   "played_at": "2026-11-07T17:24:09.627Z"
+  },
+  {
+   "name": "You Oughta Know - Live at Sirius XM",
+   "artist": "The Warning, Sumerian Pictures",
+   "album": "Mile End Kicks (Music Inspired by the Motion Picture)",
+   "year": 2026,
+   "image": "https://i.scdn.co/image/ab67616d00001e02426c98d50c807024bfc509a6",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273426c98d50c807024bfc509a6",
+   "url": "https://open.spotify.com/track/4TnMnhX1VRWglXugKr9lVq",
+   "album_url": "https://open.spotify.com/album/0OTY8JEbQX6tlrH5eJZG13",
+   "played_at": "2026-11-07T17:11:03.129Z"
+  },
   {
    "name": "Hurts So Good",
    "artist": "John Mellencamp",
@@ -481,67 +536,12 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/0oerlffJSzhRVvtDfLcp3N",
    "album_url": "https://open.spotify.com/album/0kBfgEilUFCMIQY5IOjG4t",
    "played_at": "2026-11-07T02:46:56.883Z"
-  },
-  {
-   "name": "Teach Your Children",
-   "artist": "Crosby, Stills, Nash & Young",
-   "album": "Deja Vu",
-   "year": 1970,
-   "image": "https://i.scdn.co/image/ab67616d00001e0206e00756085191abc01e4cf0",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27306e00756085191abc01e4cf0",
-   "url": "https://open.spotify.com/track/29HaKOpeLSYvqdFyEQSRdj",
-   "album_url": "https://open.spotify.com/album/5bHkK1X4WEOzNvRhehvOcb",
-   "played_at": "2026-11-07T02:41:47.627Z"
-  },
-  {
-   "name": "Wild Side",
-   "artist": "Mötley Crüe",
-   "album": "Girls, Girls, Girls (Deluxe Version)",
-   "year": 1987,
-   "image": "https://i.scdn.co/image/ab67616d00001e02c1b41df3ca1fc7f6a69feb4f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273c1b41df3ca1fc7f6a69feb4f",
-   "url": "https://open.spotify.com/track/7zVpUAOuXY7pHHSm21jFEq",
-   "album_url": "https://open.spotify.com/album/0vPZhR1KpbRNBOQBsDScS8",
-   "played_at": "2026-11-07T02:38:53.592Z"
-  },
-  {
-   "name": "Love Song",
-   "artist": "Tesla",
-   "album": "The Great Radio Controversy",
-   "year": 1989,
-   "image": "https://i.scdn.co/image/ab67616d00001e026dca0336b9bde7b08c190209",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2736dca0336b9bde7b08c190209",
-   "url": "https://open.spotify.com/track/0vJUdIefT5caKla9H8b1q4",
-   "album_url": "https://open.spotify.com/album/6E84FmjNjs38HXdhtOzbCM",
-   "played_at": "2026-11-07T02:34:09.531Z"
-  },
-  {
-   "name": "Is This Love - 2018 Remaster",
-   "artist": "Whitesnake",
-   "album": "Whitesnake (2018 Remaster)",
-   "year": 1987,
-   "image": "https://i.scdn.co/image/ab67616d00001e0249113b5921d7a53f49b64bfd",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27349113b5921d7a53f49b64bfd",
-   "url": "https://open.spotify.com/track/6QyWVCLASvvtpKD0KJZs5e",
-   "album_url": "https://open.spotify.com/album/7swyGza0lOXnnkfSupULM5",
-   "played_at": "2026-11-06T23:51:08.497Z"
-  },
-  {
-   "name": "Billie Jean",
-   "artist": "Michael Jackson",
-   "album": "Thriller 25 Super Deluxe Edition",
-   "year": 2008,
-   "image": "https://i.scdn.co/image/ab67616d00001e024121faee8df82c526cbab2be",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2734121faee8df82c526cbab2be",
-   "url": "https://open.spotify.com/track/5ChkMS8OtdzJeqyybCc9R5",
-   "album_url": "https://open.spotify.com/album/1C2h7mLntPSeVYciMRTF4a",
-   "played_at": "2026-11-06T23:09:35.832Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10682,
+   "plays": 10683,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32893,
+   "plays": 32895,
    "covers": [
     {
      "name": "Back In Black",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9715,
+   "plays": 9716,
    "covers": [
     {
      "name": "Amazing",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18628,
+   "plays": 18630,
    "covers": [
     {
      "name": "ERROR",
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Sophie Wants to Play Theo Von 1-on-1, Plus Game 7 Valkyries-Dream Breakdown",
+   "show": "No Hesitation with Sophie Cunningham & Drew Hanlen",
+   "show_uri": "spotify:show:0wBDPmxsp4ivXog31cGmTX",
+   "release_date": "2026-11-02",
+   "duration_ms": 3594083,
+   "image": "https://i.scdn.co/image/ab67656300005f1f38f7420439fd9196a273a078",
+   "first_seen": "2026-11-07T15:10:02Z",
+   "progress_ms": 3594083,
+   "last_seen": "2026-11-07T17:40:02Z",
+   "url": "https://open.spotify.com/episode/6rrV9lsJFr0IFHCpdtZOeW",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1ff71d281479683178fec972fc"
+  },
+  {
    "name": "What Do the Dead Internet Theory and Russian Intelligence Operations Have in Common? With Carl Miller",
    "show": "Intelligence Squared",
    "show_uri": "spotify:show:7gnNY9Fy8QSRbjXZ00A9jW",
@@ -1502,19 +1515,6 @@ window.LISTENING = {
    "last_seen": "2026-11-07T17:10:02Z",
    "url": "https://open.spotify.com/episode/2kAUSg57qGAB1kcEcAAbO3",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f4b328600f6be4cce175cc6b9"
-  },
-  {
-   "name": "Sophie Wants to Play Theo Von 1-on-1, Plus Game 7 Valkyries-Dream Breakdown",
-   "show": "No Hesitation with Sophie Cunningham & Drew Hanlen",
-   "show_uri": "spotify:show:0wBDPmxsp4ivXog31cGmTX",
-   "release_date": "2026-11-02",
-   "duration_ms": 3594083,
-   "image": "https://i.scdn.co/image/ab67656300005f1f38f7420439fd9196a273a078",
-   "first_seen": "2026-11-07T15:10:02Z",
-   "progress_ms": 2544518,
-   "last_seen": "2026-11-07T16:40:02Z",
-   "url": "https://open.spotify.com/episode/6rrV9lsJFr0IFHCpdtZOeW",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1ff71d281479683178fec972fc"
   },
   {
    "name": "2026 Election: What Happens Next?",
