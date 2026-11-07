@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-07T15:10:07Z",
+ "generated": "2026-11-07T16:10:06Z",
  "totals": {
   "plays": 125024,
   "hours": 8499.6,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "2026 Election: What Happens Next?",
+   "show": "The Middle with Jeremy Hobson",
+   "show_uri": "spotify:show:5l5B4IoLnVHnFMLmGSar2f",
+   "release_date": "2026-11-06",
+   "duration_ms": 3041450,
+   "image": "https://i.scdn.co/image/ab67656300005f1fba6d574ea990c0caa70cbf80",
+   "first_seen": "2026-11-07T13:40:02Z",
+   "progress_ms": 1921544,
+   "last_seen": "2026-11-07T16:10:03Z",
+   "url": "https://open.spotify.com/episode/4JB9eV1C4Tbs9y1YPB06us",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f083f152347124d54a12d4ca0"
+  },
+  {
    "name": "Sophie Wants to Play Theo Von 1-on-1, Plus Game 7 Valkyries-Dream Breakdown",
    "show": "No Hesitation with Sophie Cunningham & Drew Hanlen",
    "show_uri": "spotify:show:0wBDPmxsp4ivXog31cGmTX",
@@ -1515,19 +1528,6 @@ window.LISTENING = {
    "last_seen": "2026-11-07T14:40:02Z",
    "url": "https://open.spotify.com/episode/2kAUSg57qGAB1kcEcAAbO3",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f4b328600f6be4cce175cc6b9"
-  },
-  {
-   "name": "2026 Election: What Happens Next?",
-   "show": "The Middle with Jeremy Hobson",
-   "show_uri": "spotify:show:5l5B4IoLnVHnFMLmGSar2f",
-   "release_date": "2026-11-06",
-   "duration_ms": 3041450,
-   "image": "https://i.scdn.co/image/ab67656300005f1fba6d574ea990c0caa70cbf80",
-   "first_seen": "2026-11-07T13:40:02Z",
-   "progress_ms": 1906513,
-   "last_seen": "2026-11-07T14:10:02Z",
-   "url": "https://open.spotify.com/episode/4JB9eV1C4Tbs9y1YPB06us",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f083f152347124d54a12d4ca0"
   },
   {
    "name": "Is this the end of Trump? With Anthony Scaramucci",
