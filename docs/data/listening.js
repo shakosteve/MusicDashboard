@@ -1,14 +1,69 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-07T19:10:05Z",
+ "generated": "2026-11-07T19:40:06Z",
  "totals": {
-  "plays": 125032,
-  "hours": 8500.2,
+  "plays": 125037,
+  "hours": 8500.6,
   "artists": 702,
   "albums": 1526,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Poison",
+   "artist": "Alice Cooper",
+   "album": "Trash",
+   "year": 1989,
+   "image": "https://i.scdn.co/image/ab67616d00001e0234b292a289c635532da02671",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27334b292a289c635532da02671",
+   "url": "https://open.spotify.com/track/5XcZRgJv3zMhTqCyESjQrF",
+   "album_url": "https://open.spotify.com/album/033cvSPAuSU5ArRfIgQSDU",
+   "played_at": "2026-11-07T19:35:30.722Z"
+  },
+  {
+   "name": "ERROR - Live from Auditorio Nacional, CDMX",
+   "artist": "The Warning",
+   "album": "Live from Auditorio Nacional, CDMX",
+   "year": 2025,
+   "image": "https://i.scdn.co/image/ab67616d00001e025cda6d880ec3968aa6b6ac2f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
+   "url": "https://open.spotify.com/track/13jql4uJUkPc06JXIC3oiz",
+   "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
+   "played_at": "2026-11-07T19:31:00.508Z"
+  },
+  {
+   "name": "Time After Time",
+   "artist": "Ozzy Osbourne",
+   "album": "No More Tears (Expanded Edition)",
+   "year": 1991,
+   "image": "https://i.scdn.co/image/ab67616d00001e02509342e69eb341df70e5c2e3",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273509342e69eb341df70e5c2e3",
+   "url": "https://open.spotify.com/track/1U7WBCkBxc7bGeP6v5juEq",
+   "album_url": "https://open.spotify.com/album/6eh82ojicL8RSJF7GkYTh7",
+   "played_at": "2026-11-07T19:27:01.742Z"
+  },
+  {
+   "name": "Silver Lining",
+   "artist": "Blood Harmony",
+   "album": "Blood Harmony",
+   "year": 2024,
+   "image": "https://i.scdn.co/image/ab67616d00001e02631268258857695ef7953630",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273631268258857695ef7953630",
+   "url": "https://open.spotify.com/track/3JUCwc72OLC2jte10LTgsm",
+   "album_url": "https://open.spotify.com/album/6na54nRQQEqtPoNprUJb6r",
+   "played_at": "2026-11-07T19:19:22.560Z"
+  },
+  {
+   "name": "Demon Fire",
+   "artist": "AC/DC",
+   "album": "POWER UP",
+   "year": 2020,
+   "image": "https://i.scdn.co/image/ab67616d00001e026ee202215547101d947d4b9f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2736ee202215547101d947d4b9f",
+   "url": "https://open.spotify.com/track/6jtUOVRO4p09Z7E35ERRL7",
+   "album_url": "https://open.spotify.com/album/3bTNxJYk2bwdWBMtrjBxb0",
+   "played_at": "2026-11-07T19:15:25.275Z"
+  },
   {
    "name": "Higher Love",
    "artist": "Steve Winwood",
@@ -481,73 +536,18 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/2A6yzRGMgSQCUapR2ptm6A",
    "album_url": "https://open.spotify.com/album/31TRqoVBTQi0lzlPLtvINn",
    "played_at": "2026-11-07T03:15:09.548Z"
-  },
-  {
-   "name": "Can I Get It",
-   "artist": "Adele",
-   "album": "30",
-   "year": 2021,
-   "image": "https://i.scdn.co/image/ab67616d00001e02c6b577e4c4a6d326354a89f7",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273c6b577e4c4a6d326354a89f7",
-   "url": "https://open.spotify.com/track/6w8ZPYdnGajyfPddTWdthN",
-   "album_url": "https://open.spotify.com/album/21jF5jlMtzo94wbxmJ18aa",
-   "played_at": "2026-11-07T03:11:21.340Z"
-  },
-  {
-   "name": "25 or 6 to 4 - 2002 Remaster",
-   "artist": "Chicago",
-   "album": "Chicago II",
-   "year": 1970,
-   "image": "https://i.scdn.co/image/ab67616d00001e02f97c928726d4abbaed5aebf9",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273f97c928726d4abbaed5aebf9",
-   "url": "https://open.spotify.com/track/7GqIDx2QVGOpd4r1fZaUUW",
-   "album_url": "https://open.spotify.com/album/0PRgsdDXQ8QPaDUetVF7yN",
-   "played_at": "2026-11-07T03:07:50.549Z"
-  },
-  {
-   "name": "Superstition - Single Version",
-   "artist": "Stevie Wonder",
-   "album": "The Definitive Collection",
-   "year": 2002,
-   "image": "https://i.scdn.co/image/ab67616d00001e029e447b59bd3e2cbefaa31d91",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2739e447b59bd3e2cbefaa31d91",
-   "url": "https://open.spotify.com/track/1h2xVEoJORqrg71HocgqXd",
-   "album_url": "https://open.spotify.com/album/4E1itnJOhTMRSATNaxh0Sq",
-   "played_at": "2026-11-07T03:03:00.150Z"
-  },
-  {
-   "name": "Lady",
-   "artist": "Styx",
-   "album": "Styx II",
-   "year": 1973,
-   "image": "https://i.scdn.co/image/ab67616d00001e025053c9e335609a8de97e5669",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2735053c9e335609a8de97e5669",
-   "url": "https://open.spotify.com/track/1wpRglLhQ092N1rftlDMD3",
-   "album_url": "https://open.spotify.com/album/6QRpuaqB1chM6wemxQlcy1",
-   "played_at": "2026-11-07T02:58:54.199Z"
-  },
-  {
-   "name": "Live Wire",
-   "artist": "AC/DC",
-   "album": "High Voltage",
-   "year": 1976,
-   "image": "https://i.scdn.co/image/ab67616d00001e028c7f355d649e0a3cfcf6fc39",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2738c7f355d649e0a3cfcf6fc39",
-   "url": "https://open.spotify.com/track/6FWoYwZa13llS7nj0SG65F",
-   "album_url": "https://open.spotify.com/album/19AUoKWRAaQYrggVvdQnqq",
-   "played_at": "2026-11-07T02:55:55.946Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10683,
+   "plays": 10684,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
   {
    "name": "AC/DC",
-   "plays": 3992,
+   "plays": 3993,
    "url": "https://open.spotify.com/artist/711MCceyCBcFnzjGY4Q7Un",
    "image": "https://i.scdn.co/image/ab67616d00001e02ff191d7fbdb5a13eaf84132b"
   },
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32896,
+   "plays": 32897,
    "covers": [
     {
      "name": "Back In Black",
@@ -1108,13 +1108,13 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b27334b292a289c635532da02671",
      "url": "https://open.spotify.com/track/5XcZRgJv3zMhTqCyESjQrF",
      "album_url": "https://open.spotify.com/album/033cvSPAuSU5ArRfIgQSDU",
-     "plays": 506
+     "plays": 507
     }
    ]
   },
   {
    "decade": 1990,
-   "plays": 9716,
+   "plays": 9717,
    "covers": [
     {
      "name": "Amazing",
@@ -1136,7 +1136,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273509342e69eb341df70e5c2e3",
      "url": "https://open.spotify.com/track/0S3gpZzlT9Hb7CCSV2owX7",
      "album_url": "https://open.spotify.com/album/6eh82ojicL8RSJF7GkYTh7",
-     "plays": 531
+     "plays": 532
     },
     {
      "name": "Janie's Got A Gun",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18630,
+   "plays": 18633,
    "covers": [
     {
      "name": "ERROR",
@@ -1440,7 +1440,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
      "url": "https://open.spotify.com/track/3zgbw0cxkS1DQ36O5hGydt",
      "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
-     "plays": 482
+     "plays": 483
     },
     {
      "name": "Shot In The Dark",
@@ -1451,7 +1451,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2736ee202215547101d947d4b9f",
      "url": "https://open.spotify.com/track/0sfdiwck2xr4PteGOdyOfz",
      "album_url": "https://open.spotify.com/album/3bTNxJYk2bwdWBMtrjBxb0",
-     "plays": 476
+     "plays": 477
     },
     {
      "name": "The Barbarians",
