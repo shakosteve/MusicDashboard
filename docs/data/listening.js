@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-07T11:10:06Z",
+ "generated": "2026-11-07T12:40:06Z",
  "totals": {
-  "plays": 125020,
-  "hours": 8499.3,
+  "plays": 125021,
+  "hours": 8499.4,
   "artists": 702,
   "albums": 1526,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Somebody To Love",
+   "artist": "Queen",
+   "album": "A Day At The Races (Deluxe Edition)",
+   "year": 1976,
+   "image": "https://i.scdn.co/image/ab67616d00001e023aa2d125c28475c322ac831e",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2733aa2d125c28475c322ac831e",
+   "url": "https://open.spotify.com/track/18OMrZoyyZuVy06FttIFhq",
+   "album_url": "https://open.spotify.com/album/32wu2qeQwVA6D8z1nWk68Q",
+   "played_at": "2026-11-07T06:26:39.538Z"
+  },
   {
    "name": "Glitch",
    "artist": "Freeze the Fall",
@@ -525,17 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/5USZyz6dnBEn1oLsKcAKQy",
    "album_url": "https://open.spotify.com/album/4fFn4t0JoZrNB3VY4HZ970",
    "played_at": "2026-11-06T22:17:53.804Z"
-  },
-  {
-   "name": "Don't Stand So Close To Me",
-   "artist": "The Police",
-   "album": "Zenyatta Mondatta (Remastered 2003)",
-   "year": 1980,
-   "image": "https://i.scdn.co/image/ab67616d00001e02fb1bc65edf4717e75fbc70ab",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273fb1bc65edf4717e75fbc70ab",
-   "url": "https://open.spotify.com/track/5veJDT0MLsLbhYsx42GXUD",
-   "album_url": "https://open.spotify.com/album/23enz9nXJhH1BR1Rm5CzDJ",
-   "played_at": "2026-11-06T22:11:40.226Z"
   }
  ],
  "top_artists": [
@@ -589,7 +589,7 @@ window.LISTENING = {
   },
   {
    "name": "Queen",
-   "plays": 1916,
+   "plays": 1917,
    "url": "https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d",
    "image": "https://i.scdn.co/image/ab67616d00001e0207744e2ed983efa3e6620a47"
   },
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28676,
+   "plays": 28677,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "The Macro Implications of the Blue Tsunami",
+   "show": "Odd Lots",
+   "show_uri": "spotify:show:1te7oSFyRVekxMBJUSethH",
+   "release_date": "2026-11-06",
+   "duration_ms": 2232633,
+   "image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42",
+   "first_seen": "2026-11-07T12:40:02Z",
+   "progress_ms": 861303,
+   "last_seen": "2026-11-07T12:40:02Z",
+   "url": "https://open.spotify.com/episode/55pJWtDAFF2VPMw9wOJblh",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42"
+  },
+  {
    "name": "The Russian Officer Secretly Working for Ukraine",
    "show": "The Journal.",
    "show_uri": "spotify:show:0KxdEdeY2Wb3zr28dMlQva",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-05T01:10:02Z",
    "url": "https://open.spotify.com/episode/2EzQjWJMd2JAGJMOSCHYyI",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fe19edf2c6856b8b09c057f38"
-  },
-  {
-   "name": "Jamie Lissow: Greg Gutfeld Is Our Carson & What Makes A Great City",
-   "show": "Adam Carolla Show",
-   "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
-   "release_date": "2026-11-04",
-   "duration_ms": 6337645,
-   "image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f",
-   "first_seen": "2026-11-04T13:10:03Z",
-   "progress_ms": 6403466,
-   "last_seen": "2026-11-04T20:10:03Z",
-   "url": "https://open.spotify.com/episode/2iz3CQyRPGO5IWJOv15cXz",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
   }
  ],
  "top_shows": [
