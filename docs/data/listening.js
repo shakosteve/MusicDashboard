@@ -1,14 +1,47 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-07T19:40:06Z",
+ "generated": "2026-11-07T20:10:07Z",
  "totals": {
-  "plays": 125037,
-  "hours": 8500.6,
+  "plays": 125040,
+  "hours": 8500.8,
   "artists": 702,
   "albums": 1526,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Centerfield",
+   "artist": "John Fogerty",
+   "album": "Centerfield (25th Anniversary)",
+   "year": 1985,
+   "image": "https://i.scdn.co/image/ab67616d00001e02f2aaa0b785e5a7644ba31e08",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273f2aaa0b785e5a7644ba31e08",
+   "url": "https://open.spotify.com/track/5f7KV4oOHZylrpa5XKFu6G",
+   "album_url": "https://open.spotify.com/album/7wLd9KZsIrtpcRCVOjq7v8",
+   "played_at": "2026-11-07T19:50:17.789Z"
+  },
+  {
+   "name": "Lyin' Eyes - 2013 Remaster",
+   "artist": "Eagles",
+   "album": "One of These Nights (2013 Remaster)",
+   "year": 1975,
+   "image": "https://i.scdn.co/image/ab67616d00001e025d0a8e54aba5181c79593b94",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2735d0a8e54aba5181c79593b94",
+   "url": "https://open.spotify.com/track/5lQKRR3MdJLtAwNBiT8Cq0",
+   "album_url": "https://open.spotify.com/album/0F77QekrNe8vVAjU2sepja",
+   "played_at": "2026-11-07T19:46:26.028Z"
+  },
+  {
+   "name": "Fly To The Angels",
+   "artist": "Slaughter",
+   "album": "Mass Slaughter: The Best Of Slaughter",
+   "year": 1995,
+   "image": "https://i.scdn.co/image/ab67616d00001e0240b90f1a11cfc3f4ec22610f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27340b90f1a11cfc3f4ec22610f",
+   "url": "https://open.spotify.com/track/1KkKFxAOb4kDpWH8IeLa7A",
+   "album_url": "https://open.spotify.com/album/3eefJebHQxT81kCOMr41l4",
+   "played_at": "2026-11-07T19:40:03.489Z"
+  },
   {
    "name": "Poison",
    "artist": "Alice Cooper",
@@ -503,39 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/4GVXHZ4QJe1lOvtfLsIORd",
    "album_url": "https://open.spotify.com/album/0YJACBRXuL7jthY9RBtlS5",
    "played_at": "2026-11-07T03:30:32.442Z"
-  },
-  {
-   "name": "Manic Monday",
-   "artist": "The Bangles",
-   "album": "Different Light (Expanded Edition)",
-   "year": 1986,
-   "image": "https://i.scdn.co/image/ab67616d00001e024aaad3bb593721bcaa6827d6",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2734aaad3bb593721bcaa6827d6",
-   "url": "https://open.spotify.com/track/00vYs0qZA40Z8AAaN7xmMO",
-   "album_url": "https://open.spotify.com/album/7qEP3i0f0zfk6JUFW3SyeN",
-   "played_at": "2026-11-07T03:24:05.436Z"
-  },
-  {
-   "name": "Diamonds on the Soles of Her Shoes",
-   "artist": "Paul Simon",
-   "album": "Graceland (25th Anniversary Deluxe Edition)",
-   "year": 1986,
-   "image": "https://i.scdn.co/image/ab67616d00001e02e5855edffddef46b7feff49b",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273e5855edffddef46b7feff49b",
-   "url": "https://open.spotify.com/track/71GvlH0VdeClloLIkHrAVu",
-   "album_url": "https://open.spotify.com/album/6WgGWYw6XXQyLTsWt7tXky",
-   "played_at": "2026-11-07T03:21:00.706Z"
-  },
-  {
-   "name": "True Colors",
-   "artist": "Cyndi Lauper",
-   "album": "True Colors",
-   "year": 1986,
-   "image": "https://i.scdn.co/image/ab67616d00001e02edbbd1e4dde99597ce850c54",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273edbbd1e4dde99597ce850c54",
-   "url": "https://open.spotify.com/track/2A6yzRGMgSQCUapR2ptm6A",
-   "album_url": "https://open.spotify.com/album/31TRqoVBTQi0lzlPLtvINn",
-   "played_at": "2026-11-07T03:15:09.548Z"
   }
  ],
  "top_artists": [
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28677,
+   "plays": 28678,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32897,
+   "plays": 32898,
    "covers": [
     {
      "name": "Back In Black",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9717,
+   "plays": 9718,
    "covers": [
     {
      "name": "Amazing",
