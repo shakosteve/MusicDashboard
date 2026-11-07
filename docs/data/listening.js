@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-07T05:40:05Z",
+ "generated": "2026-11-07T11:10:06Z",
  "totals": {
   "plays": 125020,
   "hours": 8499.3,
@@ -1491,6 +1491,32 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "The Russian Officer Secretly Working for Ukraine",
+   "show": "The Journal.",
+   "show_uri": "spotify:show:0KxdEdeY2Wb3zr28dMlQva",
+   "release_date": "2026-11-06",
+   "duration_ms": 1607366,
+   "image": "https://i.scdn.co/image/ab67656300005f1ffed98c4fdc504416141e9409",
+   "first_seen": "2026-11-07T11:10:02Z",
+   "progress_ms": 12687,
+   "last_seen": "2026-11-07T11:10:02Z",
+   "url": "https://open.spotify.com/episode/6wOVLlz9ROiPcx3tu2otcR",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1ffed98c4fdc504416141e9409"
+  },
+  {
+   "name": "Red, White and Who? A Blue Tsunami",
+   "show": "The Journal.",
+   "show_uri": "spotify:show:0KxdEdeY2Wb3zr28dMlQva",
+   "release_date": "2026-11-04",
+   "duration_ms": 1249071,
+   "image": "https://i.scdn.co/image/ab67656300005f1fc1fbfcd63d3853d120f9046f",
+   "first_seen": "2026-11-07T11:10:02Z",
+   "progress_ms": 13299,
+   "last_seen": "2026-11-07T11:10:02Z",
+   "url": "https://open.spotify.com/episode/06X9jc9bH2Ah5FY1RDBGIC",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1ffed98c4fdc504416141e9409"
+  },
+  {
    "name": "Iran rebuilds missile sites as Trump’s war cabinet falls apart",
    "show": "Iran: The Latest",
    "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
@@ -1619,32 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-04T20:10:03Z",
    "url": "https://open.spotify.com/episode/2iz3CQyRPGO5IWJOv15cXz",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
-  },
-  {
-   "name": "Midterms-palooza 2026: An Election Night Special Report!",
-   "show": "The Powers That Be: Daily",
-   "show_uri": "spotify:show:5ZChG4x3aogGtKGkxU6nMH",
-   "release_date": "2026-11-04",
-   "duration_ms": 1844662,
-   "image": "https://i.scdn.co/image/ab67656300005f1f36f39d45bf295cbf58d41331",
-   "first_seen": "2026-11-04T12:10:03Z",
-   "progress_ms": 2019760,
-   "last_seen": "2026-11-04T15:10:04Z",
-   "url": "https://open.spotify.com/episode/3164sQ06w3Cw41nVrpColM",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f55386ae3fe554333e1a85785"
-  },
-  {
-   "name": "Is MAGA done with Trump?",
-   "show": "Christiane Amanpour Presents: The Ex Files",
-   "show_uri": "spotify:show:3ZpgFegm3q3AGjiFbjLV59",
-   "release_date": "2026-11-03",
-   "duration_ms": 2877910,
-   "image": "https://i.scdn.co/image/ab67656300005f1f5a4e319927f9dcfb7453f69d",
-   "first_seen": "2026-11-03T23:10:03Z",
-   "progress_ms": 770760,
-   "last_seen": "2026-11-04T01:40:03Z",
-   "url": "https://open.spotify.com/episode/4jpQNcm3yZZAvtjsB9bgSC",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f5a4e319927f9dcfb7453f69d"
   }
  ],
  "top_shows": [
