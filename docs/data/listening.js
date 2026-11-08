@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-08T03:10:05Z",
+ "generated": "2026-11-08T03:40:11Z",
  "totals": {
   "plays": 125041,
   "hours": 8500.9,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Trump Fires Susie Wiles, Schumer Vows No ‘Right-winger’ Justices, and More Midterm Fallout",
+   "show": "WSJ Opinion: Potomac Watch",
+   "show_uri": "spotify:show:4sMCRFb3B4g9Ax3lDCOOTX",
+   "release_date": "2026-11-06",
+   "duration_ms": 1356747,
+   "image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97",
+   "first_seen": "2026-11-08T03:40:05Z",
+   "progress_ms": 974617,
+   "last_seen": "2026-11-08T03:40:05Z",
+   "url": "https://open.spotify.com/episode/7jKgR4ISd6B7QhmVxoYx99",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97"
+  },
+  {
    "name": "Heavy rain in Gaza floods tens of thousands of tents",
    "show": "Newshour",
    "show_uri": "spotify:show:5qbXje6KaVOHwjsHNTELjA",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-07T03:40:02Z",
    "url": "https://open.spotify.com/episode/2EzKXrv805pZ2k2T8ejCG1",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
-  },
-  {
-   "name": "#2111- LA Needs to Hit The Pavement & The Obama Speech That Ruined America | Part 1",
-   "show": "The Adam and Dr. Drew Show",
-   "show_uri": "spotify:show:3VN4vP6TztxK3wtT8b9aQL",
-   "release_date": "2026-11-04",
-   "duration_ms": 3177560,
-   "image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b",
-   "first_seen": "2026-11-06T13:40:02Z",
-   "progress_ms": 3401424,
-   "last_seen": "2026-11-07T03:10:02Z",
-   "url": "https://open.spotify.com/episode/1v01GZjc3lTnL6imzrUwhf",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
   }
  ],
  "top_shows": [
