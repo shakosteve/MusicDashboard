@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-08T05:10:05Z",
+ "generated": "2026-11-08T12:40:05Z",
  "totals": {
   "plays": 125041,
   "hours": 8500.9,
@@ -1491,6 +1491,32 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "In Moscow's Shadows 270: Hoax Bombs and Difficult Language",
+   "show": "In Moscow's Shadows",
+   "show_uri": "spotify:show:1NKCazxYstY6o8vhpGQSjF",
+   "release_date": "2026-11-08",
+   "duration_ms": 2929055,
+   "image": "https://i.scdn.co/image/ab67656300005f1fd2dd1e74bffcd7cabc91a62c",
+   "first_seen": "2026-11-08T12:40:02Z",
+   "progress_ms": 567031,
+   "last_seen": "2026-11-08T12:40:02Z",
+   "url": "https://open.spotify.com/episode/2jWkWyL3wf8tuayL7AoJn2",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fd2dd1e74bffcd7cabc91a62c"
+  },
+  {
+   "name": "Rahm Emanuel on the blue wave, the Democratic agenda, and his plans for 2028",
+   "show": "Firing Line with Margaret Hoover",
+   "show_uri": "spotify:show:1uBimoCIw9AqeoN2RwlUBq",
+   "release_date": "2026-11-07",
+   "duration_ms": 2026513,
+   "image": "https://i.scdn.co/image/ab67656300005f1f836e33e0257047ce378ffcd1",
+   "first_seen": "2026-11-08T12:40:02Z",
+   "progress_ms": 740716,
+   "last_seen": "2026-11-08T12:40:02Z",
+   "url": "https://open.spotify.com/episode/4k5WSfYEvqpFAqjeRjFIpE",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f836e33e0257047ce378ffcd1"
+  },
+  {
    "name": "Heavy rain in Gaza floods tens of thousands of tents",
    "show": "Newshour",
    "show_uri": "spotify:show:5qbXje6KaVOHwjsHNTELjA",
@@ -1619,32 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-07T13:10:04Z",
    "url": "https://open.spotify.com/episode/55pJWtDAFF2VPMw9wOJblh",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42"
-  },
-  {
-   "name": "The Russian Officer Secretly Working for Ukraine",
-   "show": "The Journal.",
-   "show_uri": "spotify:show:0KxdEdeY2Wb3zr28dMlQva",
-   "release_date": "2026-11-06",
-   "duration_ms": 1607366,
-   "image": "https://i.scdn.co/image/ab67656300005f1ffed98c4fdc504416141e9409",
-   "first_seen": "2026-11-07T11:10:02Z",
-   "progress_ms": 12687,
-   "last_seen": "2026-11-07T11:10:02Z",
-   "url": "https://open.spotify.com/episode/6wOVLlz9ROiPcx3tu2otcR",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1ffed98c4fdc504416141e9409"
-  },
-  {
-   "name": "Red, White and Who? A Blue Tsunami",
-   "show": "The Journal.",
-   "show_uri": "spotify:show:0KxdEdeY2Wb3zr28dMlQva",
-   "release_date": "2026-11-04",
-   "duration_ms": 1249071,
-   "image": "https://i.scdn.co/image/ab67656300005f1fc1fbfcd63d3853d120f9046f",
-   "first_seen": "2026-11-07T11:10:02Z",
-   "progress_ms": 13299,
-   "last_seen": "2026-11-07T11:10:02Z",
-   "url": "https://open.spotify.com/episode/06X9jc9bH2Ah5FY1RDBGIC",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1ffed98c4fdc504416141e9409"
   }
  ],
  "top_shows": [
