@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-08T12:40:05Z",
+ "generated": "2026-11-08T13:40:07Z",
  "totals": {
   "plays": 125041,
   "hours": 8500.9,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "0399: The State of Tolkien Fandom » Rings of Power, Hunt for Gollum & What Comes Next",
+   "show": "The Tolkien Road",
+   "show_uri": "spotify:show:3bSi49HNAQsWczeZ38s8Yp",
+   "release_date": "2026-11-06",
+   "duration_ms": 4601495,
+   "image": "https://i.scdn.co/image/ab67656300005f1f40b5b9b9cfee572be629eac7",
+   "first_seen": "2026-11-08T13:40:02Z",
+   "progress_ms": 135094,
+   "last_seen": "2026-11-08T13:40:02Z",
+   "url": "https://open.spotify.com/episode/5QsVoeNcKz02ccaRxqArpt",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f3664f10ec9dfd2083ac738d9"
+  },
+  {
    "name": "In Moscow's Shadows 270: Hoax Bombs and Difficult Language",
    "show": "In Moscow's Shadows",
    "show_uri": "spotify:show:1NKCazxYstY6o8vhpGQSjF",
@@ -1498,8 +1511,8 @@ window.LISTENING = {
    "duration_ms": 2929055,
    "image": "https://i.scdn.co/image/ab67656300005f1fd2dd1e74bffcd7cabc91a62c",
    "first_seen": "2026-11-08T12:40:02Z",
-   "progress_ms": 567031,
-   "last_seen": "2026-11-08T12:40:02Z",
+   "progress_ms": 2367881,
+   "last_seen": "2026-11-08T13:10:02Z",
    "url": "https://open.spotify.com/episode/2jWkWyL3wf8tuayL7AoJn2",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fd2dd1e74bffcd7cabc91a62c"
   },
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-07T13:40:02Z",
    "url": "https://open.spotify.com/episode/3WGlGHFsIY6Z2QCGVYn5SC",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f5a4e319927f9dcfb7453f69d"
-  },
-  {
-   "name": "The Macro Implications of the Blue Tsunami",
-   "show": "Odd Lots",
-   "show_uri": "spotify:show:1te7oSFyRVekxMBJUSethH",
-   "release_date": "2026-11-06",
-   "duration_ms": 2232633,
-   "image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42",
-   "first_seen": "2026-11-07T12:40:02Z",
-   "progress_ms": 1851440,
-   "last_seen": "2026-11-07T13:10:04Z",
-   "url": "https://open.spotify.com/episode/55pJWtDAFF2VPMw9wOJblh",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42"
   }
  ],
  "top_shows": [
