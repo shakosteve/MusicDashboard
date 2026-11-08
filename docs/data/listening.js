@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-08T04:10:06Z",
+ "generated": "2026-11-08T05:10:05Z",
  "totals": {
   "plays": 125041,
   "hours": 8500.9,
@@ -1491,6 +1491,32 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Heavy rain in Gaza floods tens of thousands of tents",
+   "show": "Newshour",
+   "show_uri": "spotify:show:5qbXje6KaVOHwjsHNTELjA",
+   "release_date": "2026-11-07",
+   "duration_ms": 2845910,
+   "image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46",
+   "first_seen": "2026-11-08T02:40:02Z",
+   "progress_ms": 2845910,
+   "last_seen": "2026-11-08T05:10:02Z",
+   "url": "https://open.spotify.com/episode/1XFD0aCd8ss7SH1Gc2iH81",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46"
+  },
+  {
+   "name": "AI stocks climb after trillions wiped from market values",
+   "show": "Newshour",
+   "show_uri": "spotify:show:5qbXje6KaVOHwjsHNTELjA",
+   "release_date": "2026-11-06",
+   "duration_ms": 2850978,
+   "image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46",
+   "first_seen": "2026-11-08T05:10:02Z",
+   "progress_ms": 475520,
+   "last_seen": "2026-11-08T05:10:02Z",
+   "url": "https://open.spotify.com/episode/0p4YwyPXGiq78kXJVuCtvZ",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46"
+  },
+  {
    "name": "CIA North Korea Expert: Kim Jong Un Is Pulling Off Something Impossible",
    "show": "Decoding Geopolitics Podcast with Dominik Presl",
    "show_uri": "spotify:show:4280ZedhnCYLFurjyzjmco",
@@ -1515,19 +1541,6 @@ window.LISTENING = {
    "last_seen": "2026-11-08T04:10:02Z",
    "url": "https://open.spotify.com/episode/7jKgR4ISd6B7QhmVxoYx99",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97"
-  },
-  {
-   "name": "Heavy rain in Gaza floods tens of thousands of tents",
-   "show": "Newshour",
-   "show_uri": "spotify:show:5qbXje6KaVOHwjsHNTELjA",
-   "release_date": "2026-11-07",
-   "duration_ms": 2845910,
-   "image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46",
-   "first_seen": "2026-11-08T02:40:02Z",
-   "progress_ms": 2424992,
-   "last_seen": "2026-11-08T03:10:02Z",
-   "url": "https://open.spotify.com/episode/1XFD0aCd8ss7SH1Gc2iH81",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46"
   },
   {
    "name": "174. Why The Rings of Power is AWESOME (a tongue-in-cheek retrospective)",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-07T11:10:02Z",
    "url": "https://open.spotify.com/episode/06X9jc9bH2Ah5FY1RDBGIC",
    "show_image": "https://i.scdn.co/image/ab67656300005f1ffed98c4fdc504416141e9409"
-  },
-  {
-   "name": "Iran rebuilds missile sites as Trump’s war cabinet falls apart",
-   "show": "Iran: The Latest",
-   "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
-   "release_date": "2026-11-06",
-   "duration_ms": 2136529,
-   "image": "https://i.scdn.co/image/ab67656300005f1f6f8e238e997c7ea142fd27f6",
-   "first_seen": "2026-11-07T02:10:02Z",
-   "progress_ms": 2136529,
-   "last_seen": "2026-11-07T03:40:02Z",
-   "url": "https://open.spotify.com/episode/2EzKXrv805pZ2k2T8ejCG1",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
   }
  ],
  "top_shows": [
