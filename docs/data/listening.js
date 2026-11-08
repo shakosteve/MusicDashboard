@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-08T03:40:11Z",
+ "generated": "2026-11-08T04:10:06Z",
  "totals": {
   "plays": 125041,
   "hours": 8500.9,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "CIA North Korea Expert: Kim Jong Un Is Pulling Off Something Impossible",
+   "show": "Decoding Geopolitics Podcast with Dominik Presl",
+   "show_uri": "spotify:show:4280ZedhnCYLFurjyzjmco",
+   "release_date": "2026-11-07",
+   "duration_ms": 2161386,
+   "image": "https://i.scdn.co/image/ab67656300005f1f5559af84020c204f8ec2fed8",
+   "first_seen": "2026-11-08T01:40:02Z",
+   "progress_ms": 2143214,
+   "last_seen": "2026-11-08T04:10:03Z",
+   "url": "https://open.spotify.com/episode/67Ot6fIlbq1IX1ZnzzkGHx",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fab3cb125200d6c73efdfc670"
+  },
+  {
    "name": "Trump Fires Susie Wiles, Schumer Vows No ‘Right-winger’ Justices, and More Midterm Fallout",
    "show": "WSJ Opinion: Potomac Watch",
    "show_uri": "spotify:show:4sMCRFb3B4g9Ax3lDCOOTX",
@@ -1498,8 +1511,8 @@ window.LISTENING = {
    "duration_ms": 1356747,
    "image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97",
    "first_seen": "2026-11-08T03:40:05Z",
-   "progress_ms": 974617,
-   "last_seen": "2026-11-08T03:40:05Z",
+   "progress_ms": 1356747,
+   "last_seen": "2026-11-08T04:10:02Z",
    "url": "https://open.spotify.com/episode/7jKgR4ISd6B7QhmVxoYx99",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97"
   },
@@ -1515,19 +1528,6 @@ window.LISTENING = {
    "last_seen": "2026-11-08T03:10:02Z",
    "url": "https://open.spotify.com/episode/1XFD0aCd8ss7SH1Gc2iH81",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46"
-  },
-  {
-   "name": "CIA North Korea Expert: Kim Jong Un Is Pulling Off Something Impossible",
-   "show": "Decoding Geopolitics Podcast with Dominik Presl",
-   "show_uri": "spotify:show:4280ZedhnCYLFurjyzjmco",
-   "release_date": "2026-11-07",
-   "duration_ms": 2161386,
-   "image": "https://i.scdn.co/image/ab67656300005f1f5559af84020c204f8ec2fed8",
-   "first_seen": "2026-11-08T01:40:02Z",
-   "progress_ms": 1826434,
-   "last_seen": "2026-11-08T02:10:02Z",
-   "url": "https://open.spotify.com/episode/67Ot6fIlbq1IX1ZnzzkGHx",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fab3cb125200d6c73efdfc670"
   },
   {
    "name": "174. Why The Rings of Power is AWESOME (a tongue-in-cheek retrospective)",
