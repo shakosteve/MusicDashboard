@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-08T02:10:05Z",
+ "generated": "2026-11-08T02:40:05Z",
  "totals": {
   "plays": 125041,
   "hours": 8500.9,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Heavy rain in Gaza floods tens of thousands of tents",
+   "show": "Newshour",
+   "show_uri": "spotify:show:5qbXje6KaVOHwjsHNTELjA",
+   "release_date": "2026-11-07",
+   "duration_ms": 2845910,
+   "image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46",
+   "first_seen": "2026-11-08T02:40:02Z",
+   "progress_ms": 669896,
+   "last_seen": "2026-11-08T02:40:02Z",
+   "url": "https://open.spotify.com/episode/1XFD0aCd8ss7SH1Gc2iH81",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46"
+  },
+  {
    "name": "CIA North Korea Expert: Kim Jong Un Is Pulling Off Something Impossible",
    "show": "Decoding Geopolitics Podcast with Dominik Presl",
    "show_uri": "spotify:show:4280ZedhnCYLFurjyzjmco",
@@ -1631,19 +1644,6 @@ window.LISTENING = {
    "progress_ms": 3401424,
    "last_seen": "2026-11-07T03:10:02Z",
    "url": "https://open.spotify.com/episode/1v01GZjc3lTnL6imzrUwhf",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
-  },
-  {
-   "name": "#2111- LA Needs to Hit The Pavement & The Obama Speech That Ruined America | Part 2",
-   "show": "The Adam and Dr. Drew Show",
-   "show_uri": "spotify:show:3VN4vP6TztxK3wtT8b9aQL",
-   "release_date": "2026-11-06",
-   "duration_ms": 2957662,
-   "image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b",
-   "first_seen": "2026-11-07T01:10:02Z",
-   "progress_ms": 2957662,
-   "last_seen": "2026-11-07T03:10:02Z",
-   "url": "https://open.spotify.com/episode/7rUakM8WblJ9b3wLsaRkVD",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
   }
  ],
