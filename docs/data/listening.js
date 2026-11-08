@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-07T21:40:05Z",
+ "generated": "2026-11-08T01:40:08Z",
  "totals": {
-  "plays": 125040,
-  "hours": 8500.8,
+  "plays": 125041,
+  "hours": 8500.9,
   "artists": 702,
   "albums": 1526,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Shattered Heart",
+   "artist": "The Warning",
+   "album": "XXI Century Blood",
+   "year": 2017,
+   "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
+   "url": "https://open.spotify.com/track/1AASMBle7o3xOuFYciTgIj",
+   "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
+   "played_at": "2026-11-07T20:41:40.392Z"
+  },
   {
    "name": "Centerfield",
    "artist": "John Fogerty",
@@ -525,23 +536,12 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/6xvriZfsi9MZ8TAE2wqY2z",
    "album_url": "https://open.spotify.com/album/0Rl9omLw3rdkK7OiSnHGAG",
    "played_at": "2026-11-07T03:35:06.445Z"
-  },
-  {
-   "name": "Everything’s Falling",
-   "artist": "The Warning",
-   "album": "Everything’s Falling",
-   "year": 2026,
-   "image": "https://i.scdn.co/image/ab67616d00001e023d3a5263cbb23d7b8866a08c",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2733d3a5263cbb23d7b8866a08c",
-   "url": "https://open.spotify.com/track/4GVXHZ4QJe1lOvtfLsIORd",
-   "album_url": "https://open.spotify.com/album/0YJACBRXuL7jthY9RBtlS5",
-   "played_at": "2026-11-07T03:30:32.442Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10684,
+   "plays": 10685,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
@@ -610,7 +610,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
    "url": "https://open.spotify.com/track/1VcLiPmina1L3xlLkJ5OTS",
    "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
-   "plays": 3488
+   "plays": 3489
   },
   {
    "name": "Dust to Dust",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15776,
+   "plays": 15777,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1313,7 +1313,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
      "url": "https://open.spotify.com/track/1VcLiPmina1L3xlLkJ5OTS",
      "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
-     "plays": 3488
+     "plays": 3489
     },
     {
      "name": "Dust to Dust",
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "CIA North Korea Expert: Kim Jong Un Is Pulling Off Something Impossible",
+   "show": "Decoding Geopolitics Podcast with Dominik Presl",
+   "show_uri": "spotify:show:4280ZedhnCYLFurjyzjmco",
+   "release_date": "2026-11-07",
+   "duration_ms": 2161386,
+   "image": "https://i.scdn.co/image/ab67656300005f1f5559af84020c204f8ec2fed8",
+   "first_seen": "2026-11-08T01:40:02Z",
+   "progress_ms": 23634,
+   "last_seen": "2026-11-08T01:40:02Z",
+   "url": "https://open.spotify.com/episode/67Ot6fIlbq1IX1ZnzzkGHx",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fab3cb125200d6c73efdfc670"
+  },
+  {
    "name": "174. Why The Rings of Power is AWESOME (a tongue-in-cheek retrospective)",
    "show": "Exploring Tolkien",
    "show_uri": "spotify:show:053v5PsgtE8TmMiXXAyThG",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-07T03:10:02Z",
    "url": "https://open.spotify.com/episode/7rUakM8WblJ9b3wLsaRkVD",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
-  },
-  {
-   "name": "Vance revolts over Iran war. Will Israel go it alone?",
-   "show": "Iran: The Latest",
-   "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
-   "release_date": "2026-11-05",
-   "duration_ms": 2717492,
-   "image": "https://i.scdn.co/image/ab67656300005f1f9a1edb1e2710e431e7c6c008",
-   "first_seen": "2026-11-06T18:40:02Z",
-   "progress_ms": 2178560,
-   "last_seen": "2026-11-06T20:10:02Z",
-   "url": "https://open.spotify.com/episode/11PhEfzuu8yOB45HCvqu5B",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
   }
  ],
  "top_shows": [
