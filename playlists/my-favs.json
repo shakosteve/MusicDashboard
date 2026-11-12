@@ -6,8 +6,8 @@
   "description": "",
   "public": true,
   "followers": 0,
-  "snapshot_id": "AAAC9sNvWCvk3b6pVfgNBdI/1kG/jEYp",
-  "fetched": "2026-11-05T06:10:13Z",
+  "snapshot_id": "AAAC+HSCYMOspvUXR7mr2NB7CUwujDhh",
+  "fetched": "2026-11-12T13:45:37Z",
   "tracks": [
     {
       "uri": "spotify:track:08mG3Y1vljYA6bvDt4Wqkj",
@@ -2100,24 +2100,6 @@
       "album_uri": "spotify:album:2kB1Qqw3YOR9i3nbNxXWRs",
       "duration_ms": 223560,
       "isrc": "UST8K1822293",
-      "added_at": "2020-12-04T12:36:49Z",
-      "release_date": "2018-11-25",
-      "explicit": false,
-      "is_local": false
-    },
-    {
-      "uri": "spotify:track:34UQ1XrP5vut9fCgl76H8g",
-      "name": "The End (Stars Always Seem to Fade)",
-      "artists": [
-        "The Warning"
-      ],
-      "artist_uris": [
-        "spotify:artist:2SmW1lFlBJn4IfBzBZDlSh"
-      ],
-      "album": "Queen of the Murder Scene",
-      "album_uri": "spotify:album:2kB1Qqw3YOR9i3nbNxXWRs",
-      "duration_ms": 233133,
-      "isrc": "QZES51869951",
       "added_at": "2020-12-04T12:36:49Z",
       "release_date": "2018-11-25",
       "explicit": false,
@@ -13124,6 +13106,24 @@
       "isrc": "QMBZ92466377",
       "added_at": "2026-11-05T00:08:37Z",
       "release_date": "2025-03-14",
+      "explicit": false,
+      "is_local": false
+    },
+    {
+      "uri": "spotify:track:34UQ1XrP5vut9fCgl76H8g",
+      "name": "The End (Stars Always Seem to Fade)",
+      "artists": [
+        "The Warning"
+      ],
+      "artist_uris": [
+        "spotify:artist:2SmW1lFlBJn4IfBzBZDlSh"
+      ],
+      "album": "Queen of the Murder Scene",
+      "album_uri": "spotify:album:2kB1Qqw3YOR9i3nbNxXWRs",
+      "duration_ms": 233133,
+      "isrc": "QZES51869951",
+      "added_at": "2026-11-10T13:46:18Z",
+      "release_date": "2018-11-25",
       "explicit": false,
       "is_local": false
     }

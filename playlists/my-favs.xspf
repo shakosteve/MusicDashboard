@@ -3,7 +3,7 @@
   <title>My Favs</title>
   <creator>Steven</creator>
   <info>https://open.spotify.com/playlist/2SZQM5o7Kw0wkmozPIXufi</info>
-  <date>2026-11-05T06:10:13Z</date>
+  <date>2026-11-12T13:45:37Z</date>
   <trackList>
     <track>
       <title>Back In Black</title>
@@ -1048,15 +1048,6 @@
       <identifier>isrc:UST8K1822293</identifier>
       <identifier>spotify:track:3byoK5Yi2YT9Gcc4xS8qKE</identifier>
       <info>https://open.spotify.com/track/3byoK5Yi2YT9Gcc4xS8qKE</info>
-    </track>
-    <track>
-      <title>The End (Stars Always Seem to Fade)</title>
-      <creator>The Warning</creator>
-      <album>Queen of the Murder Scene</album>
-      <duration>233133</duration>
-      <identifier>isrc:QZES51869951</identifier>
-      <identifier>spotify:track:34UQ1XrP5vut9fCgl76H8g</identifier>
-      <info>https://open.spotify.com/track/34UQ1XrP5vut9fCgl76H8g</info>
     </track>
     <track>
       <title>Escape the Mind</title>
@@ -6504,6 +6495,15 @@
       <identifier>isrc:QMBZ92466377</identifier>
       <identifier>spotify:track:1NpILLKnL2kQYwb6bCtiPe</identifier>
       <info>https://open.spotify.com/track/1NpILLKnL2kQYwb6bCtiPe</info>
+    </track>
+    <track>
+      <title>The End (Stars Always Seem to Fade)</title>
+      <creator>The Warning</creator>
+      <album>Queen of the Murder Scene</album>
+      <duration>233133</duration>
+      <identifier>isrc:QZES51869951</identifier>
+      <identifier>spotify:track:34UQ1XrP5vut9fCgl76H8g</identifier>
+      <info>https://open.spotify.com/track/34UQ1XrP5vut9fCgl76H8g</info>
     </track>
   </trackList>
 </playlist>
