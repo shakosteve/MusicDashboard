@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-12T13:45:42Z",
+ "generated": "2026-11-12T13:47:44Z",
  "totals": {
   "plays": 125091,
   "hours": 8504.5,
@@ -1491,6 +1491,97 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "0399: The State of Tolkien Fandom » Rings of Power, Hunt for Gollum & What Comes Next",
+   "show": "The Tolkien Road",
+   "show_uri": "spotify:show:3bSi49HNAQsWczeZ38s8Yp",
+   "release_date": "2026-11-06",
+   "duration_ms": 4601495,
+   "image": "https://i.scdn.co/image/ab67656300005f1f40b5b9b9cfee572be629eac7",
+   "first_seen": "2026-11-08T13:40:02Z",
+   "progress_ms": 4592717,
+   "last_seen": "2026-11-12T13:47:41Z",
+   "url": "https://open.spotify.com/episode/5QsVoeNcKz02ccaRxqArpt",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f3664f10ec9dfd2083ac738d9"
+  },
+  {
+   "name": "Republicans Vote for House and Senate Leaders",
+   "show": "RealClearPolitics Podcast",
+   "show_uri": "spotify:show:5FkNemg3aIaPPNBImIcW2l",
+   "release_date": "2026-11-11",
+   "duration_ms": 3308434,
+   "image": "https://i.scdn.co/image/ab67656300005f1f7412c8ce583b948e4a85af3a",
+   "first_seen": "2026-11-12T13:47:41Z",
+   "progress_ms": 3308434,
+   "last_seen": "2026-11-12T13:47:41Z",
+   "url": "https://open.spotify.com/episode/0TBVHZyykT9Z4eyOOA7FBD",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fe19edf2c6856b8b09c057f38"
+  },
+  {
+   "name": "The War with the Secretary of War Pete Hegseth",
+   "show": "RealClearPolitics Podcast",
+   "show_uri": "spotify:show:5FkNemg3aIaPPNBImIcW2l",
+   "release_date": "2026-11-10",
+   "duration_ms": 3161887,
+   "image": "https://i.scdn.co/image/ab67656300005f1ffdedc26d12f800ee2f5684c1",
+   "first_seen": "2026-11-12T13:47:41Z",
+   "progress_ms": 1746599,
+   "last_seen": "2026-11-12T13:47:41Z",
+   "url": "https://open.spotify.com/episode/6wYrQJhznZCGxT6GH5haSf",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fe19edf2c6856b8b09c057f38"
+  },
+  {
+   "name": "What the Blue Wave Means for President Trump and His Cabinet",
+   "show": "RealClearPolitics Podcast",
+   "show_uri": "spotify:show:5FkNemg3aIaPPNBImIcW2l",
+   "release_date": "2026-11-06",
+   "duration_ms": 3246550,
+   "image": "https://i.scdn.co/image/ab67656300005f1f0dab42e0b192ad52dbed3fca",
+   "first_seen": "2026-11-12T13:47:41Z",
+   "progress_ms": 2371505,
+   "last_seen": "2026-11-12T13:47:41Z",
+   "url": "https://open.spotify.com/episode/6D7HJgJJ0W4yks43Qap8Ff",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fe19edf2c6856b8b09c057f38"
+  },
+  {
+   "name": "In Moscow's Shadows 270: Hoax Bombs and Difficult Language",
+   "show": "In Moscow's Shadows",
+   "show_uri": "spotify:show:1NKCazxYstY6o8vhpGQSjF",
+   "release_date": "2026-11-08",
+   "duration_ms": 2929055,
+   "image": "https://i.scdn.co/image/ab67656300005f1fd2dd1e74bffcd7cabc91a62c",
+   "first_seen": "2026-11-08T12:40:02Z",
+   "progress_ms": 2929055,
+   "last_seen": "2026-11-12T13:47:40Z",
+   "url": "https://open.spotify.com/episode/2jWkWyL3wf8tuayL7AoJn2",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fd2dd1e74bffcd7cabc91a62c"
+  },
+  {
+   "name": "What Nvidia's Megaspeed Scandal Is Really All About",
+   "show": "Odd Lots",
+   "show_uri": "spotify:show:1te7oSFyRVekxMBJUSethH",
+   "release_date": "2026-11-12",
+   "duration_ms": 3249110,
+   "image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42",
+   "first_seen": "2026-11-12T13:45:24Z",
+   "progress_ms": 3249110,
+   "last_seen": "2026-11-12T13:47:38Z",
+   "url": "https://open.spotify.com/episode/2LgFjxE2LpKMsRlEv5blCX",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42"
+  },
+  {
+   "name": "Poland in shock after Saturday’s mass shooting",
+   "show": "Newshour",
+   "show_uri": "spotify:show:5qbXje6KaVOHwjsHNTELjA",
+   "release_date": "2026-11-08",
+   "duration_ms": 2086791,
+   "image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46",
+   "first_seen": "2026-11-12T13:47:38Z",
+   "progress_ms": 1440200,
+   "last_seen": "2026-11-12T13:47:38Z",
+   "url": "https://open.spotify.com/episode/5EFxdt0QBPCPzLw2LurKR3",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46"
+  },
+  {
    "name": "A Political Earthquake Shakes America",
    "show": "Amanpour",
    "show_uri": "spotify:show:3sLR8M7JchYmhWuf8QtlyO",
@@ -1517,19 +1608,6 @@ window.LISTENING = {
    "show_image": "https://i.scdn.co/image/ab67656300005f1f95217901851fcb57728068b6"
   },
   {
-   "name": "What Nvidia's Megaspeed Scandal Is Really All About",
-   "show": "Odd Lots",
-   "show_uri": "spotify:show:1te7oSFyRVekxMBJUSethH",
-   "release_date": "2026-11-12",
-   "duration_ms": 3249110,
-   "image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42",
-   "first_seen": "2026-11-12T13:45:24Z",
-   "progress_ms": 3147148,
-   "last_seen": "2026-11-12T13:45:24Z",
-   "url": "https://open.spotify.com/episode/2LgFjxE2LpKMsRlEv5blCX",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42"
-  },
-  {
    "name": "Minnesota Now: Nov. 10, 2026",
    "show": "Minnesota Now",
    "show_uri": "spotify:show:61oEbjIMX0lVNvf0MyrEX8",
@@ -1541,32 +1619,6 @@ window.LISTENING = {
    "last_seen": "2026-11-12T13:45:24Z",
    "url": "https://open.spotify.com/episode/7j8D2vcYVeLQQ8eftBU1fP",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f110dfea289c0685fcc6c4343"
-  },
-  {
-   "name": "0399: The State of Tolkien Fandom » Rings of Power, Hunt for Gollum & What Comes Next",
-   "show": "The Tolkien Road",
-   "show_uri": "spotify:show:3bSi49HNAQsWczeZ38s8Yp",
-   "release_date": "2026-11-06",
-   "duration_ms": 4601495,
-   "image": "https://i.scdn.co/image/ab67656300005f1f40b5b9b9cfee572be629eac7",
-   "first_seen": "2026-11-08T13:40:02Z",
-   "progress_ms": 3732402,
-   "last_seen": "2026-11-08T14:40:02Z",
-   "url": "https://open.spotify.com/episode/5QsVoeNcKz02ccaRxqArpt",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f3664f10ec9dfd2083ac738d9"
-  },
-  {
-   "name": "In Moscow's Shadows 270: Hoax Bombs and Difficult Language",
-   "show": "In Moscow's Shadows",
-   "show_uri": "spotify:show:1NKCazxYstY6o8vhpGQSjF",
-   "release_date": "2026-11-08",
-   "duration_ms": 2929055,
-   "image": "https://i.scdn.co/image/ab67656300005f1fd2dd1e74bffcd7cabc91a62c",
-   "first_seen": "2026-11-08T12:40:02Z",
-   "progress_ms": 2367881,
-   "last_seen": "2026-11-08T13:10:02Z",
-   "url": "https://open.spotify.com/episode/2jWkWyL3wf8tuayL7AoJn2",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fd2dd1e74bffcd7cabc91a62c"
   },
   {
    "name": "Rahm Emanuel on the blue wave, the Democratic agenda, and his plans for 2028",
@@ -1593,58 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-08T05:10:02Z",
    "url": "https://open.spotify.com/episode/1XFD0aCd8ss7SH1Gc2iH81",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46"
-  },
-  {
-   "name": "AI stocks climb after trillions wiped from market values",
-   "show": "Newshour",
-   "show_uri": "spotify:show:5qbXje6KaVOHwjsHNTELjA",
-   "release_date": "2026-11-06",
-   "duration_ms": 2850978,
-   "image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46",
-   "first_seen": "2026-11-08T05:10:02Z",
-   "progress_ms": 475520,
-   "last_seen": "2026-11-08T05:10:02Z",
-   "url": "https://open.spotify.com/episode/0p4YwyPXGiq78kXJVuCtvZ",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46"
-  },
-  {
-   "name": "CIA North Korea Expert: Kim Jong Un Is Pulling Off Something Impossible",
-   "show": "Decoding Geopolitics Podcast with Dominik Presl",
-   "show_uri": "spotify:show:4280ZedhnCYLFurjyzjmco",
-   "release_date": "2026-11-07",
-   "duration_ms": 2161386,
-   "image": "https://i.scdn.co/image/ab67656300005f1f5559af84020c204f8ec2fed8",
-   "first_seen": "2026-11-08T01:40:02Z",
-   "progress_ms": 2143214,
-   "last_seen": "2026-11-08T04:10:03Z",
-   "url": "https://open.spotify.com/episode/67Ot6fIlbq1IX1ZnzzkGHx",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fab3cb125200d6c73efdfc670"
-  },
-  {
-   "name": "Trump Fires Susie Wiles, Schumer Vows No ‘Right-winger’ Justices, and More Midterm Fallout",
-   "show": "WSJ Opinion: Potomac Watch",
-   "show_uri": "spotify:show:4sMCRFb3B4g9Ax3lDCOOTX",
-   "release_date": "2026-11-06",
-   "duration_ms": 1356747,
-   "image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97",
-   "first_seen": "2026-11-08T03:40:05Z",
-   "progress_ms": 1356747,
-   "last_seen": "2026-11-08T04:10:02Z",
-   "url": "https://open.spotify.com/episode/7jKgR4ISd6B7QhmVxoYx99",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97"
-  },
-  {
-   "name": "174. Why The Rings of Power is AWESOME (a tongue-in-cheek retrospective)",
-   "show": "Exploring Tolkien",
-   "show_uri": "spotify:show:053v5PsgtE8TmMiXXAyThG",
-   "release_date": "2026-10-28",
-   "duration_ms": 3911963,
-   "image": "https://i.scdn.co/image/ab67656300005f1f456b5fd789c9b8b79ec2be34",
-   "first_seen": "2026-11-07T19:10:02Z",
-   "progress_ms": 800232,
-   "last_seen": "2026-11-07T21:40:02Z",
-   "url": "https://open.spotify.com/episode/5q7VepcJ9r3xKEPBfXBaPQ",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f437d42fd22f6b88af853b190"
   }
  ],
  "top_shows": [
