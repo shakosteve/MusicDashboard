@@ -1,14 +1,91 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-12T21:10:06Z",
+ "generated": "2026-11-12T21:40:07Z",
  "totals": {
-  "plays": 125130,
-  "hours": 8507.0,
+  "plays": 125137,
+  "hours": 8507.4,
   "artists": 702,
   "albums": 1526,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Rainbow in the Dark",
+   "artist": "Dio",
+   "album": "Holy Diver",
+   "year": 1983,
+   "image": "https://i.scdn.co/image/ab67616d00001e022457ab409ae106f8ae1dff89",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2732457ab409ae106f8ae1dff89",
+   "url": "https://open.spotify.com/track/2PpNgmrS9mAyrkRAwn6YPq",
+   "album_url": "https://open.spotify.com/album/2ivNJLSx8Rbvnsvcn01Yt3",
+   "played_at": "2026-11-12T21:34:17.715Z"
+  },
+  {
+   "name": "Son of a Preacher Man",
+   "artist": "Dusty Springfield",
+   "album": "Dusty In Memphis [Deluxe Edition]",
+   "year": 1969,
+   "image": "https://i.scdn.co/image/ab67616d00001e025aaa2395bb5c2016c1e2f6f0",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2735aaa2395bb5c2016c1e2f6f0",
+   "url": "https://open.spotify.com/track/7odHgoLFi3GQ90E9PeraI3",
+   "album_url": "https://open.spotify.com/album/6SNMenG3NjZyqgI5p4Hcmg",
+   "played_at": "2026-11-12T21:30:00.207Z"
+  },
+  {
+   "name": "ELEVATE",
+   "artist": "Dorothy",
+   "album": "THE WAY (Deluxe)",
+   "year": 2025,
+   "image": "https://i.scdn.co/image/ab67616d00001e02eb137cacdbeb81a2961f1697",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273eb137cacdbeb81a2961f1697",
+   "url": "https://open.spotify.com/track/2JFdwYlUkWYnZOer20BcHu",
+   "album_url": "https://open.spotify.com/album/6dvrpWZMYRBtFiYHMisNgD",
+   "played_at": "2026-11-12T21:27:30.689Z"
+  },
+  {
+   "name": "Night Fever - From \"Saturday Night Fever\" Soundtrack",
+   "artist": "Bee Gees",
+   "album": "How Can You Mend A Broken Heart",
+   "year": 2020,
+   "image": "https://i.scdn.co/image/ab67616d00001e02bdcea025a483b9642f17a9f8",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273bdcea025a483b9642f17a9f8",
+   "url": "https://open.spotify.com/track/0qemIQjSxcKyf42VPfZnfa",
+   "album_url": "https://open.spotify.com/album/4vAhQeeWkSjVn0p5GAaLBx",
+   "played_at": "2026-11-12T21:23:20.499Z"
+  },
+  {
+   "name": "Can I Get It",
+   "artist": "Adele",
+   "album": "30",
+   "year": 2021,
+   "image": "https://i.scdn.co/image/ab67616d00001e02c6b577e4c4a6d326354a89f7",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273c6b577e4c4a6d326354a89f7",
+   "url": "https://open.spotify.com/track/6w8ZPYdnGajyfPddTWdthN",
+   "album_url": "https://open.spotify.com/album/21jF5jlMtzo94wbxmJ18aa",
+   "played_at": "2026-11-12T21:19:47.181Z"
+  },
+  {
+   "name": "What You Need",
+   "artist": "INXS",
+   "album": "Listen Like Thieves",
+   "year": 1985,
+   "image": "https://i.scdn.co/image/ab67616d00001e027cc210b821366ee0c76df23c",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2737cc210b821366ee0c76df23c",
+   "url": "https://open.spotify.com/track/04EnF5C2HvYZfGu64Bng7I",
+   "album_url": "https://open.spotify.com/album/1U6tgUieq2uuKip6DVxM31",
+   "played_at": "2026-11-12T21:16:16.260Z"
+  },
+  {
+   "name": "Brown Sugar",
+   "artist": "The Rolling Stones",
+   "album": "Hot Rocks 1964-1971",
+   "year": 1971,
+   "image": "https://i.scdn.co/image/ab67616d00001e02b11b3fc3c89477a7dd473bd7",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273b11b3fc3c89477a7dd473bd7",
+   "url": "https://open.spotify.com/track/34K7nU8EWQIRI93RfqhdRJ",
+   "album_url": "https://open.spotify.com/album/0aqZJlugIkTUWW1sa4BANp",
+   "played_at": "2026-11-12T21:12:41.665Z"
+  },
   {
    "name": "Lay Down Sally",
    "artist": "Eric Clapton",
@@ -459,83 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/23TrwDkYnBPea6i6FPd6Wd",
    "album_url": "https://open.spotify.com/album/5XXymqS9NunPlUbovZK8WJ",
    "played_at": "2026-11-12T12:02:53.646Z"
-  },
-  {
-   "name": "Keep Your Hands to Yourself",
-   "artist": "The Georgia Satellites",
-   "album": "Georgia Satellites",
-   "year": 1986,
-   "image": "https://i.scdn.co/image/ab67616d00001e026c63e782b91ba2fe04f40fe6",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2736c63e782b91ba2fe04f40fe6",
-   "url": "https://open.spotify.com/track/5tORtBzHUAnNrIw5Ql3kHZ",
-   "album_url": "https://open.spotify.com/album/0obHqsEpkaCWGWGjxcdXel",
-   "played_at": "2026-11-12T11:58:03.145Z"
-  },
-  {
-   "name": "Consequences",
-   "artist": "Jackie Evancho",
-   "album": "Consequences",
-   "year": 2023,
-   "image": "https://i.scdn.co/image/ab67616d00001e022c07b9d7e43650e02d3b4e4a",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2732c07b9d7e43650e02d3b4e4a",
-   "url": "https://open.spotify.com/track/7B7SdxrXwUkIprHAnmADv1",
-   "album_url": "https://open.spotify.com/album/32lWTQ1vmZdNzzDkCE26t4",
-   "played_at": "2026-11-11T23:42:49.882Z"
-  },
-  {
-   "name": "Bloody Well Right",
-   "artist": "Supertramp",
-   "album": "Crime Of The Century (Remastered)",
-   "year": 1974,
-   "image": "https://i.scdn.co/image/ab67616d00001e0289d7032603b62e9aedb03fa2",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27389d7032603b62e9aedb03fa2",
-   "url": "https://open.spotify.com/track/2SmlWvdYG6FsagxN3FkHMI",
-   "album_url": "https://open.spotify.com/album/2wrHaulTgqqkVKx0k7Kq4r",
-   "played_at": "2026-11-11T23:38:50.050Z"
-  },
-  {
-   "name": "ERROR - Live from Auditorio Nacional, CDMX",
-   "artist": "The Warning",
-   "album": "Live from Auditorio Nacional, CDMX",
-   "year": 2025,
-   "image": "https://i.scdn.co/image/ab67616d00001e025cda6d880ec3968aa6b6ac2f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
-   "url": "https://open.spotify.com/track/13jql4uJUkPc06JXIC3oiz",
-   "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
-   "played_at": "2026-11-11T23:34:17.140Z"
-  },
-  {
-   "name": "Time After Time",
-   "artist": "Ozzy Osbourne",
-   "album": "No More Tears (Expanded Edition)",
-   "year": 1991,
-   "image": "https://i.scdn.co/image/ab67616d00001e02509342e69eb341df70e5c2e3",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273509342e69eb341df70e5c2e3",
-   "url": "https://open.spotify.com/track/1U7WBCkBxc7bGeP6v5juEq",
-   "album_url": "https://open.spotify.com/album/6eh82ojicL8RSJF7GkYTh7",
-   "played_at": "2026-11-11T23:30:19.440Z"
-  },
-  {
-   "name": "Vogue",
-   "artist": "Madonna",
-   "album": "The Immaculate Collection",
-   "year": 1990,
-   "image": "https://i.scdn.co/image/ab67616d00001e02e275f1fbda1c7bc82f9c386b",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273e275f1fbda1c7bc82f9c386b",
-   "url": "https://open.spotify.com/track/7j5TIXPi0cCbSSqItmbyZy",
-   "album_url": "https://open.spotify.com/album/5MzwGwnO9gkh0z6Nl4FF8h",
-   "played_at": "2026-11-11T23:25:58.616Z"
-  },
-  {
-   "name": "Show Me the Light",
-   "artist": "The Warning",
-   "album": "XXI Century Blood",
-   "year": 2017,
-   "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
-   "url": "https://open.spotify.com/track/0LdkRYiS3semGItm03H3gm",
-   "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
-   "played_at": "2026-11-11T23:20:39.570Z"
   }
  ],
  "top_artists": [
@@ -832,7 +832,7 @@ window.LISTENING = {
   },
   {
    "decade": 1960,
-   "plays": 7060,
+   "plays": 7061,
    "covers": [
     {
      "name": "Your Time Is Gonna Come - 1990 Remaster",
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28700,
+   "plays": 28701,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32919,
+   "plays": 32921,
    "covers": [
     {
      "name": "Back In Black",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18650,
+   "plays": 18653,
    "covers": [
     {
      "name": "ERROR",
