@@ -1,14 +1,47 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-12T18:10:04Z",
+ "generated": "2026-11-12T18:40:07Z",
  "totals": {
-  "plays": 125118,
-  "hours": 8506.1,
+  "plays": 125121,
+  "hours": 8506.3,
   "artists": 702,
   "albums": 1526,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Learning To Fly",
+   "artist": "Tom Petty and the Heartbreakers",
+   "album": "Into The Great Wide Open",
+   "year": 1991,
+   "image": "https://i.scdn.co/image/ab67616d00001e0227bd7d234a31296df34b9a64",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27327bd7d234a31296df34b9a64",
+   "url": "https://open.spotify.com/track/17S4XrLvF5jlGvGCJHgF51",
+   "album_url": "https://open.spotify.com/album/42G5ULkCRRl3crJMlg6eKd",
+   "played_at": "2026-11-12T18:21:59.311Z"
+  },
+  {
+   "name": "Don't Stop Believin' (2022 Remaster)",
+   "artist": "Journey",
+   "album": "Escape (2022 Remaster)",
+   "year": 1981,
+   "image": "https://i.scdn.co/image/ab67616d00001e0223290120a609a65e14cfe018",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27323290120a609a65e14cfe018",
+   "url": "https://open.spotify.com/track/5RKQ5NdjSh2QzD4MaunT91",
+   "album_url": "https://open.spotify.com/album/4guAwaniEAEQSW0NCpo4gm",
+   "played_at": "2026-11-12T18:15:20.804Z"
+  },
+  {
+   "name": "A Horse with No Name",
+   "artist": "America, George Martin",
+   "album": "America",
+   "year": 1972,
+   "image": "https://i.scdn.co/image/ab67616d00001e02cc2ef2810c85fde8ec60cbc4",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273cc2ef2810c85fde8ec60cbc4",
+   "url": "https://open.spotify.com/track/54eZmuggBFJbV7k248bTTt",
+   "album_url": "https://open.spotify.com/album/0E5IKYhiKgbYQkmfsFonbZ",
+   "played_at": "2026-11-12T18:11:10.747Z"
+  },
   {
    "name": "Mainstreet",
    "artist": "Bob Seger",
@@ -503,39 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/2rd9ETlulTbz6BYZcdvIE1",
    "album_url": "https://open.spotify.com/album/6r7LZXAVueS5DqdrvXJJK7",
    "played_at": "2026-11-11T00:45:11.257Z"
-  },
-  {
-   "name": "VHS",
-   "artist": "Freeze the Fall",
-   "album": "VHS",
-   "year": 2024,
-   "image": "https://i.scdn.co/image/ab67616d00001e0241d86dc3e3abbc5447edc351",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27341d86dc3e3abbc5447edc351",
-   "url": "https://open.spotify.com/track/5UBVWzkPAP9uRnhEAMPoyY",
-   "album_url": "https://open.spotify.com/album/55sg7o5JnKuz8gfwjkiyf5",
-   "played_at": "2026-11-11T00:27:12.716Z"
-  },
-  {
-   "name": "ZITTI E BUONI",
-   "artist": "Måneskin",
-   "album": "Teatro d'ira - Vol. I",
-   "year": 2021,
-   "image": "https://i.scdn.co/image/ab67616d00001e025aa05015cfa7bd2943c29b21",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2735aa05015cfa7bd2943c29b21",
-   "url": "https://open.spotify.com/track/776AftMmFFAWUIEAb3lHhw",
-   "album_url": "https://open.spotify.com/album/7KF1Ain9mYYlg5M46g0i4A",
-   "played_at": "2026-11-11T00:23:39.583Z"
-  },
-  {
-   "name": "Mexican Moon",
-   "artist": "Concrete Blonde",
-   "album": "Mexican Moon",
-   "year": 1993,
-   "image": "https://i.scdn.co/image/ab67616d00001e02c787b18e75b8f9cde01b548d",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273c787b18e75b8f9cde01b548d",
-   "url": "https://open.spotify.com/track/0wGXmuLI1BxPngWHVGmCaz",
-   "album_url": "https://open.spotify.com/album/1ID2r3PEzWEVGpvqljPtzO",
-   "played_at": "2026-11-10T23:07:07.244Z"
   }
  ],
  "top_artists": [
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28695,
+   "plays": 28696,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32916,
+   "plays": 32917,
    "covers": [
     {
      "name": "Back In Black",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9725,
+   "plays": 9726,
    "covers": [
     {
      "name": "Amazing",
