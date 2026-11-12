@@ -1,14 +1,80 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-12T17:10:06Z",
+ "generated": "2026-11-12T18:10:04Z",
  "totals": {
-  "plays": 125112,
-  "hours": 8505.8,
+  "plays": 125118,
+  "hours": 8506.1,
   "artists": 702,
   "albums": 1526,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Mainstreet",
+   "artist": "Bob Seger",
+   "album": "Night Moves",
+   "year": 1976,
+   "image": "https://i.scdn.co/image/ab67616d00001e02676a8230a422123e8012557e",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273676a8230a422123e8012557e",
+   "url": "https://open.spotify.com/track/0XVR94voJPToKX1XoOw0ot",
+   "album_url": "https://open.spotify.com/album/5QkOpsZupEPLq186YOrBNe",
+   "played_at": "2026-11-12T18:06:58.051Z"
+  },
+  {
+   "name": "Locomotive Breath",
+   "artist": "Jethro Tull",
+   "album": "Aqualung (Special Edition)",
+   "year": 1971,
+   "image": "https://i.scdn.co/image/ab67616d00001e028bc3269ba09264dcf9a5b924",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2738bc3269ba09264dcf9a5b924",
+   "url": "https://open.spotify.com/track/0MYNeFsKpzBHwrJGfWZysV",
+   "album_url": "https://open.spotify.com/album/0NGM3Ftwjw0dLNpAowmz3x",
+   "played_at": "2026-11-12T18:03:14.410Z"
+  },
+  {
+   "name": "You Are So Beautiful",
+   "artist": "Joe Cocker",
+   "album": "I Can Stand A Little Rain",
+   "year": 1974,
+   "image": "https://i.scdn.co/image/ab67616d00001e027e595e624e19b191972d8a7a",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2737e595e624e19b191972d8a7a",
+   "url": "https://open.spotify.com/track/1gJOqXpRjz9GeEEwQpcujK",
+   "album_url": "https://open.spotify.com/album/3pZNBYMFG6OSNuajvsdN4Q",
+   "played_at": "2026-11-12T17:58:47.908Z"
+  },
+  {
+   "name": "Gonna Make You Sweat (Everybody Dance Now) (feat. Freedom Williams)",
+   "artist": "C & C Music Factory, Freedom Williams",
+   "album": "Super Hits",
+   "year": 2000,
+   "image": "https://i.scdn.co/image/ab67616d00001e02bf6cc1130a676e73730f6311",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273bf6cc1130a676e73730f6311",
+   "url": "https://open.spotify.com/track/7eheoW4hxrH51ww2QePVwF",
+   "album_url": "https://open.spotify.com/album/7wlnHCWKkBXBWtYgpaCaz7",
+   "played_at": "2026-11-12T17:56:07.802Z"
+  },
+  {
+   "name": "VHS",
+   "artist": "Freeze the Fall",
+   "album": "VHS",
+   "year": 2024,
+   "image": "https://i.scdn.co/image/ab67616d00001e0241d86dc3e3abbc5447edc351",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27341d86dc3e3abbc5447edc351",
+   "url": "https://open.spotify.com/track/5UBVWzkPAP9uRnhEAMPoyY",
+   "album_url": "https://open.spotify.com/album/55sg7o5JnKuz8gfwjkiyf5",
+   "played_at": "2026-11-12T17:52:03.233Z"
+  },
+  {
+   "name": "Good Golly, Miss Molly",
+   "artist": "Little Richard",
+   "album": "Good Golly!",
+   "year": 1969,
+   "image": "https://i.scdn.co/image/ab67616d00001e02cc4c510d6d19a2d03e2fc757",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273cc4c510d6d19a2d03e2fc757",
+   "url": "https://open.spotify.com/track/0ZvgXNstN4o2ZXPomtBYVp",
+   "album_url": "https://open.spotify.com/album/18VnWTsdEcofimkOHcWBAu",
+   "played_at": "2026-11-12T17:48:30.086Z"
+  },
   {
    "name": "P.S.Y.C.H.O.T.I.C.",
    "artist": "The Warning",
@@ -470,72 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/0wGXmuLI1BxPngWHVGmCaz",
    "album_url": "https://open.spotify.com/album/1ID2r3PEzWEVGpvqljPtzO",
    "played_at": "2026-11-10T23:07:07.244Z"
-  },
-  {
-   "name": "Burning Down the House",
-   "artist": "Paramore",
-   "album": "Burning Down the House",
-   "year": 2024,
-   "image": "https://i.scdn.co/image/ab67616d00001e0297354c7d321a0ea891cdcd8f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27397354c7d321a0ea891cdcd8f",
-   "url": "https://open.spotify.com/track/0JYuvYMXApbWilFJdMSHSd",
-   "album_url": "https://open.spotify.com/album/0Gtm5NFDODVHB535xusxKg",
-   "played_at": "2026-11-10T23:02:03.727Z"
-  },
-  {
-   "name": "The Tide Is High - Remastered 2001",
-   "artist": "Blondie",
-   "album": "Greatest Hits",
-   "year": 2002,
-   "image": "https://i.scdn.co/image/ab67616d00001e022847f04f9de392e290b5a0be",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2732847f04f9de392e290b5a0be",
-   "url": "https://open.spotify.com/track/6UYVDYeTRGYULthAwMIpYB",
-   "album_url": "https://open.spotify.com/album/4pIYJsJ8GkYWM1rvqy45ug",
-   "played_at": "2026-11-10T22:53:35.845Z"
-  },
-  {
-   "name": "Hell You Call A Dream",
-   "artist": "The Warning",
-   "album": "Hell You Call A Dream / Qué Más Quieres",
-   "year": 2024,
-   "image": "https://i.scdn.co/image/ab67616d00001e021de072325338eb79a68f30f5",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2731de072325338eb79a68f30f5",
-   "url": "https://open.spotify.com/track/3LwBBAvEa9qhajKoHlJi4z",
-   "album_url": "https://open.spotify.com/album/0tkvYVQovNWfCE5tf1Viir",
-   "played_at": "2026-11-10T22:45:39.884Z"
-  },
-  {
-   "name": "Take It to the Limit - 2013 Remaster",
-   "artist": "Eagles",
-   "album": "One of These Nights (2013 Remaster)",
-   "year": 1975,
-   "image": "https://i.scdn.co/image/ab67616d00001e025d0a8e54aba5181c79593b94",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2735d0a8e54aba5181c79593b94",
-   "url": "https://open.spotify.com/track/2cWHN0WK52RGAWHgaDamUA",
-   "album_url": "https://open.spotify.com/album/0F77QekrNe8vVAjU2sepja",
-   "played_at": "2026-11-10T22:39:40.624Z"
-  },
-  {
-   "name": "Candle In The Wind 1997",
-   "artist": "Elton John",
-   "album": "Candle In The Wind 1997 / Something About ...",
-   "year": 1997,
-   "image": "https://i.scdn.co/image/ab67616d00001e0252a56df14c3a5e318925787c",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27352a56df14c3a5e318925787c",
-   "url": "https://open.spotify.com/track/3DUcaEvPO72PijivCjtZcU",
-   "album_url": "https://open.spotify.com/album/3g61rwvRs1NPeVBxuAMmHZ",
-   "played_at": "2026-11-10T22:34:52.996Z"
-  },
-  {
-   "name": "Cold as Ice",
-   "artist": "Foreigner",
-   "album": "Foreigner (Expanded)",
-   "year": 1977,
-   "image": "https://i.scdn.co/image/ab67616d00001e020ef24611a73e7be48f6c2802",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2730ef24611a73e7be48f6c2802",
-   "url": "https://open.spotify.com/track/7vidktgNZFQylTgH1GEnMs",
-   "album_url": "https://open.spotify.com/album/1OU7zJvUfgxxPHgkTClt1M",
-   "played_at": "2026-11-10T22:29:03.436Z"
   }
  ],
  "top_artists": [
@@ -832,7 +832,7 @@ window.LISTENING = {
   },
   {
    "decade": 1960,
-   "plays": 7059,
+   "plays": 7060,
    "covers": [
     {
      "name": "Your Time Is Gonna Come - 1990 Remaster",
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28692,
+   "plays": 28695,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 12007,
+   "plays": 12008,
    "covers": [
     {
      "name": "Material Girl",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18648,
+   "plays": 18649,
    "covers": [
     {
      "name": "ERROR",
