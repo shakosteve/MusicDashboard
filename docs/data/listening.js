@@ -1,14 +1,58 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-12T19:10:06Z",
+ "generated": "2026-11-12T19:40:06Z",
  "totals": {
-  "plays": 125123,
-  "hours": 8506.5,
+  "plays": 125127,
+  "hours": 8506.8,
   "artists": 702,
   "albums": 1526,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Love Shack",
+   "artist": "The B-52's",
+   "album": "Cosmic Thing",
+   "year": 1989,
+   "image": "https://i.scdn.co/image/ab67616d00001e0293bf4c5e67f6a72149d94c94",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27393bf4c5e67f6a72149d94c94",
+   "url": "https://open.spotify.com/track/4W4wYHtsrgDiivRASVOINL",
+   "album_url": "https://open.spotify.com/album/5BAzAODqIwttjj7wxmlNMS",
+   "played_at": "2026-11-12T19:26:12.382Z"
+  },
+  {
+   "name": "Black Hole Sun",
+   "artist": "Soundgarden",
+   "album": "Superunknown (Deluxe Edition)",
+   "year": 1994,
+   "image": "https://i.scdn.co/image/ab67616d00001e02ae6d8e36136353d550b2587d",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273ae6d8e36136353d550b2587d",
+   "url": "https://open.spotify.com/track/2EoOZnxNgtmZaD8uUmz2nD",
+   "album_url": "https://open.spotify.com/album/29sTacnS0qA9xri6YS8xLA",
+   "played_at": "2026-11-12T19:20:51.173Z"
+  },
+  {
+   "name": "You Oughta Know - Live at Sirius XM",
+   "artist": "The Warning, Sumerian Pictures",
+   "album": "Mile End Kicks (Music Inspired by the Motion Picture)",
+   "year": 2026,
+   "image": "https://i.scdn.co/image/ab67616d00001e02426c98d50c807024bfc509a6",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273426c98d50c807024bfc509a6",
+   "url": "https://open.spotify.com/track/4TnMnhX1VRWglXugKr9lVq",
+   "album_url": "https://open.spotify.com/album/0OTY8JEbQX6tlrH5eJZG13",
+   "played_at": "2026-11-12T19:15:32.075Z"
+  },
+  {
+   "name": "Night Moves",
+   "artist": "Bob Seger",
+   "album": "Night Moves",
+   "year": 1976,
+   "image": "https://i.scdn.co/image/ab67616d00001e02676a8230a422123e8012557e",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273676a8230a422123e8012557e",
+   "url": "https://open.spotify.com/track/6UBjSnyP1O5W5ndJoO9vUk",
+   "album_url": "https://open.spotify.com/album/5QkOpsZupEPLq186YOrBNe",
+   "played_at": "2026-11-12T19:11:22.223Z"
+  },
   {
    "name": "Legs (2008 Remaster)",
    "artist": "ZZ Top",
@@ -492,56 +536,12 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/5K3Q1gue9nWLLwh6bYQFoB",
    "album_url": "https://open.spotify.com/album/682sQ449vmcJXS2AGIMrsl",
    "played_at": "2026-11-11T14:37:28.786Z"
-  },
-  {
-   "name": "MORE",
-   "artist": "The Warning",
-   "album": "Keep Me Fed",
-   "year": 2024,
-   "image": "https://i.scdn.co/image/ab67616d00001e0293c50048dce0f88071728c8c",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27393c50048dce0f88071728c8c",
-   "url": "https://open.spotify.com/track/5IDRSA83ayUGCCRdfdl04z",
-   "album_url": "https://open.spotify.com/album/1rYHznqLeJVXuy0YqwERGv",
-   "played_at": "2026-11-11T14:33:02.454Z"
-  },
-  {
-   "name": "True Colors",
-   "artist": "Cyndi Lauper",
-   "album": "True Colors",
-   "year": 1986,
-   "image": "https://i.scdn.co/image/ab67616d00001e02edbbd1e4dde99597ce850c54",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273edbbd1e4dde99597ce850c54",
-   "url": "https://open.spotify.com/track/2A6yzRGMgSQCUapR2ptm6A",
-   "album_url": "https://open.spotify.com/album/31TRqoVBTQi0lzlPLtvINn",
-   "played_at": "2026-11-11T14:29:54.137Z"
-  },
-  {
-   "name": "You Give Love A Bad Name",
-   "artist": "Bon Jovi",
-   "album": "Slippery When Wet",
-   "year": 1986,
-   "image": "https://i.scdn.co/image/ab67616d00001e021336b31b6a1799f0de5807ac",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2731336b31b6a1799f0de5807ac",
-   "url": "https://open.spotify.com/track/0rmGAIH9LNJewFw7nKzZnc",
-   "album_url": "https://open.spotify.com/album/0kBfgEilUFCMIQY5IOjG4t",
-   "played_at": "2026-11-11T14:26:06.134Z"
-  },
-  {
-   "name": "Poison",
-   "artist": "Alice Cooper",
-   "album": "Trash",
-   "year": 1989,
-   "image": "https://i.scdn.co/image/ab67616d00001e0234b292a289c635532da02671",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27334b292a289c635532da02671",
-   "url": "https://open.spotify.com/track/5XcZRgJv3zMhTqCyESjQrF",
-   "album_url": "https://open.spotify.com/album/033cvSPAuSU5ArRfIgQSDU",
-   "played_at": "2026-11-11T14:22:22.938Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10697,
+   "plays": 10698,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28696,
+   "plays": 28697,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32918,
+   "plays": 32919,
    "covers": [
     {
      "name": "Back In Black",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9727,
+   "plays": 9728,
    "covers": [
     {
      "name": "Amazing",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18649,
+   "plays": 18650,
    "covers": [
     {
      "name": "ERROR",
