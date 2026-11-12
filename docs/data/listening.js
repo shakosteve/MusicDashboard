@@ -1,14 +1,47 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-12T13:47:44Z",
+ "generated": "2026-11-12T14:10:07Z",
  "totals": {
-  "plays": 125091,
-  "hours": 8504.5,
+  "plays": 125094,
+  "hours": 8504.6,
   "artists": 702,
   "albums": 1526,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Head Over Heels - Dave Bascombe 7\" N.Mix",
+   "artist": "Tears For Fears, Dave Bascombe",
+   "album": "Songs From The Big Chair (Deluxe)",
+   "year": 1985,
+   "image": "https://i.scdn.co/image/ab67616d00001e0206b6bd6a604768e044abbd38",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27306b6bd6a604768e044abbd38",
+   "url": "https://open.spotify.com/track/5lwQGZYF4BXOzFtXc5zk8q",
+   "album_url": "https://open.spotify.com/album/06J93pgtDCUw6bsAQINhCs",
+   "played_at": "2026-11-12T14:07:57.370Z"
+  },
+  {
+   "name": "Ain't No Rest for the Wicked",
+   "artist": "Cage The Elephant",
+   "album": "Cage The Elephant (Expanded Edition)",
+   "year": 2009,
+   "image": "https://i.scdn.co/image/ab67616d00001e02e4800c920780ac18d4ab6730",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273e4800c920780ac18d4ab6730",
+   "url": "https://open.spotify.com/track/3Pzh926pXggbMe2ZpXyMV7",
+   "album_url": "https://open.spotify.com/album/7H814Cg8HV0qpoMheYbhNn",
+   "played_at": "2026-11-12T14:03:39.656Z"
+  },
+  {
+   "name": "We Got The Beat",
+   "artist": "The Go-Go's",
+   "album": "Beauty And The Beat",
+   "year": 1981,
+   "image": "https://i.scdn.co/image/ab67616d00001e028a25755534e84d8a604e6b38",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2738a25755534e84d8a604e6b38",
+   "url": "https://open.spotify.com/track/5kz9GDBTX846OXwqWoyKzF",
+   "album_url": "https://open.spotify.com/album/1L4HE00En7eNK74voVZums",
+   "played_at": "2026-11-12T14:00:43.627Z"
+  },
   {
    "name": "My Generation - Mono Version",
    "artist": "The Who",
@@ -503,39 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/3ZNEXOjMlvICFMH0GvvdJE",
    "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
    "played_at": "2026-11-09T15:37:38.342Z"
-  },
-  {
-   "name": "Feels So Good",
-   "artist": "Chuck Mangione",
-   "album": "Feels So Good",
-   "year": 1977,
-   "image": "https://i.scdn.co/image/ab67616d00001e02e2c1f7c1ee0ee027f41178fd",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273e2c1f7c1ee0ee027f41178fd",
-   "url": "https://open.spotify.com/track/2M7EflZCPCqqRLB9hy5MDy",
-   "album_url": "https://open.spotify.com/album/5w0p1F0Q1wBqsX2UiX6CCD",
-   "played_at": "2026-11-09T15:34:37.354Z"
-  },
-  {
-   "name": "Long Tall Sally (The Thing)",
-   "artist": "Little Richard",
-   "album": "Here's Little Richard (Deluxe Edition)",
-   "year": 1957,
-   "image": "https://i.scdn.co/image/ab67616d00001e028a22827b01e5d68d3736d58b",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2738a22827b01e5d68d3736d58b",
-   "url": "https://open.spotify.com/track/507IFqPuG8mBQoKebfGG9t",
-   "album_url": "https://open.spotify.com/album/18tV6PLXYvVjsdOVk0S7M8",
-   "played_at": "2026-11-09T15:24:54.076Z"
-  },
-  {
-   "name": "Since I've Been Loving You - (Live at MSG 1973) [Remaster]",
-   "artist": "Led Zeppelin",
-   "album": "The Song Remains the Same (Remaster)",
-   "year": 1976,
-   "image": "https://i.scdn.co/image/ab67616d00001e021ac4670157a26949de3ba875",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2731ac4670157a26949de3ba875",
-   "url": "https://open.spotify.com/track/6Xfw7G8EZXh9QIh8faW6q4",
-   "album_url": "https://open.spotify.com/album/0ui4S0TZghkf1d1Wz0oWpk",
-   "played_at": "2026-11-09T15:22:46.071Z"
   }
  ],
  "top_artists": [
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32911,
+   "plays": 32913,
    "covers": [
     {
      "name": "Back In Black",
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 12006,
+   "plays": 12007,
    "covers": [
     {
      "name": "Material Girl",
@@ -1491,6 +1491,84 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "This Is How New York City Takes Out Its Trash",
+   "show": "Odd Lots",
+   "show_uri": "spotify:show:1te7oSFyRVekxMBJUSethH",
+   "release_date": "2026-11-09",
+   "duration_ms": 3178109,
+   "image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42",
+   "first_seen": "2026-11-12T14:10:04Z",
+   "progress_ms": 3537680,
+   "last_seen": "2026-11-12T14:10:04Z",
+   "url": "https://open.spotify.com/episode/314E9oAUfN03OcQRa0CAWW",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42"
+  },
+  {
+   "name": "Jen Sey: No More Men In WOMEN’S Sports",
+   "show": "Adam Carolla Show",
+   "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
+   "release_date": "2026-11-11",
+   "duration_ms": 6351516,
+   "image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f",
+   "first_seen": "2026-11-12T14:10:03Z",
+   "progress_ms": 6386603,
+   "last_seen": "2026-11-12T14:10:03Z",
+   "url": "https://open.spotify.com/episode/29ZhcV5Mz8aoYQKtjbrO7S",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
+  },
+  {
+   "name": "Brad Meltzer: I Made My Son Save For 3 Years For A Lego Death Star",
+   "show": "Adam Carolla Show",
+   "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
+   "release_date": "2026-11-10",
+   "duration_ms": 6398485,
+   "image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f",
+   "first_seen": "2026-11-12T14:10:03Z",
+   "progress_ms": 6398485,
+   "last_seen": "2026-11-12T14:10:03Z",
+   "url": "https://open.spotify.com/episode/14dfKyHU01uMzqbSbS1cJJ",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
+  },
+  {
+   "name": "Dean Norris on Breaking Bad, Hollywood Luck, and Fake TMZ Headlines",
+   "show": "Adam Carolla Show",
+   "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
+   "release_date": "2026-11-09",
+   "duration_ms": 5766060,
+   "image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f",
+   "first_seen": "2026-11-12T14:10:03Z",
+   "progress_ms": 5766151,
+   "last_seen": "2026-11-12T14:10:03Z",
+   "url": "https://open.spotify.com/episode/7ID7AiVZ716VkcGDKkEElM",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
+  },
+  {
+   "name": "Trump and Putin plot ‘big, beautiful’ deal for Europe",
+   "show": "Ukraine: The Latest",
+   "show_uri": "spotify:show:6cnkk1J0I1UqtxTYVUL4Fe",
+   "release_date": "2026-11-06",
+   "duration_ms": 2624966,
+   "image": "https://i.scdn.co/image/ab67656300005f1ff15d1cb3721f385889b21d7e",
+   "first_seen": "2026-11-12T14:10:02Z",
+   "progress_ms": 951829,
+   "last_seen": "2026-11-12T14:10:02Z",
+   "url": "https://open.spotify.com/episode/3XEpucV47fY1kjEFMend9Y",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f78954c21afd24c90334deba4"
+  },
+  {
+   "name": "Nvidia’s State of Affairs",
+   "show": "The Powers That Be: Daily",
+   "show_uri": "spotify:show:5ZChG4x3aogGtKGkxU6nMH",
+   "release_date": "2026-11-10",
+   "duration_ms": 1145025,
+   "image": "https://i.scdn.co/image/ab67656300005f1f36f39d45bf295cbf58d41331",
+   "first_seen": "2026-11-12T14:10:02Z",
+   "progress_ms": 1145025,
+   "last_seen": "2026-11-12T14:10:02Z",
+   "url": "https://open.spotify.com/episode/48mrFhQ5ikec7F2nrR9OZw",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f55386ae3fe554333e1a85785"
+  },
+  {
    "name": "0399: The State of Tolkien Fandom » Rings of Power, Hunt for Gollum & What Comes Next",
    "show": "The Tolkien Road",
    "show_uri": "spotify:show:3bSi49HNAQsWczeZ38s8Yp",
@@ -1567,84 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-12T13:47:38Z",
    "url": "https://open.spotify.com/episode/2LgFjxE2LpKMsRlEv5blCX",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42"
-  },
-  {
-   "name": "Poland in shock after Saturday’s mass shooting",
-   "show": "Newshour",
-   "show_uri": "spotify:show:5qbXje6KaVOHwjsHNTELjA",
-   "release_date": "2026-11-08",
-   "duration_ms": 2086791,
-   "image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46",
-   "first_seen": "2026-11-12T13:47:38Z",
-   "progress_ms": 1440200,
-   "last_seen": "2026-11-12T13:47:38Z",
-   "url": "https://open.spotify.com/episode/5EFxdt0QBPCPzLw2LurKR3",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46"
-  },
-  {
-   "name": "A Political Earthquake Shakes America",
-   "show": "Amanpour",
-   "show_uri": "spotify:show:3sLR8M7JchYmhWuf8QtlyO",
-   "release_date": "2026-11-07",
-   "duration_ms": 2222528,
-   "image": "https://i.scdn.co/image/ab67656300005f1f95217901851fcb57728068b6",
-   "first_seen": "2026-11-12T13:45:25Z",
-   "progress_ms": 222824,
-   "last_seen": "2026-11-12T13:45:25Z",
-   "url": "https://open.spotify.com/episode/0O40cTtKLizPL3G3vPFo16",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f95217901851fcb57728068b6"
-  },
-  {
-   "name": "AI's Growing Threat to Girls Online",
-   "show": "Amanpour",
-   "show_uri": "spotify:show:3sLR8M7JchYmhWuf8QtlyO",
-   "release_date": "2026-11-06",
-   "duration_ms": 3134851,
-   "image": "https://i.scdn.co/image/ab67656300005f1f95217901851fcb57728068b6",
-   "first_seen": "2026-11-12T13:45:25Z",
-   "progress_ms": 518473,
-   "last_seen": "2026-11-12T13:45:25Z",
-   "url": "https://open.spotify.com/episode/4kgyHp44PmJJ1HTxFQVjUl",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f95217901851fcb57728068b6"
-  },
-  {
-   "name": "Minnesota Now: Nov. 10, 2026",
-   "show": "Minnesota Now",
-   "show_uri": "spotify:show:61oEbjIMX0lVNvf0MyrEX8",
-   "release_date": "2026-11-10",
-   "duration_ms": 3271418,
-   "image": "https://i.scdn.co/image/ab67656300005f1f110dfea289c0685fcc6c4343",
-   "first_seen": "2026-11-12T13:45:24Z",
-   "progress_ms": 18959,
-   "last_seen": "2026-11-12T13:45:24Z",
-   "url": "https://open.spotify.com/episode/7j8D2vcYVeLQQ8eftBU1fP",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f110dfea289c0685fcc6c4343"
-  },
-  {
-   "name": "Rahm Emanuel on the blue wave, the Democratic agenda, and his plans for 2028",
-   "show": "Firing Line with Margaret Hoover",
-   "show_uri": "spotify:show:1uBimoCIw9AqeoN2RwlUBq",
-   "release_date": "2026-11-07",
-   "duration_ms": 2026513,
-   "image": "https://i.scdn.co/image/ab67656300005f1f836e33e0257047ce378ffcd1",
-   "first_seen": "2026-11-08T12:40:02Z",
-   "progress_ms": 740716,
-   "last_seen": "2026-11-08T12:40:02Z",
-   "url": "https://open.spotify.com/episode/4k5WSfYEvqpFAqjeRjFIpE",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f836e33e0257047ce378ffcd1"
-  },
-  {
-   "name": "Heavy rain in Gaza floods tens of thousands of tents",
-   "show": "Newshour",
-   "show_uri": "spotify:show:5qbXje6KaVOHwjsHNTELjA",
-   "release_date": "2026-11-07",
-   "duration_ms": 2845910,
-   "image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46",
-   "first_seen": "2026-11-08T02:40:02Z",
-   "progress_ms": 2845910,
-   "last_seen": "2026-11-08T05:10:02Z",
-   "url": "https://open.spotify.com/episode/1XFD0aCd8ss7SH1Gc2iH81",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46"
   }
  ],
  "top_shows": [
