@@ -1,14 +1,91 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-12T16:40:06Z",
+ "generated": "2026-11-12T17:10:06Z",
  "totals": {
-  "plays": 125105,
-  "hours": 8505.4,
+  "plays": 125112,
+  "hours": 8505.8,
   "artists": 702,
   "albums": 1526,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "P.S.Y.C.H.O.T.I.C.",
+   "artist": "The Warning",
+   "album": "Queen of the Murder Scene",
+   "year": 2018,
+   "image": "https://i.scdn.co/image/ab67616d00001e02e0871bbaad013df7b7e56c2a",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273e0871bbaad013df7b7e56c2a",
+   "url": "https://open.spotify.com/track/0wRHqRHUXgoOXe6H6XS1sJ",
+   "album_url": "https://open.spotify.com/album/2kB1Qqw3YOR9i3nbNxXWRs",
+   "played_at": "2026-11-12T17:01:25.627Z"
+  },
+  {
+   "name": "Queen of the Murder Scene",
+   "artist": "The Warning",
+   "album": "Queen of the Murder Scene",
+   "year": 2018,
+   "image": "https://i.scdn.co/image/ab67616d00001e02e0871bbaad013df7b7e56c2a",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273e0871bbaad013df7b7e56c2a",
+   "url": "https://open.spotify.com/track/7HngxvXTrk1leMvF8QNeyl",
+   "album_url": "https://open.spotify.com/album/2kB1Qqw3YOR9i3nbNxXWRs",
+   "played_at": "2026-11-12T16:57:46.019Z"
+  },
+  {
+   "name": "Time for Me to Fly",
+   "artist": "REO Speedwagon",
+   "album": "You Can Tune a Piano, But You Can't Tuna Fish",
+   "year": 1978,
+   "image": "https://i.scdn.co/image/ab67616d00001e0240c8a6ff21a1d52575185f38",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27340c8a6ff21a1d52575185f38",
+   "url": "https://open.spotify.com/track/0cO7JEo8deKuQMWpDyjenY",
+   "album_url": "https://open.spotify.com/album/3w0BIqN0uMoOT2l2ppKuXx",
+   "played_at": "2026-11-12T16:53:51.162Z"
+  },
+  {
+   "name": "Teach Your Children",
+   "artist": "Crosby, Stills, Nash & Young",
+   "album": "Deja Vu",
+   "year": 1970,
+   "image": "https://i.scdn.co/image/ab67616d00001e0206e00756085191abc01e4cf0",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27306e00756085191abc01e4cf0",
+   "url": "https://open.spotify.com/track/29HaKOpeLSYvqdFyEQSRdj",
+   "album_url": "https://open.spotify.com/album/5bHkK1X4WEOzNvRhehvOcb",
+   "played_at": "2026-11-12T16:50:09.336Z"
+  },
+  {
+   "name": "Behind My Eyes 2.0",
+   "artist": "Jackie Evancho",
+   "album": "Behind My Eyes 2.0",
+   "year": 2024,
+   "image": "https://i.scdn.co/image/ab67616d00001e02bac53c6df98b2b94d6cd6107",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273bac53c6df98b2b94d6cd6107",
+   "url": "https://open.spotify.com/track/2CFumA2qK7AtKxVlMrxZsC",
+   "album_url": "https://open.spotify.com/album/3ITUwSkekIyElh1KCdxGKe",
+   "played_at": "2026-11-12T16:47:15.307Z"
+  },
+  {
+   "name": "When You Look At Me",
+   "artist": "Return to Dust",
+   "album": "Return to Dust",
+   "year": 2024,
+   "image": "https://i.scdn.co/image/ab67616d00001e02416863729de216cc315bac0d",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273416863729de216cc315bac0d",
+   "url": "https://open.spotify.com/track/6q18Izccxwaq6dat7aIUMl",
+   "album_url": "https://open.spotify.com/album/2iMQfRVysuYVHB4UEhT6dB",
+   "played_at": "2026-11-12T16:44:16.116Z"
+  },
+  {
+   "name": "Linger - Remastered 2026",
+   "artist": "The Cranberries",
+   "album": "Everybody Else Is Doing It, So Why Can't We? (Remastered 2026)",
+   "year": 1993,
+   "image": "https://i.scdn.co/image/ab67616d00001e02753dbf92830094154a21b193",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273753dbf92830094154a21b193",
+   "url": "https://open.spotify.com/track/1WYrTfvKjQYaYfVziGG1ET",
+   "album_url": "https://open.spotify.com/album/4xIcI1EC3MoCNZWkhMjShN",
+   "played_at": "2026-11-12T16:40:45.426Z"
+  },
   {
    "name": "Right Down the Line",
    "artist": "Gerry Rafferty",
@@ -459,89 +536,12 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/7vidktgNZFQylTgH1GEnMs",
    "album_url": "https://open.spotify.com/album/1OU7zJvUfgxxPHgkTClt1M",
    "played_at": "2026-11-10T22:29:03.436Z"
-  },
-  {
-   "name": "Funky Cold Medina",
-   "artist": "Tone-Loc",
-   "album": "Loc-ed After Dark",
-   "year": 1989,
-   "image": "https://i.scdn.co/image/ab67616d00001e027d02bf7ee36c4c913636a4f3",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2737d02bf7ee36c4c913636a4f3",
-   "url": "https://open.spotify.com/track/5YIF6HSOtHN9HdcE5IPzMe",
-   "album_url": "https://open.spotify.com/album/6xE6A0Vwd2LmopR6Mn8UFG",
-   "played_at": "2026-11-10T22:23:18.342Z"
-  },
-  {
-   "name": "Dr. Feelgood",
-   "artist": "Mötley Crüe",
-   "album": "Dr. Feelgood",
-   "year": 1989,
-   "image": "https://i.scdn.co/image/ab67616d00001e02fc30908354ee3be55dc6feb2",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273fc30908354ee3be55dc6feb2",
-   "url": "https://open.spotify.com/track/5dnwXK73BDZ0H2L06ZrKcE",
-   "album_url": "https://open.spotify.com/album/4MDYr65P5RQb6VHt80T3o8",
-   "played_at": "2026-11-10T22:19:09.700Z"
-  },
-  {
-   "name": "Ugh",
-   "artist": "The Warning",
-   "album": "Queen of the Murder Scene",
-   "year": 2018,
-   "image": "https://i.scdn.co/image/ab67616d00001e02e0871bbaad013df7b7e56c2a",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273e0871bbaad013df7b7e56c2a",
-   "url": "https://open.spotify.com/track/6LZj44LIoPChkWVxqjobso",
-   "album_url": "https://open.spotify.com/album/2kB1Qqw3YOR9i3nbNxXWRs",
-   "played_at": "2026-11-10T22:14:18.233Z"
-  },
-  {
-   "name": "Love Walks In",
-   "artist": "Van Halen",
-   "album": "5150",
-   "year": 1986,
-   "image": "https://i.scdn.co/image/ab67616d00001e0281e66f0aa00989cbe6030d57",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27381e66f0aa00989cbe6030d57",
-   "url": "https://open.spotify.com/track/6FRQGRdhueJGTKiYnirDNy",
-   "album_url": "https://open.spotify.com/album/5Ew5vOg3PYyT9QUPCrdIZq",
-   "played_at": "2026-11-10T22:09:59.510Z"
-  },
-  {
-   "name": "A Beautiful Life",
-   "artist": "Dorothy",
-   "album": "Gifts From The Holy Ghost",
-   "year": 2022,
-   "image": "https://i.scdn.co/image/ab67616d00001e021aa1b81fbee5a40d6fb4c8c2",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2731aa1b81fbee5a40d6fb4c8c2",
-   "url": "https://open.spotify.com/track/7jabc4dRHaNUBl7SDE881N",
-   "album_url": "https://open.spotify.com/album/258YZ2TUzI1SJBU626eYFc",
-   "played_at": "2026-11-10T15:58:05.804Z"
-  },
-  {
-   "name": "Authority Song",
-   "artist": "John Mellencamp",
-   "album": "Uh-HUH!",
-   "year": 1983,
-   "image": "https://i.scdn.co/image/ab67616d00001e02cd949894aa0df080ed50ff9b",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273cd949894aa0df080ed50ff9b",
-   "url": "https://open.spotify.com/track/38Lf9Im0jQhAaKx8ehQM1S",
-   "album_url": "https://open.spotify.com/album/1p4YwrjrP7t6Rfb755yoTQ",
-   "played_at": "2026-11-10T15:36:19.030Z"
-  },
-  {
-   "name": "XXI Century Blood",
-   "artist": "The Warning",
-   "album": "XXI Century Blood",
-   "year": 2017,
-   "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
-   "url": "https://open.spotify.com/track/1VcLiPmina1L3xlLkJ5OTS",
-   "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
-   "played_at": "2026-11-10T15:32:29.301Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10695,
+   "plays": 10697,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
@@ -621,7 +621,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b273e0871bbaad013df7b7e56c2a",
    "url": "https://open.spotify.com/track/3byoK5Yi2YT9Gcc4xS8qKE",
    "album_url": "https://open.spotify.com/album/2kB1Qqw3YOR9i3nbNxXWRs",
-   "plays": 1898
+   "plays": 1900
   },
   {
    "name": "Back In Black",
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28690,
+   "plays": 28692,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9724,
+   "plays": 9725,
    "covers": [
     {
      "name": "Amazing",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15783,
+   "plays": 15785,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1324,7 +1324,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273e0871bbaad013df7b7e56c2a",
      "url": "https://open.spotify.com/track/3byoK5Yi2YT9Gcc4xS8qKE",
      "album_url": "https://open.spotify.com/album/2kB1Qqw3YOR9i3nbNxXWRs",
-     "plays": 1898
+     "plays": 1900
     },
     {
      "name": "Rhyme or Reason",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18646,
+   "plays": 18648,
    "covers": [
     {
      "name": "ERROR",
