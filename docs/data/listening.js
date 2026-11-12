@@ -1,14 +1,36 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-12T18:40:07Z",
+ "generated": "2026-11-12T19:10:06Z",
  "totals": {
-  "plays": 125121,
-  "hours": 8506.3,
+  "plays": 125123,
+  "hours": 8506.5,
   "artists": 702,
   "albums": 1526,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Legs (2008 Remaster)",
+   "artist": "ZZ Top",
+   "album": "Eliminator",
+   "year": 1983,
+   "image": "https://i.scdn.co/image/ab67616d00001e02a2b4f98f60e3cacf3866b2e3",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273a2b4f98f60e3cacf3866b2e3",
+   "url": "https://open.spotify.com/track/11oBg7EA3BgPLWrIx4Rv7D",
+   "album_url": "https://open.spotify.com/album/4KW6YVbF8E3kexYcl0k4IK",
+   "played_at": "2026-11-12T19:05:57.352Z"
+  },
+  {
+   "name": "Fly To The Angels",
+   "artist": "Slaughter",
+   "album": "Mass Slaughter: The Best Of Slaughter",
+   "year": 1995,
+   "image": "https://i.scdn.co/image/ab67616d00001e0240b90f1a11cfc3f4ec22610f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27340b90f1a11cfc3f4ec22610f",
+   "url": "https://open.spotify.com/track/1KkKFxAOb4kDpWH8IeLa7A",
+   "album_url": "https://open.spotify.com/album/3eefJebHQxT81kCOMr41l4",
+   "played_at": "2026-11-12T19:01:22.882Z"
+  },
   {
    "name": "Learning To Fly",
    "artist": "Tom Petty and the Heartbreakers",
@@ -514,28 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/5XcZRgJv3zMhTqCyESjQrF",
    "album_url": "https://open.spotify.com/album/033cvSPAuSU5ArRfIgQSDU",
    "played_at": "2026-11-11T14:22:22.938Z"
-  },
-  {
-   "name": "Bed of Nails",
-   "artist": "Alice Cooper",
-   "album": "Trash",
-   "year": 1989,
-   "image": "https://i.scdn.co/image/ab67616d00001e0234b292a289c635532da02671",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27334b292a289c635532da02671",
-   "url": "https://open.spotify.com/track/5XeT9fYCeg1jYithrEni7v",
-   "album_url": "https://open.spotify.com/album/033cvSPAuSU5ArRfIgQSDU",
-   "played_at": "2026-11-11T14:17:52.661Z"
-  },
-  {
-   "name": "War Pigs / Luke's Wall - 2012 - Remaster",
-   "artist": "Black Sabbath",
-   "album": "Paranoid (Remaster)",
-   "year": 1970,
-   "image": "https://i.scdn.co/image/ab67616d00001e02d5fccf9ce08b6a1e7d12a222",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273d5fccf9ce08b6a1e7d12a222",
-   "url": "https://open.spotify.com/track/2rd9ETlulTbz6BYZcdvIE1",
-   "album_url": "https://open.spotify.com/album/6r7LZXAVueS5DqdrvXJJK7",
-   "played_at": "2026-11-11T00:45:11.257Z"
   }
  ],
  "top_artists": [
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32917,
+   "plays": 32918,
    "covers": [
     {
      "name": "Back In Black",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9726,
+   "plays": 9727,
    "covers": [
     {
      "name": "Amazing",
