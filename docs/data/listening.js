@@ -1,14 +1,91 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-12T23:10:04Z",
+ "generated": "2026-11-12T23:40:07Z",
  "totals": {
-  "plays": 125144,
-  "hours": 8508.0,
+  "plays": 125151,
+  "hours": 8508.5,
   "artists": 702,
   "albums": 1526,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Kashmir",
+   "artist": "Lez Zeppelin",
+   "album": "Lez Zeppelin",
+   "year": 2007,
+   "image": "https://i.scdn.co/image/ab67616d00001e024cd0de706733b5d8adb2fc3c",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2734cd0de706733b5d8adb2fc3c",
+   "url": "https://open.spotify.com/track/2oXhx1rlq7onrInYYC8IDO",
+   "album_url": "https://open.spotify.com/album/5ol7zB4NfApisnuFDXoecx",
+   "played_at": "2026-11-12T23:37:07.314Z"
+  },
+  {
+   "name": "Hey Mickey",
+   "artist": "Toni Basil",
+   "album": "Hey Mickey",
+   "year": 2020,
+   "image": "https://i.scdn.co/image/ab67616d00001e02b08e2cc107fa43851506e876",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273b08e2cc107fa43851506e876",
+   "url": "https://open.spotify.com/track/5G9KcZaxfCysfv4EryCB9b",
+   "album_url": "https://open.spotify.com/album/0FCGD70m1TXNC9iXgKsTkp",
+   "played_at": "2026-11-12T23:28:24.024Z"
+  },
+  {
+   "name": "Lady",
+   "artist": "Styx",
+   "album": "Styx II",
+   "year": 1973,
+   "image": "https://i.scdn.co/image/ab67616d00001e025053c9e335609a8de97e5669",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2735053c9e335609a8de97e5669",
+   "url": "https://open.spotify.com/track/1wpRglLhQ092N1rftlDMD3",
+   "album_url": "https://open.spotify.com/album/6QRpuaqB1chM6wemxQlcy1",
+   "played_at": "2026-11-12T23:24:09.418Z"
+  },
+  {
+   "name": "Help Me, Rhonda - Single Version/Remastered 2001",
+   "artist": "The Beach Boys",
+   "album": "Summer Days (And Summer Nights) [Remastered]",
+   "year": 1965,
+   "image": "https://i.scdn.co/image/ab67616d00001e02ffe1a4788385a4835ae14df8",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273ffe1a4788385a4835ae14df8",
+   "url": "https://open.spotify.com/track/3haZcHm3HydDVxm3je3Zmg",
+   "album_url": "https://open.spotify.com/album/13f845bYjx8MUVF2bl1uJ0",
+   "played_at": "2026-11-12T23:21:11.206Z"
+  },
+  {
+   "name": "Ohio",
+   "artist": "Crosby, Stills, Nash & Young",
+   "album": "So Far",
+   "year": 1974,
+   "image": "https://i.scdn.co/image/ab67616d00001e026ae632b15daa8ac05ed90f28",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2736ae632b15daa8ac05ed90f28",
+   "url": "https://open.spotify.com/track/0ToHhkK4qtwEyKOxhQpMbJ",
+   "album_url": "https://open.spotify.com/album/5C1NUv7hNWS6n0GBtLetKM",
+   "played_at": "2026-11-12T23:18:21.395Z"
+  },
+  {
+   "name": "Love Alive",
+   "artist": "Heart",
+   "album": "Little Queen",
+   "year": 1977,
+   "image": "https://i.scdn.co/image/ab67616d00001e0266e2e0df78c4ec35a8ed20a0",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27366e2e0df78c4ec35a8ed20a0",
+   "url": "https://open.spotify.com/track/5tVYmyLGmwJAdyXOGAKdHI",
+   "album_url": "https://open.spotify.com/album/1LaeNhiUpL3X6N0LcFvuDF",
+   "played_at": "2026-11-12T23:15:17.090Z"
+  },
+  {
+   "name": "Rock 'n' Roll Fantasy - 2019 Remaster",
+   "artist": "Bad Company",
+   "album": "Desolation Angels (40th Anniversary Edition) [2019 Remaster]",
+   "year": 1979,
+   "image": "https://i.scdn.co/image/ab67616d00001e025cb4078f7b509427aeca056a",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2735cb4078f7b509427aeca056a",
+   "url": "https://open.spotify.com/track/5smceVPFu5c15Y4ziUDdDP",
+   "album_url": "https://open.spotify.com/album/5mEItsmLNqRetWJftDpIv7",
+   "played_at": "2026-11-12T23:10:54.863Z"
+  },
   {
    "name": "18 and Life",
    "artist": "Skid Row",
@@ -459,83 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/4bcc5nd8AQOkCloGe07Qtv",
    "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
    "played_at": "2026-11-12T15:15:55.795Z"
-  },
-  {
-   "name": "Mary Had a Little Lamb",
-   "artist": "Stevie Ray Vaughan",
-   "album": "Texas Flood (Legacy Edition)",
-   "year": 1983,
-   "image": "https://i.scdn.co/image/ab67616d00001e02f7143c00741b94bb62025340",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273f7143c00741b94bb62025340",
-   "url": "https://open.spotify.com/track/0nFZ2HQRnIxiwraCm2X6Uq",
-   "album_url": "https://open.spotify.com/album/1AL5oXZRtTc8PyhcTwg4xQ",
-   "played_at": "2026-11-12T14:37:47.564Z"
-  },
-  {
-   "name": "Little Wing",
-   "artist": "Jimi Hendrix",
-   "album": "Axis: Bold As Love",
-   "year": 1967,
-   "image": "https://i.scdn.co/image/ab67616d00001e0219dcd95d28b63d10164327f2",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27319dcd95d28b63d10164327f2",
-   "url": "https://open.spotify.com/track/1Eolhana7nKHYpcYpdVcT5",
-   "album_url": "https://open.spotify.com/album/3uFZf8rykoHo7XMIQVYW6r",
-   "played_at": "2026-11-12T14:35:00.192Z"
-  },
-  {
-   "name": "All Star",
-   "artist": "Smash Mouth",
-   "album": "Astro Lounge",
-   "year": 1999,
-   "image": "https://i.scdn.co/image/ab67616d00001e024f3bbf9631faeb8de9912a23",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2734f3bbf9631faeb8de9912a23",
-   "url": "https://open.spotify.com/track/3cfOd4CMv2snFaKAnMdnvK",
-   "album_url": "https://open.spotify.com/album/2kyTLcEZe6nc1s6ve0zW9P",
-   "played_at": "2026-11-12T14:32:33.961Z"
-  },
-  {
-   "name": "Hurts So Good",
-   "artist": "John Mellencamp",
-   "album": "American Fool",
-   "year": 1982,
-   "image": "https://i.scdn.co/image/ab67616d00001e02b1945b44ce8868740f132f8e",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273b1945b44ce8868740f132f8e",
-   "url": "https://open.spotify.com/track/67eX1ovaHyVPUinMHeUtIM",
-   "album_url": "https://open.spotify.com/album/4gouGcdQn9OvjX42xnWrF0",
-   "played_at": "2026-11-12T14:29:12.973Z"
-  },
-  {
-   "name": "Abracadabra",
-   "artist": "Steve Miller Band",
-   "album": "Abracadabra",
-   "year": 1982,
-   "image": "https://i.scdn.co/image/ab67616d00001e02b80d7868e6e0275d12102508",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273b80d7868e6e0275d12102508",
-   "url": "https://open.spotify.com/track/2E2ZVy2fxslpAUgbb4zu84",
-   "album_url": "https://open.spotify.com/album/0afS7TjKOoq8LzTx9CgOnu",
-   "played_at": "2026-11-12T14:25:33.537Z"
-  },
-  {
-   "name": "Thunderstruck",
-   "artist": "AC/DC",
-   "album": "Iron Man 2",
-   "year": 2010,
-   "image": "https://i.scdn.co/image/ab67616d00001e0202df8239ad8626aa7acc144b",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27302df8239ad8626aa7acc144b",
-   "url": "https://open.spotify.com/track/52UWtKlYjZO3dHoRlWuz9S",
-   "album_url": "https://open.spotify.com/album/4ydl8Ci7OsndhI2ALnrpIv",
-   "played_at": "2026-11-12T14:20:24.678Z"
-  },
-  {
-   "name": "Death Letter Blues",
-   "artist": "Son House",
-   "album": "Father Of The Delta Blues: The Complete 1965 Sessions",
-   "year": 1992,
-   "image": "https://i.scdn.co/image/ab67616d00001e02059c952d7ccc5a617cc9a383",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273059c952d7ccc5a617cc9a383",
-   "url": "https://open.spotify.com/track/0W0euvQlhbcsTydzsD4EQk",
-   "album_url": "https://open.spotify.com/album/5SsZBxF3sRSJnFd0rZ3vcF",
-   "played_at": "2026-11-12T14:15:30.491Z"
   }
  ],
  "top_artists": [
@@ -583,7 +583,7 @@ window.LISTENING = {
   },
   {
    "name": "Heart",
-   "plays": 1929,
+   "plays": 1930,
    "url": "https://open.spotify.com/artist/34jw2BbxjoYalTp8cJFCPv",
    "image": "https://i.scdn.co/image/ab67616d00001e0266e2e0df78c4ec35a8ed20a0"
   },
@@ -720,7 +720,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b27366e2e0df78c4ec35a8ed20a0",
    "url": "https://open.spotify.com/track/4KfSdst7rW39C0sfhArdrz",
    "album_url": "https://open.spotify.com/album/1LaeNhiUpL3X6N0LcFvuDF",
-   "plays": 912
+   "plays": 913
   },
   {
    "name": "Folsom Prison Blues",
@@ -832,7 +832,7 @@ window.LISTENING = {
   },
   {
    "decade": 1960,
-   "plays": 7061,
+   "plays": 7062,
    "covers": [
     {
      "name": "Your Time Is Gonna Come - 1990 Remaster",
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28703,
+   "plays": 28707,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -948,7 +948,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b27366e2e0df78c4ec35a8ed20a0",
      "url": "https://open.spotify.com/track/4KfSdst7rW39C0sfhArdrz",
      "album_url": "https://open.spotify.com/album/1LaeNhiUpL3X6N0LcFvuDF",
-     "plays": 912
+     "plays": 913
     },
     {
      "name": "Iron Man - 2012 - Remaster",
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 12008,
+   "plays": 12009,
    "covers": [
     {
      "name": "Material Girl",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18654,
+   "plays": 18655,
    "covers": [
     {
      "name": "ERROR",
