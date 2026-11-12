@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-12T15:40:04Z",
+ "generated": "2026-11-12T16:40:06Z",
  "totals": {
-  "plays": 125103,
-  "hours": 8505.2,
+  "plays": 125105,
+  "hours": 8505.4,
   "artists": 702,
   "albums": 1526,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Right Down the Line",
+   "artist": "Gerry Rafferty",
+   "album": "City to City",
+   "year": 1978,
+   "image": "https://i.scdn.co/image/ab67616d00001e02dc60cf9a010f86354e6735dd",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273dc60cf9a010f86354e6735dd",
+   "url": "https://open.spotify.com/track/2Xb6wJYGi0QXwURw5WWvI5",
+   "album_url": "https://open.spotify.com/album/35yZZTWeSrszSKjRlFETwf",
+   "played_at": "2026-11-12T16:36:10.051Z"
+  },
   {
    "name": "Runaway",
    "artist": "The Warning",
@@ -525,17 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/1VcLiPmina1L3xlLkJ5OTS",
    "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
    "played_at": "2026-11-10T15:32:29.301Z"
-  },
-  {
-   "name": "Somebody To Love",
-   "artist": "Queen",
-   "album": "A Day At The Races (Deluxe Edition)",
-   "year": 1976,
-   "image": "https://i.scdn.co/image/ab67616d00001e023aa2d125c28475c322ac831e",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2733aa2d125c28475c322ac831e",
-   "url": "https://open.spotify.com/track/18OMrZoyyZuVy06FttIFhq",
-   "album_url": "https://open.spotify.com/album/32wu2qeQwVA6D8z1nWk68Q",
-   "played_at": "2026-11-10T15:28:31.621Z"
   }
  ],
  "top_artists": [
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28688,
+   "plays": 28690,
    "covers": [
     {
      "name": "More Than a Feeling",
