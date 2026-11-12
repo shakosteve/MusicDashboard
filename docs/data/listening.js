@@ -1,14 +1,102 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-12T14:10:07Z",
+ "generated": "2026-11-12T14:40:06Z",
  "totals": {
-  "plays": 125094,
-  "hours": 8504.6,
+  "plays": 125102,
+  "hours": 8505.1,
   "artists": 702,
   "albums": 1526,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Mary Had a Little Lamb",
+   "artist": "Stevie Ray Vaughan",
+   "album": "Texas Flood (Legacy Edition)",
+   "year": 1983,
+   "image": "https://i.scdn.co/image/ab67616d00001e02f7143c00741b94bb62025340",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273f7143c00741b94bb62025340",
+   "url": "https://open.spotify.com/track/0nFZ2HQRnIxiwraCm2X6Uq",
+   "album_url": "https://open.spotify.com/album/1AL5oXZRtTc8PyhcTwg4xQ",
+   "played_at": "2026-11-12T14:37:47.564Z"
+  },
+  {
+   "name": "Little Wing",
+   "artist": "Jimi Hendrix",
+   "album": "Axis: Bold As Love",
+   "year": 1967,
+   "image": "https://i.scdn.co/image/ab67616d00001e0219dcd95d28b63d10164327f2",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27319dcd95d28b63d10164327f2",
+   "url": "https://open.spotify.com/track/1Eolhana7nKHYpcYpdVcT5",
+   "album_url": "https://open.spotify.com/album/3uFZf8rykoHo7XMIQVYW6r",
+   "played_at": "2026-11-12T14:35:00.192Z"
+  },
+  {
+   "name": "All Star",
+   "artist": "Smash Mouth",
+   "album": "Astro Lounge",
+   "year": 1999,
+   "image": "https://i.scdn.co/image/ab67616d00001e024f3bbf9631faeb8de9912a23",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2734f3bbf9631faeb8de9912a23",
+   "url": "https://open.spotify.com/track/3cfOd4CMv2snFaKAnMdnvK",
+   "album_url": "https://open.spotify.com/album/2kyTLcEZe6nc1s6ve0zW9P",
+   "played_at": "2026-11-12T14:32:33.961Z"
+  },
+  {
+   "name": "Hurts So Good",
+   "artist": "John Mellencamp",
+   "album": "American Fool",
+   "year": 1982,
+   "image": "https://i.scdn.co/image/ab67616d00001e02b1945b44ce8868740f132f8e",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273b1945b44ce8868740f132f8e",
+   "url": "https://open.spotify.com/track/67eX1ovaHyVPUinMHeUtIM",
+   "album_url": "https://open.spotify.com/album/4gouGcdQn9OvjX42xnWrF0",
+   "played_at": "2026-11-12T14:29:12.973Z"
+  },
+  {
+   "name": "Abracadabra",
+   "artist": "Steve Miller Band",
+   "album": "Abracadabra",
+   "year": 1982,
+   "image": "https://i.scdn.co/image/ab67616d00001e02b80d7868e6e0275d12102508",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273b80d7868e6e0275d12102508",
+   "url": "https://open.spotify.com/track/2E2ZVy2fxslpAUgbb4zu84",
+   "album_url": "https://open.spotify.com/album/0afS7TjKOoq8LzTx9CgOnu",
+   "played_at": "2026-11-12T14:25:33.537Z"
+  },
+  {
+   "name": "Thunderstruck",
+   "artist": "AC/DC",
+   "album": "Iron Man 2",
+   "year": 2010,
+   "image": "https://i.scdn.co/image/ab67616d00001e0202df8239ad8626aa7acc144b",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27302df8239ad8626aa7acc144b",
+   "url": "https://open.spotify.com/track/52UWtKlYjZO3dHoRlWuz9S",
+   "album_url": "https://open.spotify.com/album/4ydl8Ci7OsndhI2ALnrpIv",
+   "played_at": "2026-11-12T14:20:24.678Z"
+  },
+  {
+   "name": "Death Letter Blues",
+   "artist": "Son House",
+   "album": "Father Of The Delta Blues: The Complete 1965 Sessions",
+   "year": 1992,
+   "image": "https://i.scdn.co/image/ab67616d00001e02059c952d7ccc5a617cc9a383",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273059c952d7ccc5a617cc9a383",
+   "url": "https://open.spotify.com/track/0W0euvQlhbcsTydzsD4EQk",
+   "album_url": "https://open.spotify.com/album/5SsZBxF3sRSJnFd0rZ3vcF",
+   "played_at": "2026-11-12T14:15:30.491Z"
+  },
+  {
+   "name": "End of You",
+   "artist": "Poppy, Amy Lee, Courtney LaPlante",
+   "album": "End of You",
+   "year": 2025,
+   "image": "https://i.scdn.co/image/ab67616d00001e02460c53e36b10048efc49e76c",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273460c53e36b10048efc49e76c",
+   "url": "https://open.spotify.com/track/0PsFsv5xUyX06ZhIEtFkeA",
+   "album_url": "https://open.spotify.com/album/7heJiiZpgQXmqVIoz2Fra1",
+   "played_at": "2026-11-12T14:11:10.746Z"
+  },
   {
    "name": "Head Over Heels - Dave Bascombe 7\" N.Mix",
    "artist": "Tears For Fears, Dave Bascombe",
@@ -448,94 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/4uTTd2SlalZoG0zVgI63kH",
    "album_url": "https://open.spotify.com/album/4jOItHaJyNyXJxz8toGytx",
    "played_at": "2026-11-10T15:23:34.028Z"
-  },
-  {
-   "name": "The End (Stars Always Seem to Fade)",
-   "artist": "The Warning",
-   "album": "Queen of the Murder Scene",
-   "year": 2018,
-   "image": "https://i.scdn.co/image/ab67616d00001e02e0871bbaad013df7b7e56c2a",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273e0871bbaad013df7b7e56c2a",
-   "url": "https://open.spotify.com/track/34UQ1XrP5vut9fCgl76H8g",
-   "album_url": "https://open.spotify.com/album/2kB1Qqw3YOR9i3nbNxXWRs",
-   "played_at": "2026-11-10T15:20:03.675Z"
-  },
-  {
-   "name": "Don't Let Me Get Me - Radio Edit",
-   "artist": "P!nk",
-   "album": "M!ssundaztood (Expanded Edition)",
-   "year": 2001,
-   "image": "https://i.scdn.co/image/ab67616d00001e029da93c573c5ce2d9deb98e4f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2739da93c573c5ce2d9deb98e4f",
-   "url": "https://open.spotify.com/track/1BfRdnfPYrni7zj4ANodBX",
-   "album_url": "https://open.spotify.com/album/57wJKO7qrPw56iOEKhTmg2",
-   "played_at": "2026-11-09T17:32:17.475Z"
-  },
-  {
-   "name": "Six Feet Deep - Live from Auditorio Nacional, CDMX",
-   "artist": "The Warning",
-   "album": "Live from Auditorio Nacional, CDMX",
-   "year": 2025,
-   "image": "https://i.scdn.co/image/ab67616d00001e025cda6d880ec3968aa6b6ac2f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
-   "url": "https://open.spotify.com/track/54SyANvduVctJjUQAsQiGM",
-   "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
-   "played_at": "2026-11-09T17:28:46.296Z"
-  },
-  {
-   "name": "Back In Black",
-   "artist": "AC/DC",
-   "album": "Back In Black",
-   "year": 1980,
-   "image": "https://i.scdn.co/image/ab67616d00001e02ff191d7fbdb5a13eaf84132b",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273ff191d7fbdb5a13eaf84132b",
-   "url": "https://open.spotify.com/track/08mG3Y1vljYA6bvDt4Wqkj",
-   "album_url": "https://open.spotify.com/album/6mUdeDZCsExyJLMdAfDuwh",
-   "played_at": "2026-11-09T17:25:43.857Z"
-  },
-  {
-   "name": "The Pot",
-   "artist": "TOOL",
-   "album": "10,000 Days",
-   "year": 2006,
-   "image": "https://i.scdn.co/image/ab67616d00001e02725e469500de9880a320d8cb",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273725e469500de9880a320d8cb",
-   "url": "https://open.spotify.com/track/1lATXTBJDHwawvT1UfxWu3",
-   "album_url": "https://open.spotify.com/album/1fvWYcbjuycyHpzNPH1Vfk",
-   "played_at": "2026-11-09T17:21:25.187Z"
-  },
-  {
-   "name": "Leroy",
-   "artist": "Matilda Marigolds",
-   "album": "Union",
-   "year": 2021,
-   "image": "https://i.scdn.co/image/ab67616d00001e02d579a612650cec9eb67574e9",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273d579a612650cec9eb67574e9",
-   "url": "https://open.spotify.com/track/4c0bxhOxnQht1td6vGDJiY",
-   "album_url": "https://open.spotify.com/album/7ofKUTF17SEsGsAuaMhbj7",
-   "played_at": "2026-11-09T16:24:28.601Z"
-  },
-  {
-   "name": "Jet Airliner",
-   "artist": "Steve Miller Band",
-   "album": "Greatest Hits 1974-78",
-   "year": 1978,
-   "image": "https://i.scdn.co/image/ab67616d00001e02632b907273dba6a6062fb780",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273632b907273dba6a6062fb780",
-   "url": "https://open.spotify.com/track/2zI3bUYn2pcF27of6i2oqK",
-   "album_url": "https://open.spotify.com/album/5hLazW5a3Ysgy3dncwGgUn",
-   "played_at": "2026-11-09T15:41:14.574Z"
-  },
-  {
-   "name": "Dull Knives (Cut Better) - Live from Auditorio Nacional, CDMX",
-   "artist": "The Warning",
-   "album": "Live from Auditorio Nacional, CDMX",
-   "year": 2025,
-   "image": "https://i.scdn.co/image/ab67616d00001e025cda6d880ec3968aa6b6ac2f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
-   "url": "https://open.spotify.com/track/3ZNEXOjMlvICFMH0GvvdJE",
-   "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
-   "played_at": "2026-11-09T15:37:38.342Z"
   }
  ],
  "top_artists": [
@@ -547,7 +547,7 @@ window.LISTENING = {
   },
   {
    "name": "AC/DC",
-   "plays": 3994,
+   "plays": 3995,
    "url": "https://open.spotify.com/artist/711MCceyCBcFnzjGY4Q7Un",
    "image": "https://i.scdn.co/image/ab67616d00001e02ff191d7fbdb5a13eaf84132b"
   },
@@ -577,7 +577,7 @@ window.LISTENING = {
   },
   {
    "name": "Steve Miller Band",
-   "plays": 1958,
+   "plays": 1959,
    "url": "https://open.spotify.com/artist/6QtGlUje9TIkLrgPZrESuk",
    "image": "https://i.scdn.co/image/ab67616d00001e02632b907273dba6a6062fb780"
   },
@@ -832,7 +832,7 @@ window.LISTENING = {
   },
   {
    "decade": 1960,
-   "plays": 7058,
+   "plays": 7059,
    "covers": [
     {
      "name": "Your Time Is Gonna Come - 1990 Remaster",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32913,
+   "plays": 32916,
    "covers": [
     {
      "name": "Back In Black",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9722,
+   "plays": 9724,
    "covers": [
     {
      "name": "Amazing",
@@ -1202,7 +1202,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273059c952d7ccc5a617cc9a383",
      "url": "https://open.spotify.com/track/0W0euvQlhbcsTydzsD4EQk",
      "album_url": "https://open.spotify.com/album/5SsZBxF3sRSJnFd0rZ3vcF",
-     "plays": 348
+     "plays": 349
     }
    ]
   },
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15781,
+   "plays": 15782,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1368,7 +1368,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b27302df8239ad8626aa7acc144b",
      "url": "https://open.spotify.com/track/1V6kRlJnTC4W319N0BvJag",
      "album_url": "https://open.spotify.com/album/4ydl8Ci7OsndhI2ALnrpIv",
-     "plays": 470
+     "plays": 471
     },
     {
      "name": "Rolling in the Deep",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18645,
+   "plays": 18646,
    "covers": [
     {
      "name": "ERROR",
@@ -1491,6 +1491,71 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Iran war is over, says Trump, as US prises open Strait of Hormuz",
+   "show": "Battle Lines",
+   "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
+   "release_date": "2026-11-10",
+   "duration_ms": 2569195,
+   "image": "https://i.scdn.co/image/ab67656300005f1fa6e1638ff4adcf163c930d3c",
+   "first_seen": "2026-11-12T14:40:02Z",
+   "progress_ms": 2617760,
+   "last_seen": "2026-11-12T14:40:02Z",
+   "url": "https://open.spotify.com/episode/4UXY7mgIs3yDaCVB41CONv",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
+  },
+  {
+   "name": "US blockades Iran’s borders as China and Russia rearm Tehran",
+   "show": "Battle Lines",
+   "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
+   "release_date": "2026-11-09",
+   "duration_ms": 2420845,
+   "image": "https://i.scdn.co/image/ab67656300005f1fa3c62395e8593828c78e215d",
+   "first_seen": "2026-11-12T14:40:02Z",
+   "progress_ms": 2558789,
+   "last_seen": "2026-11-12T14:40:02Z",
+   "url": "https://open.spotify.com/episode/5gvB8QfCipWeY1vVjVnbWF",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
+  },
+  {
+   "name": "Pete Hegseth, 1; House Democrats, 0",
+   "show": "WSJ Opinion: Potomac Watch",
+   "show_uri": "spotify:show:4sMCRFb3B4g9Ax3lDCOOTX",
+   "release_date": "2026-11-11",
+   "duration_ms": 1933035,
+   "image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97",
+   "first_seen": "2026-11-12T14:40:02Z",
+   "progress_ms": 1933035,
+   "last_seen": "2026-11-12T14:40:02Z",
+   "url": "https://open.spotify.com/episode/5grH54Zhs1amhA4UQSQXBQ",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97"
+  },
+  {
+   "name": "Jim Jordan Is the House GOP’s Next Leader / California’s Wealth Tax Fails, for Now",
+   "show": "WSJ Opinion: Potomac Watch",
+   "show_uri": "spotify:show:4sMCRFb3B4g9Ax3lDCOOTX",
+   "release_date": "2026-11-10",
+   "duration_ms": 1662040,
+   "image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97",
+   "first_seen": "2026-11-12T14:40:02Z",
+   "progress_ms": 1662040,
+   "last_seen": "2026-11-12T14:40:02Z",
+   "url": "https://open.spotify.com/episode/2gKCLoXcScibtKcRG9b2Vi",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97"
+  },
+  {
+   "name": "What Can Congress Get Done in Its Lame-Duck Session?",
+   "show": "WSJ Opinion: Potomac Watch",
+   "show_uri": "spotify:show:4sMCRFb3B4g9Ax3lDCOOTX",
+   "release_date": "2026-11-09",
+   "duration_ms": 1589498,
+   "image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97",
+   "first_seen": "2026-11-12T14:40:02Z",
+   "progress_ms": 647504,
+   "last_seen": "2026-11-12T14:40:02Z",
+   "url": "https://open.spotify.com/episode/487iU7i1vLPupqTa1mCCDt",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97"
+  },
+  {
    "name": "This Is How New York City Takes Out Its Trash",
    "show": "Odd Lots",
    "show_uri": "spotify:show:1te7oSFyRVekxMBJUSethH",
@@ -1580,71 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-12T13:47:41Z",
    "url": "https://open.spotify.com/episode/5QsVoeNcKz02ccaRxqArpt",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f3664f10ec9dfd2083ac738d9"
-  },
-  {
-   "name": "Republicans Vote for House and Senate Leaders",
-   "show": "RealClearPolitics Podcast",
-   "show_uri": "spotify:show:5FkNemg3aIaPPNBImIcW2l",
-   "release_date": "2026-11-11",
-   "duration_ms": 3308434,
-   "image": "https://i.scdn.co/image/ab67656300005f1f7412c8ce583b948e4a85af3a",
-   "first_seen": "2026-11-12T13:47:41Z",
-   "progress_ms": 3308434,
-   "last_seen": "2026-11-12T13:47:41Z",
-   "url": "https://open.spotify.com/episode/0TBVHZyykT9Z4eyOOA7FBD",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fe19edf2c6856b8b09c057f38"
-  },
-  {
-   "name": "The War with the Secretary of War Pete Hegseth",
-   "show": "RealClearPolitics Podcast",
-   "show_uri": "spotify:show:5FkNemg3aIaPPNBImIcW2l",
-   "release_date": "2026-11-10",
-   "duration_ms": 3161887,
-   "image": "https://i.scdn.co/image/ab67656300005f1ffdedc26d12f800ee2f5684c1",
-   "first_seen": "2026-11-12T13:47:41Z",
-   "progress_ms": 1746599,
-   "last_seen": "2026-11-12T13:47:41Z",
-   "url": "https://open.spotify.com/episode/6wYrQJhznZCGxT6GH5haSf",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fe19edf2c6856b8b09c057f38"
-  },
-  {
-   "name": "What the Blue Wave Means for President Trump and His Cabinet",
-   "show": "RealClearPolitics Podcast",
-   "show_uri": "spotify:show:5FkNemg3aIaPPNBImIcW2l",
-   "release_date": "2026-11-06",
-   "duration_ms": 3246550,
-   "image": "https://i.scdn.co/image/ab67656300005f1f0dab42e0b192ad52dbed3fca",
-   "first_seen": "2026-11-12T13:47:41Z",
-   "progress_ms": 2371505,
-   "last_seen": "2026-11-12T13:47:41Z",
-   "url": "https://open.spotify.com/episode/6D7HJgJJ0W4yks43Qap8Ff",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fe19edf2c6856b8b09c057f38"
-  },
-  {
-   "name": "In Moscow's Shadows 270: Hoax Bombs and Difficult Language",
-   "show": "In Moscow's Shadows",
-   "show_uri": "spotify:show:1NKCazxYstY6o8vhpGQSjF",
-   "release_date": "2026-11-08",
-   "duration_ms": 2929055,
-   "image": "https://i.scdn.co/image/ab67656300005f1fd2dd1e74bffcd7cabc91a62c",
-   "first_seen": "2026-11-08T12:40:02Z",
-   "progress_ms": 2929055,
-   "last_seen": "2026-11-12T13:47:40Z",
-   "url": "https://open.spotify.com/episode/2jWkWyL3wf8tuayL7AoJn2",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fd2dd1e74bffcd7cabc91a62c"
-  },
-  {
-   "name": "What Nvidia's Megaspeed Scandal Is Really All About",
-   "show": "Odd Lots",
-   "show_uri": "spotify:show:1te7oSFyRVekxMBJUSethH",
-   "release_date": "2026-11-12",
-   "duration_ms": 3249110,
-   "image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42",
-   "first_seen": "2026-11-12T13:45:24Z",
-   "progress_ms": 3249110,
-   "last_seen": "2026-11-12T13:47:38Z",
-   "url": "https://open.spotify.com/episode/2LgFjxE2LpKMsRlEv5blCX",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42"
   }
  ],
  "top_shows": [
