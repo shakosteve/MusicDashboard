@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-12T14:40:06Z",
+ "generated": "2026-11-12T15:40:04Z",
  "totals": {
-  "plays": 125102,
-  "hours": 8505.1,
+  "plays": 125103,
+  "hours": 8505.2,
   "artists": 702,
   "albums": 1526,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Runaway",
+   "artist": "The Warning",
+   "album": "XXI Century Blood",
+   "year": 2017,
+   "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
+   "url": "https://open.spotify.com/track/4bcc5nd8AQOkCloGe07Qtv",
+   "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
+   "played_at": "2026-11-12T15:15:55.795Z"
+  },
   {
    "name": "Mary Had a Little Lamb",
    "artist": "Stevie Ray Vaughan",
@@ -525,23 +536,12 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/18OMrZoyyZuVy06FttIFhq",
    "album_url": "https://open.spotify.com/album/32wu2qeQwVA6D8z1nWk68Q",
    "played_at": "2026-11-10T15:28:31.621Z"
-  },
-  {
-   "name": "Tin Man",
-   "artist": "America",
-   "album": "Holiday",
-   "year": 1974,
-   "image": "https://i.scdn.co/image/ab67616d00001e026f1376d1c0ec3fcd2e366cba",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2736f1376d1c0ec3fcd2e366cba",
-   "url": "https://open.spotify.com/track/4uTTd2SlalZoG0zVgI63kH",
-   "album_url": "https://open.spotify.com/album/4jOItHaJyNyXJxz8toGytx",
-   "played_at": "2026-11-10T15:23:34.028Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10694,
+   "plays": 10695,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
@@ -610,7 +610,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
    "url": "https://open.spotify.com/track/1VcLiPmina1L3xlLkJ5OTS",
    "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
-   "plays": 3491
+   "plays": 3492
   },
   {
    "name": "Dust to Dust",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15782,
+   "plays": 15783,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1313,7 +1313,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
      "url": "https://open.spotify.com/track/1VcLiPmina1L3xlLkJ5OTS",
      "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
-     "plays": 3491
+     "plays": 3492
     },
     {
      "name": "Dust to Dust",
