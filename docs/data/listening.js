@@ -1,14 +1,47 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-12T22:10:06Z",
+ "generated": "2026-11-12T23:10:04Z",
  "totals": {
-  "plays": 125141,
-  "hours": 8507.8,
+  "plays": 125144,
+  "hours": 8508.0,
   "artists": 702,
   "albums": 1526,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "18 and Life",
+   "artist": "Skid Row",
+   "album": "Skid Row",
+   "year": 1989,
+   "image": "https://i.scdn.co/image/ab67616d00001e02bb639863b7b716acf67bfa64",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273bb639863b7b716acf67bfa64",
+   "url": "https://open.spotify.com/track/3620P9KJS2PDebJ9ABFitc",
+   "album_url": "https://open.spotify.com/album/0L5J7BLU1AKDuSewTMpw7E",
+   "played_at": "2026-11-12T23:05:44.800Z"
+  },
+  {
+   "name": "Don't Stand So Close To Me",
+   "artist": "The Police",
+   "album": "Zenyatta Mondatta (Remastered 2003)",
+   "year": 1980,
+   "image": "https://i.scdn.co/image/ab67616d00001e02fb1bc65edf4717e75fbc70ab",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273fb1bc65edf4717e75fbc70ab",
+   "url": "https://open.spotify.com/track/5veJDT0MLsLbhYsx42GXUD",
+   "album_url": "https://open.spotify.com/album/23enz9nXJhH1BR1Rm5CzDJ",
+   "played_at": "2026-11-12T22:50:32.435Z"
+  },
+  {
+   "name": "What Good's A Rock Without A Roll?",
+   "artist": "Black Spiders",
+   "album": "Sons Of The North",
+   "year": 2011,
+   "image": "https://i.scdn.co/image/ab67616d00001e026724fae9bc203a9d4defd736",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2736724fae9bc203a9d4defd736",
+   "url": "https://open.spotify.com/track/0FrhD37RheksdxcDi4tgx3",
+   "album_url": "https://open.spotify.com/album/7KDzhHeTeAjmBFO3ixlMGm",
+   "played_at": "2026-11-12T22:46:29.345Z"
+  },
   {
    "name": "Ego",
    "artist": "The Warning",
@@ -503,39 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/0W0euvQlhbcsTydzsD4EQk",
    "album_url": "https://open.spotify.com/album/5SsZBxF3sRSJnFd0rZ3vcF",
    "played_at": "2026-11-12T14:15:30.491Z"
-  },
-  {
-   "name": "End of You",
-   "artist": "Poppy, Amy Lee, Courtney LaPlante",
-   "album": "End of You",
-   "year": 2025,
-   "image": "https://i.scdn.co/image/ab67616d00001e02460c53e36b10048efc49e76c",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273460c53e36b10048efc49e76c",
-   "url": "https://open.spotify.com/track/0PsFsv5xUyX06ZhIEtFkeA",
-   "album_url": "https://open.spotify.com/album/7heJiiZpgQXmqVIoz2Fra1",
-   "played_at": "2026-11-12T14:11:10.746Z"
-  },
-  {
-   "name": "Head Over Heels - Dave Bascombe 7\" N.Mix",
-   "artist": "Tears For Fears, Dave Bascombe",
-   "album": "Songs From The Big Chair (Deluxe)",
-   "year": 1985,
-   "image": "https://i.scdn.co/image/ab67616d00001e0206b6bd6a604768e044abbd38",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27306b6bd6a604768e044abbd38",
-   "url": "https://open.spotify.com/track/5lwQGZYF4BXOzFtXc5zk8q",
-   "album_url": "https://open.spotify.com/album/06J93pgtDCUw6bsAQINhCs",
-   "played_at": "2026-11-12T14:07:57.370Z"
-  },
-  {
-   "name": "Ain't No Rest for the Wicked",
-   "artist": "Cage The Elephant",
-   "album": "Cage The Elephant (Expanded Edition)",
-   "year": 2009,
-   "image": "https://i.scdn.co/image/ab67616d00001e02e4800c920780ac18d4ab6730",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273e4800c920780ac18d4ab6730",
-   "url": "https://open.spotify.com/track/3Pzh926pXggbMe2ZpXyMV7",
-   "album_url": "https://open.spotify.com/album/7H814Cg8HV0qpoMheYbhNn",
-   "played_at": "2026-11-12T14:03:39.656Z"
   }
  ],
  "top_artists": [
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32922,
+   "plays": 32924,
    "covers": [
     {
      "name": "Back In Black",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15785,
+   "plays": 15786,
    "covers": [
     {
      "name": "XXI Century Blood",
