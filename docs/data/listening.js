@@ -1,14 +1,47 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-12T19:40:06Z",
+ "generated": "2026-11-12T21:10:06Z",
  "totals": {
-  "plays": 125127,
-  "hours": 8506.8,
+  "plays": 125130,
+  "hours": 8507.0,
   "artists": 702,
   "albums": 1526,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Lay Down Sally",
+   "artist": "Eric Clapton",
+   "album": "Slowhand 35th Anniversary (Super Deluxe)",
+   "year": 1977,
+   "image": "https://i.scdn.co/image/ab67616d00001e026f093a6ae88a5ca8ed53b9f7",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2736f093a6ae88a5ca8ed53b9f7",
+   "url": "https://open.spotify.com/track/6io0LJIP9ntX35hTfaxwQG",
+   "album_url": "https://open.spotify.com/album/5MAL7e4EnKXW1hFg6NbFqP",
+   "played_at": "2026-11-12T21:08:52.153Z"
+  },
+  {
+   "name": "Take The Money And Run",
+   "artist": "Steve Miller Band",
+   "album": "Fly Like An Eagle",
+   "year": 1976,
+   "image": "https://i.scdn.co/image/ab67616d00001e022fc23e78e87d793054bba090",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2732fc23e78e87d793054bba090",
+   "url": "https://open.spotify.com/track/1ZhrREyOOeFV6TxDOyiPwu",
+   "album_url": "https://open.spotify.com/album/0fjJOLqG3v7vXRYhz2wxPC",
+   "played_at": "2026-11-12T21:04:55.476Z"
+  },
+  {
+   "name": "Cool Change - Remastered 2022",
+   "artist": "Little River Band",
+   "album": "First Under The Wire (Remastered 2022)",
+   "year": 1979,
+   "image": "https://i.scdn.co/image/ab67616d00001e02d45ea4a21fa17a4e3bf9b378",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273d45ea4a21fa17a4e3bf9b378",
+   "url": "https://open.spotify.com/track/2SEGYVnWImKLUOkU3Qa8sX",
+   "album_url": "https://open.spotify.com/album/1pPsslUdE1HeBxdlgXJ7Yp",
+   "played_at": "2026-11-12T21:02:04.793Z"
+  },
   {
    "name": "Love Shack",
    "artist": "The B-52's",
@@ -503,39 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/0LdkRYiS3semGItm03H3gm",
    "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
    "played_at": "2026-11-11T23:20:39.570Z"
-  },
-  {
-   "name": "All Summer Long",
-   "artist": "Kid Rock",
-   "album": "Rock n Roll Jesus",
-   "year": 2007,
-   "image": "https://i.scdn.co/image/ab67616d00001e02a3473085a2a48547a5c290a8",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273a3473085a2a48547a5c290a8",
-   "url": "https://open.spotify.com/track/5rX6C5QVvvZB7XckETNych",
-   "album_url": "https://open.spotify.com/album/2xChdOg0PvxzHzE1BooUpI",
-   "played_at": "2026-11-11T23:08:49.787Z"
-  },
-  {
-   "name": "That's All - 2007 Remaster",
-   "artist": "Genesis",
-   "album": "Genesis (2007 Remaster)",
-   "year": 1983,
-   "image": "https://i.scdn.co/image/ab67616d00001e02945c366eda66495226e4a46d",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273945c366eda66495226e4a46d",
-   "url": "https://open.spotify.com/track/2zFdsAIk9r2Mi7Lmm1w3sM",
-   "album_url": "https://open.spotify.com/album/6BX8AS7J97PSQNrteX325Z",
-   "played_at": "2026-11-11T19:10:30.019Z"
-  },
-  {
-   "name": "Kyrie",
-   "artist": "Mr. Mister",
-   "album": "Welcome To The Real World",
-   "year": 1985,
-   "image": "https://i.scdn.co/image/ab67616d00001e02cfccabf39d00d34235d5bcd6",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273cfccabf39d00d34235d5bcd6",
-   "url": "https://open.spotify.com/track/5K3Q1gue9nWLLwh6bYQFoB",
-   "album_url": "https://open.spotify.com/album/682sQ449vmcJXS2AGIMrsl",
-   "played_at": "2026-11-11T14:37:28.786Z"
   }
  ],
  "top_artists": [
@@ -577,7 +577,7 @@ window.LISTENING = {
   },
   {
    "name": "Steve Miller Band",
-   "plays": 1959,
+   "plays": 1960,
    "url": "https://open.spotify.com/artist/6QtGlUje9TIkLrgPZrESuk",
    "image": "https://i.scdn.co/image/ab67616d00001e02632b907273dba6a6062fb780"
   },
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28697,
+   "plays": 28700,
    "covers": [
     {
      "name": "More Than a Feeling",
