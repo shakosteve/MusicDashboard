@@ -1,14 +1,58 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-12T21:40:07Z",
+ "generated": "2026-11-12T22:10:06Z",
  "totals": {
-  "plays": 125137,
-  "hours": 8507.4,
+  "plays": 125141,
+  "hours": 8507.8,
   "artists": 702,
   "albums": 1526,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Ego",
+   "artist": "The Warning",
+   "album": "Ego",
+   "year": 2026,
+   "image": "https://i.scdn.co/image/ab67616d00001e02b40751b4dd6ce5991c794926",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273b40751b4dd6ce5991c794926",
+   "url": "https://open.spotify.com/track/3slE260q9d8ZtFefQZzdVl",
+   "album_url": "https://open.spotify.com/album/6pqls6IegvNFLdrVbUinvl",
+   "played_at": "2026-11-12T22:02:45.769Z"
+  },
+  {
+   "name": "Feels So Good",
+   "artist": "Chuck Mangione",
+   "album": "Feels So Good",
+   "year": 1977,
+   "image": "https://i.scdn.co/image/ab67616d00001e02e2c1f7c1ee0ee027f41178fd",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273e2c1f7c1ee0ee027f41178fd",
+   "url": "https://open.spotify.com/track/2M7EflZCPCqqRLB9hy5MDy",
+   "album_url": "https://open.spotify.com/album/5w0p1F0Q1wBqsX2UiX6CCD",
+   "played_at": "2026-11-12T21:54:28.386Z"
+  },
+  {
+   "name": "Borderline",
+   "artist": "Madonna",
+   "album": "Borderline",
+   "year": 1984,
+   "image": "https://i.scdn.co/image/ab67616d00001e02562ce96025289488ff8ba4b6",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273562ce96025289488ff8ba4b6",
+   "url": "https://open.spotify.com/track/4sfSGt1c19O2LI7lLn272S",
+   "album_url": "https://open.spotify.com/album/6cjHCJvAo9ohp6jsY8QcdQ",
+   "played_at": "2026-11-12T21:44:45.164Z"
+  },
+  {
+   "name": "Nobody's Fault but Mine - Remaster",
+   "artist": "Led Zeppelin",
+   "album": "Presence (Remaster)",
+   "year": 1976,
+   "image": "https://i.scdn.co/image/ab67616d00001e0227f6c518a8e36d45b5e7d95e",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27327f6c518a8e36d45b5e7d95e",
+   "url": "https://open.spotify.com/track/6unmtLYQ2LQ1Cg4IdAiU9g",
+   "album_url": "https://open.spotify.com/album/3uhD8hNpb0m3iIZ18RHH5u",
+   "played_at": "2026-11-12T21:40:46.261Z"
+  },
   {
    "name": "Rainbow in the Dark",
    "artist": "Dio",
@@ -492,56 +536,12 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/3Pzh926pXggbMe2ZpXyMV7",
    "album_url": "https://open.spotify.com/album/7H814Cg8HV0qpoMheYbhNn",
    "played_at": "2026-11-12T14:03:39.656Z"
-  },
-  {
-   "name": "We Got The Beat",
-   "artist": "The Go-Go's",
-   "album": "Beauty And The Beat",
-   "year": 1981,
-   "image": "https://i.scdn.co/image/ab67616d00001e028a25755534e84d8a604e6b38",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2738a25755534e84d8a604e6b38",
-   "url": "https://open.spotify.com/track/5kz9GDBTX846OXwqWoyKzF",
-   "album_url": "https://open.spotify.com/album/1L4HE00En7eNK74voVZums",
-   "played_at": "2026-11-12T14:00:43.627Z"
-  },
-  {
-   "name": "My Generation - Mono Version",
-   "artist": "The Who",
-   "album": "The Who Sings My Generation (U.S. Version)",
-   "year": 1966,
-   "image": "https://i.scdn.co/image/ab67616d00001e02cbee7274742b0471f39bb8c8",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273cbee7274742b0471f39bb8c8",
-   "url": "https://open.spotify.com/track/45s88Xopo6KvHc0PQ05aGg",
-   "album_url": "https://open.spotify.com/album/4upv5ZjkKMIUBjFNthFQih",
-   "played_at": "2026-11-12T12:09:57.941Z"
-  },
-  {
-   "name": "Under African Skies",
-   "artist": "Paul Simon",
-   "album": "Graceland (25th Anniversary Deluxe Edition)",
-   "year": 1986,
-   "image": "https://i.scdn.co/image/ab67616d00001e02e5855edffddef46b7feff49b",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273e5855edffddef46b7feff49b",
-   "url": "https://open.spotify.com/track/40ZTTezGy5R2Led0sO0kn6",
-   "album_url": "https://open.spotify.com/album/6WgGWYw6XXQyLTsWt7tXky",
-   "played_at": "2026-11-12T12:06:31.342Z"
-  },
-  {
-   "name": "Lady - Remastered 2022",
-   "artist": "Little River Band",
-   "album": "Sleeper Catcher (Remastered 2022)",
-   "year": 1978,
-   "image": "https://i.scdn.co/image/ab67616d00001e02ad53be7d2ec379399660c1ec",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273ad53be7d2ec379399660c1ec",
-   "url": "https://open.spotify.com/track/23TrwDkYnBPea6i6FPd6Wd",
-   "album_url": "https://open.spotify.com/album/5XXymqS9NunPlUbovZK8WJ",
-   "played_at": "2026-11-12T12:02:53.646Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10698,
+   "plays": 10699,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
@@ -559,13 +559,13 @@ window.LISTENING = {
   },
   {
    "name": "Led Zeppelin",
-   "plays": 2305,
+   "plays": 2306,
    "url": "https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp",
    "image": "https://i.scdn.co/image/ab67616d00001e02c8a11e48c91a982d086afc69"
   },
   {
    "name": "Madonna",
-   "plays": 2109,
+   "plays": 2110,
    "url": "https://open.spotify.com/artist/6tbjWDEIzxoDsBA1FuhfPW",
    "image": "https://i.scdn.co/image/ab67616d00001e026b44fa8f5415cc4c945117be"
   },
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28701,
+   "plays": 28703,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32921,
+   "plays": 32922,
    "covers": [
     {
      "name": "Back In Black",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18653,
+   "plays": 18654,
    "covers": [
     {
      "name": "ERROR",
