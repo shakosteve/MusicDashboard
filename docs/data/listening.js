@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-13T18:40:04Z",
+ "generated": "2026-11-13T21:40:04Z",
  "totals": {
-  "plays": 125182,
-  "hours": 8510.6,
+  "plays": 125183,
+  "hours": 8510.7,
   "artists": 702,
   "albums": 1529,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Black Hole Sun",
+   "artist": "Soundgarden",
+   "album": "Superunknown (Deluxe Edition)",
+   "year": 1994,
+   "image": "https://i.scdn.co/image/ab67616d00001e02ae6d8e36136353d550b2587d",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273ae6d8e36136353d550b2587d",
+   "url": "https://open.spotify.com/track/2EoOZnxNgtmZaD8uUmz2nD",
+   "album_url": "https://open.spotify.com/album/29sTacnS0qA9xri6YS8xLA",
+   "played_at": "2026-11-13T18:54:05.253Z"
+  },
   {
    "name": "Give A Little Bit",
    "artist": "Supertramp",
@@ -525,17 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/7odHgoLFi3GQ90E9PeraI3",
    "album_url": "https://open.spotify.com/album/6SNMenG3NjZyqgI5p4Hcmg",
    "played_at": "2026-11-12T21:30:00.207Z"
-  },
-  {
-   "name": "ELEVATE",
-   "artist": "Dorothy",
-   "album": "THE WAY (Deluxe)",
-   "year": 2025,
-   "image": "https://i.scdn.co/image/ab67616d00001e02eb137cacdbeb81a2961f1697",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273eb137cacdbeb81a2961f1697",
-   "url": "https://open.spotify.com/track/2JFdwYlUkWYnZOer20BcHu",
-   "album_url": "https://open.spotify.com/album/6dvrpWZMYRBtFiYHMisNgD",
-   "played_at": "2026-11-12T21:27:30.689Z"
   }
  ],
  "top_artists": [
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9730,
+   "plays": 9731,
    "covers": [
     {
      "name": "Amazing",
