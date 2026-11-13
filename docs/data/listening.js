@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-13T12:40:07Z",
+ "generated": "2026-11-13T13:10:06Z",
  "totals": {
   "plays": 125154,
   "hours": 8508.7,
@@ -1491,6 +1491,32 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "#1222 Narcissism Is Where Envy Gets Acted Out",
+   "show": "The Adam and Dr. Drew Show",
+   "show_uri": "spotify:show:3VN4vP6TztxK3wtT8b9aQL",
+   "release_date": "2026-11-12",
+   "duration_ms": 2094498,
+   "image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b",
+   "first_seen": "2026-11-13T13:10:03Z",
+   "progress_ms": 81520,
+   "last_seen": "2026-11-13T13:10:03Z",
+   "url": "https://open.spotify.com/episode/2Wi7aLnaxO9omckjmTYpTC",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
+  },
+  {
+   "name": "#2112 - Allah’s Futile Sword, Peptides, And How To Judge A Culture FT. Trevor Kruder | Part 1",
+   "show": "The Adam and Dr. Drew Show",
+   "show_uri": "spotify:show:3VN4vP6TztxK3wtT8b9aQL",
+   "release_date": "2026-11-11",
+   "duration_ms": 3227742,
+   "image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b",
+   "first_seen": "2026-11-13T13:10:02Z",
+   "progress_ms": 877142,
+   "last_seen": "2026-11-13T13:10:02Z",
+   "url": "https://open.spotify.com/episode/3nSv8JVZacqDivkid7zpFI",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
+  },
+  {
    "name": "Jaleel White Talks Hollywood, Bill Cosby, Money",
    "show": "Adam Carolla Show",
    "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
@@ -1619,32 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-12T14:10:03Z",
    "url": "https://open.spotify.com/episode/14dfKyHU01uMzqbSbS1cJJ",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
-  },
-  {
-   "name": "Dean Norris on Breaking Bad, Hollywood Luck, and Fake TMZ Headlines",
-   "show": "Adam Carolla Show",
-   "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
-   "release_date": "2026-11-09",
-   "duration_ms": 5766060,
-   "image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f",
-   "first_seen": "2026-11-12T14:10:03Z",
-   "progress_ms": 5766151,
-   "last_seen": "2026-11-12T14:10:03Z",
-   "url": "https://open.spotify.com/episode/7ID7AiVZ716VkcGDKkEElM",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
-  },
-  {
-   "name": "Trump and Putin plot ‘big, beautiful’ deal for Europe",
-   "show": "Ukraine: The Latest",
-   "show_uri": "spotify:show:6cnkk1J0I1UqtxTYVUL4Fe",
-   "release_date": "2026-11-06",
-   "duration_ms": 2624966,
-   "image": "https://i.scdn.co/image/ab67656300005f1ff15d1cb3721f385889b21d7e",
-   "first_seen": "2026-11-12T14:10:02Z",
-   "progress_ms": 951829,
-   "last_seen": "2026-11-12T14:10:02Z",
-   "url": "https://open.spotify.com/episode/3XEpucV47fY1kjEFMend9Y",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f78954c21afd24c90334deba4"
   }
  ],
  "top_shows": [
