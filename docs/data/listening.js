@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-13T13:10:06Z",
+ "generated": "2026-11-13T13:40:05Z",
  "totals": {
   "plays": 125154,
   "hours": 8508.7,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "#2112 - Allah’s Futile Sword, Peptides, And How To Judge A Culture FT. Trevor Kruder | Part 2",
+   "show": "The Adam and Dr. Drew Show",
+   "show_uri": "spotify:show:3VN4vP6TztxK3wtT8b9aQL",
+   "release_date": "2026-11-13",
+   "duration_ms": 2933995,
+   "image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b",
+   "first_seen": "2026-11-13T13:40:02Z",
+   "progress_ms": 452196,
+   "last_seen": "2026-11-13T13:40:02Z",
+   "url": "https://open.spotify.com/episode/643LjrApuN7oCe7bVZpxNA",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
+  },
+  {
    "name": "#1222 Narcissism Is Where Envy Gets Acted Out",
    "show": "The Adam and Dr. Drew Show",
    "show_uri": "spotify:show:3VN4vP6TztxK3wtT8b9aQL",
@@ -1631,19 +1644,6 @@ window.LISTENING = {
    "progress_ms": 6386603,
    "last_seen": "2026-11-12T14:10:03Z",
    "url": "https://open.spotify.com/episode/29ZhcV5Mz8aoYQKtjbrO7S",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
-  },
-  {
-   "name": "Brad Meltzer: I Made My Son Save For 3 Years For A Lego Death Star",
-   "show": "Adam Carolla Show",
-   "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
-   "release_date": "2026-11-10",
-   "duration_ms": 6398485,
-   "image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f",
-   "first_seen": "2026-11-12T14:10:03Z",
-   "progress_ms": 6398485,
-   "last_seen": "2026-11-12T14:10:03Z",
-   "url": "https://open.spotify.com/episode/14dfKyHU01uMzqbSbS1cJJ",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
   }
  ],
