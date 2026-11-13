@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-13T05:10:07Z",
+ "generated": "2026-11-13T12:40:07Z",
  "totals": {
   "plays": 125154,
   "hours": 8508.7,
@@ -1498,10 +1498,23 @@ window.LISTENING = {
    "duration_ms": 6295327,
    "image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f",
    "first_seen": "2026-11-13T01:10:02Z",
-   "progress_ms": 5308528,
-   "last_seen": "2026-11-13T05:10:04Z",
+   "progress_ms": 6323445,
+   "last_seen": "2026-11-13T12:40:04Z",
    "url": "https://open.spotify.com/episode/4hKd6RsNHJyvqAP6qk13ER",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
+  },
+  {
+   "name": "Why a $2 Billion Law Firm Suddenly Collapsed",
+   "show": "Odd Lots",
+   "show_uri": "spotify:show:1te7oSFyRVekxMBJUSethH",
+   "release_date": "2026-11-13",
+   "duration_ms": 3480085,
+   "image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42",
+   "first_seen": "2026-11-13T12:40:02Z",
+   "progress_ms": 325501,
+   "last_seen": "2026-11-13T12:40:02Z",
+   "url": "https://open.spotify.com/episode/3dQr0uDWQ6SMVCiYC9hd2B",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42"
   },
   {
    "name": "Iran war is over, says Trump, as US prises open Strait of Hormuz",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-12T14:10:02Z",
    "url": "https://open.spotify.com/episode/3XEpucV47fY1kjEFMend9Y",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f78954c21afd24c90334deba4"
-  },
-  {
-   "name": "Nvidia’s State of Affairs",
-   "show": "The Powers That Be: Daily",
-   "show_uri": "spotify:show:5ZChG4x3aogGtKGkxU6nMH",
-   "release_date": "2026-11-10",
-   "duration_ms": 1145025,
-   "image": "https://i.scdn.co/image/ab67656300005f1f36f39d45bf295cbf58d41331",
-   "first_seen": "2026-11-12T14:10:02Z",
-   "progress_ms": 1145025,
-   "last_seen": "2026-11-12T14:10:02Z",
-   "url": "https://open.spotify.com/episode/48mrFhQ5ikec7F2nrR9OZw",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f55386ae3fe554333e1a85785"
   }
  ],
  "top_shows": [
