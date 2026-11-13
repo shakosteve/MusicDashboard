@@ -1,14 +1,69 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-13T15:10:07Z",
+ "generated": "2026-11-13T15:40:06Z",
  "totals": {
-  "plays": 125172,
-  "hours": 8510.0,
+  "plays": 125177,
+  "hours": 8510.3,
   "artists": 702,
-  "albums": 1528,
+  "albums": 1529,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "I Shot The Sheriff",
+   "artist": "Eric Clapton",
+   "album": "461 Ocean Blvd. (Deluxe Edition)",
+   "year": 1974,
+   "image": "https://i.scdn.co/image/ab67616d00001e02d752956b8a82ffa07baa835e",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273d752956b8a82ffa07baa835e",
+   "url": "https://open.spotify.com/track/0UOxp1BpnD8uPQMKU4wKjz",
+   "album_url": "https://open.spotify.com/album/408nODJ1r3nO7f3qWkCrCB",
+   "played_at": "2026-11-13T15:28:59.869Z"
+  },
+  {
+   "name": "Jump - 2015 Remaster",
+   "artist": "Van Halen",
+   "album": "1984 (Remastered)",
+   "year": 1984,
+   "image": "https://i.scdn.co/image/ab67616d00001e02b414c63fb435b622238c15ed",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273b414c63fb435b622238c15ed",
+   "url": "https://open.spotify.com/track/7N3PAbqfTjSEU1edb2tY8j",
+   "album_url": "https://open.spotify.com/album/3REUXdj5OPKhuDTrTtCBU0",
+   "played_at": "2026-11-13T15:24:35.662Z"
+  },
+  {
+   "name": "Tom Sawyer",
+   "artist": "Rush",
+   "album": "Moving Pictures (2011 Remaster)",
+   "year": 1981,
+   "image": "https://i.scdn.co/image/ab67616d00001e0272833c1ae3343cbfb4617073",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27372833c1ae3343cbfb4617073",
+   "url": "https://open.spotify.com/track/3QZ7uX97s82HFYSmQUAN1D",
+   "album_url": "https://open.spotify.com/album/2xg7iIKoSqaDNpDbJnyCjY",
+   "played_at": "2026-11-13T15:20:33.574Z"
+  },
+  {
+   "name": "This Is Not a Fairytale",
+   "artist": "Snow White In The Dark",
+   "album": "This Is Not a Fairytale",
+   "year": 2025,
+   "image": "https://i.scdn.co/image/ab67616d00001e028fe652bf2b2374a80eb4051f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2738fe652bf2b2374a80eb4051f",
+   "url": "https://open.spotify.com/track/1vwtMv5y1Ov8EwAcdMPSul",
+   "album_url": "https://open.spotify.com/album/1k7v5HwUfAvK1WZqPca9F4",
+   "played_at": "2026-11-13T15:15:56.172Z"
+  },
+  {
+   "name": "Lonely Is The Night - Remastered 2010",
+   "artist": "Billy Squier",
+   "album": "Don't Say No (Remastered 2010)",
+   "year": 1981,
+   "image": "https://i.scdn.co/image/ab67616d00001e02f4822f8034e697410a14a297",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273f4822f8034e697410a14a297",
+   "url": "https://open.spotify.com/track/28eg5bkYvIHT7HPmzZFwLN",
+   "album_url": "https://open.spotify.com/album/6TwlLNU5Zd9qGuNgSLeWPt",
+   "played_at": "2026-11-13T15:12:53.254Z"
+  },
   {
    "name": "MARTIRIO",
    "artist": "The Warning",
@@ -481,61 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/6io0LJIP9ntX35hTfaxwQG",
    "album_url": "https://open.spotify.com/album/5MAL7e4EnKXW1hFg6NbFqP",
    "played_at": "2026-11-12T21:08:52.153Z"
-  },
-  {
-   "name": "Take The Money And Run",
-   "artist": "Steve Miller Band",
-   "album": "Fly Like An Eagle",
-   "year": 1976,
-   "image": "https://i.scdn.co/image/ab67616d00001e022fc23e78e87d793054bba090",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2732fc23e78e87d793054bba090",
-   "url": "https://open.spotify.com/track/1ZhrREyOOeFV6TxDOyiPwu",
-   "album_url": "https://open.spotify.com/album/0fjJOLqG3v7vXRYhz2wxPC",
-   "played_at": "2026-11-12T21:04:55.476Z"
-  },
-  {
-   "name": "Cool Change - Remastered 2022",
-   "artist": "Little River Band",
-   "album": "First Under The Wire (Remastered 2022)",
-   "year": 1979,
-   "image": "https://i.scdn.co/image/ab67616d00001e02d45ea4a21fa17a4e3bf9b378",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273d45ea4a21fa17a4e3bf9b378",
-   "url": "https://open.spotify.com/track/2SEGYVnWImKLUOkU3Qa8sX",
-   "album_url": "https://open.spotify.com/album/1pPsslUdE1HeBxdlgXJ7Yp",
-   "played_at": "2026-11-12T21:02:04.793Z"
-  },
-  {
-   "name": "Love Shack",
-   "artist": "The B-52's",
-   "album": "Cosmic Thing",
-   "year": 1989,
-   "image": "https://i.scdn.co/image/ab67616d00001e0293bf4c5e67f6a72149d94c94",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27393bf4c5e67f6a72149d94c94",
-   "url": "https://open.spotify.com/track/4W4wYHtsrgDiivRASVOINL",
-   "album_url": "https://open.spotify.com/album/5BAzAODqIwttjj7wxmlNMS",
-   "played_at": "2026-11-12T19:26:12.382Z"
-  },
-  {
-   "name": "Black Hole Sun",
-   "artist": "Soundgarden",
-   "album": "Superunknown (Deluxe Edition)",
-   "year": 1994,
-   "image": "https://i.scdn.co/image/ab67616d00001e02ae6d8e36136353d550b2587d",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273ae6d8e36136353d550b2587d",
-   "url": "https://open.spotify.com/track/2EoOZnxNgtmZaD8uUmz2nD",
-   "album_url": "https://open.spotify.com/album/29sTacnS0qA9xri6YS8xLA",
-   "played_at": "2026-11-12T19:20:51.173Z"
-  },
-  {
-   "name": "You Oughta Know - Live at Sirius XM",
-   "artist": "The Warning, Sumerian Pictures",
-   "album": "Mile End Kicks (Music Inspired by the Motion Picture)",
-   "year": 2026,
-   "image": "https://i.scdn.co/image/ab67616d00001e02426c98d50c807024bfc509a6",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273426c98d50c807024bfc509a6",
-   "url": "https://open.spotify.com/track/4TnMnhX1VRWglXugKr9lVq",
-   "album_url": "https://open.spotify.com/album/0OTY8JEbQX6tlrH5eJZG13",
-   "played_at": "2026-11-12T19:15:32.075Z"
   }
  ],
  "top_artists": [
@@ -571,7 +571,7 @@ window.LISTENING = {
   },
   {
    "name": "Van Halen",
-   "plays": 2052,
+   "plays": 2053,
    "url": "https://open.spotify.com/artist/2cnMpRsOVqtPMfq7YiFE6K",
    "image": "https://i.scdn.co/image/ab67616d00001e02b414c63fb435b622238c15ed"
   },
@@ -723,14 +723,14 @@ window.LISTENING = {
    "plays": 913
   },
   {
-   "name": "Folsom Prison Blues",
-   "artist": "Joaquin Phoenix",
-   "album": "Walk The Line (Original Motion Picture Soundtrack)",
-   "year": 2005,
-   "image": "https://i.scdn.co/image/ab67616d00001e020ff166bfd4a462cc7f4068a6",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2730ff166bfd4a462cc7f4068a6",
-   "url": "https://open.spotify.com/track/7bh6o0jqTn2Bh0M7vHln6f",
-   "album_url": "https://open.spotify.com/album/6ICcWbsZxt5fVG02IbZuZg",
+   "name": "My Kinda Lover - Remastered 2010",
+   "artist": "Billy Squier",
+   "album": "Don't Say No (Remastered 2010)",
+   "year": 1981,
+   "image": "https://i.scdn.co/image/ab67616d00001e02f4822f8034e697410a14a297",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273f4822f8034e697410a14a297",
+   "url": "https://open.spotify.com/track/6g14FUj5zU9FDRwBi963vS",
+   "album_url": "https://open.spotify.com/album/6TwlLNU5Zd9qGuNgSLeWPt",
    "plays": 884
   }
  ],
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28712,
+   "plays": 28713,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32928,
+   "plays": 32931,
    "covers": [
     {
      "name": "Back In Black",
@@ -1053,7 +1053,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273f4822f8034e697410a14a297",
      "url": "https://open.spotify.com/track/6g14FUj5zU9FDRwBi963vS",
      "album_url": "https://open.spotify.com/album/6TwlLNU5Zd9qGuNgSLeWPt",
-     "plays": 883
+     "plays": 884
     },
     {
      "name": "Manic Monday",
@@ -1075,7 +1075,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273b414c63fb435b622238c15ed",
      "url": "https://open.spotify.com/track/05RgAMGypEvqhNs5hPCbMS",
      "album_url": "https://open.spotify.com/album/3REUXdj5OPKhuDTrTtCBU0",
-     "plays": 693
+     "plays": 694
     },
     {
      "name": "You Give Love A Bad Name",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18661,
+   "plays": 18662,
    "covers": [
     {
      "name": "ERROR",
@@ -1491,6 +1491,32 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "#2112 - Allah’s Futile Sword, Peptides, And How To Judge A Culture FT. Trevor Kruder | Part 1",
+   "show": "The Adam and Dr. Drew Show",
+   "show_uri": "spotify:show:3VN4vP6TztxK3wtT8b9aQL",
+   "release_date": "2026-11-11",
+   "duration_ms": 3227742,
+   "image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b",
+   "first_seen": "2026-11-13T13:10:02Z",
+   "progress_ms": 2217280,
+   "last_seen": "2026-11-13T15:40:03Z",
+   "url": "https://open.spotify.com/episode/3nSv8JVZacqDivkid7zpFI",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
+  },
+  {
+   "name": "#2112 - Allah’s Futile Sword, Peptides, And How To Judge A Culture FT. Trevor Kruder | Part 2",
+   "show": "The Adam and Dr. Drew Show",
+   "show_uri": "spotify:show:3VN4vP6TztxK3wtT8b9aQL",
+   "release_date": "2026-11-13",
+   "duration_ms": 2933995,
+   "image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b",
+   "first_seen": "2026-11-13T13:40:02Z",
+   "progress_ms": 1105840,
+   "last_seen": "2026-11-13T15:40:03Z",
+   "url": "https://open.spotify.com/episode/643LjrApuN7oCe7bVZpxNA",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
+  },
+  {
    "name": "Why a $2 Billion Law Firm Suddenly Collapsed",
    "show": "Odd Lots",
    "show_uri": "spotify:show:1te7oSFyRVekxMBJUSethH",
@@ -1504,19 +1530,6 @@ window.LISTENING = {
    "show_image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42"
   },
   {
-   "name": "#2112 - Allah’s Futile Sword, Peptides, And How To Judge A Culture FT. Trevor Kruder | Part 2",
-   "show": "The Adam and Dr. Drew Show",
-   "show_uri": "spotify:show:3VN4vP6TztxK3wtT8b9aQL",
-   "release_date": "2026-11-13",
-   "duration_ms": 2933995,
-   "image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b",
-   "first_seen": "2026-11-13T13:40:02Z",
-   "progress_ms": 452196,
-   "last_seen": "2026-11-13T13:40:02Z",
-   "url": "https://open.spotify.com/episode/643LjrApuN7oCe7bVZpxNA",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
-  },
-  {
    "name": "#1222 Narcissism Is Where Envy Gets Acted Out",
    "show": "The Adam and Dr. Drew Show",
    "show_uri": "spotify:show:3VN4vP6TztxK3wtT8b9aQL",
@@ -1527,19 +1540,6 @@ window.LISTENING = {
    "progress_ms": 81520,
    "last_seen": "2026-11-13T13:10:03Z",
    "url": "https://open.spotify.com/episode/2Wi7aLnaxO9omckjmTYpTC",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
-  },
-  {
-   "name": "#2112 - Allah’s Futile Sword, Peptides, And How To Judge A Culture FT. Trevor Kruder | Part 1",
-   "show": "The Adam and Dr. Drew Show",
-   "show_uri": "spotify:show:3VN4vP6TztxK3wtT8b9aQL",
-   "release_date": "2026-11-11",
-   "duration_ms": 3227742,
-   "image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b",
-   "first_seen": "2026-11-13T13:10:02Z",
-   "progress_ms": 877142,
-   "last_seen": "2026-11-13T13:10:02Z",
-   "url": "https://open.spotify.com/episode/3nSv8JVZacqDivkid7zpFI",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
   },
   {
