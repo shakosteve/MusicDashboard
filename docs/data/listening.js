@@ -1,14 +1,91 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-13T14:10:07Z",
+ "generated": "2026-11-13T14:40:07Z",
  "totals": {
-  "plays": 125157,
-  "hours": 8509.0,
+  "plays": 125164,
+  "hours": 8509.5,
   "artists": 702,
   "albums": 1528,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Under Pressure (feat. David Bowie)",
+   "artist": "Queen, David Bowie",
+   "album": "Hot Space",
+   "year": 1982,
+   "image": "https://i.scdn.co/image/ab67616d00001e0244c0a9843fac69db4d56d14e",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27344c0a9843fac69db4d56d14e",
+   "url": "https://open.spotify.com/track/2nrG5UtAcqXbYttu7MXP1p",
+   "album_url": "https://open.spotify.com/album/4pFJdTvK6zNyWOO3W1hkGd",
+   "played_at": "2026-11-13T14:37:51.872Z"
+  },
+  {
+   "name": "Peace of Mind",
+   "artist": "Boston",
+   "album": "Boston",
+   "year": 1976,
+   "image": "https://i.scdn.co/image/ab67616d00001e028c1fadcc997a65384f34d694",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2738c1fadcc997a65384f34d694",
+   "url": "https://open.spotify.com/track/1GqlvSEtMx5xbGptxOTTyk",
+   "album_url": "https://open.spotify.com/album/2QLp07RO6anZHmtcKTEvSC",
+   "played_at": "2026-11-13T14:33:45.173Z"
+  },
+  {
+   "name": "Sunrise",
+   "artist": "Norah Jones",
+   "album": "Feels Like Home",
+   "year": 2004,
+   "image": "https://i.scdn.co/image/ab67616d00001e0264026be0e09c1beda2f67c32",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27364026be0e09c1beda2f67c32",
+   "url": "https://open.spotify.com/track/7zkLpY72g6lKQbiHDqri1S",
+   "album_url": "https://open.spotify.com/album/7GaAXgbFSpcJOiLlFGYyOL",
+   "played_at": "2026-11-13T14:28:17.774Z"
+  },
+  {
+   "name": "Still Got This Thing",
+   "artist": "Alannah Myles",
+   "album": "Alannah Myles",
+   "year": 1989,
+   "image": "https://i.scdn.co/image/ab67616d00001e02c45bb46127a23d1beeead273",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273c45bb46127a23d1beeead273",
+   "url": "https://open.spotify.com/track/1ogO2Wj9qEMMjo7UDejvsh",
+   "album_url": "https://open.spotify.com/album/552joC0kVpcbJm7LFLqGDm",
+   "played_at": "2026-11-13T14:24:56.563Z"
+  },
+  {
+   "name": "Show Me the Light",
+   "artist": "The Warning",
+   "album": "XXI Century Blood",
+   "year": 2017,
+   "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
+   "url": "https://open.spotify.com/track/0LdkRYiS3semGItm03H3gm",
+   "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
+   "played_at": "2026-11-13T14:20:18.872Z"
+  },
+  {
+   "name": "Crumblin' Down",
+   "artist": "John Mellencamp",
+   "album": "Uh-HUH!",
+   "year": 1983,
+   "image": "https://i.scdn.co/image/ab67616d00001e02cd949894aa0df080ed50ff9b",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273cd949894aa0df080ed50ff9b",
+   "url": "https://open.spotify.com/track/4uqmzWlYa0eLKmbcHNgLej",
+   "album_url": "https://open.spotify.com/album/1p4YwrjrP7t6Rfb755yoTQ",
+   "played_at": "2026-11-13T14:15:49.771Z"
+  },
+  {
+   "name": "Automatic Sun - Live from Auditorio Nacional, CDMX",
+   "artist": "The Warning",
+   "album": "Live from Auditorio Nacional, CDMX",
+   "year": 2025,
+   "image": "https://i.scdn.co/image/ab67616d00001e025cda6d880ec3968aa6b6ac2f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
+   "url": "https://open.spotify.com/track/1uAE4zTbb8SllBNx7wf1DS",
+   "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
+   "played_at": "2026-11-13T14:12:15.050Z"
+  },
   {
    "name": "46 and 2",
    "artist": "O'keefe Music Foundation",
@@ -459,89 +536,12 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/0MYNeFsKpzBHwrJGfWZysV",
    "album_url": "https://open.spotify.com/album/0NGM3Ftwjw0dLNpAowmz3x",
    "played_at": "2026-11-12T18:03:14.410Z"
-  },
-  {
-   "name": "You Are So Beautiful",
-   "artist": "Joe Cocker",
-   "album": "I Can Stand A Little Rain",
-   "year": 1974,
-   "image": "https://i.scdn.co/image/ab67616d00001e027e595e624e19b191972d8a7a",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2737e595e624e19b191972d8a7a",
-   "url": "https://open.spotify.com/track/1gJOqXpRjz9GeEEwQpcujK",
-   "album_url": "https://open.spotify.com/album/3pZNBYMFG6OSNuajvsdN4Q",
-   "played_at": "2026-11-12T17:58:47.908Z"
-  },
-  {
-   "name": "Gonna Make You Sweat (Everybody Dance Now) (feat. Freedom Williams)",
-   "artist": "C & C Music Factory, Freedom Williams",
-   "album": "Super Hits",
-   "year": 2000,
-   "image": "https://i.scdn.co/image/ab67616d00001e02bf6cc1130a676e73730f6311",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273bf6cc1130a676e73730f6311",
-   "url": "https://open.spotify.com/track/7eheoW4hxrH51ww2QePVwF",
-   "album_url": "https://open.spotify.com/album/7wlnHCWKkBXBWtYgpaCaz7",
-   "played_at": "2026-11-12T17:56:07.802Z"
-  },
-  {
-   "name": "VHS",
-   "artist": "Freeze the Fall",
-   "album": "VHS",
-   "year": 2024,
-   "image": "https://i.scdn.co/image/ab67616d00001e0241d86dc3e3abbc5447edc351",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27341d86dc3e3abbc5447edc351",
-   "url": "https://open.spotify.com/track/5UBVWzkPAP9uRnhEAMPoyY",
-   "album_url": "https://open.spotify.com/album/55sg7o5JnKuz8gfwjkiyf5",
-   "played_at": "2026-11-12T17:52:03.233Z"
-  },
-  {
-   "name": "Good Golly, Miss Molly",
-   "artist": "Little Richard",
-   "album": "Good Golly!",
-   "year": 1969,
-   "image": "https://i.scdn.co/image/ab67616d00001e02cc4c510d6d19a2d03e2fc757",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273cc4c510d6d19a2d03e2fc757",
-   "url": "https://open.spotify.com/track/0ZvgXNstN4o2ZXPomtBYVp",
-   "album_url": "https://open.spotify.com/album/18VnWTsdEcofimkOHcWBAu",
-   "played_at": "2026-11-12T17:48:30.086Z"
-  },
-  {
-   "name": "P.S.Y.C.H.O.T.I.C.",
-   "artist": "The Warning",
-   "album": "Queen of the Murder Scene",
-   "year": 2018,
-   "image": "https://i.scdn.co/image/ab67616d00001e02e0871bbaad013df7b7e56c2a",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273e0871bbaad013df7b7e56c2a",
-   "url": "https://open.spotify.com/track/0wRHqRHUXgoOXe6H6XS1sJ",
-   "album_url": "https://open.spotify.com/album/2kB1Qqw3YOR9i3nbNxXWRs",
-   "played_at": "2026-11-12T17:01:25.627Z"
-  },
-  {
-   "name": "Queen of the Murder Scene",
-   "artist": "The Warning",
-   "album": "Queen of the Murder Scene",
-   "year": 2018,
-   "image": "https://i.scdn.co/image/ab67616d00001e02e0871bbaad013df7b7e56c2a",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273e0871bbaad013df7b7e56c2a",
-   "url": "https://open.spotify.com/track/7HngxvXTrk1leMvF8QNeyl",
-   "album_url": "https://open.spotify.com/album/2kB1Qqw3YOR9i3nbNxXWRs",
-   "played_at": "2026-11-12T16:57:46.019Z"
-  },
-  {
-   "name": "Time for Me to Fly",
-   "artist": "REO Speedwagon",
-   "album": "You Can Tune a Piano, But You Can't Tuna Fish",
-   "year": 1978,
-   "image": "https://i.scdn.co/image/ab67616d00001e0240c8a6ff21a1d52575185f38",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27340c8a6ff21a1d52575185f38",
-   "url": "https://open.spotify.com/track/0cO7JEo8deKuQMWpDyjenY",
-   "album_url": "https://open.spotify.com/album/3w0BIqN0uMoOT2l2ppKuXx",
-   "played_at": "2026-11-12T16:53:51.162Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10699,
+   "plays": 10701,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
@@ -589,7 +589,7 @@ window.LISTENING = {
   },
   {
    "name": "Queen",
-   "plays": 1918,
+   "plays": 1919,
    "url": "https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d",
    "image": "https://i.scdn.co/image/ab67616d00001e0207744e2ed983efa3e6620a47"
   },
@@ -610,7 +610,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
    "url": "https://open.spotify.com/track/1VcLiPmina1L3xlLkJ5OTS",
    "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
-   "plays": 3492
+   "plays": 3493
   },
   {
    "name": "Dust to Dust",
@@ -676,7 +676,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b2738c1fadcc997a65384f34d694",
    "url": "https://open.spotify.com/track/1QEEqeFIZktqIpPI4jSVSF",
    "album_url": "https://open.spotify.com/album/2QLp07RO6anZHmtcKTEvSC",
-   "plays": 1109
+   "plays": 1110
   },
   {
    "name": "Leroy",
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28708,
+   "plays": 28709,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -937,7 +937,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2738c1fadcc997a65384f34d694",
      "url": "https://open.spotify.com/track/1QEEqeFIZktqIpPI4jSVSF",
      "album_url": "https://open.spotify.com/album/2QLp07RO6anZHmtcKTEvSC",
-     "plays": 1109
+     "plays": 1110
     },
     {
      "name": "Barracuda",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32925,
+   "plays": 32928,
    "covers": [
     {
      "name": "Back In Black",
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 12010,
+   "plays": 12011,
    "covers": [
     {
      "name": "Material Girl",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15787,
+   "plays": 15788,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1313,7 +1313,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
      "url": "https://open.spotify.com/track/1VcLiPmina1L3xlLkJ5OTS",
      "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
-     "plays": 3492
+     "plays": 3493
     },
     {
      "name": "Dust to Dust",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18657,
+   "plays": 18658,
    "covers": [
     {
      "name": "ERROR",
@@ -1440,7 +1440,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
      "url": "https://open.spotify.com/track/3zgbw0cxkS1DQ36O5hGydt",
      "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
-     "plays": 486
+     "plays": 487
     },
     {
      "name": "Shot In The Dark",
