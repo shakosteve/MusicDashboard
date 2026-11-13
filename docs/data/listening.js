@@ -1,14 +1,47 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-13T13:40:05Z",
+ "generated": "2026-11-13T14:10:07Z",
  "totals": {
-  "plays": 125154,
-  "hours": 8508.7,
+  "plays": 125157,
+  "hours": 8509.0,
   "artists": 702,
-  "albums": 1526,
+  "albums": 1528,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "46 and 2",
+   "artist": "O'keefe Music Foundation",
+   "album": "46 and 2",
+   "year": 2015,
+   "image": "https://i.scdn.co/image/ab67616d00001e02c953a05b22cfd7dc11d3d7a6",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273c953a05b22cfd7dc11d3d7a6",
+   "url": "https://open.spotify.com/track/1Mfb4wUz54L6wW900FfWtG",
+   "album_url": "https://open.spotify.com/album/68bP3r8G6e4ej006S1eWmg",
+   "played_at": "2026-11-13T14:08:21.971Z"
+  },
+  {
+   "name": "99 Luftballons - Remastered 2024",
+   "artist": "Nena",
+   "album": "NENA (Remastered & Selected Works)",
+   "year": 2024,
+   "image": "https://i.scdn.co/image/ab67616d00001e02aad6c8766ffd364454df5465",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273aad6c8766ffd364454df5465",
+   "url": "https://open.spotify.com/track/3NM2GsEUdDq2QYqXOMXZZW",
+   "album_url": "https://open.spotify.com/album/5OhSZi1hTPDWarLDiUT3Si",
+   "played_at": "2026-11-13T14:02:18.574Z"
+  },
+  {
+   "name": "American Woman - 2024 Remaster",
+   "artist": "The Guess Who",
+   "album": "American Woman (2024 Remaster)",
+   "year": 1970,
+   "image": "https://i.scdn.co/image/ab67616d00001e0266997bea96acd48cb2ed15e6",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27366997bea96acd48cb2ed15e6",
+   "url": "https://open.spotify.com/track/4GoldMP2p0yYNSsvHasZgo",
+   "album_url": "https://open.spotify.com/album/3AHpOJBIj8eUBbEUmTxsGQ",
+   "played_at": "2026-11-13T13:58:24.769Z"
+  },
   {
    "name": "Good Traveler",
    "artist": "Saving Escape",
@@ -503,39 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/0cO7JEo8deKuQMWpDyjenY",
    "album_url": "https://open.spotify.com/album/3w0BIqN0uMoOT2l2ppKuXx",
    "played_at": "2026-11-12T16:53:51.162Z"
-  },
-  {
-   "name": "Teach Your Children",
-   "artist": "Crosby, Stills, Nash & Young",
-   "album": "Deja Vu",
-   "year": 1970,
-   "image": "https://i.scdn.co/image/ab67616d00001e0206e00756085191abc01e4cf0",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27306e00756085191abc01e4cf0",
-   "url": "https://open.spotify.com/track/29HaKOpeLSYvqdFyEQSRdj",
-   "album_url": "https://open.spotify.com/album/5bHkK1X4WEOzNvRhehvOcb",
-   "played_at": "2026-11-12T16:50:09.336Z"
-  },
-  {
-   "name": "Behind My Eyes 2.0",
-   "artist": "Jackie Evancho",
-   "album": "Behind My Eyes 2.0",
-   "year": 2024,
-   "image": "https://i.scdn.co/image/ab67616d00001e02bac53c6df98b2b94d6cd6107",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273bac53c6df98b2b94d6cd6107",
-   "url": "https://open.spotify.com/track/2CFumA2qK7AtKxVlMrxZsC",
-   "album_url": "https://open.spotify.com/album/3ITUwSkekIyElh1KCdxGKe",
-   "played_at": "2026-11-12T16:47:15.307Z"
-  },
-  {
-   "name": "When You Look At Me",
-   "artist": "Return to Dust",
-   "album": "Return to Dust",
-   "year": 2024,
-   "image": "https://i.scdn.co/image/ab67616d00001e02416863729de216cc315bac0d",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273416863729de216cc315bac0d",
-   "url": "https://open.spotify.com/track/6q18Izccxwaq6dat7aIUMl",
-   "album_url": "https://open.spotify.com/album/2iMQfRVysuYVHB4UEhT6dB",
-   "played_at": "2026-11-12T16:44:16.116Z"
   }
  ],
  "top_artists": [
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28707,
+   "plays": 28708,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15786,
+   "plays": 15787,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18656,
+   "plays": 18657,
    "covers": [
     {
      "name": "ERROR",
