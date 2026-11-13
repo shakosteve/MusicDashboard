@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-13T00:10:07Z",
+ "generated": "2026-11-13T01:10:05Z",
  "totals": {
-  "plays": 125153,
+  "plays": 125154,
   "hours": 8508.7,
   "artists": 702,
   "albums": 1526,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Good Traveler",
+   "artist": "Saving Escape",
+   "album": "Good Traveler",
+   "year": 2024,
+   "image": "https://i.scdn.co/image/ab67616d00001e024b786fec5eb9124b289cc587",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2734b786fec5eb9124b289cc587",
+   "url": "https://open.spotify.com/track/13Xm7eVN59gjVTUaIN3O59",
+   "album_url": "https://open.spotify.com/album/68yAqNSfaFPL1ZkcJhsTgG",
+   "played_at": "2026-11-13T00:05:46.363Z"
+  },
   {
    "name": "Boogie Shoes",
    "artist": "KC & The Sunshine Band",
@@ -525,17 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/6q18Izccxwaq6dat7aIUMl",
    "album_url": "https://open.spotify.com/album/2iMQfRVysuYVHB4UEhT6dB",
    "played_at": "2026-11-12T16:44:16.116Z"
-  },
-  {
-   "name": "Linger - Remastered 2026",
-   "artist": "The Cranberries",
-   "album": "Everybody Else Is Doing It, So Why Can't We? (Remastered 2026)",
-   "year": 1993,
-   "image": "https://i.scdn.co/image/ab67616d00001e02753dbf92830094154a21b193",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273753dbf92830094154a21b193",
-   "url": "https://open.spotify.com/track/1WYrTfvKjQYaYfVziGG1ET",
-   "album_url": "https://open.spotify.com/album/4xIcI1EC3MoCNZWkhMjShN",
-   "played_at": "2026-11-12T16:40:45.426Z"
   }
  ],
  "top_artists": [
@@ -595,7 +595,7 @@ window.LISTENING = {
   },
   {
    "name": "Saving Escape",
-   "plays": 1679,
+   "plays": 1680,
    "url": "https://open.spotify.com/artist/2VfhnjHV7e3M499VPa1w71",
    "image": "https://i.scdn.co/image/ab67616d00001e02a8e9a07f9110e842adaa5c13"
   }
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18655,
+   "plays": 18656,
    "covers": [
     {
      "name": "ERROR",
@@ -1490,6 +1490,19 @@ window.LISTENING = {
   }
  ],
  "episodes": [
+  {
+   "name": "Jaleel White Talks Hollywood, Bill Cosby, Money",
+   "show": "Adam Carolla Show",
+   "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
+   "release_date": "2026-11-12",
+   "duration_ms": 6295327,
+   "image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f",
+   "first_seen": "2026-11-13T01:10:02Z",
+   "progress_ms": 338161,
+   "last_seen": "2026-11-13T01:10:02Z",
+   "url": "https://open.spotify.com/episode/4hKd6RsNHJyvqAP6qk13ER",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
+  },
   {
    "name": "Iran war is over, says Trump, as US prises open Strait of Hormuz",
    "show": "Battle Lines",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-12T14:10:02Z",
    "url": "https://open.spotify.com/episode/48mrFhQ5ikec7F2nrR9OZw",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f55386ae3fe554333e1a85785"
-  },
-  {
-   "name": "0399: The State of Tolkien Fandom » Rings of Power, Hunt for Gollum & What Comes Next",
-   "show": "The Tolkien Road",
-   "show_uri": "spotify:show:3bSi49HNAQsWczeZ38s8Yp",
-   "release_date": "2026-11-06",
-   "duration_ms": 4601495,
-   "image": "https://i.scdn.co/image/ab67656300005f1f40b5b9b9cfee572be629eac7",
-   "first_seen": "2026-11-08T13:40:02Z",
-   "progress_ms": 4592717,
-   "last_seen": "2026-11-12T13:47:41Z",
-   "url": "https://open.spotify.com/episode/5QsVoeNcKz02ccaRxqArpt",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f3664f10ec9dfd2083ac738d9"
   }
  ],
  "top_shows": [
