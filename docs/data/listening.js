@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-13T21:40:04Z",
+ "generated": "2026-11-13T23:40:05Z",
  "totals": {
   "plays": 125183,
   "hours": 8510.7,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "How Iran’s constant Gulf strikes ended the US security umbrella",
+   "show": "Iran: The Latest",
+   "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
+   "release_date": "2026-11-13",
+   "duration_ms": 2722325,
+   "image": "https://i.scdn.co/image/ab67656300005f1f8ae4474fe34975bc20f44176",
+   "first_seen": "2026-11-13T23:40:02Z",
+   "progress_ms": 1070238,
+   "last_seen": "2026-11-13T23:40:02Z",
+   "url": "https://open.spotify.com/episode/2PpDCf3VSbgaUgkWKLoygV",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
+  },
+  {
    "name": "#2112 - Allah’s Futile Sword, Peptides, And How To Judge A Culture FT. Trevor Kruder | Part 1",
    "show": "The Adam and Dr. Drew Show",
    "show_uri": "spotify:show:3VN4vP6TztxK3wtT8b9aQL",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-12T14:10:04Z",
    "url": "https://open.spotify.com/episode/314E9oAUfN03OcQRa0CAWW",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42"
-  },
-  {
-   "name": "Jen Sey: No More Men In WOMEN’S Sports",
-   "show": "Adam Carolla Show",
-   "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
-   "release_date": "2026-11-11",
-   "duration_ms": 6351516,
-   "image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f",
-   "first_seen": "2026-11-12T14:10:03Z",
-   "progress_ms": 6386603,
-   "last_seen": "2026-11-12T14:10:03Z",
-   "url": "https://open.spotify.com/episode/29ZhcV5Mz8aoYQKtjbrO7S",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
   }
  ],
  "top_shows": [
