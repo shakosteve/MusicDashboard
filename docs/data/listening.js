@@ -1,14 +1,47 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-13T15:40:06Z",
+ "generated": "2026-11-13T18:10:07Z",
  "totals": {
-  "plays": 125177,
-  "hours": 8510.3,
+  "plays": 125180,
+  "hours": 8510.5,
   "artists": 702,
   "albums": 1529,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Oh Well feat. Chris Stapleton",
+   "artist": "Slash, Chris Stapleton",
+   "album": "Oh Well feat. Chris Stapleton",
+   "year": 2024,
+   "image": "https://i.scdn.co/image/ab67616d00001e02a288a30f4133154538ea5d3d",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273a288a30f4133154538ea5d3d",
+   "url": "https://open.spotify.com/track/6xvriZfsi9MZ8TAE2wqY2z",
+   "album_url": "https://open.spotify.com/album/0Rl9omLw3rdkK7OiSnHGAG",
+   "played_at": "2026-11-13T18:08:31.685Z"
+  },
+  {
+   "name": "Dreamboat Annie - Reprise",
+   "artist": "Heart",
+   "album": "Dreamboat Annie",
+   "year": 1975,
+   "image": "https://i.scdn.co/image/ab67616d00001e028e8c08ca2feb999bb84f05e6",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2738e8c08ca2feb999bb84f05e6",
+   "url": "https://open.spotify.com/track/0biAECXd0N3z1pZzkuX109",
+   "album_url": "https://open.spotify.com/album/2N0AgtWbCmVoNUl2GN1opH",
+   "played_at": "2026-11-13T18:03:57.638Z"
+  },
+  {
+   "name": "Second Chances",
+   "artist": "Gregory Alan Isakov",
+   "album": "The Weatherman",
+   "year": 2013,
+   "image": "https://i.scdn.co/image/ab67616d00001e0233ffa5c45ccea4103c917964",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27333ffa5c45ccea4103c917964",
+   "url": "https://open.spotify.com/track/6Wu19AEKVNs5bJFuhZb4EZ",
+   "album_url": "https://open.spotify.com/album/3IcfYXw7lTtLfG5XWLlSZi",
+   "played_at": "2026-11-13T18:00:07.129Z"
+  },
   {
    "name": "I Shot The Sheriff",
    "artist": "Eric Clapton",
@@ -503,39 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/6w8ZPYdnGajyfPddTWdthN",
    "album_url": "https://open.spotify.com/album/21jF5jlMtzo94wbxmJ18aa",
    "played_at": "2026-11-12T21:19:47.181Z"
-  },
-  {
-   "name": "What You Need",
-   "artist": "INXS",
-   "album": "Listen Like Thieves",
-   "year": 1985,
-   "image": "https://i.scdn.co/image/ab67616d00001e027cc210b821366ee0c76df23c",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2737cc210b821366ee0c76df23c",
-   "url": "https://open.spotify.com/track/04EnF5C2HvYZfGu64Bng7I",
-   "album_url": "https://open.spotify.com/album/1U6tgUieq2uuKip6DVxM31",
-   "played_at": "2026-11-12T21:16:16.260Z"
-  },
-  {
-   "name": "Brown Sugar",
-   "artist": "The Rolling Stones",
-   "album": "Hot Rocks 1964-1971",
-   "year": 1971,
-   "image": "https://i.scdn.co/image/ab67616d00001e02b11b3fc3c89477a7dd473bd7",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273b11b3fc3c89477a7dd473bd7",
-   "url": "https://open.spotify.com/track/34K7nU8EWQIRI93RfqhdRJ",
-   "album_url": "https://open.spotify.com/album/0aqZJlugIkTUWW1sa4BANp",
-   "played_at": "2026-11-12T21:12:41.665Z"
-  },
-  {
-   "name": "Lay Down Sally",
-   "artist": "Eric Clapton",
-   "album": "Slowhand 35th Anniversary (Super Deluxe)",
-   "year": 1977,
-   "image": "https://i.scdn.co/image/ab67616d00001e026f093a6ae88a5ca8ed53b9f7",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2736f093a6ae88a5ca8ed53b9f7",
-   "url": "https://open.spotify.com/track/6io0LJIP9ntX35hTfaxwQG",
-   "album_url": "https://open.spotify.com/album/5MAL7e4EnKXW1hFg6NbFqP",
-   "played_at": "2026-11-12T21:08:52.153Z"
   }
  ],
  "top_artists": [
@@ -583,7 +583,7 @@ window.LISTENING = {
   },
   {
    "name": "Heart",
-   "plays": 1930,
+   "plays": 1931,
    "url": "https://open.spotify.com/artist/34jw2BbxjoYalTp8cJFCPv",
    "image": "https://i.scdn.co/image/ab67616d00001e0266e2e0df78c4ec35a8ed20a0"
   },
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28713,
+   "plays": 28714,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -970,7 +970,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2738e8c08ca2feb999bb84f05e6",
      "url": "https://open.spotify.com/track/5zH710lFSLtkHbMkslLDjR",
      "album_url": "https://open.spotify.com/album/2N0AgtWbCmVoNUl2GN1opH",
-     "plays": 707
+     "plays": 708
     },
     {
      "name": "Stairway to Heaven - Remaster",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15788,
+   "plays": 15789,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18662,
+   "plays": 18663,
    "covers": [
     {
      "name": "ERROR",
