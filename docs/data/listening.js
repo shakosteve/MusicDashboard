@@ -1,14 +1,36 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-12T23:40:07Z",
+ "generated": "2026-11-13T00:10:07Z",
  "totals": {
-  "plays": 125151,
-  "hours": 8508.5,
+  "plays": 125153,
+  "hours": 8508.7,
   "artists": 702,
   "albums": 1526,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Boogie Shoes",
+   "artist": "KC & The Sunshine Band",
+   "album": "KC & the Sunshine Band... and More",
+   "year": 2004,
+   "image": "https://i.scdn.co/image/ab67616d00001e02c15e8983eef55e19f9b73ff3",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273c15e8983eef55e19f9b73ff3",
+   "url": "https://open.spotify.com/track/2Nc1Tl1qHWLAtBnqRJmkP3",
+   "album_url": "https://open.spotify.com/album/6ufis2iWp3hrox9QJfg5Jq",
+   "played_at": "2026-11-12T23:48:59.987Z"
+  },
+  {
+   "name": "Addicted To Love",
+   "artist": "Robert Palmer, Eric 'ET' Thorngren",
+   "album": "Riptide",
+   "year": 1985,
+   "image": "https://i.scdn.co/image/ab67616d00001e02f3bc80c86bab200ea5ffe10b",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273f3bc80c86bab200ea5ffe10b",
+   "url": "https://open.spotify.com/track/5izGeTxueiFX1UPFGohY9w",
+   "album_url": "https://open.spotify.com/album/73bPiJRwVPkE8dpyCikfFd",
+   "played_at": "2026-11-12T23:43:12.601Z"
+  },
   {
    "name": "Kashmir",
    "artist": "Lez Zeppelin",
@@ -514,28 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/1WYrTfvKjQYaYfVziGG1ET",
    "album_url": "https://open.spotify.com/album/4xIcI1EC3MoCNZWkhMjShN",
    "played_at": "2026-11-12T16:40:45.426Z"
-  },
-  {
-   "name": "Right Down the Line",
-   "artist": "Gerry Rafferty",
-   "album": "City to City",
-   "year": 1978,
-   "image": "https://i.scdn.co/image/ab67616d00001e02dc60cf9a010f86354e6735dd",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273dc60cf9a010f86354e6735dd",
-   "url": "https://open.spotify.com/track/2Xb6wJYGi0QXwURw5WWvI5",
-   "album_url": "https://open.spotify.com/album/35yZZTWeSrszSKjRlFETwf",
-   "played_at": "2026-11-12T16:36:10.051Z"
-  },
-  {
-   "name": "Runaway",
-   "artist": "The Warning",
-   "album": "XXI Century Blood",
-   "year": 2017,
-   "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
-   "url": "https://open.spotify.com/track/4bcc5nd8AQOkCloGe07Qtv",
-   "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
-   "played_at": "2026-11-12T15:15:55.795Z"
   }
  ],
  "top_artists": [
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32924,
+   "plays": 32925,
    "covers": [
     {
      "name": "Back In Black",
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 12009,
+   "plays": 12010,
    "covers": [
     {
      "name": "Material Girl",
