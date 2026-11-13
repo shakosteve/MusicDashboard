@@ -1,14 +1,36 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-13T18:10:07Z",
+ "generated": "2026-11-13T18:40:04Z",
  "totals": {
-  "plays": 125180,
-  "hours": 8510.5,
+  "plays": 125182,
+  "hours": 8510.6,
   "artists": 702,
   "albums": 1529,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Give A Little Bit",
+   "artist": "Supertramp",
+   "album": "Even In The Quietest Moments... (Remastered 2026)",
+   "year": 1977,
+   "image": "https://i.scdn.co/image/ab67616d00001e02be91795435584ccd90c2a76a",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273be91795435584ccd90c2a76a",
+   "url": "https://open.spotify.com/track/1JI4nBu8CZjKYjyADy8kAv",
+   "album_url": "https://open.spotify.com/album/0kW7WYI6RWpplTyzUg048H",
+   "played_at": "2026-11-13T18:15:51.254Z"
+  },
+  {
+   "name": "Dance the Night Away",
+   "artist": "Van Halen",
+   "album": "Best of Volume 1",
+   "year": 1996,
+   "image": "https://i.scdn.co/image/ab67616d00001e0243de9079ae02773c1fae9a26",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27343de9079ae02773c1fae9a26",
+   "url": "https://open.spotify.com/track/7E8sTX79VcbCaWnCu3jsko",
+   "album_url": "https://open.spotify.com/album/7ndqT6LH9o6YQ5uA7aT0St",
+   "played_at": "2026-11-13T18:11:41.853Z"
+  },
   {
    "name": "Oh Well feat. Chris Stapleton",
    "artist": "Slash, Chris Stapleton",
@@ -514,28 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/2JFdwYlUkWYnZOer20BcHu",
    "album_url": "https://open.spotify.com/album/6dvrpWZMYRBtFiYHMisNgD",
    "played_at": "2026-11-12T21:27:30.689Z"
-  },
-  {
-   "name": "Night Fever - From \"Saturday Night Fever\" Soundtrack",
-   "artist": "Bee Gees",
-   "album": "How Can You Mend A Broken Heart",
-   "year": 2020,
-   "image": "https://i.scdn.co/image/ab67616d00001e02bdcea025a483b9642f17a9f8",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273bdcea025a483b9642f17a9f8",
-   "url": "https://open.spotify.com/track/0qemIQjSxcKyf42VPfZnfa",
-   "album_url": "https://open.spotify.com/album/4vAhQeeWkSjVn0p5GAaLBx",
-   "played_at": "2026-11-12T21:23:20.499Z"
-  },
-  {
-   "name": "Can I Get It",
-   "artist": "Adele",
-   "album": "30",
-   "year": 2021,
-   "image": "https://i.scdn.co/image/ab67616d00001e02c6b577e4c4a6d326354a89f7",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273c6b577e4c4a6d326354a89f7",
-   "url": "https://open.spotify.com/track/6w8ZPYdnGajyfPddTWdthN",
-   "album_url": "https://open.spotify.com/album/21jF5jlMtzo94wbxmJ18aa",
-   "played_at": "2026-11-12T21:19:47.181Z"
   }
  ],
  "top_artists": [
@@ -571,7 +571,7 @@ window.LISTENING = {
   },
   {
    "name": "Van Halen",
-   "plays": 2053,
+   "plays": 2054,
    "url": "https://open.spotify.com/artist/2cnMpRsOVqtPMfq7YiFE6K",
    "image": "https://i.scdn.co/image/ab67616d00001e02b414c63fb435b622238c15ed"
   },
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28714,
+   "plays": 28715,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9729,
+   "plays": 9730,
    "covers": [
     {
      "name": "Amazing",
