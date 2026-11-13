@@ -1,14 +1,102 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-13T14:40:07Z",
+ "generated": "2026-11-13T15:10:07Z",
  "totals": {
-  "plays": 125164,
-  "hours": 8509.5,
+  "plays": 125172,
+  "hours": 8510.0,
   "artists": 702,
   "albums": 1528,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "MARTIRIO",
+   "artist": "The Warning",
+   "album": "MARTIRIO",
+   "year": 2021,
+   "image": "https://i.scdn.co/image/ab67616d00001e02732c6de7441ed29a73e87963",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273732c6de7441ed29a73e87963",
+   "url": "https://open.spotify.com/track/2W0IAUsjR26coSOvppEpKx",
+   "album_url": "https://open.spotify.com/album/6oyeToNU5s7ZGttwTZ8EDF",
+   "played_at": "2026-11-13T15:08:11.317Z"
+  },
+  {
+   "name": "Peaceful Easy Feeling - 2013 Remaster",
+   "artist": "Eagles",
+   "album": "Eagles (2013 Remaster)",
+   "year": 1972,
+   "image": "https://i.scdn.co/image/ab67616d00001e02c13acd642ba9f6f5f127aa1b",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273c13acd642ba9f6f5f127aa1b",
+   "url": "https://open.spotify.com/track/40h65HAR8COEoqkMwUUQHu",
+   "album_url": "https://open.spotify.com/album/51B7LbLWgYLKBVSpkan8Z7",
+   "played_at": "2026-11-13T15:04:06.678Z"
+  },
+  {
+   "name": "Electric Boogie",
+   "artist": "Marcia Griffiths",
+   "album": "Carousel",
+   "year": 1990,
+   "image": "https://i.scdn.co/image/ab67616d00001e02b9b77a3516206301635556cd",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273b9b77a3516206301635556cd",
+   "url": "https://open.spotify.com/track/1JyaAeaXVFnVv5ikwWQVQ4",
+   "album_url": "https://open.spotify.com/album/27NoR0KCEJp5X4JFiHZZcq",
+   "played_at": "2026-11-13T14:59:48.141Z"
+  },
+  {
+   "name": "Runnin' with the Devil - 2015 Remaster",
+   "artist": "Van Halen",
+   "album": "Van Halen (Remastered)",
+   "year": 1978,
+   "image": "https://i.scdn.co/image/ab67616d00001e0217dd812df38fed44d6d2036e",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27317dd812df38fed44d6d2036e",
+   "url": "https://open.spotify.com/track/3KhF2YiNpJvGpfiCW45R6D",
+   "album_url": "https://open.spotify.com/album/7DdEbYFPKTZ8KB4z6L4UnQ",
+   "played_at": "2026-11-13T14:55:44.872Z"
+  },
+  {
+   "name": "Slither",
+   "artist": "Velvet Revolver",
+   "album": "Contraband",
+   "year": 2004,
+   "image": "https://i.scdn.co/image/ab67616d00001e02e95d233a9df33d6c9992b449",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273e95d233a9df33d6c9992b449",
+   "url": "https://open.spotify.com/track/7kF1iPJTj3VFJX9XokQ80F",
+   "album_url": "https://open.spotify.com/album/64GnrmrpL1fvfF0r1AoZLB",
+   "played_at": "2026-11-13T14:52:09.352Z"
+  },
+  {
+   "name": "50 Ways to Leave Your Lover",
+   "artist": "Paul Simon",
+   "album": "Still Crazy After All These Years",
+   "year": 1975,
+   "image": "https://i.scdn.co/image/ab67616d00001e02f081c7a1a21fb8f983a9d3cb",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273f081c7a1a21fb8f983a9d3cb",
+   "url": "https://open.spotify.com/track/6Qb7gtV6Q4MnUjSbkFcopl",
+   "album_url": "https://open.spotify.com/album/4A366gjTrYQwmRtkTezF2W",
+   "played_at": "2026-11-13T14:48:00.562Z"
+  },
+  {
+   "name": "Everything’s Falling",
+   "artist": "The Warning",
+   "album": "Everything’s Falling",
+   "year": 2026,
+   "image": "https://i.scdn.co/image/ab67616d00001e023d3a5263cbb23d7b8866a08c",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2733d3a5263cbb23d7b8866a08c",
+   "url": "https://open.spotify.com/track/4GVXHZ4QJe1lOvtfLsIORd",
+   "album_url": "https://open.spotify.com/album/0YJACBRXuL7jthY9RBtlS5",
+   "played_at": "2026-11-13T14:44:22.468Z"
+  },
+  {
+   "name": "Too Good to be True",
+   "artist": "Kacey Musgraves",
+   "album": "Deeper Well",
+   "year": 2024,
+   "image": "https://i.scdn.co/image/ab67616d00001e02b598ad81e340f28f8b523c41",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273b598ad81e340f28f8b523c41",
+   "url": "https://open.spotify.com/track/27RDQ0TfxzWMlQFuKrPT11",
+   "album_url": "https://open.spotify.com/album/5SxZmGwc4eJuPp6PcO4JgJ",
+   "played_at": "2026-11-13T14:40:32.470Z"
+  },
   {
    "name": "Under Pressure (feat. David Bowie)",
    "artist": "Queen, David Bowie",
@@ -448,100 +536,12 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/4TnMnhX1VRWglXugKr9lVq",
    "album_url": "https://open.spotify.com/album/0OTY8JEbQX6tlrH5eJZG13",
    "played_at": "2026-11-12T19:15:32.075Z"
-  },
-  {
-   "name": "Night Moves",
-   "artist": "Bob Seger",
-   "album": "Night Moves",
-   "year": 1976,
-   "image": "https://i.scdn.co/image/ab67616d00001e02676a8230a422123e8012557e",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273676a8230a422123e8012557e",
-   "url": "https://open.spotify.com/track/6UBjSnyP1O5W5ndJoO9vUk",
-   "album_url": "https://open.spotify.com/album/5QkOpsZupEPLq186YOrBNe",
-   "played_at": "2026-11-12T19:11:22.223Z"
-  },
-  {
-   "name": "Legs (2008 Remaster)",
-   "artist": "ZZ Top",
-   "album": "Eliminator",
-   "year": 1983,
-   "image": "https://i.scdn.co/image/ab67616d00001e02a2b4f98f60e3cacf3866b2e3",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273a2b4f98f60e3cacf3866b2e3",
-   "url": "https://open.spotify.com/track/11oBg7EA3BgPLWrIx4Rv7D",
-   "album_url": "https://open.spotify.com/album/4KW6YVbF8E3kexYcl0k4IK",
-   "played_at": "2026-11-12T19:05:57.352Z"
-  },
-  {
-   "name": "Fly To The Angels",
-   "artist": "Slaughter",
-   "album": "Mass Slaughter: The Best Of Slaughter",
-   "year": 1995,
-   "image": "https://i.scdn.co/image/ab67616d00001e0240b90f1a11cfc3f4ec22610f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27340b90f1a11cfc3f4ec22610f",
-   "url": "https://open.spotify.com/track/1KkKFxAOb4kDpWH8IeLa7A",
-   "album_url": "https://open.spotify.com/album/3eefJebHQxT81kCOMr41l4",
-   "played_at": "2026-11-12T19:01:22.882Z"
-  },
-  {
-   "name": "Learning To Fly",
-   "artist": "Tom Petty and the Heartbreakers",
-   "album": "Into The Great Wide Open",
-   "year": 1991,
-   "image": "https://i.scdn.co/image/ab67616d00001e0227bd7d234a31296df34b9a64",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27327bd7d234a31296df34b9a64",
-   "url": "https://open.spotify.com/track/17S4XrLvF5jlGvGCJHgF51",
-   "album_url": "https://open.spotify.com/album/42G5ULkCRRl3crJMlg6eKd",
-   "played_at": "2026-11-12T18:21:59.311Z"
-  },
-  {
-   "name": "Don't Stop Believin' (2022 Remaster)",
-   "artist": "Journey",
-   "album": "Escape (2022 Remaster)",
-   "year": 1981,
-   "image": "https://i.scdn.co/image/ab67616d00001e0223290120a609a65e14cfe018",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27323290120a609a65e14cfe018",
-   "url": "https://open.spotify.com/track/5RKQ5NdjSh2QzD4MaunT91",
-   "album_url": "https://open.spotify.com/album/4guAwaniEAEQSW0NCpo4gm",
-   "played_at": "2026-11-12T18:15:20.804Z"
-  },
-  {
-   "name": "A Horse with No Name",
-   "artist": "America, George Martin",
-   "album": "America",
-   "year": 1972,
-   "image": "https://i.scdn.co/image/ab67616d00001e02cc2ef2810c85fde8ec60cbc4",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273cc2ef2810c85fde8ec60cbc4",
-   "url": "https://open.spotify.com/track/54eZmuggBFJbV7k248bTTt",
-   "album_url": "https://open.spotify.com/album/0E5IKYhiKgbYQkmfsFonbZ",
-   "played_at": "2026-11-12T18:11:10.747Z"
-  },
-  {
-   "name": "Mainstreet",
-   "artist": "Bob Seger",
-   "album": "Night Moves",
-   "year": 1976,
-   "image": "https://i.scdn.co/image/ab67616d00001e02676a8230a422123e8012557e",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273676a8230a422123e8012557e",
-   "url": "https://open.spotify.com/track/0XVR94voJPToKX1XoOw0ot",
-   "album_url": "https://open.spotify.com/album/5QkOpsZupEPLq186YOrBNe",
-   "played_at": "2026-11-12T18:06:58.051Z"
-  },
-  {
-   "name": "Locomotive Breath",
-   "artist": "Jethro Tull",
-   "album": "Aqualung (Special Edition)",
-   "year": 1971,
-   "image": "https://i.scdn.co/image/ab67616d00001e028bc3269ba09264dcf9a5b924",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2738bc3269ba09264dcf9a5b924",
-   "url": "https://open.spotify.com/track/0MYNeFsKpzBHwrJGfWZysV",
-   "album_url": "https://open.spotify.com/album/0NGM3Ftwjw0dLNpAowmz3x",
-   "played_at": "2026-11-12T18:03:14.410Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10701,
+   "plays": 10703,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
@@ -571,7 +571,7 @@ window.LISTENING = {
   },
   {
    "name": "Van Halen",
-   "plays": 2051,
+   "plays": 2052,
    "url": "https://open.spotify.com/artist/2cnMpRsOVqtPMfq7YiFE6K",
    "image": "https://i.scdn.co/image/ab67616d00001e02b414c63fb435b622238c15ed"
   },
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28709,
+   "plays": 28712,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1003,7 +1003,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273c13acd642ba9f6f5f127aa1b",
      "url": "https://open.spotify.com/track/4yugZvBYaoREkJKtbG08Qr",
      "album_url": "https://open.spotify.com/album/51B7LbLWgYLKBVSpkan8Z7",
-     "plays": 504
+     "plays": 505
     },
     {
      "name": "Sweet Emotion",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9728,
+   "plays": 9729,
    "covers": [
     {
      "name": "Amazing",
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 12011,
+   "plays": 12012,
    "covers": [
     {
      "name": "Material Girl",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18658,
+   "plays": 18661,
    "covers": [
     {
      "name": "ERROR",
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Why a $2 Billion Law Firm Suddenly Collapsed",
+   "show": "Odd Lots",
+   "show_uri": "spotify:show:1te7oSFyRVekxMBJUSethH",
+   "release_date": "2026-11-13",
+   "duration_ms": 3480085,
+   "image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42",
+   "first_seen": "2026-11-13T12:40:02Z",
+   "progress_ms": 1139920,
+   "last_seen": "2026-11-13T15:10:03Z",
+   "url": "https://open.spotify.com/episode/3dQr0uDWQ6SMVCiYC9hd2B",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42"
+  },
+  {
    "name": "#2112 - Allah’s Futile Sword, Peptides, And How To Judge A Culture FT. Trevor Kruder | Part 2",
    "show": "The Adam and Dr. Drew Show",
    "show_uri": "spotify:show:3VN4vP6TztxK3wtT8b9aQL",
@@ -1541,19 +1554,6 @@ window.LISTENING = {
    "last_seen": "2026-11-13T12:40:04Z",
    "url": "https://open.spotify.com/episode/4hKd6RsNHJyvqAP6qk13ER",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
-  },
-  {
-   "name": "Why a $2 Billion Law Firm Suddenly Collapsed",
-   "show": "Odd Lots",
-   "show_uri": "spotify:show:1te7oSFyRVekxMBJUSethH",
-   "release_date": "2026-11-13",
-   "duration_ms": 3480085,
-   "image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42",
-   "first_seen": "2026-11-13T12:40:02Z",
-   "progress_ms": 325501,
-   "last_seen": "2026-11-13T12:40:02Z",
-   "url": "https://open.spotify.com/episode/3dQr0uDWQ6SMVCiYC9hd2B",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42"
   },
   {
    "name": "Iran war is over, says Trump, as US prises open Strait of Hormuz",
