@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-14T01:10:21Z",
+ "generated": "2026-11-14T01:40:07Z",
  "totals": {
   "plays": 125183,
   "hours": 8510.7,
@@ -1498,8 +1498,8 @@ window.LISTENING = {
    "duration_ms": 2933995,
    "image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b",
    "first_seen": "2026-11-13T13:40:02Z",
-   "progress_ms": 1898977,
-   "last_seen": "2026-11-14T01:10:13Z",
+   "progress_ms": 3139880,
+   "last_seen": "2026-11-14T01:40:04Z",
    "url": "https://open.spotify.com/episode/643LjrApuN7oCe7bVZpxNA",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
   },
@@ -1511,9 +1511,22 @@ window.LISTENING = {
    "duration_ms": 1574530,
    "image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97",
    "first_seen": "2026-11-14T00:40:02Z",
-   "progress_ms": 945441,
-   "last_seen": "2026-11-14T00:40:02Z",
+   "progress_ms": 1574530,
+   "last_seen": "2026-11-14T01:40:03Z",
    "url": "https://open.spotify.com/episode/73NgAP9nkm1eNIzEWZd3z5",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97"
+  },
+  {
+   "name": "Democrats Prepare for Leadership Battles in the House and Senate",
+   "show": "WSJ Opinion: Potomac Watch",
+   "show_uri": "spotify:show:4sMCRFb3B4g9Ax3lDCOOTX",
+   "release_date": "2026-11-13",
+   "duration_ms": 1658435,
+   "image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97",
+   "first_seen": "2026-11-14T01:40:03Z",
+   "progress_ms": 66371,
+   "last_seen": "2026-11-14T01:40:03Z",
+   "url": "https://open.spotify.com/episode/6xcb2YxhKxTYZMa5uhhQQS",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97"
   },
   {
@@ -1524,8 +1537,8 @@ window.LISTENING = {
    "duration_ms": 2722325,
    "image": "https://i.scdn.co/image/ab67656300005f1f8ae4474fe34975bc20f44176",
    "first_seen": "2026-11-13T23:40:02Z",
-   "progress_ms": 2020142,
-   "last_seen": "2026-11-14T00:10:02Z",
+   "progress_ms": 2801561,
+   "last_seen": "2026-11-14T01:40:02Z",
    "url": "https://open.spotify.com/episode/2PpDCf3VSbgaUgkWKLoygV",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
   },
@@ -1631,19 +1644,6 @@ window.LISTENING = {
    "progress_ms": 1662040,
    "last_seen": "2026-11-12T14:40:02Z",
    "url": "https://open.spotify.com/episode/2gKCLoXcScibtKcRG9b2Vi",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97"
-  },
-  {
-   "name": "What Can Congress Get Done in Its Lame-Duck Session?",
-   "show": "WSJ Opinion: Potomac Watch",
-   "show_uri": "spotify:show:4sMCRFb3B4g9Ax3lDCOOTX",
-   "release_date": "2026-11-09",
-   "duration_ms": 1589498,
-   "image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97",
-   "first_seen": "2026-11-12T14:40:02Z",
-   "progress_ms": 647504,
-   "last_seen": "2026-11-12T14:40:02Z",
-   "url": "https://open.spotify.com/episode/487iU7i1vLPupqTa1mCCDt",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97"
   }
  ],
