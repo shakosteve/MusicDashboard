@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-14T06:10:15Z",
+ "generated": "2026-11-14T12:40:05Z",
  "totals": {
   "plays": 125183,
   "hours": 8510.7,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Nvidia Explained: How It Became the World’s Most Powerful Company",
+   "show": "Intelligence Squared",
+   "show_uri": "spotify:show:7gnNY9Fy8QSRbjXZ00A9jW",
+   "release_date": "2026-11-13",
+   "duration_ms": 2922031,
+   "image": "https://i.scdn.co/image/ab67656300005f1f6fc573a55fca3e7ae5b0e957",
+   "first_seen": "2026-11-14T05:10:03Z",
+   "progress_ms": 1197651,
+   "last_seen": "2026-11-14T12:40:02Z",
+   "url": "https://open.spotify.com/episode/11IxJu3jMHIynQMXUq6FJc",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f4b328600f6be4cce175cc6b9"
+  },
+  {
    "name": "Godfather of AI Geoffrey Hinton: If superintelligence wants humanity gone, ‘we’re toast’",
    "show": "Firing Line with Margaret Hoover",
    "show_uri": "spotify:show:1uBimoCIw9AqeoN2RwlUBq",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-13T12:40:04Z",
    "url": "https://open.spotify.com/episode/4hKd6RsNHJyvqAP6qk13ER",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
-  },
-  {
-   "name": "Iran war is over, says Trump, as US prises open Strait of Hormuz",
-   "show": "Battle Lines",
-   "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
-   "release_date": "2026-11-10",
-   "duration_ms": 2569195,
-   "image": "https://i.scdn.co/image/ab67656300005f1fa6e1638ff4adcf163c930d3c",
-   "first_seen": "2026-11-12T14:40:02Z",
-   "progress_ms": 2617760,
-   "last_seen": "2026-11-12T14:40:02Z",
-   "url": "https://open.spotify.com/episode/4UXY7mgIs3yDaCVB41CONv",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
   }
  ],
  "top_shows": [
