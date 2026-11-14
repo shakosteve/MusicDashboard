@@ -1,14 +1,69 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-14T13:10:05Z",
+ "generated": "2026-11-14T13:40:06Z",
  "totals": {
-  "plays": 125183,
-  "hours": 8510.7,
+  "plays": 125188,
+  "hours": 8511.0,
   "artists": 702,
-  "albums": 1529,
+  "albums": 1530,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "End Of The Line",
+   "artist": "Traveling Wilburys",
+   "album": "The Traveling Wilburys, Vol. 1",
+   "year": 1988,
+   "image": "https://i.scdn.co/image/ab67616d00001e023689e500e90daf0c4e9cb37f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2733689e500e90daf0c4e9cb37f",
+   "url": "https://open.spotify.com/track/2cReSKmcyhe6lw8QSj5AYD",
+   "album_url": "https://open.spotify.com/album/4zcvamWINofMEwG74kvQl1",
+   "played_at": "2026-11-14T13:35:47.179Z"
+  },
+  {
+   "name": "Time in a Bottle",
+   "artist": "Jim Croce",
+   "album": "You Don't Mess Around With Jim",
+   "year": 1972,
+   "image": "https://i.scdn.co/image/ab67616d00001e025b7a6cabbcb9fe150966563c",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2735b7a6cabbcb9fe150966563c",
+   "url": "https://open.spotify.com/track/7uWFUpGuEfmxYeymkV95jn",
+   "album_url": "https://open.spotify.com/album/0dZaHQ0OJlIyVrEuvnXmS9",
+   "played_at": "2026-11-14T13:32:17.109Z"
+  },
+  {
+   "name": "HURT (feat. The Warning)",
+   "artist": "Dead Poet Society, The Warning",
+   "album": "HURT (feat. The Warning)",
+   "year": 2024,
+   "image": "https://i.scdn.co/image/ab67616d00001e02e2cfee8fb511b55245409602",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273e2cfee8fb511b55245409602",
+   "url": "https://open.spotify.com/track/0JKhtLEsm4Rij2HK6LyLYc",
+   "album_url": "https://open.spotify.com/album/32yohVX75sFAvzlL21f8n3",
+   "played_at": "2026-11-14T13:29:47.014Z"
+  },
+  {
+   "name": "Jungle Love",
+   "artist": "Steve Miller Band",
+   "album": "Book Of Dreams",
+   "year": 1977,
+   "image": "https://i.scdn.co/image/ab67616d00001e020d9826176c32372e81a8a6cf",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2730d9826176c32372e81a8a6cf",
+   "url": "https://open.spotify.com/track/1EuqRlDP9RuzeCRVcjr1PY",
+   "album_url": "https://open.spotify.com/album/36G9sqbDXXbE7Mv9GTDMXd",
+   "played_at": "2026-11-14T13:26:12.610Z"
+  },
+  {
+   "name": "Hangman Jury",
+   "artist": "Aerosmith",
+   "album": "Permanent Vacation",
+   "year": 1987,
+   "image": "https://i.scdn.co/image/ab67616d00001e02a8a965df6a845b265ee19106",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273a8a965df6a845b265ee19106",
+   "url": "https://open.spotify.com/track/05eJthbLhxvnWvB3XF9HaQ",
+   "album_url": "https://open.spotify.com/album/3XYqOJI1YlX40kJTdzFEzp",
+   "played_at": "2026-11-14T13:23:04.410Z"
+  },
   {
    "name": "Black Hole Sun",
    "artist": "Soundgarden",
@@ -481,61 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/3slE260q9d8ZtFefQZzdVl",
    "album_url": "https://open.spotify.com/album/6pqls6IegvNFLdrVbUinvl",
    "played_at": "2026-11-12T22:02:45.769Z"
-  },
-  {
-   "name": "Feels So Good",
-   "artist": "Chuck Mangione",
-   "album": "Feels So Good",
-   "year": 1977,
-   "image": "https://i.scdn.co/image/ab67616d00001e02e2c1f7c1ee0ee027f41178fd",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273e2c1f7c1ee0ee027f41178fd",
-   "url": "https://open.spotify.com/track/2M7EflZCPCqqRLB9hy5MDy",
-   "album_url": "https://open.spotify.com/album/5w0p1F0Q1wBqsX2UiX6CCD",
-   "played_at": "2026-11-12T21:54:28.386Z"
-  },
-  {
-   "name": "Borderline",
-   "artist": "Madonna",
-   "album": "Borderline",
-   "year": 1984,
-   "image": "https://i.scdn.co/image/ab67616d00001e02562ce96025289488ff8ba4b6",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273562ce96025289488ff8ba4b6",
-   "url": "https://open.spotify.com/track/4sfSGt1c19O2LI7lLn272S",
-   "album_url": "https://open.spotify.com/album/6cjHCJvAo9ohp6jsY8QcdQ",
-   "played_at": "2026-11-12T21:44:45.164Z"
-  },
-  {
-   "name": "Nobody's Fault but Mine - Remaster",
-   "artist": "Led Zeppelin",
-   "album": "Presence (Remaster)",
-   "year": 1976,
-   "image": "https://i.scdn.co/image/ab67616d00001e0227f6c518a8e36d45b5e7d95e",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27327f6c518a8e36d45b5e7d95e",
-   "url": "https://open.spotify.com/track/6unmtLYQ2LQ1Cg4IdAiU9g",
-   "album_url": "https://open.spotify.com/album/3uhD8hNpb0m3iIZ18RHH5u",
-   "played_at": "2026-11-12T21:40:46.261Z"
-  },
-  {
-   "name": "Rainbow in the Dark",
-   "artist": "Dio",
-   "album": "Holy Diver",
-   "year": 1983,
-   "image": "https://i.scdn.co/image/ab67616d00001e022457ab409ae106f8ae1dff89",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2732457ab409ae106f8ae1dff89",
-   "url": "https://open.spotify.com/track/2PpNgmrS9mAyrkRAwn6YPq",
-   "album_url": "https://open.spotify.com/album/2ivNJLSx8Rbvnsvcn01Yt3",
-   "played_at": "2026-11-12T21:34:17.715Z"
-  },
-  {
-   "name": "Son of a Preacher Man",
-   "artist": "Dusty Springfield",
-   "album": "Dusty In Memphis [Deluxe Edition]",
-   "year": 1969,
-   "image": "https://i.scdn.co/image/ab67616d00001e025aaa2395bb5c2016c1e2f6f0",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2735aaa2395bb5c2016c1e2f6f0",
-   "url": "https://open.spotify.com/track/7odHgoLFi3GQ90E9PeraI3",
-   "album_url": "https://open.spotify.com/album/6SNMenG3NjZyqgI5p4Hcmg",
-   "played_at": "2026-11-12T21:30:00.207Z"
   }
  ],
  "top_artists": [
@@ -553,7 +553,7 @@ window.LISTENING = {
   },
   {
    "name": "Aerosmith",
-   "plays": 2599,
+   "plays": 2600,
    "url": "https://open.spotify.com/artist/7Ey4PD4MYsKc5I2dolUwbH",
    "image": "https://i.scdn.co/image/ab67616d00001e02587b26d49596162397b29ec8"
   },
@@ -577,7 +577,7 @@ window.LISTENING = {
   },
   {
    "name": "Steve Miller Band",
-   "plays": 1960,
+   "plays": 1961,
    "url": "https://open.spotify.com/artist/6QtGlUje9TIkLrgPZrESuk",
    "image": "https://i.scdn.co/image/ab67616d00001e02632b907273dba6a6062fb780"
   },
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28715,
+   "plays": 28717,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32931,
+   "plays": 32933,
    "covers": [
     {
      "name": "Back In Black",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18663,
+   "plays": 18664,
    "covers": [
     {
      "name": "ERROR",
