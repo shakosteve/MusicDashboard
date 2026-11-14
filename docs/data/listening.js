@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-14T03:40:08Z",
+ "generated": "2026-11-14T04:10:07Z",
  "totals": {
   "plays": 125183,
   "hours": 8510.7,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Nvidia’s Hard Reset",
+   "show": "The Powers That Be: Daily",
+   "show_uri": "spotify:show:5ZChG4x3aogGtKGkxU6nMH",
+   "release_date": "2026-11-13",
+   "duration_ms": 1150955,
+   "image": "https://i.scdn.co/image/ab67656300005f1f36f39d45bf295cbf58d41331",
+   "first_seen": "2026-11-14T04:10:02Z",
+   "progress_ms": 773064,
+   "last_seen": "2026-11-14T04:10:02Z",
+   "url": "https://open.spotify.com/episode/0EbwsgzMKyTmJj2L8Ol00c",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f55386ae3fe554333e1a85785"
+  },
+  {
    "name": "Godfather of AI Geoffrey Hinton: If superintelligence wants humanity gone, ‘we’re toast’",
    "show": "Firing Line with Margaret Hoover",
    "show_uri": "spotify:show:1uBimoCIw9AqeoN2RwlUBq",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-12T14:40:02Z",
    "url": "https://open.spotify.com/episode/5gvB8QfCipWeY1vVjVnbWF",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
-  },
-  {
-   "name": "Pete Hegseth, 1; House Democrats, 0",
-   "show": "WSJ Opinion: Potomac Watch",
-   "show_uri": "spotify:show:4sMCRFb3B4g9Ax3lDCOOTX",
-   "release_date": "2026-11-11",
-   "duration_ms": 1933035,
-   "image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97",
-   "first_seen": "2026-11-12T14:40:02Z",
-   "progress_ms": 1933035,
-   "last_seen": "2026-11-12T14:40:02Z",
-   "url": "https://open.spotify.com/episode/5grH54Zhs1amhA4UQSQXBQ",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97"
   }
  ],
  "top_shows": [
