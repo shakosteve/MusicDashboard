@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-14T16:10:06Z",
+ "generated": "2026-11-14T16:40:06Z",
  "totals": {
-  "plays": 125192,
-  "hours": 8511.3,
+  "plays": 125193,
+  "hours": 8511.4,
   "artists": 702,
   "albums": 1530,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Fly Like An Eagle - Live",
+   "artist": "Steve Miller Band",
+   "album": "Live! Breaking Ground August 3, 1977",
+   "year": 2021,
+   "image": "https://i.scdn.co/image/ab67616d00001e02bb8183e59cd224aa51e51b0f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273bb8183e59cd224aa51e51b0f",
+   "url": "https://open.spotify.com/track/5ltZYU8LCCMZVU8CVTY2Jc",
+   "album_url": "https://open.spotify.com/album/1GYpibjfj4EFsTsTI1DDjh",
+   "played_at": "2026-11-14T16:39:13.279Z"
+  },
   {
    "name": "American Girl",
    "artist": "Tom Petty and the Heartbreakers",
@@ -525,17 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/5tVYmyLGmwJAdyXOGAKdHI",
    "album_url": "https://open.spotify.com/album/1LaeNhiUpL3X6N0LcFvuDF",
    "played_at": "2026-11-12T23:15:17.090Z"
-  },
-  {
-   "name": "Rock 'n' Roll Fantasy - 2019 Remaster",
-   "artist": "Bad Company",
-   "album": "Desolation Angels (40th Anniversary Edition) [2019 Remaster]",
-   "year": 1979,
-   "image": "https://i.scdn.co/image/ab67616d00001e025cb4078f7b509427aeca056a",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2735cb4078f7b509427aeca056a",
-   "url": "https://open.spotify.com/track/5smceVPFu5c15Y4ziUDdDP",
-   "album_url": "https://open.spotify.com/album/5mEItsmLNqRetWJftDpIv7",
-   "played_at": "2026-11-12T23:10:54.863Z"
   }
  ],
  "top_artists": [
@@ -577,7 +577,7 @@ window.LISTENING = {
   },
   {
    "name": "Steve Miller Band",
-   "plays": 1961,
+   "plays": 1962,
    "url": "https://open.spotify.com/artist/6QtGlUje9TIkLrgPZrESuk",
    "image": "https://i.scdn.co/image/ab67616d00001e02632b907273dba6a6062fb780"
   },
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18664,
+   "plays": 18665,
    "covers": [
     {
      "name": "ERROR",
@@ -1498,8 +1498,8 @@ window.LISTENING = {
    "duration_ms": 1909504,
    "image": "https://i.scdn.co/image/ab67656300005f1f6b0a4328c57a4cde02213e26",
    "first_seen": "2026-11-14T16:10:02Z",
-   "progress_ms": 1491587,
-   "last_seen": "2026-11-14T16:10:02Z",
+   "progress_ms": 1835963,
+   "last_seen": "2026-11-14T16:40:03Z",
    "url": "https://open.spotify.com/episode/15TzAxAHNTtcr1oRdRu3nl",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fab3cb125200d6c73efdfc670"
   },
