@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-14T16:40:06Z",
+ "generated": "2026-11-14T17:10:04Z",
  "totals": {
-  "plays": 125193,
-  "hours": 8511.4,
+  "plays": 125194,
+  "hours": 8511.5,
   "artists": 702,
   "albums": 1530,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Whole Lotta Love - Live",
+   "artist": "Jimmy Page, The Black Crowes",
+   "album": "Live at the Greek",
+   "year": 2025,
+   "image": "https://i.scdn.co/image/ab67616d00001e02fa6e624fbe4dbca748770195",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273fa6e624fbe4dbca748770195",
+   "url": "https://open.spotify.com/track/1NpILLKnL2kQYwb6bCtiPe",
+   "album_url": "https://open.spotify.com/album/27DJov9N9ian0RrcMO1Iak",
+   "played_at": "2026-11-14T16:45:04.297Z"
+  },
   {
    "name": "Fly Like An Eagle - Live",
    "artist": "Steve Miller Band",
@@ -525,17 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/0ToHhkK4qtwEyKOxhQpMbJ",
    "album_url": "https://open.spotify.com/album/5C1NUv7hNWS6n0GBtLetKM",
    "played_at": "2026-11-12T23:18:21.395Z"
-  },
-  {
-   "name": "Love Alive",
-   "artist": "Heart",
-   "album": "Little Queen",
-   "year": 1977,
-   "image": "https://i.scdn.co/image/ab67616d00001e0266e2e0df78c4ec35a8ed20a0",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27366e2e0df78c4ec35a8ed20a0",
-   "url": "https://open.spotify.com/track/5tVYmyLGmwJAdyXOGAKdHI",
-   "album_url": "https://open.spotify.com/album/1LaeNhiUpL3X6N0LcFvuDF",
-   "played_at": "2026-11-12T23:15:17.090Z"
   }
  ],
  "top_artists": [
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18665,
+   "plays": 18666,
    "covers": [
     {
      "name": "ERROR",
