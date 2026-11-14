@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-14T00:10:05Z",
+ "generated": "2026-11-14T00:40:06Z",
  "totals": {
   "plays": 125183,
   "hours": 8510.7,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "The Fall of Jensen Huang",
+   "show": "WSJ Opinion: Potomac Watch",
+   "show_uri": "spotify:show:4sMCRFb3B4g9Ax3lDCOOTX",
+   "release_date": "2026-11-12",
+   "duration_ms": 1574530,
+   "image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97",
+   "first_seen": "2026-11-14T00:40:02Z",
+   "progress_ms": 945441,
+   "last_seen": "2026-11-14T00:40:02Z",
+   "url": "https://open.spotify.com/episode/73NgAP9nkm1eNIzEWZd3z5",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97"
+  },
+  {
    "name": "How Iran’s constant Gulf strikes ended the US security umbrella",
    "show": "Iran: The Latest",
    "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-12T14:40:02Z",
    "url": "https://open.spotify.com/episode/487iU7i1vLPupqTa1mCCDt",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97"
-  },
-  {
-   "name": "This Is How New York City Takes Out Its Trash",
-   "show": "Odd Lots",
-   "show_uri": "spotify:show:1te7oSFyRVekxMBJUSethH",
-   "release_date": "2026-11-09",
-   "duration_ms": 3178109,
-   "image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42",
-   "first_seen": "2026-11-12T14:10:04Z",
-   "progress_ms": 3537680,
-   "last_seen": "2026-11-12T14:10:04Z",
-   "url": "https://open.spotify.com/episode/314E9oAUfN03OcQRa0CAWW",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42"
   }
  ],
  "top_shows": [
