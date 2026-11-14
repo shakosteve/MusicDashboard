@@ -1,14 +1,58 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-14T13:40:06Z",
+ "generated": "2026-11-14T14:10:06Z",
  "totals": {
-  "plays": 125188,
-  "hours": 8511.0,
+  "plays": 125192,
+  "hours": 8511.3,
   "artists": 702,
   "albums": 1530,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "American Girl",
+   "artist": "Tom Petty and the Heartbreakers",
+   "album": "Tom Petty And The Heartbreakers",
+   "year": 1976,
+   "image": "https://i.scdn.co/image/ab67616d00001e02d38733f240ef69763120a469",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273d38733f240ef69763120a469",
+   "url": "https://open.spotify.com/track/53LwBS4bovyljsMlLqGfd6",
+   "album_url": "https://open.spotify.com/album/0JBy4lxBlQIxMZ8qPMIJER",
+   "played_at": "2026-11-14T13:52:17.528Z"
+  },
+  {
+   "name": "Juke Box Hero",
+   "artist": "Foreigner",
+   "album": "4 (Expanded)",
+   "year": 1981,
+   "image": "https://i.scdn.co/image/ab67616d00001e023cd67ccf241ae843f6da62f3",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2733cd67ccf241ae843f6da62f3",
+   "url": "https://open.spotify.com/track/00qOE7OjRl0BpYiCiweZB2",
+   "album_url": "https://open.spotify.com/album/2Pw51hAGvWpTA3AYl2WVuu",
+   "played_at": "2026-11-14T13:48:42.318Z"
+  },
+  {
+   "name": "Point of Know Return",
+   "artist": "Kansas",
+   "album": "Point Of Know Return (Expanded Edition)",
+   "year": 1977,
+   "image": "https://i.scdn.co/image/ab67616d00001e0259f0f56a7cd13526b5b4204c",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27359f0f56a7cd13526b5b4204c",
+   "url": "https://open.spotify.com/track/0YoAVHXeEPPzZxK0xPQqYn",
+   "album_url": "https://open.spotify.com/album/6oU298pdPTCQnMx1PYwyUA",
+   "played_at": "2026-11-14T13:44:22.036Z"
+  },
+  {
+   "name": "Carry on Wayward Son",
+   "artist": "Kansas",
+   "album": "Leftoverture (Expanded Edition)",
+   "year": 1976,
+   "image": "https://i.scdn.co/image/ab67616d00001e021be40e44db112e123e5e8b51",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2731be40e44db112e123e5e8b51",
+   "url": "https://open.spotify.com/track/4DMKwE2E2iYDKY01C335Uw",
+   "album_url": "https://open.spotify.com/album/7MejfRSNnrpcLZIxkeZDqR",
+   "played_at": "2026-11-14T13:41:10.731Z"
+  },
   {
    "name": "End Of The Line",
    "artist": "Traveling Wilburys",
@@ -492,50 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/5smceVPFu5c15Y4ziUDdDP",
    "album_url": "https://open.spotify.com/album/5mEItsmLNqRetWJftDpIv7",
    "played_at": "2026-11-12T23:10:54.863Z"
-  },
-  {
-   "name": "18 and Life",
-   "artist": "Skid Row",
-   "album": "Skid Row",
-   "year": 1989,
-   "image": "https://i.scdn.co/image/ab67616d00001e02bb639863b7b716acf67bfa64",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273bb639863b7b716acf67bfa64",
-   "url": "https://open.spotify.com/track/3620P9KJS2PDebJ9ABFitc",
-   "album_url": "https://open.spotify.com/album/0L5J7BLU1AKDuSewTMpw7E",
-   "played_at": "2026-11-12T23:05:44.800Z"
-  },
-  {
-   "name": "Don't Stand So Close To Me",
-   "artist": "The Police",
-   "album": "Zenyatta Mondatta (Remastered 2003)",
-   "year": 1980,
-   "image": "https://i.scdn.co/image/ab67616d00001e02fb1bc65edf4717e75fbc70ab",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273fb1bc65edf4717e75fbc70ab",
-   "url": "https://open.spotify.com/track/5veJDT0MLsLbhYsx42GXUD",
-   "album_url": "https://open.spotify.com/album/23enz9nXJhH1BR1Rm5CzDJ",
-   "played_at": "2026-11-12T22:50:32.435Z"
-  },
-  {
-   "name": "What Good's A Rock Without A Roll?",
-   "artist": "Black Spiders",
-   "album": "Sons Of The North",
-   "year": 2011,
-   "image": "https://i.scdn.co/image/ab67616d00001e026724fae9bc203a9d4defd736",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2736724fae9bc203a9d4defd736",
-   "url": "https://open.spotify.com/track/0FrhD37RheksdxcDi4tgx3",
-   "album_url": "https://open.spotify.com/album/7KDzhHeTeAjmBFO3ixlMGm",
-   "played_at": "2026-11-12T22:46:29.345Z"
-  },
-  {
-   "name": "Ego",
-   "artist": "The Warning",
-   "album": "Ego",
-   "year": 2026,
-   "image": "https://i.scdn.co/image/ab67616d00001e02b40751b4dd6ce5991c794926",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273b40751b4dd6ce5991c794926",
-   "url": "https://open.spotify.com/track/3slE260q9d8ZtFefQZzdVl",
-   "album_url": "https://open.spotify.com/album/6pqls6IegvNFLdrVbUinvl",
-   "played_at": "2026-11-12T22:02:45.769Z"
   }
  ],
  "top_artists": [
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28717,
+   "plays": 28720,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32933,
+   "plays": 32934,
    "covers": [
     {
      "name": "Back In Black",
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "How Wall Street Is Bracing For the Post-Jensen Huang Nvidia Era",
+   "show": "Odd Lots",
+   "show_uri": "spotify:show:1te7oSFyRVekxMBJUSethH",
+   "release_date": "2026-11-14",
+   "duration_ms": 2134178,
+   "image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42",
+   "first_seen": "2026-11-14T14:10:02Z",
+   "progress_ms": 691323,
+   "last_seen": "2026-11-14T14:10:02Z",
+   "url": "https://open.spotify.com/episode/3CGjR9SUyLrvXFZ54Zz348",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42"
+  },
+  {
    "name": "Nvidia Explained: How It Became the World’s Most Powerful Company",
    "show": "Intelligence Squared",
    "show_uri": "spotify:show:7gnNY9Fy8QSRbjXZ00A9jW",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-13T13:10:03Z",
    "url": "https://open.spotify.com/episode/2Wi7aLnaxO9omckjmTYpTC",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
-  },
-  {
-   "name": "Jaleel White Talks Hollywood, Bill Cosby, Money",
-   "show": "Adam Carolla Show",
-   "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
-   "release_date": "2026-11-12",
-   "duration_ms": 6295327,
-   "image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f",
-   "first_seen": "2026-11-13T01:10:02Z",
-   "progress_ms": 6323445,
-   "last_seen": "2026-11-13T12:40:04Z",
-   "url": "https://open.spotify.com/episode/4hKd6RsNHJyvqAP6qk13ER",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
   }
  ],
  "top_shows": [
