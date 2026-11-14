@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-14T15:10:05Z",
+ "generated": "2026-11-14T15:40:05Z",
  "totals": {
   "plays": 125192,
   "hours": 8511.3,
@@ -1491,6 +1491,32 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Nvidia Explained: How It Became the World’s Most Powerful Company",
+   "show": "Intelligence Squared",
+   "show_uri": "spotify:show:7gnNY9Fy8QSRbjXZ00A9jW",
+   "release_date": "2026-11-13",
+   "duration_ms": 2922031,
+   "image": "https://i.scdn.co/image/ab67656300005f1f6fc573a55fca3e7ae5b0e957",
+   "first_seen": "2026-11-14T05:10:03Z",
+   "progress_ms": 2922031,
+   "last_seen": "2026-11-14T15:40:02Z",
+   "url": "https://open.spotify.com/episode/11IxJu3jMHIynQMXUq6FJc",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f4b328600f6be4cce175cc6b9"
+  },
+  {
+   "name": "US flight disruptions continue",
+   "show": "Newshour",
+   "show_uri": "spotify:show:5qbXje6KaVOHwjsHNTELjA",
+   "release_date": "2026-11-14",
+   "duration_ms": 2269022,
+   "image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46",
+   "first_seen": "2026-11-14T15:40:02Z",
+   "progress_ms": 307335,
+   "last_seen": "2026-11-14T15:40:02Z",
+   "url": "https://open.spotify.com/episode/3kdpbnvVWQXATqfyqLJnC1",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46"
+  },
+  {
    "name": "Nvidia's CEO Jensen Huang Quits",
    "show": "Newshour",
    "show_uri": "spotify:show:5qbXje6KaVOHwjsHNTELjA",
@@ -1515,19 +1541,6 @@ window.LISTENING = {
    "last_seen": "2026-11-14T14:40:02Z",
    "url": "https://open.spotify.com/episode/3CGjR9SUyLrvXFZ54Zz348",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42"
-  },
-  {
-   "name": "Nvidia Explained: How It Became the World’s Most Powerful Company",
-   "show": "Intelligence Squared",
-   "show_uri": "spotify:show:7gnNY9Fy8QSRbjXZ00A9jW",
-   "release_date": "2026-11-13",
-   "duration_ms": 2922031,
-   "image": "https://i.scdn.co/image/ab67656300005f1f6fc573a55fca3e7ae5b0e957",
-   "first_seen": "2026-11-14T05:10:03Z",
-   "progress_ms": 2854181,
-   "last_seen": "2026-11-14T13:10:02Z",
-   "url": "https://open.spotify.com/episode/11IxJu3jMHIynQMXUq6FJc",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f4b328600f6be4cce175cc6b9"
   },
   {
    "name": "Godfather of AI Geoffrey Hinton: If superintelligence wants humanity gone, ‘we’re toast’",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-13T15:40:03Z",
    "url": "https://open.spotify.com/episode/3nSv8JVZacqDivkid7zpFI",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
-  },
-  {
-   "name": "Why a $2 Billion Law Firm Suddenly Collapsed",
-   "show": "Odd Lots",
-   "show_uri": "spotify:show:1te7oSFyRVekxMBJUSethH",
-   "release_date": "2026-11-13",
-   "duration_ms": 3480085,
-   "image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42",
-   "first_seen": "2026-11-13T12:40:02Z",
-   "progress_ms": 1139920,
-   "last_seen": "2026-11-13T15:10:03Z",
-   "url": "https://open.spotify.com/episode/3dQr0uDWQ6SMVCiYC9hd2B",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42"
   }
  ],
  "top_shows": [
