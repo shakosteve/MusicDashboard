@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-14T22:10:05Z",
+ "generated": "2026-11-14T22:40:06Z",
  "totals": {
   "plays": 125196,
   "hours": 8511.7,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "US flight disruptions continue",
+   "show": "Newshour",
+   "show_uri": "spotify:show:5qbXje6KaVOHwjsHNTELjA",
+   "release_date": "2026-11-14",
+   "duration_ms": 2269022,
+   "image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46",
+   "first_seen": "2026-11-14T15:40:02Z",
+   "progress_ms": 1690392,
+   "last_seen": "2026-11-14T22:40:02Z",
+   "url": "https://open.spotify.com/episode/3kdpbnvVWQXATqfyqLJnC1",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46"
+  },
+  {
    "name": "Iran bombs Oman & why Tehran's impossible demands mean endless war",
    "show": "Iran: The Latest",
    "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
@@ -1527,19 +1540,6 @@ window.LISTENING = {
    "progress_ms": 857918,
    "last_seen": "2026-11-14T17:40:02Z",
    "url": "https://open.spotify.com/episode/2sOnm2vsjiMYqrVkWemk87",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46"
-  },
-  {
-   "name": "US flight disruptions continue",
-   "show": "Newshour",
-   "show_uri": "spotify:show:5qbXje6KaVOHwjsHNTELjA",
-   "release_date": "2026-11-14",
-   "duration_ms": 2269022,
-   "image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46",
-   "first_seen": "2026-11-14T15:40:02Z",
-   "progress_ms": 562392,
-   "last_seen": "2026-11-14T17:40:02Z",
-   "url": "https://open.spotify.com/episode/3kdpbnvVWQXATqfyqLJnC1",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46"
   },
   {
