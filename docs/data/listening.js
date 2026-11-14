@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-14T04:10:07Z",
+ "generated": "2026-11-14T04:40:05Z",
  "totals": {
   "plays": 125183,
   "hours": 8510.7,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "176. Touch Flesh First : Rings of Power – Season 3, Episode 1",
+   "show": "Exploring Tolkien",
+   "show_uri": "spotify:show:053v5PsgtE8TmMiXXAyThG",
+   "release_date": "2026-11-13",
+   "duration_ms": 2534282,
+   "image": "https://i.scdn.co/image/ab67656300005f1f26baf1b67c7bd97abb8d35ff",
+   "first_seen": "2026-11-14T04:40:02Z",
+   "progress_ms": 1290562,
+   "last_seen": "2026-11-14T04:40:02Z",
+   "url": "https://open.spotify.com/episode/3OvqTVeVTJDRcQN2KqhJja",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f437d42fd22f6b88af853b190"
+  },
+  {
    "name": "Nvidia’s Hard Reset",
    "show": "The Powers That Be: Daily",
    "show_uri": "spotify:show:5ZChG4x3aogGtKGkxU6nMH",
@@ -1631,19 +1644,6 @@ window.LISTENING = {
    "progress_ms": 2617760,
    "last_seen": "2026-11-12T14:40:02Z",
    "url": "https://open.spotify.com/episode/4UXY7mgIs3yDaCVB41CONv",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
-  },
-  {
-   "name": "US blockades Iran’s borders as China and Russia rearm Tehran",
-   "show": "Battle Lines",
-   "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
-   "release_date": "2026-11-09",
-   "duration_ms": 2420845,
-   "image": "https://i.scdn.co/image/ab67656300005f1fa3c62395e8593828c78e215d",
-   "first_seen": "2026-11-12T14:40:02Z",
-   "progress_ms": 2558789,
-   "last_seen": "2026-11-12T14:40:02Z",
-   "url": "https://open.spotify.com/episode/5gvB8QfCipWeY1vVjVnbWF",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
   }
  ],
