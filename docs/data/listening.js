@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-14T01:40:07Z",
+ "generated": "2026-11-14T03:10:06Z",
  "totals": {
   "plays": 125183,
   "hours": 8510.7,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Godfather of AI Geoffrey Hinton: If superintelligence wants humanity gone, ‘we’re toast’",
+   "show": "Firing Line with Margaret Hoover",
+   "show_uri": "spotify:show:1uBimoCIw9AqeoN2RwlUBq",
+   "release_date": "2026-11-14",
+   "duration_ms": 2854536,
+   "image": "https://i.scdn.co/image/ab67656300005f1f836e33e0257047ce378ffcd1",
+   "first_seen": "2026-11-14T03:10:02Z",
+   "progress_ms": 482411,
+   "last_seen": "2026-11-14T03:10:02Z",
+   "url": "https://open.spotify.com/episode/0JIJyrZ8viGbwTrnSomSnH",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f836e33e0257047ce378ffcd1"
+  },
+  {
    "name": "#2112 - Allah’s Futile Sword, Peptides, And How To Judge A Culture FT. Trevor Kruder | Part 2",
    "show": "The Adam and Dr. Drew Show",
    "show_uri": "spotify:show:3VN4vP6TztxK3wtT8b9aQL",
@@ -1631,19 +1644,6 @@ window.LISTENING = {
    "progress_ms": 1933035,
    "last_seen": "2026-11-12T14:40:02Z",
    "url": "https://open.spotify.com/episode/5grH54Zhs1amhA4UQSQXBQ",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97"
-  },
-  {
-   "name": "Jim Jordan Is the House GOP’s Next Leader / California’s Wealth Tax Fails, for Now",
-   "show": "WSJ Opinion: Potomac Watch",
-   "show_uri": "spotify:show:4sMCRFb3B4g9Ax3lDCOOTX",
-   "release_date": "2026-11-10",
-   "duration_ms": 1662040,
-   "image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97",
-   "first_seen": "2026-11-12T14:40:02Z",
-   "progress_ms": 1662040,
-   "last_seen": "2026-11-12T14:40:02Z",
-   "url": "https://open.spotify.com/episode/2gKCLoXcScibtKcRG9b2Vi",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97"
   }
  ],
