@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-14T00:40:06Z",
+ "generated": "2026-11-14T01:10:21Z",
  "totals": {
   "plays": 125183,
   "hours": 8510.7,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "#2112 - Allah’s Futile Sword, Peptides, And How To Judge A Culture FT. Trevor Kruder | Part 2",
+   "show": "The Adam and Dr. Drew Show",
+   "show_uri": "spotify:show:3VN4vP6TztxK3wtT8b9aQL",
+   "release_date": "2026-11-13",
+   "duration_ms": 2933995,
+   "image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b",
+   "first_seen": "2026-11-13T13:40:02Z",
+   "progress_ms": 1898977,
+   "last_seen": "2026-11-14T01:10:13Z",
+   "url": "https://open.spotify.com/episode/643LjrApuN7oCe7bVZpxNA",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
+  },
+  {
    "name": "The Fall of Jensen Huang",
    "show": "WSJ Opinion: Potomac Watch",
    "show_uri": "spotify:show:4sMCRFb3B4g9Ax3lDCOOTX",
@@ -1527,19 +1540,6 @@ window.LISTENING = {
    "progress_ms": 2217280,
    "last_seen": "2026-11-13T15:40:03Z",
    "url": "https://open.spotify.com/episode/3nSv8JVZacqDivkid7zpFI",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
-  },
-  {
-   "name": "#2112 - Allah’s Futile Sword, Peptides, And How To Judge A Culture FT. Trevor Kruder | Part 2",
-   "show": "The Adam and Dr. Drew Show",
-   "show_uri": "spotify:show:3VN4vP6TztxK3wtT8b9aQL",
-   "release_date": "2026-11-13",
-   "duration_ms": 2933995,
-   "image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b",
-   "first_seen": "2026-11-13T13:40:02Z",
-   "progress_ms": 1105840,
-   "last_seen": "2026-11-13T15:40:03Z",
-   "url": "https://open.spotify.com/episode/643LjrApuN7oCe7bVZpxNA",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
   },
   {
