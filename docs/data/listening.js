@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-14T17:10:04Z",
+ "generated": "2026-11-14T17:40:05Z",
  "totals": {
   "plays": 125194,
   "hours": 8511.5,
@@ -1491,6 +1491,32 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Nvidia's CEO Jensen Huang Quits",
+   "show": "Newshour",
+   "show_uri": "spotify:show:5qbXje6KaVOHwjsHNTELjA",
+   "release_date": "2026-11-12",
+   "duration_ms": 2849933,
+   "image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46",
+   "first_seen": "2026-11-14T15:10:02Z",
+   "progress_ms": 857918,
+   "last_seen": "2026-11-14T17:40:02Z",
+   "url": "https://open.spotify.com/episode/2sOnm2vsjiMYqrVkWemk87",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46"
+  },
+  {
+   "name": "US flight disruptions continue",
+   "show": "Newshour",
+   "show_uri": "spotify:show:5qbXje6KaVOHwjsHNTELjA",
+   "release_date": "2026-11-14",
+   "duration_ms": 2269022,
+   "image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46",
+   "first_seen": "2026-11-14T15:40:02Z",
+   "progress_ms": 562392,
+   "last_seen": "2026-11-14T17:40:02Z",
+   "url": "https://open.spotify.com/episode/3kdpbnvVWQXATqfyqLJnC1",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46"
+  },
+  {
    "name": "Ukraine Frontline Analyst: Russia’s Army Is Being Torn Apart - And It Keeps Getting Worse",
    "show": "Decoding Geopolitics Podcast with Dominik Presl",
    "show_uri": "spotify:show:4280ZedhnCYLFurjyzjmco",
@@ -1515,32 +1541,6 @@ window.LISTENING = {
    "last_seen": "2026-11-14T15:40:02Z",
    "url": "https://open.spotify.com/episode/11IxJu3jMHIynQMXUq6FJc",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f4b328600f6be4cce175cc6b9"
-  },
-  {
-   "name": "US flight disruptions continue",
-   "show": "Newshour",
-   "show_uri": "spotify:show:5qbXje6KaVOHwjsHNTELjA",
-   "release_date": "2026-11-14",
-   "duration_ms": 2269022,
-   "image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46",
-   "first_seen": "2026-11-14T15:40:02Z",
-   "progress_ms": 307335,
-   "last_seen": "2026-11-14T15:40:02Z",
-   "url": "https://open.spotify.com/episode/3kdpbnvVWQXATqfyqLJnC1",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46"
-  },
-  {
-   "name": "Nvidia's CEO Jensen Huang Quits",
-   "show": "Newshour",
-   "show_uri": "spotify:show:5qbXje6KaVOHwjsHNTELjA",
-   "release_date": "2026-11-12",
-   "duration_ms": 2849933,
-   "image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46",
-   "first_seen": "2026-11-14T15:10:02Z",
-   "progress_ms": 833057,
-   "last_seen": "2026-11-14T15:10:02Z",
-   "url": "https://open.spotify.com/episode/2sOnm2vsjiMYqrVkWemk87",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46"
   },
   {
    "name": "How Wall Street Is Bracing For the Post-Jensen Huang Nvidia Era",
