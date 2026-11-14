@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-14T17:40:05Z",
+ "generated": "2026-11-14T21:10:06Z",
  "totals": {
-  "plays": 125194,
-  "hours": 8511.5,
+  "plays": 125196,
+  "hours": 8511.7,
   "artists": 702,
   "albums": 1530,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Sober",
+   "artist": "TOOL",
+   "album": "Undertow",
+   "year": 1993,
+   "image": "https://i.scdn.co/image/ab67616d00001e02fd1602df46ac56e2f5260ec0",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273fd1602df46ac56e2f5260ec0",
+   "url": "https://open.spotify.com/track/6DyywdbmTzlmXBzG9ym7Rt",
+   "album_url": "https://open.spotify.com/album/3Esn6LoXuWtLZNYq8FCzr0",
+   "played_at": "2026-11-14T20:57:25.120Z"
+  },
   {
    "name": "Whole Lotta Love - Live",
    "artist": "Jimmy Page, The Black Crowes",
@@ -525,17 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/3haZcHm3HydDVxm3je3Zmg",
    "album_url": "https://open.spotify.com/album/13f845bYjx8MUVF2bl1uJ0",
    "played_at": "2026-11-12T23:21:11.206Z"
-  },
-  {
-   "name": "Ohio",
-   "artist": "Crosby, Stills, Nash & Young",
-   "album": "So Far",
-   "year": 1974,
-   "image": "https://i.scdn.co/image/ab67616d00001e026ae632b15daa8ac05ed90f28",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2736ae632b15daa8ac05ed90f28",
-   "url": "https://open.spotify.com/track/0ToHhkK4qtwEyKOxhQpMbJ",
-   "album_url": "https://open.spotify.com/album/5C1NUv7hNWS6n0GBtLetKM",
-   "played_at": "2026-11-12T23:18:21.395Z"
   }
  ],
  "top_artists": [
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9731,
+   "plays": 9733,
    "covers": [
     {
      "name": "Amazing",
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "I'll Have Another: The Perfect Tomahawk Steak",
+   "show": "Kennedy Saves the World",
+   "show_uri": "spotify:show:5DEwjZIkxrUhkM1nlqLagd",
+   "release_date": "2026-11-13",
+   "duration_ms": 1665770,
+   "image": "https://i.scdn.co/image/ab67656300005f1fc306eb9be2f4da68a4f7f2be",
+   "first_seen": "2026-11-14T21:10:02Z",
+   "progress_ms": 239902,
+   "last_seen": "2026-11-14T21:10:02Z",
+   "url": "https://open.spotify.com/episode/6di2r85MwHotZG8tMAGr1p",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fc306eb9be2f4da68a4f7f2be"
+  },
+  {
    "name": "Nvidia's CEO Jensen Huang Quits",
    "show": "Newshour",
    "show_uri": "spotify:show:5qbXje6KaVOHwjsHNTELjA",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-14T01:40:03Z",
    "url": "https://open.spotify.com/episode/6xcb2YxhKxTYZMa5uhhQQS",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97"
-  },
-  {
-   "name": "How Iran’s constant Gulf strikes ended the US security umbrella",
-   "show": "Iran: The Latest",
-   "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
-   "release_date": "2026-11-13",
-   "duration_ms": 2722325,
-   "image": "https://i.scdn.co/image/ab67656300005f1f8ae4474fe34975bc20f44176",
-   "first_seen": "2026-11-13T23:40:02Z",
-   "progress_ms": 2801561,
-   "last_seen": "2026-11-14T01:40:02Z",
-   "url": "https://open.spotify.com/episode/2PpDCf3VSbgaUgkWKLoygV",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
   }
  ],
  "top_shows": [
