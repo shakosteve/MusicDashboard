@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-14T15:40:05Z",
+ "generated": "2026-11-14T16:10:06Z",
  "totals": {
   "plays": 125192,
   "hours": 8511.3,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Ukraine Frontline Analyst: Russia’s Army Is Being Torn Apart - And It Keeps Getting Worse",
+   "show": "Decoding Geopolitics Podcast with Dominik Presl",
+   "show_uri": "spotify:show:4280ZedhnCYLFurjyzjmco",
+   "release_date": "2026-11-14",
+   "duration_ms": 1909504,
+   "image": "https://i.scdn.co/image/ab67656300005f1f6b0a4328c57a4cde02213e26",
+   "first_seen": "2026-11-14T16:10:02Z",
+   "progress_ms": 1491587,
+   "last_seen": "2026-11-14T16:10:02Z",
+   "url": "https://open.spotify.com/episode/15TzAxAHNTtcr1oRdRu3nl",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fab3cb125200d6c73efdfc670"
+  },
+  {
    "name": "Nvidia Explained: How It Became the World’s Most Powerful Company",
    "show": "Intelligence Squared",
    "show_uri": "spotify:show:7gnNY9Fy8QSRbjXZ00A9jW",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-14T01:40:02Z",
    "url": "https://open.spotify.com/episode/2PpDCf3VSbgaUgkWKLoygV",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
-  },
-  {
-   "name": "#2112 - Allah’s Futile Sword, Peptides, And How To Judge A Culture FT. Trevor Kruder | Part 1",
-   "show": "The Adam and Dr. Drew Show",
-   "show_uri": "spotify:show:3VN4vP6TztxK3wtT8b9aQL",
-   "release_date": "2026-11-11",
-   "duration_ms": 3227742,
-   "image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b",
-   "first_seen": "2026-11-13T13:10:02Z",
-   "progress_ms": 2217280,
-   "last_seen": "2026-11-13T15:40:03Z",
-   "url": "https://open.spotify.com/episode/3nSv8JVZacqDivkid7zpFI",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
   }
  ],
  "top_shows": [
