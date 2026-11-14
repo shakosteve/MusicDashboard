@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-14T05:40:06Z",
+ "generated": "2026-11-14T06:10:15Z",
  "totals": {
   "plays": 125183,
   "hours": 8510.7,
@@ -1491,6 +1491,32 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Godfather of AI Geoffrey Hinton: If superintelligence wants humanity gone, ‘we’re toast’",
+   "show": "Firing Line with Margaret Hoover",
+   "show_uri": "spotify:show:1uBimoCIw9AqeoN2RwlUBq",
+   "release_date": "2026-11-14",
+   "duration_ms": 2854536,
+   "image": "https://i.scdn.co/image/ab67656300005f1f836e33e0257047ce378ffcd1",
+   "first_seen": "2026-11-14T03:10:02Z",
+   "progress_ms": 2854536,
+   "last_seen": "2026-11-14T06:10:02Z",
+   "url": "https://open.spotify.com/episode/0JIJyrZ8viGbwTrnSomSnH",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f836e33e0257047ce378ffcd1"
+  },
+  {
+   "name": "Nvidia’s Hard Reset",
+   "show": "The Powers That Be: Daily",
+   "show_uri": "spotify:show:5ZChG4x3aogGtKGkxU6nMH",
+   "release_date": "2026-11-13",
+   "duration_ms": 1150955,
+   "image": "https://i.scdn.co/image/ab67656300005f1f36f39d45bf295cbf58d41331",
+   "first_seen": "2026-11-14T04:10:02Z",
+   "progress_ms": 1262560,
+   "last_seen": "2026-11-14T06:10:02Z",
+   "url": "https://open.spotify.com/episode/0EbwsgzMKyTmJj2L8Ol00c",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f55386ae3fe554333e1a85785"
+  },
+  {
    "name": "176. Touch Flesh First : Rings of Power – Season 3, Episode 1",
    "show": "Exploring Tolkien",
    "show_uri": "spotify:show:053v5PsgtE8TmMiXXAyThG",
@@ -1502,32 +1528,6 @@ window.LISTENING = {
    "last_seen": "2026-11-14T05:40:02Z",
    "url": "https://open.spotify.com/episode/3OvqTVeVTJDRcQN2KqhJja",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f437d42fd22f6b88af853b190"
-  },
-  {
-   "name": "Nvidia’s Hard Reset",
-   "show": "The Powers That Be: Daily",
-   "show_uri": "spotify:show:5ZChG4x3aogGtKGkxU6nMH",
-   "release_date": "2026-11-13",
-   "duration_ms": 1150955,
-   "image": "https://i.scdn.co/image/ab67656300005f1f36f39d45bf295cbf58d41331",
-   "first_seen": "2026-11-14T04:10:02Z",
-   "progress_ms": 773064,
-   "last_seen": "2026-11-14T04:10:02Z",
-   "url": "https://open.spotify.com/episode/0EbwsgzMKyTmJj2L8Ol00c",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f55386ae3fe554333e1a85785"
-  },
-  {
-   "name": "Godfather of AI Geoffrey Hinton: If superintelligence wants humanity gone, ‘we’re toast’",
-   "show": "Firing Line with Margaret Hoover",
-   "show_uri": "spotify:show:1uBimoCIw9AqeoN2RwlUBq",
-   "release_date": "2026-11-14",
-   "duration_ms": 2854536,
-   "image": "https://i.scdn.co/image/ab67656300005f1f836e33e0257047ce378ffcd1",
-   "first_seen": "2026-11-14T03:10:02Z",
-   "progress_ms": 2283225,
-   "last_seen": "2026-11-14T03:40:03Z",
-   "url": "https://open.spotify.com/episode/0JIJyrZ8viGbwTrnSomSnH",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f836e33e0257047ce378ffcd1"
   },
   {
    "name": "#2112 - Allah’s Futile Sword, Peptides, And How To Judge A Culture FT. Trevor Kruder | Part 2",
