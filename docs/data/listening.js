@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-14T14:40:06Z",
+ "generated": "2026-11-14T15:10:05Z",
  "totals": {
   "plays": 125192,
   "hours": 8511.3,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Nvidia's CEO Jensen Huang Quits",
+   "show": "Newshour",
+   "show_uri": "spotify:show:5qbXje6KaVOHwjsHNTELjA",
+   "release_date": "2026-11-12",
+   "duration_ms": 2849933,
+   "image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46",
+   "first_seen": "2026-11-14T15:10:02Z",
+   "progress_ms": 833057,
+   "last_seen": "2026-11-14T15:10:02Z",
+   "url": "https://open.spotify.com/episode/2sOnm2vsjiMYqrVkWemk87",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46"
+  },
+  {
    "name": "How Wall Street Is Bracing For the Post-Jensen Huang Nvidia Era",
    "show": "Odd Lots",
    "show_uri": "spotify:show:1te7oSFyRVekxMBJUSethH",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-13T15:10:03Z",
    "url": "https://open.spotify.com/episode/3dQr0uDWQ6SMVCiYC9hd2B",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42"
-  },
-  {
-   "name": "#1222 Narcissism Is Where Envy Gets Acted Out",
-   "show": "The Adam and Dr. Drew Show",
-   "show_uri": "spotify:show:3VN4vP6TztxK3wtT8b9aQL",
-   "release_date": "2026-11-12",
-   "duration_ms": 2094498,
-   "image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b",
-   "first_seen": "2026-11-13T13:10:03Z",
-   "progress_ms": 81520,
-   "last_seen": "2026-11-13T13:10:03Z",
-   "url": "https://open.spotify.com/episode/2Wi7aLnaxO9omckjmTYpTC",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
   }
  ],
  "top_shows": [
