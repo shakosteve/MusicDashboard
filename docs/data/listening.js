@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-15T01:10:05Z",
+ "generated": "2026-11-15T14:10:06Z",
  "totals": {
   "plays": 125196,
   "hours": 8511.7,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "In Moscow's Shadows 271: Is 2027 the year the Ukraine war ends?",
+   "show": "In Moscow's Shadows",
+   "show_uri": "spotify:show:1NKCazxYstY6o8vhpGQSjF",
+   "release_date": "2026-11-15",
+   "duration_ms": 2829487,
+   "image": "https://i.scdn.co/image/ab67656300005f1fd2dd1e74bffcd7cabc91a62c",
+   "first_seen": "2026-11-15T14:10:02Z",
+   "progress_ms": 898027,
+   "last_seen": "2026-11-15T14:10:02Z",
+   "url": "https://open.spotify.com/episode/63Fxk8bEziXrmJdOSREmWK",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fd2dd1e74bffcd7cabc91a62c"
+  },
+  {
    "name": "US flight disruptions continue",
    "show": "Newshour",
    "show_uri": "spotify:show:5qbXje6KaVOHwjsHNTELjA",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-14T05:40:02Z",
    "url": "https://open.spotify.com/episode/3OvqTVeVTJDRcQN2KqhJja",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f437d42fd22f6b88af853b190"
-  },
-  {
-   "name": "#2112 - Allah’s Futile Sword, Peptides, And How To Judge A Culture FT. Trevor Kruder | Part 2",
-   "show": "The Adam and Dr. Drew Show",
-   "show_uri": "spotify:show:3VN4vP6TztxK3wtT8b9aQL",
-   "release_date": "2026-11-13",
-   "duration_ms": 2933995,
-   "image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b",
-   "first_seen": "2026-11-13T13:40:02Z",
-   "progress_ms": 3139880,
-   "last_seen": "2026-11-14T01:40:04Z",
-   "url": "https://open.spotify.com/episode/643LjrApuN7oCe7bVZpxNA",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
   }
  ],
  "top_shows": [
