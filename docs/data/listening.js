@@ -1,14 +1,36 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-15T23:10:07Z",
+ "generated": "2026-11-15T23:40:05Z",
  "totals": {
-  "plays": 125225,
-  "hours": 8513.7,
+  "plays": 125227,
+  "hours": 8513.8,
   "artists": 702,
   "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Crazy Little Thing Called Love",
+   "artist": "Queen",
+   "album": "The Game",
+   "year": 1980,
+   "image": "https://i.scdn.co/image/ab67616d00001e02a4e6eac83c0fe38bf682f643",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273a4e6eac83c0fe38bf682f643",
+   "url": "https://open.spotify.com/track/7uON6DWIjXgmLQIfGsWXpV",
+   "album_url": "https://open.spotify.com/album/6l8tOdUItDC01Qmb91Lo8W",
+   "played_at": "2026-11-15T23:12:41.468Z"
+  },
+  {
+   "name": "Ohio",
+   "artist": "Crosby, Stills, Nash & Young",
+   "album": "So Far",
+   "year": 1974,
+   "image": "https://i.scdn.co/image/ab67616d00001e026ae632b15daa8ac05ed90f28",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2736ae632b15daa8ac05ed90f28",
+   "url": "https://open.spotify.com/track/0ToHhkK4qtwEyKOxhQpMbJ",
+   "album_url": "https://open.spotify.com/album/5C1NUv7hNWS6n0GBtLetKM",
+   "played_at": "2026-11-15T23:09:52.970Z"
+  },
   {
    "name": "Jolene",
    "artist": "Dolly Parton",
@@ -514,28 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/0UOxp1BpnD8uPQMKU4wKjz",
    "album_url": "https://open.spotify.com/album/408nODJ1r3nO7f3qWkCrCB",
    "played_at": "2026-11-13T15:28:59.869Z"
-  },
-  {
-   "name": "Jump - 2015 Remaster",
-   "artist": "Van Halen",
-   "album": "1984 (Remastered)",
-   "year": 1984,
-   "image": "https://i.scdn.co/image/ab67616d00001e02b414c63fb435b622238c15ed",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273b414c63fb435b622238c15ed",
-   "url": "https://open.spotify.com/track/7N3PAbqfTjSEU1edb2tY8j",
-   "album_url": "https://open.spotify.com/album/3REUXdj5OPKhuDTrTtCBU0",
-   "played_at": "2026-11-13T15:24:35.662Z"
-  },
-  {
-   "name": "Tom Sawyer",
-   "artist": "Rush",
-   "album": "Moving Pictures (2011 Remaster)",
-   "year": 1981,
-   "image": "https://i.scdn.co/image/ab67616d00001e0272833c1ae3343cbfb4617073",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27372833c1ae3343cbfb4617073",
-   "url": "https://open.spotify.com/track/3QZ7uX97s82HFYSmQUAN1D",
-   "album_url": "https://open.spotify.com/album/2xg7iIKoSqaDNpDbJnyCjY",
-   "played_at": "2026-11-13T15:20:33.574Z"
   }
  ],
  "top_artists": [
@@ -589,7 +589,7 @@ window.LISTENING = {
   },
   {
    "name": "Queen",
-   "plays": 1919,
+   "plays": 1920,
    "url": "https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d",
    "image": "https://i.scdn.co/image/ab67616d00001e0207744e2ed983efa3e6620a47"
   },
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28725,
+   "plays": 28726,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32948,
+   "plays": 32949,
    "covers": [
     {
      "name": "Back In Black",
