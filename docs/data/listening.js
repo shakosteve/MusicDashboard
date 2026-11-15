@@ -1,14 +1,36 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-15T19:40:07Z",
+ "generated": "2026-11-15T20:40:07Z",
  "totals": {
-  "plays": 125204,
-  "hours": 8512.3,
+  "plays": 125207,
+  "hours": 8512.5,
   "artists": 702,
   "albums": 1530,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Never",
+   "artist": "Heart",
+   "album": "Heart",
+   "year": 1985,
+   "image": "https://i.scdn.co/image/ab67616d00001e02aac099da610b063763c63117",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273aac099da610b063763c63117",
+   "url": "https://open.spotify.com/track/4yEMyaB6PGBpQvac2yD9wZ",
+   "album_url": "https://open.spotify.com/album/0zM8rTVzPoT7SD4ZMds430",
+   "played_at": "2026-11-15T20:37:17.457Z"
+  },
+  {
+   "name": "My Kinda Lover - Remastered 2010",
+   "artist": "Billy Squier",
+   "album": "Don't Say No (Remastered 2010)",
+   "year": 1981,
+   "image": "https://i.scdn.co/image/ab67616d00001e02f4822f8034e697410a14a297",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273f4822f8034e697410a14a297",
+   "url": "https://open.spotify.com/track/6g14FUj5zU9FDRwBi963vS",
+   "album_url": "https://open.spotify.com/album/6TwlLNU5Zd9qGuNgSLeWPt",
+   "played_at": "2026-11-15T20:33:10.347Z"
+  },
   {
    "name": "MARTIRIO - Live from Auditorio Nacional, CDMX",
    "artist": "The Warning",
@@ -514,28 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/1uAE4zTbb8SllBNx7wf1DS",
    "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
    "played_at": "2026-11-13T14:12:15.050Z"
-  },
-  {
-   "name": "46 and 2",
-   "artist": "O'keefe Music Foundation",
-   "album": "46 and 2",
-   "year": 2015,
-   "image": "https://i.scdn.co/image/ab67616d00001e02c953a05b22cfd7dc11d3d7a6",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273c953a05b22cfd7dc11d3d7a6",
-   "url": "https://open.spotify.com/track/1Mfb4wUz54L6wW900FfWtG",
-   "album_url": "https://open.spotify.com/album/68bP3r8G6e4ej006S1eWmg",
-   "played_at": "2026-11-13T14:08:21.971Z"
-  },
-  {
-   "name": "99 Luftballons - Remastered 2024",
-   "artist": "Nena",
-   "album": "NENA (Remastered & Selected Works)",
-   "year": 2024,
-   "image": "https://i.scdn.co/image/ab67616d00001e02aad6c8766ffd364454df5465",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273aad6c8766ffd364454df5465",
-   "url": "https://open.spotify.com/track/3NM2GsEUdDq2QYqXOMXZZW",
-   "album_url": "https://open.spotify.com/album/5OhSZi1hTPDWarLDiUT3Si",
-   "played_at": "2026-11-13T14:02:18.574Z"
   }
  ],
  "top_artists": [
@@ -583,7 +583,7 @@ window.LISTENING = {
   },
   {
    "name": "Heart",
-   "plays": 1932,
+   "plays": 1933,
    "url": "https://open.spotify.com/artist/34jw2BbxjoYalTp8cJFCPv",
    "image": "https://i.scdn.co/image/ab67616d00001e0266e2e0df78c4ec35a8ed20a0"
   },
@@ -731,7 +731,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b273f4822f8034e697410a14a297",
    "url": "https://open.spotify.com/track/6g14FUj5zU9FDRwBi963vS",
    "album_url": "https://open.spotify.com/album/6TwlLNU5Zd9qGuNgSLeWPt",
-   "plays": 884
+   "plays": 886
   }
  ],
  "decades": [
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32937,
+   "plays": 32940,
    "covers": [
     {
      "name": "Back In Black",
@@ -1053,7 +1053,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273f4822f8034e697410a14a297",
      "url": "https://open.spotify.com/track/6g14FUj5zU9FDRwBi963vS",
      "album_url": "https://open.spotify.com/album/6TwlLNU5Zd9qGuNgSLeWPt",
-     "plays": 884
+     "plays": 886
     },
     {
      "name": "Manic Monday",
