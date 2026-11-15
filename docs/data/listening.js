@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-15T14:40:06Z",
+ "generated": "2026-11-15T16:40:06Z",
  "totals": {
   "plays": 125196,
   "hours": 8511.7,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Moscow car bombing maims Ukrainian traitor as drones blast major Russian refinery",
+   "show": "Ukraine: The Latest",
+   "show_uri": "spotify:show:6cnkk1J0I1UqtxTYVUL4Fe",
+   "release_date": "2026-11-13",
+   "duration_ms": 3369142,
+   "image": "https://i.scdn.co/image/ab67656300005f1f3d69e304ca7a9c8c8fdd0634",
+   "first_seen": "2026-11-15T16:40:02Z",
+   "progress_ms": 714322,
+   "last_seen": "2026-11-15T16:40:02Z",
+   "url": "https://open.spotify.com/episode/5yoJhZTiG65IablL8Tm1JQ",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f78954c21afd24c90334deba4"
+  },
+  {
    "name": "In Moscow's Shadows 271: Is 2027 the year the Ukraine war ends?",
    "show": "In Moscow's Shadows",
    "show_uri": "spotify:show:1NKCazxYstY6o8vhpGQSjF",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-14T06:10:02Z",
    "url": "https://open.spotify.com/episode/0EbwsgzMKyTmJj2L8Ol00c",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f55386ae3fe554333e1a85785"
-  },
-  {
-   "name": "176. Touch Flesh First : Rings of Power – Season 3, Episode 1",
-   "show": "Exploring Tolkien",
-   "show_uri": "spotify:show:053v5PsgtE8TmMiXXAyThG",
-   "release_date": "2026-11-13",
-   "duration_ms": 2534282,
-   "image": "https://i.scdn.co/image/ab67656300005f1f26baf1b67c7bd97abb8d35ff",
-   "first_seen": "2026-11-14T04:40:02Z",
-   "progress_ms": 2534282,
-   "last_seen": "2026-11-14T05:40:02Z",
-   "url": "https://open.spotify.com/episode/3OvqTVeVTJDRcQN2KqhJja",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f437d42fd22f6b88af853b190"
   }
  ],
  "top_shows": [
