@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-14T23:40:06Z",
+ "generated": "2026-11-15T00:10:07Z",
  "totals": {
   "plays": 125196,
   "hours": 8511.7,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Iran bombs Oman & why Tehran's impossible demands mean endless war",
+   "show": "Iran: The Latest",
+   "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
+   "release_date": "2026-11-12",
+   "duration_ms": 2160979,
+   "image": "https://i.scdn.co/image/ab67656300005f1f58416bf2c3a58a14d9e835cb",
+   "first_seen": "2026-11-14T21:40:02Z",
+   "progress_ms": 2160979,
+   "last_seen": "2026-11-15T00:10:02Z",
+   "url": "https://open.spotify.com/episode/0YWAslErHVi53ZbYEDr5ct",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
+  },
+  {
    "name": "I'll Have Another: The Perfect Tomahawk Steak",
    "show": "Kennedy Saves the World",
    "show_uri": "spotify:show:5DEwjZIkxrUhkM1nlqLagd",
@@ -1515,19 +1528,6 @@ window.LISTENING = {
    "last_seen": "2026-11-14T22:40:02Z",
    "url": "https://open.spotify.com/episode/3kdpbnvVWQXATqfyqLJnC1",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46"
-  },
-  {
-   "name": "Iran bombs Oman & why Tehran's impossible demands mean endless war",
-   "show": "Iran: The Latest",
-   "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
-   "release_date": "2026-11-12",
-   "duration_ms": 2160979,
-   "image": "https://i.scdn.co/image/ab67656300005f1f58416bf2c3a58a14d9e835cb",
-   "first_seen": "2026-11-14T21:40:02Z",
-   "progress_ms": 2001540,
-   "last_seen": "2026-11-14T22:10:02Z",
-   "url": "https://open.spotify.com/episode/0YWAslErHVi53ZbYEDr5ct",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
   },
   {
    "name": "Nvidia's CEO Jensen Huang Quits",
