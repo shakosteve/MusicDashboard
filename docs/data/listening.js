@@ -1,14 +1,102 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-15T20:40:07Z",
+ "generated": "2026-11-15T21:10:05Z",
  "totals": {
-  "plays": 125207,
-  "hours": 8512.5,
+  "plays": 125215,
+  "hours": 8513.0,
   "artists": 702,
-  "albums": 1530,
+  "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "End of You",
+   "artist": "Poppy, Amy Lee, Courtney LaPlante",
+   "album": "End of You",
+   "year": 2025,
+   "image": "https://i.scdn.co/image/ab67616d00001e02460c53e36b10048efc49e76c",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273460c53e36b10048efc49e76c",
+   "url": "https://open.spotify.com/track/0PsFsv5xUyX06ZhIEtFkeA",
+   "album_url": "https://open.spotify.com/album/7heJiiZpgQXmqVIoz2Fra1",
+   "played_at": "2026-11-15T21:08:05.572Z"
+  },
+  {
+   "name": "Bring Me To Life",
+   "artist": "Evanescence",
+   "album": "Fallen",
+   "year": 2003,
+   "image": "https://i.scdn.co/image/ab67616d00001e0225f49ab23f0ec6332efef432",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27325f49ab23f0ec6332efef432",
+   "url": "https://open.spotify.com/track/0COqiPhxzoWICwFCS4eZcp",
+   "album_url": "https://open.spotify.com/album/02w1xMzzdF2OJxTeh1basm",
+   "played_at": "2026-11-15T21:04:51.028Z"
+  },
+  {
+   "name": "Cradle Of Love",
+   "artist": "Billy Idol",
+   "album": "Charmed Life",
+   "year": 1990,
+   "image": "https://i.scdn.co/image/ab67616d00001e029290a5f1a7e0e3e9ddb11073",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2739290a5f1a7e0e3e9ddb11073",
+   "url": "https://open.spotify.com/track/5TSANSqPTD6nBG0NSJWmVB",
+   "album_url": "https://open.spotify.com/album/4GCciwt8efweJZ4AEEvnTQ",
+   "played_at": "2026-11-15T21:00:54.661Z"
+  },
+  {
+   "name": "Click Click Boom",
+   "artist": "Saliva",
+   "album": "Every Six Seconds",
+   "year": 2001,
+   "image": "https://i.scdn.co/image/ab67616d00001e02c72cc4087da2190116857f37",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273c72cc4087da2190116857f37",
+   "url": "https://open.spotify.com/track/2CGDxXXYbkPOyRXHzQbqkT",
+   "album_url": "https://open.spotify.com/album/6gF0b1XROfpwz5bLHM1dRe",
+   "played_at": "2026-11-15T20:56:12.674Z"
+  },
+  {
+   "name": "Rain On The Scarecrow",
+   "artist": "John Mellencamp",
+   "album": "Scarecrow",
+   "year": 1985,
+   "image": "https://i.scdn.co/image/ab67616d00001e02b46e7ea6a6b2fa45caa23393",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273b46e7ea6a6b2fa45caa23393",
+   "url": "https://open.spotify.com/track/24iUpyUeGv6AoikfxpRofO",
+   "album_url": "https://open.spotify.com/album/1BYEhfr8qQGNhbqPAbfnxk",
+   "played_at": "2026-11-15T20:51:59.796Z"
+  },
+  {
+   "name": "Rock Of Ages",
+   "artist": "Def Leppard",
+   "album": "Pyromania (Deluxe)",
+   "year": 1983,
+   "image": "https://i.scdn.co/image/ab67616d00001e02c56fbdf8c58463a4cced0d03",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273c56fbdf8c58463a4cced0d03",
+   "url": "https://open.spotify.com/track/2AmEv442DGwSxMGZ9XEvBA",
+   "album_url": "https://open.spotify.com/album/3MJoDIkQxY0MTXE8fqzmPu",
+   "played_at": "2026-11-15T20:48:13.040Z"
+  },
+  {
+   "name": "Sea of Love - 2006 Remaster",
+   "artist": "The Honeydrippers",
+   "album": "The Honeydrippers, Vol. 1 (Expanded)",
+   "year": 1984,
+   "image": "https://i.scdn.co/image/ab67616d00001e024275ec095a72b84743934fce",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2734275ec095a72b84743934fce",
+   "url": "https://open.spotify.com/track/0VMGij4wSGBM5pSTcqjxeD",
+   "album_url": "https://open.spotify.com/album/0fwGgCBAMQ0ItsxR7yBE8O",
+   "played_at": "2026-11-15T20:44:03.659Z"
+  },
+  {
+   "name": "Fly Away",
+   "artist": "Lenny Kravitz",
+   "album": "5",
+   "year": 1998,
+   "image": "https://i.scdn.co/image/ab67616d00001e02f1157b7dcd21bae0c2c75d89",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273f1157b7dcd21bae0c2c75d89",
+   "url": "https://open.spotify.com/track/1OxcIUqVmVYxT6427tbhDW",
+   "album_url": "https://open.spotify.com/album/6MCNMOCRsh6nxs7PNzc0zN",
+   "played_at": "2026-11-15T20:40:59.381Z"
+  },
   {
    "name": "Never",
    "artist": "Heart",
@@ -448,94 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/4GVXHZ4QJe1lOvtfLsIORd",
    "album_url": "https://open.spotify.com/album/0YJACBRXuL7jthY9RBtlS5",
    "played_at": "2026-11-13T14:44:22.468Z"
-  },
-  {
-   "name": "Too Good to be True",
-   "artist": "Kacey Musgraves",
-   "album": "Deeper Well",
-   "year": 2024,
-   "image": "https://i.scdn.co/image/ab67616d00001e02b598ad81e340f28f8b523c41",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273b598ad81e340f28f8b523c41",
-   "url": "https://open.spotify.com/track/27RDQ0TfxzWMlQFuKrPT11",
-   "album_url": "https://open.spotify.com/album/5SxZmGwc4eJuPp6PcO4JgJ",
-   "played_at": "2026-11-13T14:40:32.470Z"
-  },
-  {
-   "name": "Under Pressure (feat. David Bowie)",
-   "artist": "Queen, David Bowie",
-   "album": "Hot Space",
-   "year": 1982,
-   "image": "https://i.scdn.co/image/ab67616d00001e0244c0a9843fac69db4d56d14e",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27344c0a9843fac69db4d56d14e",
-   "url": "https://open.spotify.com/track/2nrG5UtAcqXbYttu7MXP1p",
-   "album_url": "https://open.spotify.com/album/4pFJdTvK6zNyWOO3W1hkGd",
-   "played_at": "2026-11-13T14:37:51.872Z"
-  },
-  {
-   "name": "Peace of Mind",
-   "artist": "Boston",
-   "album": "Boston",
-   "year": 1976,
-   "image": "https://i.scdn.co/image/ab67616d00001e028c1fadcc997a65384f34d694",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2738c1fadcc997a65384f34d694",
-   "url": "https://open.spotify.com/track/1GqlvSEtMx5xbGptxOTTyk",
-   "album_url": "https://open.spotify.com/album/2QLp07RO6anZHmtcKTEvSC",
-   "played_at": "2026-11-13T14:33:45.173Z"
-  },
-  {
-   "name": "Sunrise",
-   "artist": "Norah Jones",
-   "album": "Feels Like Home",
-   "year": 2004,
-   "image": "https://i.scdn.co/image/ab67616d00001e0264026be0e09c1beda2f67c32",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27364026be0e09c1beda2f67c32",
-   "url": "https://open.spotify.com/track/7zkLpY72g6lKQbiHDqri1S",
-   "album_url": "https://open.spotify.com/album/7GaAXgbFSpcJOiLlFGYyOL",
-   "played_at": "2026-11-13T14:28:17.774Z"
-  },
-  {
-   "name": "Still Got This Thing",
-   "artist": "Alannah Myles",
-   "album": "Alannah Myles",
-   "year": 1989,
-   "image": "https://i.scdn.co/image/ab67616d00001e02c45bb46127a23d1beeead273",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273c45bb46127a23d1beeead273",
-   "url": "https://open.spotify.com/track/1ogO2Wj9qEMMjo7UDejvsh",
-   "album_url": "https://open.spotify.com/album/552joC0kVpcbJm7LFLqGDm",
-   "played_at": "2026-11-13T14:24:56.563Z"
-  },
-  {
-   "name": "Show Me the Light",
-   "artist": "The Warning",
-   "album": "XXI Century Blood",
-   "year": 2017,
-   "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
-   "url": "https://open.spotify.com/track/0LdkRYiS3semGItm03H3gm",
-   "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
-   "played_at": "2026-11-13T14:20:18.872Z"
-  },
-  {
-   "name": "Crumblin' Down",
-   "artist": "John Mellencamp",
-   "album": "Uh-HUH!",
-   "year": 1983,
-   "image": "https://i.scdn.co/image/ab67616d00001e02cd949894aa0df080ed50ff9b",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273cd949894aa0df080ed50ff9b",
-   "url": "https://open.spotify.com/track/4uqmzWlYa0eLKmbcHNgLej",
-   "album_url": "https://open.spotify.com/album/1p4YwrjrP7t6Rfb755yoTQ",
-   "played_at": "2026-11-13T14:15:49.771Z"
-  },
-  {
-   "name": "Automatic Sun - Live from Auditorio Nacional, CDMX",
-   "artist": "The Warning",
-   "album": "Live from Auditorio Nacional, CDMX",
-   "year": 2025,
-   "image": "https://i.scdn.co/image/ab67616d00001e025cda6d880ec3968aa6b6ac2f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
-   "url": "https://open.spotify.com/track/1uAE4zTbb8SllBNx7wf1DS",
-   "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
-   "played_at": "2026-11-13T14:12:15.050Z"
   }
  ],
  "top_artists": [
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32940,
+   "plays": 32943,
    "covers": [
     {
      "name": "Back In Black",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9734,
+   "plays": 9736,
    "covers": [
     {
      "name": "Amazing",
@@ -1191,7 +1191,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273f1157b7dcd21bae0c2c75d89",
      "url": "https://open.spotify.com/track/1OxcIUqVmVYxT6427tbhDW",
      "album_url": "https://open.spotify.com/album/6MCNMOCRsh6nxs7PNzc0zN",
-     "plays": 421
+     "plays": 422
     },
     {
      "name": "Death Letter Blues",
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 12013,
+   "plays": 12015,
    "covers": [
     {
      "name": "Material Girl",
@@ -1241,7 +1241,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b27325f49ab23f0ec6332efef432",
      "url": "https://open.spotify.com/track/4UzVcXufOhGUwF56HT7b8M",
      "album_url": "https://open.spotify.com/album/02w1xMzzdF2OJxTeh1basm",
-     "plays": 680
+     "plays": 681
     },
     {
      "name": "Americano",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18667,
+   "plays": 18668,
    "covers": [
     {
      "name": "ERROR",
