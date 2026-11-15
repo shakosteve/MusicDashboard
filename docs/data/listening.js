@@ -1,14 +1,91 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-15T22:40:04Z",
+ "generated": "2026-11-15T23:10:07Z",
  "totals": {
-  "plays": 125218,
-  "hours": 8513.2,
+  "plays": 125225,
+  "hours": 8513.7,
   "artists": 702,
   "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Jolene",
+   "artist": "Dolly Parton",
+   "album": "Jolene",
+   "year": 1974,
+   "image": "https://i.scdn.co/image/ab67616d00001e02220f3b1f40e3276662155f16",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273220f3b1f40e3276662155f16",
+   "url": "https://open.spotify.com/track/2SpEHTbUuebeLkgs9QB7Ue",
+   "album_url": "https://open.spotify.com/album/5DyOxuvdSmTSNAmkfcsBsj",
+   "played_at": "2026-11-15T23:06:48.707Z"
+  },
+  {
+   "name": "Don't Bring Me Down",
+   "artist": "Electric Light Orchestra",
+   "album": "Discovery",
+   "year": 1979,
+   "image": "https://i.scdn.co/image/ab67616d00001e0237e78b6638f7737adee73d6f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27337e78b6638f7737adee73d6f",
+   "url": "https://open.spotify.com/track/72ahyckBJfTigJCFCviVN7",
+   "album_url": "https://open.spotify.com/album/1CvVSn2MtKDBR6aWMkNkem",
+   "played_at": "2026-11-15T23:04:04.950Z"
+  },
+  {
+   "name": "P.S.Y.C.H.O.T.I.C.",
+   "artist": "The Warning",
+   "album": "Queen of the Murder Scene",
+   "year": 2018,
+   "image": "https://i.scdn.co/image/ab67616d00001e02e0871bbaad013df7b7e56c2a",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273e0871bbaad013df7b7e56c2a",
+   "url": "https://open.spotify.com/track/0wRHqRHUXgoOXe6H6XS1sJ",
+   "album_url": "https://open.spotify.com/album/2kB1Qqw3YOR9i3nbNxXWRs",
+   "played_at": "2026-11-15T23:00:01.178Z"
+  },
+  {
+   "name": "Love Song",
+   "artist": "Tesla",
+   "album": "The Great Radio Controversy",
+   "year": 1989,
+   "image": "https://i.scdn.co/image/ab67616d00001e026dca0336b9bde7b08c190209",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2736dca0336b9bde7b08c190209",
+   "url": "https://open.spotify.com/track/0vJUdIefT5caKla9H8b1q4",
+   "album_url": "https://open.spotify.com/album/6E84FmjNjs38HXdhtOzbCM",
+   "played_at": "2026-11-15T22:56:21.220Z"
+  },
+  {
+   "name": "Take Me Down",
+   "artist": "The Pretty Reckless",
+   "album": "Who You Selling For",
+   "year": 2016,
+   "image": "https://i.scdn.co/image/ab67616d00001e02c8c07abc6bd4f9f815a96872",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273c8c07abc6bd4f9f815a96872",
+   "url": "https://open.spotify.com/track/2j219ocVSxgt7eZ3KNw9a6",
+   "album_url": "https://open.spotify.com/album/6q2xelSrpNPLJ4KkKgDkRA",
+   "played_at": "2026-11-15T22:50:57.384Z"
+  },
+  {
+   "name": "Brown Sugar",
+   "artist": "The Rolling Stones",
+   "album": "Hot Rocks 1964-1971",
+   "year": 1971,
+   "image": "https://i.scdn.co/image/ab67616d00001e02b11b3fc3c89477a7dd473bd7",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273b11b3fc3c89477a7dd473bd7",
+   "url": "https://open.spotify.com/track/34K7nU8EWQIRI93RfqhdRJ",
+   "album_url": "https://open.spotify.com/album/0aqZJlugIkTUWW1sa4BANp",
+   "played_at": "2026-11-15T22:46:43.588Z"
+  },
+  {
+   "name": "Dude (Looks Like A Lady)",
+   "artist": "Aerosmith",
+   "album": "Permanent Vacation",
+   "year": 1987,
+   "image": "https://i.scdn.co/image/ab67616d00001e02a8a965df6a845b265ee19106",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273a8a965df6a845b265ee19106",
+   "url": "https://open.spotify.com/track/6gQUbFwwdYXlKdmqRoWKJe",
+   "album_url": "https://open.spotify.com/album/3XYqOJI1YlX40kJTdzFEzp",
+   "played_at": "2026-11-15T22:42:54.001Z"
+  },
   {
    "name": "We Got The Beat",
    "artist": "The Go-Go's",
@@ -459,89 +536,12 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/3QZ7uX97s82HFYSmQUAN1D",
    "album_url": "https://open.spotify.com/album/2xg7iIKoSqaDNpDbJnyCjY",
    "played_at": "2026-11-13T15:20:33.574Z"
-  },
-  {
-   "name": "This Is Not a Fairytale",
-   "artist": "Snow White In The Dark",
-   "album": "This Is Not a Fairytale",
-   "year": 2025,
-   "image": "https://i.scdn.co/image/ab67616d00001e028fe652bf2b2374a80eb4051f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2738fe652bf2b2374a80eb4051f",
-   "url": "https://open.spotify.com/track/1vwtMv5y1Ov8EwAcdMPSul",
-   "album_url": "https://open.spotify.com/album/1k7v5HwUfAvK1WZqPca9F4",
-   "played_at": "2026-11-13T15:15:56.172Z"
-  },
-  {
-   "name": "Lonely Is The Night - Remastered 2010",
-   "artist": "Billy Squier",
-   "album": "Don't Say No (Remastered 2010)",
-   "year": 1981,
-   "image": "https://i.scdn.co/image/ab67616d00001e02f4822f8034e697410a14a297",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273f4822f8034e697410a14a297",
-   "url": "https://open.spotify.com/track/28eg5bkYvIHT7HPmzZFwLN",
-   "album_url": "https://open.spotify.com/album/6TwlLNU5Zd9qGuNgSLeWPt",
-   "played_at": "2026-11-13T15:12:53.254Z"
-  },
-  {
-   "name": "MARTIRIO",
-   "artist": "The Warning",
-   "album": "MARTIRIO",
-   "year": 2021,
-   "image": "https://i.scdn.co/image/ab67616d00001e02732c6de7441ed29a73e87963",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273732c6de7441ed29a73e87963",
-   "url": "https://open.spotify.com/track/2W0IAUsjR26coSOvppEpKx",
-   "album_url": "https://open.spotify.com/album/6oyeToNU5s7ZGttwTZ8EDF",
-   "played_at": "2026-11-13T15:08:11.317Z"
-  },
-  {
-   "name": "Peaceful Easy Feeling - 2013 Remaster",
-   "artist": "Eagles",
-   "album": "Eagles (2013 Remaster)",
-   "year": 1972,
-   "image": "https://i.scdn.co/image/ab67616d00001e02c13acd642ba9f6f5f127aa1b",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273c13acd642ba9f6f5f127aa1b",
-   "url": "https://open.spotify.com/track/40h65HAR8COEoqkMwUUQHu",
-   "album_url": "https://open.spotify.com/album/51B7LbLWgYLKBVSpkan8Z7",
-   "played_at": "2026-11-13T15:04:06.678Z"
-  },
-  {
-   "name": "Electric Boogie",
-   "artist": "Marcia Griffiths",
-   "album": "Carousel",
-   "year": 1990,
-   "image": "https://i.scdn.co/image/ab67616d00001e02b9b77a3516206301635556cd",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273b9b77a3516206301635556cd",
-   "url": "https://open.spotify.com/track/1JyaAeaXVFnVv5ikwWQVQ4",
-   "album_url": "https://open.spotify.com/album/27NoR0KCEJp5X4JFiHZZcq",
-   "played_at": "2026-11-13T14:59:48.141Z"
-  },
-  {
-   "name": "Runnin' with the Devil - 2015 Remaster",
-   "artist": "Van Halen",
-   "album": "Van Halen (Remastered)",
-   "year": 1978,
-   "image": "https://i.scdn.co/image/ab67616d00001e0217dd812df38fed44d6d2036e",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27317dd812df38fed44d6d2036e",
-   "url": "https://open.spotify.com/track/3KhF2YiNpJvGpfiCW45R6D",
-   "album_url": "https://open.spotify.com/album/7DdEbYFPKTZ8KB4z6L4UnQ",
-   "played_at": "2026-11-13T14:55:44.872Z"
-  },
-  {
-   "name": "Slither",
-   "artist": "Velvet Revolver",
-   "album": "Contraband",
-   "year": 2004,
-   "image": "https://i.scdn.co/image/ab67616d00001e02e95d233a9df33d6c9992b449",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273e95d233a9df33d6c9992b449",
-   "url": "https://open.spotify.com/track/7kF1iPJTj3VFJX9XokQ80F",
-   "album_url": "https://open.spotify.com/album/64GnrmrpL1fvfF0r1AoZLB",
-   "played_at": "2026-11-13T14:52:09.352Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10704,
+   "plays": 10705,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
@@ -553,7 +553,7 @@ window.LISTENING = {
   },
   {
    "name": "Aerosmith",
-   "plays": 2601,
+   "plays": 2602,
    "url": "https://open.spotify.com/artist/7Ey4PD4MYsKc5I2dolUwbH",
    "image": "https://i.scdn.co/image/ab67616d00001e02587b26d49596162397b29ec8"
   },
@@ -621,7 +621,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b273e0871bbaad013df7b7e56c2a",
    "url": "https://open.spotify.com/track/3byoK5Yi2YT9Gcc4xS8qKE",
    "album_url": "https://open.spotify.com/album/2kB1Qqw3YOR9i3nbNxXWRs",
-   "plays": 1900
+   "plays": 1901
   },
   {
    "name": "Back In Black",
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28722,
+   "plays": 28725,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32946,
+   "plays": 32948,
    "covers": [
     {
      "name": "Back In Black",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15789,
+   "plays": 15791,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1324,7 +1324,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273e0871bbaad013df7b7e56c2a",
      "url": "https://open.spotify.com/track/3byoK5Yi2YT9Gcc4xS8qKE",
      "album_url": "https://open.spotify.com/album/2kB1Qqw3YOR9i3nbNxXWRs",
-     "plays": 1900
+     "plays": 1901
     },
     {
      "name": "Rhyme or Reason",
