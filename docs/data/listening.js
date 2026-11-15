@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-15T16:40:06Z",
+ "generated": "2026-11-15T17:10:06Z",
  "totals": {
   "plays": 125196,
   "hours": 8511.7,
@@ -1491,19 +1491,6 @@ window.LISTENING = {
  ],
  "episodes": [
   {
-   "name": "Moscow car bombing maims Ukrainian traitor as drones blast major Russian refinery",
-   "show": "Ukraine: The Latest",
-   "show_uri": "spotify:show:6cnkk1J0I1UqtxTYVUL4Fe",
-   "release_date": "2026-11-13",
-   "duration_ms": 3369142,
-   "image": "https://i.scdn.co/image/ab67656300005f1f3d69e304ca7a9c8c8fdd0634",
-   "first_seen": "2026-11-15T16:40:02Z",
-   "progress_ms": 714322,
-   "last_seen": "2026-11-15T16:40:02Z",
-   "url": "https://open.spotify.com/episode/5yoJhZTiG65IablL8Tm1JQ",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f78954c21afd24c90334deba4"
-  },
-  {
    "name": "In Moscow's Shadows 271: Is 2027 the year the Ukraine war ends?",
    "show": "In Moscow's Shadows",
    "show_uri": "spotify:show:1NKCazxYstY6o8vhpGQSjF",
@@ -1511,10 +1498,23 @@ window.LISTENING = {
    "duration_ms": 2829487,
    "image": "https://i.scdn.co/image/ab67656300005f1fd2dd1e74bffcd7cabc91a62c",
    "first_seen": "2026-11-15T14:10:02Z",
-   "progress_ms": 2697626,
-   "last_seen": "2026-11-15T14:40:02Z",
+   "progress_ms": 2829487,
+   "last_seen": "2026-11-15T17:10:03Z",
    "url": "https://open.spotify.com/episode/63Fxk8bEziXrmJdOSREmWK",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fd2dd1e74bffcd7cabc91a62c"
+  },
+  {
+   "name": "Moscow car bombing maims Ukrainian traitor as drones blast major Russian refinery",
+   "show": "Ukraine: The Latest",
+   "show_uri": "spotify:show:6cnkk1J0I1UqtxTYVUL4Fe",
+   "release_date": "2026-11-13",
+   "duration_ms": 3369142,
+   "image": "https://i.scdn.co/image/ab67656300005f1f3d69e304ca7a9c8c8fdd0634",
+   "first_seen": "2026-11-15T16:40:02Z",
+   "progress_ms": 3262524,
+   "last_seen": "2026-11-15T17:10:02Z",
+   "url": "https://open.spotify.com/episode/5yoJhZTiG65IablL8Tm1JQ",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f78954c21afd24c90334deba4"
   },
   {
    "name": "US flight disruptions continue",
