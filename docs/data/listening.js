@@ -1,14 +1,36 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-15T21:10:05Z",
+ "generated": "2026-11-15T22:40:04Z",
  "totals": {
-  "plays": 125215,
-  "hours": 8513.0,
+  "plays": 125218,
+  "hours": 8513.2,
   "artists": 702,
   "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "We Got The Beat",
+   "artist": "The Go-Go's",
+   "album": "Beauty And The Beat",
+   "year": 1981,
+   "image": "https://i.scdn.co/image/ab67616d00001e028a25755534e84d8a604e6b38",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2738a25755534e84d8a604e6b38",
+   "url": "https://open.spotify.com/track/5kz9GDBTX846OXwqWoyKzF",
+   "album_url": "https://open.spotify.com/album/1L4HE00En7eNK74voVZums",
+   "played_at": "2026-11-15T22:38:26.215Z"
+  },
+  {
+   "name": "It Takes Two",
+   "artist": "Rob Base & DJ EZ Rock",
+   "album": "It Takes Two",
+   "year": 1988,
+   "image": "https://i.scdn.co/image/ab67616d00001e02503044c032ef206e5fa78b08",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273503044c032ef206e5fa78b08",
+   "url": "https://open.spotify.com/track/0gFB5H3pHN13ERt2FyMuWi",
+   "album_url": "https://open.spotify.com/album/5tocCryeqWvFXn65seo0p6",
+   "played_at": "2026-11-15T22:35:52.583Z"
+  },
   {
    "name": "End of You",
    "artist": "Poppy, Amy Lee, Courtney LaPlante",
@@ -514,28 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/7kF1iPJTj3VFJX9XokQ80F",
    "album_url": "https://open.spotify.com/album/64GnrmrpL1fvfF0r1AoZLB",
    "played_at": "2026-11-13T14:52:09.352Z"
-  },
-  {
-   "name": "50 Ways to Leave Your Lover",
-   "artist": "Paul Simon",
-   "album": "Still Crazy After All These Years",
-   "year": 1975,
-   "image": "https://i.scdn.co/image/ab67616d00001e02f081c7a1a21fb8f983a9d3cb",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273f081c7a1a21fb8f983a9d3cb",
-   "url": "https://open.spotify.com/track/6Qb7gtV6Q4MnUjSbkFcopl",
-   "album_url": "https://open.spotify.com/album/4A366gjTrYQwmRtkTezF2W",
-   "played_at": "2026-11-13T14:48:00.562Z"
-  },
-  {
-   "name": "Everything’s Falling",
-   "artist": "The Warning",
-   "album": "Everything’s Falling",
-   "year": 2026,
-   "image": "https://i.scdn.co/image/ab67616d00001e023d3a5263cbb23d7b8866a08c",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2733d3a5263cbb23d7b8866a08c",
-   "url": "https://open.spotify.com/track/4GVXHZ4QJe1lOvtfLsIORd",
-   "album_url": "https://open.spotify.com/album/0YJACBRXuL7jthY9RBtlS5",
-   "played_at": "2026-11-13T14:44:22.468Z"
   }
  ],
  "top_artists": [
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32943,
+   "plays": 32946,
    "covers": [
     {
      "name": "Back In Black",
