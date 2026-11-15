@@ -1,14 +1,58 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-15T17:40:06Z",
+ "generated": "2026-11-15T18:10:06Z",
  "totals": {
-  "plays": 125200,
-  "hours": 8512.0,
+  "plays": 125204,
+  "hours": 8512.3,
   "artists": 702,
   "albums": 1530,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "MARTIRIO - Live from Auditorio Nacional, CDMX",
+   "artist": "The Warning",
+   "album": "Live from Auditorio Nacional, CDMX",
+   "year": 2025,
+   "image": "https://i.scdn.co/image/ab67616d00001e025cda6d880ec3968aa6b6ac2f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
+   "url": "https://open.spotify.com/track/1SwvAnu67PRbV6NxwrwrNE",
+   "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
+   "played_at": "2026-11-15T17:58:43.183Z"
+  },
+  {
+   "name": "Crazy On You",
+   "artist": "Heart",
+   "album": "Dreamboat Annie",
+   "year": 1975,
+   "image": "https://i.scdn.co/image/ab67616d00001e028e8c08ca2feb999bb84f05e6",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2738e8c08ca2feb999bb84f05e6",
+   "url": "https://open.spotify.com/track/5zH710lFSLtkHbMkslLDjR",
+   "album_url": "https://open.spotify.com/album/2N0AgtWbCmVoNUl2GN1opH",
+   "played_at": "2026-11-15T17:53:08.642Z"
+  },
+  {
+   "name": "The Tide Is High - Remastered 2001",
+   "artist": "Blondie",
+   "album": "Greatest Hits",
+   "year": 2002,
+   "image": "https://i.scdn.co/image/ab67616d00001e022847f04f9de392e290b5a0be",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2732847f04f9de392e290b5a0be",
+   "url": "https://open.spotify.com/track/6UYVDYeTRGYULthAwMIpYB",
+   "album_url": "https://open.spotify.com/album/4pIYJsJ8GkYWM1rvqy45ug",
+   "played_at": "2026-11-15T17:48:14.649Z"
+  },
+  {
+   "name": "Janie's Got A Gun",
+   "artist": "Aerosmith",
+   "album": "Big Ones",
+   "year": 1994,
+   "image": "https://i.scdn.co/image/ab67616d00001e02d5fdfcb083cb825348505a93",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273d5fdfcb083cb825348505a93",
+   "url": "https://open.spotify.com/track/5fMwvrqujbQjUxcNPcYrUF",
+   "album_url": "https://open.spotify.com/album/2uT123xlHuqvz14JR0KQSs",
+   "played_at": "2026-11-15T17:43:30.072Z"
+  },
   {
    "name": "Nobody's Fool",
    "artist": "Cinderella",
@@ -492,56 +536,12 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/3NM2GsEUdDq2QYqXOMXZZW",
    "album_url": "https://open.spotify.com/album/5OhSZi1hTPDWarLDiUT3Si",
    "played_at": "2026-11-13T14:02:18.574Z"
-  },
-  {
-   "name": "American Woman - 2024 Remaster",
-   "artist": "The Guess Who",
-   "album": "American Woman (2024 Remaster)",
-   "year": 1970,
-   "image": "https://i.scdn.co/image/ab67616d00001e0266997bea96acd48cb2ed15e6",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27366997bea96acd48cb2ed15e6",
-   "url": "https://open.spotify.com/track/4GoldMP2p0yYNSsvHasZgo",
-   "album_url": "https://open.spotify.com/album/3AHpOJBIj8eUBbEUmTxsGQ",
-   "played_at": "2026-11-13T13:58:24.769Z"
-  },
-  {
-   "name": "Good Traveler",
-   "artist": "Saving Escape",
-   "album": "Good Traveler",
-   "year": 2024,
-   "image": "https://i.scdn.co/image/ab67616d00001e024b786fec5eb9124b289cc587",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2734b786fec5eb9124b289cc587",
-   "url": "https://open.spotify.com/track/13Xm7eVN59gjVTUaIN3O59",
-   "album_url": "https://open.spotify.com/album/68yAqNSfaFPL1ZkcJhsTgG",
-   "played_at": "2026-11-13T00:05:46.363Z"
-  },
-  {
-   "name": "Boogie Shoes",
-   "artist": "KC & The Sunshine Band",
-   "album": "KC & the Sunshine Band... and More",
-   "year": 2004,
-   "image": "https://i.scdn.co/image/ab67616d00001e02c15e8983eef55e19f9b73ff3",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273c15e8983eef55e19f9b73ff3",
-   "url": "https://open.spotify.com/track/2Nc1Tl1qHWLAtBnqRJmkP3",
-   "album_url": "https://open.spotify.com/album/6ufis2iWp3hrox9QJfg5Jq",
-   "played_at": "2026-11-12T23:48:59.987Z"
-  },
-  {
-   "name": "Addicted To Love",
-   "artist": "Robert Palmer, Eric 'ET' Thorngren",
-   "album": "Riptide",
-   "year": 1985,
-   "image": "https://i.scdn.co/image/ab67616d00001e02f3bc80c86bab200ea5ffe10b",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273f3bc80c86bab200ea5ffe10b",
-   "url": "https://open.spotify.com/track/5izGeTxueiFX1UPFGohY9w",
-   "album_url": "https://open.spotify.com/album/73bPiJRwVPkE8dpyCikfFd",
-   "played_at": "2026-11-12T23:43:12.601Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10703,
+   "plays": 10704,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
@@ -553,7 +553,7 @@ window.LISTENING = {
   },
   {
    "name": "Aerosmith",
-   "plays": 2600,
+   "plays": 2601,
    "url": "https://open.spotify.com/artist/7Ey4PD4MYsKc5I2dolUwbH",
    "image": "https://i.scdn.co/image/ab67616d00001e02587b26d49596162397b29ec8"
   },
@@ -583,7 +583,7 @@ window.LISTENING = {
   },
   {
    "name": "Heart",
-   "plays": 1931,
+   "plays": 1932,
    "url": "https://open.spotify.com/artist/34jw2BbxjoYalTp8cJFCPv",
    "image": "https://i.scdn.co/image/ab67616d00001e0266e2e0df78c4ec35a8ed20a0"
   },
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28721,
+   "plays": 28722,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -970,7 +970,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2738e8c08ca2feb999bb84f05e6",
      "url": "https://open.spotify.com/track/5zH710lFSLtkHbMkslLDjR",
      "album_url": "https://open.spotify.com/album/2N0AgtWbCmVoNUl2GN1opH",
-     "plays": 708
+     "plays": 709
     },
     {
      "name": "Stairway to Heaven - Remaster",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9733,
+   "plays": 9734,
    "covers": [
     {
      "name": "Amazing",
@@ -1147,7 +1147,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273d5fdfcb083cb825348505a93",
      "url": "https://open.spotify.com/track/5fMwvrqujbQjUxcNPcYrUF",
      "album_url": "https://open.spotify.com/album/2uT123xlHuqvz14JR0KQSs",
-     "plays": 497
+     "plays": 498
     },
     {
      "name": "Uncle Tom's Cabin",
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 12012,
+   "plays": 12013,
    "covers": [
     {
      "name": "Material Girl",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18666,
+   "plays": 18667,
    "covers": [
     {
      "name": "ERROR",
@@ -1440,7 +1440,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
      "url": "https://open.spotify.com/track/3zgbw0cxkS1DQ36O5hGydt",
      "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
-     "plays": 487
+     "plays": 488
     },
     {
      "name": "Shot In The Dark",
