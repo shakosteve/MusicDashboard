@@ -1,14 +1,58 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-15T17:10:06Z",
+ "generated": "2026-11-15T17:40:06Z",
  "totals": {
-  "plays": 125196,
-  "hours": 8511.7,
+  "plays": 125200,
+  "hours": 8512.0,
   "artists": 702,
   "albums": 1530,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Nobody's Fool",
+   "artist": "Cinderella",
+   "album": "Night Songs",
+   "year": 1986,
+   "image": "https://i.scdn.co/image/ab67616d00001e028e591199defaa8a0fcfca286",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2738e591199defaa8a0fcfca286",
+   "url": "https://open.spotify.com/track/01Q4wU19hamqnhNjtuvTyI",
+   "album_url": "https://open.spotify.com/album/6Af1uU7Di8q9oHyXpgvrmY",
+   "played_at": "2026-11-15T17:37:59.055Z"
+  },
+  {
+   "name": "The Pink Panther Theme",
+   "artist": "Henry Mancini",
+   "album": "The Return of the Pink Panther",
+   "year": 1975,
+   "image": "https://i.scdn.co/image/ab67616d00001e02bd7b9a253b5ce6b8b7f83eb1",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273bd7b9a253b5ce6b8b7f83eb1",
+   "url": "https://open.spotify.com/track/2hZvunBugBIVF8wPDAIA35",
+   "album_url": "https://open.spotify.com/album/6bIKRxHVsOdyfuig2BaLIo",
+   "played_at": "2026-11-15T17:33:11.255Z"
+  },
+  {
+   "name": "Forever Young",
+   "artist": "Alphaville",
+   "album": "Forever Young",
+   "year": 1984,
+   "image": "https://i.scdn.co/image/ab67616d00001e02b9c4979446c4d39bc08e9503",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273b9c4979446c4d39bc08e9503",
+   "url": "https://open.spotify.com/track/4S1VYqwfkLit9mKVY3MXoo",
+   "album_url": "https://open.spotify.com/album/2256qKBSQdt53T5dz4Kdcs",
+   "played_at": "2026-11-15T17:21:56.917Z"
+  },
+  {
+   "name": "Rainbow in the Dark",
+   "artist": "Dio",
+   "album": "Holy Diver",
+   "year": 1983,
+   "image": "https://i.scdn.co/image/ab67616d00001e022457ab409ae106f8ae1dff89",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2732457ab409ae106f8ae1dff89",
+   "url": "https://open.spotify.com/track/2PpNgmrS9mAyrkRAwn6YPq",
+   "album_url": "https://open.spotify.com/album/2ivNJLSx8Rbvnsvcn01Yt3",
+   "played_at": "2026-11-15T17:18:09.706Z"
+  },
   {
    "name": "Sober",
    "artist": "TOOL",
@@ -492,50 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/5izGeTxueiFX1UPFGohY9w",
    "album_url": "https://open.spotify.com/album/73bPiJRwVPkE8dpyCikfFd",
    "played_at": "2026-11-12T23:43:12.601Z"
-  },
-  {
-   "name": "Kashmir",
-   "artist": "Lez Zeppelin",
-   "album": "Lez Zeppelin",
-   "year": 2007,
-   "image": "https://i.scdn.co/image/ab67616d00001e024cd0de706733b5d8adb2fc3c",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2734cd0de706733b5d8adb2fc3c",
-   "url": "https://open.spotify.com/track/2oXhx1rlq7onrInYYC8IDO",
-   "album_url": "https://open.spotify.com/album/5ol7zB4NfApisnuFDXoecx",
-   "played_at": "2026-11-12T23:37:07.314Z"
-  },
-  {
-   "name": "Hey Mickey",
-   "artist": "Toni Basil",
-   "album": "Hey Mickey",
-   "year": 2020,
-   "image": "https://i.scdn.co/image/ab67616d00001e02b08e2cc107fa43851506e876",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273b08e2cc107fa43851506e876",
-   "url": "https://open.spotify.com/track/5G9KcZaxfCysfv4EryCB9b",
-   "album_url": "https://open.spotify.com/album/0FCGD70m1TXNC9iXgKsTkp",
-   "played_at": "2026-11-12T23:28:24.024Z"
-  },
-  {
-   "name": "Lady",
-   "artist": "Styx",
-   "album": "Styx II",
-   "year": 1973,
-   "image": "https://i.scdn.co/image/ab67616d00001e025053c9e335609a8de97e5669",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2735053c9e335609a8de97e5669",
-   "url": "https://open.spotify.com/track/1wpRglLhQ092N1rftlDMD3",
-   "album_url": "https://open.spotify.com/album/6QRpuaqB1chM6wemxQlcy1",
-   "played_at": "2026-11-12T23:24:09.418Z"
-  },
-  {
-   "name": "Help Me, Rhonda - Single Version/Remastered 2001",
-   "artist": "The Beach Boys",
-   "album": "Summer Days (And Summer Nights) [Remastered]",
-   "year": 1965,
-   "image": "https://i.scdn.co/image/ab67616d00001e02ffe1a4788385a4835ae14df8",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273ffe1a4788385a4835ae14df8",
-   "url": "https://open.spotify.com/track/3haZcHm3HydDVxm3je3Zmg",
-   "album_url": "https://open.spotify.com/album/13f845bYjx8MUVF2bl1uJ0",
-   "played_at": "2026-11-12T23:21:11.206Z"
   }
  ],
  "top_artists": [
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28720,
+   "plays": 28721,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32934,
+   "plays": 32937,
    "covers": [
     {
      "name": "Back In Black",
