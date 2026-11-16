@@ -1,14 +1,91 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-16T22:40:05Z",
+ "generated": "2026-11-16T23:10:09Z",
  "totals": {
-  "plays": 125297,
-  "hours": 8519.1,
+  "plays": 125304,
+  "hours": 8519.6,
   "artists": 702,
   "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Don't Let Me Get Me - Radio Edit",
+   "artist": "P!nk",
+   "album": "M!ssundaztood (Expanded Edition)",
+   "year": 2001,
+   "image": "https://i.scdn.co/image/ab67616d00001e029da93c573c5ce2d9deb98e4f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2739da93c573c5ce2d9deb98e4f",
+   "url": "https://open.spotify.com/track/1BfRdnfPYrni7zj4ANodBX",
+   "album_url": "https://open.spotify.com/album/57wJKO7qrPw56iOEKhTmg2",
+   "played_at": "2026-11-16T23:08:23.251Z"
+  },
+  {
+   "name": "Highway Tune",
+   "artist": "Greta Van Fleet",
+   "album": "From The Fires",
+   "year": 2017,
+   "image": "https://i.scdn.co/image/ab67616d00001e0257b7f789d328c205b4d15893",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27357b7f789d328c205b4d15893",
+   "url": "https://open.spotify.com/track/7aOor99o8NNLZYElOXlBG1",
+   "album_url": "https://open.spotify.com/album/6uSnHSIBGKUiW1uKQLYZ7w",
+   "played_at": "2026-11-16T23:04:52.060Z"
+  },
+  {
+   "name": "Shaker Down",
+   "artist": "The Standstills",
+   "album": "Badlands",
+   "year": 2019,
+   "image": "https://i.scdn.co/image/ab67616d00001e02f5584a416336fb0330429e90",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273f5584a416336fb0330429e90",
+   "url": "https://open.spotify.com/track/1j7ay7ycQuhNMtZysxUPOp",
+   "album_url": "https://open.spotify.com/album/4iNFVjkK0lUEUZClibXrtX",
+   "played_at": "2026-11-16T23:01:41.349Z"
+  },
+  {
+   "name": "Since I've Been Loving You - (Live at MSG 1973) [Remaster]",
+   "artist": "Led Zeppelin",
+   "album": "The Song Remains the Same (Remaster)",
+   "year": 1976,
+   "image": "https://i.scdn.co/image/ab67616d00001e021ac4670157a26949de3ba875",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2731ac4670157a26949de3ba875",
+   "url": "https://open.spotify.com/track/6Xfw7G8EZXh9QIh8faW6q4",
+   "album_url": "https://open.spotify.com/album/0ui4S0TZghkf1d1Wz0oWpk",
+   "played_at": "2026-11-16T22:58:36.068Z"
+  },
+  {
+   "name": "Bad Medicine",
+   "artist": "Bon Jovi",
+   "album": "New Jersey (Deluxe Edition)",
+   "year": 1988,
+   "image": "https://i.scdn.co/image/ab67616d00001e02901d0116a03d30a5c45bb99c",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273901d0116a03d30a5c45bb99c",
+   "url": "https://open.spotify.com/track/72hcFp4tYkd3dbNA9dZ3Pv",
+   "album_url": "https://open.spotify.com/album/3mcKOl0KNe65BqiBa40WxR",
+   "played_at": "2026-11-16T22:50:11.807Z"
+  },
+  {
+   "name": "99 Luftballons - Remastered 2024",
+   "artist": "Nena",
+   "album": "NENA (Remastered & Selected Works)",
+   "year": 2024,
+   "image": "https://i.scdn.co/image/ab67616d00001e02aad6c8766ffd364454df5465",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273aad6c8766ffd364454df5465",
+   "url": "https://open.spotify.com/track/3NM2GsEUdDq2QYqXOMXZZW",
+   "album_url": "https://open.spotify.com/album/5OhSZi1hTPDWarLDiUT3Si",
+   "played_at": "2026-11-16T22:44:54.588Z"
+  },
+  {
+   "name": "Wherever You May Go - 2024 Remix",
+   "artist": "Whitesnake",
+   "album": "Into The Light: The Solo Albums",
+   "year": 2024,
+   "image": "https://i.scdn.co/image/ab67616d00001e0275054a7528a57bf4c4db64d3",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27375054a7528a57bf4c4db64d3",
+   "url": "https://open.spotify.com/track/3kXFGV9scmzkuAO4yrCOaj",
+   "album_url": "https://open.spotify.com/album/4ZK8lI716dYtCXQd8qlcsI",
+   "played_at": "2026-11-16T22:41:00.896Z"
+  },
   {
    "name": "Simply Irresistible",
    "artist": "Robert Palmer",
@@ -459,83 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/0fsj3HxzBHev6EJ7OLFE3r",
    "album_url": "https://open.spotify.com/album/6lu6DYE0eHHp1gd3QGUYhu",
    "played_at": "2026-11-16T15:53:21.552Z"
-  },
-  {
-   "name": "Have a Drink on Me",
-   "artist": "AC/DC",
-   "album": "Back In Black",
-   "year": 1980,
-   "image": "https://i.scdn.co/image/ab67616d00001e02ff191d7fbdb5a13eaf84132b",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273ff191d7fbdb5a13eaf84132b",
-   "url": "https://open.spotify.com/track/4dDurgTN3eGyU0ghzFJ0T1",
-   "album_url": "https://open.spotify.com/album/6mUdeDZCsExyJLMdAfDuwh",
-   "played_at": "2026-11-16T15:37:45.362Z"
-  },
-  {
-   "name": "Bark at the Moon",
-   "artist": "Ozzy Osbourne",
-   "album": "Bark At The Moon (Expanded Edition)",
-   "year": 1983,
-   "image": "https://i.scdn.co/image/ab67616d00001e02feeaf9a5c2beb414fb2b7090",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273feeaf9a5c2beb414fb2b7090",
-   "url": "https://open.spotify.com/track/2E7W1X4maFFcjHrVrFA7Vs",
-   "album_url": "https://open.spotify.com/album/537qKeG5gbEvKJpQ4Qmszn",
-   "played_at": "2026-11-16T15:33:45.765Z"
-  },
-  {
-   "name": "Tick Of The Clock (Extended Overdrive)",
-   "artist": "Chromatics",
-   "album": "Tick Of The Clock",
-   "year": 2013,
-   "image": "https://i.scdn.co/image/ab67616d00001e02bb53c786a9aebe91240a8dce",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273bb53c786a9aebe91240a8dce",
-   "url": "https://open.spotify.com/track/0I2uIgFFNynFnH9PhUsiuz",
-   "album_url": "https://open.spotify.com/album/5whQsHpQHWMoNqLSut0o2a",
-   "played_at": "2026-11-16T15:29:28.169Z"
-  },
-  {
-   "name": "Six Feet Deep",
-   "artist": "The Warning",
-   "album": "Keep Me Fed",
-   "year": 2024,
-   "image": "https://i.scdn.co/image/ab67616d00001e0293c50048dce0f88071728c8c",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27393c50048dce0f88071728c8c",
-   "url": "https://open.spotify.com/track/0PYv39k6J2A85gCidgpn5u",
-   "album_url": "https://open.spotify.com/album/1rYHznqLeJVXuy0YqwERGv",
-   "played_at": "2026-11-16T15:20:03.013Z"
-  },
-  {
-   "name": "Narcisista",
-   "artist": "The Warning",
-   "album": "Narcisista",
-   "year": 2019,
-   "image": "https://i.scdn.co/image/ab67616d00001e026954a9b87f2b99b031c0920b",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2736954a9b87f2b99b031c0920b",
-   "url": "https://open.spotify.com/track/7ECZGiOoEPSxnPBU25Tc3f",
-   "album_url": "https://open.spotify.com/album/0hToDKGzPWAXCrr7n2sKlM",
-   "played_at": "2026-11-16T15:17:02.826Z"
-  },
-  {
-   "name": "Live Like This",
-   "artist": "Return to Dust",
-   "album": "Return to Dust",
-   "year": 2024,
-   "image": "https://i.scdn.co/image/ab67616d00001e02416863729de216cc315bac0d",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273416863729de216cc315bac0d",
-   "url": "https://open.spotify.com/track/3XCi9pzqNzPDb2qqrufi1R",
-   "album_url": "https://open.spotify.com/album/2iMQfRVysuYVHB4UEhT6dB",
-   "played_at": "2026-11-16T15:12:50.666Z"
-  },
-  {
-   "name": "Voodoo Child (Slight Return) - Live",
-   "artist": "Stevie Ray Vaughan",
-   "album": "The Essential Stevie Ray Vaughan And Double Trouble",
-   "year": 2002,
-   "image": "https://i.scdn.co/image/ab67616d00001e02f443c20c8fd9933818965efc",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273f443c20c8fd9933818965efc",
-   "url": "https://open.spotify.com/track/3eZaA3p7lMJjOD3BnKsj1U",
-   "album_url": "https://open.spotify.com/album/4dShhtGUjPunYS95jHOm3r",
-   "played_at": "2026-11-16T15:08:54.153Z"
   }
  ],
  "top_artists": [
@@ -559,7 +559,7 @@ window.LISTENING = {
   },
   {
    "name": "Led Zeppelin",
-   "plays": 2307,
+   "plays": 2308,
    "url": "https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp",
    "image": "https://i.scdn.co/image/ab67616d00001e02c8a11e48c91a982d086afc69"
   },
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28737,
+   "plays": 28738,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32974,
+   "plays": 32975,
    "covers": [
     {
      "name": "Back In Black",
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 12021,
+   "plays": 12022,
    "covers": [
     {
      "name": "Material Girl",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15799,
+   "plays": 15801,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18680,
+   "plays": 18682,
    "covers": [
     {
      "name": "ERROR",
