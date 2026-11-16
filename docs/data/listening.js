@@ -1,14 +1,80 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-16T15:10:05Z",
+ "generated": "2026-11-16T15:40:11Z",
  "totals": {
-  "plays": 125248,
-  "hours": 8515.5,
+  "plays": 125254,
+  "hours": 8516.0,
   "artists": 702,
   "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Have a Drink on Me",
+   "artist": "AC/DC",
+   "album": "Back In Black",
+   "year": 1980,
+   "image": "https://i.scdn.co/image/ab67616d00001e02ff191d7fbdb5a13eaf84132b",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273ff191d7fbdb5a13eaf84132b",
+   "url": "https://open.spotify.com/track/4dDurgTN3eGyU0ghzFJ0T1",
+   "album_url": "https://open.spotify.com/album/6mUdeDZCsExyJLMdAfDuwh",
+   "played_at": "2026-11-16T15:37:45.362Z"
+  },
+  {
+   "name": "Bark at the Moon",
+   "artist": "Ozzy Osbourne",
+   "album": "Bark At The Moon (Expanded Edition)",
+   "year": 1983,
+   "image": "https://i.scdn.co/image/ab67616d00001e02feeaf9a5c2beb414fb2b7090",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273feeaf9a5c2beb414fb2b7090",
+   "url": "https://open.spotify.com/track/2E7W1X4maFFcjHrVrFA7Vs",
+   "album_url": "https://open.spotify.com/album/537qKeG5gbEvKJpQ4Qmszn",
+   "played_at": "2026-11-16T15:33:45.765Z"
+  },
+  {
+   "name": "Tick Of The Clock (Extended Overdrive)",
+   "artist": "Chromatics",
+   "album": "Tick Of The Clock",
+   "year": 2013,
+   "image": "https://i.scdn.co/image/ab67616d00001e02bb53c786a9aebe91240a8dce",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273bb53c786a9aebe91240a8dce",
+   "url": "https://open.spotify.com/track/0I2uIgFFNynFnH9PhUsiuz",
+   "album_url": "https://open.spotify.com/album/5whQsHpQHWMoNqLSut0o2a",
+   "played_at": "2026-11-16T15:29:28.169Z"
+  },
+  {
+   "name": "Six Feet Deep",
+   "artist": "The Warning",
+   "album": "Keep Me Fed",
+   "year": 2024,
+   "image": "https://i.scdn.co/image/ab67616d00001e0293c50048dce0f88071728c8c",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27393c50048dce0f88071728c8c",
+   "url": "https://open.spotify.com/track/0PYv39k6J2A85gCidgpn5u",
+   "album_url": "https://open.spotify.com/album/1rYHznqLeJVXuy0YqwERGv",
+   "played_at": "2026-11-16T15:20:03.013Z"
+  },
+  {
+   "name": "Narcisista",
+   "artist": "The Warning",
+   "album": "Narcisista",
+   "year": 2019,
+   "image": "https://i.scdn.co/image/ab67616d00001e026954a9b87f2b99b031c0920b",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2736954a9b87f2b99b031c0920b",
+   "url": "https://open.spotify.com/track/7ECZGiOoEPSxnPBU25Tc3f",
+   "album_url": "https://open.spotify.com/album/0hToDKGzPWAXCrr7n2sKlM",
+   "played_at": "2026-11-16T15:17:02.826Z"
+  },
+  {
+   "name": "Live Like This",
+   "artist": "Return to Dust",
+   "album": "Return to Dust",
+   "year": 2024,
+   "image": "https://i.scdn.co/image/ab67616d00001e02416863729de216cc315bac0d",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273416863729de216cc315bac0d",
+   "url": "https://open.spotify.com/track/3XCi9pzqNzPDb2qqrufi1R",
+   "album_url": "https://open.spotify.com/album/2iMQfRVysuYVHB4UEhT6dB",
+   "played_at": "2026-11-16T15:12:50.666Z"
+  },
   {
    "name": "Voodoo Child (Slight Return) - Live",
    "artist": "Stevie Ray Vaughan",
@@ -470,84 +536,18 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/5zH710lFSLtkHbMkslLDjR",
    "album_url": "https://open.spotify.com/album/2N0AgtWbCmVoNUl2GN1opH",
    "played_at": "2026-11-15T17:53:08.642Z"
-  },
-  {
-   "name": "The Tide Is High - Remastered 2001",
-   "artist": "Blondie",
-   "album": "Greatest Hits",
-   "year": 2002,
-   "image": "https://i.scdn.co/image/ab67616d00001e022847f04f9de392e290b5a0be",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2732847f04f9de392e290b5a0be",
-   "url": "https://open.spotify.com/track/6UYVDYeTRGYULthAwMIpYB",
-   "album_url": "https://open.spotify.com/album/4pIYJsJ8GkYWM1rvqy45ug",
-   "played_at": "2026-11-15T17:48:14.649Z"
-  },
-  {
-   "name": "Janie's Got A Gun",
-   "artist": "Aerosmith",
-   "album": "Big Ones",
-   "year": 1994,
-   "image": "https://i.scdn.co/image/ab67616d00001e02d5fdfcb083cb825348505a93",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273d5fdfcb083cb825348505a93",
-   "url": "https://open.spotify.com/track/5fMwvrqujbQjUxcNPcYrUF",
-   "album_url": "https://open.spotify.com/album/2uT123xlHuqvz14JR0KQSs",
-   "played_at": "2026-11-15T17:43:30.072Z"
-  },
-  {
-   "name": "Nobody's Fool",
-   "artist": "Cinderella",
-   "album": "Night Songs",
-   "year": 1986,
-   "image": "https://i.scdn.co/image/ab67616d00001e028e591199defaa8a0fcfca286",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2738e591199defaa8a0fcfca286",
-   "url": "https://open.spotify.com/track/01Q4wU19hamqnhNjtuvTyI",
-   "album_url": "https://open.spotify.com/album/6Af1uU7Di8q9oHyXpgvrmY",
-   "played_at": "2026-11-15T17:37:59.055Z"
-  },
-  {
-   "name": "The Pink Panther Theme",
-   "artist": "Henry Mancini",
-   "album": "The Return of the Pink Panther",
-   "year": 1975,
-   "image": "https://i.scdn.co/image/ab67616d00001e02bd7b9a253b5ce6b8b7f83eb1",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273bd7b9a253b5ce6b8b7f83eb1",
-   "url": "https://open.spotify.com/track/2hZvunBugBIVF8wPDAIA35",
-   "album_url": "https://open.spotify.com/album/6bIKRxHVsOdyfuig2BaLIo",
-   "played_at": "2026-11-15T17:33:11.255Z"
-  },
-  {
-   "name": "Forever Young",
-   "artist": "Alphaville",
-   "album": "Forever Young",
-   "year": 1984,
-   "image": "https://i.scdn.co/image/ab67616d00001e02b9c4979446c4d39bc08e9503",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273b9c4979446c4d39bc08e9503",
-   "url": "https://open.spotify.com/track/4S1VYqwfkLit9mKVY3MXoo",
-   "album_url": "https://open.spotify.com/album/2256qKBSQdt53T5dz4Kdcs",
-   "played_at": "2026-11-15T17:21:56.917Z"
-  },
-  {
-   "name": "Rainbow in the Dark",
-   "artist": "Dio",
-   "album": "Holy Diver",
-   "year": 1983,
-   "image": "https://i.scdn.co/image/ab67616d00001e022457ab409ae106f8ae1dff89",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2732457ab409ae106f8ae1dff89",
-   "url": "https://open.spotify.com/track/2PpNgmrS9mAyrkRAwn6YPq",
-   "album_url": "https://open.spotify.com/album/2ivNJLSx8Rbvnsvcn01Yt3",
-   "played_at": "2026-11-15T17:18:09.706Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10706,
+   "plays": 10708,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
   {
    "name": "AC/DC",
-   "plays": 3995,
+   "plays": 3996,
    "url": "https://open.spotify.com/artist/711MCceyCBcFnzjGY4Q7Un",
    "image": "https://i.scdn.co/image/ab67616d00001e02ff191d7fbdb5a13eaf84132b"
   },
@@ -632,7 +632,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b273ff191d7fbdb5a13eaf84132b",
    "url": "https://open.spotify.com/track/08mG3Y1vljYA6bvDt4Wqkj",
    "album_url": "https://open.spotify.com/album/6mUdeDZCsExyJLMdAfDuwh",
-   "plays": 1584
+   "plays": 1585
   },
   {
    "name": "Material Girl",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32958,
+   "plays": 32960,
    "covers": [
     {
      "name": "Back In Black",
@@ -1031,7 +1031,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273ff191d7fbdb5a13eaf84132b",
      "url": "https://open.spotify.com/track/08mG3Y1vljYA6bvDt4Wqkj",
      "album_url": "https://open.spotify.com/album/6mUdeDZCsExyJLMdAfDuwh",
-     "plays": 1584
+     "plays": 1585
     },
     {
      "name": "Rocket - Remastered 2017",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15793,
+   "plays": 15795,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18670,
+   "plays": 18672,
    "covers": [
     {
      "name": "ERROR",
@@ -1763,7 +1763,7 @@ window.LISTENING = {
     "image_large": "https://i.scdn.co/image/ab67616d0000b2736954a9b87f2b99b031c0920b",
     "url": "https://open.spotify.com/track/7ECZGiOoEPSxnPBU25Tc3f",
     "album_url": "https://open.spotify.com/album/0hToDKGzPWAXCrr7n2sKlM",
-    "plays": 322,
+    "plays": 323,
     "total": 44,
     "run_back": 35,
     "went_back": 4,
