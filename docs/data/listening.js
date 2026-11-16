@@ -1,14 +1,69 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-16T14:40:05Z",
+ "generated": "2026-11-16T15:10:05Z",
  "totals": {
-  "plays": 125243,
-  "hours": 8515.0,
+  "plays": 125248,
+  "hours": 8515.5,
   "artists": 702,
   "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Voodoo Child (Slight Return) - Live",
+   "artist": "Stevie Ray Vaughan",
+   "album": "The Essential Stevie Ray Vaughan And Double Trouble",
+   "year": 2002,
+   "image": "https://i.scdn.co/image/ab67616d00001e02f443c20c8fd9933818965efc",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273f443c20c8fd9933818965efc",
+   "url": "https://open.spotify.com/track/3eZaA3p7lMJjOD3BnKsj1U",
+   "album_url": "https://open.spotify.com/album/4dShhtGUjPunYS95jHOm3r",
+   "played_at": "2026-11-16T15:08:54.153Z"
+  },
+  {
+   "name": "Once in a Lifetime - 2005 Remaster",
+   "artist": "Talking Heads",
+   "album": "Remain in Light (Deluxe Version)",
+   "year": 1980,
+   "image": "https://i.scdn.co/image/ab67616d00001e02e56fa8c916dc6ce419dcf557",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273e56fa8c916dc6ce419dcf557",
+   "url": "https://open.spotify.com/track/38Ngied9rBORlAbLYNCl4k",
+   "album_url": "https://open.spotify.com/album/3AQgdwMNCiN7awXch5fAaG",
+   "played_at": "2026-11-16T14:57:00.972Z"
+  },
+  {
+   "name": "Mainstreet",
+   "artist": "Bob Seger",
+   "album": "Night Moves",
+   "year": 1976,
+   "image": "https://i.scdn.co/image/ab67616d00001e02676a8230a422123e8012557e",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273676a8230a422123e8012557e",
+   "url": "https://open.spotify.com/track/0XVR94voJPToKX1XoOw0ot",
+   "album_url": "https://open.spotify.com/album/5QkOpsZupEPLq186YOrBNe",
+   "played_at": "2026-11-16T14:52:40.750Z"
+  },
+  {
+   "name": "Money for Nothing",
+   "artist": "Dire Straits",
+   "album": "Brothers in Arms",
+   "year": 1985,
+   "image": "https://i.scdn.co/image/ab67616d00001e02fb995d2871f084b34afae3b3",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273fb995d2871f084b34afae3b3",
+   "url": "https://open.spotify.com/track/4yqtwO7MQIIXqoiRBPHAgR",
+   "album_url": "https://open.spotify.com/album/7jvcSnCnugLcisBCNBm60s",
+   "played_at": "2026-11-16T14:48:57.064Z"
+  },
+  {
+   "name": "Walk This Way (feat. Aerosmith)",
+   "artist": "Run–D.M.C., Aerosmith",
+   "album": "Raising Hell",
+   "year": 1986,
+   "image": "https://i.scdn.co/image/ab67616d00001e028eba18f886ca46ae6f948c54",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2738eba18f886ca46ae6f948c54",
+   "url": "https://open.spotify.com/track/6qUEOWqOzu1rLPUPQ1ECpx",
+   "album_url": "https://open.spotify.com/album/7AFsTiojVaB2I58oZ1tMRg",
+   "played_at": "2026-11-16T14:40:30.223Z"
+  },
   {
    "name": "Take A Chance On Me",
    "artist": "ABBA",
@@ -481,61 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/2PpNgmrS9mAyrkRAwn6YPq",
    "album_url": "https://open.spotify.com/album/2ivNJLSx8Rbvnsvcn01Yt3",
    "played_at": "2026-11-15T17:18:09.706Z"
-  },
-  {
-   "name": "Sober",
-   "artist": "TOOL",
-   "album": "Undertow",
-   "year": 1993,
-   "image": "https://i.scdn.co/image/ab67616d00001e02fd1602df46ac56e2f5260ec0",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273fd1602df46ac56e2f5260ec0",
-   "url": "https://open.spotify.com/track/6DyywdbmTzlmXBzG9ym7Rt",
-   "album_url": "https://open.spotify.com/album/3Esn6LoXuWtLZNYq8FCzr0",
-   "played_at": "2026-11-14T20:57:25.120Z"
-  },
-  {
-   "name": "Whole Lotta Love - Live",
-   "artist": "Jimmy Page, The Black Crowes",
-   "album": "Live at the Greek",
-   "year": 2025,
-   "image": "https://i.scdn.co/image/ab67616d00001e02fa6e624fbe4dbca748770195",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273fa6e624fbe4dbca748770195",
-   "url": "https://open.spotify.com/track/1NpILLKnL2kQYwb6bCtiPe",
-   "album_url": "https://open.spotify.com/album/27DJov9N9ian0RrcMO1Iak",
-   "played_at": "2026-11-14T16:45:04.297Z"
-  },
-  {
-   "name": "Fly Like An Eagle - Live",
-   "artist": "Steve Miller Band",
-   "album": "Live! Breaking Ground August 3, 1977",
-   "year": 2021,
-   "image": "https://i.scdn.co/image/ab67616d00001e02bb8183e59cd224aa51e51b0f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273bb8183e59cd224aa51e51b0f",
-   "url": "https://open.spotify.com/track/5ltZYU8LCCMZVU8CVTY2Jc",
-   "album_url": "https://open.spotify.com/album/1GYpibjfj4EFsTsTI1DDjh",
-   "played_at": "2026-11-14T16:39:13.279Z"
-  },
-  {
-   "name": "American Girl",
-   "artist": "Tom Petty and the Heartbreakers",
-   "album": "Tom Petty And The Heartbreakers",
-   "year": 1976,
-   "image": "https://i.scdn.co/image/ab67616d00001e02d38733f240ef69763120a469",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273d38733f240ef69763120a469",
-   "url": "https://open.spotify.com/track/53LwBS4bovyljsMlLqGfd6",
-   "album_url": "https://open.spotify.com/album/0JBy4lxBlQIxMZ8qPMIJER",
-   "played_at": "2026-11-14T13:52:17.528Z"
-  },
-  {
-   "name": "Juke Box Hero",
-   "artist": "Foreigner",
-   "album": "4 (Expanded)",
-   "year": 1981,
-   "image": "https://i.scdn.co/image/ab67616d00001e023cd67ccf241ae843f6da62f3",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2733cd67ccf241ae843f6da62f3",
-   "url": "https://open.spotify.com/track/00qOE7OjRl0BpYiCiweZB2",
-   "album_url": "https://open.spotify.com/album/2Pw51hAGvWpTA3AYl2WVuu",
-   "played_at": "2026-11-14T13:48:42.318Z"
   }
  ],
  "top_artists": [
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28729,
+   "plays": 28730,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32955,
+   "plays": 32958,
    "covers": [
     {
      "name": "Back In Black",
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 12017,
+   "plays": 12018,
    "covers": [
     {
      "name": "Material Girl",
