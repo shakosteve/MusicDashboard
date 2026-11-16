@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-16T00:10:04Z",
+ "generated": "2026-11-16T01:10:05Z",
  "totals": {
-  "plays": 125228,
-  "hours": 8513.8,
+  "plays": 125230,
+  "hours": 8514.0,
   "artists": 702,
   "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Who Are You",
+   "artist": "The Who",
+   "album": "Who Are You",
+   "year": 1978,
+   "image": "https://i.scdn.co/image/ab67616d00001e02238b25b3d5884cb4f6027663",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273238b25b3d5884cb4f6027663",
+   "url": "https://open.spotify.com/track/23IJ5wLRhEZ9DOuia5mPiZ",
+   "album_url": "https://open.spotify.com/album/7at3CV9Y9P57wsEXkfU0q8",
+   "played_at": "2026-11-16T01:07:07.875Z"
+  },
   {
    "name": "Love's Been A Little Bit Hard On Me",
    "artist": "Juice Newton",
@@ -18,7 +29,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b27399a6a7a4b4fe71d5362d16b7",
    "url": "https://open.spotify.com/track/37zpChlZkoFuScXLoiu0WE",
    "album_url": "https://open.spotify.com/album/0fSvQOkU8rRgcsW6MerdVw",
-   "played_at": "2026-11-15T23:42:31.118Z"
+   "played_at": "2026-11-16T01:00:45.802Z"
   },
   {
    "name": "Crazy Little Thing Called Love",
@@ -525,17 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/0biAECXd0N3z1pZzkuX109",
    "album_url": "https://open.spotify.com/album/2N0AgtWbCmVoNUl2GN1opH",
    "played_at": "2026-11-13T18:03:57.638Z"
-  },
-  {
-   "name": "Second Chances",
-   "artist": "Gregory Alan Isakov",
-   "album": "The Weatherman",
-   "year": 2013,
-   "image": "https://i.scdn.co/image/ab67616d00001e0233ffa5c45ccea4103c917964",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27333ffa5c45ccea4103c917964",
-   "url": "https://open.spotify.com/track/6Wu19AEKVNs5bJFuhZb4EZ",
-   "album_url": "https://open.spotify.com/album/3IcfYXw7lTtLfG5XWLlSZi",
-   "played_at": "2026-11-13T18:00:07.129Z"
   }
  ],
  "top_artists": [
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28726,
+   "plays": 28727,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32950,
+   "plays": 32951,
    "covers": [
     {
      "name": "Back In Black",
