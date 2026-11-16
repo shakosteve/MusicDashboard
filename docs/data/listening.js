@@ -1,14 +1,36 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-16T15:40:11Z",
+ "generated": "2026-11-16T16:10:06Z",
  "totals": {
-  "plays": 125254,
-  "hours": 8516.0,
+  "plays": 125256,
+  "hours": 8516.2,
   "artists": 702,
   "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Graceland",
+   "artist": "Paul Simon",
+   "album": "Graceland (25th Anniversary Deluxe Edition)",
+   "year": 1986,
+   "image": "https://i.scdn.co/image/ab67616d00001e02e5855edffddef46b7feff49b",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273e5855edffddef46b7feff49b",
+   "url": "https://open.spotify.com/track/51KKQAgYFoJHgVIuJWHdHb",
+   "album_url": "https://open.spotify.com/album/6WgGWYw6XXQyLTsWt7tXky",
+   "played_at": "2026-11-16T15:58:13.252Z"
+  },
+  {
+   "name": "Double Vision",
+   "artist": "Foreigner",
+   "album": "Double Vision (Expanded)",
+   "year": 1978,
+   "image": "https://i.scdn.co/image/ab67616d00001e025627aa0842d6287bbb223cbf",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2735627aa0842d6287bbb223cbf",
+   "url": "https://open.spotify.com/track/0fsj3HxzBHev6EJ7OLFE3r",
+   "album_url": "https://open.spotify.com/album/6lu6DYE0eHHp1gd3QGUYhu",
+   "played_at": "2026-11-16T15:53:21.552Z"
+  },
   {
    "name": "Have a Drink on Me",
    "artist": "AC/DC",
@@ -514,28 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/6g14FUj5zU9FDRwBi963vS",
    "album_url": "https://open.spotify.com/album/6TwlLNU5Zd9qGuNgSLeWPt",
    "played_at": "2026-11-15T20:33:10.347Z"
-  },
-  {
-   "name": "MARTIRIO - Live from Auditorio Nacional, CDMX",
-   "artist": "The Warning",
-   "album": "Live from Auditorio Nacional, CDMX",
-   "year": 2025,
-   "image": "https://i.scdn.co/image/ab67616d00001e025cda6d880ec3968aa6b6ac2f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
-   "url": "https://open.spotify.com/track/1SwvAnu67PRbV6NxwrwrNE",
-   "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
-   "played_at": "2026-11-15T17:58:43.183Z"
-  },
-  {
-   "name": "Crazy On You",
-   "artist": "Heart",
-   "album": "Dreamboat Annie",
-   "year": 1975,
-   "image": "https://i.scdn.co/image/ab67616d00001e028e8c08ca2feb999bb84f05e6",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2738e8c08ca2feb999bb84f05e6",
-   "url": "https://open.spotify.com/track/5zH710lFSLtkHbMkslLDjR",
-   "album_url": "https://open.spotify.com/album/2N0AgtWbCmVoNUl2GN1opH",
-   "played_at": "2026-11-15T17:53:08.642Z"
   }
  ],
  "top_artists": [
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28730,
+   "plays": 28731,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32960,
+   "plays": 32961,
    "covers": [
     {
      "name": "Back In Black",
