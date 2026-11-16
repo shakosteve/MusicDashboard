@@ -1,14 +1,80 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-16T14:10:07Z",
+ "generated": "2026-11-16T14:40:05Z",
  "totals": {
-  "plays": 125237,
-  "hours": 8514.6,
+  "plays": 125243,
+  "hours": 8515.0,
   "artists": 702,
   "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Take A Chance On Me",
+   "artist": "ABBA",
+   "album": "The Album",
+   "year": 1977,
+   "image": "https://i.scdn.co/image/ab67616d00001e026f705bef76c1d861c4d51d8c",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2736f705bef76c1d861c4d51d8c",
+   "url": "https://open.spotify.com/track/5BckPAYcKEJuYs1eV1BHHe",
+   "album_url": "https://open.spotify.com/album/5fLOHW1UXr1cJrnXiU3FBt",
+   "played_at": "2026-11-16T14:35:19.238Z"
+  },
+  {
+   "name": "Fishin' in the Dark",
+   "artist": "Nitty Gritty Dirt Band",
+   "album": "Hold On",
+   "year": 1987,
+   "image": "https://i.scdn.co/image/ab67616d00001e02c6ca6d0306c1787ceee3eab9",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273c6ca6d0306c1787ceee3eab9",
+   "url": "https://open.spotify.com/track/7lJbTVbDEMa3w7NFamrwdq",
+   "album_url": "https://open.spotify.com/album/5ToL8KapdzZAMtOT7Y4USs",
+   "played_at": "2026-11-16T14:31:14.821Z"
+  },
+  {
+   "name": "One Left Standing",
+   "artist": "Freeze the Fall",
+   "album": "One Left Standing",
+   "year": 2024,
+   "image": "https://i.scdn.co/image/ab67616d00001e02ea5be30d23d5a1502b3b05ee",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273ea5be30d23d5a1502b3b05ee",
+   "url": "https://open.spotify.com/track/14wdnM1uS9pekjzbJwHVEQ",
+   "album_url": "https://open.spotify.com/album/7nNRWe3dMjCD6NeRnJiuVy",
+   "played_at": "2026-11-16T14:27:51.563Z"
+  },
+  {
+   "name": "Hell You Call A Dream - Live from Auditorio Nacional, CDMX",
+   "artist": "The Warning",
+   "album": "Live from Auditorio Nacional, CDMX",
+   "year": 2025,
+   "image": "https://i.scdn.co/image/ab67616d00001e025cda6d880ec3968aa6b6ac2f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
+   "url": "https://open.spotify.com/track/07koXm5HsK6Dm2afr7JvKX",
+   "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
+   "played_at": "2026-11-16T14:23:35.838Z"
+  },
+  {
+   "name": "Rise Above This",
+   "artist": "Seether",
+   "album": "Finding Beauty In Negative Spaces (Bonus Track Version)",
+   "year": 2007,
+   "image": "https://i.scdn.co/image/ab67616d00001e02c418220159462cdd7cfeb9a1",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273c418220159462cdd7cfeb9a1",
+   "url": "https://open.spotify.com/track/4dZ4iHhsqQAQ4em4abLB6C",
+   "album_url": "https://open.spotify.com/album/59Tni3gA1OczshFWTMxmbo",
+   "played_at": "2026-11-16T14:20:32.361Z"
+  },
+  {
+   "name": "Whole Lotta Love - 1990 Remaster",
+   "artist": "Led Zeppelin",
+   "album": "Led Zeppelin II (1994 Remaster)",
+   "year": 1969,
+   "image": "https://i.scdn.co/image/ab67616d00001e02fc4f17340773c6c3579fea0d",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273fc4f17340773c6c3579fea0d",
+   "url": "https://open.spotify.com/track/0hCB0YR03f6AmQaHbwWDe8",
+   "album_url": "https://open.spotify.com/album/70lQYZtypdCALtFVlQAcvx",
+   "played_at": "2026-11-16T14:17:07.868Z"
+  },
   {
    "name": "Weatherman",
    "artist": "Saving Escape",
@@ -470,78 +536,12 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/00qOE7OjRl0BpYiCiweZB2",
    "album_url": "https://open.spotify.com/album/2Pw51hAGvWpTA3AYl2WVuu",
    "played_at": "2026-11-14T13:48:42.318Z"
-  },
-  {
-   "name": "Point of Know Return",
-   "artist": "Kansas",
-   "album": "Point Of Know Return (Expanded Edition)",
-   "year": 1977,
-   "image": "https://i.scdn.co/image/ab67616d00001e0259f0f56a7cd13526b5b4204c",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27359f0f56a7cd13526b5b4204c",
-   "url": "https://open.spotify.com/track/0YoAVHXeEPPzZxK0xPQqYn",
-   "album_url": "https://open.spotify.com/album/6oU298pdPTCQnMx1PYwyUA",
-   "played_at": "2026-11-14T13:44:22.036Z"
-  },
-  {
-   "name": "Carry on Wayward Son",
-   "artist": "Kansas",
-   "album": "Leftoverture (Expanded Edition)",
-   "year": 1976,
-   "image": "https://i.scdn.co/image/ab67616d00001e021be40e44db112e123e5e8b51",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2731be40e44db112e123e5e8b51",
-   "url": "https://open.spotify.com/track/4DMKwE2E2iYDKY01C335Uw",
-   "album_url": "https://open.spotify.com/album/7MejfRSNnrpcLZIxkeZDqR",
-   "played_at": "2026-11-14T13:41:10.731Z"
-  },
-  {
-   "name": "End Of The Line",
-   "artist": "Traveling Wilburys",
-   "album": "The Traveling Wilburys, Vol. 1",
-   "year": 1988,
-   "image": "https://i.scdn.co/image/ab67616d00001e023689e500e90daf0c4e9cb37f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2733689e500e90daf0c4e9cb37f",
-   "url": "https://open.spotify.com/track/2cReSKmcyhe6lw8QSj5AYD",
-   "album_url": "https://open.spotify.com/album/4zcvamWINofMEwG74kvQl1",
-   "played_at": "2026-11-14T13:35:47.179Z"
-  },
-  {
-   "name": "Time in a Bottle",
-   "artist": "Jim Croce",
-   "album": "You Don't Mess Around With Jim",
-   "year": 1972,
-   "image": "https://i.scdn.co/image/ab67616d00001e025b7a6cabbcb9fe150966563c",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2735b7a6cabbcb9fe150966563c",
-   "url": "https://open.spotify.com/track/7uWFUpGuEfmxYeymkV95jn",
-   "album_url": "https://open.spotify.com/album/0dZaHQ0OJlIyVrEuvnXmS9",
-   "played_at": "2026-11-14T13:32:17.109Z"
-  },
-  {
-   "name": "HURT (feat. The Warning)",
-   "artist": "Dead Poet Society, The Warning",
-   "album": "HURT (feat. The Warning)",
-   "year": 2024,
-   "image": "https://i.scdn.co/image/ab67616d00001e02e2cfee8fb511b55245409602",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273e2cfee8fb511b55245409602",
-   "url": "https://open.spotify.com/track/0JKhtLEsm4Rij2HK6LyLYc",
-   "album_url": "https://open.spotify.com/album/32yohVX75sFAvzlL21f8n3",
-   "played_at": "2026-11-14T13:29:47.014Z"
-  },
-  {
-   "name": "Jungle Love",
-   "artist": "Steve Miller Band",
-   "album": "Book Of Dreams",
-   "year": 1977,
-   "image": "https://i.scdn.co/image/ab67616d00001e020d9826176c32372e81a8a6cf",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2730d9826176c32372e81a8a6cf",
-   "url": "https://open.spotify.com/track/1EuqRlDP9RuzeCRVcjr1PY",
-   "album_url": "https://open.spotify.com/album/36G9sqbDXXbE7Mv9GTDMXd",
-   "played_at": "2026-11-14T13:26:12.610Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10705,
+   "plays": 10706,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
@@ -559,7 +559,7 @@ window.LISTENING = {
   },
   {
    "name": "Led Zeppelin",
-   "plays": 2306,
+   "plays": 2307,
    "url": "https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp",
    "image": "https://i.scdn.co/image/ab67616d00001e02c8a11e48c91a982d086afc69"
   },
@@ -832,7 +832,7 @@ window.LISTENING = {
   },
   {
    "decade": 1960,
-   "plays": 7062,
+   "plays": 7063,
    "covers": [
     {
      "name": "Your Time Is Gonna Come - 1990 Remaster",
@@ -854,7 +854,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273fc4f17340773c6c3579fea0d",
      "url": "https://open.spotify.com/track/0hCB0YR03f6AmQaHbwWDe8",
      "album_url": "https://open.spotify.com/album/70lQYZtypdCALtFVlQAcvx",
-     "plays": 438
+     "plays": 439
     },
     {
      "name": "All Along the Watchtower",
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28728,
+   "plays": 28729,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32954,
+   "plays": 32955,
    "covers": [
     {
      "name": "Back In Black",
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 12016,
+   "plays": 12017,
    "covers": [
     {
      "name": "Material Girl",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18668,
+   "plays": 18670,
    "covers": [
     {
      "name": "ERROR",
@@ -1440,7 +1440,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
      "url": "https://open.spotify.com/track/3zgbw0cxkS1DQ36O5hGydt",
      "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
-     "plays": 488
+     "plays": 489
     },
     {
      "name": "Shot In The Dark",
