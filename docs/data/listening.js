@@ -1,9 +1,9 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-16T21:10:06Z",
+ "generated": "2026-11-16T21:40:07Z",
  "totals": {
-  "plays": 125288,
-  "hours": 8518.5,
+  "plays": 125289,
+  "hours": 8518.6,
   "artists": 702,
   "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
@@ -18,7 +18,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b27334b292a289c635532da02671",
    "url": "https://open.spotify.com/track/5XeT9fYCeg1jYithrEni7v",
    "album_url": "https://open.spotify.com/album/033cvSPAuSU5ArRfIgQSDU",
-   "played_at": "2026-11-16T20:40:22.109Z"
+   "played_at": "2026-11-16T21:13:11.718Z"
   },
   {
    "name": "River's Soul - Live Session",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32969,
+   "plays": 32970,
    "covers": [
     {
      "name": "Back In Black",
@@ -1108,7 +1108,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b27334b292a289c635532da02671",
      "url": "https://open.spotify.com/track/5XcZRgJv3zMhTqCyESjQrF",
      "album_url": "https://open.spotify.com/album/033cvSPAuSU5ArRfIgQSDU",
-     "plays": 510
+     "plays": 511
     }
    ]
   },
