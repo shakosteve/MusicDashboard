@@ -1,14 +1,69 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-16T20:10:06Z",
+ "generated": "2026-11-16T20:40:06Z",
  "totals": {
-  "plays": 125282,
-  "hours": 8518.2,
+  "plays": 125287,
+  "hours": 8518.5,
   "artists": 702,
   "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "River's Soul - Live Session",
+   "artist": "The Warning",
+   "album": "XXI Century Blood",
+   "year": 2017,
+   "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
+   "url": "https://open.spotify.com/track/22fM8a5JGcAcMHl82bRZOY",
+   "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
+   "played_at": "2026-11-16T20:26:55.684Z"
+  },
+  {
+   "name": "Something About You",
+   "artist": "Boston",
+   "album": "Boston",
+   "year": 1976,
+   "image": "https://i.scdn.co/image/ab67616d00001e028c1fadcc997a65384f34d694",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2738c1fadcc997a65384f34d694",
+   "url": "https://open.spotify.com/track/1KxNmUInjFsoDFrLaTtpLZ",
+   "album_url": "https://open.spotify.com/album/2QLp07RO6anZHmtcKTEvSC",
+   "played_at": "2026-11-16T20:22:40.993Z"
+  },
+  {
+   "name": "God Only Knows",
+   "artist": "The Beach Boys",
+   "album": "50 Big Ones: Greatest Hits",
+   "year": 2012,
+   "image": "https://i.scdn.co/image/ab67616d00001e0210d709d905d269d37a41d4c4",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27310d709d905d269d37a41d4c4",
+   "url": "https://open.spotify.com/track/1Umw3vhysHBodpBFpFsVgK",
+   "album_url": "https://open.spotify.com/album/6cSZPNsr3tMEHo5QrMjk1F",
+   "played_at": "2026-11-16T20:18:52.571Z"
+  },
+  {
+   "name": "In The Dark - Remastered 2010",
+   "artist": "Billy Squier",
+   "album": "Don't Say No (Remastered 2010)",
+   "year": 1981,
+   "image": "https://i.scdn.co/image/ab67616d00001e02f4822f8034e697410a14a297",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273f4822f8034e697410a14a297",
+   "url": "https://open.spotify.com/track/2dgjjOdz8qnGXLos9xbNNV",
+   "album_url": "https://open.spotify.com/album/6TwlLNU5Zd9qGuNgSLeWPt",
+   "played_at": "2026-11-16T20:15:56.301Z"
+  },
+  {
+   "name": "Hard To Handle",
+   "artist": "The Black Crowes",
+   "album": "Shake Your Money Maker",
+   "year": 1990,
+   "image": "https://i.scdn.co/image/ab67616d00001e02a4d2cb95d3ea17f773db23ee",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273a4d2cb95d3ea17f773db23ee",
+   "url": "https://open.spotify.com/track/05NYcsjJwOYq4jIiKPVj9p",
+   "album_url": "https://open.spotify.com/album/2NRRQLuW6j3EsoWpIl2MR3",
+   "played_at": "2026-11-16T20:11:45.682Z"
+  },
   {
    "name": "Big Time - 2012 Remaster",
    "artist": "Peter Gabriel",
@@ -481,67 +536,12 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/07koXm5HsK6Dm2afr7JvKX",
    "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
    "played_at": "2026-11-16T14:23:35.838Z"
-  },
-  {
-   "name": "Rise Above This",
-   "artist": "Seether",
-   "album": "Finding Beauty In Negative Spaces (Bonus Track Version)",
-   "year": 2007,
-   "image": "https://i.scdn.co/image/ab67616d00001e02c418220159462cdd7cfeb9a1",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273c418220159462cdd7cfeb9a1",
-   "url": "https://open.spotify.com/track/4dZ4iHhsqQAQ4em4abLB6C",
-   "album_url": "https://open.spotify.com/album/59Tni3gA1OczshFWTMxmbo",
-   "played_at": "2026-11-16T14:20:32.361Z"
-  },
-  {
-   "name": "Whole Lotta Love - 1990 Remaster",
-   "artist": "Led Zeppelin",
-   "album": "Led Zeppelin II (1994 Remaster)",
-   "year": 1969,
-   "image": "https://i.scdn.co/image/ab67616d00001e02fc4f17340773c6c3579fea0d",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273fc4f17340773c6c3579fea0d",
-   "url": "https://open.spotify.com/track/0hCB0YR03f6AmQaHbwWDe8",
-   "album_url": "https://open.spotify.com/album/70lQYZtypdCALtFVlQAcvx",
-   "played_at": "2026-11-16T14:17:07.868Z"
-  },
-  {
-   "name": "Weatherman",
-   "artist": "Saving Escape",
-   "album": "Old Soul",
-   "year": 2019,
-   "image": "https://i.scdn.co/image/ab67616d00001e02a8e9a07f9110e842adaa5c13",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273a8e9a07f9110e842adaa5c13",
-   "url": "https://open.spotify.com/track/0ZyPLbtDjjCG9Sieby9WM2",
-   "album_url": "https://open.spotify.com/album/7MTe3RHk7fkzS75PNoWfRN",
-   "played_at": "2026-11-16T03:05:53.759Z"
-  },
-  {
-   "name": "Live And Let Die",
-   "artist": "Wings",
-   "album": "Pure McCartney (Deluxe Edition)",
-   "year": 2016,
-   "image": "https://i.scdn.co/image/ab67616d00001e025aec7680a3119d2442d0a248",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2735aec7680a3119d2442d0a248",
-   "url": "https://open.spotify.com/track/0BlnapfYbgEbTfjtg5tbCT",
-   "album_url": "https://open.spotify.com/album/5ikljNZWFHqZP2M0kKvEWb",
-   "played_at": "2026-11-16T02:44:14.552Z"
-  },
-  {
-   "name": "Sign Of The Gypsy Queen",
-   "artist": "April Wine",
-   "album": "Nature Of The Beast",
-   "year": 1981,
-   "image": "https://i.scdn.co/image/ab67616d00001e0273874b22f78daa712b909dce",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27373874b22f78daa712b909dce",
-   "url": "https://open.spotify.com/track/6F1pmXSQ0qt5SsmOqh9Bjg",
-   "album_url": "https://open.spotify.com/album/1efEmTdyntOZvQgtaPdWcU",
-   "played_at": "2026-11-16T02:40:59.345Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10708,
+   "plays": 10709,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
@@ -610,7 +610,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
    "url": "https://open.spotify.com/track/1VcLiPmina1L3xlLkJ5OTS",
    "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
-   "plays": 3493
+   "plays": 3494
   },
   {
    "name": "Dust to Dust",
@@ -676,7 +676,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b2738c1fadcc997a65384f34d694",
    "url": "https://open.spotify.com/track/1QEEqeFIZktqIpPI4jSVSF",
    "album_url": "https://open.spotify.com/album/2QLp07RO6anZHmtcKTEvSC",
-   "plays": 1110
+   "plays": 1111
   },
   {
    "name": "Leroy",
@@ -731,7 +731,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b273f4822f8034e697410a14a297",
    "url": "https://open.spotify.com/track/6g14FUj5zU9FDRwBi963vS",
    "album_url": "https://open.spotify.com/album/6TwlLNU5Zd9qGuNgSLeWPt",
-   "plays": 886
+   "plays": 887
   }
  ],
  "decades": [
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28735,
+   "plays": 28736,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -937,7 +937,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2738c1fadcc997a65384f34d694",
      "url": "https://open.spotify.com/track/1QEEqeFIZktqIpPI4jSVSF",
      "album_url": "https://open.spotify.com/album/2QLp07RO6anZHmtcKTEvSC",
-     "plays": 1110
+     "plays": 1111
     },
     {
      "name": "Barracuda",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32967,
+   "plays": 32968,
    "covers": [
     {
      "name": "Back In Black",
@@ -1053,7 +1053,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273f4822f8034e697410a14a297",
      "url": "https://open.spotify.com/track/6g14FUj5zU9FDRwBi963vS",
      "album_url": "https://open.spotify.com/album/6TwlLNU5Zd9qGuNgSLeWPt",
-     "plays": 886
+     "plays": 887
     },
     {
      "name": "Manic Monday",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9740,
+   "plays": 9741,
    "covers": [
     {
      "name": "Amazing",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15796,
+   "plays": 15798,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1313,7 +1313,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
      "url": "https://open.spotify.com/track/1VcLiPmina1L3xlLkJ5OTS",
      "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
-     "plays": 3493
+     "plays": 3494
     },
     {
      "name": "Dust to Dust",
