@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-16T13:10:07Z",
+ "generated": "2026-11-16T13:40:06Z",
  "totals": {
   "plays": 125237,
   "hours": 8514.6,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Allen Salkin Talks Hollywood Folklore + Ellie Hirsch Reveals Nutrition Hacks!",
+   "show": "Adam Carolla Show",
+   "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
+   "release_date": "2026-11-16",
+   "duration_ms": 6126393,
+   "image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f",
+   "first_seen": "2026-11-16T13:40:02Z",
+   "progress_ms": 1393003,
+   "last_seen": "2026-11-16T13:40:02Z",
+   "url": "https://open.spotify.com/episode/3RM1Gx7PTg8QejpUdzyaXE",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
+  },
+  {
    "name": "The Impossible Trilemma That Hangs Over the Nvidia Crisis",
    "show": "Odd Lots",
    "show_uri": "spotify:show:1te7oSFyRVekxMBJUSethH",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-14T14:40:02Z",
    "url": "https://open.spotify.com/episode/3CGjR9SUyLrvXFZ54Zz348",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42"
-  },
-  {
-   "name": "Godfather of AI Geoffrey Hinton: If superintelligence wants humanity gone, ‘we’re toast’",
-   "show": "Firing Line with Margaret Hoover",
-   "show_uri": "spotify:show:1uBimoCIw9AqeoN2RwlUBq",
-   "release_date": "2026-11-14",
-   "duration_ms": 2854536,
-   "image": "https://i.scdn.co/image/ab67656300005f1f836e33e0257047ce378ffcd1",
-   "first_seen": "2026-11-14T03:10:02Z",
-   "progress_ms": 2854536,
-   "last_seen": "2026-11-14T06:10:02Z",
-   "url": "https://open.spotify.com/episode/0JIJyrZ8viGbwTrnSomSnH",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f836e33e0257047ce378ffcd1"
   }
  ],
  "top_shows": [
