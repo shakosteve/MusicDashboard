@@ -1,14 +1,80 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-16T17:10:06Z",
+ "generated": "2026-11-16T17:40:05Z",
  "totals": {
-  "plays": 125268,
-  "hours": 8517.1,
+  "plays": 125274,
+  "hours": 8517.6,
   "artists": 702,
   "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Love Alive",
+   "artist": "Heart",
+   "album": "Little Queen",
+   "year": 1977,
+   "image": "https://i.scdn.co/image/ab67616d00001e0266e2e0df78c4ec35a8ed20a0",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27366e2e0df78c4ec35a8ed20a0",
+   "url": "https://open.spotify.com/track/5tVYmyLGmwJAdyXOGAKdHI",
+   "album_url": "https://open.spotify.com/album/1LaeNhiUpL3X6N0LcFvuDF",
+   "played_at": "2026-11-16T17:37:46.533Z"
+  },
+  {
+   "name": "Crazy Little Thing Called Love",
+   "artist": "Queen",
+   "album": "The Game",
+   "year": 1980,
+   "image": "https://i.scdn.co/image/ab67616d00001e02a4e6eac83c0fe38bf682f643",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273a4e6eac83c0fe38bf682f643",
+   "url": "https://open.spotify.com/track/7uON6DWIjXgmLQIfGsWXpV",
+   "album_url": "https://open.spotify.com/album/6l8tOdUItDC01Qmb91Lo8W",
+   "played_at": "2026-11-16T17:33:24.261Z"
+  },
+  {
+   "name": "Purple Rain",
+   "artist": "Prince",
+   "album": "Purple Rain",
+   "year": 1984,
+   "image": "https://i.scdn.co/image/ab67616d00001e028a2ce3f148f57584269c3782",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2738a2ce3f148f57584269c3782",
+   "url": "https://open.spotify.com/track/1uvyZBs4IZYRebHIB1747m",
+   "album_url": "https://open.spotify.com/album/2umoqwMrmjBBPeaqgYu6J9",
+   "played_at": "2026-11-16T17:30:35.781Z"
+  },
+  {
+   "name": "Coming Home",
+   "artist": "Eskobar",
+   "album": "Coming Home",
+   "year": 2021,
+   "image": "https://i.scdn.co/image/ab67616d00001e023f78eb9dd0c9d9890a7f3305",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2733f78eb9dd0c9d9890a7f3305",
+   "url": "https://open.spotify.com/track/1m3xdSBER0Vcv68BWW4vmn",
+   "album_url": "https://open.spotify.com/album/1fUNSjW6MG9QlPNDus7TQ7",
+   "played_at": "2026-11-16T17:21:53.348Z"
+  },
+  {
+   "name": "Janie's Got A Gun",
+   "artist": "Aerosmith",
+   "album": "Big Ones",
+   "year": 1994,
+   "image": "https://i.scdn.co/image/ab67616d00001e02d5fdfcb083cb825348505a93",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273d5fdfcb083cb825348505a93",
+   "url": "https://open.spotify.com/track/5fMwvrqujbQjUxcNPcYrUF",
+   "album_url": "https://open.spotify.com/album/2uT123xlHuqvz14JR0KQSs",
+   "played_at": "2026-11-16T17:17:12.768Z"
+  },
+  {
+   "name": "99 Luftballons - Remastered 2024",
+   "artist": "Nena",
+   "album": "NENA (Remastered & Selected Works)",
+   "year": 2024,
+   "image": "https://i.scdn.co/image/ab67616d00001e02aad6c8766ffd364454df5465",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273aad6c8766ffd364454df5465",
+   "url": "https://open.spotify.com/track/3NM2GsEUdDq2QYqXOMXZZW",
+   "album_url": "https://open.spotify.com/album/5OhSZi1hTPDWarLDiUT3Si",
+   "played_at": "2026-11-16T17:11:41.729Z"
+  },
   {
    "name": "Vogue",
    "artist": "Madonna",
@@ -470,72 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/2SpEHTbUuebeLkgs9QB7Ue",
    "album_url": "https://open.spotify.com/album/5DyOxuvdSmTSNAmkfcsBsj",
    "played_at": "2026-11-15T23:06:48.707Z"
-  },
-  {
-   "name": "Don't Bring Me Down",
-   "artist": "Electric Light Orchestra",
-   "album": "Discovery",
-   "year": 1979,
-   "image": "https://i.scdn.co/image/ab67616d00001e0237e78b6638f7737adee73d6f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27337e78b6638f7737adee73d6f",
-   "url": "https://open.spotify.com/track/72ahyckBJfTigJCFCviVN7",
-   "album_url": "https://open.spotify.com/album/1CvVSn2MtKDBR6aWMkNkem",
-   "played_at": "2026-11-15T23:04:04.950Z"
-  },
-  {
-   "name": "P.S.Y.C.H.O.T.I.C.",
-   "artist": "The Warning",
-   "album": "Queen of the Murder Scene",
-   "year": 2018,
-   "image": "https://i.scdn.co/image/ab67616d00001e02e0871bbaad013df7b7e56c2a",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273e0871bbaad013df7b7e56c2a",
-   "url": "https://open.spotify.com/track/0wRHqRHUXgoOXe6H6XS1sJ",
-   "album_url": "https://open.spotify.com/album/2kB1Qqw3YOR9i3nbNxXWRs",
-   "played_at": "2026-11-15T23:00:01.178Z"
-  },
-  {
-   "name": "Love Song",
-   "artist": "Tesla",
-   "album": "The Great Radio Controversy",
-   "year": 1989,
-   "image": "https://i.scdn.co/image/ab67616d00001e026dca0336b9bde7b08c190209",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2736dca0336b9bde7b08c190209",
-   "url": "https://open.spotify.com/track/0vJUdIefT5caKla9H8b1q4",
-   "album_url": "https://open.spotify.com/album/6E84FmjNjs38HXdhtOzbCM",
-   "played_at": "2026-11-15T22:56:21.220Z"
-  },
-  {
-   "name": "Take Me Down",
-   "artist": "The Pretty Reckless",
-   "album": "Who You Selling For",
-   "year": 2016,
-   "image": "https://i.scdn.co/image/ab67616d00001e02c8c07abc6bd4f9f815a96872",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273c8c07abc6bd4f9f815a96872",
-   "url": "https://open.spotify.com/track/2j219ocVSxgt7eZ3KNw9a6",
-   "album_url": "https://open.spotify.com/album/6q2xelSrpNPLJ4KkKgDkRA",
-   "played_at": "2026-11-15T22:50:57.384Z"
-  },
-  {
-   "name": "Brown Sugar",
-   "artist": "The Rolling Stones",
-   "album": "Hot Rocks 1964-1971",
-   "year": 1971,
-   "image": "https://i.scdn.co/image/ab67616d00001e02b11b3fc3c89477a7dd473bd7",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273b11b3fc3c89477a7dd473bd7",
-   "url": "https://open.spotify.com/track/34K7nU8EWQIRI93RfqhdRJ",
-   "album_url": "https://open.spotify.com/album/0aqZJlugIkTUWW1sa4BANp",
-   "played_at": "2026-11-15T22:46:43.588Z"
-  },
-  {
-   "name": "Dude (Looks Like A Lady)",
-   "artist": "Aerosmith",
-   "album": "Permanent Vacation",
-   "year": 1987,
-   "image": "https://i.scdn.co/image/ab67616d00001e02a8a965df6a845b265ee19106",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273a8a965df6a845b265ee19106",
-   "url": "https://open.spotify.com/track/6gQUbFwwdYXlKdmqRoWKJe",
-   "album_url": "https://open.spotify.com/album/3XYqOJI1YlX40kJTdzFEzp",
-   "played_at": "2026-11-15T22:42:54.001Z"
   }
  ],
  "top_artists": [
@@ -553,7 +553,7 @@ window.LISTENING = {
   },
   {
    "name": "Aerosmith",
-   "plays": 2602,
+   "plays": 2603,
    "url": "https://open.spotify.com/artist/7Ey4PD4MYsKc5I2dolUwbH",
    "image": "https://i.scdn.co/image/ab67616d00001e02587b26d49596162397b29ec8"
   },
@@ -583,13 +583,13 @@ window.LISTENING = {
   },
   {
    "name": "Heart",
-   "plays": 1933,
+   "plays": 1934,
    "url": "https://open.spotify.com/artist/34jw2BbxjoYalTp8cJFCPv",
    "image": "https://i.scdn.co/image/ab67616d00001e0266e2e0df78c4ec35a8ed20a0"
   },
   {
    "name": "Queen",
-   "plays": 1920,
+   "plays": 1921,
    "url": "https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d",
    "image": "https://i.scdn.co/image/ab67616d00001e0207744e2ed983efa3e6620a47"
   },
@@ -720,7 +720,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b27366e2e0df78c4ec35a8ed20a0",
    "url": "https://open.spotify.com/track/4KfSdst7rW39C0sfhArdrz",
    "album_url": "https://open.spotify.com/album/1LaeNhiUpL3X6N0LcFvuDF",
-   "plays": 913
+   "plays": 914
   },
   {
    "name": "My Kinda Lover - Remastered 2010",
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28733,
+   "plays": 28734,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -948,7 +948,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b27366e2e0df78c4ec35a8ed20a0",
      "url": "https://open.spotify.com/track/4KfSdst7rW39C0sfhArdrz",
      "album_url": "https://open.spotify.com/album/1LaeNhiUpL3X6N0LcFvuDF",
-     "plays": 913
+     "plays": 914
     },
     {
      "name": "Iron Man - 2012 - Remaster",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32962,
+   "plays": 32964,
    "covers": [
     {
      "name": "Back In Black",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9737,
+   "plays": 9738,
    "covers": [
     {
      "name": "Amazing",
@@ -1147,7 +1147,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273d5fdfcb083cb825348505a93",
      "url": "https://open.spotify.com/track/5fMwvrqujbQjUxcNPcYrUF",
      "album_url": "https://open.spotify.com/album/2uT123xlHuqvz14JR0KQSs",
-     "plays": 498
+     "plays": 499
     },
     {
      "name": "Uncle Tom's Cabin",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18677,
+   "plays": 18679,
    "covers": [
     {
      "name": "ERROR",
