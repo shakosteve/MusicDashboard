@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-16T20:40:06Z",
+ "generated": "2026-11-16T21:10:06Z",
  "totals": {
-  "plays": 125287,
+  "plays": 125288,
   "hours": 8518.5,
   "artists": 702,
   "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Bed of Nails",
+   "artist": "Alice Cooper",
+   "album": "Trash",
+   "year": 1989,
+   "image": "https://i.scdn.co/image/ab67616d00001e0234b292a289c635532da02671",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27334b292a289c635532da02671",
+   "url": "https://open.spotify.com/track/5XeT9fYCeg1jYithrEni7v",
+   "album_url": "https://open.spotify.com/album/033cvSPAuSU5ArRfIgQSDU",
+   "played_at": "2026-11-16T20:40:22.109Z"
+  },
   {
    "name": "River's Soul - Live Session",
    "artist": "The Warning",
@@ -525,17 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/14wdnM1uS9pekjzbJwHVEQ",
    "album_url": "https://open.spotify.com/album/7nNRWe3dMjCD6NeRnJiuVy",
    "played_at": "2026-11-16T14:27:51.563Z"
-  },
-  {
-   "name": "Hell You Call A Dream - Live from Auditorio Nacional, CDMX",
-   "artist": "The Warning",
-   "album": "Live from Auditorio Nacional, CDMX",
-   "year": 2025,
-   "image": "https://i.scdn.co/image/ab67616d00001e025cda6d880ec3968aa6b6ac2f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
-   "url": "https://open.spotify.com/track/07koXm5HsK6Dm2afr7JvKX",
-   "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
-   "played_at": "2026-11-16T14:23:35.838Z"
   }
  ],
  "top_artists": [
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32968,
+   "plays": 32969,
    "covers": [
     {
      "name": "Back In Black",
@@ -1108,7 +1108,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b27334b292a289c635532da02671",
      "url": "https://open.spotify.com/track/5XcZRgJv3zMhTqCyESjQrF",
      "album_url": "https://open.spotify.com/album/033cvSPAuSU5ArRfIgQSDU",
-     "plays": 509
+     "plays": 510
     }
    ]
   },
