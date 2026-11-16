@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-15T23:40:05Z",
+ "generated": "2026-11-16T00:10:04Z",
  "totals": {
-  "plays": 125227,
+  "plays": 125228,
   "hours": 8513.8,
   "artists": 702,
   "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Love's Been A Little Bit Hard On Me",
+   "artist": "Juice Newton",
+   "album": "Juice Newton's Greatest Hits",
+   "year": 1988,
+   "image": "https://i.scdn.co/image/ab67616d00001e0299a6a7a4b4fe71d5362d16b7",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27399a6a7a4b4fe71d5362d16b7",
+   "url": "https://open.spotify.com/track/37zpChlZkoFuScXLoiu0WE",
+   "album_url": "https://open.spotify.com/album/0fSvQOkU8rRgcsW6MerdVw",
+   "played_at": "2026-11-15T23:42:31.118Z"
+  },
   {
    "name": "Crazy Little Thing Called Love",
    "artist": "Queen",
@@ -525,17 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/6Wu19AEKVNs5bJFuhZb4EZ",
    "album_url": "https://open.spotify.com/album/3IcfYXw7lTtLfG5XWLlSZi",
    "played_at": "2026-11-13T18:00:07.129Z"
-  },
-  {
-   "name": "I Shot The Sheriff",
-   "artist": "Eric Clapton",
-   "album": "461 Ocean Blvd. (Deluxe Edition)",
-   "year": 1974,
-   "image": "https://i.scdn.co/image/ab67616d00001e02d752956b8a82ffa07baa835e",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273d752956b8a82ffa07baa835e",
-   "url": "https://open.spotify.com/track/0UOxp1BpnD8uPQMKU4wKjz",
-   "album_url": "https://open.spotify.com/album/408nODJ1r3nO7f3qWkCrCB",
-   "played_at": "2026-11-13T15:28:59.869Z"
   }
  ],
  "top_artists": [
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32949,
+   "plays": 32950,
    "covers": [
     {
      "name": "Back In Black",
