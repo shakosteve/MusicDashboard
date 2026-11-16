@@ -1,14 +1,80 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-16T16:40:08Z",
+ "generated": "2026-11-16T17:10:06Z",
  "totals": {
-  "plays": 125262,
-  "hours": 8516.6,
+  "plays": 125268,
+  "hours": 8517.1,
   "artists": 702,
   "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Vogue",
+   "artist": "Madonna",
+   "album": "The Immaculate Collection",
+   "year": 1990,
+   "image": "https://i.scdn.co/image/ab67616d00001e02e275f1fbda1c7bc82f9c386b",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273e275f1fbda1c7bc82f9c386b",
+   "url": "https://open.spotify.com/track/7j5TIXPi0cCbSSqItmbyZy",
+   "album_url": "https://open.spotify.com/album/5MzwGwnO9gkh0z6Nl4FF8h",
+   "played_at": "2026-11-16T17:07:47.961Z"
+  },
+  {
+   "name": "Nobody's Fault but Mine - Live",
+   "artist": "Jimmy Page, The Black Crowes",
+   "album": "Live at the Greek",
+   "year": 2025,
+   "image": "https://i.scdn.co/image/ab67616d00001e02fa6e624fbe4dbca748770195",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273fa6e624fbe4dbca748770195",
+   "url": "https://open.spotify.com/track/1KhLSm4UqVIqxPgja2oX3O",
+   "album_url": "https://open.spotify.com/album/27DJov9N9ian0RrcMO1Iak",
+   "played_at": "2026-11-16T17:02:30.266Z"
+  },
+  {
+   "name": "Saltwater",
+   "artist": "Matilda Marigolds",
+   "album": "Union",
+   "year": 2021,
+   "image": "https://i.scdn.co/image/ab67616d00001e02d579a612650cec9eb67574e9",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273d579a612650cec9eb67574e9",
+   "url": "https://open.spotify.com/track/08kKeLPf4vP33cYltNoMGH",
+   "album_url": "https://open.spotify.com/album/7ofKUTF17SEsGsAuaMhbj7",
+   "played_at": "2026-11-16T16:55:41.276Z"
+  },
+  {
+   "name": "Age of Machine",
+   "artist": "Greta Van Fleet",
+   "album": "The Battle at Garden’s Gate",
+   "year": 2021,
+   "image": "https://i.scdn.co/image/ab67616d00001e02339cc033bcc476d11dffba4c",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273339cc033bcc476d11dffba4c",
+   "url": "https://open.spotify.com/track/6XALorRRo9aQdBIQN0UWyn",
+   "album_url": "https://open.spotify.com/album/7kjLKy9JLbwM9F7eDQEnd2",
+   "played_at": "2026-11-16T16:50:18.371Z"
+  },
+  {
+   "name": "Fly By Night",
+   "artist": "Rush",
+   "album": "Fly By Night",
+   "year": 1975,
+   "image": "https://i.scdn.co/image/ab67616d00001e0211079bb97e1f95d1a917ce0b",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27311079bb97e1f95d1a917ce0b",
+   "url": "https://open.spotify.com/track/54TaGh2JKs1pO9daXNXI5q",
+   "album_url": "https://open.spotify.com/album/3ZtICWkqezf0bBTUwY1Khe",
+   "played_at": "2026-11-16T16:43:24.436Z"
+  },
+  {
+   "name": "Peanuts Theme",
+   "artist": "Television's Greatest Hits Band",
+   "album": "Peanuts Theme",
+   "year": 2012,
+   "image": "https://i.scdn.co/image/ab67616d00001e020c96092a8fe64494a3321945",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2730c96092a8fe64494a3321945",
+   "url": "https://open.spotify.com/track/1FSdA7A445AhLvvWsh0IYK",
+   "album_url": "https://open.spotify.com/album/6jqWw29Gv5yPmhHbEeWfIv",
+   "played_at": "2026-11-16T16:40:01.746Z"
+  },
   {
    "name": "This Is Not a Fairytale",
    "artist": "Snow White In The Dark",
@@ -470,72 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/6gQUbFwwdYXlKdmqRoWKJe",
    "album_url": "https://open.spotify.com/album/3XYqOJI1YlX40kJTdzFEzp",
    "played_at": "2026-11-15T22:42:54.001Z"
-  },
-  {
-   "name": "We Got The Beat",
-   "artist": "The Go-Go's",
-   "album": "Beauty And The Beat",
-   "year": 1981,
-   "image": "https://i.scdn.co/image/ab67616d00001e028a25755534e84d8a604e6b38",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2738a25755534e84d8a604e6b38",
-   "url": "https://open.spotify.com/track/5kz9GDBTX846OXwqWoyKzF",
-   "album_url": "https://open.spotify.com/album/1L4HE00En7eNK74voVZums",
-   "played_at": "2026-11-15T22:38:26.215Z"
-  },
-  {
-   "name": "It Takes Two",
-   "artist": "Rob Base & DJ EZ Rock",
-   "album": "It Takes Two",
-   "year": 1988,
-   "image": "https://i.scdn.co/image/ab67616d00001e02503044c032ef206e5fa78b08",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273503044c032ef206e5fa78b08",
-   "url": "https://open.spotify.com/track/0gFB5H3pHN13ERt2FyMuWi",
-   "album_url": "https://open.spotify.com/album/5tocCryeqWvFXn65seo0p6",
-   "played_at": "2026-11-15T22:35:52.583Z"
-  },
-  {
-   "name": "End of You",
-   "artist": "Poppy, Amy Lee, Courtney LaPlante",
-   "album": "End of You",
-   "year": 2025,
-   "image": "https://i.scdn.co/image/ab67616d00001e02460c53e36b10048efc49e76c",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273460c53e36b10048efc49e76c",
-   "url": "https://open.spotify.com/track/0PsFsv5xUyX06ZhIEtFkeA",
-   "album_url": "https://open.spotify.com/album/7heJiiZpgQXmqVIoz2Fra1",
-   "played_at": "2026-11-15T21:08:05.572Z"
-  },
-  {
-   "name": "Bring Me To Life",
-   "artist": "Evanescence",
-   "album": "Fallen",
-   "year": 2003,
-   "image": "https://i.scdn.co/image/ab67616d00001e0225f49ab23f0ec6332efef432",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27325f49ab23f0ec6332efef432",
-   "url": "https://open.spotify.com/track/0COqiPhxzoWICwFCS4eZcp",
-   "album_url": "https://open.spotify.com/album/02w1xMzzdF2OJxTeh1basm",
-   "played_at": "2026-11-15T21:04:51.028Z"
-  },
-  {
-   "name": "Cradle Of Love",
-   "artist": "Billy Idol",
-   "album": "Charmed Life",
-   "year": 1990,
-   "image": "https://i.scdn.co/image/ab67616d00001e029290a5f1a7e0e3e9ddb11073",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2739290a5f1a7e0e3e9ddb11073",
-   "url": "https://open.spotify.com/track/5TSANSqPTD6nBG0NSJWmVB",
-   "album_url": "https://open.spotify.com/album/4GCciwt8efweJZ4AEEvnTQ",
-   "played_at": "2026-11-15T21:00:54.661Z"
-  },
-  {
-   "name": "Click Click Boom",
-   "artist": "Saliva",
-   "album": "Every Six Seconds",
-   "year": 2001,
-   "image": "https://i.scdn.co/image/ab67616d00001e02c72cc4087da2190116857f37",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273c72cc4087da2190116857f37",
-   "url": "https://open.spotify.com/track/2CGDxXXYbkPOyRXHzQbqkT",
-   "album_url": "https://open.spotify.com/album/6gF0b1XROfpwz5bLHM1dRe",
-   "played_at": "2026-11-15T20:56:12.674Z"
   }
  ],
  "top_artists": [
@@ -565,7 +565,7 @@ window.LISTENING = {
   },
   {
    "name": "Madonna",
-   "plays": 2110,
+   "plays": 2111,
    "url": "https://open.spotify.com/artist/6tbjWDEIzxoDsBA1FuhfPW",
    "image": "https://i.scdn.co/image/ab67616d00001e026b44fa8f5415cc4c945117be"
   },
@@ -687,7 +687,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b273d579a612650cec9eb67574e9",
    "url": "https://open.spotify.com/track/6DWK2Ob0jEsqalt4mbiaLj",
    "album_url": "https://open.spotify.com/album/7ofKUTF17SEsGsAuaMhbj7",
-   "plays": 1068
+   "plays": 1069
   },
   {
    "name": "Rhyme or Reason",
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28732,
+   "plays": 28733,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9736,
+   "plays": 9737,
    "covers": [
     {
      "name": "Amazing",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15795,
+   "plays": 15796,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18674,
+   "plays": 18677,
    "covers": [
     {
      "name": "ERROR",
@@ -1418,7 +1418,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273d579a612650cec9eb67574e9",
      "url": "https://open.spotify.com/track/6DWK2Ob0jEsqalt4mbiaLj",
      "album_url": "https://open.spotify.com/album/7ofKUTF17SEsGsAuaMhbj7",
-     "plays": 1068
+     "plays": 1069
     },
     {
      "name": "Broken Bells",
@@ -1462,7 +1462,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273339cc033bcc476d11dffba4c",
      "url": "https://open.spotify.com/track/3RQjHiFJnKQKFKjQ7XI8DD",
      "album_url": "https://open.spotify.com/album/7kjLKy9JLbwM9F7eDQEnd2",
-     "plays": 444
+     "plays": 445
     },
     {
      "name": "You Suck, Baby",
