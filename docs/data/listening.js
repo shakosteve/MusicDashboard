@@ -1,14 +1,47 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-16T22:10:05Z",
+ "generated": "2026-11-16T22:40:05Z",
  "totals": {
-  "plays": 125294,
-  "hours": 8518.9,
+  "plays": 125297,
+  "hours": 8519.1,
   "artists": 702,
   "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Simply Irresistible",
+   "artist": "Robert Palmer",
+   "album": "Heavy Nova",
+   "year": 1988,
+   "image": "https://i.scdn.co/image/ab67616d00001e024c50b3182d08d49eca91f2d9",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2734c50b3182d08d49eca91f2d9",
+   "url": "https://open.spotify.com/track/0bSr5pybJSlgG5OZH441gF",
+   "album_url": "https://open.spotify.com/album/1JvTsWrfYs2PR1PdSJXipq",
+   "played_at": "2026-11-16T22:37:03.339Z"
+  },
+  {
+   "name": "Dirty Deeds",
+   "artist": "Joan Jett & the Blackhearts",
+   "album": "The Hit List",
+   "year": 1990,
+   "image": "https://i.scdn.co/image/ab67616d00001e024762653c281c71d8837d180b",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2734762653c281c71d8837d180b",
+   "url": "https://open.spotify.com/track/5EmjBlrR2TzVzyveICMllj",
+   "album_url": "https://open.spotify.com/album/2mIFpqxnoM71gHMBKlzZtM",
+   "played_at": "2026-11-16T22:32:47.744Z"
+  },
+  {
+   "name": "Pink Houses",
+   "artist": "John Mellencamp",
+   "album": "Uh-HUH!",
+   "year": 1983,
+   "image": "https://i.scdn.co/image/ab67616d00001e02cd949894aa0df080ed50ff9b",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273cd949894aa0df080ed50ff9b",
+   "url": "https://open.spotify.com/track/5JKQMoGmXwDHCodn5pFVHB",
+   "album_url": "https://open.spotify.com/album/1p4YwrjrP7t6Rfb755yoTQ",
+   "played_at": "2026-11-16T22:29:29.466Z"
+  },
   {
    "name": "End Of The Line",
    "artist": "Traveling Wilburys",
@@ -503,39 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/3eZaA3p7lMJjOD3BnKsj1U",
    "album_url": "https://open.spotify.com/album/4dShhtGUjPunYS95jHOm3r",
    "played_at": "2026-11-16T15:08:54.153Z"
-  },
-  {
-   "name": "Once in a Lifetime - 2005 Remaster",
-   "artist": "Talking Heads",
-   "album": "Remain in Light (Deluxe Version)",
-   "year": 1980,
-   "image": "https://i.scdn.co/image/ab67616d00001e02e56fa8c916dc6ce419dcf557",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273e56fa8c916dc6ce419dcf557",
-   "url": "https://open.spotify.com/track/38Ngied9rBORlAbLYNCl4k",
-   "album_url": "https://open.spotify.com/album/3AQgdwMNCiN7awXch5fAaG",
-   "played_at": "2026-11-16T14:57:00.972Z"
-  },
-  {
-   "name": "Mainstreet",
-   "artist": "Bob Seger",
-   "album": "Night Moves",
-   "year": 1976,
-   "image": "https://i.scdn.co/image/ab67616d00001e02676a8230a422123e8012557e",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273676a8230a422123e8012557e",
-   "url": "https://open.spotify.com/track/0XVR94voJPToKX1XoOw0ot",
-   "album_url": "https://open.spotify.com/album/5QkOpsZupEPLq186YOrBNe",
-   "played_at": "2026-11-16T14:52:40.750Z"
-  },
-  {
-   "name": "Money for Nothing",
-   "artist": "Dire Straits",
-   "album": "Brothers in Arms",
-   "year": 1985,
-   "image": "https://i.scdn.co/image/ab67616d00001e02fb995d2871f084b34afae3b3",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273fb995d2871f084b34afae3b3",
-   "url": "https://open.spotify.com/track/4yqtwO7MQIIXqoiRBPHAgR",
-   "album_url": "https://open.spotify.com/album/7jvcSnCnugLcisBCNBm60s",
-   "played_at": "2026-11-16T14:48:57.064Z"
   }
  ],
  "top_artists": [
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32972,
+   "plays": 32974,
    "covers": [
     {
      "name": "Back In Black",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9741,
+   "plays": 9742,
    "covers": [
     {
      "name": "Amazing",
