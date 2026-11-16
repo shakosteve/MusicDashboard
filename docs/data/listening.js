@@ -1,14 +1,36 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-16T01:40:07Z",
+ "generated": "2026-11-16T02:40:04Z",
  "totals": {
-  "plays": 125231,
-  "hours": 8514.1,
+  "plays": 125234,
+  "hours": 8514.4,
   "artists": 702,
   "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Life's Been Good",
+   "artist": "Joe Walsh",
+   "album": "But Seriously, Folks...",
+   "year": 1978,
+   "image": "https://i.scdn.co/image/ab67616d00001e023cc721dd5e7c331ba8528b09",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2733cc721dd5e7c331ba8528b09",
+   "url": "https://open.spotify.com/track/2wvMC5EyaaYQwBfiwwY2xE",
+   "album_url": "https://open.spotify.com/album/5yqBTSoJqE9EfApl2Pptva",
+   "played_at": "2026-11-16T02:36:41.461Z"
+  },
+  {
+   "name": "Juke Box Hero",
+   "artist": "Foreigner",
+   "album": "4 (Expanded)",
+   "year": 1981,
+   "image": "https://i.scdn.co/image/ab67616d00001e023cd67ccf241ae843f6da62f3",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2733cd67ccf241ae843f6da62f3",
+   "url": "https://open.spotify.com/track/00qOE7OjRl0BpYiCiweZB2",
+   "album_url": "https://open.spotify.com/album/2Pw51hAGvWpTA3AYl2WVuu",
+   "played_at": "2026-11-16T02:25:54.835Z"
+  },
   {
    "name": "Billie Jean",
    "artist": "Michael Jackson",
@@ -514,28 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/1JI4nBu8CZjKYjyADy8kAv",
    "album_url": "https://open.spotify.com/album/0kW7WYI6RWpplTyzUg048H",
    "played_at": "2026-11-13T18:15:51.254Z"
-  },
-  {
-   "name": "Dance the Night Away",
-   "artist": "Van Halen",
-   "album": "Best of Volume 1",
-   "year": 1996,
-   "image": "https://i.scdn.co/image/ab67616d00001e0243de9079ae02773c1fae9a26",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27343de9079ae02773c1fae9a26",
-   "url": "https://open.spotify.com/track/7E8sTX79VcbCaWnCu3jsko",
-   "album_url": "https://open.spotify.com/album/7ndqT6LH9o6YQ5uA7aT0St",
-   "played_at": "2026-11-13T18:11:41.853Z"
-  },
-  {
-   "name": "Oh Well feat. Chris Stapleton",
-   "artist": "Slash, Chris Stapleton",
-   "album": "Oh Well feat. Chris Stapleton",
-   "year": 2024,
-   "image": "https://i.scdn.co/image/ab67616d00001e02a288a30f4133154538ea5d3d",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273a288a30f4133154538ea5d3d",
-   "url": "https://open.spotify.com/track/6xvriZfsi9MZ8TAE2wqY2z",
-   "album_url": "https://open.spotify.com/album/0Rl9omLw3rdkK7OiSnHGAG",
-   "played_at": "2026-11-13T18:08:31.685Z"
   }
  ],
  "top_artists": [
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28727,
+   "plays": 28728,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32951,
+   "plays": 32953,
    "covers": [
     {
      "name": "Back In Black",
