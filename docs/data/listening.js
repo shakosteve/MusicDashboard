@@ -1,14 +1,91 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-16T19:10:07Z",
+ "generated": "2026-11-16T20:10:06Z",
  "totals": {
-  "plays": 125275,
-  "hours": 8517.7,
+  "plays": 125282,
+  "hours": 8518.2,
   "artists": 702,
   "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Big Time - 2012 Remaster",
+   "artist": "Peter Gabriel",
+   "album": "So (25th Anniversary Deluxe Edition)",
+   "year": 1986,
+   "image": "https://i.scdn.co/image/ab67616d00001e0255ca4eeb9d2b6d51d04f19eb",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27355ca4eeb9d2b6d51d04f19eb",
+   "url": "https://open.spotify.com/track/6IuOHB4yZcU935GKqT1K6I",
+   "album_url": "https://open.spotify.com/album/1vJ8rCzq6BJtKGz9Yf6oT3",
+   "played_at": "2026-11-16T20:08:37.099Z"
+  },
+  {
+   "name": "Swingtown",
+   "artist": "Steve Miller Band",
+   "album": "Greatest Hits 1974-78",
+   "year": 1978,
+   "image": "https://i.scdn.co/image/ab67616d00001e02632b907273dba6a6062fb780",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273632b907273dba6a6062fb780",
+   "url": "https://open.spotify.com/track/4F01HOLdVKrIfH6LwOi07f",
+   "album_url": "https://open.spotify.com/album/5hLazW5a3Ysgy3dncwGgUn",
+   "played_at": "2026-11-16T20:04:07.586Z"
+  },
+  {
+   "name": "Folsom Prison Blues",
+   "artist": "Joaquin Phoenix",
+   "album": "Walk The Line (Original Motion Picture Soundtrack)",
+   "year": 2005,
+   "image": "https://i.scdn.co/image/ab67616d00001e020ff166bfd4a462cc7f4068a6",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2730ff166bfd4a462cc7f4068a6",
+   "url": "https://open.spotify.com/track/7bh6o0jqTn2Bh0M7vHln6f",
+   "album_url": "https://open.spotify.com/album/6ICcWbsZxt5fVG02IbZuZg",
+   "played_at": "2026-11-16T20:00:37.272Z"
+  },
+  {
+   "name": "No More Tears",
+   "artist": "Ozzy Osbourne",
+   "album": "No More Tears (Expanded Edition)",
+   "year": 1991,
+   "image": "https://i.scdn.co/image/ab67616d00001e02509342e69eb341df70e5c2e3",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273509342e69eb341df70e5c2e3",
+   "url": "https://open.spotify.com/track/7w6PJe5KBPyvuRYxFkPssC",
+   "album_url": "https://open.spotify.com/album/6eh82ojicL8RSJF7GkYTh7",
+   "played_at": "2026-11-16T19:57:44.684Z"
+  },
+  {
+   "name": "3AM",
+   "artist": "Matchbox Twenty",
+   "album": "Yourself or Someone Like You",
+   "year": 1996,
+   "image": "https://i.scdn.co/image/ab67616d00001e0211585490475c991f8c83bca7",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27311585490475c991f8c83bca7",
+   "url": "https://open.spotify.com/track/5vYA1mW9g2Coh1HUFUSmlb",
+   "album_url": "https://open.spotify.com/album/4vUXTcKz7tXxrNl84meN6i",
+   "played_at": "2026-11-16T19:50:19.102Z"
+  },
+  {
+   "name": "Judith",
+   "artist": "A Perfect Circle",
+   "album": "Mer De Noms",
+   "year": 2000,
+   "image": "https://i.scdn.co/image/ab67616d00001e022d73b494efcb99356f8c7b28",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2732d73b494efcb99356f8c7b28",
+   "url": "https://open.spotify.com/track/5KDNFlHAdDJ84fhK27c35X",
+   "album_url": "https://open.spotify.com/album/0GeWd0yUKXHbCXVag1mJvO",
+   "played_at": "2026-11-16T19:46:32.703Z"
+  },
+  {
+   "name": "Look What The Cat Dragged In",
+   "artist": "Poison",
+   "album": "Look What The Cat Dragged In - 20th Anniversary Edition",
+   "year": 1986,
+   "image": "https://i.scdn.co/image/ab67616d00001e02d007e25f2264718c5a9dde34",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273d007e25f2264718c5a9dde34",
+   "url": "https://open.spotify.com/track/5DmRCfszmaz7osOPCmAHVI",
+   "album_url": "https://open.spotify.com/album/2SkbSj0eZ2H5uqKYEnMmIe",
+   "played_at": "2026-11-16T19:42:24.860Z"
+  },
   {
    "name": "Women - Remastered 2017",
    "artist": "Def Leppard",
@@ -459,83 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/6F1pmXSQ0qt5SsmOqh9Bjg",
    "album_url": "https://open.spotify.com/album/1efEmTdyntOZvQgtaPdWcU",
    "played_at": "2026-11-16T02:40:59.345Z"
-  },
-  {
-   "name": "Life's Been Good",
-   "artist": "Joe Walsh",
-   "album": "But Seriously, Folks...",
-   "year": 1978,
-   "image": "https://i.scdn.co/image/ab67616d00001e023cc721dd5e7c331ba8528b09",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2733cc721dd5e7c331ba8528b09",
-   "url": "https://open.spotify.com/track/2wvMC5EyaaYQwBfiwwY2xE",
-   "album_url": "https://open.spotify.com/album/5yqBTSoJqE9EfApl2Pptva",
-   "played_at": "2026-11-16T02:36:41.461Z"
-  },
-  {
-   "name": "Juke Box Hero",
-   "artist": "Foreigner",
-   "album": "4 (Expanded)",
-   "year": 1981,
-   "image": "https://i.scdn.co/image/ab67616d00001e023cd67ccf241ae843f6da62f3",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2733cd67ccf241ae843f6da62f3",
-   "url": "https://open.spotify.com/track/00qOE7OjRl0BpYiCiweZB2",
-   "album_url": "https://open.spotify.com/album/2Pw51hAGvWpTA3AYl2WVuu",
-   "played_at": "2026-11-16T02:25:54.835Z"
-  },
-  {
-   "name": "Billie Jean",
-   "artist": "Michael Jackson",
-   "album": "Thriller 25 Super Deluxe Edition",
-   "year": 2008,
-   "image": "https://i.scdn.co/image/ab67616d00001e024121faee8df82c526cbab2be",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2734121faee8df82c526cbab2be",
-   "url": "https://open.spotify.com/track/5ChkMS8OtdzJeqyybCc9R5",
-   "album_url": "https://open.spotify.com/album/1C2h7mLntPSeVYciMRTF4a",
-   "played_at": "2026-11-16T01:12:02.292Z"
-  },
-  {
-   "name": "Who Are You",
-   "artist": "The Who",
-   "album": "Who Are You",
-   "year": 1978,
-   "image": "https://i.scdn.co/image/ab67616d00001e02238b25b3d5884cb4f6027663",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273238b25b3d5884cb4f6027663",
-   "url": "https://open.spotify.com/track/23IJ5wLRhEZ9DOuia5mPiZ",
-   "album_url": "https://open.spotify.com/album/7at3CV9Y9P57wsEXkfU0q8",
-   "played_at": "2026-11-16T01:07:07.875Z"
-  },
-  {
-   "name": "Love's Been A Little Bit Hard On Me",
-   "artist": "Juice Newton",
-   "album": "Juice Newton's Greatest Hits",
-   "year": 1988,
-   "image": "https://i.scdn.co/image/ab67616d00001e0299a6a7a4b4fe71d5362d16b7",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27399a6a7a4b4fe71d5362d16b7",
-   "url": "https://open.spotify.com/track/37zpChlZkoFuScXLoiu0WE",
-   "album_url": "https://open.spotify.com/album/0fSvQOkU8rRgcsW6MerdVw",
-   "played_at": "2026-11-16T01:00:45.802Z"
-  },
-  {
-   "name": "Crazy Little Thing Called Love",
-   "artist": "Queen",
-   "album": "The Game",
-   "year": 1980,
-   "image": "https://i.scdn.co/image/ab67616d00001e02a4e6eac83c0fe38bf682f643",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273a4e6eac83c0fe38bf682f643",
-   "url": "https://open.spotify.com/track/7uON6DWIjXgmLQIfGsWXpV",
-   "album_url": "https://open.spotify.com/album/6l8tOdUItDC01Qmb91Lo8W",
-   "played_at": "2026-11-15T23:12:41.468Z"
-  },
-  {
-   "name": "Ohio",
-   "artist": "Crosby, Stills, Nash & Young",
-   "album": "So Far",
-   "year": 1974,
-   "image": "https://i.scdn.co/image/ab67616d00001e026ae632b15daa8ac05ed90f28",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2736ae632b15daa8ac05ed90f28",
-   "url": "https://open.spotify.com/track/0ToHhkK4qtwEyKOxhQpMbJ",
-   "album_url": "https://open.spotify.com/album/5C1NUv7hNWS6n0GBtLetKM",
-   "played_at": "2026-11-15T23:09:52.970Z"
   }
  ],
  "top_artists": [
@@ -577,7 +577,7 @@ window.LISTENING = {
   },
   {
    "name": "Steve Miller Band",
-   "plays": 1962,
+   "plays": 1963,
    "url": "https://open.spotify.com/artist/6QtGlUje9TIkLrgPZrESuk",
    "image": "https://i.scdn.co/image/ab67616d00001e02632b907273dba6a6062fb780"
   },
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28734,
+   "plays": 28735,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -992,7 +992,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273632b907273dba6a6062fb780",
      "url": "https://open.spotify.com/track/2zI3bUYn2pcF27of6i2oqK",
      "album_url": "https://open.spotify.com/album/5hLazW5a3Ysgy3dncwGgUn",
-     "plays": 667
+     "plays": 668
     },
     {
      "name": "Take It Easy - 2013 Remaster",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32965,
+   "plays": 32967,
    "covers": [
     {
      "name": "Back In Black",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9738,
+   "plays": 9740,
    "covers": [
     {
      "name": "Amazing",
@@ -1136,7 +1136,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273509342e69eb341df70e5c2e3",
      "url": "https://open.spotify.com/track/0S3gpZzlT9Hb7CCSV2owX7",
      "album_url": "https://open.spotify.com/album/6eh82ojicL8RSJF7GkYTh7",
-     "plays": 533
+     "plays": 534
     },
     {
      "name": "Janie's Got A Gun",
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 12019,
+   "plays": 12021,
    "covers": [
     {
      "name": "Material Girl",
@@ -1230,7 +1230,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2730ff166bfd4a462cc7f4068a6",
      "url": "https://open.spotify.com/track/7bh6o0jqTn2Bh0M7vHln6f",
      "album_url": "https://open.spotify.com/album/6ICcWbsZxt5fVG02IbZuZg",
-     "plays": 884
+     "plays": 885
     },
     {
      "name": "My Immortal",
