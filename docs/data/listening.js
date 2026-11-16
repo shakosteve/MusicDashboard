@@ -1,14 +1,58 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-16T21:40:07Z",
+ "generated": "2026-11-16T22:10:05Z",
  "totals": {
-  "plays": 125289,
-  "hours": 8518.6,
+  "plays": 125294,
+  "hours": 8518.9,
   "artists": 702,
   "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "End Of The Line",
+   "artist": "Traveling Wilburys",
+   "album": "The Traveling Wilburys, Vol. 1",
+   "year": 1988,
+   "image": "https://i.scdn.co/image/ab67616d00001e023689e500e90daf0c4e9cb37f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2733689e500e90daf0c4e9cb37f",
+   "url": "https://open.spotify.com/track/2cReSKmcyhe6lw8QSj5AYD",
+   "album_url": "https://open.spotify.com/album/4zcvamWINofMEwG74kvQl1",
+   "played_at": "2026-11-16T22:05:41.002Z"
+  },
+  {
+   "name": "Sweet Lovin'",
+   "artist": "Saving Escape",
+   "album": "Sweet Lovin'",
+   "year": 2022,
+   "image": "https://i.scdn.co/image/ab67616d00001e02b94ea8e89ca894d33e380801",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273b94ea8e89ca894d33e380801",
+   "url": "https://open.spotify.com/track/1zk1dg2bLI5CSgVAkOdCgc",
+   "album_url": "https://open.spotify.com/album/05SKvplbcT8L4inSKn7Z2x",
+   "played_at": "2026-11-16T22:02:10.995Z"
+  },
+  {
+   "name": "I Don't Care (Yo No Sé)",
+   "artist": "Los Dug Dug's",
+   "album": "Smog",
+   "year": 2015,
+   "image": "https://i.scdn.co/image/ab67616d00001e0293db80d5075e7e4ea1e51dd5",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27393db80d5075e7e4ea1e51dd5",
+   "url": "https://open.spotify.com/track/0JWTYPafwH0RvnHiS7IwH5",
+   "album_url": "https://open.spotify.com/album/1QQZWTHIDvquxXLSqCaq9L",
+   "played_at": "2026-11-16T21:59:01.153Z"
+  },
+  {
+   "name": "Sundown",
+   "artist": "Gordon Lightfoot",
+   "album": "Sundown",
+   "year": 1974,
+   "image": "https://i.scdn.co/image/ab67616d00001e028f2b3a1c0559ca6188de574b",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2738f2b3a1c0559ca6188de574b",
+   "url": "https://open.spotify.com/track/0SjnBEHZVXgCKvOrpvzL2k",
+   "album_url": "https://open.spotify.com/album/2IPD9EcNjUmsHvqULDMU9Y",
+   "played_at": "2026-11-16T21:55:12.001Z"
+  },
   {
    "name": "Bed of Nails",
    "artist": "Alice Cooper",
@@ -18,7 +62,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b27334b292a289c635532da02671",
    "url": "https://open.spotify.com/track/5XeT9fYCeg1jYithrEni7v",
    "album_url": "https://open.spotify.com/album/033cvSPAuSU5ArRfIgQSDU",
-   "played_at": "2026-11-16T21:13:11.718Z"
+   "played_at": "2026-11-16T21:51:38.082Z"
   },
   {
    "name": "River's Soul - Live Session",
@@ -492,50 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/4yqtwO7MQIIXqoiRBPHAgR",
    "album_url": "https://open.spotify.com/album/7jvcSnCnugLcisBCNBm60s",
    "played_at": "2026-11-16T14:48:57.064Z"
-  },
-  {
-   "name": "Walk This Way (feat. Aerosmith)",
-   "artist": "Run–D.M.C., Aerosmith",
-   "album": "Raising Hell",
-   "year": 1986,
-   "image": "https://i.scdn.co/image/ab67616d00001e028eba18f886ca46ae6f948c54",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2738eba18f886ca46ae6f948c54",
-   "url": "https://open.spotify.com/track/6qUEOWqOzu1rLPUPQ1ECpx",
-   "album_url": "https://open.spotify.com/album/7AFsTiojVaB2I58oZ1tMRg",
-   "played_at": "2026-11-16T14:40:30.223Z"
-  },
-  {
-   "name": "Take A Chance On Me",
-   "artist": "ABBA",
-   "album": "The Album",
-   "year": 1977,
-   "image": "https://i.scdn.co/image/ab67616d00001e026f705bef76c1d861c4d51d8c",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2736f705bef76c1d861c4d51d8c",
-   "url": "https://open.spotify.com/track/5BckPAYcKEJuYs1eV1BHHe",
-   "album_url": "https://open.spotify.com/album/5fLOHW1UXr1cJrnXiU3FBt",
-   "played_at": "2026-11-16T14:35:19.238Z"
-  },
-  {
-   "name": "Fishin' in the Dark",
-   "artist": "Nitty Gritty Dirt Band",
-   "album": "Hold On",
-   "year": 1987,
-   "image": "https://i.scdn.co/image/ab67616d00001e02c6ca6d0306c1787ceee3eab9",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273c6ca6d0306c1787ceee3eab9",
-   "url": "https://open.spotify.com/track/7lJbTVbDEMa3w7NFamrwdq",
-   "album_url": "https://open.spotify.com/album/5ToL8KapdzZAMtOT7Y4USs",
-   "played_at": "2026-11-16T14:31:14.821Z"
-  },
-  {
-   "name": "One Left Standing",
-   "artist": "Freeze the Fall",
-   "album": "One Left Standing",
-   "year": 2024,
-   "image": "https://i.scdn.co/image/ab67616d00001e02ea5be30d23d5a1502b3b05ee",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273ea5be30d23d5a1502b3b05ee",
-   "url": "https://open.spotify.com/track/14wdnM1uS9pekjzbJwHVEQ",
-   "album_url": "https://open.spotify.com/album/7nNRWe3dMjCD6NeRnJiuVy",
-   "played_at": "2026-11-16T14:27:51.563Z"
   }
  ],
  "top_artists": [
@@ -595,7 +595,7 @@ window.LISTENING = {
   },
   {
    "name": "Saving Escape",
-   "plays": 1682,
+   "plays": 1683,
    "url": "https://open.spotify.com/artist/2VfhnjHV7e3M499VPa1w71",
    "image": "https://i.scdn.co/image/ab67616d00001e02a8e9a07f9110e842adaa5c13"
   }
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28736,
+   "plays": 28737,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32970,
+   "plays": 32972,
    "covers": [
     {
      "name": "Back In Black",
@@ -1108,7 +1108,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b27334b292a289c635532da02671",
      "url": "https://open.spotify.com/track/5XcZRgJv3zMhTqCyESjQrF",
      "album_url": "https://open.spotify.com/album/033cvSPAuSU5ArRfIgQSDU",
-     "plays": 511
+     "plays": 512
     }
    ]
   },
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15798,
+   "plays": 15799,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18679,
+   "plays": 18680,
    "covers": [
     {
      "name": "ERROR",
