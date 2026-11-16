@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-16T03:10:06Z",
+ "generated": "2026-11-16T12:40:05Z",
  "totals": {
-  "plays": 125236,
-  "hours": 8514.5,
+  "plays": 125237,
+  "hours": 8514.6,
   "artists": 702,
   "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Weatherman",
+   "artist": "Saving Escape",
+   "album": "Old Soul",
+   "year": 2019,
+   "image": "https://i.scdn.co/image/ab67616d00001e02a8e9a07f9110e842adaa5c13",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273a8e9a07f9110e842adaa5c13",
+   "url": "https://open.spotify.com/track/0ZyPLbtDjjCG9Sieby9WM2",
+   "album_url": "https://open.spotify.com/album/7MTe3RHk7fkzS75PNoWfRN",
+   "played_at": "2026-11-16T03:05:53.759Z"
+  },
   {
    "name": "Live And Let Die",
    "artist": "Wings",
@@ -525,17 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/1EuqRlDP9RuzeCRVcjr1PY",
    "album_url": "https://open.spotify.com/album/36G9sqbDXXbE7Mv9GTDMXd",
    "played_at": "2026-11-14T13:26:12.610Z"
-  },
-  {
-   "name": "Hangman Jury",
-   "artist": "Aerosmith",
-   "album": "Permanent Vacation",
-   "year": 1987,
-   "image": "https://i.scdn.co/image/ab67616d00001e02a8a965df6a845b265ee19106",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273a8a965df6a845b265ee19106",
-   "url": "https://open.spotify.com/track/05eJthbLhxvnWvB3XF9HaQ",
-   "album_url": "https://open.spotify.com/album/3XYqOJI1YlX40kJTdzFEzp",
-   "played_at": "2026-11-14T13:23:04.410Z"
   }
  ],
  "top_artists": [
@@ -595,7 +595,7 @@ window.LISTENING = {
   },
   {
    "name": "Saving Escape",
-   "plays": 1680,
+   "plays": 1681,
    "url": "https://open.spotify.com/artist/2VfhnjHV7e3M499VPa1w71",
    "image": "https://i.scdn.co/image/ab67616d00001e02a8e9a07f9110e842adaa5c13"
   }
@@ -698,7 +698,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b273a8e9a07f9110e842adaa5c13",
    "url": "https://open.spotify.com/track/7sBi5RImk3idy4kfSkbsMq",
    "album_url": "https://open.spotify.com/album/7MTe3RHk7fkzS75PNoWfRN",
-   "plays": 1007
+   "plays": 1008
   },
   {
    "name": "Escape the Mind",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15792,
+   "plays": 15793,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1335,7 +1335,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273a8e9a07f9110e842adaa5c13",
      "url": "https://open.spotify.com/track/7sBi5RImk3idy4kfSkbsMq",
      "album_url": "https://open.spotify.com/album/7MTe3RHk7fkzS75PNoWfRN",
-     "plays": 1007
+     "plays": 1008
     },
     {
      "name": "Escape the Mind",
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "The Impossible Trilemma That Hangs Over the Nvidia Crisis",
+   "show": "Odd Lots",
+   "show_uri": "spotify:show:1te7oSFyRVekxMBJUSethH",
+   "release_date": "2026-11-16",
+   "duration_ms": 2778201,
+   "image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42",
+   "first_seen": "2026-11-16T12:40:02Z",
+   "progress_ms": 846215,
+   "last_seen": "2026-11-16T12:40:02Z",
+   "url": "https://open.spotify.com/episode/0KCvIiHOS1Vu0oMzwdKk5r",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42"
+  },
+  {
    "name": "Moscow car bombing maims Ukrainian traitor as drones blast major Russian refinery",
    "show": "Ukraine: The Latest",
    "show_uri": "spotify:show:6cnkk1J0I1UqtxTYVUL4Fe",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-14T06:10:02Z",
    "url": "https://open.spotify.com/episode/0JIJyrZ8viGbwTrnSomSnH",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f836e33e0257047ce378ffcd1"
-  },
-  {
-   "name": "Nvidia’s Hard Reset",
-   "show": "The Powers That Be: Daily",
-   "show_uri": "spotify:show:5ZChG4x3aogGtKGkxU6nMH",
-   "release_date": "2026-11-13",
-   "duration_ms": 1150955,
-   "image": "https://i.scdn.co/image/ab67656300005f1f36f39d45bf295cbf58d41331",
-   "first_seen": "2026-11-14T04:10:02Z",
-   "progress_ms": 1262560,
-   "last_seen": "2026-11-14T06:10:02Z",
-   "url": "https://open.spotify.com/episode/0EbwsgzMKyTmJj2L8Ol00c",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f55386ae3fe554333e1a85785"
   }
  ],
  "top_shows": [
