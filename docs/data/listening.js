@@ -1,14 +1,80 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-16T16:10:06Z",
+ "generated": "2026-11-16T16:40:08Z",
  "totals": {
-  "plays": 125256,
-  "hours": 8516.2,
+  "plays": 125262,
+  "hours": 8516.6,
   "artists": 702,
   "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "This Is Not a Fairytale",
+   "artist": "Snow White In The Dark",
+   "album": "This Is Not a Fairytale",
+   "year": 2025,
+   "image": "https://i.scdn.co/image/ab67616d00001e028fe652bf2b2374a80eb4051f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2738fe652bf2b2374a80eb4051f",
+   "url": "https://open.spotify.com/track/1vwtMv5y1Ov8EwAcdMPSul",
+   "album_url": "https://open.spotify.com/album/1k7v5HwUfAvK1WZqPca9F4",
+   "played_at": "2026-11-16T16:37:39.658Z"
+  },
+  {
+   "name": "Love Walks In",
+   "artist": "Van Halen",
+   "album": "5150",
+   "year": 1986,
+   "image": "https://i.scdn.co/image/ab67616d00001e0281e66f0aa00989cbe6030d57",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27381e66f0aa00989cbe6030d57",
+   "url": "https://open.spotify.com/track/6FRQGRdhueJGTKiYnirDNy",
+   "album_url": "https://open.spotify.com/album/5Ew5vOg3PYyT9QUPCrdIZq",
+   "played_at": "2026-11-16T16:34:36.762Z"
+  },
+  {
+   "name": "Get Mine",
+   "artist": "Saving Escape",
+   "album": "Get Mine",
+   "year": 2021,
+   "image": "https://i.scdn.co/image/ab67616d00001e02730eac18e294e49eab51a34e",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273730eac18e294e49eab51a34e",
+   "url": "https://open.spotify.com/track/08gbLPbnnIg00c9l4yleXD",
+   "album_url": "https://open.spotify.com/album/2DAfvJsZK92xQzXzAMtD5Q",
+   "played_at": "2026-11-16T16:29:25.319Z"
+  },
+  {
+   "name": "Dynamite",
+   "artist": "Brenda Lee",
+   "album": "The Definitive Collection",
+   "year": 2006,
+   "image": "https://i.scdn.co/image/ab67616d00001e02a651b174fe0434e77cb41357",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273a651b174fe0434e77cb41357",
+   "url": "https://open.spotify.com/track/12k4dpdvNrecNlItPsEkws",
+   "album_url": "https://open.spotify.com/album/6MnONrtVA0THe98hL9FKQp",
+   "played_at": "2026-11-16T16:24:16.526Z"
+  },
+  {
+   "name": "Cool Change - Remastered 2022",
+   "artist": "Little River Band",
+   "album": "First Under The Wire (Remastered 2022)",
+   "year": 1979,
+   "image": "https://i.scdn.co/image/ab67616d00001e02d45ea4a21fa17a4e3bf9b378",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273d45ea4a21fa17a4e3bf9b378",
+   "url": "https://open.spotify.com/track/2SEGYVnWImKLUOkU3Qa8sX",
+   "album_url": "https://open.spotify.com/album/1pPsslUdE1HeBxdlgXJ7Yp",
+   "played_at": "2026-11-16T16:22:13.166Z"
+  },
+  {
+   "name": "Magic Carpet Ride",
+   "artist": "Steppenwolf",
+   "album": "The Second",
+   "year": 1968,
+   "image": "https://i.scdn.co/image/ab67616d00001e02626d1849afa1bc27a8743dfe",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273626d1849afa1bc27a8743dfe",
+   "url": "https://open.spotify.com/track/4c4jJJoaiY21t2TyRZgdWS",
+   "album_url": "https://open.spotify.com/album/2Y5GORWYwVAZ8msuEuh5FN",
+   "played_at": "2026-11-16T16:16:56.450Z"
+  },
   {
    "name": "Graceland",
    "artist": "Paul Simon",
@@ -470,72 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/2CGDxXXYbkPOyRXHzQbqkT",
    "album_url": "https://open.spotify.com/album/6gF0b1XROfpwz5bLHM1dRe",
    "played_at": "2026-11-15T20:56:12.674Z"
-  },
-  {
-   "name": "Rain On The Scarecrow",
-   "artist": "John Mellencamp",
-   "album": "Scarecrow",
-   "year": 1985,
-   "image": "https://i.scdn.co/image/ab67616d00001e02b46e7ea6a6b2fa45caa23393",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273b46e7ea6a6b2fa45caa23393",
-   "url": "https://open.spotify.com/track/24iUpyUeGv6AoikfxpRofO",
-   "album_url": "https://open.spotify.com/album/1BYEhfr8qQGNhbqPAbfnxk",
-   "played_at": "2026-11-15T20:51:59.796Z"
-  },
-  {
-   "name": "Rock Of Ages",
-   "artist": "Def Leppard",
-   "album": "Pyromania (Deluxe)",
-   "year": 1983,
-   "image": "https://i.scdn.co/image/ab67616d00001e02c56fbdf8c58463a4cced0d03",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273c56fbdf8c58463a4cced0d03",
-   "url": "https://open.spotify.com/track/2AmEv442DGwSxMGZ9XEvBA",
-   "album_url": "https://open.spotify.com/album/3MJoDIkQxY0MTXE8fqzmPu",
-   "played_at": "2026-11-15T20:48:13.040Z"
-  },
-  {
-   "name": "Sea of Love - 2006 Remaster",
-   "artist": "The Honeydrippers",
-   "album": "The Honeydrippers, Vol. 1 (Expanded)",
-   "year": 1984,
-   "image": "https://i.scdn.co/image/ab67616d00001e024275ec095a72b84743934fce",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2734275ec095a72b84743934fce",
-   "url": "https://open.spotify.com/track/0VMGij4wSGBM5pSTcqjxeD",
-   "album_url": "https://open.spotify.com/album/0fwGgCBAMQ0ItsxR7yBE8O",
-   "played_at": "2026-11-15T20:44:03.659Z"
-  },
-  {
-   "name": "Fly Away",
-   "artist": "Lenny Kravitz",
-   "album": "5",
-   "year": 1998,
-   "image": "https://i.scdn.co/image/ab67616d00001e02f1157b7dcd21bae0c2c75d89",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273f1157b7dcd21bae0c2c75d89",
-   "url": "https://open.spotify.com/track/1OxcIUqVmVYxT6427tbhDW",
-   "album_url": "https://open.spotify.com/album/6MCNMOCRsh6nxs7PNzc0zN",
-   "played_at": "2026-11-15T20:40:59.381Z"
-  },
-  {
-   "name": "Never",
-   "artist": "Heart",
-   "album": "Heart",
-   "year": 1985,
-   "image": "https://i.scdn.co/image/ab67616d00001e02aac099da610b063763c63117",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273aac099da610b063763c63117",
-   "url": "https://open.spotify.com/track/4yEMyaB6PGBpQvac2yD9wZ",
-   "album_url": "https://open.spotify.com/album/0zM8rTVzPoT7SD4ZMds430",
-   "played_at": "2026-11-15T20:37:17.457Z"
-  },
-  {
-   "name": "My Kinda Lover - Remastered 2010",
-   "artist": "Billy Squier",
-   "album": "Don't Say No (Remastered 2010)",
-   "year": 1981,
-   "image": "https://i.scdn.co/image/ab67616d00001e02f4822f8034e697410a14a297",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273f4822f8034e697410a14a297",
-   "url": "https://open.spotify.com/track/6g14FUj5zU9FDRwBi963vS",
-   "album_url": "https://open.spotify.com/album/6TwlLNU5Zd9qGuNgSLeWPt",
-   "played_at": "2026-11-15T20:33:10.347Z"
   }
  ],
  "top_artists": [
@@ -571,7 +571,7 @@ window.LISTENING = {
   },
   {
    "name": "Van Halen",
-   "plays": 2054,
+   "plays": 2055,
    "url": "https://open.spotify.com/artist/2cnMpRsOVqtPMfq7YiFE6K",
    "image": "https://i.scdn.co/image/ab67616d00001e02b414c63fb435b622238c15ed"
   },
@@ -595,7 +595,7 @@ window.LISTENING = {
   },
   {
    "name": "Saving Escape",
-   "plays": 1681,
+   "plays": 1682,
    "url": "https://open.spotify.com/artist/2VfhnjHV7e3M499VPa1w71",
    "image": "https://i.scdn.co/image/ab67616d00001e02a8e9a07f9110e842adaa5c13"
   }
@@ -832,7 +832,7 @@ window.LISTENING = {
   },
   {
    "decade": 1960,
-   "plays": 7063,
+   "plays": 7064,
    "covers": [
     {
      "name": "Your Time Is Gonna Come - 1990 Remaster",
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28731,
+   "plays": 28732,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32961,
+   "plays": 32962,
    "covers": [
     {
      "name": "Back In Black",
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 12018,
+   "plays": 12019,
    "covers": [
     {
      "name": "Material Girl",
@@ -1296,7 +1296,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273a651b174fe0434e77cb41357",
      "url": "https://open.spotify.com/track/12k4dpdvNrecNlItPsEkws",
      "album_url": "https://open.spotify.com/album/6MnONrtVA0THe98hL9FKQp",
-     "plays": 249
+     "plays": 250
     }
    ]
   },
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18672,
+   "plays": 18674,
    "covers": [
     {
      "name": "ERROR",
