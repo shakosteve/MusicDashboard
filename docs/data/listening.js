@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-16T01:10:05Z",
+ "generated": "2026-11-16T01:40:07Z",
  "totals": {
-  "plays": 125230,
-  "hours": 8514.0,
+  "plays": 125231,
+  "hours": 8514.1,
   "artists": 702,
   "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Billie Jean",
+   "artist": "Michael Jackson",
+   "album": "Thriller 25 Super Deluxe Edition",
+   "year": 2008,
+   "image": "https://i.scdn.co/image/ab67616d00001e024121faee8df82c526cbab2be",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2734121faee8df82c526cbab2be",
+   "url": "https://open.spotify.com/track/5ChkMS8OtdzJeqyybCc9R5",
+   "album_url": "https://open.spotify.com/album/1C2h7mLntPSeVYciMRTF4a",
+   "played_at": "2026-11-16T01:12:02.292Z"
+  },
   {
    "name": "Who Are You",
    "artist": "The Who",
@@ -525,17 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/6xvriZfsi9MZ8TAE2wqY2z",
    "album_url": "https://open.spotify.com/album/0Rl9omLw3rdkK7OiSnHGAG",
    "played_at": "2026-11-13T18:08:31.685Z"
-  },
-  {
-   "name": "Dreamboat Annie - Reprise",
-   "artist": "Heart",
-   "album": "Dreamboat Annie",
-   "year": 1975,
-   "image": "https://i.scdn.co/image/ab67616d00001e028e8c08ca2feb999bb84f05e6",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2738e8c08ca2feb999bb84f05e6",
-   "url": "https://open.spotify.com/track/0biAECXd0N3z1pZzkuX109",
-   "album_url": "https://open.spotify.com/album/2N0AgtWbCmVoNUl2GN1opH",
-   "played_at": "2026-11-13T18:03:57.638Z"
   }
  ],
  "top_artists": [
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 12015,
+   "plays": 12016,
    "covers": [
     {
      "name": "Material Girl",
