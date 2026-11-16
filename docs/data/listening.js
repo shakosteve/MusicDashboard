@@ -1,14 +1,36 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-16T02:40:04Z",
+ "generated": "2026-11-16T03:10:06Z",
  "totals": {
-  "plays": 125234,
-  "hours": 8514.4,
+  "plays": 125236,
+  "hours": 8514.5,
   "artists": 702,
   "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Live And Let Die",
+   "artist": "Wings",
+   "album": "Pure McCartney (Deluxe Edition)",
+   "year": 2016,
+   "image": "https://i.scdn.co/image/ab67616d00001e025aec7680a3119d2442d0a248",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2735aec7680a3119d2442d0a248",
+   "url": "https://open.spotify.com/track/0BlnapfYbgEbTfjtg5tbCT",
+   "album_url": "https://open.spotify.com/album/5ikljNZWFHqZP2M0kKvEWb",
+   "played_at": "2026-11-16T02:44:14.552Z"
+  },
+  {
+   "name": "Sign Of The Gypsy Queen",
+   "artist": "April Wine",
+   "album": "Nature Of The Beast",
+   "year": 1981,
+   "image": "https://i.scdn.co/image/ab67616d00001e0273874b22f78daa712b909dce",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27373874b22f78daa712b909dce",
+   "url": "https://open.spotify.com/track/6F1pmXSQ0qt5SsmOqh9Bjg",
+   "album_url": "https://open.spotify.com/album/1efEmTdyntOZvQgtaPdWcU",
+   "played_at": "2026-11-16T02:40:59.345Z"
+  },
   {
    "name": "Life's Been Good",
    "artist": "Joe Walsh",
@@ -514,28 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/05eJthbLhxvnWvB3XF9HaQ",
    "album_url": "https://open.spotify.com/album/3XYqOJI1YlX40kJTdzFEzp",
    "played_at": "2026-11-14T13:23:04.410Z"
-  },
-  {
-   "name": "Black Hole Sun",
-   "artist": "Soundgarden",
-   "album": "Superunknown (Deluxe Edition)",
-   "year": 1994,
-   "image": "https://i.scdn.co/image/ab67616d00001e02ae6d8e36136353d550b2587d",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273ae6d8e36136353d550b2587d",
-   "url": "https://open.spotify.com/track/2EoOZnxNgtmZaD8uUmz2nD",
-   "album_url": "https://open.spotify.com/album/29sTacnS0qA9xri6YS8xLA",
-   "played_at": "2026-11-13T18:54:05.253Z"
-  },
-  {
-   "name": "Give A Little Bit",
-   "artist": "Supertramp",
-   "album": "Even In The Quietest Moments... (Remastered 2026)",
-   "year": 1977,
-   "image": "https://i.scdn.co/image/ab67616d00001e02be91795435584ccd90c2a76a",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273be91795435584ccd90c2a76a",
-   "url": "https://open.spotify.com/track/1JI4nBu8CZjKYjyADy8kAv",
-   "album_url": "https://open.spotify.com/album/0kW7WYI6RWpplTyzUg048H",
-   "played_at": "2026-11-13T18:15:51.254Z"
   }
  ],
  "top_artists": [
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32953,
+   "plays": 32954,
    "covers": [
     {
      "name": "Back In Black",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15791,
+   "plays": 15792,
    "covers": [
     {
      "name": "XXI Century Blood",
