@@ -1,14 +1,47 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-16T23:10:09Z",
+ "generated": "2026-11-16T23:40:05Z",
  "totals": {
-  "plays": 125304,
-  "hours": 8519.6,
+  "plays": 125307,
+  "hours": 8519.9,
   "artists": 702,
   "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Talk Dirty To Me",
+   "artist": "Poison",
+   "album": "Look What The Cat Dragged In - 20th Anniversary Edition",
+   "year": 1986,
+   "image": "https://i.scdn.co/image/ab67616d00001e02d007e25f2264718c5a9dde34",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273d007e25f2264718c5a9dde34",
+   "url": "https://open.spotify.com/track/08QP0rwnQSbbpGRIuXfrAY",
+   "album_url": "https://open.spotify.com/album/2SkbSj0eZ2H5uqKYEnMmIe",
+   "played_at": "2026-11-16T23:33:03.746Z"
+  },
+  {
+   "name": "Riders on the Storm",
+   "artist": "The Doors",
+   "album": "L.A. Woman",
+   "year": 1971,
+   "image": "https://i.scdn.co/image/ab67616d00001e0211d9db4f0db1e2689ca22c3d",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27311d9db4f0db1e2689ca22c3d",
+   "url": "https://open.spotify.com/track/14XWXWv5FoCbFzLksawpEe",
+   "album_url": "https://open.spotify.com/album/7IKUTIc9UWuVngyGPtqNHS",
+   "played_at": "2026-11-16T23:19:33.373Z"
+  },
+  {
+   "name": "Queen of the Murder Scene",
+   "artist": "The Warning",
+   "album": "Queen of the Murder Scene",
+   "year": 2018,
+   "image": "https://i.scdn.co/image/ab67616d00001e02e0871bbaad013df7b7e56c2a",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273e0871bbaad013df7b7e56c2a",
+   "url": "https://open.spotify.com/track/7HngxvXTrk1leMvF8QNeyl",
+   "album_url": "https://open.spotify.com/album/2kB1Qqw3YOR9i3nbNxXWRs",
+   "played_at": "2026-11-16T23:12:18.031Z"
+  },
   {
    "name": "Don't Let Me Get Me - Radio Edit",
    "artist": "P!nk",
@@ -503,45 +536,12 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/2SEGYVnWImKLUOkU3Qa8sX",
    "album_url": "https://open.spotify.com/album/1pPsslUdE1HeBxdlgXJ7Yp",
    "played_at": "2026-11-16T16:22:13.166Z"
-  },
-  {
-   "name": "Magic Carpet Ride",
-   "artist": "Steppenwolf",
-   "album": "The Second",
-   "year": 1968,
-   "image": "https://i.scdn.co/image/ab67616d00001e02626d1849afa1bc27a8743dfe",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273626d1849afa1bc27a8743dfe",
-   "url": "https://open.spotify.com/track/4c4jJJoaiY21t2TyRZgdWS",
-   "album_url": "https://open.spotify.com/album/2Y5GORWYwVAZ8msuEuh5FN",
-   "played_at": "2026-11-16T16:16:56.450Z"
-  },
-  {
-   "name": "Graceland",
-   "artist": "Paul Simon",
-   "album": "Graceland (25th Anniversary Deluxe Edition)",
-   "year": 1986,
-   "image": "https://i.scdn.co/image/ab67616d00001e02e5855edffddef46b7feff49b",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273e5855edffddef46b7feff49b",
-   "url": "https://open.spotify.com/track/51KKQAgYFoJHgVIuJWHdHb",
-   "album_url": "https://open.spotify.com/album/6WgGWYw6XXQyLTsWt7tXky",
-   "played_at": "2026-11-16T15:58:13.252Z"
-  },
-  {
-   "name": "Double Vision",
-   "artist": "Foreigner",
-   "album": "Double Vision (Expanded)",
-   "year": 1978,
-   "image": "https://i.scdn.co/image/ab67616d00001e025627aa0842d6287bbb223cbf",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2735627aa0842d6287bbb223cbf",
-   "url": "https://open.spotify.com/track/0fsj3HxzBHev6EJ7OLFE3r",
-   "album_url": "https://open.spotify.com/album/6lu6DYE0eHHp1gd3QGUYhu",
-   "played_at": "2026-11-16T15:53:21.552Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10709,
+   "plays": 10710,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
@@ -621,7 +621,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b273e0871bbaad013df7b7e56c2a",
    "url": "https://open.spotify.com/track/3byoK5Yi2YT9Gcc4xS8qKE",
    "album_url": "https://open.spotify.com/album/2kB1Qqw3YOR9i3nbNxXWRs",
-   "plays": 1901
+   "plays": 1902
   },
   {
    "name": "Back In Black",
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28738,
+   "plays": 28739,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32975,
+   "plays": 32976,
    "covers": [
     {
      "name": "Back In Black",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15801,
+   "plays": 15802,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1324,7 +1324,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273e0871bbaad013df7b7e56c2a",
      "url": "https://open.spotify.com/track/3byoK5Yi2YT9Gcc4xS8qKE",
      "album_url": "https://open.spotify.com/album/2kB1Qqw3YOR9i3nbNxXWRs",
-     "plays": 1901
+     "plays": 1902
     },
     {
      "name": "Rhyme or Reason",
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Robert Pattinson Is The New James Bond: Kennedy & Jimmy Failla React",
+   "show": "Kennedy Saves the World",
+   "show_uri": "spotify:show:5DEwjZIkxrUhkM1nlqLagd",
+   "release_date": "2026-11-16",
+   "duration_ms": 677333,
+   "image": "https://i.scdn.co/image/ab67656300005f1fe558a4bd38b5e577b0a3d1ba",
+   "first_seen": "2026-11-16T23:40:02Z",
+   "progress_ms": 145576,
+   "last_seen": "2026-11-16T23:40:02Z",
+   "url": "https://open.spotify.com/episode/344a63resCFrzyo4LSeBF9",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fc306eb9be2f4da68a4f7f2be"
+  },
+  {
    "name": "Allen Salkin Talks Hollywood Folklore + Ellie Hirsch Reveals Nutrition Hacks!",
    "show": "Adam Carolla Show",
    "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-14T15:40:02Z",
    "url": "https://open.spotify.com/episode/11IxJu3jMHIynQMXUq6FJc",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f4b328600f6be4cce175cc6b9"
-  },
-  {
-   "name": "How Wall Street Is Bracing For the Post-Jensen Huang Nvidia Era",
-   "show": "Odd Lots",
-   "show_uri": "spotify:show:1te7oSFyRVekxMBJUSethH",
-   "release_date": "2026-11-14",
-   "duration_ms": 2134178,
-   "image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42",
-   "first_seen": "2026-11-14T14:10:02Z",
-   "progress_ms": 2134178,
-   "last_seen": "2026-11-14T14:40:02Z",
-   "url": "https://open.spotify.com/episode/3CGjR9SUyLrvXFZ54Zz348",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42"
   }
  ],
  "top_shows": [
