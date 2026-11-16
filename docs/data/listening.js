@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-16T17:40:05Z",
+ "generated": "2026-11-16T18:10:08Z",
  "totals": {
-  "plays": 125274,
-  "hours": 8517.6,
+  "plays": 125275,
+  "hours": 8517.7,
   "artists": 702,
   "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Women - Remastered 2017",
+   "artist": "Def Leppard",
+   "album": "Hysteria (Super Deluxe)",
+   "year": 1987,
+   "image": "https://i.scdn.co/image/ab67616d00001e02222cb38afc3b3b47d9df26aa",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273222cb38afc3b3b47d9df26aa",
+   "url": "https://open.spotify.com/track/2q1njJdxOMEClSnuBWGMJa",
+   "album_url": "https://open.spotify.com/album/31oeDyCOLhgeZyktfxo0pE",
+   "played_at": "2026-11-16T17:43:29.614Z"
+  },
   {
    "name": "Love Alive",
    "artist": "Heart",
@@ -525,17 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/0ToHhkK4qtwEyKOxhQpMbJ",
    "album_url": "https://open.spotify.com/album/5C1NUv7hNWS6n0GBtLetKM",
    "played_at": "2026-11-15T23:09:52.970Z"
-  },
-  {
-   "name": "Jolene",
-   "artist": "Dolly Parton",
-   "album": "Jolene",
-   "year": 1974,
-   "image": "https://i.scdn.co/image/ab67616d00001e02220f3b1f40e3276662155f16",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273220f3b1f40e3276662155f16",
-   "url": "https://open.spotify.com/track/2SpEHTbUuebeLkgs9QB7Ue",
-   "album_url": "https://open.spotify.com/album/5DyOxuvdSmTSNAmkfcsBsj",
-   "played_at": "2026-11-15T23:06:48.707Z"
   }
  ],
  "top_artists": [
@@ -654,7 +654,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b273222cb38afc3b3b47d9df26aa",
    "url": "https://open.spotify.com/track/1F1ek5FOLawYoPuZI0GITr",
    "album_url": "https://open.spotify.com/album/31oeDyCOLhgeZyktfxo0pE",
-   "plays": 1327
+   "plays": 1328
   },
   {
    "name": "ERROR",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32964,
+   "plays": 32965,
    "covers": [
     {
      "name": "Back In Black",
@@ -1042,7 +1042,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273222cb38afc3b3b47d9df26aa",
      "url": "https://open.spotify.com/track/1F1ek5FOLawYoPuZI0GITr",
      "album_url": "https://open.spotify.com/album/31oeDyCOLhgeZyktfxo0pE",
-     "plays": 1327
+     "plays": 1328
     },
     {
      "name": "My Kinda Lover - Remastered 2010",
@@ -1498,8 +1498,8 @@ window.LISTENING = {
    "duration_ms": 6126393,
    "image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f",
    "first_seen": "2026-11-16T13:40:02Z",
-   "progress_ms": 2592224,
-   "last_seen": "2026-11-16T14:10:03Z",
+   "progress_ms": 4206002,
+   "last_seen": "2026-11-16T18:10:03Z",
    "url": "https://open.spotify.com/episode/3RM1Gx7PTg8QejpUdzyaXE",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
   },
