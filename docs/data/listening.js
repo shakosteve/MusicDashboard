@@ -1,14 +1,80 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-17T14:40:05Z",
+ "generated": "2026-11-17T15:10:06Z",
  "totals": {
-  "plays": 125322,
-  "hours": 8520.7,
+  "plays": 125329,
+  "hours": 8521.3,
   "artists": 702,
   "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Runaway",
+   "artist": "The Warning",
+   "album": "XXI Century Blood",
+   "year": 2017,
+   "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
+   "url": "https://open.spotify.com/track/4bcc5nd8AQOkCloGe07Qtv",
+   "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
+   "played_at": "2026-11-17T15:05:36.711Z"
+  },
+  {
+   "name": "Séance",
+   "artist": "Speed of Light",
+   "album": "Séance",
+   "year": 2024,
+   "image": "https://i.scdn.co/image/ab67616d00001e02e43f6681a9e6e990b63be5cb",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273e43f6681a9e6e990b63be5cb",
+   "url": "https://open.spotify.com/track/6xQ8uphGxXzJDUziFapHZZ",
+   "album_url": "https://open.spotify.com/album/0JwzG7MVtzubfIOf0L445q",
+   "played_at": "2026-11-17T15:01:37.518Z"
+  },
+  {
+   "name": "Sherpa",
+   "artist": "Angine de Poitrine",
+   "album": "Vol.1",
+   "year": 2024,
+   "image": "https://i.scdn.co/image/ab67616d00001e0228d2c495eb3bc1e44412dc96",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27328d2c495eb3bc1e44412dc96",
+   "url": "https://open.spotify.com/track/55mW03rqsI9s3xUnuruF7G",
+   "album_url": "https://open.spotify.com/album/67AYhGt60AoJa1TVcn5lCn",
+   "played_at": "2026-11-17T14:57:41.234Z"
+  },
+  {
+   "name": "Tall Cool One - 2006 Remaster",
+   "artist": "Robert Plant",
+   "album": "Now and Zen",
+   "year": 2007,
+   "image": "https://i.scdn.co/image/ab67616d00001e02237101c710f6d7155dbf6c0f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273237101c710f6d7155dbf6c0f",
+   "url": "https://open.spotify.com/track/6vejDalRlBqPrr7s3iwi9U",
+   "album_url": "https://open.spotify.com/album/7MwPi2NpS2OoZ8K1h5tmXV",
+   "played_at": "2026-11-17T14:51:57.429Z"
+  },
+  {
+   "name": "Baker Street",
+   "artist": "Gerry Rafferty",
+   "album": "City to City",
+   "year": 1978,
+   "image": "https://i.scdn.co/image/ab67616d00001e02dc60cf9a010f86354e6735dd",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273dc60cf9a010f86354e6735dd",
+   "url": "https://open.spotify.com/track/5gOd6zDC8vhlYjqbQdJVWP",
+   "album_url": "https://open.spotify.com/album/35yZZTWeSrszSKjRlFETwf",
+   "played_at": "2026-11-17T14:46:23.946Z"
+  },
+  {
+   "name": "N.I.B.",
+   "artist": "Black Sabbath",
+   "album": "The Ultimate Collection",
+   "year": 2017,
+   "image": "https://i.scdn.co/image/ab67616d00001e02012d727b175d4a91c792fb4c",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273012d727b175d4a91c792fb4c",
+   "url": "https://open.spotify.com/track/2GnVuaoKSkB6Xa07l1BBg8",
+   "album_url": "https://open.spotify.com/album/6TcPqftScGmR0aEgIb43Vv",
+   "played_at": "2026-11-17T14:40:17.842Z"
+  },
   {
    "name": "Good Golly, Miss Molly",
    "artist": "Little Richard",
@@ -470,78 +536,12 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/7w6PJe5KBPyvuRYxFkPssC",
    "album_url": "https://open.spotify.com/album/6eh82ojicL8RSJF7GkYTh7",
    "played_at": "2026-11-16T19:57:44.684Z"
-  },
-  {
-   "name": "3AM",
-   "artist": "Matchbox Twenty",
-   "album": "Yourself or Someone Like You",
-   "year": 1996,
-   "image": "https://i.scdn.co/image/ab67616d00001e0211585490475c991f8c83bca7",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27311585490475c991f8c83bca7",
-   "url": "https://open.spotify.com/track/5vYA1mW9g2Coh1HUFUSmlb",
-   "album_url": "https://open.spotify.com/album/4vUXTcKz7tXxrNl84meN6i",
-   "played_at": "2026-11-16T19:50:19.102Z"
-  },
-  {
-   "name": "Judith",
-   "artist": "A Perfect Circle",
-   "album": "Mer De Noms",
-   "year": 2000,
-   "image": "https://i.scdn.co/image/ab67616d00001e022d73b494efcb99356f8c7b28",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2732d73b494efcb99356f8c7b28",
-   "url": "https://open.spotify.com/track/5KDNFlHAdDJ84fhK27c35X",
-   "album_url": "https://open.spotify.com/album/0GeWd0yUKXHbCXVag1mJvO",
-   "played_at": "2026-11-16T19:46:32.703Z"
-  },
-  {
-   "name": "Look What The Cat Dragged In",
-   "artist": "Poison",
-   "album": "Look What The Cat Dragged In - 20th Anniversary Edition",
-   "year": 1986,
-   "image": "https://i.scdn.co/image/ab67616d00001e02d007e25f2264718c5a9dde34",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273d007e25f2264718c5a9dde34",
-   "url": "https://open.spotify.com/track/5DmRCfszmaz7osOPCmAHVI",
-   "album_url": "https://open.spotify.com/album/2SkbSj0eZ2H5uqKYEnMmIe",
-   "played_at": "2026-11-16T19:42:24.860Z"
-  },
-  {
-   "name": "Women - Remastered 2017",
-   "artist": "Def Leppard",
-   "album": "Hysteria (Super Deluxe)",
-   "year": 1987,
-   "image": "https://i.scdn.co/image/ab67616d00001e02222cb38afc3b3b47d9df26aa",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273222cb38afc3b3b47d9df26aa",
-   "url": "https://open.spotify.com/track/2q1njJdxOMEClSnuBWGMJa",
-   "album_url": "https://open.spotify.com/album/31oeDyCOLhgeZyktfxo0pE",
-   "played_at": "2026-11-16T17:43:29.614Z"
-  },
-  {
-   "name": "Love Alive",
-   "artist": "Heart",
-   "album": "Little Queen",
-   "year": 1977,
-   "image": "https://i.scdn.co/image/ab67616d00001e0266e2e0df78c4ec35a8ed20a0",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27366e2e0df78c4ec35a8ed20a0",
-   "url": "https://open.spotify.com/track/5tVYmyLGmwJAdyXOGAKdHI",
-   "album_url": "https://open.spotify.com/album/1LaeNhiUpL3X6N0LcFvuDF",
-   "played_at": "2026-11-16T17:37:46.533Z"
-  },
-  {
-   "name": "Crazy Little Thing Called Love",
-   "artist": "Queen",
-   "album": "The Game",
-   "year": 1980,
-   "image": "https://i.scdn.co/image/ab67616d00001e02a4e6eac83c0fe38bf682f643",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273a4e6eac83c0fe38bf682f643",
-   "url": "https://open.spotify.com/track/7uON6DWIjXgmLQIfGsWXpV",
-   "album_url": "https://open.spotify.com/album/6l8tOdUItDC01Qmb91Lo8W",
-   "played_at": "2026-11-16T17:33:24.261Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10711,
+   "plays": 10712,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
@@ -610,7 +610,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
    "url": "https://open.spotify.com/track/1VcLiPmina1L3xlLkJ5OTS",
    "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
-   "plays": 3494
+   "plays": 3495
   },
   {
    "name": "Dust to Dust",
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28743,
+   "plays": 28744,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 12022,
+   "plays": 12024,
    "covers": [
     {
      "name": "Material Girl",
@@ -1263,7 +1263,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273237101c710f6d7155dbf6c0f",
      "url": "https://open.spotify.com/track/6vejDalRlBqPrr7s3iwi9U",
      "album_url": "https://open.spotify.com/album/7MwPi2NpS2OoZ8K1h5tmXV",
-     "plays": 256
+     "plays": 258
     },
     {
      "name": "Don't Know Why",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15803,
+   "plays": 15805,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1313,7 +1313,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
      "url": "https://open.spotify.com/track/1VcLiPmina1L3xlLkJ5OTS",
      "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
-     "plays": 3494
+     "plays": 3495
     },
     {
      "name": "Dust to Dust",
@@ -1390,13 +1390,13 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273012d727b175d4a91c792fb4c",
      "url": "https://open.spotify.com/track/2GnVuaoKSkB6Xa07l1BBg8",
      "album_url": "https://open.spotify.com/album/6TcPqftScGmR0aEgIb43Vv",
-     "plays": 393
+     "plays": 394
     }
    ]
   },
   {
    "decade": 2020,
-   "plays": 18685,
+   "plays": 18687,
    "covers": [
     {
      "name": "ERROR",
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "A.J. Baime On How Flight Revolutionized The World",
+   "show": "Adam Carolla Show",
+   "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
+   "release_date": "2026-11-17",
+   "duration_ms": 6472751,
+   "image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f",
+   "first_seen": "2026-11-17T12:40:02Z",
+   "progress_ms": 3499953,
+   "last_seen": "2026-11-17T15:10:03Z",
+   "url": "https://open.spotify.com/episode/4uJ7sgXnFJCfq6OUdcDwUY",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
+  },
+  {
    "name": "Fury as Putin demands 'outrageous' new terms for peace",
    "show": "Ukraine: The Latest",
    "show_uri": "spotify:show:6cnkk1J0I1UqtxTYVUL4Fe",
@@ -1502,19 +1515,6 @@ window.LISTENING = {
    "last_seen": "2026-11-17T14:10:02Z",
    "url": "https://open.spotify.com/episode/1RsBRbPT7TGhIupVlWq58h",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f78954c21afd24c90334deba4"
-  },
-  {
-   "name": "A.J. Baime On How Flight Revolutionized The World",
-   "show": "Adam Carolla Show",
-   "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
-   "release_date": "2026-11-17",
-   "duration_ms": 6472751,
-   "image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f",
-   "first_seen": "2026-11-17T12:40:02Z",
-   "progress_ms": 2933895,
-   "last_seen": "2026-11-17T13:10:05Z",
-   "url": "https://open.spotify.com/episode/4uJ7sgXnFJCfq6OUdcDwUY",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
   },
   {
    "name": "Pope Leo’s Political Voice Emerges on South America Tour",
