@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-17T07:10:05Z",
+ "generated": "2026-11-17T12:40:08Z",
  "totals": {
   "plays": 125312,
   "hours": 8520.2,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "A.J. Baime On How Flight Revolutionized The World",
+   "show": "Adam Carolla Show",
+   "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
+   "release_date": "2026-11-17",
+   "duration_ms": 6472751,
+   "image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f",
+   "first_seen": "2026-11-17T12:40:02Z",
+   "progress_ms": 1731734,
+   "last_seen": "2026-11-17T12:40:02Z",
+   "url": "https://open.spotify.com/episode/4uJ7sgXnFJCfq6OUdcDwUY",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
+  },
+  {
    "name": "Pope Leo’s Political Voice Emerges on South America Tour",
    "show": "Amanpour",
    "show_uri": "spotify:show:3sLR8M7JchYmhWuf8QtlyO",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-15T00:10:02Z",
    "url": "https://open.spotify.com/episode/0YWAslErHVi53ZbYEDr5ct",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
-  },
-  {
-   "name": "I'll Have Another: The Perfect Tomahawk Steak",
-   "show": "Kennedy Saves the World",
-   "show_uri": "spotify:show:5DEwjZIkxrUhkM1nlqLagd",
-   "release_date": "2026-11-13",
-   "duration_ms": 1665770,
-   "image": "https://i.scdn.co/image/ab67656300005f1fc306eb9be2f4da68a4f7f2be",
-   "first_seen": "2026-11-14T21:10:02Z",
-   "progress_ms": 1665770,
-   "last_seen": "2026-11-14T23:40:02Z",
-   "url": "https://open.spotify.com/episode/6di2r85MwHotZG8tMAGr1p",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fc306eb9be2f4da68a4f7f2be"
   }
  ],
  "top_shows": [
