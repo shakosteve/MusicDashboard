@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-17T03:10:05Z",
+ "generated": "2026-11-17T04:10:06Z",
  "totals": {
-  "plays": 125311,
+  "plays": 125312,
   "hours": 8520.2,
   "artists": 702,
   "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Come On",
+   "artist": "The Sixsters",
+   "album": "Етюди",
+   "year": 2021,
+   "image": "https://i.scdn.co/image/ab67616d00001e02bb762e29a9bb34ff09134256",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273bb762e29a9bb34ff09134256",
+   "url": "https://open.spotify.com/track/4fVyOWxMI6dCIOFbbcALtA",
+   "album_url": "https://open.spotify.com/album/5ylsDPMjSjP1ep0OLGYqA6",
+   "played_at": "2026-11-17T03:42:30.654Z"
+  },
   {
    "name": "Here I Go Again - 1987 Version / 2018 Remaster",
    "artist": "Whitesnake",
@@ -525,17 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/1FSdA7A445AhLvvWsh0IYK",
    "album_url": "https://open.spotify.com/album/6jqWw29Gv5yPmhHbEeWfIv",
    "played_at": "2026-11-16T16:40:01.746Z"
-  },
-  {
-   "name": "This Is Not a Fairytale",
-   "artist": "Snow White In The Dark",
-   "album": "This Is Not a Fairytale",
-   "year": 2025,
-   "image": "https://i.scdn.co/image/ab67616d00001e028fe652bf2b2374a80eb4051f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2738fe652bf2b2374a80eb4051f",
-   "url": "https://open.spotify.com/track/1vwtMv5y1Ov8EwAcdMPSul",
-   "album_url": "https://open.spotify.com/album/1k7v5HwUfAvK1WZqPca9F4",
-   "played_at": "2026-11-16T16:37:39.658Z"
   }
  ],
  "top_artists": [
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18682,
+   "plays": 18683,
    "covers": [
     {
      "name": "ERROR",
@@ -1498,10 +1498,23 @@ window.LISTENING = {
    "duration_ms": 3261649,
    "image": "https://i.scdn.co/image/ab67656300005f1f110dfea289c0685fcc6c4343",
    "first_seen": "2026-11-17T01:40:03Z",
-   "progress_ms": 26239,
-   "last_seen": "2026-11-17T01:40:03Z",
+   "progress_ms": 28601,
+   "last_seen": "2026-11-17T04:10:03Z",
    "url": "https://open.spotify.com/episode/0Iq1ntdUJbS5nR91QUYFjn",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f110dfea289c0685fcc6c4343"
+  },
+  {
+   "name": "The Blame Game Begins",
+   "show": "RealClearPolitics Podcast",
+   "show_uri": "spotify:show:5FkNemg3aIaPPNBImIcW2l",
+   "release_date": "2026-11-16",
+   "duration_ms": 3000842,
+   "image": "https://i.scdn.co/image/ab67656300005f1fb4a698a52cc52955b8a12bca",
+   "first_seen": "2026-11-17T04:10:02Z",
+   "progress_ms": 357325,
+   "last_seen": "2026-11-17T04:10:02Z",
+   "url": "https://open.spotify.com/episode/2sY1LaE26RlBk1EHIJvYTk",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fe19edf2c6856b8b09c057f38"
   },
   {
    "name": "Robert Pattinson Is The New James Bond: Kennedy & Jimmy Failla React",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-14T17:40:02Z",
    "url": "https://open.spotify.com/episode/2sOnm2vsjiMYqrVkWemk87",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46"
-  },
-  {
-   "name": "Ukraine Frontline Analyst: Russia’s Army Is Being Torn Apart - And It Keeps Getting Worse",
-   "show": "Decoding Geopolitics Podcast with Dominik Presl",
-   "show_uri": "spotify:show:4280ZedhnCYLFurjyzjmco",
-   "release_date": "2026-11-14",
-   "duration_ms": 1909504,
-   "image": "https://i.scdn.co/image/ab67656300005f1f6b0a4328c57a4cde02213e26",
-   "first_seen": "2026-11-14T16:10:02Z",
-   "progress_ms": 1835963,
-   "last_seen": "2026-11-14T16:40:03Z",
-   "url": "https://open.spotify.com/episode/15TzAxAHNTtcr1oRdRu3nl",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fab3cb125200d6c73efdfc670"
   }
  ],
  "top_shows": [
