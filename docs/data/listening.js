@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-17T20:40:06Z",
+ "generated": "2026-11-17T22:40:08Z",
  "totals": {
-  "plays": 125361,
-  "hours": 8523.6,
+  "plays": 125362,
+  "hours": 8523.7,
   "artists": 702,
   "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "The Humpty Dance",
+   "artist": "Digital Underground",
+   "album": "Sex Packets",
+   "year": 1990,
+   "image": "https://i.scdn.co/image/ab67616d00001e021789ef99b7e8bf117bf186df",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2731789ef99b7e8bf117bf186df",
+   "url": "https://open.spotify.com/track/0YEC3pNS0uIKvZb5u4lgsu",
+   "album_url": "https://open.spotify.com/album/6HWrL7hDFxfc8Z17JI9JIL",
+   "played_at": "2026-11-17T22:32:27.453Z"
+  },
   {
    "name": "What Good's A Rock Without A Roll?",
    "artist": "Black Spiders",
@@ -525,17 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/52KvuGmgcgRdrLMXOtda0E",
    "album_url": "https://open.spotify.com/album/6TwlLNU5Zd9qGuNgSLeWPt",
    "played_at": "2026-11-17T13:59:38.966Z"
-  },
-  {
-   "name": "Son of a Preacher Man",
-   "artist": "Dusty Springfield",
-   "album": "Dusty In Memphis [Deluxe Edition]",
-   "year": 1969,
-   "image": "https://i.scdn.co/image/ab67616d00001e025aaa2395bb5c2016c1e2f6f0",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2735aaa2395bb5c2016c1e2f6f0",
-   "url": "https://open.spotify.com/track/7odHgoLFi3GQ90E9PeraI3",
-   "album_url": "https://open.spotify.com/album/6SNMenG3NjZyqgI5p4Hcmg",
-   "played_at": "2026-11-17T13:56:00.953Z"
   }
  ],
  "top_artists": [
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9749,
+   "plays": 9750,
    "covers": [
     {
      "name": "Amazing",
