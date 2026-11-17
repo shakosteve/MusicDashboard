@@ -1,14 +1,36 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-17T01:40:06Z",
+ "generated": "2026-11-17T02:40:07Z",
  "totals": {
-  "plays": 125307,
-  "hours": 8519.9,
+  "plays": 125309,
+  "hours": 8520.0,
   "artists": 702,
   "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Orleans",
+   "artist": "The Standstills",
+   "album": "From The Devil's Porch",
+   "year": 2015,
+   "image": "https://i.scdn.co/image/ab67616d00001e020f9e2820d964cb5cb5c6e6c6",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2730f9e2820d964cb5cb5c6e6c6",
+   "url": "https://open.spotify.com/track/5gCHeEyMtK3AFVDqhN1Ro7",
+   "album_url": "https://open.spotify.com/album/5DB1AiZ4PoG0zmlHm19Dv7",
+   "played_at": "2026-11-17T02:38:05.362Z"
+  },
+  {
+   "name": "50 Ways to Leave Your Lover",
+   "artist": "Paul Simon",
+   "album": "Still Crazy After All These Years",
+   "year": 1975,
+   "image": "https://i.scdn.co/image/ab67616d00001e02f081c7a1a21fb8f983a9d3cb",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273f081c7a1a21fb8f983a9d3cb",
+   "url": "https://open.spotify.com/track/6Qb7gtV6Q4MnUjSbkFcopl",
+   "album_url": "https://open.spotify.com/album/4A366gjTrYQwmRtkTezF2W",
+   "played_at": "2026-11-17T02:34:44.324Z"
+  },
   {
    "name": "Talk Dirty To Me",
    "artist": "Poison",
@@ -514,28 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/08gbLPbnnIg00c9l4yleXD",
    "album_url": "https://open.spotify.com/album/2DAfvJsZK92xQzXzAMtD5Q",
    "played_at": "2026-11-16T16:29:25.319Z"
-  },
-  {
-   "name": "Dynamite",
-   "artist": "Brenda Lee",
-   "album": "The Definitive Collection",
-   "year": 2006,
-   "image": "https://i.scdn.co/image/ab67616d00001e02a651b174fe0434e77cb41357",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273a651b174fe0434e77cb41357",
-   "url": "https://open.spotify.com/track/12k4dpdvNrecNlItPsEkws",
-   "album_url": "https://open.spotify.com/album/6MnONrtVA0THe98hL9FKQp",
-   "played_at": "2026-11-16T16:24:16.526Z"
-  },
-  {
-   "name": "Cool Change - Remastered 2022",
-   "artist": "Little River Band",
-   "album": "First Under The Wire (Remastered 2022)",
-   "year": 1979,
-   "image": "https://i.scdn.co/image/ab67616d00001e02d45ea4a21fa17a4e3bf9b378",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273d45ea4a21fa17a4e3bf9b378",
-   "url": "https://open.spotify.com/track/2SEGYVnWImKLUOkU3Qa8sX",
-   "album_url": "https://open.spotify.com/album/1pPsslUdE1HeBxdlgXJ7Yp",
-   "played_at": "2026-11-16T16:22:13.166Z"
   }
  ],
  "top_artists": [
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28739,
+   "plays": 28740,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15802,
+   "plays": 15803,
    "covers": [
     {
      "name": "XXI Century Blood",
