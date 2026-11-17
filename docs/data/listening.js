@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-17T00:10:07Z",
+ "generated": "2026-11-17T01:40:06Z",
  "totals": {
   "plays": 125307,
   "hours": 8519.9,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Minnesota Now: Nov. 16, 2026",
+   "show": "Minnesota Now",
+   "show_uri": "spotify:show:61oEbjIMX0lVNvf0MyrEX8",
+   "release_date": "2026-11-16",
+   "duration_ms": 3261649,
+   "image": "https://i.scdn.co/image/ab67656300005f1f110dfea289c0685fcc6c4343",
+   "first_seen": "2026-11-17T01:40:03Z",
+   "progress_ms": 26239,
+   "last_seen": "2026-11-17T01:40:03Z",
+   "url": "https://open.spotify.com/episode/0Iq1ntdUJbS5nR91QUYFjn",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f110dfea289c0685fcc6c4343"
+  },
+  {
    "name": "Robert Pattinson Is The New James Bond: Kennedy & Jimmy Failla React",
    "show": "Kennedy Saves the World",
    "show_uri": "spotify:show:5DEwjZIkxrUhkM1nlqLagd",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-14T16:40:03Z",
    "url": "https://open.spotify.com/episode/15TzAxAHNTtcr1oRdRu3nl",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fab3cb125200d6c73efdfc670"
-  },
-  {
-   "name": "Nvidia Explained: How It Became the World’s Most Powerful Company",
-   "show": "Intelligence Squared",
-   "show_uri": "spotify:show:7gnNY9Fy8QSRbjXZ00A9jW",
-   "release_date": "2026-11-13",
-   "duration_ms": 2922031,
-   "image": "https://i.scdn.co/image/ab67656300005f1f6fc573a55fca3e7ae5b0e957",
-   "first_seen": "2026-11-14T05:10:03Z",
-   "progress_ms": 2922031,
-   "last_seen": "2026-11-14T15:40:02Z",
-   "url": "https://open.spotify.com/episode/11IxJu3jMHIynQMXUq6FJc",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f4b328600f6be4cce175cc6b9"
   }
  ],
  "top_shows": [
