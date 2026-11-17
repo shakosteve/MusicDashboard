@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-17T23:10:07Z",
+ "generated": "2026-11-17T23:40:05Z",
  "totals": {
   "plays": 125362,
   "hours": 8523.7,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Trump and friends: the biggest threat to America's national security?",
+   "show": "Christiane Amanpour Presents: The Ex Files",
+   "show_uri": "spotify:show:3ZpgFegm3q3AGjiFbjLV59",
+   "release_date": "2026-11-17",
+   "duration_ms": 2914037,
+   "image": "https://i.scdn.co/image/ab67656300005f1f5a4e319927f9dcfb7453f69d",
+   "first_seen": "2026-11-17T23:40:02Z",
+   "progress_ms": 363579,
+   "last_seen": "2026-11-17T23:40:02Z",
+   "url": "https://open.spotify.com/episode/42MmuTk17Yeo9OQtys38TH",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f5a4e319927f9dcfb7453f69d"
+  },
+  {
    "name": "Ukraine's 'unprecedented' operation to take down Putin’s Kerch bridge",
    "show": "Ukraine: The Latest",
    "show_uri": "spotify:show:6cnkk1J0I1UqtxTYVUL4Fe",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-15T19:40:04Z",
    "url": "https://open.spotify.com/episode/5yoJhZTiG65IablL8Tm1JQ",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f78954c21afd24c90334deba4"
-  },
-  {
-   "name": "In Moscow's Shadows 271: Is 2027 the year the Ukraine war ends?",
-   "show": "In Moscow's Shadows",
-   "show_uri": "spotify:show:1NKCazxYstY6o8vhpGQSjF",
-   "release_date": "2026-11-15",
-   "duration_ms": 2829487,
-   "image": "https://i.scdn.co/image/ab67656300005f1fd2dd1e74bffcd7cabc91a62c",
-   "first_seen": "2026-11-15T14:10:02Z",
-   "progress_ms": 2829487,
-   "last_seen": "2026-11-15T17:10:03Z",
-   "url": "https://open.spotify.com/episode/63Fxk8bEziXrmJdOSREmWK",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fd2dd1e74bffcd7cabc91a62c"
   }
  ],
  "top_shows": [
