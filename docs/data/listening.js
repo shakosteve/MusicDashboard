@@ -1,14 +1,47 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-17T18:40:05Z",
+ "generated": "2026-11-17T19:10:09Z",
  "totals": {
-  "plays": 125342,
-  "hours": 8522.2,
+  "plays": 125345,
+  "hours": 8522.4,
   "artists": 702,
   "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Crazy On You",
+   "artist": "Heart",
+   "album": "Dreamboat Annie",
+   "year": 1975,
+   "image": "https://i.scdn.co/image/ab67616d00001e028e8c08ca2feb999bb84f05e6",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2738e8c08ca2feb999bb84f05e6",
+   "url": "https://open.spotify.com/track/5zH710lFSLtkHbMkslLDjR",
+   "album_url": "https://open.spotify.com/album/2N0AgtWbCmVoNUl2GN1opH",
+   "played_at": "2026-11-17T19:07:56.338Z"
+  },
+  {
+   "name": "Señorita",
+   "artist": "Shawn Mendes, Camila Cabello",
+   "album": "Shawn Mendes (Deluxe)",
+   "year": 2019,
+   "image": "https://i.scdn.co/image/ab67616d00001e02c820f033bd82bef4355d1563",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273c820f033bd82bef4355d1563",
+   "url": "https://open.spotify.com/track/6v3KW9xbzN5yKLt9YKDYA2",
+   "album_url": "https://open.spotify.com/album/0xzScN8P3hQAz3BT3YYX5w",
+   "played_at": "2026-11-17T19:03:02.397Z"
+  },
+  {
+   "name": "Evil Woman",
+   "artist": "Electric Light Orchestra",
+   "album": "Face the Music",
+   "year": 1975,
+   "image": "https://i.scdn.co/image/ab67616d00001e02d183a2d842ee145f55c4e9df",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273d183a2d842ee145f55c4e9df",
+   "url": "https://open.spotify.com/track/777NOXupZkFdg8zlPMoVqc",
+   "album_url": "https://open.spotify.com/album/1HSU8sXRI9HiEAHslHRFQ3",
+   "played_at": "2026-11-17T18:59:51Z"
+  },
   {
    "name": "Rock The Bop",
    "artist": "Brenda Lee",
@@ -503,39 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/0bSr5pybJSlgG5OZH441gF",
    "album_url": "https://open.spotify.com/album/1JvTsWrfYs2PR1PdSJXipq",
    "played_at": "2026-11-16T22:37:03.339Z"
-  },
-  {
-   "name": "Dirty Deeds",
-   "artist": "Joan Jett & the Blackhearts",
-   "album": "The Hit List",
-   "year": 1990,
-   "image": "https://i.scdn.co/image/ab67616d00001e024762653c281c71d8837d180b",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2734762653c281c71d8837d180b",
-   "url": "https://open.spotify.com/track/5EmjBlrR2TzVzyveICMllj",
-   "album_url": "https://open.spotify.com/album/2mIFpqxnoM71gHMBKlzZtM",
-   "played_at": "2026-11-16T22:32:47.744Z"
-  },
-  {
-   "name": "Pink Houses",
-   "artist": "John Mellencamp",
-   "album": "Uh-HUH!",
-   "year": 1983,
-   "image": "https://i.scdn.co/image/ab67616d00001e02cd949894aa0df080ed50ff9b",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273cd949894aa0df080ed50ff9b",
-   "url": "https://open.spotify.com/track/5JKQMoGmXwDHCodn5pFVHB",
-   "album_url": "https://open.spotify.com/album/1p4YwrjrP7t6Rfb755yoTQ",
-   "played_at": "2026-11-16T22:29:29.466Z"
-  },
-  {
-   "name": "End Of The Line",
-   "artist": "Traveling Wilburys",
-   "album": "The Traveling Wilburys, Vol. 1",
-   "year": 1988,
-   "image": "https://i.scdn.co/image/ab67616d00001e023689e500e90daf0c4e9cb37f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2733689e500e90daf0c4e9cb37f",
-   "url": "https://open.spotify.com/track/2cReSKmcyhe6lw8QSj5AYD",
-   "album_url": "https://open.spotify.com/album/4zcvamWINofMEwG74kvQl1",
-   "played_at": "2026-11-16T22:05:41.002Z"
   }
  ],
  "top_artists": [
@@ -583,7 +583,7 @@ window.LISTENING = {
   },
   {
    "name": "Heart",
-   "plays": 1934,
+   "plays": 1935,
    "url": "https://open.spotify.com/artist/34jw2BbxjoYalTp8cJFCPv",
    "image": "https://i.scdn.co/image/ab67616d00001e0266e2e0df78c4ec35a8ed20a0"
   },
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28747,
+   "plays": 28749,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -970,7 +970,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2738e8c08ca2feb999bb84f05e6",
      "url": "https://open.spotify.com/track/5zH710lFSLtkHbMkslLDjR",
      "album_url": "https://open.spotify.com/album/2N0AgtWbCmVoNUl2GN1opH",
-     "plays": 709
+     "plays": 710
     },
     {
      "name": "Stairway to Heaven - Remaster",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15807,
+   "plays": 15808,
    "covers": [
     {
      "name": "XXI Century Blood",
