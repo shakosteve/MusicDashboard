@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-17T22:40:08Z",
+ "generated": "2026-11-17T23:10:07Z",
  "totals": {
   "plays": 125362,
   "hours": 8523.7,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Ukraine's 'unprecedented' operation to take down Putin’s Kerch bridge",
+   "show": "Ukraine: The Latest",
+   "show_uri": "spotify:show:6cnkk1J0I1UqtxTYVUL4Fe",
+   "release_date": "2026-11-17",
+   "duration_ms": 2293237,
+   "image": "https://i.scdn.co/image/ab67656300005f1f155f6d4ae205bd9e41e5718f",
+   "first_seen": "2026-11-17T23:10:03Z",
+   "progress_ms": 1242921,
+   "last_seen": "2026-11-17T23:10:03Z",
+   "url": "https://open.spotify.com/episode/45mIBodAWf87WiLJ09TYl5",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f78954c21afd24c90334deba4"
+  },
+  {
    "name": "Blockade or strikes? Trump’s Iran war options as third US aircraft carrier arrives",
    "show": "Iran: The Latest",
    "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-15T17:10:03Z",
    "url": "https://open.spotify.com/episode/63Fxk8bEziXrmJdOSREmWK",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fd2dd1e74bffcd7cabc91a62c"
-  },
-  {
-   "name": "US flight disruptions continue",
-   "show": "Newshour",
-   "show_uri": "spotify:show:5qbXje6KaVOHwjsHNTELjA",
-   "release_date": "2026-11-14",
-   "duration_ms": 2269022,
-   "image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46",
-   "first_seen": "2026-11-14T15:40:02Z",
-   "progress_ms": 2178147,
-   "last_seen": "2026-11-15T01:10:02Z",
-   "url": "https://open.spotify.com/episode/3kdpbnvVWQXATqfyqLJnC1",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46"
   }
  ],
  "top_shows": [
