@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-17T04:10:06Z",
+ "generated": "2026-11-17T04:40:10Z",
  "totals": {
   "plays": 125312,
   "hours": 8520.2,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "The Blame Game Begins",
+   "show": "RealClearPolitics Podcast",
+   "show_uri": "spotify:show:5FkNemg3aIaPPNBImIcW2l",
+   "release_date": "2026-11-16",
+   "duration_ms": 3000842,
+   "image": "https://i.scdn.co/image/ab67656300005f1fb4a698a52cc52955b8a12bca",
+   "first_seen": "2026-11-17T04:10:02Z",
+   "progress_ms": 2157433,
+   "last_seen": "2026-11-17T04:40:02Z",
+   "url": "https://open.spotify.com/episode/2sY1LaE26RlBk1EHIJvYTk",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fe19edf2c6856b8b09c057f38"
+  },
+  {
    "name": "Minnesota Now: Nov. 16, 2026",
    "show": "Minnesota Now",
    "show_uri": "spotify:show:61oEbjIMX0lVNvf0MyrEX8",
@@ -1502,19 +1515,6 @@ window.LISTENING = {
    "last_seen": "2026-11-17T04:10:03Z",
    "url": "https://open.spotify.com/episode/0Iq1ntdUJbS5nR91QUYFjn",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f110dfea289c0685fcc6c4343"
-  },
-  {
-   "name": "The Blame Game Begins",
-   "show": "RealClearPolitics Podcast",
-   "show_uri": "spotify:show:5FkNemg3aIaPPNBImIcW2l",
-   "release_date": "2026-11-16",
-   "duration_ms": 3000842,
-   "image": "https://i.scdn.co/image/ab67656300005f1fb4a698a52cc52955b8a12bca",
-   "first_seen": "2026-11-17T04:10:02Z",
-   "progress_ms": 357325,
-   "last_seen": "2026-11-17T04:10:02Z",
-   "url": "https://open.spotify.com/episode/2sY1LaE26RlBk1EHIJvYTk",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fe19edf2c6856b8b09c057f38"
   },
   {
    "name": "Robert Pattinson Is The New James Bond: Kennedy & Jimmy Failla React",
