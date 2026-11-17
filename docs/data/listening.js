@@ -1,14 +1,69 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-17T19:10:09Z",
+ "generated": "2026-11-17T19:40:06Z",
  "totals": {
-  "plays": 125345,
-  "hours": 8522.4,
+  "plays": 125350,
+  "hours": 8522.8,
   "artists": 702,
   "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Wanted Dead Or Alive",
+   "artist": "Bon Jovi",
+   "album": "Slippery When Wet",
+   "year": 1986,
+   "image": "https://i.scdn.co/image/ab67616d00001e021336b31b6a1799f0de5807ac",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2731336b31b6a1799f0de5807ac",
+   "url": "https://open.spotify.com/track/0oerlffJSzhRVvtDfLcp3N",
+   "album_url": "https://open.spotify.com/album/0kBfgEilUFCMIQY5IOjG4t",
+   "played_at": "2026-11-17T19:38:20.907Z"
+  },
+  {
+   "name": "More Than a Feeling",
+   "artist": "Boston",
+   "album": "Boston",
+   "year": 1976,
+   "image": "https://i.scdn.co/image/ab67616d00001e028c1fadcc997a65384f34d694",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2738c1fadcc997a65384f34d694",
+   "url": "https://open.spotify.com/track/1QEEqeFIZktqIpPI4jSVSF",
+   "album_url": "https://open.spotify.com/album/2QLp07RO6anZHmtcKTEvSC",
+   "played_at": "2026-11-17T19:33:11.835Z"
+  },
+  {
+   "name": "Shout",
+   "artist": "Tears For Fears",
+   "album": "Songs From The Big Chair",
+   "year": 1985,
+   "image": "https://i.scdn.co/image/ab67616d00001e025e12c35cb4c848a927ef4b69",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2735e12c35cb4c848a927ef4b69",
+   "url": "https://open.spotify.com/track/6UQDkQdtvj3f7F7edAsqda",
+   "album_url": "https://open.spotify.com/album/5STbVtgFy6y7uPshY1RRqb",
+   "played_at": "2026-11-17T19:28:26.119Z"
+  },
+  {
+   "name": "How Deep Is Your Love",
+   "artist": "Bee Gees",
+   "album": "How Can You Mend A Broken Heart",
+   "year": 2020,
+   "image": "https://i.scdn.co/image/ab67616d00001e02bdcea025a483b9642f17a9f8",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273bdcea025a483b9642f17a9f8",
+   "url": "https://open.spotify.com/track/3ZP18us6p6LHOZMG1LLUjF",
+   "album_url": "https://open.spotify.com/album/4vAhQeeWkSjVn0p5GAaLBx",
+   "played_at": "2026-11-17T19:16:53.315Z"
+  },
+  {
+   "name": "Smooth (feat. Rob Thomas)",
+   "artist": "Santana, Rob Thomas",
+   "album": "Supernatural (Remastered)",
+   "year": 1999,
+   "image": "https://i.scdn.co/image/ab67616d00001e0247eb3ea5a92904c19e102e54",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27347eb3ea5a92904c19e102e54",
+   "url": "https://open.spotify.com/track/0n2SEXB2qoRQg171q7XqeW",
+   "album_url": "https://open.spotify.com/album/10aiDpdFGyfCFEcqpx6XTq",
+   "played_at": "2026-11-17T19:12:51.766Z"
+  },
   {
    "name": "Crazy On You",
    "artist": "Heart",
@@ -481,61 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/1j7ay7ycQuhNMtZysxUPOp",
    "album_url": "https://open.spotify.com/album/4iNFVjkK0lUEUZClibXrtX",
    "played_at": "2026-11-16T23:01:41.349Z"
-  },
-  {
-   "name": "Since I've Been Loving You - (Live at MSG 1973) [Remaster]",
-   "artist": "Led Zeppelin",
-   "album": "The Song Remains the Same (Remaster)",
-   "year": 1976,
-   "image": "https://i.scdn.co/image/ab67616d00001e021ac4670157a26949de3ba875",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2731ac4670157a26949de3ba875",
-   "url": "https://open.spotify.com/track/6Xfw7G8EZXh9QIh8faW6q4",
-   "album_url": "https://open.spotify.com/album/0ui4S0TZghkf1d1Wz0oWpk",
-   "played_at": "2026-11-16T22:58:36.068Z"
-  },
-  {
-   "name": "Bad Medicine",
-   "artist": "Bon Jovi",
-   "album": "New Jersey (Deluxe Edition)",
-   "year": 1988,
-   "image": "https://i.scdn.co/image/ab67616d00001e02901d0116a03d30a5c45bb99c",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273901d0116a03d30a5c45bb99c",
-   "url": "https://open.spotify.com/track/72hcFp4tYkd3dbNA9dZ3Pv",
-   "album_url": "https://open.spotify.com/album/3mcKOl0KNe65BqiBa40WxR",
-   "played_at": "2026-11-16T22:50:11.807Z"
-  },
-  {
-   "name": "99 Luftballons - Remastered 2024",
-   "artist": "Nena",
-   "album": "NENA (Remastered & Selected Works)",
-   "year": 2024,
-   "image": "https://i.scdn.co/image/ab67616d00001e02aad6c8766ffd364454df5465",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273aad6c8766ffd364454df5465",
-   "url": "https://open.spotify.com/track/3NM2GsEUdDq2QYqXOMXZZW",
-   "album_url": "https://open.spotify.com/album/5OhSZi1hTPDWarLDiUT3Si",
-   "played_at": "2026-11-16T22:44:54.588Z"
-  },
-  {
-   "name": "Wherever You May Go - 2024 Remix",
-   "artist": "Whitesnake",
-   "album": "Into The Light: The Solo Albums",
-   "year": 2024,
-   "image": "https://i.scdn.co/image/ab67616d00001e0275054a7528a57bf4c4db64d3",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27375054a7528a57bf4c4db64d3",
-   "url": "https://open.spotify.com/track/3kXFGV9scmzkuAO4yrCOaj",
-   "album_url": "https://open.spotify.com/album/4ZK8lI716dYtCXQd8qlcsI",
-   "played_at": "2026-11-16T22:41:00.896Z"
-  },
-  {
-   "name": "Simply Irresistible",
-   "artist": "Robert Palmer",
-   "album": "Heavy Nova",
-   "year": 1988,
-   "image": "https://i.scdn.co/image/ab67616d00001e024c50b3182d08d49eca91f2d9",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2734c50b3182d08d49eca91f2d9",
-   "url": "https://open.spotify.com/track/0bSr5pybJSlgG5OZH441gF",
-   "album_url": "https://open.spotify.com/album/1JvTsWrfYs2PR1PdSJXipq",
-   "played_at": "2026-11-16T22:37:03.339Z"
   }
  ],
  "top_artists": [
@@ -676,7 +676,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b2738c1fadcc997a65384f34d694",
    "url": "https://open.spotify.com/track/1QEEqeFIZktqIpPI4jSVSF",
    "album_url": "https://open.spotify.com/album/2QLp07RO6anZHmtcKTEvSC",
-   "plays": 1111
+   "plays": 1112
   },
   {
    "name": "Leroy",
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28749,
+   "plays": 28750,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -937,7 +937,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2738c1fadcc997a65384f34d694",
      "url": "https://open.spotify.com/track/1QEEqeFIZktqIpPI4jSVSF",
      "album_url": "https://open.spotify.com/album/2QLp07RO6anZHmtcKTEvSC",
-     "plays": 1111
+     "plays": 1112
     },
     {
      "name": "Barracuda",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32982,
+   "plays": 32984,
    "covers": [
     {
      "name": "Back In Black",
@@ -1086,7 +1086,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2731336b31b6a1799f0de5807ac",
      "url": "https://open.spotify.com/track/0rmGAIH9LNJewFw7nKzZnc",
      "album_url": "https://open.spotify.com/album/0kBfgEilUFCMIQY5IOjG4t",
-     "plays": 685
+     "plays": 686
     },
     {
      "name": "Sharp Dressed Man - 2008 Remaster",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9746,
+   "plays": 9747,
    "covers": [
     {
      "name": "Amazing",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18689,
+   "plays": 18690,
    "covers": [
     {
      "name": "ERROR",
