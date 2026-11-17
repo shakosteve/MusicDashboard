@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-17T13:10:10Z",
+ "generated": "2026-11-17T13:40:05Z",
  "totals": {
   "plays": 125312,
   "hours": 8520.2,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Fury as Putin demands 'outrageous' new terms for peace",
+   "show": "Ukraine: The Latest",
+   "show_uri": "spotify:show:6cnkk1J0I1UqtxTYVUL4Fe",
+   "release_date": "2026-11-16",
+   "duration_ms": 1907408,
+   "image": "https://i.scdn.co/image/ab67656300005f1f8d94314764b3d296c1f64f6c",
+   "first_seen": "2026-11-17T13:40:02Z",
+   "progress_ms": 1345942,
+   "last_seen": "2026-11-17T13:40:02Z",
+   "url": "https://open.spotify.com/episode/1RsBRbPT7TGhIupVlWq58h",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f78954c21afd24c90334deba4"
+  },
+  {
    "name": "A.J. Baime On How Flight Revolutionized The World",
    "show": "Adam Carolla Show",
    "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-15T01:10:02Z",
    "url": "https://open.spotify.com/episode/4Ims5O0EiJhl2vKxHLjmzR",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46"
-  },
-  {
-   "name": "Iran bombs Oman & why Tehran's impossible demands mean endless war",
-   "show": "Iran: The Latest",
-   "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
-   "release_date": "2026-11-12",
-   "duration_ms": 2160979,
-   "image": "https://i.scdn.co/image/ab67656300005f1f58416bf2c3a58a14d9e835cb",
-   "first_seen": "2026-11-14T21:40:02Z",
-   "progress_ms": 2160979,
-   "last_seen": "2026-11-15T00:10:02Z",
-   "url": "https://open.spotify.com/episode/0YWAslErHVi53ZbYEDr5ct",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
   }
  ],
  "top_shows": [
