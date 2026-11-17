@@ -1,14 +1,80 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-17T19:40:06Z",
+ "generated": "2026-11-17T20:10:07Z",
  "totals": {
-  "plays": 125350,
-  "hours": 8522.8,
+  "plays": 125356,
+  "hours": 8523.2,
   "artists": 702,
   "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Jailbreak",
+   "artist": "AC/DC",
+   "album": "'74 Jailbreak",
+   "year": 1984,
+   "image": "https://i.scdn.co/image/ab67616d00001e02b3e1f355a5c8a2ad3b1aae48",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273b3e1f355a5c8a2ad3b1aae48",
+   "url": "https://open.spotify.com/track/5UKeFkVeUfvP6S43I8s9mt",
+   "album_url": "https://open.spotify.com/album/7kkopGL8qBX9KNQu88tH2y",
+   "played_at": "2026-11-17T20:03:01.813Z"
+  },
+  {
+   "name": "My Way, Soon",
+   "artist": "Greta Van Fleet",
+   "album": "Broken Bells",
+   "year": 2021,
+   "image": "https://i.scdn.co/image/ab67616d00001e029163a72affa104f29fc576fb",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2739163a72affa104f29fc576fb",
+   "url": "https://open.spotify.com/track/2IsuiHhWDj8ByvznN04v7S",
+   "album_url": "https://open.spotify.com/album/1rWkxCNuPFzDRFANL8lLnG",
+   "played_at": "2026-11-17T19:58:20.117Z"
+  },
+  {
+   "name": "Silent Lucidity",
+   "artist": "Queensrÿche",
+   "album": "Empire (20th Anniversary Edition)",
+   "year": 1990,
+   "image": "https://i.scdn.co/image/ab67616d00001e02eeb8caa4fee70e9f8ec15d3b",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273eeb8caa4fee70e9f8ec15d3b",
+   "url": "https://open.spotify.com/track/6OSyCAmXT4Gkd3OQ2aPOaF",
+   "album_url": "https://open.spotify.com/album/6jmesEKzKTLAa3oI96jWow",
+   "played_at": "2026-11-17T19:54:04.476Z"
+  },
+  {
+   "name": "Qué Más Quieres",
+   "artist": "The Warning",
+   "album": "Hell You Call A Dream / Qué Más Quieres",
+   "year": 2024,
+   "image": "https://i.scdn.co/image/ab67616d00001e021de072325338eb79a68f30f5",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2731de072325338eb79a68f30f5",
+   "url": "https://open.spotify.com/track/41hP8Zj09hdeQywGGIcXxA",
+   "album_url": "https://open.spotify.com/album/0tkvYVQovNWfCE5tf1Viir",
+   "played_at": "2026-11-17T19:48:16.203Z"
+  },
+  {
+   "name": "Little Wing",
+   "artist": "Jimi Hendrix",
+   "album": "Axis: Bold As Love",
+   "year": 1967,
+   "image": "https://i.scdn.co/image/ab67616d00001e0219dcd95d28b63d10164327f2",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27319dcd95d28b63d10164327f2",
+   "url": "https://open.spotify.com/track/1Eolhana7nKHYpcYpdVcT5",
+   "album_url": "https://open.spotify.com/album/3uFZf8rykoHo7XMIQVYW6r",
+   "played_at": "2026-11-17T19:45:10.886Z"
+  },
+  {
+   "name": "MONEY - Live from Auditorio Nacional, CDMX",
+   "artist": "The Warning",
+   "album": "Live from Auditorio Nacional, CDMX",
+   "year": 2025,
+   "image": "https://i.scdn.co/image/ab67616d00001e025cda6d880ec3968aa6b6ac2f",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
+   "url": "https://open.spotify.com/track/5DsDZRIFokrMUn9jPYojxD",
+   "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
+   "played_at": "2026-11-17T19:42:44.677Z"
+  },
   {
    "name": "Wanted Dead Or Alive",
    "artist": "Bon Jovi",
@@ -470,84 +536,18 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/6Qb7gtV6Q4MnUjSbkFcopl",
    "album_url": "https://open.spotify.com/album/4A366gjTrYQwmRtkTezF2W",
    "played_at": "2026-11-17T02:34:44.324Z"
-  },
-  {
-   "name": "Talk Dirty To Me",
-   "artist": "Poison",
-   "album": "Look What The Cat Dragged In - 20th Anniversary Edition",
-   "year": 1986,
-   "image": "https://i.scdn.co/image/ab67616d00001e02d007e25f2264718c5a9dde34",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273d007e25f2264718c5a9dde34",
-   "url": "https://open.spotify.com/track/08QP0rwnQSbbpGRIuXfrAY",
-   "album_url": "https://open.spotify.com/album/2SkbSj0eZ2H5uqKYEnMmIe",
-   "played_at": "2026-11-16T23:33:03.746Z"
-  },
-  {
-   "name": "Riders on the Storm",
-   "artist": "The Doors",
-   "album": "L.A. Woman",
-   "year": 1971,
-   "image": "https://i.scdn.co/image/ab67616d00001e0211d9db4f0db1e2689ca22c3d",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27311d9db4f0db1e2689ca22c3d",
-   "url": "https://open.spotify.com/track/14XWXWv5FoCbFzLksawpEe",
-   "album_url": "https://open.spotify.com/album/7IKUTIc9UWuVngyGPtqNHS",
-   "played_at": "2026-11-16T23:19:33.373Z"
-  },
-  {
-   "name": "Queen of the Murder Scene",
-   "artist": "The Warning",
-   "album": "Queen of the Murder Scene",
-   "year": 2018,
-   "image": "https://i.scdn.co/image/ab67616d00001e02e0871bbaad013df7b7e56c2a",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273e0871bbaad013df7b7e56c2a",
-   "url": "https://open.spotify.com/track/7HngxvXTrk1leMvF8QNeyl",
-   "album_url": "https://open.spotify.com/album/2kB1Qqw3YOR9i3nbNxXWRs",
-   "played_at": "2026-11-16T23:12:18.031Z"
-  },
-  {
-   "name": "Don't Let Me Get Me - Radio Edit",
-   "artist": "P!nk",
-   "album": "M!ssundaztood (Expanded Edition)",
-   "year": 2001,
-   "image": "https://i.scdn.co/image/ab67616d00001e029da93c573c5ce2d9deb98e4f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2739da93c573c5ce2d9deb98e4f",
-   "url": "https://open.spotify.com/track/1BfRdnfPYrni7zj4ANodBX",
-   "album_url": "https://open.spotify.com/album/57wJKO7qrPw56iOEKhTmg2",
-   "played_at": "2026-11-16T23:08:23.251Z"
-  },
-  {
-   "name": "Highway Tune",
-   "artist": "Greta Van Fleet",
-   "album": "From The Fires",
-   "year": 2017,
-   "image": "https://i.scdn.co/image/ab67616d00001e0257b7f789d328c205b4d15893",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27357b7f789d328c205b4d15893",
-   "url": "https://open.spotify.com/track/7aOor99o8NNLZYElOXlBG1",
-   "album_url": "https://open.spotify.com/album/6uSnHSIBGKUiW1uKQLYZ7w",
-   "played_at": "2026-11-16T23:04:52.060Z"
-  },
-  {
-   "name": "Shaker Down",
-   "artist": "The Standstills",
-   "album": "Badlands",
-   "year": 2019,
-   "image": "https://i.scdn.co/image/ab67616d00001e02f5584a416336fb0330429e90",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273f5584a416336fb0330429e90",
-   "url": "https://open.spotify.com/track/1j7ay7ycQuhNMtZysxUPOp",
-   "album_url": "https://open.spotify.com/album/4iNFVjkK0lUEUZClibXrtX",
-   "played_at": "2026-11-16T23:01:41.349Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10713,
+   "plays": 10715,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
   {
    "name": "AC/DC",
-   "plays": 3997,
+   "plays": 3998,
    "url": "https://open.spotify.com/artist/711MCceyCBcFnzjGY4Q7Un",
    "image": "https://i.scdn.co/image/ab67616d00001e02ff191d7fbdb5a13eaf84132b"
   },
@@ -832,7 +832,7 @@ window.LISTENING = {
   },
   {
    "decade": 1960,
-   "plays": 7067,
+   "plays": 7068,
    "covers": [
     {
      "name": "Your Time Is Gonna Come - 1990 Remaster",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32984,
+   "plays": 32985,
    "covers": [
     {
      "name": "Back In Black",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9747,
+   "plays": 9748,
    "covers": [
     {
      "name": "Amazing",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18690,
+   "plays": 18693,
    "covers": [
     {
      "name": "ERROR",
@@ -1429,7 +1429,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2739163a72affa104f29fc576fb",
      "url": "https://open.spotify.com/track/2AxlSslgR8v0Hqq079x7vv",
      "album_url": "https://open.spotify.com/album/1rWkxCNuPFzDRFANL8lLnG",
-     "plays": 532
+     "plays": 533
     },
     {
      "name": "CHOKE - Live from Auditorio Nacional, CDMX",
@@ -1440,7 +1440,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2735cda6d880ec3968aa6b6ac2f",
      "url": "https://open.spotify.com/track/3zgbw0cxkS1DQ36O5hGydt",
      "album_url": "https://open.spotify.com/album/0LhKnnsC3qOLCgtlQUUGIS",
-     "plays": 489
+     "plays": 490
     },
     {
      "name": "Shot In The Dark",
@@ -1498,8 +1498,8 @@ window.LISTENING = {
    "duration_ms": 2261420,
    "image": "https://i.scdn.co/image/ab67656300005f1fc7dcece93e99d59fa4b4c3d4",
    "first_seen": "2026-11-17T18:10:02Z",
-   "progress_ms": 2261420,
-   "last_seen": "2026-11-17T18:40:02Z",
+   "progress_ms": 2401520,
+   "last_seen": "2026-11-17T20:10:03Z",
    "url": "https://open.spotify.com/episode/73MqOFYTo1PqyNXWPUIiYA",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
   },
