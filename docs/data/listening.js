@@ -1,14 +1,47 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-17T13:40:05Z",
+ "generated": "2026-11-17T14:10:06Z",
  "totals": {
-  "plays": 125312,
-  "hours": 8520.2,
+  "plays": 125315,
+  "hours": 8520.4,
   "artists": 702,
   "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Believe It or Not (Theme from \"Greatest American Hero\")",
+   "artist": "Joey Scarbury",
+   "album": "America's Greatest Hero",
+   "year": 1981,
+   "image": "https://i.scdn.co/image/ab67616d00001e02b165a48e700759fd7a05b971",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273b165a48e700759fd7a05b971",
+   "url": "https://open.spotify.com/track/375ntCG12wzCyfzclwYFwG",
+   "album_url": "https://open.spotify.com/album/5jB7KIzjiExzi01MF8NXCQ",
+   "played_at": "2026-11-17T14:02:54.688Z"
+  },
+  {
+   "name": "The Stroke - Remastered 2010",
+   "artist": "Billy Squier",
+   "album": "Don't Say No (Remastered 2010)",
+   "year": 1981,
+   "image": "https://i.scdn.co/image/ab67616d00001e02f4822f8034e697410a14a297",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273f4822f8034e697410a14a297",
+   "url": "https://open.spotify.com/track/52KvuGmgcgRdrLMXOtda0E",
+   "album_url": "https://open.spotify.com/album/6TwlLNU5Zd9qGuNgSLeWPt",
+   "played_at": "2026-11-17T13:59:38.966Z"
+  },
+  {
+   "name": "Son of a Preacher Man",
+   "artist": "Dusty Springfield",
+   "album": "Dusty In Memphis [Deluxe Edition]",
+   "year": 1969,
+   "image": "https://i.scdn.co/image/ab67616d00001e025aaa2395bb5c2016c1e2f6f0",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2735aaa2395bb5c2016c1e2f6f0",
+   "url": "https://open.spotify.com/track/7odHgoLFi3GQ90E9PeraI3",
+   "album_url": "https://open.spotify.com/album/6SNMenG3NjZyqgI5p4Hcmg",
+   "played_at": "2026-11-17T13:56:00.953Z"
+  },
   {
    "name": "Come On",
    "artist": "The Sixsters",
@@ -503,39 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/08kKeLPf4vP33cYltNoMGH",
    "album_url": "https://open.spotify.com/album/7ofKUTF17SEsGsAuaMhbj7",
    "played_at": "2026-11-16T16:55:41.276Z"
-  },
-  {
-   "name": "Age of Machine",
-   "artist": "Greta Van Fleet",
-   "album": "The Battle at Garden’s Gate",
-   "year": 2021,
-   "image": "https://i.scdn.co/image/ab67616d00001e02339cc033bcc476d11dffba4c",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273339cc033bcc476d11dffba4c",
-   "url": "https://open.spotify.com/track/6XALorRRo9aQdBIQN0UWyn",
-   "album_url": "https://open.spotify.com/album/7kjLKy9JLbwM9F7eDQEnd2",
-   "played_at": "2026-11-16T16:50:18.371Z"
-  },
-  {
-   "name": "Fly By Night",
-   "artist": "Rush",
-   "album": "Fly By Night",
-   "year": 1975,
-   "image": "https://i.scdn.co/image/ab67616d00001e0211079bb97e1f95d1a917ce0b",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27311079bb97e1f95d1a917ce0b",
-   "url": "https://open.spotify.com/track/54TaGh2JKs1pO9daXNXI5q",
-   "album_url": "https://open.spotify.com/album/3ZtICWkqezf0bBTUwY1Khe",
-   "played_at": "2026-11-16T16:43:24.436Z"
-  },
-  {
-   "name": "Peanuts Theme",
-   "artist": "Television's Greatest Hits Band",
-   "album": "Peanuts Theme",
-   "year": 2012,
-   "image": "https://i.scdn.co/image/ab67616d00001e020c96092a8fe64494a3321945",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2730c96092a8fe64494a3321945",
-   "url": "https://open.spotify.com/track/1FSdA7A445AhLvvWsh0IYK",
-   "album_url": "https://open.spotify.com/album/6jqWw29Gv5yPmhHbEeWfIv",
-   "played_at": "2026-11-16T16:40:01.746Z"
   }
  ],
  "top_artists": [
@@ -731,7 +731,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b273f4822f8034e697410a14a297",
    "url": "https://open.spotify.com/track/6g14FUj5zU9FDRwBi963vS",
    "album_url": "https://open.spotify.com/album/6TwlLNU5Zd9qGuNgSLeWPt",
-   "plays": 887
+   "plays": 888
   }
  ],
  "decades": [
@@ -832,7 +832,7 @@ window.LISTENING = {
   },
   {
    "decade": 1960,
-   "plays": 7064,
+   "plays": 7065,
    "covers": [
     {
      "name": "Your Time Is Gonna Come - 1990 Remaster",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32977,
+   "plays": 32979,
    "covers": [
     {
      "name": "Back In Black",
@@ -1053,7 +1053,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273f4822f8034e697410a14a297",
      "url": "https://open.spotify.com/track/6g14FUj5zU9FDRwBi963vS",
      "album_url": "https://open.spotify.com/album/6TwlLNU5Zd9qGuNgSLeWPt",
-     "plays": 887
+     "plays": 888
     },
     {
      "name": "Manic Monday",
@@ -1498,8 +1498,8 @@ window.LISTENING = {
    "duration_ms": 1907408,
    "image": "https://i.scdn.co/image/ab67656300005f1f8d94314764b3d296c1f64f6c",
    "first_seen": "2026-11-17T13:40:02Z",
-   "progress_ms": 1345942,
-   "last_seen": "2026-11-17T13:40:02Z",
+   "progress_ms": 2138792,
+   "last_seen": "2026-11-17T14:10:02Z",
    "url": "https://open.spotify.com/episode/1RsBRbPT7TGhIupVlWq58h",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f78954c21afd24c90334deba4"
   },
