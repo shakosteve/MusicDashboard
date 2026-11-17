@@ -1,14 +1,36 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-17T02:40:07Z",
+ "generated": "2026-11-17T03:10:05Z",
  "totals": {
-  "plays": 125309,
-  "hours": 8520.0,
+  "plays": 125311,
+  "hours": 8520.2,
   "artists": 702,
   "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Here I Go Again - 1987 Version / 2018 Remaster",
+   "artist": "Whitesnake",
+   "album": "Whitesnake (2018 Remaster)",
+   "year": 1987,
+   "image": "https://i.scdn.co/image/ab67616d00001e0249113b5921d7a53f49b64bfd",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27349113b5921d7a53f49b64bfd",
+   "url": "https://open.spotify.com/track/58z9sfHe9s9zTvYGKehCWM",
+   "album_url": "https://open.spotify.com/album/7swyGza0lOXnnkfSupULM5",
+   "played_at": "2026-11-17T02:47:07.033Z"
+  },
+  {
+   "name": "I Shot The Sheriff",
+   "artist": "Eric Clapton",
+   "album": "461 Ocean Blvd. (Deluxe Edition)",
+   "year": 1974,
+   "image": "https://i.scdn.co/image/ab67616d00001e02d752956b8a82ffa07baa835e",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273d752956b8a82ffa07baa835e",
+   "url": "https://open.spotify.com/track/0UOxp1BpnD8uPQMKU4wKjz",
+   "album_url": "https://open.spotify.com/album/408nODJ1r3nO7f3qWkCrCB",
+   "played_at": "2026-11-17T02:42:31.141Z"
+  },
   {
    "name": "Orleans",
    "artist": "The Standstills",
@@ -514,28 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/1vwtMv5y1Ov8EwAcdMPSul",
    "album_url": "https://open.spotify.com/album/1k7v5HwUfAvK1WZqPca9F4",
    "played_at": "2026-11-16T16:37:39.658Z"
-  },
-  {
-   "name": "Love Walks In",
-   "artist": "Van Halen",
-   "album": "5150",
-   "year": 1986,
-   "image": "https://i.scdn.co/image/ab67616d00001e0281e66f0aa00989cbe6030d57",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27381e66f0aa00989cbe6030d57",
-   "url": "https://open.spotify.com/track/6FRQGRdhueJGTKiYnirDNy",
-   "album_url": "https://open.spotify.com/album/5Ew5vOg3PYyT9QUPCrdIZq",
-   "played_at": "2026-11-16T16:34:36.762Z"
-  },
-  {
-   "name": "Get Mine",
-   "artist": "Saving Escape",
-   "album": "Get Mine",
-   "year": 2021,
-   "image": "https://i.scdn.co/image/ab67616d00001e02730eac18e294e49eab51a34e",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273730eac18e294e49eab51a34e",
-   "url": "https://open.spotify.com/track/08gbLPbnnIg00c9l4yleXD",
-   "album_url": "https://open.spotify.com/album/2DAfvJsZK92xQzXzAMtD5Q",
-   "played_at": "2026-11-16T16:29:25.319Z"
   }
  ],
  "top_artists": [
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28740,
+   "plays": 28741,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32976,
+   "plays": 32977,
    "covers": [
     {
      "name": "Back In Black",
