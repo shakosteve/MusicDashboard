@@ -1,14 +1,69 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-17T15:40:06Z",
+ "generated": "2026-11-17T16:10:05Z",
  "totals": {
-  "plays": 125335,
-  "hours": 8521.7,
+  "plays": 125340,
+  "hours": 8522.1,
   "artists": 702,
   "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "I Love Playin' with Fire",
+   "artist": "The Rumours",
+   "album": "I Love Playin' with Fire",
+   "year": 2022,
+   "image": "https://i.scdn.co/image/ab67616d00001e02cf7d0e252938b2eede111d00",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273cf7d0e252938b2eede111d00",
+   "url": "https://open.spotify.com/track/4gZT93314AIdRIRipyI3wT",
+   "album_url": "https://open.spotify.com/album/59UFk4z6tOxats1KHFklEY",
+   "played_at": "2026-11-17T15:59:49.734Z"
+  },
+  {
+   "name": "All That She Wants",
+   "artist": "Ace of Base",
+   "album": "The Sign",
+   "year": 1993,
+   "image": "https://i.scdn.co/image/ab67616d00001e02fda5556cb6981c3113df6175",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273fda5556cb6981c3113df6175",
+   "url": "https://open.spotify.com/track/6kWJvPfC4DgUpRsXKNa9z9",
+   "album_url": "https://open.spotify.com/album/5UwIyIyFzkM7wKeGtRJPgB",
+   "played_at": "2026-11-17T15:56:46.362Z"
+  },
+  {
+   "name": "Hotel California - 2013 Remaster",
+   "artist": "Eagles",
+   "album": "Hotel California (2013 Remaster)",
+   "year": 1976,
+   "image": "https://i.scdn.co/image/ab67616d00001e024637341b9f507521afa9a778",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2734637341b9f507521afa9a778",
+   "url": "https://open.spotify.com/track/40riOy7x9W7GXjyGp4pjAv",
+   "album_url": "https://open.spotify.com/album/2widuo17g5CEC66IbzveRu",
+   "played_at": "2026-11-17T15:53:14.619Z"
+  },
+  {
+   "name": "ZITTI E BUONI",
+   "artist": "Måneskin",
+   "album": "Teatro d'ira - Vol. I",
+   "year": 2021,
+   "image": "https://i.scdn.co/image/ab67616d00001e025aa05015cfa7bd2943c29b21",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2735aa05015cfa7bd2943c29b21",
+   "url": "https://open.spotify.com/track/776AftMmFFAWUIEAb3lHhw",
+   "album_url": "https://open.spotify.com/album/7KF1Ain9mYYlg5M46g0i4A",
+   "played_at": "2026-11-17T15:46:42.690Z"
+  },
+  {
+   "name": "Time After Time",
+   "artist": "Ozzy Osbourne",
+   "album": "No More Tears (Expanded Edition)",
+   "year": 1991,
+   "image": "https://i.scdn.co/image/ab67616d00001e02509342e69eb341df70e5c2e3",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273509342e69eb341df70e5c2e3",
+   "url": "https://open.spotify.com/track/1U7WBCkBxc7bGeP6v5juEq",
+   "album_url": "https://open.spotify.com/album/6eh82ojicL8RSJF7GkYTh7",
+   "played_at": "2026-11-17T15:43:27.546Z"
+  },
   {
    "name": "Dirty Deeds Done Dirt Cheap",
    "artist": "AC/DC",
@@ -481,61 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/0JWTYPafwH0RvnHiS7IwH5",
    "album_url": "https://open.spotify.com/album/1QQZWTHIDvquxXLSqCaq9L",
    "played_at": "2026-11-16T21:59:01.153Z"
-  },
-  {
-   "name": "Sundown",
-   "artist": "Gordon Lightfoot",
-   "album": "Sundown",
-   "year": 1974,
-   "image": "https://i.scdn.co/image/ab67616d00001e028f2b3a1c0559ca6188de574b",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2738f2b3a1c0559ca6188de574b",
-   "url": "https://open.spotify.com/track/0SjnBEHZVXgCKvOrpvzL2k",
-   "album_url": "https://open.spotify.com/album/2IPD9EcNjUmsHvqULDMU9Y",
-   "played_at": "2026-11-16T21:55:12.001Z"
-  },
-  {
-   "name": "Bed of Nails",
-   "artist": "Alice Cooper",
-   "album": "Trash",
-   "year": 1989,
-   "image": "https://i.scdn.co/image/ab67616d00001e0234b292a289c635532da02671",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27334b292a289c635532da02671",
-   "url": "https://open.spotify.com/track/5XeT9fYCeg1jYithrEni7v",
-   "album_url": "https://open.spotify.com/album/033cvSPAuSU5ArRfIgQSDU",
-   "played_at": "2026-11-16T21:51:38.082Z"
-  },
-  {
-   "name": "River's Soul - Live Session",
-   "artist": "The Warning",
-   "album": "XXI Century Blood",
-   "year": 2017,
-   "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
-   "url": "https://open.spotify.com/track/22fM8a5JGcAcMHl82bRZOY",
-   "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
-   "played_at": "2026-11-16T20:26:55.684Z"
-  },
-  {
-   "name": "Something About You",
-   "artist": "Boston",
-   "album": "Boston",
-   "year": 1976,
-   "image": "https://i.scdn.co/image/ab67616d00001e028c1fadcc997a65384f34d694",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2738c1fadcc997a65384f34d694",
-   "url": "https://open.spotify.com/track/1KxNmUInjFsoDFrLaTtpLZ",
-   "album_url": "https://open.spotify.com/album/2QLp07RO6anZHmtcKTEvSC",
-   "played_at": "2026-11-16T20:22:40.993Z"
-  },
-  {
-   "name": "God Only Knows",
-   "artist": "The Beach Boys",
-   "album": "50 Big Ones: Greatest Hits",
-   "year": 2012,
-   "image": "https://i.scdn.co/image/ab67616d00001e0210d709d905d269d37a41d4c4",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27310d709d905d269d37a41d4c4",
-   "url": "https://open.spotify.com/track/1Umw3vhysHBodpBFpFsVgK",
-   "album_url": "https://open.spotify.com/album/6cSZPNsr3tMEHo5QrMjk1F",
-   "played_at": "2026-11-16T20:18:52.571Z"
   }
  ],
  "top_artists": [
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28746,
+   "plays": 28747,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9743,
+   "plays": 9745,
    "covers": [
     {
      "name": "Amazing",
@@ -1136,7 +1136,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273509342e69eb341df70e5c2e3",
      "url": "https://open.spotify.com/track/0S3gpZzlT9Hb7CCSV2owX7",
      "album_url": "https://open.spotify.com/album/6eh82ojicL8RSJF7GkYTh7",
-     "plays": 534
+     "plays": 535
     },
     {
      "name": "Janie's Got A Gun",
@@ -1169,7 +1169,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273fda5556cb6981c3113df6175",
      "url": "https://open.spotify.com/track/0hrBpAOgrt8RXigk83LLNE",
      "album_url": "https://open.spotify.com/album/5UwIyIyFzkM7wKeGtRJPgB",
-     "plays": 443
+     "plays": 444
     },
     {
      "name": "Walkin' On The Sun",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18687,
+   "plays": 18689,
    "covers": [
     {
      "name": "ERROR",
@@ -1484,7 +1484,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b2735aa05015cfa7bd2943c29b21",
      "url": "https://open.spotify.com/track/6Vfo6O3hk38vDcSpazNo3p",
      "album_url": "https://open.spotify.com/album/7KF1Ain9mYYlg5M46g0i4A",
-     "plays": 411
+     "plays": 412
     }
    ]
   }
