@@ -1,14 +1,36 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-17T16:10:05Z",
+ "generated": "2026-11-17T18:10:09Z",
  "totals": {
-  "plays": 125340,
-  "hours": 8522.1,
+  "plays": 125342,
+  "hours": 8522.2,
   "artists": 702,
   "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Rock The Bop",
+   "artist": "Brenda Lee",
+   "album": "Love You!",
+   "year": 1963,
+   "image": "https://i.scdn.co/image/ab67616d00001e0286dbb746d8ff18b35dc2cdf3",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27386dbb746d8ff18b35dc2cdf3",
+   "url": "https://open.spotify.com/track/3o3zZU5Ib0zd0LpsK1Kfin",
+   "album_url": "https://open.spotify.com/album/4FwaiqI20she40DLrEN4ni",
+   "played_at": "2026-11-17T17:51:25.501Z"
+  },
+  {
+   "name": "Learning To Fly",
+   "artist": "Tom Petty and the Heartbreakers",
+   "album": "Into The Great Wide Open",
+   "year": 1991,
+   "image": "https://i.scdn.co/image/ab67616d00001e0227bd7d234a31296df34b9a64",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27327bd7d234a31296df34b9a64",
+   "url": "https://open.spotify.com/track/17S4XrLvF5jlGvGCJHgF51",
+   "album_url": "https://open.spotify.com/album/42G5ULkCRRl3crJMlg6eKd",
+   "played_at": "2026-11-17T17:49:12.938Z"
+  },
   {
    "name": "I Love Playin' with Fire",
    "artist": "The Rumours",
@@ -514,28 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/2cReSKmcyhe6lw8QSj5AYD",
    "album_url": "https://open.spotify.com/album/4zcvamWINofMEwG74kvQl1",
    "played_at": "2026-11-16T22:05:41.002Z"
-  },
-  {
-   "name": "Sweet Lovin'",
-   "artist": "Saving Escape",
-   "album": "Sweet Lovin'",
-   "year": 2022,
-   "image": "https://i.scdn.co/image/ab67616d00001e02b94ea8e89ca894d33e380801",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273b94ea8e89ca894d33e380801",
-   "url": "https://open.spotify.com/track/1zk1dg2bLI5CSgVAkOdCgc",
-   "album_url": "https://open.spotify.com/album/05SKvplbcT8L4inSKn7Z2x",
-   "played_at": "2026-11-16T22:02:10.995Z"
-  },
-  {
-   "name": "I Don't Care (Yo No Sé)",
-   "artist": "Los Dug Dug's",
-   "album": "Smog",
-   "year": 2015,
-   "image": "https://i.scdn.co/image/ab67616d00001e0293db80d5075e7e4ea1e51dd5",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27393db80d5075e7e4ea1e51dd5",
-   "url": "https://open.spotify.com/track/0JWTYPafwH0RvnHiS7IwH5",
-   "album_url": "https://open.spotify.com/album/1QQZWTHIDvquxXLSqCaq9L",
-   "played_at": "2026-11-16T21:59:01.153Z"
   }
  ],
  "top_artists": [
@@ -832,7 +832,7 @@ window.LISTENING = {
   },
   {
    "decade": 1960,
-   "plays": 7066,
+   "plays": 7067,
    "covers": [
     {
      "name": "Your Time Is Gonna Come - 1990 Remaster",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9745,
+   "plays": 9746,
    "covers": [
     {
      "name": "Amazing",
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Blockade or strikes? Trump’s Iran war options as third US aircraft carrier arrives",
+   "show": "Iran: The Latest",
+   "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
+   "release_date": "2026-11-16",
+   "duration_ms": 2261420,
+   "image": "https://i.scdn.co/image/ab67656300005f1fc7dcece93e99d59fa4b4c3d4",
+   "first_seen": "2026-11-17T18:10:02Z",
+   "progress_ms": 1058413,
+   "last_seen": "2026-11-17T18:10:02Z",
+   "url": "https://open.spotify.com/episode/73MqOFYTo1PqyNXWPUIiYA",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
+  },
+  {
    "name": "A.J. Baime On How Flight Revolutionized The World",
    "show": "Adam Carolla Show",
    "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
@@ -1631,19 +1644,6 @@ window.LISTENING = {
    "progress_ms": 2178147,
    "last_seen": "2026-11-15T01:10:02Z",
    "url": "https://open.spotify.com/episode/3kdpbnvVWQXATqfyqLJnC1",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46"
-  },
-  {
-   "name": "Political fallout from AI chip spying scandal",
-   "show": "Newshour",
-   "show_uri": "spotify:show:5qbXje6KaVOHwjsHNTELjA",
-   "release_date": "2026-11-13",
-   "duration_ms": 2842984,
-   "image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46",
-   "first_seen": "2026-11-14T23:10:02Z",
-   "progress_ms": 668472,
-   "last_seen": "2026-11-15T01:10:02Z",
-   "url": "https://open.spotify.com/episode/4Ims5O0EiJhl2vKxHLjmzR",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46"
   }
  ],
