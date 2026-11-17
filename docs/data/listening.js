@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-17T06:40:06Z",
+ "generated": "2026-11-17T07:10:05Z",
  "totals": {
   "plays": 125312,
   "hours": 8520.2,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Pope Leo’s Political Voice Emerges on South America Tour",
+   "show": "Amanpour",
+   "show_uri": "spotify:show:3sLR8M7JchYmhWuf8QtlyO",
+   "release_date": "2026-11-16",
+   "duration_ms": 3155968,
+   "image": "https://i.scdn.co/image/ab67656300005f1f95217901851fcb57728068b6",
+   "first_seen": "2026-11-17T07:10:02Z",
+   "progress_ms": 66087,
+   "last_seen": "2026-11-17T07:10:02Z",
+   "url": "https://open.spotify.com/episode/48Mw3BB60tCBQcp5T4qjlh",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f95217901851fcb57728068b6"
+  },
+  {
    "name": "The Blame Game Begins",
    "show": "RealClearPolitics Podcast",
    "show_uri": "spotify:show:5FkNemg3aIaPPNBImIcW2l",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-14T23:40:02Z",
    "url": "https://open.spotify.com/episode/6di2r85MwHotZG8tMAGr1p",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fc306eb9be2f4da68a4f7f2be"
-  },
-  {
-   "name": "Nvidia's CEO Jensen Huang Quits",
-   "show": "Newshour",
-   "show_uri": "spotify:show:5qbXje6KaVOHwjsHNTELjA",
-   "release_date": "2026-11-12",
-   "duration_ms": 2849933,
-   "image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46",
-   "first_seen": "2026-11-14T15:10:02Z",
-   "progress_ms": 857918,
-   "last_seen": "2026-11-14T17:40:02Z",
-   "url": "https://open.spotify.com/episode/2sOnm2vsjiMYqrVkWemk87",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f189781a3a30bf2cb76ae0f46"
   }
  ],
  "top_shows": [
