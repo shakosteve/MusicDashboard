@@ -1,14 +1,80 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-17T15:10:06Z",
+ "generated": "2026-11-17T15:40:06Z",
  "totals": {
-  "plays": 125329,
-  "hours": 8521.3,
+  "plays": 125335,
+  "hours": 8521.7,
   "artists": 702,
   "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Dirty Deeds Done Dirt Cheap",
+   "artist": "AC/DC",
+   "album": "Dirty Deeds Done Dirt Cheap",
+   "year": 1976,
+   "image": "https://i.scdn.co/image/ab67616d00001e02dfce70698f4d925525383c7c",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273dfce70698f4d925525383c7c",
+   "url": "https://open.spotify.com/track/2d4e45fmUnguxh6yqC7gNT",
+   "album_url": "https://open.spotify.com/album/76mvVgXOde87B9aOzLXCOI",
+   "played_at": "2026-11-17T15:30:48.151Z"
+  },
+  {
+   "name": "American Woman - 2024 Remaster",
+   "artist": "The Guess Who",
+   "album": "American Woman (2024 Remaster)",
+   "year": 1970,
+   "image": "https://i.scdn.co/image/ab67616d00001e0266997bea96acd48cb2ed15e6",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27366997bea96acd48cb2ed15e6",
+   "url": "https://open.spotify.com/track/4GoldMP2p0yYNSsvHasZgo",
+   "album_url": "https://open.spotify.com/album/3AHpOJBIj8eUBbEUmTxsGQ",
+   "played_at": "2026-11-17T15:26:55.344Z"
+  },
+  {
+   "name": "Summer Of '69",
+   "artist": "Bryan Adams",
+   "album": "Reckless (30th Anniversary / Deluxe Edition)",
+   "year": 1984,
+   "image": "https://i.scdn.co/image/ab67616d00001e02cf1fee2a55e98e22bf358512",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273cf1fee2a55e98e22bf358512",
+   "url": "https://open.spotify.com/track/0GONea6G2XdnHWjNZd6zt3",
+   "album_url": "https://open.spotify.com/album/2o2G49EPi4lua5zgxUKhLL",
+   "played_at": "2026-11-17T15:21:46.343Z"
+  },
+  {
+   "name": "La Grange - 2019 Remaster",
+   "artist": "ZZ Top",
+   "album": "Goin' 50",
+   "year": 2019,
+   "image": "https://i.scdn.co/image/ab67616d00001e0266f8b13d81aa47dc66a51c58",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27366f8b13d81aa47dc66a51c58",
+   "url": "https://open.spotify.com/track/1MVqP6dzp0EZ2T4TpAxWnS",
+   "album_url": "https://open.spotify.com/album/3iCffsNF6mYOY87PWhhqcp",
+   "played_at": "2026-11-17T15:18:09.664Z"
+  },
+  {
+   "name": "Round and Round",
+   "artist": "Ratt",
+   "album": "The Essentials: Ratt",
+   "year": 1984,
+   "image": "https://i.scdn.co/image/ab67616d00001e023e6f0c0b02ca72a70f6b9b50",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2733e6f0c0b02ca72a70f6b9b50",
+   "url": "https://open.spotify.com/track/57P8gH8rjt4OqEoqzut1bL",
+   "album_url": "https://open.spotify.com/album/0zhBC0ytIvsL8Kvf0xtPMp",
+   "played_at": "2026-11-17T15:14:16.724Z"
+  },
+  {
+   "name": "Escape the Mind Piano Only Bonus",
+   "artist": "The Warning",
+   "album": "ESCAPE THE MIND",
+   "year": 2015,
+   "image": "https://i.scdn.co/image/ab67616d00001e02ebd25082bf514bd05cc4cfd2",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273ebd25082bf514bd05cc4cfd2",
+   "url": "https://open.spotify.com/track/5LkbYOr7GoicN0VEoe8mME",
+   "album_url": "https://open.spotify.com/album/0Zj4AvZpKzStGARIOkoDS5",
+   "played_at": "2026-11-17T15:09:50.317Z"
+  },
   {
    "name": "Runaway",
    "artist": "The Warning",
@@ -470,84 +536,18 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/1Umw3vhysHBodpBFpFsVgK",
    "album_url": "https://open.spotify.com/album/6cSZPNsr3tMEHo5QrMjk1F",
    "played_at": "2026-11-16T20:18:52.571Z"
-  },
-  {
-   "name": "In The Dark - Remastered 2010",
-   "artist": "Billy Squier",
-   "album": "Don't Say No (Remastered 2010)",
-   "year": 1981,
-   "image": "https://i.scdn.co/image/ab67616d00001e02f4822f8034e697410a14a297",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273f4822f8034e697410a14a297",
-   "url": "https://open.spotify.com/track/2dgjjOdz8qnGXLos9xbNNV",
-   "album_url": "https://open.spotify.com/album/6TwlLNU5Zd9qGuNgSLeWPt",
-   "played_at": "2026-11-16T20:15:56.301Z"
-  },
-  {
-   "name": "Hard To Handle",
-   "artist": "The Black Crowes",
-   "album": "Shake Your Money Maker",
-   "year": 1990,
-   "image": "https://i.scdn.co/image/ab67616d00001e02a4d2cb95d3ea17f773db23ee",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273a4d2cb95d3ea17f773db23ee",
-   "url": "https://open.spotify.com/track/05NYcsjJwOYq4jIiKPVj9p",
-   "album_url": "https://open.spotify.com/album/2NRRQLuW6j3EsoWpIl2MR3",
-   "played_at": "2026-11-16T20:11:45.682Z"
-  },
-  {
-   "name": "Big Time - 2012 Remaster",
-   "artist": "Peter Gabriel",
-   "album": "So (25th Anniversary Deluxe Edition)",
-   "year": 1986,
-   "image": "https://i.scdn.co/image/ab67616d00001e0255ca4eeb9d2b6d51d04f19eb",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27355ca4eeb9d2b6d51d04f19eb",
-   "url": "https://open.spotify.com/track/6IuOHB4yZcU935GKqT1K6I",
-   "album_url": "https://open.spotify.com/album/1vJ8rCzq6BJtKGz9Yf6oT3",
-   "played_at": "2026-11-16T20:08:37.099Z"
-  },
-  {
-   "name": "Swingtown",
-   "artist": "Steve Miller Band",
-   "album": "Greatest Hits 1974-78",
-   "year": 1978,
-   "image": "https://i.scdn.co/image/ab67616d00001e02632b907273dba6a6062fb780",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273632b907273dba6a6062fb780",
-   "url": "https://open.spotify.com/track/4F01HOLdVKrIfH6LwOi07f",
-   "album_url": "https://open.spotify.com/album/5hLazW5a3Ysgy3dncwGgUn",
-   "played_at": "2026-11-16T20:04:07.586Z"
-  },
-  {
-   "name": "Folsom Prison Blues",
-   "artist": "Joaquin Phoenix",
-   "album": "Walk The Line (Original Motion Picture Soundtrack)",
-   "year": 2005,
-   "image": "https://i.scdn.co/image/ab67616d00001e020ff166bfd4a462cc7f4068a6",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2730ff166bfd4a462cc7f4068a6",
-   "url": "https://open.spotify.com/track/7bh6o0jqTn2Bh0M7vHln6f",
-   "album_url": "https://open.spotify.com/album/6ICcWbsZxt5fVG02IbZuZg",
-   "played_at": "2026-11-16T20:00:37.272Z"
-  },
-  {
-   "name": "No More Tears",
-   "artist": "Ozzy Osbourne",
-   "album": "No More Tears (Expanded Edition)",
-   "year": 1991,
-   "image": "https://i.scdn.co/image/ab67616d00001e02509342e69eb341df70e5c2e3",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273509342e69eb341df70e5c2e3",
-   "url": "https://open.spotify.com/track/7w6PJe5KBPyvuRYxFkPssC",
-   "album_url": "https://open.spotify.com/album/6eh82ojicL8RSJF7GkYTh7",
-   "played_at": "2026-11-16T19:57:44.684Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10712,
+   "plays": 10713,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
   {
    "name": "AC/DC",
-   "plays": 3996,
+   "plays": 3997,
    "url": "https://open.spotify.com/artist/711MCceyCBcFnzjGY4Q7Un",
    "image": "https://i.scdn.co/image/ab67616d00001e02ff191d7fbdb5a13eaf84132b"
   },
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28744,
+   "plays": 28746,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32980,
+   "plays": 32982,
    "covers": [
     {
      "name": "Back In Black",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15805,
+   "plays": 15807,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1357,7 +1357,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273ebd25082bf514bd05cc4cfd2",
      "url": "https://open.spotify.com/track/2drd2oHqFi0PCW13FXQnDG",
      "album_url": "https://open.spotify.com/album/0Zj4AvZpKzStGARIOkoDS5",
-     "plays": 518
+     "plays": 519
     },
     {
      "name": "If You Want Blood (You've Got It)",
