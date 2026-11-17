@@ -1,14 +1,91 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-17T14:10:06Z",
+ "generated": "2026-11-17T14:40:05Z",
  "totals": {
-  "plays": 125315,
-  "hours": 8520.4,
+  "plays": 125322,
+  "hours": 8520.7,
   "artists": 702,
   "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Good Golly, Miss Molly",
+   "artist": "Little Richard",
+   "album": "Good Golly!",
+   "year": 1969,
+   "image": "https://i.scdn.co/image/ab67616d00001e02cc4c510d6d19a2d03e2fc757",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273cc4c510d6d19a2d03e2fc757",
+   "url": "https://open.spotify.com/track/0ZvgXNstN4o2ZXPomtBYVp",
+   "album_url": "https://open.spotify.com/album/18VnWTsdEcofimkOHcWBAu",
+   "played_at": "2026-11-17T14:34:12.761Z"
+  },
+  {
+   "name": "Lady",
+   "artist": "Styx",
+   "album": "Styx II",
+   "year": 1973,
+   "image": "https://i.scdn.co/image/ab67616d00001e025053c9e335609a8de97e5669",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2735053c9e335609a8de97e5669",
+   "url": "https://open.spotify.com/track/1wpRglLhQ092N1rftlDMD3",
+   "album_url": "https://open.spotify.com/album/6QRpuaqB1chM6wemxQlcy1",
+   "played_at": "2026-11-17T14:32:03.179Z"
+  },
+  {
+   "name": "Another One Bites The Dust",
+   "artist": "Queen",
+   "album": "The Game",
+   "year": 1980,
+   "image": "https://i.scdn.co/image/ab67616d00001e02a4e6eac83c0fe38bf682f643",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273a4e6eac83c0fe38bf682f643",
+   "url": "https://open.spotify.com/track/1KPuohcXPmJYQfdyg9zKmR",
+   "album_url": "https://open.spotify.com/album/6l8tOdUItDC01Qmb91Lo8W",
+   "played_at": "2026-11-17T14:29:05.006Z"
+  },
+  {
+   "name": "AMOUR",
+   "artist": "The Warning",
+   "album": "ERROR",
+   "year": 2022,
+   "image": "https://i.scdn.co/image/ab67616d00001e0209fe21cd518d989e0c31224d",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27309fe21cd518d989e0c31224d",
+   "url": "https://open.spotify.com/track/7tgH5rFMIMTfNaycKeMbDb",
+   "album_url": "https://open.spotify.com/album/0el7KHRPZwYXPwXNeSNdJB",
+   "played_at": "2026-11-17T14:25:29.799Z"
+  },
+  {
+   "name": "Jungle Love",
+   "artist": "Steve Miller Band",
+   "album": "Book Of Dreams",
+   "year": 1977,
+   "image": "https://i.scdn.co/image/ab67616d00001e020d9826176c32372e81a8a6cf",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2730d9826176c32372e81a8a6cf",
+   "url": "https://open.spotify.com/track/1EuqRlDP9RuzeCRVcjr1PY",
+   "album_url": "https://open.spotify.com/album/36G9sqbDXXbE7Mv9GTDMXd",
+   "played_at": "2026-11-17T14:21:34.539Z"
+  },
+  {
+   "name": "Are You Gonna Go My Way",
+   "artist": "Lenny Kravitz",
+   "album": "Are You Gonna Go My Way",
+   "year": 1993,
+   "image": "https://i.scdn.co/image/ab67616d00001e02542d87e4d1512bf7facb3860",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273542d87e4d1512bf7facb3860",
+   "url": "https://open.spotify.com/track/45Ia1U4KtIjAPPU7Wv1Sea",
+   "album_url": "https://open.spotify.com/album/35LzZH7Fgog8lf1hfcdoMQ",
+   "played_at": "2026-11-17T14:18:26.541Z"
+  },
+  {
+   "name": "Want Ya",
+   "artist": "The Rumours",
+   "album": "Want Ya",
+   "year": 2021,
+   "image": "https://i.scdn.co/image/ab67616d00001e0265d468ea8dd8e6cc7ff76afe",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27365d468ea8dd8e6cc7ff76afe",
+   "url": "https://open.spotify.com/track/7eW6bHr98JJ2oy49XD8CDn",
+   "album_url": "https://open.spotify.com/album/6yiC6ufrAdO5uh4X2U7d2q",
+   "played_at": "2026-11-17T14:14:54.125Z"
+  },
   {
    "name": "Believe It or Not (Theme from \"Greatest American Hero\")",
    "artist": "Joey Scarbury",
@@ -459,89 +536,12 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/7uON6DWIjXgmLQIfGsWXpV",
    "album_url": "https://open.spotify.com/album/6l8tOdUItDC01Qmb91Lo8W",
    "played_at": "2026-11-16T17:33:24.261Z"
-  },
-  {
-   "name": "Purple Rain",
-   "artist": "Prince",
-   "album": "Purple Rain",
-   "year": 1984,
-   "image": "https://i.scdn.co/image/ab67616d00001e028a2ce3f148f57584269c3782",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2738a2ce3f148f57584269c3782",
-   "url": "https://open.spotify.com/track/1uvyZBs4IZYRebHIB1747m",
-   "album_url": "https://open.spotify.com/album/2umoqwMrmjBBPeaqgYu6J9",
-   "played_at": "2026-11-16T17:30:35.781Z"
-  },
-  {
-   "name": "Coming Home",
-   "artist": "Eskobar",
-   "album": "Coming Home",
-   "year": 2021,
-   "image": "https://i.scdn.co/image/ab67616d00001e023f78eb9dd0c9d9890a7f3305",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2733f78eb9dd0c9d9890a7f3305",
-   "url": "https://open.spotify.com/track/1m3xdSBER0Vcv68BWW4vmn",
-   "album_url": "https://open.spotify.com/album/1fUNSjW6MG9QlPNDus7TQ7",
-   "played_at": "2026-11-16T17:21:53.348Z"
-  },
-  {
-   "name": "Janie's Got A Gun",
-   "artist": "Aerosmith",
-   "album": "Big Ones",
-   "year": 1994,
-   "image": "https://i.scdn.co/image/ab67616d00001e02d5fdfcb083cb825348505a93",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273d5fdfcb083cb825348505a93",
-   "url": "https://open.spotify.com/track/5fMwvrqujbQjUxcNPcYrUF",
-   "album_url": "https://open.spotify.com/album/2uT123xlHuqvz14JR0KQSs",
-   "played_at": "2026-11-16T17:17:12.768Z"
-  },
-  {
-   "name": "99 Luftballons - Remastered 2024",
-   "artist": "Nena",
-   "album": "NENA (Remastered & Selected Works)",
-   "year": 2024,
-   "image": "https://i.scdn.co/image/ab67616d00001e02aad6c8766ffd364454df5465",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273aad6c8766ffd364454df5465",
-   "url": "https://open.spotify.com/track/3NM2GsEUdDq2QYqXOMXZZW",
-   "album_url": "https://open.spotify.com/album/5OhSZi1hTPDWarLDiUT3Si",
-   "played_at": "2026-11-16T17:11:41.729Z"
-  },
-  {
-   "name": "Vogue",
-   "artist": "Madonna",
-   "album": "The Immaculate Collection",
-   "year": 1990,
-   "image": "https://i.scdn.co/image/ab67616d00001e02e275f1fbda1c7bc82f9c386b",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273e275f1fbda1c7bc82f9c386b",
-   "url": "https://open.spotify.com/track/7j5TIXPi0cCbSSqItmbyZy",
-   "album_url": "https://open.spotify.com/album/5MzwGwnO9gkh0z6Nl4FF8h",
-   "played_at": "2026-11-16T17:07:47.961Z"
-  },
-  {
-   "name": "Nobody's Fault but Mine - Live",
-   "artist": "Jimmy Page, The Black Crowes",
-   "album": "Live at the Greek",
-   "year": 2025,
-   "image": "https://i.scdn.co/image/ab67616d00001e02fa6e624fbe4dbca748770195",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273fa6e624fbe4dbca748770195",
-   "url": "https://open.spotify.com/track/1KhLSm4UqVIqxPgja2oX3O",
-   "album_url": "https://open.spotify.com/album/27DJov9N9ian0RrcMO1Iak",
-   "played_at": "2026-11-16T17:02:30.266Z"
-  },
-  {
-   "name": "Saltwater",
-   "artist": "Matilda Marigolds",
-   "album": "Union",
-   "year": 2021,
-   "image": "https://i.scdn.co/image/ab67616d00001e02d579a612650cec9eb67574e9",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273d579a612650cec9eb67574e9",
-   "url": "https://open.spotify.com/track/08kKeLPf4vP33cYltNoMGH",
-   "album_url": "https://open.spotify.com/album/7ofKUTF17SEsGsAuaMhbj7",
-   "played_at": "2026-11-16T16:55:41.276Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10710,
+   "plays": 10711,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
@@ -577,7 +577,7 @@ window.LISTENING = {
   },
   {
    "name": "Steve Miller Band",
-   "plays": 1963,
+   "plays": 1964,
    "url": "https://open.spotify.com/artist/6QtGlUje9TIkLrgPZrESuk",
    "image": "https://i.scdn.co/image/ab67616d00001e02632b907273dba6a6062fb780"
   },
@@ -589,7 +589,7 @@ window.LISTENING = {
   },
   {
    "name": "Queen",
-   "plays": 1921,
+   "plays": 1922,
    "url": "https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d",
    "image": "https://i.scdn.co/image/ab67616d00001e0207744e2ed983efa3e6620a47"
   },
@@ -665,7 +665,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b27309fe21cd518d989e0c31224d",
    "url": "https://open.spotify.com/track/5On0z2PZjPf5x7eB2afLEf",
    "album_url": "https://open.spotify.com/album/0el7KHRPZwYXPwXNeSNdJB",
-   "plays": 1318
+   "plays": 1319
   },
   {
    "name": "More Than a Feeling",
@@ -832,7 +832,7 @@ window.LISTENING = {
   },
   {
    "decade": 1960,
-   "plays": 7065,
+   "plays": 7066,
    "covers": [
     {
      "name": "Your Time Is Gonna Come - 1990 Remaster",
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28741,
+   "plays": 28743,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32979,
+   "plays": 32980,
    "covers": [
     {
      "name": "Back In Black",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9742,
+   "plays": 9743,
    "covers": [
     {
      "name": "Amazing",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18683,
+   "plays": 18685,
    "covers": [
     {
      "name": "ERROR",
@@ -1407,7 +1407,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b27309fe21cd518d989e0c31224d",
      "url": "https://open.spotify.com/track/5On0z2PZjPf5x7eB2afLEf",
      "album_url": "https://open.spotify.com/album/0el7KHRPZwYXPwXNeSNdJB",
-     "plays": 1318
+     "plays": 1319
     },
     {
      "name": "Leroy",
