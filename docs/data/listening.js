@@ -1,14 +1,69 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-17T20:10:07Z",
+ "generated": "2026-11-17T20:40:06Z",
  "totals": {
-  "plays": 125356,
-  "hours": 8523.2,
+  "plays": 125361,
+  "hours": 8523.6,
   "artists": 702,
   "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "What Good's A Rock Without A Roll?",
+   "artist": "Black Spiders",
+   "album": "Sons Of The North",
+   "year": 2011,
+   "image": "https://i.scdn.co/image/ab67616d00001e026724fae9bc203a9d4defd736",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2736724fae9bc203a9d4defd736",
+   "url": "https://open.spotify.com/track/0FrhD37RheksdxcDi4tgx3",
+   "album_url": "https://open.spotify.com/album/7KDzhHeTeAjmBFO3ixlMGm",
+   "played_at": "2026-11-17T20:29:36.085Z"
+  },
+  {
+   "name": "Paranoid - 2012 - Remaster",
+   "artist": "Black Sabbath",
+   "album": "Paranoid (Remaster)",
+   "year": 1970,
+   "image": "https://i.scdn.co/image/ab67616d00001e02d5fccf9ce08b6a1e7d12a222",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273d5fccf9ce08b6a1e7d12a222",
+   "url": "https://open.spotify.com/track/1Y373MqadDRtclJNdnUXVc",
+   "album_url": "https://open.spotify.com/album/6r7LZXAVueS5DqdrvXJJK7",
+   "played_at": "2026-11-17T20:25:05.856Z"
+  },
+  {
+   "name": "Gettin' Jiggy Wit It",
+   "artist": "Will Smith",
+   "album": "Big Willie Style",
+   "year": 1997,
+   "image": "https://i.scdn.co/image/ab67616d00001e02ddf2f9edabd166c60047e3c4",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273ddf2f9edabd166c60047e3c4",
+   "url": "https://open.spotify.com/track/0weAUscowxeqDtpCgtbpgp",
+   "album_url": "https://open.spotify.com/album/2esWeP8Ln1sXA0jbDmi3Zq",
+   "played_at": "2026-11-17T20:22:16.998Z"
+  },
+  {
+   "name": "Take on Me",
+   "artist": "a-ha",
+   "album": "Hunting High and Low",
+   "year": 1985,
+   "image": "https://i.scdn.co/image/ab67616d00001e02e8dd4db47e7177c63b0b7d53",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273e8dd4db47e7177c63b0b7d53",
+   "url": "https://open.spotify.com/track/2WfaOiMkCvy7F5fcp2zZ8L",
+   "album_url": "https://open.spotify.com/album/1ER3B6zev5JEAaqhnyyfbf",
+   "played_at": "2026-11-17T20:18:28.610Z"
+  },
+  {
+   "name": "Centerfield",
+   "artist": "John Fogerty",
+   "album": "Centerfield (25th Anniversary)",
+   "year": 1985,
+   "image": "https://i.scdn.co/image/ab67616d00001e02f2aaa0b785e5a7644ba31e08",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273f2aaa0b785e5a7644ba31e08",
+   "url": "https://open.spotify.com/track/5f7KV4oOHZylrpa5XKFu6G",
+   "album_url": "https://open.spotify.com/album/7wLd9KZsIrtpcRCVOjq7v8",
+   "played_at": "2026-11-17T20:14:42.808Z"
+  },
   {
    "name": "Jailbreak",
    "artist": "AC/DC",
@@ -481,61 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/7odHgoLFi3GQ90E9PeraI3",
    "album_url": "https://open.spotify.com/album/6SNMenG3NjZyqgI5p4Hcmg",
    "played_at": "2026-11-17T13:56:00.953Z"
-  },
-  {
-   "name": "Come On",
-   "artist": "The Sixsters",
-   "album": "Етюди",
-   "year": 2021,
-   "image": "https://i.scdn.co/image/ab67616d00001e02bb762e29a9bb34ff09134256",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273bb762e29a9bb34ff09134256",
-   "url": "https://open.spotify.com/track/4fVyOWxMI6dCIOFbbcALtA",
-   "album_url": "https://open.spotify.com/album/5ylsDPMjSjP1ep0OLGYqA6",
-   "played_at": "2026-11-17T03:42:30.654Z"
-  },
-  {
-   "name": "Here I Go Again - 1987 Version / 2018 Remaster",
-   "artist": "Whitesnake",
-   "album": "Whitesnake (2018 Remaster)",
-   "year": 1987,
-   "image": "https://i.scdn.co/image/ab67616d00001e0249113b5921d7a53f49b64bfd",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27349113b5921d7a53f49b64bfd",
-   "url": "https://open.spotify.com/track/58z9sfHe9s9zTvYGKehCWM",
-   "album_url": "https://open.spotify.com/album/7swyGza0lOXnnkfSupULM5",
-   "played_at": "2026-11-17T02:47:07.033Z"
-  },
-  {
-   "name": "I Shot The Sheriff",
-   "artist": "Eric Clapton",
-   "album": "461 Ocean Blvd. (Deluxe Edition)",
-   "year": 1974,
-   "image": "https://i.scdn.co/image/ab67616d00001e02d752956b8a82ffa07baa835e",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273d752956b8a82ffa07baa835e",
-   "url": "https://open.spotify.com/track/0UOxp1BpnD8uPQMKU4wKjz",
-   "album_url": "https://open.spotify.com/album/408nODJ1r3nO7f3qWkCrCB",
-   "played_at": "2026-11-17T02:42:31.141Z"
-  },
-  {
-   "name": "Orleans",
-   "artist": "The Standstills",
-   "album": "From The Devil's Porch",
-   "year": 2015,
-   "image": "https://i.scdn.co/image/ab67616d00001e020f9e2820d964cb5cb5c6e6c6",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2730f9e2820d964cb5cb5c6e6c6",
-   "url": "https://open.spotify.com/track/5gCHeEyMtK3AFVDqhN1Ro7",
-   "album_url": "https://open.spotify.com/album/5DB1AiZ4PoG0zmlHm19Dv7",
-   "played_at": "2026-11-17T02:38:05.362Z"
-  },
-  {
-   "name": "50 Ways to Leave Your Lover",
-   "artist": "Paul Simon",
-   "album": "Still Crazy After All These Years",
-   "year": 1975,
-   "image": "https://i.scdn.co/image/ab67616d00001e02f081c7a1a21fb8f983a9d3cb",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273f081c7a1a21fb8f983a9d3cb",
-   "url": "https://open.spotify.com/track/6Qb7gtV6Q4MnUjSbkFcopl",
-   "album_url": "https://open.spotify.com/album/4A366gjTrYQwmRtkTezF2W",
-   "played_at": "2026-11-17T02:34:44.324Z"
   }
  ],
  "top_artists": [
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28750,
+   "plays": 28751,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -959,7 +959,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273d5fccf9ce08b6a1e7d12a222",
      "url": "https://open.spotify.com/track/3IOQZRcEkplCXg6LofKqE9",
      "album_url": "https://open.spotify.com/album/6r7LZXAVueS5DqdrvXJJK7",
-     "plays": 719
+     "plays": 720
     },
     {
      "name": "Crazy On You",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32985,
+   "plays": 32987,
    "covers": [
     {
      "name": "Back In Black",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9748,
+   "plays": 9749,
    "covers": [
     {
      "name": "Amazing",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15808,
+   "plays": 15809,
    "covers": [
     {
      "name": "XXI Century Blood",
