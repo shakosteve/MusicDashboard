@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-18T13:10:09Z",
+ "generated": "2026-11-18T14:10:10Z",
  "totals": {
   "plays": 125377,
   "hours": 8524.7,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Ed Begley Jr. & Elizabeth Guest: Old vs. New Hollywood & Their New Christmas Movie",
+   "show": "Adam Carolla Show",
+   "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
+   "release_date": "2026-11-18",
+   "duration_ms": 6337175,
+   "image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f",
+   "first_seen": "2026-11-18T14:10:03Z",
+   "progress_ms": 570671,
+   "last_seen": "2026-11-18T14:10:03Z",
+   "url": "https://open.spotify.com/episode/6HF3x5MnBDEQHZNxazwMFX",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
+  },
+  {
    "name": "How GTA VI Became the Most Expensive Video Game Ever Made",
    "show": "Odd Lots",
    "show_uri": "spotify:show:1te7oSFyRVekxMBJUSethH",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-17T07:10:02Z",
    "url": "https://open.spotify.com/episode/48Mw3BB60tCBQcp5T4qjlh",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f95217901851fcb57728068b6"
-  },
-  {
-   "name": "The Blame Game Begins",
-   "show": "RealClearPolitics Podcast",
-   "show_uri": "spotify:show:5FkNemg3aIaPPNBImIcW2l",
-   "release_date": "2026-11-16",
-   "duration_ms": 3000842,
-   "image": "https://i.scdn.co/image/ab67656300005f1fb4a698a52cc52955b8a12bca",
-   "first_seen": "2026-11-17T04:10:02Z",
-   "progress_ms": 3000842,
-   "last_seen": "2026-11-17T06:40:02Z",
-   "url": "https://open.spotify.com/episode/2sY1LaE26RlBk1EHIJvYTk",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fe19edf2c6856b8b09c057f38"
   }
  ],
  "top_shows": [
