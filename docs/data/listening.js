@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-18T16:10:05Z",
+ "generated": "2026-11-18T16:40:07Z",
  "totals": {
   "plays": 125379,
   "hours": 8524.8,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Third wheeling: Xi, Putin and Trump meet in China",
+   "show": "Economist Podcasts",
+   "show_uri": "spotify:show:2ZFDmgDS2Z6xccP51s1zFQ",
+   "release_date": "2026-11-18",
+   "duration_ms": 1385012,
+   "image": "https://i.scdn.co/image/ab67656300005f1f32c9c0ea7657e71644890713",
+   "first_seen": "2026-11-18T16:40:02Z",
+   "progress_ms": 775520,
+   "last_seen": "2026-11-18T16:40:02Z",
+   "url": "https://open.spotify.com/episode/19x3t2UxUya4EbIA5rTS5Q",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f3d63c8a3f5c8f7b8b0c1443b"
+  },
+  {
    "name": "Ed Begley Jr. & Elizabeth Guest: Old vs. New Hollywood & Their New Christmas Movie",
    "show": "Adam Carolla Show",
    "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-17T14:10:02Z",
    "url": "https://open.spotify.com/episode/1RsBRbPT7TGhIupVlWq58h",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f78954c21afd24c90334deba4"
-  },
-  {
-   "name": "Pope Leo’s Political Voice Emerges on South America Tour",
-   "show": "Amanpour",
-   "show_uri": "spotify:show:3sLR8M7JchYmhWuf8QtlyO",
-   "release_date": "2026-11-16",
-   "duration_ms": 3155968,
-   "image": "https://i.scdn.co/image/ab67656300005f1f95217901851fcb57728068b6",
-   "first_seen": "2026-11-17T07:10:02Z",
-   "progress_ms": 66087,
-   "last_seen": "2026-11-17T07:10:02Z",
-   "url": "https://open.spotify.com/episode/48Mw3BB60tCBQcp5T4qjlh",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f95217901851fcb57728068b6"
   }
  ],
  "top_shows": [
