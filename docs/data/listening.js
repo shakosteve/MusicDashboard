@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-18T22:10:06Z",
+ "generated": "2026-11-18T22:40:07Z",
  "totals": {
   "plays": 125379,
   "hours": 8524.8,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "‘They’re in it to win or die’: Why Iran’s regime is built to survive",
+   "show": "Iran: The Latest",
+   "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
+   "release_date": "2026-11-18",
+   "duration_ms": 2561254,
+   "image": "https://i.scdn.co/image/ab67656300005f1ff0fd3fbc80654d65e2555f4f",
+   "first_seen": "2026-11-18T20:40:02Z",
+   "progress_ms": 2405073,
+   "last_seen": "2026-11-18T22:40:02Z",
+   "url": "https://open.spotify.com/episode/7feObkOxr29lwO5YUtC8Jp",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
+  },
+  {
    "name": "How Ukraine pulled off the campaign that brought down Kerch bridge",
    "show": "Ukraine: The Latest",
    "show_uri": "spotify:show:6cnkk1J0I1UqtxTYVUL4Fe",
@@ -1502,19 +1515,6 @@ window.LISTENING = {
    "last_seen": "2026-11-18T22:10:02Z",
    "url": "https://open.spotify.com/episode/6LOSCE40dhNaDuZ53XbrTK",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f78954c21afd24c90334deba4"
-  },
-  {
-   "name": "‘They’re in it to win or die’: Why Iran’s regime is built to survive",
-   "show": "Iran: The Latest",
-   "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
-   "release_date": "2026-11-18",
-   "duration_ms": 2561254,
-   "image": "https://i.scdn.co/image/ab67656300005f1ff0fd3fbc80654d65e2555f4f",
-   "first_seen": "2026-11-18T20:40:02Z",
-   "progress_ms": 1287548,
-   "last_seen": "2026-11-18T20:40:03Z",
-   "url": "https://open.spotify.com/episode/7feObkOxr29lwO5YUtC8Jp",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
   },
   {
    "name": "Ed Begley Jr. & Elizabeth Guest: Old vs. New Hollywood & Their New Christmas Movie",
