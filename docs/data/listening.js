@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-18T04:10:05Z",
+ "generated": "2026-11-18T05:40:05Z",
  "totals": {
   "plays": 125377,
   "hours": 8524.7,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Rings of Power Season 3 Episodes 1 - 4: HOBBIT HOTLINE",
+   "show": "An Unexpected Podcast: Talkin' Tolkien",
+   "show_uri": "spotify:show:6FPTndfWLnXeXsc64HGGa5",
+   "release_date": "2026-11-17",
+   "duration_ms": 10536072,
+   "image": "https://i.scdn.co/image/ab67656300005f1f51d5c3394eeffda50a90489e",
+   "first_seen": "2026-11-18T03:10:02Z",
+   "progress_ms": 3260120,
+   "last_seen": "2026-11-18T05:40:02Z",
+   "url": "https://open.spotify.com/episode/59IColpEDb4QHKcm3PULnW",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f886dd25a83ead6abeffe92b0"
+  },
+  {
    "name": "A Tribute to Dr. Marsha Linehan & DBT Therapy ",
    "show": "Kennedy Saves the World",
    "show_uri": "spotify:show:5DEwjZIkxrUhkM1nlqLagd",
@@ -1502,19 +1515,6 @@ window.LISTENING = {
    "last_seen": "2026-11-18T04:10:02Z",
    "url": "https://open.spotify.com/episode/2ORA300WtfEc5mFn97WEUQ",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fc306eb9be2f4da68a4f7f2be"
-  },
-  {
-   "name": "Rings of Power Season 3 Episodes 1 - 4: HOBBIT HOTLINE",
-   "show": "An Unexpected Podcast: Talkin' Tolkien",
-   "show_uri": "spotify:show:6FPTndfWLnXeXsc64HGGa5",
-   "release_date": "2026-11-17",
-   "duration_ms": 10536072,
-   "image": "https://i.scdn.co/image/ab67656300005f1f51d5c3394eeffda50a90489e",
-   "first_seen": "2026-11-18T03:10:02Z",
-   "progress_ms": 2331746,
-   "last_seen": "2026-11-18T03:40:02Z",
-   "url": "https://open.spotify.com/episode/59IColpEDb4QHKcm3PULnW",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f886dd25a83ead6abeffe92b0"
   },
   {
    "name": "President Trump Begins his Swing Through Asia",
