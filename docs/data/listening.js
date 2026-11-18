@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-18T19:40:06Z",
+ "generated": "2026-11-18T20:40:07Z",
  "totals": {
   "plays": 125379,
   "hours": 8524.8,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "‘They’re in it to win or die’: Why Iran’s regime is built to survive",
+   "show": "Iran: The Latest",
+   "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
+   "release_date": "2026-11-18",
+   "duration_ms": 2561254,
+   "image": "https://i.scdn.co/image/ab67656300005f1ff0fd3fbc80654d65e2555f4f",
+   "first_seen": "2026-11-18T20:40:02Z",
+   "progress_ms": 1287548,
+   "last_seen": "2026-11-18T20:40:03Z",
+   "url": "https://open.spotify.com/episode/7feObkOxr29lwO5YUtC8Jp",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
+  },
+  {
    "name": "How Ukraine pulled off the campaign that brought down Kerch bridge",
    "show": "Ukraine: The Latest",
    "show_uri": "spotify:show:6cnkk1J0I1UqtxTYVUL4Fe",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-17T20:10:03Z",
    "url": "https://open.spotify.com/episode/73MqOFYTo1PqyNXWPUIiYA",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
-  },
-  {
-   "name": "A.J. Baime On How Flight Revolutionized The World",
-   "show": "Adam Carolla Show",
-   "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
-   "release_date": "2026-11-17",
-   "duration_ms": 6472751,
-   "image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f",
-   "first_seen": "2026-11-17T12:40:02Z",
-   "progress_ms": 3499953,
-   "last_seen": "2026-11-17T15:10:03Z",
-   "url": "https://open.spotify.com/episode/4uJ7sgXnFJCfq6OUdcDwUY",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
   }
  ],
  "top_shows": [
