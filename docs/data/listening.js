@@ -1,14 +1,91 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-18T00:40:05Z",
+ "generated": "2026-11-18T01:10:07Z",
  "totals": {
-  "plays": 125367,
-  "hours": 8524.0,
+  "plays": 125374,
+  "hours": 8524.5,
   "artists": 702,
   "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Poison",
+   "artist": "Alice Cooper",
+   "album": "Trash",
+   "year": 1989,
+   "image": "https://i.scdn.co/image/ab67616d00001e0234b292a289c635532da02671",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27334b292a289c635532da02671",
+   "url": "https://open.spotify.com/track/5XcZRgJv3zMhTqCyESjQrF",
+   "album_url": "https://open.spotify.com/album/033cvSPAuSU5ArRfIgQSDU",
+   "played_at": "2026-11-18T01:06:02.729Z"
+  },
+  {
+   "name": "California Dreamin' - Single Version",
+   "artist": "The Mamas & The Papas",
+   "album": "If You Can Believe Your Eyes & Ears",
+   "year": 1966,
+   "image": "https://i.scdn.co/image/ab67616d00001e0208181b9f840a06e7a071cf72",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27308181b9f840a06e7a071cf72",
+   "url": "https://open.spotify.com/track/4s6LhHAV5SEsOV0lC2tjvJ",
+   "album_url": "https://open.spotify.com/album/76oMr4Y2pOtcrvZLc2ZikF",
+   "played_at": "2026-11-18T01:01:32.437Z"
+  },
+  {
+   "name": "Stayin Alive",
+   "artist": "Bee Gees",
+   "album": "How Can You Mend A Broken Heart",
+   "year": 2020,
+   "image": "https://i.scdn.co/image/ab67616d00001e02bdcea025a483b9642f17a9f8",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273bdcea025a483b9642f17a9f8",
+   "url": "https://open.spotify.com/track/5ubvP9oKmxLUVq506fgLhk",
+   "album_url": "https://open.spotify.com/album/4vAhQeeWkSjVn0p5GAaLBx",
+   "played_at": "2026-11-18T00:58:49.497Z"
+  },
+  {
+   "name": "La Isla Bonita",
+   "artist": "Madonna",
+   "album": "True Blue",
+   "year": 1986,
+   "image": "https://i.scdn.co/image/ab67616d00001e02de3094d98b62340d3268c7bc",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273de3094d98b62340d3268c7bc",
+   "url": "https://open.spotify.com/track/6r8k1vznHrzlEKYxL4dZEe",
+   "album_url": "https://open.spotify.com/album/6fmnT17jc2Sc69q3nza1eD",
+   "played_at": "2026-11-18T00:54:03.692Z"
+  },
+  {
+   "name": "River's Soul - Live Session",
+   "artist": "The Warning",
+   "album": "XXI Century Blood",
+   "year": 2017,
+   "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
+   "url": "https://open.spotify.com/track/22fM8a5JGcAcMHl82bRZOY",
+   "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
+   "played_at": "2026-11-18T00:50:00.496Z"
+  },
+  {
+   "name": "Have You Ever Seen The Rain",
+   "artist": "Creedence Clearwater Revival",
+   "album": "Pendulum (Expanded Edition)",
+   "year": 1970,
+   "image": "https://i.scdn.co/image/ab67616d00001e0251f311c2fb06ad2789e3ff91",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27351f311c2fb06ad2789e3ff91",
+   "url": "https://open.spotify.com/track/2LawezPeJhN4AWuSB0GtAU",
+   "album_url": "https://open.spotify.com/album/372cMadhAGlNuDnc8TssqF",
+   "played_at": "2026-11-18T00:45:45.880Z"
+  },
+  {
+   "name": "Open Your Heart",
+   "artist": "Madonna",
+   "album": "The Immaculate Collection",
+   "year": 1990,
+   "image": "https://i.scdn.co/image/ab67616d00001e02e275f1fbda1c7bc82f9c386b",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273e275f1fbda1c7bc82f9c386b",
+   "url": "https://open.spotify.com/track/1AMZVcZvuPKqxm822W8PGV",
+   "album_url": "https://open.spotify.com/album/5MzwGwnO9gkh0z6Nl4FF8h",
+   "played_at": "2026-11-18T00:43:05.196Z"
+  },
   {
    "name": "The Power Of Love",
    "artist": "Huey Lewis & The News",
@@ -459,89 +536,12 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/55mW03rqsI9s3xUnuruF7G",
    "album_url": "https://open.spotify.com/album/67AYhGt60AoJa1TVcn5lCn",
    "played_at": "2026-11-17T14:57:41.234Z"
-  },
-  {
-   "name": "Tall Cool One - 2006 Remaster",
-   "artist": "Robert Plant",
-   "album": "Now and Zen",
-   "year": 2007,
-   "image": "https://i.scdn.co/image/ab67616d00001e02237101c710f6d7155dbf6c0f",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273237101c710f6d7155dbf6c0f",
-   "url": "https://open.spotify.com/track/6vejDalRlBqPrr7s3iwi9U",
-   "album_url": "https://open.spotify.com/album/7MwPi2NpS2OoZ8K1h5tmXV",
-   "played_at": "2026-11-17T14:51:57.429Z"
-  },
-  {
-   "name": "Baker Street",
-   "artist": "Gerry Rafferty",
-   "album": "City to City",
-   "year": 1978,
-   "image": "https://i.scdn.co/image/ab67616d00001e02dc60cf9a010f86354e6735dd",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273dc60cf9a010f86354e6735dd",
-   "url": "https://open.spotify.com/track/5gOd6zDC8vhlYjqbQdJVWP",
-   "album_url": "https://open.spotify.com/album/35yZZTWeSrszSKjRlFETwf",
-   "played_at": "2026-11-17T14:46:23.946Z"
-  },
-  {
-   "name": "N.I.B.",
-   "artist": "Black Sabbath",
-   "album": "The Ultimate Collection",
-   "year": 2017,
-   "image": "https://i.scdn.co/image/ab67616d00001e02012d727b175d4a91c792fb4c",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273012d727b175d4a91c792fb4c",
-   "url": "https://open.spotify.com/track/2GnVuaoKSkB6Xa07l1BBg8",
-   "album_url": "https://open.spotify.com/album/6TcPqftScGmR0aEgIb43Vv",
-   "played_at": "2026-11-17T14:40:17.842Z"
-  },
-  {
-   "name": "Good Golly, Miss Molly",
-   "artist": "Little Richard",
-   "album": "Good Golly!",
-   "year": 1969,
-   "image": "https://i.scdn.co/image/ab67616d00001e02cc4c510d6d19a2d03e2fc757",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273cc4c510d6d19a2d03e2fc757",
-   "url": "https://open.spotify.com/track/0ZvgXNstN4o2ZXPomtBYVp",
-   "album_url": "https://open.spotify.com/album/18VnWTsdEcofimkOHcWBAu",
-   "played_at": "2026-11-17T14:34:12.761Z"
-  },
-  {
-   "name": "Lady",
-   "artist": "Styx",
-   "album": "Styx II",
-   "year": 1973,
-   "image": "https://i.scdn.co/image/ab67616d00001e025053c9e335609a8de97e5669",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2735053c9e335609a8de97e5669",
-   "url": "https://open.spotify.com/track/1wpRglLhQ092N1rftlDMD3",
-   "album_url": "https://open.spotify.com/album/6QRpuaqB1chM6wemxQlcy1",
-   "played_at": "2026-11-17T14:32:03.179Z"
-  },
-  {
-   "name": "Another One Bites The Dust",
-   "artist": "Queen",
-   "album": "The Game",
-   "year": 1980,
-   "image": "https://i.scdn.co/image/ab67616d00001e02a4e6eac83c0fe38bf682f643",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273a4e6eac83c0fe38bf682f643",
-   "url": "https://open.spotify.com/track/1KPuohcXPmJYQfdyg9zKmR",
-   "album_url": "https://open.spotify.com/album/6l8tOdUItDC01Qmb91Lo8W",
-   "played_at": "2026-11-17T14:29:05.006Z"
-  },
-  {
-   "name": "AMOUR",
-   "artist": "The Warning",
-   "album": "ERROR",
-   "year": 2022,
-   "image": "https://i.scdn.co/image/ab67616d00001e0209fe21cd518d989e0c31224d",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27309fe21cd518d989e0c31224d",
-   "url": "https://open.spotify.com/track/7tgH5rFMIMTfNaycKeMbDb",
-   "album_url": "https://open.spotify.com/album/0el7KHRPZwYXPwXNeSNdJB",
-   "played_at": "2026-11-17T14:25:29.799Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10715,
+   "plays": 10716,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
@@ -565,7 +565,7 @@ window.LISTENING = {
   },
   {
    "name": "Madonna",
-   "plays": 2111,
+   "plays": 2113,
    "url": "https://open.spotify.com/artist/6tbjWDEIzxoDsBA1FuhfPW",
    "image": "https://i.scdn.co/image/ab67616d00001e026b44fa8f5415cc4c945117be"
   },
@@ -610,7 +610,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
    "url": "https://open.spotify.com/track/1VcLiPmina1L3xlLkJ5OTS",
    "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
-   "plays": 3495
+   "plays": 3496
   },
   {
    "name": "Dust to Dust",
@@ -832,7 +832,7 @@ window.LISTENING = {
   },
   {
    "decade": 1960,
-   "plays": 7068,
+   "plays": 7069,
    "covers": [
     {
      "name": "Your Time Is Gonna Come - 1990 Remaster",
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28751,
+   "plays": 28752,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32988,
+   "plays": 32990,
    "covers": [
     {
      "name": "Back In Black",
@@ -1108,13 +1108,13 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b27334b292a289c635532da02671",
      "url": "https://open.spotify.com/track/5XcZRgJv3zMhTqCyESjQrF",
      "album_url": "https://open.spotify.com/album/033cvSPAuSU5ArRfIgQSDU",
-     "plays": 512
+     "plays": 513
     }
    ]
   },
   {
    "decade": 1990,
-   "plays": 9751,
+   "plays": 9752,
    "covers": [
     {
      "name": "Amazing",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15810,
+   "plays": 15811,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1313,7 +1313,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
      "url": "https://open.spotify.com/track/1VcLiPmina1L3xlLkJ5OTS",
      "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
-     "plays": 3495
+     "plays": 3496
     },
     {
      "name": "Dust to Dust",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18693,
+   "plays": 18694,
    "covers": [
     {
      "name": "ERROR",
