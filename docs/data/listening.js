@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-18T02:10:06Z",
+ "generated": "2026-11-18T02:40:08Z",
  "totals": {
   "plays": 125377,
   "hours": 8524.7,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "President Trump Begins his Swing Through Asia",
+   "show": "RealClearPolitics Podcast",
+   "show_uri": "spotify:show:5FkNemg3aIaPPNBImIcW2l",
+   "release_date": "2026-11-17",
+   "duration_ms": 3003689,
+   "image": "https://i.scdn.co/image/ab67656300005f1fa0f97924a2cc54d169046d34",
+   "first_seen": "2026-11-18T01:40:02Z",
+   "progress_ms": 3237960,
+   "last_seen": "2026-11-18T02:40:03Z",
+   "url": "https://open.spotify.com/episode/1beKgeEKQg3lBmfaZWK4ea",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fe19edf2c6856b8b09c057f38"
+  },
+  {
    "name": "Trump and friends: the biggest threat to America's national security?",
    "show": "Christiane Amanpour Presents: The Ex Files",
    "show_uri": "spotify:show:3ZpgFegm3q3AGjiFbjLV59",
@@ -1502,19 +1515,6 @@ window.LISTENING = {
    "last_seen": "2026-11-18T02:10:02Z",
    "url": "https://open.spotify.com/episode/42MmuTk17Yeo9OQtys38TH",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f5a4e319927f9dcfb7453f69d"
-  },
-  {
-   "name": "President Trump Begins his Swing Through Asia",
-   "show": "RealClearPolitics Podcast",
-   "show_uri": "spotify:show:5FkNemg3aIaPPNBImIcW2l",
-   "release_date": "2026-11-17",
-   "duration_ms": 3003689,
-   "image": "https://i.scdn.co/image/ab67656300005f1fa0f97924a2cc54d169046d34",
-   "first_seen": "2026-11-18T01:40:02Z",
-   "progress_ms": 2653086,
-   "last_seen": "2026-11-18T02:10:02Z",
-   "url": "https://open.spotify.com/episode/1beKgeEKQg3lBmfaZWK4ea",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fe19edf2c6856b8b09c057f38"
   },
   {
    "name": "Ukraine's 'unprecedented' operation to take down Putin’s Kerch bridge",
