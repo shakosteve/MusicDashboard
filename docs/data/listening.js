@@ -1,14 +1,36 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-18T14:10:10Z",
+ "generated": "2026-11-18T14:40:05Z",
  "totals": {
-  "plays": 125377,
-  "hours": 8524.7,
+  "plays": 125379,
+  "hours": 8524.8,
   "artists": 702,
   "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Mary Had a Little Lamb",
+   "artist": "Stevie Ray Vaughan",
+   "album": "Texas Flood (Legacy Edition)",
+   "year": 1983,
+   "image": "https://i.scdn.co/image/ab67616d00001e02f7143c00741b94bb62025340",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273f7143c00741b94bb62025340",
+   "url": "https://open.spotify.com/track/0nFZ2HQRnIxiwraCm2X6Uq",
+   "album_url": "https://open.spotify.com/album/1AL5oXZRtTc8PyhcTwg4xQ",
+   "played_at": "2026-11-18T14:25:06.745Z"
+  },
+  {
+   "name": "I'm A Believer - Radio Edit",
+   "artist": "Smash Mouth",
+   "album": "Smash Mouth",
+   "year": 2001,
+   "image": "https://i.scdn.co/image/ab67616d00001e02e271723e2054ba24d0b06075",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273e271723e2054ba24d0b06075",
+   "url": "https://open.spotify.com/track/1RC5Mb0VhnlhnMlFDnrvE0",
+   "album_url": "https://open.spotify.com/album/0E0q3hPeALlDvoDvYztYeH",
+   "played_at": "2026-11-18T14:22:19.359Z"
+  },
   {
    "name": "The Steps",
    "artist": "HAIM",
@@ -514,28 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/1MVqP6dzp0EZ2T4TpAxWnS",
    "album_url": "https://open.spotify.com/album/3iCffsNF6mYOY87PWhhqcp",
    "played_at": "2026-11-17T15:18:09.664Z"
-  },
-  {
-   "name": "Round and Round",
-   "artist": "Ratt",
-   "album": "The Essentials: Ratt",
-   "year": 1984,
-   "image": "https://i.scdn.co/image/ab67616d00001e023e6f0c0b02ca72a70f6b9b50",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2733e6f0c0b02ca72a70f6b9b50",
-   "url": "https://open.spotify.com/track/57P8gH8rjt4OqEoqzut1bL",
-   "album_url": "https://open.spotify.com/album/0zhBC0ytIvsL8Kvf0xtPMp",
-   "played_at": "2026-11-17T15:14:16.724Z"
-  },
-  {
-   "name": "Escape the Mind Piano Only Bonus",
-   "artist": "The Warning",
-   "album": "ESCAPE THE MIND",
-   "year": 2015,
-   "image": "https://i.scdn.co/image/ab67616d00001e02ebd25082bf514bd05cc4cfd2",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273ebd25082bf514bd05cc4cfd2",
-   "url": "https://open.spotify.com/track/5LkbYOr7GoicN0VEoe8mME",
-   "album_url": "https://open.spotify.com/album/0Zj4AvZpKzStGARIOkoDS5",
-   "played_at": "2026-11-17T15:09:50.317Z"
   }
  ],
  "top_artists": [
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32992,
+   "plays": 32993,
    "covers": [
     {
      "name": "Back In Black",
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 12026,
+   "plays": 12027,
    "covers": [
     {
      "name": "Material Girl",
