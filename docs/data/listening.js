@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-18T12:10:05Z",
+ "generated": "2026-11-18T12:40:08Z",
  "totals": {
   "plays": 125377,
   "hours": 8524.7,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "How GTA VI Became the Most Expensive Video Game Ever Made",
+   "show": "Odd Lots",
+   "show_uri": "spotify:show:1te7oSFyRVekxMBJUSethH",
+   "release_date": "2026-11-18",
+   "duration_ms": 3052408,
+   "image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42",
+   "first_seen": "2026-11-18T12:40:02Z",
+   "progress_ms": 1489294,
+   "last_seen": "2026-11-18T12:40:02Z",
+   "url": "https://open.spotify.com/episode/2FM3eZZURj7TYPrxjqGqky",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42"
+  },
+  {
    "name": "How Wall Street Is Bracing For the Post-Jensen Huang Nvidia Era",
    "show": "Odd Lots",
    "show_uri": "spotify:show:1te7oSFyRVekxMBJUSethH",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-17T06:40:02Z",
    "url": "https://open.spotify.com/episode/2sY1LaE26RlBk1EHIJvYTk",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fe19edf2c6856b8b09c057f38"
-  },
-  {
-   "name": "Minnesota Now: Nov. 16, 2026",
-   "show": "Minnesota Now",
-   "show_uri": "spotify:show:61oEbjIMX0lVNvf0MyrEX8",
-   "release_date": "2026-11-16",
-   "duration_ms": 3261649,
-   "image": "https://i.scdn.co/image/ab67656300005f1f110dfea289c0685fcc6c4343",
-   "first_seen": "2026-11-17T01:40:03Z",
-   "progress_ms": 28601,
-   "last_seen": "2026-11-17T04:10:03Z",
-   "url": "https://open.spotify.com/episode/0Iq1ntdUJbS5nR91QUYFjn",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f110dfea289c0685fcc6c4343"
   }
  ],
  "top_shows": [
