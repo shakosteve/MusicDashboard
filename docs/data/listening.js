@@ -1,14 +1,47 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-18T01:10:07Z",
+ "generated": "2026-11-18T01:40:06Z",
  "totals": {
-  "plays": 125374,
-  "hours": 8524.5,
+  "plays": 125377,
+  "hours": 8524.7,
   "artists": 702,
   "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "The Steps",
+   "artist": "HAIM",
+   "album": "Women In Music Pt. III",
+   "year": 2021,
+   "image": "https://i.scdn.co/image/ab67616d00001e02e8be33a5e8efee9be2afffc3",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273e8be33a5e8efee9be2afffc3",
+   "url": "https://open.spotify.com/track/5X2RisOZS9i5MsR8EVw58p",
+   "album_url": "https://open.spotify.com/album/396EJBtUzseofX2YCBJVvM",
+   "played_at": "2026-11-18T01:19:20.104Z"
+  },
+  {
+   "name": "Pour Some Sugar On Me - Remastered 2017",
+   "artist": "Def Leppard",
+   "album": "Hysteria (Super Deluxe)",
+   "year": 1987,
+   "image": "https://i.scdn.co/image/ab67616d00001e02222cb38afc3b3b47d9df26aa",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273222cb38afc3b3b47d9df26aa",
+   "url": "https://open.spotify.com/track/0PdM2a6oIjqepoEfcJo0RO",
+   "album_url": "https://open.spotify.com/album/31oeDyCOLhgeZyktfxo0pE",
+   "played_at": "2026-11-18T01:15:11.979Z"
+  },
+  {
+   "name": "Southern Cross - 2005 Remaster",
+   "artist": "Crosby, Stills & Nash",
+   "album": "Daylight Again (Deluxe Edition)",
+   "year": 1982,
+   "image": "https://i.scdn.co/image/ab67616d00001e02114c0d586b9e7052518e9d1e",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273114c0d586b9e7052518e9d1e",
+   "url": "https://open.spotify.com/track/5AoZknxgY6F25gAcVahO41",
+   "album_url": "https://open.spotify.com/album/7mepsTLhRL4ghKLZ4oB31u",
+   "played_at": "2026-11-18T01:10:44.169Z"
+  },
   {
    "name": "Poison",
    "artist": "Alice Cooper",
@@ -503,39 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/5LkbYOr7GoicN0VEoe8mME",
    "album_url": "https://open.spotify.com/album/0Zj4AvZpKzStGARIOkoDS5",
    "played_at": "2026-11-17T15:09:50.317Z"
-  },
-  {
-   "name": "Runaway",
-   "artist": "The Warning",
-   "album": "XXI Century Blood",
-   "year": 2017,
-   "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de",
-   "url": "https://open.spotify.com/track/4bcc5nd8AQOkCloGe07Qtv",
-   "album_url": "https://open.spotify.com/album/6nEiN0eM1gbvDsijV46XrX",
-   "played_at": "2026-11-17T15:05:36.711Z"
-  },
-  {
-   "name": "Séance",
-   "artist": "Speed of Light",
-   "album": "Séance",
-   "year": 2024,
-   "image": "https://i.scdn.co/image/ab67616d00001e02e43f6681a9e6e990b63be5cb",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273e43f6681a9e6e990b63be5cb",
-   "url": "https://open.spotify.com/track/6xQ8uphGxXzJDUziFapHZZ",
-   "album_url": "https://open.spotify.com/album/0JwzG7MVtzubfIOf0L445q",
-   "played_at": "2026-11-17T15:01:37.518Z"
-  },
-  {
-   "name": "Sherpa",
-   "artist": "Angine de Poitrine",
-   "album": "Vol.1",
-   "year": 2024,
-   "image": "https://i.scdn.co/image/ab67616d00001e0228d2c495eb3bc1e44412dc96",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27328d2c495eb3bc1e44412dc96",
-   "url": "https://open.spotify.com/track/55mW03rqsI9s3xUnuruF7G",
-   "album_url": "https://open.spotify.com/album/67AYhGt60AoJa1TVcn5lCn",
-   "played_at": "2026-11-17T14:57:41.234Z"
   }
  ],
  "top_artists": [
@@ -654,7 +654,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b273222cb38afc3b3b47d9df26aa",
    "url": "https://open.spotify.com/track/1F1ek5FOLawYoPuZI0GITr",
    "album_url": "https://open.spotify.com/album/31oeDyCOLhgeZyktfxo0pE",
-   "plays": 1328
+   "plays": 1329
   },
   {
    "name": "ERROR",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32990,
+   "plays": 32992,
    "covers": [
     {
      "name": "Back In Black",
@@ -1042,7 +1042,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273222cb38afc3b3b47d9df26aa",
      "url": "https://open.spotify.com/track/1F1ek5FOLawYoPuZI0GITr",
      "album_url": "https://open.spotify.com/album/31oeDyCOLhgeZyktfxo0pE",
-     "plays": 1328
+     "plays": 1329
     },
     {
      "name": "My Kinda Lover - Remastered 2010",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18694,
+   "plays": 18695,
    "covers": [
     {
      "name": "ERROR",
@@ -1490,6 +1490,19 @@ window.LISTENING = {
   }
  ],
  "episodes": [
+  {
+   "name": "President Trump Begins his Swing Through Asia",
+   "show": "RealClearPolitics Podcast",
+   "show_uri": "spotify:show:5FkNemg3aIaPPNBImIcW2l",
+   "release_date": "2026-11-17",
+   "duration_ms": 3003689,
+   "image": "https://i.scdn.co/image/ab67656300005f1fa0f97924a2cc54d169046d34",
+   "first_seen": "2026-11-18T01:40:02Z",
+   "progress_ms": 855367,
+   "last_seen": "2026-11-18T01:40:02Z",
+   "url": "https://open.spotify.com/episode/1beKgeEKQg3lBmfaZWK4ea",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fe19edf2c6856b8b09c057f38"
+  },
   {
    "name": "Ukraine's 'unprecedented' operation to take down Putin’s Kerch bridge",
    "show": "Ukraine: The Latest",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-16T14:10:02Z",
    "url": "https://open.spotify.com/episode/0KCvIiHOS1Vu0oMzwdKk5r",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42"
-  },
-  {
-   "name": "Moscow car bombing maims Ukrainian traitor as drones blast major Russian refinery",
-   "show": "Ukraine: The Latest",
-   "show_uri": "spotify:show:6cnkk1J0I1UqtxTYVUL4Fe",
-   "release_date": "2026-11-13",
-   "duration_ms": 3369142,
-   "image": "https://i.scdn.co/image/ab67656300005f1f3d69e304ca7a9c8c8fdd0634",
-   "first_seen": "2026-11-15T16:40:02Z",
-   "progress_ms": 3493224,
-   "last_seen": "2026-11-15T19:40:04Z",
-   "url": "https://open.spotify.com/episode/5yoJhZTiG65IablL8Tm1JQ",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f78954c21afd24c90334deba4"
   }
  ],
  "top_shows": [
