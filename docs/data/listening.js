@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-18T05:40:05Z",
+ "generated": "2026-11-18T12:10:05Z",
  "totals": {
   "plays": 125377,
   "hours": 8524.7,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "How Wall Street Is Bracing For the Post-Jensen Huang Nvidia Era",
+   "show": "Odd Lots",
+   "show_uri": "spotify:show:1te7oSFyRVekxMBJUSethH",
+   "release_date": "2026-11-14",
+   "duration_ms": 2134178,
+   "image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42",
+   "first_seen": "2026-11-14T14:10:02Z",
+   "progress_ms": 2134178,
+   "last_seen": "2026-11-18T12:10:02Z",
+   "url": "https://open.spotify.com/episode/3CGjR9SUyLrvXFZ54Zz348",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42"
+  },
+  {
    "name": "Rings of Power Season 3 Episodes 1 - 4: HOBBIT HOTLINE",
    "show": "An Unexpected Podcast: Talkin' Tolkien",
    "show_uri": "spotify:show:6FPTndfWLnXeXsc64HGGa5",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-17T04:10:03Z",
    "url": "https://open.spotify.com/episode/0Iq1ntdUJbS5nR91QUYFjn",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f110dfea289c0685fcc6c4343"
-  },
-  {
-   "name": "Robert Pattinson Is The New James Bond: Kennedy & Jimmy Failla React",
-   "show": "Kennedy Saves the World",
-   "show_uri": "spotify:show:5DEwjZIkxrUhkM1nlqLagd",
-   "release_date": "2026-11-16",
-   "duration_ms": 677333,
-   "image": "https://i.scdn.co/image/ab67656300005f1fe558a4bd38b5e577b0a3d1ba",
-   "first_seen": "2026-11-16T23:40:02Z",
-   "progress_ms": 677333,
-   "last_seen": "2026-11-17T00:10:04Z",
-   "url": "https://open.spotify.com/episode/344a63resCFrzyo4LSeBF9",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fc306eb9be2f4da68a4f7f2be"
   }
  ],
  "top_shows": [
