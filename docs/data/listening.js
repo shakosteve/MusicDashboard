@@ -1,14 +1,69 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-18T00:10:06Z",
+ "generated": "2026-11-18T00:40:05Z",
  "totals": {
-  "plays": 125362,
-  "hours": 8523.7,
+  "plays": 125367,
+  "hours": 8524.0,
   "artists": 702,
   "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "The Power Of Love",
+   "artist": "Huey Lewis & The News",
+   "album": "Greatest Hits: Huey Lewis And The News",
+   "year": 2006,
+   "image": "https://i.scdn.co/image/ab67616d00001e025306ed42ae78f317258c51bb",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2735306ed42ae78f317258c51bb",
+   "url": "https://open.spotify.com/track/2olVm1lHicpveMAo4AUDRB",
+   "album_url": "https://open.spotify.com/album/0u34k1ANjgZ47uQfG9yaLj",
+   "played_at": "2026-11-18T00:39:13.500Z"
+  },
+  {
+   "name": "Sweet Child O' Mine",
+   "artist": "Guns N' Roses",
+   "album": "Appetite For Destruction",
+   "year": 1987,
+   "image": "https://i.scdn.co/image/ab67616d00001e0221ebf49b3292c3f0f575f0f5",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27321ebf49b3292c3f0f575f0f5",
+   "url": "https://open.spotify.com/track/7snQQk1zcKl8gZ92AnueZW",
+   "album_url": "https://open.spotify.com/album/28yHV3Gdg30AiB8h8em1eW",
+   "played_at": "2026-11-18T00:35:18.668Z"
+  },
+  {
+   "name": "Landslide",
+   "artist": "The Chicks",
+   "album": "Home",
+   "year": 2002,
+   "image": "https://i.scdn.co/image/ab67616d00001e02b037b173973e081b6d24cb23",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273b037b173973e081b6d24cb23",
+   "url": "https://open.spotify.com/track/5hviCr3lgg6LY6noG6DPKs",
+   "album_url": "https://open.spotify.com/album/1zgQkZFMRqx1Lz9GVXghLt",
+   "played_at": "2026-11-18T00:29:22.096Z"
+  },
+  {
+   "name": "Peanuts Theme",
+   "artist": "Television's Greatest Hits Band",
+   "album": "Peanuts Theme",
+   "year": 2012,
+   "image": "https://i.scdn.co/image/ab67616d00001e020c96092a8fe64494a3321945",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2730c96092a8fe64494a3321945",
+   "url": "https://open.spotify.com/track/1FSdA7A445AhLvvWsh0IYK",
+   "album_url": "https://open.spotify.com/album/6jqWw29Gv5yPmhHbEeWfIv",
+   "played_at": "2026-11-18T00:25:31.103Z"
+  },
+  {
+   "name": "Name",
+   "artist": "The Goo Goo Dolls",
+   "album": "A Boy Named Goo",
+   "year": 1995,
+   "image": "https://i.scdn.co/image/ab67616d00001e027db048b350136b3116ad02d4",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2737db048b350136b3116ad02d4",
+   "url": "https://open.spotify.com/track/1G8jae4jD8mwkXdodqHsBM",
+   "album_url": "https://open.spotify.com/album/1JjGR7DtSA3aRpG99KbhxJ",
+   "played_at": "2026-11-18T00:23:09.105Z"
+  },
   {
    "name": "The Humpty Dance",
    "artist": "Digital Underground",
@@ -481,61 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/7tgH5rFMIMTfNaycKeMbDb",
    "album_url": "https://open.spotify.com/album/0el7KHRPZwYXPwXNeSNdJB",
    "played_at": "2026-11-17T14:25:29.799Z"
-  },
-  {
-   "name": "Jungle Love",
-   "artist": "Steve Miller Band",
-   "album": "Book Of Dreams",
-   "year": 1977,
-   "image": "https://i.scdn.co/image/ab67616d00001e020d9826176c32372e81a8a6cf",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2730d9826176c32372e81a8a6cf",
-   "url": "https://open.spotify.com/track/1EuqRlDP9RuzeCRVcjr1PY",
-   "album_url": "https://open.spotify.com/album/36G9sqbDXXbE7Mv9GTDMXd",
-   "played_at": "2026-11-17T14:21:34.539Z"
-  },
-  {
-   "name": "Are You Gonna Go My Way",
-   "artist": "Lenny Kravitz",
-   "album": "Are You Gonna Go My Way",
-   "year": 1993,
-   "image": "https://i.scdn.co/image/ab67616d00001e02542d87e4d1512bf7facb3860",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273542d87e4d1512bf7facb3860",
-   "url": "https://open.spotify.com/track/45Ia1U4KtIjAPPU7Wv1Sea",
-   "album_url": "https://open.spotify.com/album/35LzZH7Fgog8lf1hfcdoMQ",
-   "played_at": "2026-11-17T14:18:26.541Z"
-  },
-  {
-   "name": "Want Ya",
-   "artist": "The Rumours",
-   "album": "Want Ya",
-   "year": 2021,
-   "image": "https://i.scdn.co/image/ab67616d00001e0265d468ea8dd8e6cc7ff76afe",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27365d468ea8dd8e6cc7ff76afe",
-   "url": "https://open.spotify.com/track/7eW6bHr98JJ2oy49XD8CDn",
-   "album_url": "https://open.spotify.com/album/6yiC6ufrAdO5uh4X2U7d2q",
-   "played_at": "2026-11-17T14:14:54.125Z"
-  },
-  {
-   "name": "Believe It or Not (Theme from \"Greatest American Hero\")",
-   "artist": "Joey Scarbury",
-   "album": "America's Greatest Hero",
-   "year": 1981,
-   "image": "https://i.scdn.co/image/ab67616d00001e02b165a48e700759fd7a05b971",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273b165a48e700759fd7a05b971",
-   "url": "https://open.spotify.com/track/375ntCG12wzCyfzclwYFwG",
-   "album_url": "https://open.spotify.com/album/5jB7KIzjiExzi01MF8NXCQ",
-   "played_at": "2026-11-17T14:02:54.688Z"
-  },
-  {
-   "name": "The Stroke - Remastered 2010",
-   "artist": "Billy Squier",
-   "album": "Don't Say No (Remastered 2010)",
-   "year": 1981,
-   "image": "https://i.scdn.co/image/ab67616d00001e02f4822f8034e697410a14a297",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273f4822f8034e697410a14a297",
-   "url": "https://open.spotify.com/track/52KvuGmgcgRdrLMXOtda0E",
-   "album_url": "https://open.spotify.com/album/6TwlLNU5Zd9qGuNgSLeWPt",
-   "played_at": "2026-11-17T13:59:38.966Z"
   }
  ],
  "top_artists": [
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32987,
+   "plays": 32988,
    "covers": [
     {
      "name": "Back In Black",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9750,
+   "plays": 9751,
    "covers": [
     {
      "name": "Amazing",
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 12024,
+   "plays": 12026,
    "covers": [
     {
      "name": "Material Girl",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15809,
+   "plays": 15810,
    "covers": [
     {
      "name": "XXI Century Blood",
