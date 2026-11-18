@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-18T01:40:06Z",
+ "generated": "2026-11-18T02:10:06Z",
  "totals": {
   "plays": 125377,
   "hours": 8524.7,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Trump and friends: the biggest threat to America's national security?",
+   "show": "Christiane Amanpour Presents: The Ex Files",
+   "show_uri": "spotify:show:3ZpgFegm3q3AGjiFbjLV59",
+   "release_date": "2026-11-17",
+   "duration_ms": 2914037,
+   "image": "https://i.scdn.co/image/ab67656300005f1f5a4e319927f9dcfb7453f69d",
+   "first_seen": "2026-11-17T23:40:02Z",
+   "progress_ms": 554047,
+   "last_seen": "2026-11-18T02:10:02Z",
+   "url": "https://open.spotify.com/episode/42MmuTk17Yeo9OQtys38TH",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f5a4e319927f9dcfb7453f69d"
+  },
+  {
    "name": "President Trump Begins his Swing Through Asia",
    "show": "RealClearPolitics Podcast",
    "show_uri": "spotify:show:5FkNemg3aIaPPNBImIcW2l",
@@ -1498,8 +1511,8 @@ window.LISTENING = {
    "duration_ms": 3003689,
    "image": "https://i.scdn.co/image/ab67656300005f1fa0f97924a2cc54d169046d34",
    "first_seen": "2026-11-18T01:40:02Z",
-   "progress_ms": 855367,
-   "last_seen": "2026-11-18T01:40:02Z",
+   "progress_ms": 2653086,
+   "last_seen": "2026-11-18T02:10:02Z",
    "url": "https://open.spotify.com/episode/1beKgeEKQg3lBmfaZWK4ea",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fe19edf2c6856b8b09c057f38"
   },
@@ -1515,19 +1528,6 @@ window.LISTENING = {
    "last_seen": "2026-11-18T00:10:03Z",
    "url": "https://open.spotify.com/episode/45mIBodAWf87WiLJ09TYl5",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f78954c21afd24c90334deba4"
-  },
-  {
-   "name": "Trump and friends: the biggest threat to America's national security?",
-   "show": "Christiane Amanpour Presents: The Ex Files",
-   "show_uri": "spotify:show:3ZpgFegm3q3AGjiFbjLV59",
-   "release_date": "2026-11-17",
-   "duration_ms": 2914037,
-   "image": "https://i.scdn.co/image/ab67656300005f1f5a4e319927f9dcfb7453f69d",
-   "first_seen": "2026-11-17T23:40:02Z",
-   "progress_ms": 363579,
-   "last_seen": "2026-11-17T23:40:02Z",
-   "url": "https://open.spotify.com/episode/42MmuTk17Yeo9OQtys38TH",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f5a4e319927f9dcfb7453f69d"
   },
   {
    "name": "Blockade or strikes? Trump’s Iran war options as third US aircraft carrier arrives",
