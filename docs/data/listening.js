@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-18T18:10:08Z",
+ "generated": "2026-11-18T19:40:06Z",
  "totals": {
   "plays": 125379,
   "hours": 8524.8,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "How Ukraine pulled off the campaign that brought down Kerch bridge",
+   "show": "Ukraine: The Latest",
+   "show_uri": "spotify:show:6cnkk1J0I1UqtxTYVUL4Fe",
+   "release_date": "2026-11-18",
+   "duration_ms": 1870759,
+   "image": "https://i.scdn.co/image/ab67656300005f1fac3fd26a120505d9b56da66f",
+   "first_seen": "2026-11-18T19:40:02Z",
+   "progress_ms": 446573,
+   "last_seen": "2026-11-18T19:40:02Z",
+   "url": "https://open.spotify.com/episode/6LOSCE40dhNaDuZ53XbrTK",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f78954c21afd24c90334deba4"
+  },
+  {
    "name": "Ed Begley Jr. & Elizabeth Guest: Old vs. New Hollywood & Their New Christmas Movie",
    "show": "Adam Carolla Show",
    "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-17T15:10:03Z",
    "url": "https://open.spotify.com/episode/4uJ7sgXnFJCfq6OUdcDwUY",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
-  },
-  {
-   "name": "Fury as Putin demands 'outrageous' new terms for peace",
-   "show": "Ukraine: The Latest",
-   "show_uri": "spotify:show:6cnkk1J0I1UqtxTYVUL4Fe",
-   "release_date": "2026-11-16",
-   "duration_ms": 1907408,
-   "image": "https://i.scdn.co/image/ab67656300005f1f8d94314764b3d296c1f64f6c",
-   "first_seen": "2026-11-17T13:40:02Z",
-   "progress_ms": 2138792,
-   "last_seen": "2026-11-17T14:10:02Z",
-   "url": "https://open.spotify.com/episode/1RsBRbPT7TGhIupVlWq58h",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f78954c21afd24c90334deba4"
   }
  ],
  "top_shows": [
