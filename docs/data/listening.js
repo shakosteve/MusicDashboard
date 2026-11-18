@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-18T02:40:08Z",
+ "generated": "2026-11-18T03:10:05Z",
  "totals": {
   "plays": 125377,
   "hours": 8524.7,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Rings of Power Season 3 Episodes 1 - 4: HOBBIT HOTLINE",
+   "show": "An Unexpected Podcast: Talkin' Tolkien",
+   "show_uri": "spotify:show:6FPTndfWLnXeXsc64HGGa5",
+   "release_date": "2026-11-17",
+   "duration_ms": 10536072,
+   "image": "https://i.scdn.co/image/ab67656300005f1f51d5c3394eeffda50a90489e",
+   "first_seen": "2026-11-18T03:10:02Z",
+   "progress_ms": 531693,
+   "last_seen": "2026-11-18T03:10:02Z",
+   "url": "https://open.spotify.com/episode/59IColpEDb4QHKcm3PULnW",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f886dd25a83ead6abeffe92b0"
+  },
+  {
    "name": "President Trump Begins his Swing Through Asia",
    "show": "RealClearPolitics Podcast",
    "show_uri": "spotify:show:5FkNemg3aIaPPNBImIcW2l",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-16T19:10:03Z",
    "url": "https://open.spotify.com/episode/3RM1Gx7PTg8QejpUdzyaXE",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
-  },
-  {
-   "name": "The Impossible Trilemma That Hangs Over the Nvidia Crisis",
-   "show": "Odd Lots",
-   "show_uri": "spotify:show:1te7oSFyRVekxMBJUSethH",
-   "release_date": "2026-11-16",
-   "duration_ms": 2778201,
-   "image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42",
-   "first_seen": "2026-11-16T12:40:02Z",
-   "progress_ms": 3181033,
-   "last_seen": "2026-11-16T14:10:02Z",
-   "url": "https://open.spotify.com/episode/0KCvIiHOS1Vu0oMzwdKk5r",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42"
   }
  ],
  "top_shows": [
