@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-18T15:10:10Z",
+ "generated": "2026-11-18T15:40:07Z",
  "totals": {
   "plays": 125379,
   "hours": 8524.8,
@@ -1491,19 +1491,6 @@ window.LISTENING = {
  ],
  "episodes": [
   {
-   "name": "Ed Begley Jr. & Elizabeth Guest: Old vs. New Hollywood & Their New Christmas Movie",
-   "show": "Adam Carolla Show",
-   "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
-   "release_date": "2026-11-18",
-   "duration_ms": 6337175,
-   "image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f",
-   "first_seen": "2026-11-18T14:10:03Z",
-   "progress_ms": 911501,
-   "last_seen": "2026-11-18T15:10:02Z",
-   "url": "https://open.spotify.com/episode/6HF3x5MnBDEQHZNxazwMFX",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
-  },
-  {
    "name": "How GTA VI Became the Most Expensive Video Game Ever Made",
    "show": "Odd Lots",
    "show_uri": "spotify:show:1te7oSFyRVekxMBJUSethH",
@@ -1511,10 +1498,23 @@ window.LISTENING = {
    "duration_ms": 3052408,
    "image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42",
    "first_seen": "2026-11-18T12:40:02Z",
-   "progress_ms": 3277561,
-   "last_seen": "2026-11-18T13:10:04Z",
+   "progress_ms": 3520424,
+   "last_seen": "2026-11-18T15:40:02Z",
    "url": "https://open.spotify.com/episode/2FM3eZZURj7TYPrxjqGqky",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42"
+  },
+  {
+   "name": "Ed Begley Jr. & Elizabeth Guest: Old vs. New Hollywood & Their New Christmas Movie",
+   "show": "Adam Carolla Show",
+   "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
+   "release_date": "2026-11-18",
+   "duration_ms": 6337175,
+   "image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f",
+   "first_seen": "2026-11-18T14:10:03Z",
+   "progress_ms": 1157700,
+   "last_seen": "2026-11-18T15:40:02Z",
+   "url": "https://open.spotify.com/episode/6HF3x5MnBDEQHZNxazwMFX",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
   },
   {
    "name": "How Wall Street Is Bracing For the Post-Jensen Huang Nvidia Era",
