@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-18T16:40:07Z",
+ "generated": "2026-11-18T17:40:06Z",
  "totals": {
   "plays": 125379,
   "hours": 8524.8,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Ed Begley Jr. & Elizabeth Guest: Old vs. New Hollywood & Their New Christmas Movie",
+   "show": "Adam Carolla Show",
+   "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
+   "release_date": "2026-11-18",
+   "duration_ms": 6337175,
+   "image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f",
+   "first_seen": "2026-11-18T14:10:03Z",
+   "progress_ms": 5430732,
+   "last_seen": "2026-11-18T17:40:02Z",
+   "url": "https://open.spotify.com/episode/6HF3x5MnBDEQHZNxazwMFX",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
+  },
+  {
    "name": "Third wheeling: Xi, Putin and Trump meet in China",
    "show": "Economist Podcasts",
    "show_uri": "spotify:show:2ZFDmgDS2Z6xccP51s1zFQ",
@@ -1502,19 +1515,6 @@ window.LISTENING = {
    "last_seen": "2026-11-18T16:40:02Z",
    "url": "https://open.spotify.com/episode/19x3t2UxUya4EbIA5rTS5Q",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f3d63c8a3f5c8f7b8b0c1443b"
-  },
-  {
-   "name": "Ed Begley Jr. & Elizabeth Guest: Old vs. New Hollywood & Their New Christmas Movie",
-   "show": "Adam Carolla Show",
-   "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
-   "release_date": "2026-11-18",
-   "duration_ms": 6337175,
-   "image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f",
-   "first_seen": "2026-11-18T14:10:03Z",
-   "progress_ms": 2804768,
-   "last_seen": "2026-11-18T16:10:02Z",
-   "url": "https://open.spotify.com/episode/6HF3x5MnBDEQHZNxazwMFX",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
   },
   {
    "name": "How GTA VI Became the Most Expensive Video Game Ever Made",
