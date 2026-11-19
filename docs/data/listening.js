@@ -1,7 +1,7 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-19T20:10:08Z",
- "synced": "2026-11-19T20:10:02Z",
+ "generated": "2026-11-19T20:40:08Z",
+ "synced": "2026-11-19T20:40:02Z",
  "totals": {
   "plays": 125393,
   "hours": 8525.7,
@@ -1492,19 +1492,6 @@ window.LISTENING = {
  ],
  "episodes": [
   {
-   "name": "Concerning Rings of Power S3: Are Orcs Redeemable?",
-   "show": "Well Earned Comforts: A Tolkien Podcast",
-   "show_uri": "spotify:show:23hxjPbetnmtvwFJATPtg2",
-   "release_date": "2026-11-19",
-   "duration_ms": 6044339,
-   "image": "https://i.scdn.co/image/ab67656300005f1f7160acc6f68b85bef7afc276",
-   "first_seen": "2026-11-19T20:10:02Z",
-   "progress_ms": 1274218,
-   "last_seen": "2026-11-19T20:10:02Z",
-   "url": "https://open.spotify.com/episode/6BPn1AxIDm04mTvx0fluY6",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f7160acc6f68b85bef7afc276"
-  },
-  {
    "name": "Trump meets Putin: 'He's my friend'",
    "show": "Ukraine: The Latest",
    "show_uri": "spotify:show:6cnkk1J0I1UqtxTYVUL4Fe",
@@ -1512,10 +1499,23 @@ window.LISTENING = {
    "duration_ms": 3119621,
    "image": "https://i.scdn.co/image/ab67656300005f1f55494cd06ff981d01693b999",
    "first_seen": "2026-11-19T19:10:02Z",
-   "progress_ms": 2934653,
-   "last_seen": "2026-11-19T19:40:02Z",
+   "progress_ms": 3119621,
+   "last_seen": "2026-11-19T20:40:03Z",
    "url": "https://open.spotify.com/episode/17L3gTN9KmOUBImzPOHk5Z",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f78954c21afd24c90334deba4"
+  },
+  {
+   "name": "Concerning Rings of Power S3: Are Orcs Redeemable?",
+   "show": "Well Earned Comforts: A Tolkien Podcast",
+   "show_uri": "spotify:show:23hxjPbetnmtvwFJATPtg2",
+   "release_date": "2026-11-19",
+   "duration_ms": 6044339,
+   "image": "https://i.scdn.co/image/ab67656300005f1f7160acc6f68b85bef7afc276",
+   "first_seen": "2026-11-19T20:10:02Z",
+   "progress_ms": 2477918,
+   "last_seen": "2026-11-19T20:40:02Z",
+   "url": "https://open.spotify.com/episode/6BPn1AxIDm04mTvx0fluY6",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f7160acc6f68b85bef7afc276"
   },
   {
    "name": "Roland Joffé: The Mob's Role In KILLING Kennedy",
