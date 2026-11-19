@@ -1,14 +1,146 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-19T00:40:06Z",
+ "generated": "2026-11-19T01:10:06Z",
  "totals": {
-  "plays": 125380,
-  "hours": 8524.8,
+  "plays": 125393,
+  "hours": 8525.7,
   "artists": 702,
   "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Head Over Heels - Dave Bascombe 7\" N.Mix",
+   "artist": "Tears For Fears, Dave Bascombe",
+   "album": "Songs From The Big Chair (Deluxe)",
+   "year": 1985,
+   "image": "https://i.scdn.co/image/ab67616d00001e0206b6bd6a604768e044abbd38",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27306b6bd6a604768e044abbd38",
+   "url": "https://open.spotify.com/track/5lwQGZYF4BXOzFtXc5zk8q",
+   "album_url": "https://open.spotify.com/album/06J93pgtDCUw6bsAQINhCs",
+   "played_at": "2026-11-19T00:14:58.803Z"
+  },
+  {
+   "name": "Everything’s Falling",
+   "artist": "The Warning",
+   "album": "Everything’s Falling",
+   "year": 2026,
+   "image": "https://i.scdn.co/image/ab67616d00001e023d3a5263cbb23d7b8866a08c",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2733d3a5263cbb23d7b8866a08c",
+   "url": "https://open.spotify.com/track/4GVXHZ4QJe1lOvtfLsIORd",
+   "album_url": "https://open.spotify.com/album/0YJACBRXuL7jthY9RBtlS5",
+   "played_at": "2026-11-18T23:59:38.186Z"
+  },
+  {
+   "name": "Séance",
+   "artist": "Speed of Light",
+   "album": "Séance",
+   "year": 2024,
+   "image": "https://i.scdn.co/image/ab67616d00001e02e43f6681a9e6e990b63be5cb",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273e43f6681a9e6e990b63be5cb",
+   "url": "https://open.spotify.com/track/6xQ8uphGxXzJDUziFapHZZ",
+   "album_url": "https://open.spotify.com/album/0JwzG7MVtzubfIOf0L445q",
+   "played_at": "2026-11-18T23:49:56.416Z"
+  },
+  {
+   "name": "KISS Tried To Kill Me",
+   "artist": "Black Spiders",
+   "album": "Sons Of The North",
+   "year": 2011,
+   "image": "https://i.scdn.co/image/ab67616d00001e026724fae9bc203a9d4defd736",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2736724fae9bc203a9d4defd736",
+   "url": "https://open.spotify.com/track/6rav9LnbGplsfHHw0I6kv0",
+   "album_url": "https://open.spotify.com/album/7KDzhHeTeAjmBFO3ixlMGm",
+   "played_at": "2026-11-18T23:45:58.392Z"
+  },
+  {
+   "name": "What Good's A Rock Without A Roll?",
+   "artist": "Black Spiders",
+   "album": "Sons Of The North",
+   "year": 2011,
+   "image": "https://i.scdn.co/image/ab67616d00001e026724fae9bc203a9d4defd736",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2736724fae9bc203a9d4defd736",
+   "url": "https://open.spotify.com/track/0FrhD37RheksdxcDi4tgx3",
+   "album_url": "https://open.spotify.com/album/7KDzhHeTeAjmBFO3ixlMGm",
+   "played_at": "2026-11-18T23:41:31.595Z"
+  },
+  {
+   "name": "Inch by Inch",
+   "artist": "Speed of Light",
+   "album": "Inch by Inch",
+   "year": 2026,
+   "image": "https://i.scdn.co/image/ab67616d00001e02501860aef942c7890cccacf1",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273501860aef942c7890cccacf1",
+   "url": "https://open.spotify.com/track/4tafY6eDdO0JYwgvqwpCrZ",
+   "album_url": "https://open.spotify.com/album/3cW21vOzs4xXk47q6lhkO6",
+   "played_at": "2026-11-18T23:37:01.349Z"
+  },
+  {
+   "name": "Silver Lining",
+   "artist": "Blood Harmony",
+   "album": "Blood Harmony",
+   "year": 2024,
+   "image": "https://i.scdn.co/image/ab67616d00001e02631268258857695ef7953630",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273631268258857695ef7953630",
+   "url": "https://open.spotify.com/track/3JUCwc72OLC2jte10LTgsm",
+   "album_url": "https://open.spotify.com/album/6na54nRQQEqtPoNprUJb6r",
+   "played_at": "2026-11-18T23:33:58.203Z"
+  },
+  {
+   "name": "Judith",
+   "artist": "A Perfect Circle",
+   "album": "Mer De Noms",
+   "year": 2000,
+   "image": "https://i.scdn.co/image/ab67616d00001e022d73b494efcb99356f8c7b28",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2732d73b494efcb99356f8c7b28",
+   "url": "https://open.spotify.com/track/5KDNFlHAdDJ84fhK27c35X",
+   "album_url": "https://open.spotify.com/album/0GeWd0yUKXHbCXVag1mJvO",
+   "played_at": "2026-11-18T23:30:00.776Z"
+  },
+  {
+   "name": "3AM",
+   "artist": "Matchbox Twenty",
+   "album": "Yourself or Someone Like You",
+   "year": 1996,
+   "image": "https://i.scdn.co/image/ab67616d00001e0211585490475c991f8c83bca7",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b27311585490475c991f8c83bca7",
+   "url": "https://open.spotify.com/track/5vYA1mW9g2Coh1HUFUSmlb",
+   "album_url": "https://open.spotify.com/album/4vUXTcKz7tXxrNl84meN6i",
+   "played_at": "2026-11-18T23:25:52.962Z"
+  },
+  {
+   "name": "T.N.T.",
+   "artist": "AC/DC",
+   "album": "High Voltage",
+   "year": 1976,
+   "image": "https://i.scdn.co/image/ab67616d00001e028c7f355d649e0a3cfcf6fc39",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2738c7f355d649e0a3cfcf6fc39",
+   "url": "https://open.spotify.com/track/7LRMbd3LEoV5wZJvXT1Lwb",
+   "album_url": "https://open.spotify.com/album/19AUoKWRAaQYrggVvdQnqq",
+   "played_at": "2026-11-18T23:22:06.674Z"
+  },
+  {
+   "name": "Whole Lotta Love - Live",
+   "artist": "Jimmy Page, The Black Crowes",
+   "album": "Live at the Greek",
+   "year": 2025,
+   "image": "https://i.scdn.co/image/ab67616d00001e02fa6e624fbe4dbca748770195",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273fa6e624fbe4dbca748770195",
+   "url": "https://open.spotify.com/track/1NpILLKnL2kQYwb6bCtiPe",
+   "album_url": "https://open.spotify.com/album/27DJov9N9ian0RrcMO1Iak",
+   "played_at": "2026-11-18T22:54:27.225Z"
+  },
+  {
+   "name": "The End (Stars Always Seem to Fade)",
+   "artist": "The Warning",
+   "album": "Queen of the Murder Scene",
+   "year": 2018,
+   "image": "https://i.scdn.co/image/ab67616d00001e02e0871bbaad013df7b7e56c2a",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273e0871bbaad013df7b7e56c2a",
+   "url": "https://open.spotify.com/track/34UQ1XrP5vut9fCgl76H8g",
+   "album_url": "https://open.spotify.com/album/2kB1Qqw3YOR9i3nbNxXWRs",
+   "played_at": "2026-11-18T22:48:36.133Z"
+  },
   {
    "name": "Bring It on Home - Remaster",
    "artist": "Led Zeppelin",
@@ -404,150 +536,18 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/5zH710lFSLtkHbMkslLDjR",
    "album_url": "https://open.spotify.com/album/2N0AgtWbCmVoNUl2GN1opH",
    "played_at": "2026-11-17T19:07:56.338Z"
-  },
-  {
-   "name": "Señorita",
-   "artist": "Shawn Mendes, Camila Cabello",
-   "album": "Shawn Mendes (Deluxe)",
-   "year": 2019,
-   "image": "https://i.scdn.co/image/ab67616d00001e02c820f033bd82bef4355d1563",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273c820f033bd82bef4355d1563",
-   "url": "https://open.spotify.com/track/6v3KW9xbzN5yKLt9YKDYA2",
-   "album_url": "https://open.spotify.com/album/0xzScN8P3hQAz3BT3YYX5w",
-   "played_at": "2026-11-17T19:03:02.397Z"
-  },
-  {
-   "name": "Evil Woman",
-   "artist": "Electric Light Orchestra",
-   "album": "Face the Music",
-   "year": 1975,
-   "image": "https://i.scdn.co/image/ab67616d00001e02d183a2d842ee145f55c4e9df",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273d183a2d842ee145f55c4e9df",
-   "url": "https://open.spotify.com/track/777NOXupZkFdg8zlPMoVqc",
-   "album_url": "https://open.spotify.com/album/1HSU8sXRI9HiEAHslHRFQ3",
-   "played_at": "2026-11-17T18:59:51Z"
-  },
-  {
-   "name": "Rock The Bop",
-   "artist": "Brenda Lee",
-   "album": "Love You!",
-   "year": 1963,
-   "image": "https://i.scdn.co/image/ab67616d00001e0286dbb746d8ff18b35dc2cdf3",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27386dbb746d8ff18b35dc2cdf3",
-   "url": "https://open.spotify.com/track/3o3zZU5Ib0zd0LpsK1Kfin",
-   "album_url": "https://open.spotify.com/album/4FwaiqI20she40DLrEN4ni",
-   "played_at": "2026-11-17T17:51:25.501Z"
-  },
-  {
-   "name": "Learning To Fly",
-   "artist": "Tom Petty and the Heartbreakers",
-   "album": "Into The Great Wide Open",
-   "year": 1991,
-   "image": "https://i.scdn.co/image/ab67616d00001e0227bd7d234a31296df34b9a64",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27327bd7d234a31296df34b9a64",
-   "url": "https://open.spotify.com/track/17S4XrLvF5jlGvGCJHgF51",
-   "album_url": "https://open.spotify.com/album/42G5ULkCRRl3crJMlg6eKd",
-   "played_at": "2026-11-17T17:49:12.938Z"
-  },
-  {
-   "name": "I Love Playin' with Fire",
-   "artist": "The Rumours",
-   "album": "I Love Playin' with Fire",
-   "year": 2022,
-   "image": "https://i.scdn.co/image/ab67616d00001e02cf7d0e252938b2eede111d00",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273cf7d0e252938b2eede111d00",
-   "url": "https://open.spotify.com/track/4gZT93314AIdRIRipyI3wT",
-   "album_url": "https://open.spotify.com/album/59UFk4z6tOxats1KHFklEY",
-   "played_at": "2026-11-17T15:59:49.734Z"
-  },
-  {
-   "name": "All That She Wants",
-   "artist": "Ace of Base",
-   "album": "The Sign",
-   "year": 1993,
-   "image": "https://i.scdn.co/image/ab67616d00001e02fda5556cb6981c3113df6175",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273fda5556cb6981c3113df6175",
-   "url": "https://open.spotify.com/track/6kWJvPfC4DgUpRsXKNa9z9",
-   "album_url": "https://open.spotify.com/album/5UwIyIyFzkM7wKeGtRJPgB",
-   "played_at": "2026-11-17T15:56:46.362Z"
-  },
-  {
-   "name": "Hotel California - 2013 Remaster",
-   "artist": "Eagles",
-   "album": "Hotel California (2013 Remaster)",
-   "year": 1976,
-   "image": "https://i.scdn.co/image/ab67616d00001e024637341b9f507521afa9a778",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2734637341b9f507521afa9a778",
-   "url": "https://open.spotify.com/track/40riOy7x9W7GXjyGp4pjAv",
-   "album_url": "https://open.spotify.com/album/2widuo17g5CEC66IbzveRu",
-   "played_at": "2026-11-17T15:53:14.619Z"
-  },
-  {
-   "name": "ZITTI E BUONI",
-   "artist": "Måneskin",
-   "album": "Teatro d'ira - Vol. I",
-   "year": 2021,
-   "image": "https://i.scdn.co/image/ab67616d00001e025aa05015cfa7bd2943c29b21",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2735aa05015cfa7bd2943c29b21",
-   "url": "https://open.spotify.com/track/776AftMmFFAWUIEAb3lHhw",
-   "album_url": "https://open.spotify.com/album/7KF1Ain9mYYlg5M46g0i4A",
-   "played_at": "2026-11-17T15:46:42.690Z"
-  },
-  {
-   "name": "Time After Time",
-   "artist": "Ozzy Osbourne",
-   "album": "No More Tears (Expanded Edition)",
-   "year": 1991,
-   "image": "https://i.scdn.co/image/ab67616d00001e02509342e69eb341df70e5c2e3",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273509342e69eb341df70e5c2e3",
-   "url": "https://open.spotify.com/track/1U7WBCkBxc7bGeP6v5juEq",
-   "album_url": "https://open.spotify.com/album/6eh82ojicL8RSJF7GkYTh7",
-   "played_at": "2026-11-17T15:43:27.546Z"
-  },
-  {
-   "name": "Dirty Deeds Done Dirt Cheap",
-   "artist": "AC/DC",
-   "album": "Dirty Deeds Done Dirt Cheap",
-   "year": 1976,
-   "image": "https://i.scdn.co/image/ab67616d00001e02dfce70698f4d925525383c7c",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273dfce70698f4d925525383c7c",
-   "url": "https://open.spotify.com/track/2d4e45fmUnguxh6yqC7gNT",
-   "album_url": "https://open.spotify.com/album/76mvVgXOde87B9aOzLXCOI",
-   "played_at": "2026-11-17T15:30:48.151Z"
-  },
-  {
-   "name": "American Woman - 2024 Remaster",
-   "artist": "The Guess Who",
-   "album": "American Woman (2024 Remaster)",
-   "year": 1970,
-   "image": "https://i.scdn.co/image/ab67616d00001e0266997bea96acd48cb2ed15e6",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27366997bea96acd48cb2ed15e6",
-   "url": "https://open.spotify.com/track/4GoldMP2p0yYNSsvHasZgo",
-   "album_url": "https://open.spotify.com/album/3AHpOJBIj8eUBbEUmTxsGQ",
-   "played_at": "2026-11-17T15:26:55.344Z"
-  },
-  {
-   "name": "Summer Of '69",
-   "artist": "Bryan Adams",
-   "album": "Reckless (30th Anniversary / Deluxe Edition)",
-   "year": 1984,
-   "image": "https://i.scdn.co/image/ab67616d00001e02cf1fee2a55e98e22bf358512",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b273cf1fee2a55e98e22bf358512",
-   "url": "https://open.spotify.com/track/0GONea6G2XdnHWjNZd6zt3",
-   "album_url": "https://open.spotify.com/album/2o2G49EPi4lua5zgxUKhLL",
-   "played_at": "2026-11-17T15:21:46.343Z"
   }
  ],
  "top_artists": [
   {
    "name": "The Warning",
-   "plays": 10716,
+   "plays": 10719,
    "url": "https://open.spotify.com/artist/2SmW1lFlBJn4IfBzBZDlSh",
    "image": "https://i.scdn.co/image/ab67616d00001e0204a3dad60eb365aec55022de"
   },
   {
    "name": "AC/DC",
-   "plays": 3998,
+   "plays": 3999,
    "url": "https://open.spotify.com/artist/711MCceyCBcFnzjGY4Q7Un",
    "image": "https://i.scdn.co/image/ab67616d00001e02ff191d7fbdb5a13eaf84132b"
   },
@@ -621,7 +621,7 @@ window.LISTENING = {
    "image_large": "https://i.scdn.co/image/ab67616d0000b273e0871bbaad013df7b7e56c2a",
    "url": "https://open.spotify.com/track/3byoK5Yi2YT9Gcc4xS8qKE",
    "album_url": "https://open.spotify.com/album/2kB1Qqw3YOR9i3nbNxXWRs",
-   "plays": 1902
+   "plays": 1903
   },
   {
    "name": "Back In Black",
@@ -926,7 +926,7 @@ window.LISTENING = {
   },
   {
    "decade": 1970,
-   "plays": 28752,
+   "plays": 28753,
    "covers": [
     {
      "name": "More Than a Feeling",
@@ -1020,7 +1020,7 @@ window.LISTENING = {
   },
   {
    "decade": 1980,
-   "plays": 32993,
+   "plays": 32994,
    "covers": [
     {
      "name": "Back In Black",
@@ -1114,7 +1114,7 @@ window.LISTENING = {
   },
   {
    "decade": 1990,
-   "plays": 9752,
+   "plays": 9753,
    "covers": [
     {
      "name": "Amazing",
@@ -1208,7 +1208,7 @@ window.LISTENING = {
   },
   {
    "decade": 2000,
-   "plays": 12027,
+   "plays": 12028,
    "covers": [
     {
      "name": "Material Girl",
@@ -1302,7 +1302,7 @@ window.LISTENING = {
   },
   {
    "decade": 2010,
-   "plays": 15811,
+   "plays": 15814,
    "covers": [
     {
      "name": "XXI Century Blood",
@@ -1324,7 +1324,7 @@ window.LISTENING = {
      "image_large": "https://i.scdn.co/image/ab67616d0000b273e0871bbaad013df7b7e56c2a",
      "url": "https://open.spotify.com/track/3byoK5Yi2YT9Gcc4xS8qKE",
      "album_url": "https://open.spotify.com/album/2kB1Qqw3YOR9i3nbNxXWRs",
-     "plays": 1902
+     "plays": 1903
     },
     {
      "name": "Rhyme or Reason",
@@ -1396,7 +1396,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18695,
+   "plays": 18701,
    "covers": [
     {
      "name": "ERROR",
