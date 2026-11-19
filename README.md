@@ -91,7 +91,7 @@ This isn't packaged for other people, but it can be adapted:
 
 1. Create an app at [developer.spotify.com/dashboard](https://developer.spotify.com/dashboard) with the redirect URI `http://127.0.0.1:8888/callback`.
 2. Put `CLIENT_ID` and `CLIENT_SECRET` in a `.env` file next to the script, then run `pip install -r requirements.txt` and `python provenance.py auth`.
-3. Run `sync` on a schedule. `sync.bat` is the Windows version; edit its Python path.
+3. Run `sync` on a schedule. `sync.bat` is the Windows version; edit its Python path. [`sync-task.xml`](sync-task.xml) is the Task Scheduler task that runs it every 30 minutes without a window: `schtasks /create /tn "Playlist Provenance Sync" /xml sync-task.xml` (edit the path in it first if the repo is somewhere else).
 4. Optionally, request the extended streaming history from Spotify, unzip it into `data/export/`, and run `import`.
 5. List the playlists to back up in `playlists/playlists.json`, by Spotify ID. Use `"liked"` for Liked Songs.
 6. Optional settings: `SMTP_USER` and `SMTP_PASSWORD` (a Gmail app password) for the daily email, `AUTO_PUBLISH=off` to stop the automatic commits.

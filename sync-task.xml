@@ -1,0 +1,45 @@
+<!--
+  The Windows Task Scheduler task that runs sync.bat every 30 minutes, without a console window.
+  Recreate it from a command prompt in this folder (no admin needed):
+      schtasks /create /tn "Playlist Provenance Sync" /xml sync-task.xml
+  Keep this file plain ASCII with no <?xml?> declaration: schtasks rejects a UTF-8 one ("unable to switch
+  the encoding"), and a UTF-16 file would show in git as binary.
+  It runs as whoever creates it, only while they're logged on (InteractiveToken), which the desktop
+  notifications need. If the repo isn't at C:\code\playlist-provenance, change the path in <Arguments>.
+-->
+<Task version="1.2" xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task">
+  <RegistrationInfo>
+    <Description>Playlist Provenance: sync Spotify listening, back up playlists, publish the site and send the daily report (sync.bat).</Description>
+  </RegistrationInfo>
+  <Principals>
+    <Principal id="Author">
+      <LogonType>InteractiveToken</LogonType>
+    </Principal>
+  </Principals>
+  <Settings>
+    <DisallowStartIfOnBatteries>true</DisallowStartIfOnBatteries>
+    <StopIfGoingOnBatteries>true</StopIfGoingOnBatteries>
+    <MultipleInstancesPolicy>IgnoreNew</MultipleInstancesPolicy>
+    <IdleSettings>
+      <StopOnIdleEnd>true</StopOnIdleEnd>
+      <RestartOnIdle>false</RestartOnIdle>
+    </IdleSettings>
+  </Settings>
+  <Triggers>
+    <CalendarTrigger>
+      <StartBoundary>2026-10-25T18:10:00</StartBoundary>
+      <Repetition>
+        <Interval>PT30M</Interval>
+      </Repetition>
+      <ScheduleByDay>
+        <DaysInterval>1</DaysInterval>
+      </ScheduleByDay>
+    </CalendarTrigger>
+  </Triggers>
+  <Actions Context="Author">
+    <Exec>
+      <Command>conhost.exe</Command>
+      <Arguments>--headless "C:\code\playlist-provenance\sync.bat"</Arguments>
+    </Exec>
+  </Actions>
+</Task>

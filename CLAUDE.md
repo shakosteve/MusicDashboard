@@ -42,6 +42,7 @@ sync.bat                                     the scheduled job: sync, import --l
   - A report that can't reach SMTP isn't marked sent, so it goes out on the next run. The line avoids the words the problem scan looks for, so keep it that way.
 - When the latest run's log has `token request failed (400|401)`, the report leads with "sign in to Spotify again" and step-by-step `auth` instructions (`reauth_note()`). Spotify refresh tokens have no fixed expiry, so this is triggered by rejection, not by a date. `auth` records the sign-in date as `SPOTIFY_AUTHORIZED` in `.env`, and the scopes granted as `SPOTIFY_SCOPES`.
 - The Windows Task Scheduler task `\Playlist Provenance Sync` runs `sync.bat` every 30 minutes, launched as `conhost.exe --headless "C:\code\playlist-provenance\sync.bat"` so no console window pops up. (It was `\MusicDashboard` before the rename; its name avoids the original tool's `pprov schedule` task, "Playlist Provenance".) Enabling or disabling it needs an elevated prompt (`schtasks /change /tn "Playlist Provenance Sync" /enable`); from a non-admin shell it fails with "Access is denied".
+  - `sync-task.xml` (committed, 2026-11-19) is its export with the author, user SID and date removed, so it recreates the task for whoever runs `schtasks /create /tn "Playlist Provenance Sync" /xml sync-task.xml` (no admin needed; tested). It must stay ASCII with no `<?xml?>` declaration: schtasks rejects a UTF-8 declaration, and UTF-16 would be binary in git. Re-export and re-clean it if the task's settings change.
 
 ## Data flow
 
