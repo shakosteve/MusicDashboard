@@ -1,14 +1,25 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-18T23:10:06Z",
+ "generated": "2026-11-19T00:40:06Z",
  "totals": {
-  "plays": 125379,
+  "plays": 125380,
   "hours": 8524.8,
   "artists": 702,
   "albums": 1531,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "Bring It on Home - Remaster",
+   "artist": "Led Zeppelin",
+   "album": "Led Zeppelin II (Remaster)",
+   "year": 1969,
+   "image": "https://i.scdn.co/image/ab67616d00001e02f396ea414b735ef23e2ed1a9",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b273f396ea414b735ef23e2ed1a9",
+   "url": "https://open.spotify.com/track/1rxD34LAtkafrMUHqHIV76",
+   "album_url": "https://open.spotify.com/album/58MQ0PLijVHePUonQlK76Y",
+   "played_at": "2026-11-18T22:58:48.708Z"
+  },
   {
    "name": "Mary Had a Little Lamb",
    "artist": "Stevie Ray Vaughan",
@@ -525,17 +536,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/0GONea6G2XdnHWjNZd6zt3",
    "album_url": "https://open.spotify.com/album/2o2G49EPi4lua5zgxUKhLL",
    "played_at": "2026-11-17T15:21:46.343Z"
-  },
-  {
-   "name": "La Grange - 2019 Remaster",
-   "artist": "ZZ Top",
-   "album": "Goin' 50",
-   "year": 2019,
-   "image": "https://i.scdn.co/image/ab67616d00001e0266f8b13d81aa47dc66a51c58",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27366f8b13d81aa47dc66a51c58",
-   "url": "https://open.spotify.com/track/1MVqP6dzp0EZ2T4TpAxWnS",
-   "album_url": "https://open.spotify.com/album/3iCffsNF6mYOY87PWhhqcp",
-   "played_at": "2026-11-17T15:18:09.664Z"
   }
  ],
  "top_artists": [
@@ -559,7 +559,7 @@ window.LISTENING = {
   },
   {
    "name": "Led Zeppelin",
-   "plays": 2308,
+   "plays": 2309,
    "url": "https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp",
    "image": "https://i.scdn.co/image/ab67616d00001e02c8a11e48c91a982d086afc69"
   },
@@ -832,7 +832,7 @@ window.LISTENING = {
   },
   {
    "decade": 1960,
-   "plays": 7069,
+   "plays": 7070,
    "covers": [
     {
      "name": "Your Time Is Gonna Come - 1990 Remaster",
