@@ -172,5 +172,16 @@
     }).join("");
   }
 
-  $("updated").textContent = `Updated ${new Date(site.generated).toLocaleString()}`;
+  // When sync last read Spotify (older data has only the build time). The time alone today, with the date before
+  // that; hovering shows the full date and time.
+  const synced = new Date(site.synced || site.generated);
+  if (!isNaN(synced)) {
+    const el = $("synced");
+    const today = synced.toDateString() === new Date().toDateString();
+    const time = synced.toLocaleTimeString([], { hour: "numeric", minute: "2-digit" });
+    el.textContent = `Synced ${today ? time : `${synced.toLocaleDateString([], { month: "short", day: "numeric" })}, ${time}`}`;
+    el.dateTime = synced.toISOString();
+    el.title = `Last synced with Spotify: ${synced.toLocaleString([], { dateStyle: "full", timeStyle: "long" })}`;
+    el.hidden = false;
+  }
 })();

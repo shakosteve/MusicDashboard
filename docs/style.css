@@ -70,6 +70,8 @@ h3 { margin: 0; }
 }
 .spec { font: 600 .72rem/1 var(--cond); letter-spacing: .2em; text-transform: uppercase; color: var(--muted); }
 .brand-right { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; }
+.synced { cursor: help; }
+.synced[hidden] { display: none; }
 /* A small faceplate key, like the presets, for the latest year's narrated video. */
 .vid {
   padding: 7px 11px; border-radius: 5px;

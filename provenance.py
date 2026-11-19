@@ -69,6 +69,8 @@ import requests
 ROOT = Path(__file__).resolve().parent
 ENV = ROOT / ".env"
 DATA = ROOT / "data"
+LAST_SYNC = DATA / "last_sync"  # when sync last read recently-played (ISO, UTC); shown on the site
+PUBLISH_HEARTBEAT = timedelta(hours=1)  # publish a sync-time-only change once the live copy is this old
 PLAYS = DATA / "recently_played.jsonl"
 EPISODES = DATA / "episodes.json"
 ART = DATA / "art.json"
@@ -447,6 +449,7 @@ def sync_shows(session, per_run=8):
 def sync():
     session = api_session()
     new = sync_plays(session)
+    LAST_SYNC.write_text(now_iso(), encoding="utf-8")  # the site's "Synced" time: recently-played was read
     print(f"{len(new)} new play(s)" + (f", latest: {new[-1]['name']} - {', '.join(new[-1]['artists'])}" if new else ""))
     episode = sync_episode(session)
     if episode:
@@ -1552,6 +1555,7 @@ def build():
     site = {
         "title": os.environ.get("SITE_TITLE") or "The Listening Booth",
         "generated": now_iso(),
+        "synced": LAST_SYNC.read_text(encoding="utf-8").strip() if LAST_SYNC.exists() else None,
         "totals": {
             "plays": len(plays),
             "hours": round(sum(p.get("ms_played") or p.get("duration_ms") or 0 for p in plays) / 3_600_000, 1),
@@ -1992,7 +1996,8 @@ def share_card():
 
 
 def publish():
-    """Commit and push docs/data/ for GitHub Pages when it really changed (not just the build timestamp).
+    """Commit and push docs/data/ for GitHub Pages when it really changed (not just the build and sync times),
+    or when the published sync time is over PUBLISH_HEARTBEAT old, so the site's "Synced" time stays close.
 
     Only docs/data/ is committed, so code being edited stays out of it. AUTO_PUBLISH=off in .env turns
     this off."""
@@ -2000,18 +2005,31 @@ def publish():
         return
     ok, out = git("add", "docs/data")
     if ok:
-        unchanged, _ = git("diff", "--cached", "--quiet", "-I", r'^\s*"generated":')
-        if unchanged:
+        unchanged, _ = git("diff", "--cached", "--quiet", "-I", r'^\s*"generated":', "-I", r'^\s*"synced":')
+        if unchanged and not sync_time_stale():
             git("reset", "-q", "docs/data")
             return
         plays = load_plays()
         last = datetime.fromisoformat(plays[-1]["played_at"].replace("Z", "+00:00")).astimezone() if plays else None
-        ok, out = git("commit", "-q", "-m", f"Listening data through {last:%b} {last.day}, {last:%I:%M %p}"
-                      if last else "Update listening data")
+        message = f"Listening data through {last:%b} {last.day}, {last:%I:%M %p}" if last else "Update listening data"
+        ok, out = git("commit", "-q", "-m", f"Synced, no new listening ({message[0].lower()}{message[1:]})"
+                      if unchanged else message)
     if ok:
         ok, out = push()
     print("Published to GitHub." if ok else git_offline(out) or
           f"Publish failed: {(out.splitlines() or ['git error'])[-1]} (the commit is kept; it goes out next run)")
+
+
+def sync_time_stale():
+    """Whether the committed listening.js's sync time is over PUBLISH_HEARTBEAT older than the one just built."""
+    def synced(text):
+        m = re.search(r'^\s*"synced":\s*"([^"]+)"', text or "", re.M)
+        return datetime.fromisoformat(m.group(1).replace("Z", "+00:00")) if m else None
+    _, committed = git("show", "HEAD:docs/data/listening.js")
+    path = ROOT / "docs" / "data" / "listening.js"
+    now = synced(path.read_text(encoding="utf-8")) if path.exists() else None
+    then = synced(committed)
+    return bool(now) and (then is None or now - then > PUBLISH_HEARTBEAT)
 
 
 def read_log(since):
