@@ -196,6 +196,216 @@
       "since": "2026-11-04",
       "until": "2026-11-05",
       "outcome": "removed from playlist"
+    },
+    {
+      "playlist": "Liked Songs",
+      "playlist_id": "liked",
+      "uri": "spotify:track:0NGJMpmr3ERMov6zjyI2zz",
+      "name": "i'll dance anyways",
+      "artists": [
+        "Jasmine Star"
+      ],
+      "album": "i'll dance anyways",
+      "isrc": "QMEU32416415",
+      "reason": null,
+      "since": "2026-11-19"
+    },
+    {
+      "playlist": "Liked Songs",
+      "playlist_id": "liked",
+      "uri": "spotify:track:53O0aHdCuGrrkRnDYtgJXf",
+      "name": "Oh Well",
+      "artists": [
+        "Jimmy Page",
+        "The Black Crowes"
+      ],
+      "album": "Live at the Greek",
+      "isrc": "QM6N21713438",
+      "reason": null,
+      "since": "2026-11-19"
+    },
+    {
+      "playlist": "Liked Songs",
+      "playlist_id": "liked",
+      "uri": "spotify:track:0yIYN5oWb6XX93C7xmoqOD",
+      "name": "I Confess",
+      "artists": [
+        "Jasmine Star"
+      ],
+      "album": "I Confess",
+      "isrc": "QZFZ42411239",
+      "reason": null,
+      "since": "2026-11-19"
+    },
+    {
+      "playlist": "Liked Songs",
+      "playlist_id": "liked",
+      "uri": "spotify:track:7zHiG2FFEpeGvBmJkgZzVv",
+      "name": "Gila Monster",
+      "artists": [
+        "King Gizzard & The Lizard Wizard"
+      ],
+      "album": "Gila Monster",
+      "isrc": "AU2ZC2300172",
+      "reason": null,
+      "since": "2026-11-19"
+    },
+    {
+      "playlist": "Liked Songs",
+      "playlist_id": "liked",
+      "uri": "spotify:track:6AcCvbJxR4PO6Fzv0UYdyW",
+      "name": "Sadie Sorceress",
+      "artists": [
+        "King Gizzard & The Lizard Wizard"
+      ],
+      "album": "Omnium Gatherum",
+      "isrc": "AU2ZC2100207",
+      "reason": null,
+      "since": "2026-11-19"
+    },
+    {
+      "playlist": "Liked Songs",
+      "playlist_id": "liked",
+      "uri": "spotify:track:0yIcL1zFdzStEAYfmbvy7z",
+      "name": "Whole Lotta Love",
+      "artists": [
+        "Jimmy Page",
+        "The Black Crowes"
+      ],
+      "album": "Live at the Greek",
+      "isrc": "QM6N21713442",
+      "reason": null,
+      "since": "2026-11-19"
+    },
+    {
+      "playlist": "Liked Songs",
+      "playlist_id": "liked",
+      "uri": "spotify:track:3BEi0jGZCkwqKJuvjSJZd2",
+      "name": "She's Got the Looks That Kill",
+      "artists": [
+        "The Rumours"
+      ],
+      "album": "Hotbang",
+      "isrc": "USCGJ1722282",
+      "reason": null,
+      "since": "2026-11-19"
+    },
+    {
+      "playlist": "Liked Songs",
+      "playlist_id": "liked",
+      "uri": "spotify:track:6906dRcNhYWmrr4II8Pi3K",
+      "name": "There You Go",
+      "artists": [
+        "Heart"
+      ],
+      "album": "Red Velvet Car",
+      "isrc": "USQX91000431",
+      "reason": null,
+      "since": "2026-11-19"
+    },
+    {
+      "playlist": "Liked Songs",
+      "playlist_id": "liked",
+      "uri": "spotify:track:56VvVWzJLs4pKu6a6OUvJ9",
+      "name": "Whole Lotta Sabbath (Wax Audio Lance Herbstrong Edit)",
+      "artists": [
+        "Lance Herbstrong"
+      ],
+      "album": "Meth Breakfast",
+      "isrc": "TCABL1359335",
+      "reason": null,
+      "since": "2026-11-19"
+    },
+    {
+      "playlist": "Liked Songs",
+      "playlist_id": "liked",
+      "uri": "spotify:track:6Smy0OgmUE59LjmWRTmxJz",
+      "name": "Perfect Day",
+      "artists": [
+        "Jasmine Star"
+      ],
+      "album": "Perfect Day",
+      "isrc": "QZES52277618",
+      "reason": null,
+      "since": "2026-11-19"
+    },
+    {
+      "playlist": "Liked Songs",
+      "playlist_id": "liked",
+      "uri": "spotify:track:1nRnxSzhuzhgmGgcMwMwOJ",
+      "name": "Without me",
+      "artists": [
+        "Snow White In The Dark"
+      ],
+      "album": "Without me",
+      "isrc": "DE1A92100012",
+      "reason": null,
+      "since": "2026-11-19"
+    },
+    {
+      "playlist": "Liked Songs",
+      "playlist_id": "liked",
+      "uri": "spotify:track:0Xev9hpI10egcj7mDitdB4",
+      "name": "Breakthrough",
+      "artists": [
+        "Jasmine Star"
+      ],
+      "album": "Breakthrough",
+      "isrc": "uscgj2091474",
+      "reason": null,
+      "since": "2026-11-19"
+    },
+    {
+      "playlist": "Liked Songs",
+      "playlist_id": "liked",
+      "uri": "spotify:track:0S3TryqfN8SOuGgQvLaYdv",
+      "name": "DRIVE",
+      "artists": [
+        "Jasmine Star"
+      ],
+      "album": "DRIVE",
+      "isrc": "QZPLS2128751",
+      "reason": null,
+      "since": "2026-11-19"
+    },
+    {
+      "playlist": "Liked Songs",
+      "playlist_id": "liked",
+      "uri": "spotify:track:2Anzr0Zg9Uuz9JQllJsJVj",
+      "name": "Alive",
+      "artists": [
+        "Snow White In The Dark"
+      ],
+      "album": "Alive",
+      "isrc": "FRX282156027",
+      "reason": null,
+      "since": "2026-11-19"
+    },
+    {
+      "playlist": "Liked Songs",
+      "playlist_id": "liked",
+      "uri": "spotify:track:1eZyUvmif7yBCAqMp8KM9w",
+      "name": "Tide",
+      "artists": [
+        "Jasmine Star"
+      ],
+      "album": "Tide",
+      "isrc": "ushm91982890",
+      "reason": null,
+      "since": "2026-11-19"
+    },
+    {
+      "playlist": "Liked Songs",
+      "playlist_id": "liked",
+      "uri": "spotify:track:3LZeqfAMTW0suTUnQzmkjd",
+      "name": "The Cliff",
+      "artists": [
+        "Jasmine Star"
+      ],
+      "album": "The Cliff",
+      "isrc": "QZES92151864",
+      "reason": null,
+      "since": "2026-11-19"
     }
   ]
 }
