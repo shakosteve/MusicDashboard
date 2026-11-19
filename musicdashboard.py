@@ -62,7 +62,7 @@ from email.message import EmailMessage
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from pathlib import Path
 from urllib.parse import parse_qs, urlencode, urlparse
-from xml.sax.saxutils import escape as xml_escape
+from xml.sax.saxutils import escape as xml_escape, quoteattr
 
 import requests
 
@@ -661,6 +661,7 @@ def backup_playlists():
         return
     unavailable = json.loads(UNAVAILABLE.read_text(encoding="utf-8")) if UNAVAILABLE.exists() else {"tracks": []}
     session, changed, relabeled = api_session(), [], False
+    alerts = []  # (title, summary, lines, file) for playlists marked "notify" in playlists.json
     for entry in due:
         pid = playlist_id(entry["id"])
         try:
@@ -686,6 +687,8 @@ def backup_playlists():
             summary, lines = playlist_diff(old, new)
             print("\n".join([f"Playlist {new['name']} changed: {summary}"] + lines))
             changed.append((f"{new['name']}: {summary}", lines))
+            if entry.get("notify"):
+                alerts.append((f"{new['name']} changed", summary, lines, path))
         else:
             print(f"Playlist {old['name']} checked: no changes ({len(old['tracks']):,} tracks)")
         went, back = update_unavailable(unavailable, pid, new, today)
@@ -694,15 +697,22 @@ def backup_playlists():
         if went or back:
             lines = [f"  ! {label(e)}" for e in went] + [f"  ~ {label(e)} ({e['outcome']})" for e in back]
             print("\n".join(lines))
-            changed.append((f"{new['name']}: " + ", ".join(
-                ([f"{len(went)} became unplayable"] if went else []) + ([f"{len(back)} no longer unplayable"] if back else [])),
-                lines))
+            what = ", ".join(([f"{len(went)} became unplayable"] if went else [])
+                             + ([f"{len(back)} no longer unplayable"] if back else []))
+            changed.append((f"{new['name']}: {what}", lines))
+            if entry.get("notify"):
+                alerts.append((f"{new['name']}: unplayable tracks", what, lines, path))
         checks[pid] = {"checked": today, "name": found["name"], "snapshot_id": found.get("snapshot_id")}
     write_atomic(PLAYLIST_CHECKS, json.dumps(checks, indent=2, ensure_ascii=False))
     write_atomic(PLAYLIST_LIST, json.dumps(listing, indent=2, ensure_ascii=False) + "\n")
     write_atomic(UNAVAILABLE, json.dumps(unavailable, indent=2, ensure_ascii=False) + "\n")
-    if not (changed or relabeled) or os.environ.get("AUTO_PUBLISH", "on").lower() in ("off", "no", "false", "0"):
-        return
+    if (changed or relabeled) and os.environ.get("AUTO_PUBLISH", "on").lower() not in ("off", "no", "false", "0"):
+        commit_playlists(changed)
+    notify_playlist_changes(alerts)
+
+
+def commit_playlists(changed):
+    """Commit playlists/ (only) with the changes as the message, and push."""
     git("add", "playlists")
     ok, out = git("commit", "-q", "-m", "; ".join(title for title, _ in changed) or "Update playlist names in playlists.json",
                   "-m", "\n\n".join(f"{title}\n" + "\n".join(lines) for title, lines in changed), "--", "playlists")
@@ -710,6 +720,49 @@ def backup_playlists():
         ok, out = push()
     print("Playlist backup pushed to GitHub." if ok else git_offline(out) or
           f"Playlist backup push failed: {(out.splitlines() or ['git error'])[-1]} (the commit is kept; it goes out next run)")
+
+
+NOTIFY_APP = "MusicDashboard"
+NOTIFY_AUMID = "MusicDashboard.PlaylistBackup"  # the sender Windows shows; registered per user, no admin rights
+
+
+def notify_playlist_changes(alerts):
+    """A desktop notification for each change to a playlist marked "notify": true in playlists.json (My Favs).
+    Clicking it opens the playlist's history on GitHub. A notification that can't be shown never fails the
+    backup; the reason is printed, and the report flags it."""
+    for title, summary, lines, path in alerts:
+        shown = [line.strip() for line in lines[:3]] + ([f"...and {len(lines) - 3} more"] if len(lines) > 3 else [])
+        link = f"{repo_url()}/commits/main/playlists/{path.name}" if repo_url() else path.as_uri()
+        try:
+            show_notification(title, summary, "\n".join(shown), link)
+        except (OSError, subprocess.SubprocessError) as e:
+            print(f"Desktop notification failed: {e}")
+
+
+def show_notification(title, body, detail="", link=None):
+    """Show a Windows toast through Windows PowerShell 5.1's built-in WinRT access (no extra dependencies).
+    Ported from Playlist Provenance (notify.py). Raises OSError if it couldn't be shown."""
+    import winreg
+    with winreg.CreateKey(winreg.HKEY_CURRENT_USER, rf"Software\Classes\AppUserModelId\{NOTIFY_AUMID}") as key:
+        winreg.SetValueEx(key, "DisplayName", 0, winreg.REG_SZ, NOTIFY_APP)
+    launch = f' activationType="protocol" launch={quoteattr(link)}' if link else ""
+    texts = "".join(f"<text>{xml_escape(s)}</text>" for s in (title, body, detail) if s)
+    xml = f'<toast{launch}><visual><binding template="ToastGeneric">{texts}</binding></visual></toast>'
+    ps = lambda s: "'" + s.replace("'", "''") + "'"
+    script = (
+        "[Windows.UI.Notifications.ToastNotificationManager, Windows.UI.Notifications, ContentType = WindowsRuntime] | Out-Null\n"
+        "[Windows.Data.Xml.Dom.XmlDocument, Windows.Data.Xml.Dom.XmlDocument, ContentType = WindowsRuntime] | Out-Null\n"
+        "$xml = New-Object Windows.Data.Xml.Dom.XmlDocument\n"
+        f"$xml.LoadXml({ps(xml)})\n"
+        "$toast = New-Object Windows.UI.Notifications.ToastNotification $xml\n"
+        f"[Windows.UI.Notifications.ToastNotificationManager]::CreateToastNotifier({ps(NOTIFY_AUMID)}).Show($toast)\n")
+    r = subprocess.run(["powershell.exe", "-NoProfile", "-NonInteractive", "-EncodedCommand",
+                        base64.b64encode(script.encode("utf-16-le")).decode("ascii")],
+                       capture_output=True, text=True, timeout=30,
+                       creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0))
+    if r.returncode != 0:
+        raise OSError((r.stderr or r.stdout).strip().splitlines()[0] if (r.stderr or r.stdout).strip()
+                      else f"PowerShell exited with {r.returncode}")
 
 
 def update_unavailable(record, pid, playlist, today):
@@ -2410,6 +2463,7 @@ def main():
     sub.add_parser("backup", help="once a day, save and commit the playlists in playlists/playlists.json that changed "
                                      "(sync.bat runs this)")
     sub.add_parser("publish", help="commit and push docs/data/ to GitHub when it changed (sync.bat runs this)")
+    sub.add_parser("notify", help="show a test desktop notification, like the ones for My Favs changes")
     rep = sub.add_parser("report", help="email the daily summary (sync.bat runs this; sends once a day)")
     rep.add_argument("--force", action="store_true", help="send now, even if today's report went out")
     rep.add_argument("--dry-run", action="store_true", help="print the report instead of sending it")
@@ -2430,6 +2484,10 @@ def main():
             publish()
         elif args.command == "playlist":
             save_playlist(args.name)
+        elif args.command == "notify":
+            show_notification("My Favs changed", "Test: 1 added by you", "+ Song - Artist",
+                              f"{repo_url()}/commits/main/playlists/my-favs.json")
+            print("Test notification sent.")
         elif args.command == "restore":
             restore_playlist(args.playlist, args.to == "liked", args.name, args.dry_run, args.yes)
         else:

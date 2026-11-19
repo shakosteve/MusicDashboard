@@ -20,6 +20,7 @@ python musicdashboard.py report [--dry-run|--force]  daily summary email of data
 python musicdashboard.py playlist "NAME"     save one of the owner's playlists (by name, ID or link), or "liked" for Liked Songs, to playlists/<name>.json + .csv + .xspf, with ISRCs; ~1 request per 50 tracks
 python musicdashboard.py backup              once a day: re-save + commit + push the playlists in playlists/playlists.json that changed
 python musicdashboard.py restore "NAME" [--to liked] [--name N] [--dry-run] [--yes]  rebuild a saved playlist on Spotify (see Data flow)
+python musicdashboard.py notify              show a test desktop notification, like the ones for My Favs changes
 python musicdashboard.py narrate YEAR         voice video/script-YEAR.json with Azure HD voices into video/public/YEAR/ (for the video)
 python musicdashboard.py sharecard            redraw docs/images/share.png, the 1200x630 social preview, from listening.js totals (headless Edge)
 python musicdashboard.py publish             commit + push docs/data/ if it changed beyond the "generated" timestamp
@@ -52,6 +53,10 @@ sync.bat                                     the scheduled job: sync, import --l
     - Tracking by ID, never by name, means the owner can rename a playlist. `id` can also be a `spotify:playlist:` URI or a link. `name` is only a label, which `backup` keeps current and commits.
     - A missing file or an unknown ID prints "Playlist backup failed: …", which the report flags. So does a playlist the owner only follows: Spotify returns 403 for the tracks of any playlist the account doesn't own or collaborate on (`NotArchivable`). An HTTP error on one playlist doesn't stop the others.
     - **Liked Songs** can be backed up like a playlist (ported from Playlist Provenance, 2026-11-19): the entry `{"id": "liked", "name": "Liked Songs"}`, read from `/me/tracks`, saved as `playlists/liked-songs.*`. It has no `snapshot_id`, so its changes are always "you". `playlist_id()` returns `LIKED` for "liked", "Liked Songs" and the `collection/tracks` link. The owner added it to `playlists.json` on 2026-11-19 (841 songs, 16 unplayable that day, so their `since` is the day the check began), and the "Outside your usual" card skips it.
+    - **Desktop notifications** (owner's request, 2026-11-19): an entry with `"notify": true` (only My Favs) gets a Windows toast from `backup` whenever it changes or tracks go unplayable or come back, after the commit. Clicking it opens the file's commit history on GitHub.
+      - `show_notification()` is ported from Playlist Provenance's `notify.py`: Windows PowerShell 5.1's WinRT toast API via `-EncodedCommand` with `CREATE_NO_WINDOW`, sent as AUMID `MusicDashboard.PlaylistBackup`, whose display name it registers under `HKCU\Software\Classes\AppUserModelId` (no admin). Windows only.
+      - It works from the scheduled task because the task runs as the owner only while logged on (`InteractiveToken`). A task set to run whether logged on or not couldn't show toasts.
+      - A toast that can't be shown prints `Desktop notification failed: …`, which the report flags, and never fails the backup.
     - A playlist's first backup says "started backing up (N tracks)" instead of listing every track as added.
   - A playlist's file is the existing `playlists/*.json` with its `uri` (`playlist_file()`), so a rename keeps `my-favs.json` and its git history. The rename shows as "renamed from 'Old'".
   - It downloads every backed-up playlist in full once a day (~1 request per 50 tracks). It doesn't skip on an unchanged `snapshot_id`, because a track going unplayable doesn't change it.
