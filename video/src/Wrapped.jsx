@@ -277,7 +277,7 @@ const cards = {
       <Reveal><Kicker>That was {d.year}</Kicker></Reveal>
       <Reveal delay={4}><div style={{ font: `400 300px/.85 ${DISPLAY}`, letterSpacing: "-.03em" }}><A>{d.year}</A></div></Reveal>
       <Reveal delay={(c.lines[1] || c.lines[0]).at}><Mid size={110}>Turn it up for {d.year + 1}.</Mid></Reveal>
-      <Reveal delay={(c.lines[1] || c.lines[0]).at + 20}><Lede>The Listening Booth · shakosteve.github.io/MusicDashboard</Lede></Reveal>
+      <Reveal delay={(c.lines[1] || c.lines[0]).at + 20}><Lede>The Listening Booth · shakosteve.github.io/playlist-provenance</Lede></Reveal>
     </>
   ),
 };

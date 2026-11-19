@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-A personal Spotify listening dashboard ("The Listening Booth"). One Python script, `musicdashboard.py`, collects listening data into `data/` and builds `docs/data/listening.js`. A static site in `docs/` renders it. There are no tests, linter, or build tooling. The only dependency is `requests`.
+**Playlist Provenance** (formerly MusicDashboard, renamed 2026-11-19): a personal Spotify listening dashboard whose site is "The Listening Booth", plus the daily playlist backup. One Python script, `musicdashboard.py`, collects listening data into `data/` and builds `docs/data/listening.js`. A static site in `docs/` renders it. There are no tests, linter, or build tooling. The only dependency is `requests`.
 
 ## Commands
 
@@ -27,7 +27,8 @@ python musicdashboard.py publish             commit + push docs/data/ if it chan
 sync.bat                                     the scheduled job: sync, import --limit 20 (until data\import.done exists), genres --limit 15, backup, build, publish, report
 ```
 
-- The repo is public at github.com/shakosteve/MusicDashboard. GitHub Pages serves `docs/` from `main` at https://shakosteve.github.io/MusicDashboard/.
+- The repo is public at github.com/shakosteve/playlist-provenance (renamed from MusicDashboard; GitHub redirects the old repo URL, but not the old Pages URL). GitHub Pages serves `docs/` from `main` at https://shakosteve.github.io/playlist-provenance/.
+- The standalone tool for other users, which the playlist code was first ported to and some features came back from, is now at `C:\code\playlist-provenance-original` (local only). "Ported from Playlist Provenance" below means that project.
 - `publish` runs on every scheduled run. It commits only `docs/data/` (so code edits stay out), uses `git diff -I` to skip changes that are only the timestamp, then pulls with `--rebase` and pushes, with git prompts disabled. Set `AUTO_PUBLISH=off` in `.env` to stop it.
 - Code changes still need committing and pushing by hand. Expect frequent "Listening data through …" commits from the scheduled task on `origin/main`, so pull before pushing.
 - To preview the site, open `docs/index.html` directly in a browser. The data is a `<script>` that sets `window.LISTENING`, not fetched JSON, so the page works from `file://` with no server.
@@ -38,7 +39,7 @@ sync.bat                                     the scheduled job: sync, import --l
   - The report notes a brief dropout under the run count without changing the status. It flags 3 or more offline runs in a row ("No internet for N scheduled runs in a row").
   - A report that can't reach SMTP isn't marked sent, so it goes out on the next run. The line avoids the words the problem scan looks for, so keep it that way.
 - When the latest run's log has `token request failed (400|401)`, the report leads with "sign in to Spotify again" and step-by-step `auth` instructions (`reauth_note()`). Spotify refresh tokens have no fixed expiry, so this is triggered by rejection, not by a date. `auth` records the sign-in date as `SPOTIFY_AUTHORIZED` in `.env`, and the scopes granted as `SPOTIFY_SCOPES`.
-- The Windows Task Scheduler task `\MusicDashboard` runs `sync.bat` every 30 minutes, launched as `conhost.exe --headless "C:\code\MusicDashboard\sync.bat"` so no console window pops up. Enabling or disabling it needs an elevated prompt (`schtasks /change /tn MusicDashboard /enable`); from a non-admin shell it fails with "Access is denied".
+- The Windows Task Scheduler task `\Playlist Provenance Sync` runs `sync.bat` every 30 minutes, launched as `conhost.exe --headless "C:\code\playlist-provenance\sync.bat"` so no console window pops up. (It was `\MusicDashboard` before the rename; its name avoids the original tool's `pprov schedule` task, "Playlist Provenance".) Enabling or disabling it needs an elevated prompt (`schtasks /change /tn "Playlist Provenance Sync" /enable`); from a non-admin shell it fails with "Access is denied".
 
 ## Data flow
 
@@ -54,7 +55,7 @@ sync.bat                                     the scheduled job: sync, import --l
     - A missing file or an unknown ID prints "Playlist backup failed: …", which the report flags. So does a playlist the owner only follows: Spotify returns 403 for the tracks of any playlist the account doesn't own or collaborate on (`NotArchivable`). An HTTP error on one playlist doesn't stop the others.
     - **Liked Songs** can be backed up like a playlist (ported from Playlist Provenance, 2026-11-19): the entry `{"id": "liked", "name": "Liked Songs"}`, read from `/me/tracks`, saved as `playlists/liked-songs.*`. It has no `snapshot_id`, so its changes are always "you". `playlist_id()` returns `LIKED` for "liked", "Liked Songs" and the `collection/tracks` link. The owner added it to `playlists.json` on 2026-11-19 (841 songs, 16 unplayable that day, so their `since` is the day the check began), and the "Outside your usual" card skips it.
     - **Desktop notifications** (owner's request, 2026-11-19): an entry with `"notify": true` (only My Favs) gets a Windows toast from `backup` whenever it changes or tracks go unplayable or come back, after the commit. Clicking it opens the file's commit history on GitHub.
-      - `show_notification()` is ported from Playlist Provenance's `notify.py`: Windows PowerShell 5.1's WinRT toast API via `-EncodedCommand` with `CREATE_NO_WINDOW`, sent as AUMID `MusicDashboard.PlaylistBackup`, whose display name it registers under `HKCU\Software\Classes\AppUserModelId` (no admin). Windows only.
+      - `show_notification()` is ported from Playlist Provenance's `notify.py`: Windows PowerShell 5.1's WinRT toast API via `-EncodedCommand` with `CREATE_NO_WINDOW`, sent as AUMID `PlaylistProvenance.Dashboard` (display name "Playlist Provenance"), whose display name it registers under `HKCU\Software\Classes\AppUserModelId` (no admin). Windows only.
       - It works from the scheduled task because the task runs as the owner only while logged on (`InteractiveToken`). A task set to run whether logged on or not couldn't show toasts.
       - A toast that can't be shown prints `Desktop notification failed: …`, which the report flags, and never fails the backup.
     - A playlist's first backup says "started backing up (N tracks)" instead of listing every track as added.
@@ -82,7 +83,7 @@ sync.bat                                     the scheduled job: sync, import --l
     - The email marks tracks with + (added), − (removed), ^ (moved), * (details changed), ! (newly unplayable) and ✓ (no longer unplayable). A key under the playlist section (`PLAYLIST_LEGEND`) explains them, in both the HTML and the text version.
     - The report reads the file directly. Its line per playlist (`unplayable_summary()`) gives the current count and how that day's endings got it there, e.g. "Every track is playable now: the 13 unplayable tracks were removed from the playlist today" or "2 tracks unplayable in your country (3 others removed today)". Under each playlist it shows "N tracks unplayable in your country", with a GitHub link to the file, or "Every track is playable", plus that day's new and ended entries. The owner asked for this line daily.
 
-**`data/` is a junction into OneDrive** (`C:\Users\zamdr\OneDrive\MusicDashboard_Data`, pinned "always keep on this device"), following GoneWalking, so it's backed up off the computer. It holds irreplaceable state: live plays older than Spotify's last 50, `episodes.json`, the export, and lookups that cost days of API quota. Don't delete or bulk-rewrite it. GoneWalking's `music.py` reads it through the junction as `../MusicDashboard/data`.
+**`data/` is a junction into OneDrive** (`C:\Users\zamdr\OneDrive\playlist-provenance_Data`, renamed from `MusicDashboard_Data`, pinned "always keep on this device"), following GoneWalking, so it's backed up off the computer. It holds irreplaceable state: live plays older than Spotify's last 50, `episodes.json`, the export, and lookups that cost days of API quota. Don't delete or bulk-rewrite it. GoneWalking's `music.py` reads it through the junction as `../playlist-provenance/data`.
 
 Everything in `data/` is personal and gitignored, as is `.env`, which holds the Spotify app credentials and the refresh token. Spotify can rotate the refresh token; `api_session()` saves the new one.
 

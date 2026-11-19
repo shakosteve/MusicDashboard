@@ -1,4 +1,4 @@
-"""MusicDashboard: collect my Spotify listening (music and podcasts) for a personal site.
+"""Playlist Provenance: collect my Spotify listening (music and podcasts) for a personal site.
 
     python musicdashboard.py auth    one-time: sign in to Spotify in the browser, saves the refresh token to .env
     python musicdashboard.py sync    save new recently played tracks, and podcast episodes (playing now or by resume point)
@@ -801,8 +801,8 @@ def commit_playlists(changed):
           f"Playlist backup push failed: {(out.splitlines() or ['git error'])[-1]} (the commit is kept; it goes out next run)")
 
 
-NOTIFY_APP = "MusicDashboard"
-NOTIFY_AUMID = "MusicDashboard.PlaylistBackup"  # the sender Windows shows; registered per user, no admin rights
+NOTIFY_APP = "Playlist Provenance"
+NOTIFY_AUMID = "PlaylistProvenance.Dashboard"  # the sender Windows shows; registered per user, no admin rights
 
 
 def notify_playlist_changes(alerts):
@@ -1207,7 +1207,7 @@ def fill_genres(limit=None, delay=1.1):
     if not wanted:
         return
     session = requests.Session()
-    session.headers.update({"User-Agent": f"MusicDashboard/1.0 ({repo_url() or 'personal listening dashboard'})",
+    session.headers.update({"User-Agent": f"PlaylistProvenance/1.0 ({repo_url() or 'personal listening dashboard'})",
                             "Accept": "application/json"})
 
     def mb(path, **params):
@@ -1904,7 +1904,7 @@ def narrate(year):
                               data=ssml.encode("utf-8"), timeout=60,
                               headers={"Ocp-Apim-Subscription-Key": key, "Content-Type": "application/ssml+xml",
                                        "X-Microsoft-OutputFormat": "riff-48khz-16bit-mono-pcm",
-                                       "User-Agent": "MusicDashboard"})
+                                       "User-Agent": "PlaylistProvenance"})
             if not r.ok:
                 sys.exit(f"Azure speech failed on line {n} ({r.status_code}): {r.text[:200]}")
             f.write_bytes(r.content)
