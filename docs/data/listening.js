@@ -1,7 +1,7 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-19T20:40:08Z",
- "synced": "2026-11-19T20:40:02Z",
+ "generated": "2026-11-19T21:10:09Z",
+ "synced": "2026-11-19T21:10:01Z",
  "totals": {
   "plays": 125393,
   "hours": 8525.7,
@@ -1492,6 +1492,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Trump's sanity, chokepoint wars & the stories we missed | Listener Q&A",
+   "show": "Iran: The Latest",
+   "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
+   "release_date": "2026-11-19",
+   "duration_ms": 2864326,
+   "image": "https://i.scdn.co/image/ab67656300005f1f1b6cfde3d8a66d4d0c78ac8c",
+   "first_seen": "2026-11-19T18:10:02Z",
+   "progress_ms": 3046400,
+   "last_seen": "2026-11-19T21:10:04Z",
+   "url": "https://open.spotify.com/episode/0XoCz1vjEQxGvJIURjTRhE",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
+  },
+  {
    "name": "Trump meets Putin: 'He's my friend'",
    "show": "Ukraine: The Latest",
    "show_uri": "spotify:show:6cnkk1J0I1UqtxTYVUL4Fe",
@@ -1529,19 +1542,6 @@ window.LISTENING = {
    "last_seen": "2026-11-19T19:10:02Z",
    "url": "https://open.spotify.com/episode/3BkGjegICme2SQE22bvDKf",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
-  },
-  {
-   "name": "Trump's sanity, chokepoint wars & the stories we missed | Listener Q&A",
-   "show": "Iran: The Latest",
-   "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
-   "release_date": "2026-11-19",
-   "duration_ms": 2864326,
-   "image": "https://i.scdn.co/image/ab67656300005f1f1b6cfde3d8a66d4d0c78ac8c",
-   "first_seen": "2026-11-19T18:10:02Z",
-   "progress_ms": 2420715,
-   "last_seen": "2026-11-19T18:40:02Z",
-   "url": "https://open.spotify.com/episode/0XoCz1vjEQxGvJIURjTRhE",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
   },
   {
    "name": "#2113 - Adam Carolla BASHED for defending RFK Jr. + Valor Recovery founder Steve Wolt | Part 1",
