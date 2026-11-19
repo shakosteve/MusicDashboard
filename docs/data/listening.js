@@ -1,7 +1,7 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-19T22:40:07Z",
- "synced": "2026-11-19T22:40:01Z",
+ "generated": "2026-11-19T23:10:07Z",
+ "synced": "2026-11-19T23:10:01Z",
  "totals": {
   "plays": 125393,
   "hours": 8525.7,
@@ -1492,6 +1492,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Marco Rubio in the Race for the 2028 GOP Presidential Nomination",
+   "show": "RealClearPolitics Podcast",
+   "show_uri": "spotify:show:5FkNemg3aIaPPNBImIcW2l",
+   "release_date": "2026-11-19",
+   "duration_ms": 3156506,
+   "image": "https://i.scdn.co/image/ab67656300005f1fe19edf2c6856b8b09c057f38",
+   "first_seen": "2026-11-19T23:10:02Z",
+   "progress_ms": 358583,
+   "last_seen": "2026-11-19T23:10:02Z",
+   "url": "https://open.spotify.com/episode/0ayHx1r2ZTBb7WzgxLYVIa",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fe19edf2c6856b8b09c057f38"
+  },
+  {
    "name": "Concerning Rings of Power S3: Are Orcs Redeemable?",
    "show": "Well Earned Comforts: A Tolkien Podcast",
    "show_uri": "spotify:show:23hxjPbetnmtvwFJATPtg2",
@@ -1633,19 +1646,6 @@ window.LISTENING = {
    "last_seen": "2026-11-18T16:40:02Z",
    "url": "https://open.spotify.com/episode/19x3t2UxUya4EbIA5rTS5Q",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f3d63c8a3f5c8f7b8b0c1443b"
-  },
-  {
-   "name": "How GTA VI Became the Most Expensive Video Game Ever Made",
-   "show": "Odd Lots",
-   "show_uri": "spotify:show:1te7oSFyRVekxMBJUSethH",
-   "release_date": "2026-11-18",
-   "duration_ms": 3052408,
-   "image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42",
-   "first_seen": "2026-11-18T12:40:02Z",
-   "progress_ms": 3520424,
-   "last_seen": "2026-11-18T15:40:02Z",
-   "url": "https://open.spotify.com/episode/2FM3eZZURj7TYPrxjqGqky",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42"
   }
  ],
  "top_shows": [
