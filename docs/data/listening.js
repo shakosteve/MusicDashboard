@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-19T14:40:05Z",
+ "generated": "2026-11-19T15:10:06Z",
  "totals": {
   "plays": 125393,
   "hours": 8525.7,
@@ -1498,9 +1498,22 @@ window.LISTENING = {
    "duration_ms": 3273900,
    "image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b",
    "first_seen": "2026-11-19T14:10:02Z",
-   "progress_ms": 2106739,
-   "last_seen": "2026-11-19T14:40:02Z",
+   "progress_ms": 3273900,
+   "last_seen": "2026-11-19T15:10:03Z",
    "url": "https://open.spotify.com/episode/7ElL3hr6qCCdEF7fzv47K9",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
+  },
+  {
+   "name": "You Might Also Like: Millionaire University",
+   "show": "The Adam and Dr. Drew Show",
+   "show_uri": "spotify:show:3VN4vP6TztxK3wtT8b9aQL",
+   "release_date": "2026-11-19",
+   "duration_ms": 3458873,
+   "image": "https://i.scdn.co/image/ab67656300005f1fd00ba42332c28976037c58a8",
+   "first_seen": "2026-11-19T15:10:02Z",
+   "progress_ms": 295703,
+   "last_seen": "2026-11-19T15:10:03Z",
+   "url": "https://open.spotify.com/episode/565QLICGCRi1uwl09kIDpO",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
   },
   {
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-18T02:40:03Z",
    "url": "https://open.spotify.com/episode/1beKgeEKQg3lBmfaZWK4ea",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fe19edf2c6856b8b09c057f38"
-  },
-  {
-   "name": "Trump and friends: the biggest threat to America's national security?",
-   "show": "Christiane Amanpour Presents: The Ex Files",
-   "show_uri": "spotify:show:3ZpgFegm3q3AGjiFbjLV59",
-   "release_date": "2026-11-17",
-   "duration_ms": 2914037,
-   "image": "https://i.scdn.co/image/ab67656300005f1f5a4e319927f9dcfb7453f69d",
-   "first_seen": "2026-11-17T23:40:02Z",
-   "progress_ms": 554047,
-   "last_seen": "2026-11-18T02:10:02Z",
-   "url": "https://open.spotify.com/episode/42MmuTk17Yeo9OQtys38TH",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f5a4e319927f9dcfb7453f69d"
   }
  ],
  "top_shows": [
