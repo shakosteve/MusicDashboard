@@ -22,14 +22,14 @@ python provenance.py backup              every run: check the playlists in playl
 python provenance.py restore "NAME" [--to liked] [--name N] [--dry-run] [--yes]  rebuild a saved playlist on Spotify (see Data flow)
 python provenance.py notify              show a test desktop notification, like the ones for My Favs changes
 python provenance.py narrate YEAR         voice video/script-YEAR.json with Azure HD voices into video/public/YEAR/ (for the video)
-python provenance.py sharecard            redraw docs/images/share.png, the 1200x630 social preview, from listening.js totals (headless Edge)
+python provenance.py sharecard [--auto]   redraw docs/images/share.png, the 1200x630 social preview, from listening.js totals (headless Edge); --auto only weekly
 python provenance.py publish             commit + push docs/data/ if it changed beyond the "generated" timestamp
-sync.bat                                     the scheduled job: sync, import --limit 20 (until data\import.done exists), genres --limit 15, backup, build, publish, report
+sync.bat                                     the scheduled job: sync, import --limit 20 (until data\import.done exists), genres --limit 15, backup, build, sharecard --auto, publish, report
 ```
 
 - The repo is public at github.com/shakosteve/playlist-provenance (renamed from MusicDashboard; GitHub redirects the old repo URL, but not the old Pages URL). GitHub Pages serves `docs/` from `main` at https://shakosteve.github.io/playlist-provenance/.
 - The standalone tool for other users, which the playlist code was first ported to and some features came back from, is now at `C:\code\playlist-provenance-original` (local only). "Ported from Playlist Provenance" below means that project.
-- `publish` runs on every scheduled run. It commits only `docs/data/` (so code edits stay out), uses `git diff -I` to skip changes that are only the `generated`/`synced` times, then pulls with `--rebase` and pushes, with git prompts disabled. Set `AUTO_PUBLISH=off` in `.env` to stop it.
+- `publish` runs on every scheduled run. It commits only `docs/data/` and `docs/images/share.png` (so code edits stay out), uses `git diff -I` to skip changes that are only the `generated`/`synced` times, then pulls with `--rebase` and pushes, with git prompts disabled. Set `AUTO_PUBLISH=off` in `.env` to stop it.
   - **Sync time on the site** (owner's request, 2026-11-19): `sync` writes `data/last_sync` once recently-played has been read, and `build` puts it in `site.synced`. The brandline shows "Synced 10:40 AM" (with the date when not today), and the full date and time on hover; it replaced the footer's "Updated" line.
   - So that time stays close, `publish` also commits a times-only change once the committed `synced` is over `PUBLISH_HEARTBEAT` (1 hour) older (`sync_time_stale()`), as "Synced, no new listening (…)". That's up to ~24 small commits on a quiet day.
 - Code changes still need committing and pushing by hand. Expect frequent "Listening data through …" commits from the scheduled task on `origin/main`, so pull before pushing.
@@ -151,7 +151,9 @@ The live design is a retro car stereo, chosen by the owner. They turned down the
 
 **Social previews:** `index.html` and `wrapped.html` carry static `og:`/`twitter:` tags, following the GoneWalking pattern. Both point at `images/share.png`.
 - The card is a stereo faceplate with the odometer totals, deliberately without album art: Spotify art must link back to Spotify, and a preview image can't.
-- It's drawn on demand by `sharecard`, not on every build, so the repo doesn't gain a new binary every 30 minutes. Rerun it when the totals have drifted.
+- It's redrawn weekly, not on every build, so the repo gains one ~125 KB binary a week rather than one every 30 minutes (owner's choice, 2026-11-19). `sync.bat` runs `sharecard --auto`, which draws only when `data/sharecard.drawn` is 7 days old (`SHARE_CARD_EVERY`), and `publish` commits it. Plain `sharecard` draws now.
+  - It skips quietly while Google Fonts can't be reached, since the card would come out in fallback fonts. A failure prints `Share card failed: …`, which the report flags, without failing the run.
+  - `msedge.exe` can exit before the screenshot is written, so `draw_share_card()` waits up to a minute for the file to change.
 - Link previews never run JavaScript, so `wrapped.html?year=2024` previews the same as the plain page.
 
 Earlier designs are kept for reference in:

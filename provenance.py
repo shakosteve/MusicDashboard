@@ -81,6 +81,8 @@ SHOWS = DATA / "podcast_history.json"
 IMPORT_DONE = DATA / "import.done"
 SYNC_LOG = DATA / "sync.log"
 REPORT_SENT = DATA / "report.sent"
+SHARE_CARD_DRAWN = DATA / "sharecard.drawn"  # when sharecard --auto last drew the card
+SHARE_CARD_EVERY = timedelta(days=7)
 SHOW_CHECKS = DATA / "show_checks.json"
 PLAYLIST_CHECKS = DATA / "playlist_checks.json"
 REPLAYS = DATA / "replays.json"
@@ -1922,10 +1924,37 @@ def narrate(year):
     print(f"Narration for {year}: {len(lines)} lines, {sum(l['seconds'] for l in lines):.0f}s, in {out.relative_to(ROOT)}")
 
 
-def share_card():
+def share_card(auto=False):
     """Draw docs/images/share.png, the 1200x630 picture social media shows for a link to the site, from the
     totals in docs/data/listening.js, by screenshotting a card page with headless Microsoft Edge. No album art:
-    Spotify's artwork has to link back to Spotify, and a preview picture can't. Run again when the totals drift."""
+    Spotify's artwork has to link back to Spotify, and a preview picture can't.
+
+    With auto (sync.bat), it redraws only once SHARE_CARD_EVERY has passed since the last draw, so the repo gains
+    one ~125 KB picture a week rather than one per run; publish commits it. It skips quietly while Google Fonts
+    can't be reached (the card would be drawn in fallback fonts), and a failure prints "Share card failed: ...",
+    which the report flags, without failing the run."""
+    if not auto:
+        return draw_share_card()
+    try:
+        last = datetime.fromisoformat(SHARE_CARD_DRAWN.read_text(encoding="utf-8").strip())
+    except (OSError, ValueError):
+        last = None
+    now = datetime.now().astimezone()
+    if last and now - last < SHARE_CARD_EVERY:
+        return
+    try:
+        requests.get("https://fonts.googleapis.com/css2?family=Share+Tech+Mono", timeout=15).raise_for_status()
+    except requests.RequestException:
+        return  # offline: try again next run
+    try:
+        if draw_share_card():
+            write_atomic(SHARE_CARD_DRAWN, now.isoformat(timespec="seconds"))
+    except (OSError, subprocess.SubprocessError, SystemExit, KeyError, ValueError) as e:
+        print(f"Share card failed: {e}")
+
+
+def draw_share_card():
+    """Draw the share card (see share_card()); True when the picture was written."""
     text = (ROOT / "docs" / "data" / "listening.js").read_text(encoding="utf-8")
     site = json.loads(text[text.index("{"):text.rindex("}") + 1])
     t = site["totals"]
@@ -1990,24 +2019,34 @@ def share_card():
                              Path(os.environ.get("ProgramFiles", "")) / "Microsoft/Edge/Application/msedge.exe"] if p.exists()), None)
     if not edge:
         sys.exit("Microsoft Edge wasn't found; it draws the share card.")
+    before = out.stat().st_mtime if out.exists() else None
     subprocess.run([str(edge), "--headless", "--disable-gpu", "--hide-scrollbars", "--window-size=1200,630",
                     "--virtual-time-budget=5000", f"--screenshot={out}", card.as_uri()], capture_output=True, timeout=120)
-    print(f"Wrote {out.relative_to(ROOT)} ({out.stat().st_size // 1024} KB)." if out.exists() else "The share card wasn't drawn.")
+    # msedge.exe can hand off and exit before the screenshot is written, so wait for the new file.
+    deadline = time.monotonic() + 60
+    while not (out.exists() and out.stat().st_mtime != before) and time.monotonic() < deadline:
+        time.sleep(1)
+    time.sleep(1)  # let Edge finish writing it
+    if not out.exists() or out.stat().st_mtime == before:
+        sys.exit("Edge didn't draw the share card within a minute.")
+    print(f"Wrote {out.relative_to(ROOT)} ({out.stat().st_size // 1024} KB).")
+    return True
 
 
 def publish():
     """Commit and push docs/data/ for GitHub Pages when it really changed (not just the build and sync times),
     or when the published sync time is over PUBLISH_HEARTBEAT old, so the site's "Synced" time stays close.
 
-    Only docs/data/ is committed, so code being edited stays out of it. AUTO_PUBLISH=off in .env turns
+    Only docs/data/ and the share card (docs/images/share.png) are committed, so code being edited stays out. AUTO_PUBLISH=off in .env turns
     this off."""
     if os.environ.get("AUTO_PUBLISH", "on").lower() in ("off", "no", "false", "0"):
         return
-    ok, out = git("add", "docs/data")
+    paths = ["docs/data", "docs/images/share.png"]
+    ok, out = git("add", *paths)
     if ok:
         unchanged, _ = git("diff", "--cached", "--quiet", "-I", r'^\s*"generated":', "-I", r'^\s*"synced":')
         if unchanged and not sync_time_stale():
-            git("reset", "-q", "docs/data")
+            git("reset", "-q", *paths)
             return
         plays = load_plays()
         last = datetime.fromisoformat(plays[-1]["played_at"].replace("Z", "+00:00")).astimezone() if plays else None
@@ -2557,7 +2596,8 @@ def main():
                                           "(default: every year, with the sparse early years as one span)")
     wrap.add_argument("years", nargs="*", metavar="YEAR or YEAR-YEAR",
                       type=lambda s: s if re.fullmatch(r"\d{4}(-\d{4})?", s) else sys.exit(f"Not a year or span: {s}"))
-    sub.add_parser("sharecard", help="draw docs/images/share.png, the site's social media preview picture")
+    card = sub.add_parser("sharecard", help="draw docs/images/share.png, the site's social media preview picture")
+    card.add_argument("--auto", action="store_true", help="only if the last --auto draw is a week old (sync.bat)")
     nar = sub.add_parser("narrate", help="voice video/script-YEAR.json with Azure for the video in video/")
     nar.add_argument("year", type=int)
     pl = sub.add_parser("playlist", help="save one of your playlists, or Liked Songs, to playlists/")
@@ -2589,6 +2629,8 @@ def main():
             wrapped(args.years)
         elif args.command == "report":
             report(args.force, args.dry_run)
+        elif args.command == "sharecard":
+            share_card(args.auto)
         elif args.command == "publish":
             publish()
         elif args.command == "playlist":
@@ -2600,7 +2642,7 @@ def main():
         elif args.command == "restore":
             restore_playlist(args.playlist, args.to == "liked", args.name, args.dry_run, args.yes)
         else:
-            {"auth": auth, "sync": sync, "art": fill_art, "build": build, "sharecard": share_card,
+            {"auth": auth, "sync": sync, "art": fill_art, "build": build,
              "backup": backup_playlists}[args.command]()
     except RateLimited as e:
         sys.exit(str(e))

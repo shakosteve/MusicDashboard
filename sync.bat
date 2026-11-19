@@ -17,7 +17,9 @@ rem The playlists in playlists\playlists.json: a cheap check every run, a full d
 rem the cheap check sees an edit. A change is committed and pushed, and for My Favs shown as a notification.
 %PY% provenance.py backup >> data\sync.log 2>&1
 %PY% provenance.py build >> data\sync.log 2>&1 || exit /b %ERRORLEVEL%
-rem Commits and pushes docs\data\ for GitHub Pages, only when there's more than a new timestamp.
+rem Redraws docs\images\share.png, the social media preview, once a week (publish commits it).
+%PY% provenance.py sharecard --auto >> data\sync.log 2>&1
+rem Commits and pushes docs\data\ (and the share card) for GitHub Pages, only when there's more than a new timestamp.
 %PY% provenance.py publish >> data\sync.log 2>&1
 rem Sends at most once a day (first run from REPORT_HOUR), and only once SMTP settings are in .env.
 %PY% provenance.py report >> data\sync.log 2>&1
