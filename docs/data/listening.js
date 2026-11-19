@@ -1,7 +1,7 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-19T21:10:09Z",
- "synced": "2026-11-19T21:10:01Z",
+ "generated": "2026-11-19T22:40:07Z",
+ "synced": "2026-11-19T22:40:01Z",
  "totals": {
   "plays": 125393,
   "hours": 8525.7,
@@ -1492,6 +1492,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Concerning Rings of Power S3: Are Orcs Redeemable?",
+   "show": "Well Earned Comforts: A Tolkien Podcast",
+   "show_uri": "spotify:show:23hxjPbetnmtvwFJATPtg2",
+   "release_date": "2026-11-19",
+   "duration_ms": 6044339,
+   "image": "https://i.scdn.co/image/ab67656300005f1f7160acc6f68b85bef7afc276",
+   "first_seen": "2026-11-19T20:10:02Z",
+   "progress_ms": 2478198,
+   "last_seen": "2026-11-19T22:40:02Z",
+   "url": "https://open.spotify.com/episode/6BPn1AxIDm04mTvx0fluY6",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f7160acc6f68b85bef7afc276"
+  },
+  {
    "name": "Trump's sanity, chokepoint wars & the stories we missed | Listener Q&A",
    "show": "Iran: The Latest",
    "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
@@ -1516,19 +1529,6 @@ window.LISTENING = {
    "last_seen": "2026-11-19T20:40:03Z",
    "url": "https://open.spotify.com/episode/17L3gTN9KmOUBImzPOHk5Z",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f78954c21afd24c90334deba4"
-  },
-  {
-   "name": "Concerning Rings of Power S3: Are Orcs Redeemable?",
-   "show": "Well Earned Comforts: A Tolkien Podcast",
-   "show_uri": "spotify:show:23hxjPbetnmtvwFJATPtg2",
-   "release_date": "2026-11-19",
-   "duration_ms": 6044339,
-   "image": "https://i.scdn.co/image/ab67656300005f1f7160acc6f68b85bef7afc276",
-   "first_seen": "2026-11-19T20:10:02Z",
-   "progress_ms": 2477918,
-   "last_seen": "2026-11-19T20:40:02Z",
-   "url": "https://open.spotify.com/episode/6BPn1AxIDm04mTvx0fluY6",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f7160acc6f68b85bef7afc276"
   },
   {
    "name": "Roland Joffé: The Mob's Role In KILLING Kennedy",
