@@ -1,8 +1,8 @@
-// Renders docs/data/listening.js (window.LISTENING, written by `musicdashboard.py build`) as the shop.
+// Renders docs/data/listening.js (window.LISTENING, written by `provenance.py build`) as the shop.
 (function () {
   const site = window.LISTENING;
   if (!site) {
-    document.querySelector("main").innerHTML = '<p class="empty">No data yet: run <code>python musicdashboard.py build</code>.</p>';
+    document.querySelector("main").innerHTML = '<p class="empty">No data yet: run <code>python provenance.py build</code>.</p>';
     return;
   }
   const $ = (id) => document.getElementById(id);

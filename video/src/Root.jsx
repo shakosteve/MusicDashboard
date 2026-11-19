@@ -1,7 +1,7 @@
 import { Composition, getStaticFiles, staticFile } from "remotion";
 import { Wrapped, FPS, plan } from "./Wrapped";
 
-// Everything comes from public/<year>/, written by `python musicdashboard.py narrate <year>`: narration.json
+// Everything comes from public/<year>/, written by `python provenance.py narrate <year>`: narration.json
 // (lines with their lengths, which set each card's length) and data.json (the year's review). Music beds are
 // public/music/<style>.mp3; a missing one is simply left out (found with getStaticFiles: Remotion's file
 // server doesn't answer HEAD requests, so probing with fetch made every bed look missing).

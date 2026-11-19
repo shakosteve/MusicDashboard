@@ -203,7 +203,7 @@
   const year = years.find((y) => String(y) === asked) ?? years[years.length - 1];
   const story = document.getElementById("story");
   if (!year) {
-    story.innerHTML = '<section class="card"><p class="lede">No years yet: run <code>python musicdashboard.py wrapped</code>.</p></section>';
+    story.innerHTML = '<section class="card"><p class="lede">No years yet: run <code>python provenance.py wrapped</code>.</p></section>';
     return;
   }
   const select = document.getElementById("year");

@@ -1,13 +1,13 @@
 """Playlist Provenance: collect my Spotify listening (music and podcasts) for a personal site.
 
-    python musicdashboard.py auth    one-time: sign in to Spotify in the browser, saves the refresh token to .env
-    python musicdashboard.py sync    save new recently played tracks, and podcast episodes (playing now or by resume point)
-    python musicdashboard.py art     fetch cover art and release years for saved albums missing them
-    python musicdashboard.py import  read the privacy data export unzipped into data/export/
-    python musicdashboard.py build   write docs/data/listening.js for the site (docs/index.html)
-    python musicdashboard.py playlist "My Favs"   save a playlist's tracks to playlists/ (committed)
-    python musicdashboard.py backup  once a day: re-save and commit the playlists in playlists/playlists.json that changed
-    python musicdashboard.py restore "My Favs" [--to liked] [--dry-run]   rebuild a saved playlist on Spotify
+    python provenance.py auth    one-time: sign in to Spotify in the browser, saves the refresh token to .env
+    python provenance.py sync    save new recently played tracks, and podcast episodes (playing now or by resume point)
+    python provenance.py art     fetch cover art and release years for saved albums missing them
+    python provenance.py import  read the privacy data export unzipped into data/export/
+    python provenance.py build   write docs/data/listening.js for the site (docs/index.html)
+    python provenance.py playlist "My Favs"   save a playlist's tracks to playlists/ (committed)
+    python provenance.py backup  once a day: re-save and commit the playlists in playlists/playlists.json that changed
+    python provenance.py restore "My Favs" [--to liked] [--dry-run]   rebuild a saved playlist on Spotify
 
 Settings in .env:
 
@@ -154,7 +154,7 @@ def token_request(data):
                       headers={"Authorization": f"Basic {auth}"}, timeout=30)
     if r.status_code != 200:
         sys.exit(f"Spotify token request failed ({r.status_code}): {r.text}\n"
-                 "If the refresh token was rejected, run `python musicdashboard.py auth` again.")
+                 "If the refresh token was rejected, run `python provenance.py auth` again.")
     return r.json()
 
 
@@ -2267,10 +2267,10 @@ def reauth_note(a):
               f"CLIENT_ID and CLIENT_SECRET in {ENV} (Spotify says the app's credentials no longer match)."]
              if a["client"] else [])
     steps += [f"On this computer, open a terminal in {ROOT}",
-              "Run: python musicdashboard.py auth",
+              "Run: python provenance.py auth",
               "Sign in to Spotify in the browser tab that opens and click Agree (within 5 minutes).",
               "That's it: the next scheduled run, within 30 minutes, picks up the new sign-in. "
-              "To check now, run: python musicdashboard.py sync"]
+              "To check now, run: python provenance.py sync"]
     return summary, steps
 
 
@@ -2397,7 +2397,7 @@ def report_html(r):
         + '</div></td></tr>']
     if r["reauth"]:
         summary, steps = reauth_note(r["reauth"])
-        command = re.compile(r"(python musicdashboard\.py \w+)")
+        command = re.compile(r"(python provenance\.py \w+)")
         body.append(section("Action needed: sign in to Spotify again",
             f'<div style="{FONT}border:1px solid {LINE};border-radius:10px;padding:14px 18px;">'
             f'<div style="font-size:14px;color:{INK};line-height:1.5;">{h(summary)}</div>'
@@ -2495,7 +2495,7 @@ def report_html(r):
     since = f' since {r["totals"]["since"]}' if r["totals"]["since"] else ""
     body.append(f'<tr><td class="px" style="padding:28px 28px 24px;{FONT}font-size:12px;color:{MUTED};line-height:1.5;">'
                 f'{r["totals"]["plays"]:,} plays on record{since}. Full log: data/sync.log<br>'
-                f'Sent by musicdashboard.py report · artwork and links from Spotify</td></tr>')
+                f'Sent by provenance.py report · artwork and links from Spotify</td></tr>')
 
     preheader = (f'{r["plays"]} plays · {r["top_tracks"][0]["name"]} by {r["top_tracks"][0]["artist"]} on top'
                  if r["top_tracks"] else "A quiet day")

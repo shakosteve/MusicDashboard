@@ -4,26 +4,26 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-**Playlist Provenance** (formerly MusicDashboard, renamed 2026-11-19): a personal Spotify listening dashboard whose site is "The Listening Booth", plus the daily playlist backup. One Python script, `musicdashboard.py`, collects listening data into `data/` and builds `docs/data/listening.js`. A static site in `docs/` renders it. There are no tests, linter, or build tooling. The only dependency is `requests`.
+**Playlist Provenance** (formerly MusicDashboard, renamed 2026-11-19): a personal Spotify listening dashboard whose site is "The Listening Booth", plus the daily playlist backup. One Python script, `provenance.py` (`musicdashboard.py` until 2026-11-19), collects listening data into `data/` and builds `docs/data/listening.js`. A static site in `docs/` renders it. There are no tests, linter, or build tooling. The only dependency is `requests`.
 
 ## Commands
 
 ```
-python musicdashboard.py auth                one-time browser sign-in; writes SPOTIFY_REFRESH_TOKEN to .env
-python musicdashboard.py sync                save new recently-played tracks + podcast episodes (playing now, or found via resume points)
-python musicdashboard.py import [--limit N]  convert the privacy export in data/export/ into history files
-python musicdashboard.py art                 fetch cover art/years for live-synced albums missing them
-python musicdashboard.py genres [--limit N]  look up artists' genres on MusicBrainz into data/artist_genres.json, most-listened first
-python musicdashboard.py build               write docs/data/listening.js
-python musicdashboard.py wrapped [YEAR|YEAR-YEAR ...]  write docs/data/wrapped/<period>.js for docs/wrapped.html?year=<period> (default: see below)
-python musicdashboard.py report [--dry-run|--force]  daily summary email of data/sync.log, listening and import progress
-python musicdashboard.py playlist "NAME"     save one of the owner's playlists (by name, ID or link), or "liked" for Liked Songs, to playlists/<name>.json + .csv + .xspf, with ISRCs; ~1 request per 50 tracks
-python musicdashboard.py backup              every run: check the playlists in playlists/playlists.json, and save + commit + push any that changed
-python musicdashboard.py restore "NAME" [--to liked] [--name N] [--dry-run] [--yes]  rebuild a saved playlist on Spotify (see Data flow)
-python musicdashboard.py notify              show a test desktop notification, like the ones for My Favs changes
-python musicdashboard.py narrate YEAR         voice video/script-YEAR.json with Azure HD voices into video/public/YEAR/ (for the video)
-python musicdashboard.py sharecard            redraw docs/images/share.png, the 1200x630 social preview, from listening.js totals (headless Edge)
-python musicdashboard.py publish             commit + push docs/data/ if it changed beyond the "generated" timestamp
+python provenance.py auth                one-time browser sign-in; writes SPOTIFY_REFRESH_TOKEN to .env
+python provenance.py sync                save new recently-played tracks + podcast episodes (playing now, or found via resume points)
+python provenance.py import [--limit N]  convert the privacy export in data/export/ into history files
+python provenance.py art                 fetch cover art/years for live-synced albums missing them
+python provenance.py genres [--limit N]  look up artists' genres on MusicBrainz into data/artist_genres.json, most-listened first
+python provenance.py build               write docs/data/listening.js
+python provenance.py wrapped [YEAR|YEAR-YEAR ...]  write docs/data/wrapped/<period>.js for docs/wrapped.html?year=<period> (default: see below)
+python provenance.py report [--dry-run|--force]  daily summary email of data/sync.log, listening and import progress
+python provenance.py playlist "NAME"     save one of the owner's playlists (by name, ID or link), or "liked" for Liked Songs, to playlists/<name>.json + .csv + .xspf, with ISRCs; ~1 request per 50 tracks
+python provenance.py backup              every run: check the playlists in playlists/playlists.json, and save + commit + push any that changed
+python provenance.py restore "NAME" [--to liked] [--name N] [--dry-run] [--yes]  rebuild a saved playlist on Spotify (see Data flow)
+python provenance.py notify              show a test desktop notification, like the ones for My Favs changes
+python provenance.py narrate YEAR         voice video/script-YEAR.json with Azure HD voices into video/public/YEAR/ (for the video)
+python provenance.py sharecard            redraw docs/images/share.png, the 1200x630 social preview, from listening.js totals (headless Edge)
+python provenance.py publish             commit + push docs/data/ if it changed beyond the "generated" timestamp
 sync.bat                                     the scheduled job: sync, import --limit 20 (until data\import.done exists), genres --limit 15, backup, build, publish, report
 ```
 

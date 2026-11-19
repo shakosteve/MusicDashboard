@@ -1,10 +1,10 @@
-// Car-audio design: renders window.LISTENING (written by `musicdashboard.py build`) as a head unit,
+// Car-audio design: renders window.LISTENING (written by `provenance.py build`) as a head unit,
 // a mixtape J-card, 8-tracks, cassettes, a graphic equalizer and an AM dial.
 (function () {
   const site = window.LISTENING;
   const base = window.BOOTH_BASE || "";
   if (!site) {
-    document.querySelector("main").innerHTML = '<p class="dek">No data yet: run <code>python musicdashboard.py build</code>.</p>';
+    document.querySelector("main").innerHTML = '<p class="dek">No data yet: run <code>python provenance.py build</code>.</p>';
     return;
   }
   const $ = (id) => document.getElementById(id);
@@ -102,7 +102,7 @@
       </div></div>
     </a>`).join("");
 
-  // Coming back for seconds: the songs replayed most, from the export (see replay_stats in musicdashboard.py).
+  // Coming back for seconds: the songs replayed most, from the export (see replay_stats in provenance.py).
   const rp = site.replays;
   if (rp?.top?.length) {
     $("seconds").hidden = false;

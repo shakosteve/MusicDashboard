@@ -1,8 +1,8 @@
-// Renders docs/data/listening.js (window.LISTENING, written by `musicdashboard.py build`).
+// Renders docs/data/listening.js (window.LISTENING, written by `provenance.py build`).
 (function () {
   const site = window.LISTENING;
   if (!site) {
-    document.querySelector("main").innerHTML = '<p class="muted">No data yet: run <code>python musicdashboard.py build</code>.</p>';
+    document.querySelector("main").innerHTML = '<p class="muted">No data yet: run <code>python provenance.py build</code>.</p>';
     return;
   }
   const $ = (id) => document.getElementById(id);
@@ -76,7 +76,7 @@
     }).join("");
   }
 
-  // Year-in-review links, newest first, from docs/data/wrapped/index.js (written by `musicdashboard.py wrapped`).
+  // Year-in-review links, newest first, from docs/data/wrapped/index.js (written by `provenance.py wrapped`).
   // Entries are years, or "2013-2019" strings for a span of early years.
   const years = (window.WRAPPED_YEARS || []).slice().sort((a, b) => String(b).localeCompare(String(a)));
   if (years.length) {
