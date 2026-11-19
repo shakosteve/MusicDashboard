@@ -529,7 +529,8 @@ def fetch_playlist(session, found, delay=0.2):
             "owner": (meta.get("owner") or {}).get("display_name"),
             "description": meta.get("description"), "public": meta.get("public"),
             "followers": (meta.get("followers") or {}).get("total"),
-            "snapshot_id": meta.get("snapshot_id"), "fetched": now_iso(), "tracks": tracks, "_unplayable": unplayable}
+            "snapshot_id": meta.get("snapshot_id"), "fetched": now_iso(), "tracks": tracks, "_unplayable": unplayable,
+            "_collaborative": bool(meta.get("collaborative"))}
 
 
 def write_playlist(playlist):
@@ -664,16 +665,135 @@ def update_unavailable(record, pid, playlist, today):
 
 
 def playlist_diff(old, new):
-    """('3 added, 1 removed', ['  + Song - Artist', ..., '  - Song - Artist']) between two saved playlists."""
+    """('3 added, 1 removed by you', ['  + Song - Artist', ...]) between two saved playlists.
+
+    Every change is described, and who made it: "+" added and "-" removed tracks, "^" tracks that moved, and "*"
+    details that changed, either the playlist's own (e.g. its description) or a track's (e.g. Spotify correcting
+    a release date). Only Spotify can change a track's details. Spotify changes a playlist's snapshot_id whenever
+    the playlist itself is edited, but not when only its catalog changes, so tracks added, removed or moved with
+    the snapshot_id unchanged were Spotify's doing. Ported back from Playlist Provenance (history.py)."""
     label = lambda t: f"{clean_title(t['name'])} - {', '.join(t['artists'])}"
-    before = Counter(t["uri"] for t in (old or {}).get("tracks", []))
+    old_tracks = (old or {}).get("tracks", [])
+    before = Counter(t["uri"] for t in old_tracks)
     after = Counter(t["uri"] for t in new["tracks"])
-    tracks = {t["uri"]: t for t in (old or {}).get("tracks", []) + new["tracks"]}
+    tracks = {t["uri"]: t for t in old_tracks + new["tracks"]}
     added, removed = list((after - before).elements()), list((before - after).elements())
-    parts = ([f"renamed from {old['name']!r}"] if old and old["name"] != new["name"] else []) \
-        + ([f"{len(added)} added"] if added else []) + ([f"{len(removed)} removed"] if removed else [])
-    summary = ", ".join(parts) if parts else "reordered or details edited"
-    return summary, [f"  + {label(tracks[u])}" for u in added] + [f"  - {label(tracks[u])}" for u in removed]
+    details, changed, moved = ({}, [], []) if not old else playlist_edits(old, new)
+    if not old or not old.get("snapshot_id") or not new.get("snapshot_id"):
+        tracks_by = "you"
+    elif old["snapshot_id"] == new["snapshot_id"]:
+        tracks_by = "Spotify"
+    else:
+        tracks_by = "you or a collaborator" if new.get("_collaborative") else "you"
+
+    parts = [f"renamed from {old['name']!r}"] if old and old["name"] != new["name"] else []
+    counts = [f"{len(x)} {word}" for x, word in ((added, "added"), (removed, "removed"), (moved, "moved")) if x]
+    if counts and old:
+        counts[-1] += f" by {tracks_by}"
+    parts += counts
+    groups = {}
+    for k, c in details.items():
+        groups.setdefault(c["by"], []).append(field_label(k))
+    parts += [f"{', '.join(labels)} changed by {who}" for who, labels in groups.items()]
+    groups = Counter(by for _, _, by in changed)
+    parts += [(f"{n} track's details changed" if n == 1 else f"{n} tracks' details changed") + f" by {who}"
+              for who, n in groups.items()]
+    summary = ", ".join(parts) if parts else "reordered or details edited"  # shouldn't happen any more
+
+    lines = [f"  + {label(tracks[u])}" for u in added] + [f"  - {label(tracks[u])}" for u in removed]
+    if details:
+        lines.append(f"  * Playlist: {change_text(details)}")
+    lines += [f"  * {label(t)}: {change_text(c)}" for t, c, _ in changed]
+    lines += [f"  ^ {label(t)}: moved from {i:,} to {j:,}" for t, i, j in moved[:MOVED_SHOWN]]
+    if len(moved) > MOVED_SHOWN:
+        lines.append(f"  ^ ...and {len(moved) - MOVED_SHOWN:,} more moved")
+    return summary, lines
+
+
+NOT_DETAILS = ("name", "tracks", "fetched", "snapshot_id")  # the name has its own "renamed from"
+FIELD_LABELS = {"artist_uris": "artist links", "album_uri": "album link", "duration_ms": "length", "isrc": "ISRC",
+                "added_at": "date added", "release_date": "release date", "is_local": "local file",
+                "url": "link", "uri": "Spotify URI"}
+MOVED_SHOWN = 25  # moved tracks listed in the log and commit; a whole-playlist sort would otherwise list them all
+
+
+def playlist_edits(old, new):
+    """(details, changed tracks, moved tracks) between two saved copies of a playlist.
+
+    details: {field: {from, to, by}} for the playlist's own fields, e.g. the description; only the owner changes
+    those, apart from the follower count ("listeners"). Changed tracks: (track, {field: {from, to}}, by) for
+    tracks in both copies whose fields changed; that's Spotify, unless the date added changed, which means the
+    track was added again. Moved: (track, old position, new position) for tracks whose order relative to the
+    others changed, so adding or removing tracks doesn't count as moving the ones after them."""
+    keys = [k for k in {**old, **new} if k not in NOT_DETAILS and not k.startswith("_")]
+    details = {k: {"from": old.get(k), "to": new.get(k), "by": "listeners" if k == "followers" else "you"}
+               for k in keys if old.get(k) != new.get(k)}
+    a, b = old.get("tracks", []), new["tracks"]
+    where = {}
+    for i, t in enumerate(a):
+        where.setdefault(t["uri"], []).append(i)
+    pairs = []  # (old position, new position) of each track in both; duplicates pair up in order
+    for j, t in enumerate(b):
+        if where.get(t["uri"]):
+            pairs.append((where[t["uri"]].pop(0), j))
+    changed = []
+    for i, j in pairs:
+        c = {k: {"from": a[i].get(k), "to": b[j].get(k)} for k in {**a[i], **b[j]}
+             if not k.startswith("_") and a[i].get(k) != b[j].get(k)}
+        if c:
+            changed.append((b[j], c, "you" if "added_at" in c else "Spotify"))
+    keep = longest_increasing([i for i, _ in pairs])
+    moved = [(b[j], i + 1, j + 1) for n, (i, j) in enumerate(pairs) if n not in keep]
+    return details, changed, moved
+
+
+def longest_increasing(seq):
+    """The positions in seq of a longest increasing run (not necessarily adjacent): the tracks that kept their
+    order relative to each other. The others are the ones that moved."""
+    tails, ends, prev = [], [], [None] * len(seq)
+    for i, x in enumerate(seq):
+        lo, hi = 0, len(tails)
+        while lo < hi:
+            mid = (lo + hi) // 2
+            if tails[mid] < x:
+                lo = mid + 1
+            else:
+                hi = mid
+        if lo == len(tails):
+            tails.append(x)
+            ends.append(i)
+        else:
+            tails[lo], ends[lo] = x, i
+        prev[i] = ends[lo - 1] if lo else None
+    keep, i = set(), ends[-1] if ends else None
+    while i is not None:
+        keep.add(i)
+        i = prev[i]
+    return keep
+
+
+def field_label(key):
+    return FIELD_LABELS.get(key, key.replace("_", " "))
+
+
+def value_text(key, value):
+    if value is None or value == "" or value == []:
+        return "(none)"
+    if isinstance(value, bool):
+        return "yes" if value else "no"
+    if key == "duration_ms" and isinstance(value, int):
+        secs = round(value / 1000)
+        return f"{secs // 60}:{secs % 60:02d}"
+    if isinstance(value, list):
+        return ", ".join(map(str, value))
+    return str(value)
+
+
+def change_text(changes):
+    """'release date 1988-01-26 -> 1988; length 3:59 -> 4:01'. ASCII arrows: sync.bat's redirected output is in
+    the Windows code page, which has no arrow character."""
+    return "; ".join(f"{field_label(k)} {value_text(k, c['from'])} -> {value_text(k, c['to'])}"
+                     for k, c in changes.items())
 
 
 def fill_art(delay=0.2):
@@ -1662,22 +1782,24 @@ def report_data(now):
 
     # Lines naming a track or episode are skipped, so a band like The Warning isn't taken for a problem.
     content = re.compile(r"\d+ new play\(s\), latest: |Podcast (playing|heard): |Playlist .* (changed|checked|unplayable here): "
-                         r"|  [+\-!~] |Saved \d+ tracks from ")
+                         r"|  [+\-!~*^] |Saved \d+ tracks from ")
     problems = list(dict.fromkeys(line for line in log if not content.match(line)
                                   and re.search(r"Traceback|Error|error:|Warning|failed", line)))
-    # backup_playlists() output: "Playlist <name> changed: <summary>" then "  + " / "  - " lines, or "... checked: no changes"
+    # backup_playlists() output: "Playlist <name> changed: <summary>" then "  + " / "  - " / "  ^ " / "  * " lines
+    # (see playlist_diff), or "... checked: no changes"
+    kinds = {"+": "added", "-": "removed", "^": "moved", "*": "edited"}
     playlists = []
     for line in log:
         if m := re.match(r"Playlist (.*) (changed|checked): (.*)", line):
             playlists.append({"name": m.group(1), "changed": m.group(2) == "changed", "summary": m.group(3),
-                              "added": [], "removed": []})
-        elif playlists and line.startswith(("  + ", "  - ")):
-            playlists[-1]["added" if line[2] == "+" else "removed"].append(line[4:])
+                              "added": [], "removed": [], "moved": [], "edited": []})
+        elif playlists and line[:2] == "  " and line[2:3] in kinds and line[3:4] == " ":
+            playlists[-1][kinds[line[2]]].append(line[4:])
     checks = json.loads(PLAYLIST_CHECKS.read_text(encoding="utf-8")) if PLAYLIST_CHECKS.exists() else {}
     # backup runs on the first run after midnight, hours before the report, so each playlist is due a check today.
     listing = json.loads(PLAYLIST_LIST.read_text(encoding="utf-8"))["playlists"] if PLAYLIST_LIST.exists() else []
     playlists += [{"name": (checks.get(pid) or {}).get("name") or e.get("name") or e["id"], "changed": False,
-                   "summary": "not checked today", "added": [], "removed": []}
+                   "summary": "not checked today", "added": [], "removed": [], "moved": [], "edited": []}
                   for e in listing for pid in [playlist_id(e["id"]) or e["id"]]
                   if (checks.get(pid) or {}).get("checked", "") < now.date().isoformat()]
     # What won't play here, from playlists/unavailable.json: still unplayable, first seen today, and back today.
@@ -1772,6 +1894,7 @@ def reauth_note(a):
 
 # The marks beside tracks in the email's playlist section, explained in a key under it: (colour, mark, meaning).
 PLAYLIST_LEGEND = [("#1a7f37", "+", "added to the playlist"), ("#cf222e", "-", "removed from the playlist"),
+                   ("#57606a", "^", "moved"), ("#57606a", "*", "details changed"),
                    ("#9a6700", "!", "Spotify made it unplayable in your country"),
                    ("#1a7f37", "✓", "no longer unplayable (playable again, or removed)")]
 PLAYLIST_LEGEND_HTML = [(c, "&minus;" if s == "-" else s, w) for c, s, w in PLAYLIST_LEGEND]
@@ -1801,7 +1924,8 @@ def report_text(r):
         out += ["", "Playlist backup:"]
     for p in r["playlists"]:
         out.append(f"  {p['name']}: {p['summary']}" + (" (backup committed to GitHub)" if p["changed"] else ""))
-        out += [f"    + {t}" for t in p["added"][:15]] + [f"    - {t}" for t in p["removed"][:15]]
+        out += ([f"    + {t}" for t in p["added"][:15]] + [f"    - {t}" for t in p["removed"][:15]]
+                + [f"    ^ {t}" for t in p["moved"][:15]] + [f"    * {t}" for t in p["edited"][:15]])
         if p["unplayable"] is not None:
             out.append(f"    {p['unplayable_summary']}"
                        + (f" - full list: {r['unavailable_url']}" if p["unplayable"] and r["unavailable_url"] else ""))
@@ -1947,7 +2071,8 @@ def report_html(r):
     if r["playlists"]:
         inner = ""
         for p in r["playlists"]:
-            items = ([("#1a7f37", "+", t) for t in p["added"][:15]] + [("#cf222e", "&minus;", t) for t in p["removed"][:15]])
+            items = ([("#1a7f37", "+", t) for t in p["added"][:15]] + [("#cf222e", "&minus;", t) for t in p["removed"][:15]]
+                     + [("#57606a", "^", t) for t in p["moved"][:15]] + [("#57606a", "*", t) for t in p["edited"][:15]])
             inner += (f'<div style="{FONT}font-size:14px;color:{INK};margin:0 0 {8 if items else 4}px;"><b>{h(p["name"])}</b>: '
                       f'{h(p["summary"])}' + (". The backup in the GitHub repo is up to date." if p["changed"] else "") + "</div>"
                       + "".join(f'<div style="{FONT}font-size:14px;color:{INK};line-height:1.6;"><b style="color:{c};'
