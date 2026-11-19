@@ -1,6 +1,6 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-19T01:10:06Z",
+ "generated": "2026-11-19T02:10:05Z",
  "totals": {
   "plays": 125393,
   "hours": 8525.7,
@@ -1491,6 +1491,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Jillian Michaels: The Scary Reality of Modern Parenting",
+   "show": "Kennedy Saves the World",
+   "show_uri": "spotify:show:5DEwjZIkxrUhkM1nlqLagd",
+   "release_date": "2026-11-18",
+   "duration_ms": 1338048,
+   "image": "https://i.scdn.co/image/ab67656300005f1fb9a79ddf4b2d3340a865a5ca",
+   "first_seen": "2026-11-19T02:10:02Z",
+   "progress_ms": 914948,
+   "last_seen": "2026-11-19T02:10:02Z",
+   "url": "https://open.spotify.com/episode/5RsyJBixtMOw9eafAkLRM9",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fc306eb9be2f4da68a4f7f2be"
+  },
+  {
    "name": "‘They’re in it to win or die’: Why Iran’s regime is built to survive",
    "show": "Iran: The Latest",
    "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "last_seen": "2026-11-18T00:10:03Z",
    "url": "https://open.spotify.com/episode/45mIBodAWf87WiLJ09TYl5",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f78954c21afd24c90334deba4"
-  },
-  {
-   "name": "Blockade or strikes? Trump’s Iran war options as third US aircraft carrier arrives",
-   "show": "Iran: The Latest",
-   "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
-   "release_date": "2026-11-16",
-   "duration_ms": 2261420,
-   "image": "https://i.scdn.co/image/ab67656300005f1fc7dcece93e99d59fa4b4c3d4",
-   "first_seen": "2026-11-17T18:10:02Z",
-   "progress_ms": 2401520,
-   "last_seen": "2026-11-17T20:10:03Z",
-   "url": "https://open.spotify.com/episode/73MqOFYTo1PqyNXWPUIiYA",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
   }
  ],
  "top_shows": [
