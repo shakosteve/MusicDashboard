@@ -1,7 +1,7 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-19T19:40:06Z",
- "synced": "2026-11-19T19:40:02Z",
+ "generated": "2026-11-19T20:10:08Z",
+ "synced": "2026-11-19T20:10:02Z",
  "totals": {
   "plays": 125393,
   "hours": 8525.7,
@@ -1492,6 +1492,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Concerning Rings of Power S3: Are Orcs Redeemable?",
+   "show": "Well Earned Comforts: A Tolkien Podcast",
+   "show_uri": "spotify:show:23hxjPbetnmtvwFJATPtg2",
+   "release_date": "2026-11-19",
+   "duration_ms": 6044339,
+   "image": "https://i.scdn.co/image/ab67656300005f1f7160acc6f68b85bef7afc276",
+   "first_seen": "2026-11-19T20:10:02Z",
+   "progress_ms": 1274218,
+   "last_seen": "2026-11-19T20:10:02Z",
+   "url": "https://open.spotify.com/episode/6BPn1AxIDm04mTvx0fluY6",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f7160acc6f68b85bef7afc276"
+  },
+  {
    "name": "Trump meets Putin: 'He's my friend'",
    "show": "Ukraine: The Latest",
    "show_uri": "spotify:show:6cnkk1J0I1UqtxTYVUL4Fe",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "progress_ms": 3520424,
    "last_seen": "2026-11-18T15:40:02Z",
    "url": "https://open.spotify.com/episode/2FM3eZZURj7TYPrxjqGqky",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42"
-  },
-  {
-   "name": "How Wall Street Is Bracing For the Post-Jensen Huang Nvidia Era",
-   "show": "Odd Lots",
-   "show_uri": "spotify:show:1te7oSFyRVekxMBJUSethH",
-   "release_date": "2026-11-14",
-   "duration_ms": 2134178,
-   "image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42",
-   "first_seen": "2026-11-14T14:10:02Z",
-   "progress_ms": 2134178,
-   "last_seen": "2026-11-18T12:10:02Z",
-   "url": "https://open.spotify.com/episode/3CGjR9SUyLrvXFZ54Zz348",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42"
   }
  ],
