@@ -641,74 +641,153 @@ def playlist_xspf(playlist):
 
 
 def backup_playlists():
-    """Keep the committed copies in playlists/ current; sync.bat runs this every time, and it works once a day.
+    """Keep the committed copies in playlists/ current; sync.bat runs this every run (every 30 minutes).
 
     The playlists are listed in playlists/playlists.json (committed) by Spotify ID, so renaming one on Spotify
-    changes nothing here; its "name" there is only a label, which this keeps current. Each playlist is
-    downloaded every day (about one request per 50 tracks), even when its snapshot_id is unchanged, since a track
-    going unplayable doesn't change that. Only a real change is saved, committed and pushed. The changes are
-    printed as "Playlist <name> changed: ..." with "  + " and "  - " lines, or "Playlist <name> checked: no
-    changes", which `report` puts in the email. Tracks that won't play here are kept in playlists/unavailable.json
-    (see update_unavailable)."""
+    changes nothing here; its "name" there is only a label, which this keeps current.
+
+    Each playlist is downloaded in full once a day (about one request per 50 tracks), even when its snapshot_id
+    is unchanged, since a track going unplayable doesn't change that. In between, every run makes one cheap
+    check per playlist: its snapshot_id, which Spotify changes whenever the playlist itself is
+    edited, or for Liked Songs its count and newest song. Only when that moved is it downloaded again, so my own
+    edits are caught within the half hour. The daily check also sees whether each playlist is still in my
+    library, since deleting a playlist on Spotify only unfollows it and the API still returns it.
+
+    Changes are found by comparing with the last committed copy (committed_copy), not the file on disk, so a
+    change saved by a run that stopped partway, or by `playlist`, is still reported. Whatever a run finished is
+    saved and committed even if it stops partway. Changes are printed as "Playlist <name> changed: ..." with
+    "  + " and "  - " lines (see playlist_diff), and on the daily check "Playlist <name> checked: no changes",
+    which `report` puts in the email. Tracks that won't play here are kept in playlists/unavailable.json (see
+    update_unavailable)."""
     if not PLAYLIST_LIST.exists():
         print(f"Playlist backup failed: {PLAYLIST_LIST.relative_to(ROOT)} is missing.")
         return
     listing = json.loads(PLAYLIST_LIST.read_text(encoding="utf-8"))
     checks = json.loads(PLAYLIST_CHECKS.read_text(encoding="utf-8")) if PLAYLIST_CHECKS.exists() else {}
-    today = datetime.now().date().isoformat()
-    due = [e for e in listing["playlists"] if (checks.get(playlist_id(e["id"]) or e["id"]) or {}).get("checked") != today]
-    if not due:
-        return
     unavailable = json.loads(UNAVAILABLE.read_text(encoding="utf-8")) if UNAVAILABLE.exists() else {"tracks": []}
+    today = datetime.now().date().isoformat()
+    publishing = os.environ.get("AUTO_PUBLISH", "on").lower() not in ("off", "no", "false", "0")
     session, changed, relabeled = api_session(), [], False
     alerts = []  # (title, summary, lines, file) for playlists marked "notify" in playlists.json
-    for entry in due:
-        pid = playlist_id(entry["id"])
-        try:
-            found = get_playlist(session, pid) if pid else None
-            if not found:
-                print(f"Playlist backup failed: no playlist with ID {entry['id']!r} ({entry.get('name')}) among yours "
-                      f"or the ones you follow.")
+    library = None  # IDs of the playlists in my library, fetched once, on the first daily check
+    try:
+        for entry in listing["playlists"]:
+            pid = playlist_id(entry["id"])
+            check = checks.get(pid or entry["id"]) or {}
+            daily = check.get("checked") != today
+            in_library = check.get("in_library", True)
+            try:
+                if not pid:
+                    if daily:
+                        print(f"Playlist backup failed: {entry['id']!r} ({entry.get('name')}) isn't a playlist ID "
+                              "or link.")
+                    continue
+                # The cheap check (1 request): the snapshot_id, or Liked Songs' count and newest song.
+                found = None if pid == LIKED else get_playlist(session, pid)
+                mark = liked_mark(session) if pid == LIKED else found and found.get("snapshot_id")
+                if not daily and (mark is None or mark == check.get("mark")):
+                    continue  # unchanged since the last download (or gone: the daily check reports that)
+                if pid == LIKED:
+                    found = get_playlist(session, pid)
+                if not found:
+                    if daily:
+                        print(f"Playlist backup failed: no playlist with ID {entry['id']!r} ({entry.get('name')}) "
+                              "among yours or the ones you follow.")
+                    continue
+                new = fetch_playlist(session, found)
+                if daily and pid != LIKED:
+                    if library is None:
+                        library = my_playlist_ids(session)
+                    in_library = pid in library
+            except NotArchivable as e:
+                print(f"Playlist backup failed: {e}")
                 continue
-            new = fetch_playlist(session, found)
-        except NotArchivable as e:
-            print(f"Playlist backup failed: {e}")
-            continue
-        except requests.HTTPError as e:  # one playlist's trouble shouldn't stop the others being checked
-            print(f"Playlist backup failed: {entry.get('name') or entry['id']}: {e}")
-            continue
-        relabeled = relabeled or entry.get("name") != found["name"]
-        entry["name"] = found["name"]
-        path = playlist_file(found)
-        old = json.loads(path.read_text(encoding="utf-8")) if path.exists() else None
-        same = lambda p: {k: v for k, v in p.items() if k not in ("fetched", "snapshot_id") and not k.startswith("_")}
-        if not old or same(old) != same(new):
-            write_playlist(new)
-            summary, lines = playlist_diff(old, new)
-            print("\n".join([f"Playlist {new['name']} changed: {summary}"] + lines))
-            changed.append((f"{new['name']}: {summary}", lines))
-            if entry.get("notify"):
-                alerts.append((f"{new['name']} changed", summary, lines, path))
-        else:
-            print(f"Playlist {old['name']} checked: no changes ({len(old['tracks']):,} tracks)")
-        went, back = update_unavailable(unavailable, pid, new, today)
-        label = lambda e: f"{clean_title(e['name'])} - {', '.join(e['artists'])}"
-        print(f"Playlist {new['name']} unplayable here: {len(new['_unplayable'])}")
-        if went or back:
-            lines = [f"  ! {label(e)}" for e in went] + [f"  ~ {label(e)} ({e['outcome']})" for e in back]
-            print("\n".join(lines))
-            what = ", ".join(([f"{len(went)} became unplayable"] if went else [])
-                             + ([f"{len(back)} no longer unplayable"] if back else []))
-            changed.append((f"{new['name']}: {what}", lines))
-            if entry.get("notify"):
-                alerts.append((f"{new['name']}: unplayable tracks", what, lines, path))
-        checks[pid] = {"checked": today, "name": found["name"], "snapshot_id": found.get("snapshot_id")}
-    write_atomic(PLAYLIST_CHECKS, json.dumps(checks, indent=2, ensure_ascii=False))
-    write_atomic(PLAYLIST_LIST, json.dumps(listing, indent=2, ensure_ascii=False) + "\n")
-    write_atomic(UNAVAILABLE, json.dumps(unavailable, indent=2, ensure_ascii=False) + "\n")
-    if (changed or relabeled) and os.environ.get("AUTO_PUBLISH", "on").lower() not in ("off", "no", "false", "0"):
-        commit_playlists(changed)
-    notify_playlist_changes(alerts)
+            except requests.HTTPError as e:  # one playlist's trouble shouldn't stop the others being checked
+                print(f"Playlist backup failed: {entry.get('name') or entry['id']}: {e}")
+                continue
+            relabeled = relabeled or entry.get("name") != found["name"]
+            entry["name"] = found["name"]
+            path = playlist_file(found)
+            if publishing:
+                old = committed_copy(path)  # None if never committed, so it's reported and committed as new
+            else:
+                old = json.loads(path.read_text(encoding="utf-8")) if path.exists() else None
+            same = lambda p: {k: v for k, v in p.items() if k not in ("fetched", "snapshot_id") and not k.startswith("_")}
+            news, lines = [], []
+            if not old or same(old) != same(new):
+                write_playlist(new)
+                summary, lines = playlist_diff(old, new)
+                news.append(summary)
+            elif not path.exists() or same(json.loads(path.read_text(encoding="utf-8"))) != same(new):
+                # The files on disk had drifted from the committed copy, which matches Spotify: put it back.
+                git("checkout", "HEAD", "--", *(path.with_suffix(x).relative_to(ROOT).as_posix()
+                                                 for x in (".json", ".csv", ".xspf")))
+            if daily and pid != LIKED and in_library != check.get("in_library", True):
+                news.append("back in your library" if in_library else
+                            "no longer in your library (deleted or unfollowed on Spotify); still backed up")
+            if news:
+                summary = ", ".join(news)
+                print("\n".join([f"Playlist {new['name']} changed: {summary}"] + lines))
+                changed.append((f"{new['name']}: {summary}", lines))
+                if entry.get("notify"):
+                    alerts.append((f"{new['name']} changed", summary, lines, path))
+            elif daily:
+                print(f"Playlist {new['name']} checked: no changes ({len(new['tracks']):,} tracks"
+                      + ("" if in_library else ", not in your library") + ")")
+            went, back = update_unavailable(unavailable, pid, new, today)
+            label = lambda e: f"{clean_title(e['name'])} - {', '.join(e['artists'])}"
+            if daily or went or back:
+                print(f"Playlist {new['name']} unplayable here: {len(new['_unplayable'])}")
+            if went or back:
+                lines = [f"  ! {label(e)}" for e in went] + [f"  ~ {label(e)} ({e['outcome']})" for e in back]
+                print("\n".join(lines))
+                what = ", ".join(([f"{len(went)} became unplayable"] if went else [])
+                                 + ([f"{len(back)} no longer unplayable"] if back else []))
+                changed.append((f"{new['name']}: {what}", lines))
+                if entry.get("notify"):
+                    alerts.append((f"{new['name']}: unplayable tracks", what, lines, path))
+            checks[pid] = {"checked": today if daily else check.get("checked"), "name": found["name"],
+                           "snapshot_id": found.get("snapshot_id"), "mark": mark}
+            if pid != LIKED:
+                checks[pid]["in_library"] = in_library
+    finally:
+        # Saved and committed even when a run stops partway (no internet, the rate limit), so nothing finished is lost.
+        write_atomic(PLAYLIST_CHECKS, json.dumps(checks, indent=2, ensure_ascii=False))
+        write_atomic(PLAYLIST_LIST, json.dumps(listing, indent=2, ensure_ascii=False) + "\n")
+        write_atomic(UNAVAILABLE, json.dumps(unavailable, indent=2, ensure_ascii=False) + "\n")
+        if (changed or relabeled) and publishing:
+            commit_playlists(changed)
+        notify_playlist_changes(alerts)
+
+
+def liked_mark(session):
+    """Liked Songs' count and newest song, which change whenever a song is liked or unliked (1 request). Liked
+    Songs has no snapshot_id; unliking one song and liking another within half an hour isn't seen until the
+    daily download."""
+    page = fetch(session, f"{API}/me/tracks", {"limit": 1}) or {}
+    first = (page.get("items") or [{}])[0] or {}
+    return f"{page.get('total')}|{(first.get('track') or {}).get('uri')}|{first.get('added_at')}"
+
+
+def my_playlist_ids(session):
+    """IDs of every playlist in my library (mine and ones I follow), from /me/playlists: 1 request per 50."""
+    ids, url, params = set(), f"{API}/me/playlists", {"limit": 50}
+    while url:
+        page = fetch(session, url, params) or {}
+        ids |= {p["id"] for p in page.get("items") or [] if p}
+        url, params = page.get("next"), None
+    return ids
+
+
+def committed_copy(path):
+    """The last committed copy of a saved playlist, or None if it was never committed. Comparing with this rather
+    than the file on disk means a change saved but never committed (a run that stopped partway, `playlist`) is
+    still reported."""
+    ok, out = git("show", f"HEAD:{path.relative_to(ROOT).as_posix()}")
+    try:
+        return json.loads(out) if ok else None
+    except ValueError:
+        return None
 
 
 def commit_playlists(changed):
@@ -2086,6 +2165,18 @@ def report_data(now):
                               "added": [], "removed": [], "moved": [], "edited": []})
         elif playlists and line[:2] == "  " and line[2:3] in kinds and line[3:4] == " ":
             playlists[-1][kinds[line[2]]].append(line[4:])
+    # backup checks every run, so a playlist can change several times a day: one entry per playlist, with its
+    # changes in order, and "checked: no changes" only when nothing changed.
+    merged = {}
+    for p in playlists:
+        m = merged.get(p["name"])
+        if not m or (p["changed"] and not m["changed"]):
+            merged[p["name"]] = {**p, **{k: list(p[k]) for k in kinds.values()}}
+        elif p["changed"]:
+            m["summary"] += "; then " + p["summary"]
+            for k in kinds.values():
+                m[k] += p[k]
+    playlists = list(merged.values())
     checks = json.loads(PLAYLIST_CHECKS.read_text(encoding="utf-8")) if PLAYLIST_CHECKS.exists() else {}
     # backup runs on the first run after midnight, hours before the report, so each playlist is due a check today.
     listing = json.loads(PLAYLIST_LIST.read_text(encoding="utf-8"))["playlists"] if PLAYLIST_LIST.exists() else []
