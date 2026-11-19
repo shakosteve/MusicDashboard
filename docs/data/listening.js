@@ -1,7 +1,7 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-19T18:40:09Z",
- "synced": "2026-11-19T18:40:02Z",
+ "generated": "2026-11-19T19:10:08Z",
+ "synced": "2026-11-19T19:10:01Z",
  "totals": {
   "plays": 125393,
   "hours": 8525.7,
@@ -1492,6 +1492,32 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Roland Joffé: The Mob's Role In KILLING Kennedy",
+   "show": "Adam Carolla Show",
+   "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
+   "release_date": "2026-11-19",
+   "duration_ms": 6259905,
+   "image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f",
+   "first_seen": "2026-11-19T16:10:02Z",
+   "progress_ms": 6218913,
+   "last_seen": "2026-11-19T19:10:02Z",
+   "url": "https://open.spotify.com/episode/3BkGjegICme2SQE22bvDKf",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
+  },
+  {
+   "name": "Trump meets Putin: 'He's my friend'",
+   "show": "Ukraine: The Latest",
+   "show_uri": "spotify:show:6cnkk1J0I1UqtxTYVUL4Fe",
+   "release_date": "2026-11-19",
+   "duration_ms": 3119621,
+   "image": "https://i.scdn.co/image/ab67656300005f1f55494cd06ff981d01693b999",
+   "first_seen": "2026-11-19T19:10:02Z",
+   "progress_ms": 1134370,
+   "last_seen": "2026-11-19T19:10:02Z",
+   "url": "https://open.spotify.com/episode/17L3gTN9KmOUBImzPOHk5Z",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f78954c21afd24c90334deba4"
+  },
+  {
    "name": "Trump's sanity, chokepoint wars & the stories we missed | Listener Q&A",
    "show": "Iran: The Latest",
    "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
@@ -1503,19 +1529,6 @@ window.LISTENING = {
    "last_seen": "2026-11-19T18:40:02Z",
    "url": "https://open.spotify.com/episode/0XoCz1vjEQxGvJIURjTRhE",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
-  },
-  {
-   "name": "Roland Joffé: The Mob's Role In KILLING Kennedy",
-   "show": "Adam Carolla Show",
-   "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
-   "release_date": "2026-11-19",
-   "duration_ms": 6259905,
-   "image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f",
-   "first_seen": "2026-11-19T16:10:02Z",
-   "progress_ms": 5077934,
-   "last_seen": "2026-11-19T17:40:02Z",
-   "url": "https://open.spotify.com/episode/3BkGjegICme2SQE22bvDKf",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
   },
   {
    "name": "#2113 - Adam Carolla BASHED for defending RFK Jr. + Valor Recovery founder Steve Wolt | Part 1",
@@ -1633,19 +1646,6 @@ window.LISTENING = {
    "last_seen": "2026-11-18T12:10:02Z",
    "url": "https://open.spotify.com/episode/3CGjR9SUyLrvXFZ54Zz348",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42"
-  },
-  {
-   "name": "Rings of Power Season 3 Episodes 1 - 4: HOBBIT HOTLINE",
-   "show": "An Unexpected Podcast: Talkin' Tolkien",
-   "show_uri": "spotify:show:6FPTndfWLnXeXsc64HGGa5",
-   "release_date": "2026-11-17",
-   "duration_ms": 10536072,
-   "image": "https://i.scdn.co/image/ab67656300005f1f51d5c3394eeffda50a90489e",
-   "first_seen": "2026-11-18T03:10:02Z",
-   "progress_ms": 3260120,
-   "last_seen": "2026-11-18T05:40:02Z",
-   "url": "https://open.spotify.com/episode/59IColpEDb4QHKcm3PULnW",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f886dd25a83ead6abeffe92b0"
   }
  ],
  "top_shows": [
