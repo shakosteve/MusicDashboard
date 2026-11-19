@@ -1,7 +1,7 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-19T19:10:08Z",
- "synced": "2026-11-19T19:10:01Z",
+ "generated": "2026-11-19T19:40:06Z",
+ "synced": "2026-11-19T19:40:02Z",
  "totals": {
   "plays": 125393,
   "hours": 8525.7,
@@ -1492,6 +1492,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Trump meets Putin: 'He's my friend'",
+   "show": "Ukraine: The Latest",
+   "show_uri": "spotify:show:6cnkk1J0I1UqtxTYVUL4Fe",
+   "release_date": "2026-11-19",
+   "duration_ms": 3119621,
+   "image": "https://i.scdn.co/image/ab67656300005f1f55494cd06ff981d01693b999",
+   "first_seen": "2026-11-19T19:10:02Z",
+   "progress_ms": 2934653,
+   "last_seen": "2026-11-19T19:40:02Z",
+   "url": "https://open.spotify.com/episode/17L3gTN9KmOUBImzPOHk5Z",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f78954c21afd24c90334deba4"
+  },
+  {
    "name": "Roland Joffé: The Mob's Role In KILLING Kennedy",
    "show": "Adam Carolla Show",
    "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
@@ -1503,19 +1516,6 @@ window.LISTENING = {
    "last_seen": "2026-11-19T19:10:02Z",
    "url": "https://open.spotify.com/episode/3BkGjegICme2SQE22bvDKf",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
-  },
-  {
-   "name": "Trump meets Putin: 'He's my friend'",
-   "show": "Ukraine: The Latest",
-   "show_uri": "spotify:show:6cnkk1J0I1UqtxTYVUL4Fe",
-   "release_date": "2026-11-19",
-   "duration_ms": 3119621,
-   "image": "https://i.scdn.co/image/ab67656300005f1f55494cd06ff981d01693b999",
-   "first_seen": "2026-11-19T19:10:02Z",
-   "progress_ms": 1134370,
-   "last_seen": "2026-11-19T19:10:02Z",
-   "url": "https://open.spotify.com/episode/17L3gTN9KmOUBImzPOHk5Z",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f78954c21afd24c90334deba4"
   },
   {
    "name": "Trump's sanity, chokepoint wars & the stories we missed | Listener Q&A",
