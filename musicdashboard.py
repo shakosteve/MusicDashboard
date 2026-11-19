@@ -7,6 +7,7 @@
     python musicdashboard.py build   write docs/data/listening.js for the site (docs/index.html)
     python musicdashboard.py playlist "My Favs"   save a playlist's tracks to playlists/ (committed)
     python musicdashboard.py backup  once a day: re-save and commit the playlists in playlists/playlists.json that changed
+    python musicdashboard.py restore "My Favs" [--to liked] [--dry-run]   rebuild a saved playlist on Spotify
 
 Settings in .env:
 
@@ -50,6 +51,7 @@ import re
 import secrets
 import sys
 import time
+import unicodedata
 import webbrowser
 import smtplib
 import socket
@@ -101,6 +103,8 @@ SCOPES = [
     "playlist-read-private",
     "playlist-read-collaborative",
 ]
+RESTORE_SCOPES = {"playlist": ["playlist-modify-private"], "liked": ["user-library-modify"]}  # asked for only by `restore`
+LIKED, LIKED_NAME = "liked", "Liked Songs"  # Liked Songs' ID in playlists.json, and its name
 
 
 def load_env(path=ENV):
@@ -154,8 +158,9 @@ def token_request(data):
     return r.json()
 
 
-def auth():
-    """Sign in once in the browser and save the refresh token."""
+def auth(extra_scopes=()):
+    """Sign in once in the browser and save the refresh token. `restore` passes the write scopes it needs, which
+    are asked for only then; the scopes granted are saved as SPOTIFY_SCOPES."""
     redirect = os.environ.get("REDIRECT_URI") or DEFAULT_REDIRECT
     parsed = urlparse(redirect)
     state = secrets.token_urlsafe(16)
@@ -177,21 +182,28 @@ def auth():
         def log_message(self, *args):
             pass
 
-    server = HTTPServer((parsed.hostname, parsed.port or 80), Handler)
+    try:
+        server = HTTPServer((parsed.hostname, parsed.port or 80), Handler)
+    except OSError as e:
+        sys.exit(f"Couldn't listen on {parsed.hostname}:{parsed.port} for Spotify's reply ({e}). "
+                 "Is another sign-in still running?")
     server.timeout = 1
+    scopes = SCOPES + [s for s in extra_scopes if s not in SCOPES]
     url = f"{ACCOUNTS}/authorize?" + urlencode({
         "client_id": require("CLIENT_ID"),
         "response_type": "code",
         "redirect_uri": redirect,
-        "scope": " ".join(SCOPES),
+        "scope": " ".join(scopes),
         "state": state,
     })
     print(f"Opening the Spotify sign-in page. If it doesn't open, go to:\n{url}\n")
     webbrowser.open(url)
     deadline = time.time() + 300
-    while not result and time.time() < deadline:
-        server.handle_request()
-    server.server_close()
+    try:
+        while not result and time.time() < deadline:
+            server.handle_request()
+    finally:
+        server.server_close()
 
     if not result:
         sys.exit("No reply from Spotify within 5 minutes.")
@@ -204,6 +216,7 @@ def auth():
                             "redirect_uri": redirect})
     save_env_value("SPOTIFY_REFRESH_TOKEN", tokens["refresh_token"])
     save_env_value("SPOTIFY_AUTHORIZED", datetime.now().strftime("%Y-%m-%d"))
+    save_env_value("SPOTIFY_SCOPES", " ".join(sorted(set((tokens.get("scope") or " ".join(scopes)).split()))))
     me = api_session(tokens["access_token"]).get(f"{API}/me", timeout=30).json()
     print(f"Signed in as {me.get('display_name') or me.get('id')}. Refresh token saved to .env.")
 
@@ -254,18 +267,24 @@ def git_offline(out):
 
 def fetch(session, url, params=None, retries=4):
     """GET a Spotify API URL; returns the JSON, or None for 204 (nothing playing)."""
+    return call(session, "GET", url, params, retries=retries)
+
+
+def call(session, method, url, params=None, json=None, retries=4, retry_server_errors=True):
+    """Any API request, with fetch()'s retries. A 5xx after a POST may mean it worked anyway, so callers adding
+    tracks pass retry_server_errors=False to avoid adding them twice. A 429 is always safe to retry."""
     for attempt in range(retries + 1):
-        r = session.get(url, params=params, timeout=30)
+        r = session.request(method, url, params=params, json=json, timeout=30)
         if r.status_code == 429 and attempt < retries:
             wait = int(r.headers.get("Retry-After", "5"))
             if wait > 120:
                 raise RateLimited(wait)
             time.sleep(wait + 1)
             continue
-        if r.status_code >= 500 and attempt < retries:
+        if r.status_code >= 500 and attempt < retries and retry_server_errors:
             time.sleep(2 ** attempt)
             continue
-        if r.status_code == 204:
+        if r.status_code == 204 or (r.ok and not r.content):
             return None
         r.raise_for_status()
         return r.json()
@@ -449,13 +468,23 @@ def find_playlist(session, name):
 
 
 def playlist_id(text):
-    """The ID in a playlist ID, spotify:playlist: URI or open.spotify.com link; None for anything else (a name)."""
-    m = re.fullmatch(r"(?:spotify:playlist:|https?://open\.spotify\.com/playlist/)?([A-Za-z0-9]{22})(?:\?.*)?", text.strip())
+    """The ID in a playlist ID, spotify:playlist: URI or open.spotify.com link (including intl-xx/ ones); "liked"
+    for the ways of naming Liked Songs; None for anything else (a name)."""
+    t = text.strip()
+    if t.casefold() in (LIKED, LIKED_NAME.casefold()) or t.rstrip("/").endswith("open.spotify.com/collection/tracks"):
+        return LIKED
+    m = re.fullmatch(r"(?:spotify:playlist:|https?://open\.spotify\.com/(?:intl-[a-z-]+/)?playlist/)?"
+                     r"([A-Za-z0-9]{22})(?:\?.*)?", t)
     return m.group(1) if m else None
 
 
 def get_playlist(session, pid):
-    """id, uri, name and snapshot_id of a playlist by its ID, which survives renames; None if Spotify has no such playlist."""
+    """id, uri, name and snapshot_id of a playlist by its ID, which survives renames; None if Spotify has no such
+    playlist. For Liked Songs, the same from /me (it has no snapshot_id)."""
+    if pid == LIKED:
+        user = fetch(session, f"{API}/me") or {}
+        return {"id": LIKED, "uri": f"spotify:user:{user.get('id')}:collection", "name": LIKED_NAME,
+                "owner": user.get("display_name") or user.get("id")}
     try:
         return fetch(session, f"{API}/playlists/{pid}", {"fields": "id,uri,name,snapshot_id"})
     except requests.HTTPError as e:
@@ -464,9 +493,25 @@ def get_playlist(session, pid):
         raise
 
 
+class NotArchivable(Exception):
+    """Spotify won't give this account the playlist's tracks: it isn't the owner or a collaborator (403)."""
+
+    def __init__(self, name):
+        super().__init__(f"Spotify only shares the tracks of playlists you own or collaborate on, so {name!r} "
+                         "can't be saved.")
+
+
+def slug(name, limit=60):
+    """'Música Favorita!' -> 'musica-favorita'. Accents are dropped; other non-ASCII letters (e.g. emoji) go."""
+    ascii_name = unicodedata.normalize("NFKD", name or "").encode("ascii", "ignore").decode("ascii")
+    return re.sub(r"[^a-z0-9]+", "-", ascii_name.lower()).strip("-")[:limit].strip("-")
+
+
 def playlist_file(found):
     """Where a playlist is saved: the existing playlists/*.json with its URI, so the file (and its git history)
-    stays put when the playlist is renamed; for a new one, a file named after it."""
+    stays put when the playlist is renamed; for a new one, a file named after it. Liked Songs is liked-songs.json."""
+    if found.get("id") == LIKED or (found.get("uri") or "").endswith(":collection"):
+        return PLAYLISTS / "liked-songs.json"
     for path in sorted(PLAYLISTS.glob("*.json")):
         if path in (PLAYLIST_LIST, UNAVAILABLE):
             continue
@@ -475,7 +520,7 @@ def playlist_file(found):
                 return path
         except (OSError, ValueError):
             pass
-    path = PLAYLISTS / f"{re.sub(r'[^a-z0-9]+', '-', found['name'].lower()).strip('-')}.json"
+    path = PLAYLISTS / f"{slug(found['name']) or found['uri'].rsplit(':', 1)[-1]}.json"  # an all-emoji name has no slug
     # A playlist called "Playlists" or "Unavailable" mustn't overwrite those files.
     return path.with_stem(path.stem + "-playlist") if path in (PLAYLIST_LIST, UNAVAILABLE) else path
 
@@ -489,21 +534,48 @@ def save_playlist(name):
     found = get_playlist(session, pid) if pid else find_playlist(session, name)
     if not found:
         sys.exit(f"No playlist {name!r} among yours or the ones you follow.")
-    write_playlist(fetch_playlist(session, found))
+    try:
+        write_playlist(fetch_playlist(session, found))
+    except NotArchivable as e:
+        sys.exit(str(e))
 
 
 def fetch_playlist(session, found, delay=0.2):
-    """A playlist from /me/playlists with all its tracks, as saved in playlists/<name>.json.
+    """A playlist from /me/playlists (or Liked Songs) with all its tracks, as saved in playlists/<name>.json.
 
     Tracks are asked for in my account's country, so Spotify says which won't play here. Those are returned
     in "_unplayable" ({uri: reason, e.g. "market"}), which isn't saved with the playlist. When Spotify plays a
-    stand-in version of a track (relinking), the one in the playlist is kept."""
+    stand-in version of a track (relinking), the one in the playlist is kept. Raises NotArchivable for a
+    playlist I only follow, whose tracks Spotify won't share (403)."""
     pid = found["id"]
-    meta = fetch(session, f"{API}/playlists/{pid}", {"fields": "name,description,public,collaborative,snapshot_id,"
-                                                            "owner.display_name,followers.total"}) or {}
+    if pid == LIKED:
+        meta = {"owner": {"display_name": found.get("owner")}, "public": False}
+        url = f"{API}/me/tracks"
+    else:
+        meta = fetch(session, f"{API}/playlists/{pid}", {"fields": "name,description,public,collaborative,snapshot_id,"
+                                                                "owner.display_name,followers.total"}) or {}
+        url = f"{API}/playlists/{pid}/items"
+    try:
+        tracks, unplayable = read_tracks(session, url, delay)
+    except requests.HTTPError as e:
+        if e.response is not None and e.response.status_code == 403:
+            raise NotArchivable(found["name"]) from None
+        raise
+    return {"name": found["name"], "uri": found["uri"],
+            "url": "https://open.spotify.com/collection/tracks" if pid == LIKED else open_url(found["uri"]),
+            "owner": (meta.get("owner") or {}).get("display_name"),
+            "description": meta.get("description"), "public": meta.get("public"),
+            "followers": (meta.get("followers") or {}).get("total"),
+            "snapshot_id": meta.get("snapshot_id"), "fetched": now_iso(), "tracks": tracks, "_unplayable": unplayable,
+            "_collaborative": bool(meta.get("collaborative"))}
+
+
+def read_tracks(session, url, delay=0.2):
+    """All tracks from a paged list of playlist or Liked Songs entries, and {uri: reason} for those that won't
+    play here. Their album art goes into art.json. Episodes and empty entries are skipped."""
     art = load_art()
     tracks, unplayable = [], {}
-    url, params = f"{API}/playlists/{pid}/items", {"limit": 50, "market": "from_token"}
+    params = {"limit": 50, "market": "from_token"}
     while url:
         page = fetch(session, url, params) or {}
         for entry in page.get("items") or []:
@@ -523,14 +595,10 @@ def fetch_playlist(session, found, delay=0.2):
             tracks.append(track)
         print(f"  {len(tracks)} tracks...")
         url, params = page.get("next"), None
-        time.sleep(delay)
+        if url:
+            time.sleep(delay)
     write_atomic(ART, json.dumps(art, indent=2, ensure_ascii=False))
-    return {"name": found["name"], "uri": found["uri"], "url": open_url(found["uri"]),
-            "owner": (meta.get("owner") or {}).get("display_name"),
-            "description": meta.get("description"), "public": meta.get("public"),
-            "followers": (meta.get("followers") or {}).get("total"),
-            "snapshot_id": meta.get("snapshot_id"), "fetched": now_iso(), "tracks": tracks, "_unplayable": unplayable,
-            "_collaborative": bool(meta.get("collaborative"))}
+    return tracks, unplayable
 
 
 def write_playlist(playlist):
@@ -595,16 +663,23 @@ def backup_playlists():
     session, changed, relabeled = api_session(), [], False
     for entry in due:
         pid = playlist_id(entry["id"])
-        found = get_playlist(session, pid) if pid else None
-        if not found:
-            print(f"Playlist backup failed: no playlist with ID {entry['id']!r} ({entry.get('name')}) among yours "
-                  f"or the ones you follow.")
+        try:
+            found = get_playlist(session, pid) if pid else None
+            if not found:
+                print(f"Playlist backup failed: no playlist with ID {entry['id']!r} ({entry.get('name')}) among yours "
+                      f"or the ones you follow.")
+                continue
+            new = fetch_playlist(session, found)
+        except NotArchivable as e:
+            print(f"Playlist backup failed: {e}")
+            continue
+        except requests.HTTPError as e:  # one playlist's trouble shouldn't stop the others being checked
+            print(f"Playlist backup failed: {entry.get('name') or entry['id']}: {e}")
             continue
         relabeled = relabeled or entry.get("name") != found["name"]
         entry["name"] = found["name"]
         path = playlist_file(found)
         old = json.loads(path.read_text(encoding="utf-8")) if path.exists() else None
-        new = fetch_playlist(session, found)
         same = lambda p: {k: v for k, v in p.items() if k not in ("fetched", "snapshot_id") and not k.startswith("_")}
         if not old or same(old) != same(new):
             write_playlist(new)
@@ -664,6 +739,164 @@ def update_unavailable(record, pid, playlist, today):
     return went, back
 
 
+def load_saved_playlist(text):
+    """A saved copy in playlists/ to restore: a .json path, or a saved playlist by name, ID, link or "liked"."""
+    path = Path(text).expanduser()
+    if path.suffix.lower() == ".json" and path.exists():
+        saved = json.loads(path.read_text(encoding="utf-8"))
+        if "tracks" not in saved:
+            sys.exit(f"{path} isn't a saved playlist.")
+        return saved
+    pid = playlist_id(text)
+    for path in sorted(PLAYLISTS.glob("*.json")):
+        if path in (PLAYLIST_LIST, UNAVAILABLE):
+            continue
+        saved = json.loads(path.read_text(encoding="utf-8"))
+        uri = saved.get("uri") or ""
+        if (uri.endswith(":collection") if pid == LIKED else uri == f"spotify:playlist:{pid}" if pid
+                else (saved.get("name") or "").casefold() == text.strip().casefold()):
+            return saved
+    sys.exit(f"No saved copy of {text!r} in {PLAYLISTS.relative_to(ROOT)}.")
+
+
+def playable_version(session, track):
+    """The URI of another version of a track that plays here, found by its ISRC (one search), or None."""
+    if not track.get("isrc"):
+        return None
+    page = fetch(session, f"{API}/search", {"q": f"isrc:{track['isrc']}", "type": "track",
+                                             "market": "from_token", "limit": 10}) or {}
+    for t in (page.get("tracks") or {}).get("items") or []:
+        if t and t.get("uri") and t["uri"] != track["uri"] and t.get("is_playable") is not False:
+            return t["uri"]
+    return None
+
+
+def restore_playlist(text, to_liked=False, name=None, dry_run=False, yes=False):
+    """Rebuild a saved playlist on Spotify: as a new playlist "<name> (restored <date>)", so nothing is ever
+    overwritten, or with to_liked, into Liked Songs (oldest first, so the order survives; songs already liked are
+    skipped, since saving one again would reset its date). Ported from Playlist Provenance (restore.py).
+
+    Tracks are added by their saved URI. Ones playlists/unavailable.json says won't play here are looked up by
+    ISRC for a version that does. Spotify has no bulk way to check URIs any more, so a dead one is found when
+    Spotify rejects a batch (400): the batch is split to find it, and it too is tried by ISRC. Local files can't
+    be added through the API. Spotify makes playlists created by apps public whatever the request says."""
+    saved = load_saved_playlist(text)
+    needed = RESTORE_SCOPES["liked" if to_liked else "playlist"]
+    if not dry_run and not set(needed) <= set(os.environ.get("SPOTIFY_SCOPES", "").split()):
+        print("Restoring needs permission to change your Spotify library, which `auth` doesn't ask for "
+              "otherwise. Sign in again to grant it.\n")
+        auth(needed)
+        print()
+    session = api_session()
+    unplayable = {e["uri"] for e in (json.loads(UNAVAILABLE.read_text(encoding="utf-8"))["tracks"]
+                                     if UNAVAILABLE.exists() else []) if not e.get("until")}
+    fetched = datetime.fromisoformat(saved["fetched"].replace("Z", "+00:00")).astimezone().strftime("%Y-%m-%d")
+    print(f"Saved copy of {saved['name']!r}: {len(saved['tracks']):,} tracks, from {fetched}.")
+
+    plan = []  # [track, uri to add or None, note]
+    for t in saved["tracks"]:
+        if t.get("is_local") or not (t.get("uri") or "").startswith("spotify:track:"):
+            plan.append([t, None, "local file"])
+        elif t["uri"] in unplayable:
+            alt = playable_version(session, t)
+            plan.append([t, alt, "replaced via ISRC"] if alt else [t, t["uri"], "still unplayable"])
+        else:
+            plan.append([t, t["uri"], ""])
+    if to_liked:
+        seen = set()
+        for p in plan:  # Liked Songs can't hold a track twice
+            if p[1] and p[1] in seen:
+                p[1], p[2] = None, "duplicate"
+            elif p[1]:
+                seen.add(p[1])
+        wanted = [p for p in plan if p[1]]
+        for n in range(0, len(wanted), 40):
+            chunk = wanted[n:n + 40]
+            liked = fetch(session, f"{API}/me/library/contains", {"uris": ",".join(p[1] for p in chunk)}) or []
+            for p, already in zip(chunk, liked):
+                if already:
+                    p[1], p[2] = None, "already liked"
+
+    label = lambda t: " - ".join(filter(None, [clean_title(t.get("name")), ", ".join(t.get("artists") or [])]))
+
+    def show(title, items, limit=20):
+        if items:
+            print(f"  {title}:")
+            print("\n".join(f"    {label(p[0])}" for p in items[:limit]))
+            if len(items) > limit:
+                print(f"    ...and {len(items) - limit} more")
+
+    noted = lambda note: [p for p in plan if p[2] == note]
+    adding = [p for p in plan if p[1]]
+    name = name or f"{saved['name']} (restored {datetime.now():%Y-%m-%d})"
+    print(f"\nPlan: add {len(adding):,} tracks to {'Liked Songs' if to_liked else f'a new playlist {name!r}'}.")
+    print(f"  {sum(1 for p in adding if not p[2]):,} by their saved Spotify link")
+    show("Replaced with a version that plays, found by ISRC", noted("replaced via ISRC"))
+    show("Added although Spotify won't play them here (no other version found)", noted("still unplayable"))
+    show("Skipped, already in Liked Songs", noted("already liked"), 5)
+    show("Skipped, duplicates", noted("duplicate"), 5)
+    show("Skipped, local files (Spotify's API can't add them)", noted("local file"))
+    if dry_run:
+        print("\nDry run: nothing was changed.")
+        return
+    if not adding:
+        print("\nNothing to add.")
+        return
+    if not yes and not input("\nGo ahead? (y/n) [n]: ").strip().lower().startswith("y"):
+        print("Nothing was changed.")
+        return
+
+    planned = {id(p) for p in noted("replaced via ISRC")}
+    added, gone = [], []
+
+    def send_chunk(chunk, send):
+        try:
+            send([p[1] for p in chunk])
+            added.extend(chunk)
+        except requests.HTTPError as e:
+            if e.response is None or e.response.status_code != 400:
+                raise
+            if len(chunk) > 1:
+                send_chunk(chunk[:len(chunk) // 2], send)
+                send_chunk(chunk[len(chunk) // 2:], send)
+                return
+            p, alt = chunk[0], playable_version(session, chunk[0][0])
+            if alt:
+                try:
+                    send([alt])
+                    p[1], p[2] = alt, "replaced via ISRC"
+                    added.append(p)
+                    return
+                except requests.HTTPError:
+                    pass
+            gone.append(p)
+
+    if to_liked:
+        adding.sort(key=lambda p: p[0].get("added_at") or "")
+        send = lambda uris: call(session, "PUT", f"{API}/me/library", {"uris": ",".join(uris)})
+        size = 40
+    else:
+        # No quote marks in the description: Spotify stores them HTML-escaped (&#x27;).
+        created = call(session, "POST", f"{API}/me/playlists", retry_server_errors=False, json={
+            "name": name, "public": False,
+            "description": f"Restored from the saved copy of {saved['name']} from {fetched}."})
+        send = lambda uris: call(session, "POST", f"{API}/playlists/{created['id']}/items", json={"uris": uris},
+                                 retry_server_errors=False)
+        size = 100
+    for n in range(0, len(adding), size):
+        send_chunk(adding[n:n + size], send)
+    if to_liked:
+        print(f"\nSaved {len(added):,} tracks to Liked Songs.")
+    else:
+        print(f"\nCreated {name!r} with {len(added):,} tracks: "
+              f"{(created.get('external_urls') or {}).get('spotify') or open_url(created.get('uri'))}\n"
+              "Spotify makes playlists created by apps public. To make it private, open it in Spotify and "
+              "choose Make private.")
+    show("Not added: no longer on Spotify, and no other version found by ISRC", gone)
+    show("Their saved link no longer worked; replaced with a version found by ISRC",
+         [p for p in added if p[2] == "replaced via ISRC" and id(p) not in planned])
+
+
 def playlist_diff(old, new):
     """('3 added, 1 removed by you', ['  + Song - Artist', ...]) between two saved playlists.
 
@@ -672,6 +905,9 @@ def playlist_diff(old, new):
     a release date). Only Spotify can change a track's details. Spotify changes a playlist's snapshot_id whenever
     the playlist itself is edited, but not when only its catalog changes, so tracks added, removed or moved with
     the snapshot_id unchanged were Spotify's doing. Ported back from Playlist Provenance (history.py)."""
+    if not old:  # a first backup: listing every track as added would only bury the email and the commit
+        n = len(new["tracks"])
+        return f"started backing up ({n:,} track{'' if n == 1 else 's'})", []
     label = lambda t: f"{clean_title(t['name'])} - {', '.join(t['artists'])}"
     old_tracks = (old or {}).get("tracks", [])
     before = Counter(t["uri"] for t in old_tracks)
@@ -1229,6 +1465,8 @@ def wrapped(periods=None):
     # The backed-up playlists' tracks (My Favs), for the "outside your usual" card: (playlist name, track).
     playlist_tracks = []
     for entry in json.loads(PLAYLIST_LIST.read_text(encoding="utf-8"))["playlists"] if PLAYLIST_LIST.exists() else []:
+        if playlist_id(entry["id"]) == LIKED:  # the card is about playlist picks, not every song liked
+            continue
         path = playlist_file({"uri": f"spotify:playlist:{playlist_id(entry['id'])}", "name": entry["name"]})
         if path.exists():
             saved = json.loads(path.read_text(encoding="utf-8"))
@@ -2131,6 +2369,18 @@ def report_html(r):
 
 
 def main():
+    for stream in (sys.stdout, sys.stderr):
+        # Redirected output (sync.bat's >> data\sync.log) would otherwise be in the Windows code page, where a
+        # track name with, say, Japanese in it raises UnicodeEncodeError and stops the run. Write UTF-8 there,
+        # which is how report reads the log; a console keeps its own encoding, with unprintables replaced.
+        # Each line is flushed as printed. Ported from Playlist Provenance (cli.main).
+        try:
+            if stream.isatty():
+                stream.reconfigure(errors="replace", line_buffering=True)
+            else:
+                stream.reconfigure(encoding="utf-8", errors="replace", line_buffering=True)
+        except (AttributeError, ValueError):
+            pass
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     sub = parser.add_subparsers(dest="command", required=True)
     sub.add_parser("auth", help="sign in to Spotify once and save the refresh token")
@@ -2148,8 +2398,15 @@ def main():
     sub.add_parser("sharecard", help="draw docs/images/share.png, the site's social media preview picture")
     nar = sub.add_parser("narrate", help="voice video/script-YEAR.json with Azure for the video in video/")
     nar.add_argument("year", type=int)
-    pl = sub.add_parser("playlist", help="save one of your playlists, by name, to playlists/")
-    pl.add_argument("name", help='the playlist\'s name, e.g. "My Favs"')
+    pl = sub.add_parser("playlist", help="save one of your playlists, or Liked Songs, to playlists/")
+    pl.add_argument("name", help='the playlist\'s name, ID or link, e.g. "My Favs"; or "liked" for Liked Songs')
+    rs = sub.add_parser("restore", help="rebuild a playlist on Spotify from its saved copy in playlists/")
+    rs.add_argument("playlist", help='a saved playlist\'s name or ID, "liked", or the path of its .json')
+    rs.add_argument("--to", choices=["new", "liked"], default="new",
+                    help="new: a new playlist (default, never overwrites anything); liked: add to Liked Songs")
+    rs.add_argument("--name", help="name for the new playlist (default: '<name> (restored <date>)')")
+    rs.add_argument("--dry-run", action="store_true", help="show what would be added, without changing anything")
+    rs.add_argument("--yes", action="store_true", help="don't ask for confirmation")
     sub.add_parser("backup", help="once a day, save and commit the playlists in playlists/playlists.json that changed "
                                      "(sync.bat runs this)")
     sub.add_parser("publish", help="commit and push docs/data/ to GitHub when it changed (sync.bat runs this)")
@@ -2173,6 +2430,8 @@ def main():
             publish()
         elif args.command == "playlist":
             save_playlist(args.name)
+        elif args.command == "restore":
+            restore_playlist(args.playlist, args.to == "liked", args.name, args.dry_run, args.yes)
         else:
             {"auth": auth, "sync": sync, "art": fill_art, "build": build, "sharecard": share_card,
              "backup": backup_playlists}[args.command]()
