@@ -1,7 +1,7 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-20T15:10:08Z",
- "synced": "2026-11-20T15:10:01Z",
+ "generated": "2026-11-20T15:40:06Z",
+ "synced": "2026-11-20T15:40:01Z",
  "totals": {
   "plays": 125395,
   "hours": 8525.8,
@@ -1492,6 +1492,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Should JuJu Watkins Stay in College?",
+   "show": "No Hesitation with Sophie Cunningham & Drew Hanlen",
+   "show_uri": "spotify:show:0wBDPmxsp4ivXog31cGmTX",
+   "release_date": "2026-11-19",
+   "duration_ms": 4011938,
+   "image": "https://i.scdn.co/image/ab67656300005f1fdd1957c5c363aec1cecd12f2",
+   "first_seen": "2026-11-20T15:10:02Z",
+   "progress_ms": 1577309,
+   "last_seen": "2026-11-20T15:40:02Z",
+   "url": "https://open.spotify.com/episode/6KQzENleBx2lSACdZn7SMA",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1ff71d281479683178fec972fc"
+  },
+  {
    "name": "What the Anthropic IPO Means for the AI Future",
    "show": "WSJ Opinion: Potomac Watch",
    "show_uri": "spotify:show:4sMCRFb3B4g9Ax3lDCOOTX",
@@ -1503,19 +1516,6 @@ window.LISTENING = {
    "last_seen": "2026-11-20T15:10:03Z",
    "url": "https://open.spotify.com/episode/6mkmwxoxUBuifwFGjnNnDa",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97"
-  },
-  {
-   "name": "Should JuJu Watkins Stay in College?",
-   "show": "No Hesitation with Sophie Cunningham & Drew Hanlen",
-   "show_uri": "spotify:show:0wBDPmxsp4ivXog31cGmTX",
-   "release_date": "2026-11-19",
-   "duration_ms": 4011938,
-   "image": "https://i.scdn.co/image/ab67656300005f1fdd1957c5c363aec1cecd12f2",
-   "first_seen": "2026-11-20T15:10:02Z",
-   "progress_ms": 286258,
-   "last_seen": "2026-11-20T15:10:02Z",
-   "url": "https://open.spotify.com/episode/6KQzENleBx2lSACdZn7SMA",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1ff71d281479683178fec972fc"
   },
   {
    "name": "How an American AI Company Uses Chinese Open-Weight Models",
