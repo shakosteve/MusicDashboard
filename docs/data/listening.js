@@ -1,7 +1,7 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-20T13:40:08Z",
- "synced": "2026-11-20T13:40:01Z",
+ "generated": "2026-11-20T14:10:08Z",
+ "synced": "2026-11-20T14:10:02Z",
  "totals": {
   "plays": 125393,
   "hours": 8525.7,
@@ -1492,6 +1492,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "What the Anthropic IPO Means for the AI Future",
+   "show": "WSJ Opinion: Potomac Watch",
+   "show_uri": "spotify:show:4sMCRFb3B4g9Ax3lDCOOTX",
+   "release_date": "2026-11-19",
+   "duration_ms": 1309048,
+   "image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97",
+   "first_seen": "2026-11-20T14:10:02Z",
+   "progress_ms": 322381,
+   "last_seen": "2026-11-20T14:10:02Z",
+   "url": "https://open.spotify.com/episode/6mkmwxoxUBuifwFGjnNnDa",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97"
+  },
+  {
    "name": "#2113 - Mamdani Sends New York Further into MADNESS!!! | Part 2",
    "show": "The Adam and Dr. Drew Show",
    "show_uri": "spotify:show:3VN4vP6TztxK3wtT8b9aQL",
@@ -1633,19 +1646,6 @@ window.LISTENING = {
    "last_seen": "2026-11-19T02:10:02Z",
    "url": "https://open.spotify.com/episode/5RsyJBixtMOw9eafAkLRM9",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fc306eb9be2f4da68a4f7f2be"
-  },
-  {
-   "name": "‘They’re in it to win or die’: Why Iran’s regime is built to survive",
-   "show": "Iran: The Latest",
-   "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
-   "release_date": "2026-11-18",
-   "duration_ms": 2561254,
-   "image": "https://i.scdn.co/image/ab67656300005f1ff0fd3fbc80654d65e2555f4f",
-   "first_seen": "2026-11-18T20:40:02Z",
-   "progress_ms": 2686228,
-   "last_seen": "2026-11-18T23:10:02Z",
-   "url": "https://open.spotify.com/episode/7feObkOxr29lwO5YUtC8Jp",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
   }
  ],
  "top_shows": [
