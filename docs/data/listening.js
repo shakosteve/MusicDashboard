@@ -1,15 +1,37 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-20T14:10:08Z",
- "synced": "2026-11-20T14:10:02Z",
+ "generated": "2026-11-20T14:40:09Z",
+ "synced": "2026-11-20T14:40:01Z",
  "totals": {
-  "plays": 125393,
-  "hours": 8525.7,
+  "plays": 125395,
+  "hours": 8525.8,
   "artists": 702,
-  "albums": 1531,
+  "albums": 1532,
   "first": "2013-05-07T01:40:37Z"
  },
  "recent": [
+  {
+   "name": "this is a banger i swear",
+   "artist": "Jasmine Star",
+   "album": "this is a banger i swear",
+   "year": 2023,
+   "image": "https://i.scdn.co/image/ab67616d00001e021f084aa854887a6a6a8c3d96",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2731f084aa854887a6a6a8c3d96",
+   "url": "https://open.spotify.com/track/5XhHIRWPiuoaRN4jV6UfQg",
+   "album_url": "https://open.spotify.com/album/6sPQLEFYkBlgnFIvZCI7YI",
+   "played_at": "2026-11-20T14:32:29.930Z"
+  },
+  {
+   "name": "Rooftop",
+   "artist": "Jasmine Star",
+   "album": "Rooftop",
+   "year": 2026,
+   "image": "https://i.scdn.co/image/ab67616d00001e029b28b6f5f7371da964ad9557",
+   "image_large": "https://i.scdn.co/image/ab67616d0000b2739b28b6f5f7371da964ad9557",
+   "url": "https://open.spotify.com/track/6kemRhiVdF1q9aFWzRZZx8",
+   "album_url": "https://open.spotify.com/album/1eGE8koK5GedSeSbMAYVbq",
+   "played_at": "2026-11-20T14:29:47.924Z"
+  },
   {
    "name": "Head Over Heels - Dave Bascombe 7\" N.Mix",
    "artist": "Tears For Fears, Dave Bascombe",
@@ -515,28 +537,6 @@ window.LISTENING = {
    "url": "https://open.spotify.com/track/3ZP18us6p6LHOZMG1LLUjF",
    "album_url": "https://open.spotify.com/album/4vAhQeeWkSjVn0p5GAaLBx",
    "played_at": "2026-11-17T19:16:53.315Z"
-  },
-  {
-   "name": "Smooth (feat. Rob Thomas)",
-   "artist": "Santana, Rob Thomas",
-   "album": "Supernatural (Remastered)",
-   "year": 1999,
-   "image": "https://i.scdn.co/image/ab67616d00001e0247eb3ea5a92904c19e102e54",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b27347eb3ea5a92904c19e102e54",
-   "url": "https://open.spotify.com/track/0n2SEXB2qoRQg171q7XqeW",
-   "album_url": "https://open.spotify.com/album/10aiDpdFGyfCFEcqpx6XTq",
-   "played_at": "2026-11-17T19:12:51.766Z"
-  },
-  {
-   "name": "Crazy On You",
-   "artist": "Heart",
-   "album": "Dreamboat Annie",
-   "year": 1975,
-   "image": "https://i.scdn.co/image/ab67616d00001e028e8c08ca2feb999bb84f05e6",
-   "image_large": "https://i.scdn.co/image/ab67616d0000b2738e8c08ca2feb999bb84f05e6",
-   "url": "https://open.spotify.com/track/5zH710lFSLtkHbMkslLDjR",
-   "album_url": "https://open.spotify.com/album/2N0AgtWbCmVoNUl2GN1opH",
-   "played_at": "2026-11-17T19:07:56.338Z"
   }
  ],
  "top_artists": [
@@ -1397,7 +1397,7 @@ window.LISTENING = {
   },
   {
    "decade": 2020,
-   "plays": 18701,
+   "plays": 18703,
    "covers": [
     {
      "name": "ERROR",
@@ -1492,6 +1492,32 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "How an American AI Company Uses Chinese Open-Weight Models",
+   "show": "Odd Lots",
+   "show_uri": "spotify:show:1te7oSFyRVekxMBJUSethH",
+   "release_date": "2026-11-20",
+   "duration_ms": 2902569,
+   "image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42",
+   "first_seen": "2026-11-20T12:40:02Z",
+   "progress_ms": 3369431,
+   "last_seen": "2026-11-20T14:40:03Z",
+   "url": "https://open.spotify.com/episode/704tOlO4xdEpPgucWZjT6A",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42"
+  },
+  {
+   "name": "This Is The Problem With AI's Most Bullish Chart",
+   "show": "Odd Lots",
+   "show_uri": "spotify:show:1te7oSFyRVekxMBJUSethH",
+   "release_date": "2026-11-19",
+   "duration_ms": 4170031,
+   "image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42",
+   "first_seen": "2026-11-20T14:40:03Z",
+   "progress_ms": 348267,
+   "last_seen": "2026-11-20T14:40:03Z",
+   "url": "https://open.spotify.com/episode/4NvfN7wZk3U0gQZS3viReg",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42"
+  },
+  {
    "name": "What the Anthropic IPO Means for the AI Future",
    "show": "WSJ Opinion: Potomac Watch",
    "show_uri": "spotify:show:4sMCRFb3B4g9Ax3lDCOOTX",
@@ -1516,19 +1542,6 @@ window.LISTENING = {
    "last_seen": "2026-11-20T13:40:03Z",
    "url": "https://open.spotify.com/episode/5Q8dX0UFIXQAqiOIrCodOh",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
-  },
-  {
-   "name": "How an American AI Company Uses Chinese Open-Weight Models",
-   "show": "Odd Lots",
-   "show_uri": "spotify:show:1te7oSFyRVekxMBJUSethH",
-   "release_date": "2026-11-20",
-   "duration_ms": 2902569,
-   "image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42",
-   "first_seen": "2026-11-20T12:40:02Z",
-   "progress_ms": 1779867,
-   "last_seen": "2026-11-20T12:40:02Z",
-   "url": "https://open.spotify.com/episode/704tOlO4xdEpPgucWZjT6A",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42"
   },
   {
    "name": "How Nvidia Built a Backdoor to China",
@@ -1633,19 +1646,6 @@ window.LISTENING = {
    "last_seen": "2026-11-19T15:10:03Z",
    "url": "https://open.spotify.com/episode/565QLICGCRi1uwl09kIDpO",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
-  },
-  {
-   "name": "Jillian Michaels: The Scary Reality of Modern Parenting",
-   "show": "Kennedy Saves the World",
-   "show_uri": "spotify:show:5DEwjZIkxrUhkM1nlqLagd",
-   "release_date": "2026-11-18",
-   "duration_ms": 1338048,
-   "image": "https://i.scdn.co/image/ab67656300005f1fb9a79ddf4b2d3340a865a5ca",
-   "first_seen": "2026-11-19T02:10:02Z",
-   "progress_ms": 914948,
-   "last_seen": "2026-11-19T02:10:02Z",
-   "url": "https://open.spotify.com/episode/5RsyJBixtMOw9eafAkLRM9",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fc306eb9be2f4da68a4f7f2be"
   }
  ],
  "top_shows": [
