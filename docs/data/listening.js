@@ -1,7 +1,7 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-20T12:40:07Z",
- "synced": "2026-11-20T12:40:01Z",
+ "generated": "2026-11-20T13:10:07Z",
+ "synced": "2026-11-20T13:10:01Z",
  "totals": {
   "plays": 125393,
   "hours": 8525.7,
@@ -1492,6 +1492,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "#2113 - Mamdani Sends New York Further into MADNESS!!! | Part 2",
+   "show": "The Adam and Dr. Drew Show",
+   "show_uri": "spotify:show:3VN4vP6TztxK3wtT8b9aQL",
+   "release_date": "2026-11-20",
+   "duration_ms": 2859389,
+   "image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b",
+   "first_seen": "2026-11-20T13:10:02Z",
+   "progress_ms": 167031,
+   "last_seen": "2026-11-20T13:10:02Z",
+   "url": "https://open.spotify.com/episode/5Q8dX0UFIXQAqiOIrCodOh",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
+  },
+  {
    "name": "How an American AI Company Uses Chinese Open-Weight Models",
    "show": "Odd Lots",
    "show_uri": "spotify:show:1te7oSFyRVekxMBJUSethH",
@@ -1633,19 +1646,6 @@ window.LISTENING = {
    "last_seen": "2026-11-18T23:10:02Z",
    "url": "https://open.spotify.com/episode/7feObkOxr29lwO5YUtC8Jp",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
-  },
-  {
-   "name": "How Ukraine pulled off the campaign that brought down Kerch bridge",
-   "show": "Ukraine: The Latest",
-   "show_uri": "spotify:show:6cnkk1J0I1UqtxTYVUL4Fe",
-   "release_date": "2026-11-18",
-   "duration_ms": 1870759,
-   "image": "https://i.scdn.co/image/ab67656300005f1fac3fd26a120505d9b56da66f",
-   "first_seen": "2026-11-18T19:40:02Z",
-   "progress_ms": 1870759,
-   "last_seen": "2026-11-18T22:10:02Z",
-   "url": "https://open.spotify.com/episode/6LOSCE40dhNaDuZ53XbrTK",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f78954c21afd24c90334deba4"
   }
  ],
  "top_shows": [
