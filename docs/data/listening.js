@@ -1,7 +1,7 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-20T14:40:09Z",
- "synced": "2026-11-20T14:40:01Z",
+ "generated": "2026-11-20T15:10:08Z",
+ "synced": "2026-11-20T15:10:01Z",
  "totals": {
   "plays": 125395,
   "hours": 8525.8,
@@ -1492,6 +1492,32 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "What the Anthropic IPO Means for the AI Future",
+   "show": "WSJ Opinion: Potomac Watch",
+   "show_uri": "spotify:show:4sMCRFb3B4g9Ax3lDCOOTX",
+   "release_date": "2026-11-19",
+   "duration_ms": 1309048,
+   "image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97",
+   "first_seen": "2026-11-20T14:10:02Z",
+   "progress_ms": 1342120,
+   "last_seen": "2026-11-20T15:10:03Z",
+   "url": "https://open.spotify.com/episode/6mkmwxoxUBuifwFGjnNnDa",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97"
+  },
+  {
+   "name": "Should JuJu Watkins Stay in College?",
+   "show": "No Hesitation with Sophie Cunningham & Drew Hanlen",
+   "show_uri": "spotify:show:0wBDPmxsp4ivXog31cGmTX",
+   "release_date": "2026-11-19",
+   "duration_ms": 4011938,
+   "image": "https://i.scdn.co/image/ab67656300005f1fdd1957c5c363aec1cecd12f2",
+   "first_seen": "2026-11-20T15:10:02Z",
+   "progress_ms": 286258,
+   "last_seen": "2026-11-20T15:10:02Z",
+   "url": "https://open.spotify.com/episode/6KQzENleBx2lSACdZn7SMA",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1ff71d281479683178fec972fc"
+  },
+  {
    "name": "How an American AI Company Uses Chinese Open-Weight Models",
    "show": "Odd Lots",
    "show_uri": "spotify:show:1te7oSFyRVekxMBJUSethH",
@@ -1516,19 +1542,6 @@ window.LISTENING = {
    "last_seen": "2026-11-20T14:40:03Z",
    "url": "https://open.spotify.com/episode/4NvfN7wZk3U0gQZS3viReg",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42"
-  },
-  {
-   "name": "What the Anthropic IPO Means for the AI Future",
-   "show": "WSJ Opinion: Potomac Watch",
-   "show_uri": "spotify:show:4sMCRFb3B4g9Ax3lDCOOTX",
-   "release_date": "2026-11-19",
-   "duration_ms": 1309048,
-   "image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97",
-   "first_seen": "2026-11-20T14:10:02Z",
-   "progress_ms": 322381,
-   "last_seen": "2026-11-20T14:10:02Z",
-   "url": "https://open.spotify.com/episode/6mkmwxoxUBuifwFGjnNnDa",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fbe53b4cdd29c489500b01d97"
   },
   {
    "name": "#2113 - Mamdani Sends New York Further into MADNESS!!! | Part 2",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "progress_ms": 3273900,
    "last_seen": "2026-11-19T15:10:03Z",
    "url": "https://open.spotify.com/episode/7ElL3hr6qCCdEF7fzv47K9",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
-  },
-  {
-   "name": "You Might Also Like: Millionaire University",
-   "show": "The Adam and Dr. Drew Show",
-   "show_uri": "spotify:show:3VN4vP6TztxK3wtT8b9aQL",
-   "release_date": "2026-11-19",
-   "duration_ms": 3458873,
-   "image": "https://i.scdn.co/image/ab67656300005f1fd00ba42332c28976037c58a8",
-   "first_seen": "2026-11-19T15:10:02Z",
-   "progress_ms": 295703,
-   "last_seen": "2026-11-19T15:10:03Z",
-   "url": "https://open.spotify.com/episode/565QLICGCRi1uwl09kIDpO",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
   }
  ],
