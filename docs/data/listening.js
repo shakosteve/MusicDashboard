@@ -1,7 +1,7 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-20T19:10:09Z",
- "synced": "2026-11-20T19:10:01Z",
+ "generated": "2026-11-20T19:40:08Z",
+ "synced": "2026-11-20T19:40:01Z",
  "totals": {
   "plays": 125395,
   "hours": 8525.8,
@@ -1492,6 +1492,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "The Strait of Hormuz is broken and China is on the rise: nine months of the US-Iran war",
+   "show": "Iran: The Latest",
+   "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
+   "release_date": "2026-11-20",
+   "duration_ms": 2865580,
+   "image": "https://i.scdn.co/image/ab67656300005f1f2a6de0a452b17c890e4f4086",
+   "first_seen": "2026-11-20T18:40:02Z",
+   "progress_ms": 1842640,
+   "last_seen": "2026-11-20T19:40:03Z",
+   "url": "https://open.spotify.com/episode/7IPoHqZk9lorraUL28TBQY",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
+  },
+  {
    "name": "The Race to Escape Linear TV, With Versant CEO Mark Lazarus",
    "show": "The Town with Matthew Belloni",
    "show_uri": "spotify:show:4uXizLZjslhw7nyDPocta2",
@@ -1503,19 +1516,6 @@ window.LISTENING = {
    "last_seen": "2026-11-20T19:10:03Z",
    "url": "https://open.spotify.com/episode/2RAezH04sihF49A4CSVzLI",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fdd3837a132fb0b313263e65e"
-  },
-  {
-   "name": "The Strait of Hormuz is broken and China is on the rise: nine months of the US-Iran war",
-   "show": "Iran: The Latest",
-   "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
-   "release_date": "2026-11-20",
-   "duration_ms": 2865580,
-   "image": "https://i.scdn.co/image/ab67656300005f1f2a6de0a452b17c890e4f4086",
-   "first_seen": "2026-11-20T18:40:02Z",
-   "progress_ms": 1842361,
-   "last_seen": "2026-11-20T19:10:02Z",
-   "url": "https://open.spotify.com/episode/7IPoHqZk9lorraUL28TBQY",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
   },
   {
    "name": "Should JuJu Watkins Stay in College?",
