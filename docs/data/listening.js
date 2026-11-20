@@ -1,7 +1,7 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-19T23:40:08Z",
- "synced": "2026-11-19T23:40:01Z",
+ "generated": "2026-11-20T00:10:08Z",
+ "synced": "2026-11-20T00:10:01Z",
  "totals": {
   "plays": 125393,
   "hours": 8525.7,
@@ -1492,6 +1492,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "How Nvidia Built a Backdoor to China",
+   "show": "The Journal.",
+   "show_uri": "spotify:show:0KxdEdeY2Wb3zr28dMlQva",
+   "release_date": "2026-11-19",
+   "duration_ms": 1020525,
+   "image": "https://i.scdn.co/image/ab67656300005f1ffed98c4fdc504416141e9409",
+   "first_seen": "2026-11-20T00:10:02Z",
+   "progress_ms": 697810,
+   "last_seen": "2026-11-20T00:10:02Z",
+   "url": "https://open.spotify.com/episode/67n4OSJNioZX1fucfRIIf4",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1ffed98c4fdc504416141e9409"
+  },
+  {
    "name": "Marco Rubio in the Race for the 2028 GOP Presidential Nomination",
    "show": "RealClearPolitics Podcast",
    "show_uri": "spotify:show:5FkNemg3aIaPPNBImIcW2l",
@@ -1633,19 +1646,6 @@ window.LISTENING = {
    "last_seen": "2026-11-18T18:10:04Z",
    "url": "https://open.spotify.com/episode/6HF3x5MnBDEQHZNxazwMFX",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
-  },
-  {
-   "name": "Third wheeling: Xi, Putin and Trump meet in China",
-   "show": "Economist Podcasts",
-   "show_uri": "spotify:show:2ZFDmgDS2Z6xccP51s1zFQ",
-   "release_date": "2026-11-18",
-   "duration_ms": 1385012,
-   "image": "https://i.scdn.co/image/ab67656300005f1f32c9c0ea7657e71644890713",
-   "first_seen": "2026-11-18T16:40:02Z",
-   "progress_ms": 775520,
-   "last_seen": "2026-11-18T16:40:02Z",
-   "url": "https://open.spotify.com/episode/19x3t2UxUya4EbIA5rTS5Q",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f3d63c8a3f5c8f7b8b0c1443b"
   }
  ],
  "top_shows": [
