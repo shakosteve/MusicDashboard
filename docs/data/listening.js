@@ -1,7 +1,7 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-20T15:40:06Z",
- "synced": "2026-11-20T15:40:01Z",
+ "generated": "2026-11-20T16:10:08Z",
+ "synced": "2026-11-20T16:10:01Z",
  "totals": {
   "plays": 125395,
   "hours": 8525.8,
@@ -1492,6 +1492,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "#2113 - Mamdani Sends New York Further into MADNESS!!! | Part 2",
+   "show": "The Adam and Dr. Drew Show",
+   "show_uri": "spotify:show:3VN4vP6TztxK3wtT8b9aQL",
+   "release_date": "2026-11-20",
+   "duration_ms": 2859389,
+   "image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b",
+   "first_seen": "2026-11-20T13:10:02Z",
+   "progress_ms": 3059760,
+   "last_seen": "2026-11-20T16:10:03Z",
+   "url": "https://open.spotify.com/episode/5Q8dX0UFIXQAqiOIrCodOh",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
+  },
+  {
    "name": "Should JuJu Watkins Stay in College?",
    "show": "No Hesitation with Sophie Cunningham & Drew Hanlen",
    "show_uri": "spotify:show:0wBDPmxsp4ivXog31cGmTX",
@@ -1499,8 +1512,8 @@ window.LISTENING = {
    "duration_ms": 4011938,
    "image": "https://i.scdn.co/image/ab67656300005f1fdd1957c5c363aec1cecd12f2",
    "first_seen": "2026-11-20T15:10:02Z",
-   "progress_ms": 1577309,
-   "last_seen": "2026-11-20T15:40:02Z",
+   "progress_ms": 3377363,
+   "last_seen": "2026-11-20T16:10:02Z",
    "url": "https://open.spotify.com/episode/6KQzENleBx2lSACdZn7SMA",
    "show_image": "https://i.scdn.co/image/ab67656300005f1ff71d281479683178fec972fc"
   },
@@ -1542,19 +1555,6 @@ window.LISTENING = {
    "last_seen": "2026-11-20T14:40:03Z",
    "url": "https://open.spotify.com/episode/4NvfN7wZk3U0gQZS3viReg",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42"
-  },
-  {
-   "name": "#2113 - Mamdani Sends New York Further into MADNESS!!! | Part 2",
-   "show": "The Adam and Dr. Drew Show",
-   "show_uri": "spotify:show:3VN4vP6TztxK3wtT8b9aQL",
-   "release_date": "2026-11-20",
-   "duration_ms": 2859389,
-   "image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b",
-   "first_seen": "2026-11-20T13:10:02Z",
-   "progress_ms": 1759861,
-   "last_seen": "2026-11-20T13:40:03Z",
-   "url": "https://open.spotify.com/episode/5Q8dX0UFIXQAqiOIrCodOh",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
   },
   {
    "name": "How Nvidia Built a Backdoor to China",
