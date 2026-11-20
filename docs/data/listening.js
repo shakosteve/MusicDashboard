@@ -1,7 +1,7 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-20T16:40:09Z",
- "synced": "2026-11-20T16:40:01Z",
+ "generated": "2026-11-20T17:10:09Z",
+ "synced": "2026-11-20T17:10:01Z",
  "totals": {
   "plays": 125395,
   "hours": 8525.8,
@@ -1492,6 +1492,32 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "New treatment, screening tools could help increase survival rates in pancreatic cancer",
+   "show": "Minnesota Now",
+   "show_uri": "spotify:show:61oEbjIMX0lVNvf0MyrEX8",
+   "release_date": "2026-11-19",
+   "duration_ms": 617116,
+   "image": "https://i.scdn.co/image/ab67656300005f1f110dfea289c0685fcc6c4343",
+   "first_seen": "2026-11-20T17:10:03Z",
+   "progress_ms": 21857,
+   "last_seen": "2026-11-20T17:10:03Z",
+   "url": "https://open.spotify.com/episode/2coNVjyfFJ2cgXNQdTcv52",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f110dfea289c0685fcc6c4343"
+  },
+  {
+   "name": "The BBC's Lyse Doucet on U.S. Foreign Policy After the Midterms",
+   "show": "The Middle with Jeremy Hobson",
+   "show_uri": "spotify:show:5l5B4IoLnVHnFMLmGSar2f",
+   "release_date": "2026-11-20",
+   "duration_ms": 2992576,
+   "image": "https://i.scdn.co/image/ab67656300005f1f11d455b3777541578736dd8e",
+   "first_seen": "2026-11-20T14:40:02Z",
+   "progress_ms": 1393720,
+   "last_seen": "2026-11-20T17:10:02Z",
+   "url": "https://open.spotify.com/episode/0kraZnRt4tC3aztP1RPgp7",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f083f152347124d54a12d4ca0"
+  },
+  {
    "name": "The Race to Escape Linear TV, With Versant CEO Mark Lazarus",
    "show": "The Town with Matthew Belloni",
    "show_uri": "spotify:show:4uXizLZjslhw7nyDPocta2",
@@ -1620,32 +1646,6 @@ window.LISTENING = {
    "last_seen": "2026-11-19T21:10:04Z",
    "url": "https://open.spotify.com/episode/0XoCz1vjEQxGvJIURjTRhE",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
-  },
-  {
-   "name": "Trump meets Putin: 'He's my friend'",
-   "show": "Ukraine: The Latest",
-   "show_uri": "spotify:show:6cnkk1J0I1UqtxTYVUL4Fe",
-   "release_date": "2026-11-19",
-   "duration_ms": 3119621,
-   "image": "https://i.scdn.co/image/ab67656300005f1f55494cd06ff981d01693b999",
-   "first_seen": "2026-11-19T19:10:02Z",
-   "progress_ms": 3119621,
-   "last_seen": "2026-11-19T20:40:03Z",
-   "url": "https://open.spotify.com/episode/17L3gTN9KmOUBImzPOHk5Z",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f78954c21afd24c90334deba4"
-  },
-  {
-   "name": "Roland Joffé: The Mob's Role In KILLING Kennedy",
-   "show": "Adam Carolla Show",
-   "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
-   "release_date": "2026-11-19",
-   "duration_ms": 6259905,
-   "image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f",
-   "first_seen": "2026-11-19T16:10:02Z",
-   "progress_ms": 6218913,
-   "last_seen": "2026-11-19T19:10:02Z",
-   "url": "https://open.spotify.com/episode/3BkGjegICme2SQE22bvDKf",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
   }
  ],
  "top_shows": [
