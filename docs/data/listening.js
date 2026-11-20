@@ -1,7 +1,7 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-20T12:10:08Z",
- "synced": "2026-11-20T12:10:01Z",
+ "generated": "2026-11-20T12:40:07Z",
+ "synced": "2026-11-20T12:40:01Z",
  "totals": {
   "plays": 125393,
   "hours": 8525.7,
@@ -1492,6 +1492,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "How an American AI Company Uses Chinese Open-Weight Models",
+   "show": "Odd Lots",
+   "show_uri": "spotify:show:1te7oSFyRVekxMBJUSethH",
+   "release_date": "2026-11-20",
+   "duration_ms": 2902569,
+   "image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42",
+   "first_seen": "2026-11-20T12:40:02Z",
+   "progress_ms": 1779867,
+   "last_seen": "2026-11-20T12:40:02Z",
+   "url": "https://open.spotify.com/episode/704tOlO4xdEpPgucWZjT6A",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42"
+  },
+  {
    "name": "How Nvidia Built a Backdoor to China",
    "show": "The Journal.",
    "show_uri": "spotify:show:0KxdEdeY2Wb3zr28dMlQva",
@@ -1633,19 +1646,6 @@ window.LISTENING = {
    "last_seen": "2026-11-18T22:10:02Z",
    "url": "https://open.spotify.com/episode/6LOSCE40dhNaDuZ53XbrTK",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f78954c21afd24c90334deba4"
-  },
-  {
-   "name": "Ed Begley Jr. & Elizabeth Guest: Old vs. New Hollywood & Their New Christmas Movie",
-   "show": "Adam Carolla Show",
-   "show_uri": "spotify:show:0YlgjXHWL0Lfxnp1LKdx9P",
-   "release_date": "2026-11-18",
-   "duration_ms": 6337175,
-   "image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f",
-   "first_seen": "2026-11-18T14:10:03Z",
-   "progress_ms": 6131451,
-   "last_seen": "2026-11-18T18:10:04Z",
-   "url": "https://open.spotify.com/episode/6HF3x5MnBDEQHZNxazwMFX",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fd813559e4461e119b4b5082f"
   }
  ],
  "top_shows": [
