@@ -1,7 +1,7 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-20T23:10:07Z",
- "synced": "2026-11-20T23:10:02Z",
+ "generated": "2026-11-20T23:40:08Z",
+ "synced": "2026-11-20T23:40:01Z",
  "totals": {
   "plays": 125395,
   "hours": 8525.8,
@@ -1492,6 +1492,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "'Defund Ukraine,' shouts Trump as missile lands near European troops in Poland",
+   "show": "Ukraine: The Latest",
+   "show_uri": "spotify:show:6cnkk1J0I1UqtxTYVUL4Fe",
+   "release_date": "2026-11-20",
+   "duration_ms": 2697012,
+   "image": "https://i.scdn.co/image/ab67656300005f1f391f0950b18db7b722c12ada",
+   "first_seen": "2026-11-20T23:40:02Z",
+   "progress_ms": 1991032,
+   "last_seen": "2026-11-20T23:40:02Z",
+   "url": "https://open.spotify.com/episode/3Dobwx8dxG9VykdUQz6lt2",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f78954c21afd24c90334deba4"
+  },
+  {
    "name": "The Strait of Hormuz is broken and China is on the rise: nine months of the US-Iran war",
    "show": "Iran: The Latest",
    "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
@@ -1633,19 +1646,6 @@ window.LISTENING = {
    "last_seen": "2026-11-20T01:40:02Z",
    "url": "https://open.spotify.com/episode/0ayHx1r2ZTBb7WzgxLYVIa",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fe19edf2c6856b8b09c057f38"
-  },
-  {
-   "name": "Concerning Rings of Power S3: Are Orcs Redeemable?",
-   "show": "Well Earned Comforts: A Tolkien Podcast",
-   "show_uri": "spotify:show:23hxjPbetnmtvwFJATPtg2",
-   "release_date": "2026-11-19",
-   "duration_ms": 6044339,
-   "image": "https://i.scdn.co/image/ab67656300005f1f7160acc6f68b85bef7afc276",
-   "first_seen": "2026-11-19T20:10:02Z",
-   "progress_ms": 2478198,
-   "last_seen": "2026-11-19T22:40:02Z",
-   "url": "https://open.spotify.com/episode/6BPn1AxIDm04mTvx0fluY6",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f7160acc6f68b85bef7afc276"
   }
  ],
  "top_shows": [
