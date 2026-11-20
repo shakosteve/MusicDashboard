@@ -1,7 +1,7 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-20T17:40:09Z",
- "synced": "2026-11-20T17:40:01Z",
+ "generated": "2026-11-20T18:40:09Z",
+ "synced": "2026-11-20T18:40:01Z",
  "totals": {
   "plays": 125395,
   "hours": 8525.8,
@@ -1492,6 +1492,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "The Strait of Hormuz is broken and China is on the rise: nine months of the US-Iran war",
+   "show": "Iran: The Latest",
+   "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
+   "release_date": "2026-11-20",
+   "duration_ms": 2865580,
+   "image": "https://i.scdn.co/image/ab67656300005f1f2a6de0a452b17c890e4f4086",
+   "first_seen": "2026-11-20T18:40:02Z",
+   "progress_ms": 638323,
+   "last_seen": "2026-11-20T18:40:02Z",
+   "url": "https://open.spotify.com/episode/7IPoHqZk9lorraUL28TBQY",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
+  },
+  {
    "name": "Should JuJu Watkins Stay in College?",
    "show": "No Hesitation with Sophie Cunningham & Drew Hanlen",
    "show_uri": "spotify:show:0wBDPmxsp4ivXog31cGmTX",
@@ -1633,19 +1646,6 @@ window.LISTENING = {
    "last_seen": "2026-11-19T22:40:02Z",
    "url": "https://open.spotify.com/episode/6BPn1AxIDm04mTvx0fluY6",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f7160acc6f68b85bef7afc276"
-  },
-  {
-   "name": "Trump's sanity, chokepoint wars & the stories we missed | Listener Q&A",
-   "show": "Iran: The Latest",
-   "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
-   "release_date": "2026-11-19",
-   "duration_ms": 2864326,
-   "image": "https://i.scdn.co/image/ab67656300005f1f1b6cfde3d8a66d4d0c78ac8c",
-   "first_seen": "2026-11-19T18:10:02Z",
-   "progress_ms": 3046400,
-   "last_seen": "2026-11-19T21:10:04Z",
-   "url": "https://open.spotify.com/episode/0XoCz1vjEQxGvJIURjTRhE",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
   }
  ],
  "top_shows": [
