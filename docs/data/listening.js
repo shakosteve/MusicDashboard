@@ -1,7 +1,7 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-20T17:10:09Z",
- "synced": "2026-11-20T17:10:01Z",
+ "generated": "2026-11-20T17:40:09Z",
+ "synced": "2026-11-20T17:40:01Z",
  "totals": {
   "plays": 125395,
   "hours": 8525.8,
@@ -1492,6 +1492,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Should JuJu Watkins Stay in College?",
+   "show": "No Hesitation with Sophie Cunningham & Drew Hanlen",
+   "show_uri": "spotify:show:0wBDPmxsp4ivXog31cGmTX",
+   "release_date": "2026-11-19",
+   "duration_ms": 4011938,
+   "image": "https://i.scdn.co/image/ab67656300005f1fdd1957c5c363aec1cecd12f2",
+   "first_seen": "2026-11-20T15:10:02Z",
+   "progress_ms": 4011938,
+   "last_seen": "2026-11-20T17:40:03Z",
+   "url": "https://open.spotify.com/episode/6KQzENleBx2lSACdZn7SMA",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1ff71d281479683178fec972fc"
+  },
+  {
    "name": "New treatment, screening tools could help increase survival rates in pancreatic cancer",
    "show": "Minnesota Now",
    "show_uri": "spotify:show:61oEbjIMX0lVNvf0MyrEX8",
@@ -1542,19 +1555,6 @@ window.LISTENING = {
    "last_seen": "2026-11-20T16:10:03Z",
    "url": "https://open.spotify.com/episode/5Q8dX0UFIXQAqiOIrCodOh",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f57123579cd8f9fcdb667645b"
-  },
-  {
-   "name": "Should JuJu Watkins Stay in College?",
-   "show": "No Hesitation with Sophie Cunningham & Drew Hanlen",
-   "show_uri": "spotify:show:0wBDPmxsp4ivXog31cGmTX",
-   "release_date": "2026-11-19",
-   "duration_ms": 4011938,
-   "image": "https://i.scdn.co/image/ab67656300005f1fdd1957c5c363aec1cecd12f2",
-   "first_seen": "2026-11-20T15:10:02Z",
-   "progress_ms": 3377363,
-   "last_seen": "2026-11-20T16:10:02Z",
-   "url": "https://open.spotify.com/episode/6KQzENleBx2lSACdZn7SMA",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1ff71d281479683178fec972fc"
   },
   {
    "name": "What the Anthropic IPO Means for the AI Future",
