@@ -1,7 +1,7 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-21T01:40:06Z",
- "synced": "2026-11-21T01:40:01Z",
+ "generated": "2026-11-21T02:10:09Z",
+ "synced": "2026-11-21T02:10:02Z",
  "totals": {
   "plays": 125395,
   "hours": 8525.8,
@@ -1492,6 +1492,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "Happy Hour: Is FOX Nation's 'The Vow' Changing Reality Dating?",
+   "show": "Kennedy Saves the World",
+   "show_uri": "spotify:show:5DEwjZIkxrUhkM1nlqLagd",
+   "release_date": "2026-11-20",
+   "duration_ms": 1039509,
+   "image": "https://i.scdn.co/image/ab67656300005f1f2fb2c2e9437b0a35251ef80c",
+   "first_seen": "2026-11-21T02:10:04Z",
+   "progress_ms": 46181,
+   "last_seen": "2026-11-21T02:10:04Z",
+   "url": "https://open.spotify.com/episode/7KCHjA4xgZpwfnKCzwIOmj",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fc306eb9be2f4da68a4f7f2be"
+  },
+  {
    "name": "175. Petty Dwarves and Petty Men : Children of Húrin #10",
    "show": "Exploring Tolkien",
    "show_uri": "spotify:show:053v5PsgtE8TmMiXXAyThG",
@@ -1632,19 +1645,6 @@ window.LISTENING = {
    "progress_ms": 3369431,
    "last_seen": "2026-11-20T14:40:03Z",
    "url": "https://open.spotify.com/episode/704tOlO4xdEpPgucWZjT6A",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42"
-  },
-  {
-   "name": "This Is The Problem With AI's Most Bullish Chart",
-   "show": "Odd Lots",
-   "show_uri": "spotify:show:1te7oSFyRVekxMBJUSethH",
-   "release_date": "2026-11-19",
-   "duration_ms": 4170031,
-   "image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42",
-   "first_seen": "2026-11-20T14:40:03Z",
-   "progress_ms": 348267,
-   "last_seen": "2026-11-20T14:40:03Z",
-   "url": "https://open.spotify.com/episode/4NvfN7wZk3U0gQZS3viReg",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42"
   }
  ],
