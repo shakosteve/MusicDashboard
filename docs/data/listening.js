@@ -1,7 +1,7 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-21T02:40:07Z",
- "synced": "2026-11-21T02:40:01Z",
+ "generated": "2026-11-21T03:10:08Z",
+ "synced": "2026-11-21T03:10:01Z",
  "totals": {
   "plays": 125395,
   "hours": 8525.8,
@@ -1492,6 +1492,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "175. Petty Dwarves and Petty Men : Children of Húrin #10",
+   "show": "Exploring Tolkien",
+   "show_uri": "spotify:show:053v5PsgtE8TmMiXXAyThG",
+   "release_date": "2026-11-10",
+   "duration_ms": 3227659,
+   "image": "https://i.scdn.co/image/ab67656300005f1fef7d1acce3f19b801a13d872",
+   "first_seen": "2026-11-21T01:10:02Z",
+   "progress_ms": 3227659,
+   "last_seen": "2026-11-21T03:10:03Z",
+   "url": "https://open.spotify.com/episode/3skz13Qv7u10J1cCJMb12j",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f437d42fd22f6b88af853b190"
+  },
+  {
    "name": "The Politics of the Anthropic IPO",
    "show": "RealClearPolitics Podcast",
    "show_uri": "spotify:show:5FkNemg3aIaPPNBImIcW2l",
@@ -1516,19 +1529,6 @@ window.LISTENING = {
    "last_seen": "2026-11-21T02:10:04Z",
    "url": "https://open.spotify.com/episode/7KCHjA4xgZpwfnKCzwIOmj",
    "show_image": "https://i.scdn.co/image/ab67656300005f1fc306eb9be2f4da68a4f7f2be"
-  },
-  {
-   "name": "175. Petty Dwarves and Petty Men : Children of Húrin #10",
-   "show": "Exploring Tolkien",
-   "show_uri": "spotify:show:053v5PsgtE8TmMiXXAyThG",
-   "release_date": "2026-11-10",
-   "duration_ms": 3227659,
-   "image": "https://i.scdn.co/image/ab67656300005f1fef7d1acce3f19b801a13d872",
-   "first_seen": "2026-11-21T01:10:02Z",
-   "progress_ms": 2066277,
-   "last_seen": "2026-11-21T01:40:02Z",
-   "url": "https://open.spotify.com/episode/3skz13Qv7u10J1cCJMb12j",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f437d42fd22f6b88af853b190"
   },
   {
    "name": "The Strait of Hormuz is broken and China is on the rise: nine months of the US-Iran war",
