@@ -1,7 +1,7 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-21T00:10:08Z",
- "synced": "2026-11-21T00:10:01Z",
+ "generated": "2026-11-21T00:40:09Z",
+ "synced": "2026-11-21T00:40:02Z",
  "totals": {
   "plays": 125395,
   "hours": 8525.8,
@@ -1492,6 +1492,32 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "The Strait of Hormuz is broken and China is on the rise: nine months of the US-Iran war",
+   "show": "Iran: The Latest",
+   "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
+   "release_date": "2026-11-20",
+   "duration_ms": 2865580,
+   "image": "https://i.scdn.co/image/ab67656300005f1f2a6de0a452b17c890e4f4086",
+   "first_seen": "2026-11-20T18:40:02Z",
+   "progress_ms": 2930513,
+   "last_seen": "2026-11-21T00:40:03Z",
+   "url": "https://open.spotify.com/episode/7IPoHqZk9lorraUL28TBQY",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
+  },
+  {
+   "name": "The Politics of the Anthropic IPO",
+   "show": "RealClearPolitics Podcast",
+   "show_uri": "spotify:show:5FkNemg3aIaPPNBImIcW2l",
+   "release_date": "2026-11-20",
+   "duration_ms": 3000058,
+   "image": "https://i.scdn.co/image/ab67656300005f1fe19edf2c6856b8b09c057f38",
+   "first_seen": "2026-11-21T00:10:02Z",
+   "progress_ms": 2332357,
+   "last_seen": "2026-11-21T00:40:02Z",
+   "url": "https://open.spotify.com/episode/2yeQKb2Fw4y0cpE7ckfobi",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fe19edf2c6856b8b09c057f38"
+  },
+  {
    "name": "'Defund Ukraine,' shouts Trump as missile lands near European troops in Poland",
    "show": "Ukraine: The Latest",
    "show_uri": "spotify:show:6cnkk1J0I1UqtxTYVUL4Fe",
@@ -1503,32 +1529,6 @@ window.LISTENING = {
    "last_seen": "2026-11-21T00:10:03Z",
    "url": "https://open.spotify.com/episode/3Dobwx8dxG9VykdUQz6lt2",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f78954c21afd24c90334deba4"
-  },
-  {
-   "name": "The Politics of the Anthropic IPO",
-   "show": "RealClearPolitics Podcast",
-   "show_uri": "spotify:show:5FkNemg3aIaPPNBImIcW2l",
-   "release_date": "2026-11-20",
-   "duration_ms": 3000058,
-   "image": "https://i.scdn.co/image/ab67656300005f1fe19edf2c6856b8b09c057f38",
-   "first_seen": "2026-11-21T00:10:02Z",
-   "progress_ms": 772659,
-   "last_seen": "2026-11-21T00:10:02Z",
-   "url": "https://open.spotify.com/episode/2yeQKb2Fw4y0cpE7ckfobi",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fe19edf2c6856b8b09c057f38"
-  },
-  {
-   "name": "The Strait of Hormuz is broken and China is on the rise: nine months of the US-Iran war",
-   "show": "Iran: The Latest",
-   "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
-   "release_date": "2026-11-20",
-   "duration_ms": 2865580,
-   "image": "https://i.scdn.co/image/ab67656300005f1f2a6de0a452b17c890e4f4086",
-   "first_seen": "2026-11-20T18:40:02Z",
-   "progress_ms": 2546753,
-   "last_seen": "2026-11-20T22:10:03Z",
-   "url": "https://open.spotify.com/episode/7IPoHqZk9lorraUL28TBQY",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
   },
   {
    "name": "The Race to Escape Linear TV, With Versant CEO Mark Lazarus",
