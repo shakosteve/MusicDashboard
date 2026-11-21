@@ -1,7 +1,7 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-21T00:40:09Z",
- "synced": "2026-11-21T00:40:02Z",
+ "generated": "2026-11-21T01:10:08Z",
+ "synced": "2026-11-21T01:10:01Z",
  "totals": {
   "plays": 125395,
   "hours": 8525.8,
@@ -1492,6 +1492,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "175. Petty Dwarves and Petty Men : Children of Húrin #10",
+   "show": "Exploring Tolkien",
+   "show_uri": "spotify:show:053v5PsgtE8TmMiXXAyThG",
+   "release_date": "2026-11-10",
+   "duration_ms": 3227659,
+   "image": "https://i.scdn.co/image/ab67656300005f1fef7d1acce3f19b801a13d872",
+   "first_seen": "2026-11-21T01:10:02Z",
+   "progress_ms": 266394,
+   "last_seen": "2026-11-21T01:10:02Z",
+   "url": "https://open.spotify.com/episode/3skz13Qv7u10J1cCJMb12j",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1f437d42fd22f6b88af853b190"
+  },
+  {
    "name": "The Strait of Hormuz is broken and China is on the rise: nine months of the US-Iran war",
    "show": "Iran: The Latest",
    "show_uri": "spotify:show:7gPBO0qnZI1YBi25zaVT1c",
@@ -1633,19 +1646,6 @@ window.LISTENING = {
    "last_seen": "2026-11-20T14:40:03Z",
    "url": "https://open.spotify.com/episode/4NvfN7wZk3U0gQZS3viReg",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f77e76ef980ccf6174ff80c42"
-  },
-  {
-   "name": "How Nvidia Built a Backdoor to China",
-   "show": "The Journal.",
-   "show_uri": "spotify:show:0KxdEdeY2Wb3zr28dMlQva",
-   "release_date": "2026-11-19",
-   "duration_ms": 1020525,
-   "image": "https://i.scdn.co/image/ab67656300005f1ffed98c4fdc504416141e9409",
-   "first_seen": "2026-11-20T00:10:02Z",
-   "progress_ms": 702721,
-   "last_seen": "2026-11-20T05:10:02Z",
-   "url": "https://open.spotify.com/episode/67n4OSJNioZX1fucfRIIf4",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1ffed98c4fdc504416141e9409"
   }
  ],
  "top_shows": [
