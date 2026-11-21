@@ -1,7 +1,7 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-20T23:40:08Z",
- "synced": "2026-11-20T23:40:01Z",
+ "generated": "2026-11-21T00:10:08Z",
+ "synced": "2026-11-21T00:10:01Z",
  "totals": {
   "plays": 125395,
   "hours": 8525.8,
@@ -1499,10 +1499,23 @@ window.LISTENING = {
    "duration_ms": 2697012,
    "image": "https://i.scdn.co/image/ab67656300005f1f391f0950b18db7b722c12ada",
    "first_seen": "2026-11-20T23:40:02Z",
-   "progress_ms": 1991032,
-   "last_seen": "2026-11-20T23:40:02Z",
+   "progress_ms": 2697012,
+   "last_seen": "2026-11-21T00:10:03Z",
    "url": "https://open.spotify.com/episode/3Dobwx8dxG9VykdUQz6lt2",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f78954c21afd24c90334deba4"
+  },
+  {
+   "name": "The Politics of the Anthropic IPO",
+   "show": "RealClearPolitics Podcast",
+   "show_uri": "spotify:show:5FkNemg3aIaPPNBImIcW2l",
+   "release_date": "2026-11-20",
+   "duration_ms": 3000058,
+   "image": "https://i.scdn.co/image/ab67656300005f1fe19edf2c6856b8b09c057f38",
+   "first_seen": "2026-11-21T00:10:02Z",
+   "progress_ms": 772659,
+   "last_seen": "2026-11-21T00:10:02Z",
+   "url": "https://open.spotify.com/episode/2yeQKb2Fw4y0cpE7ckfobi",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fe19edf2c6856b8b09c057f38"
   },
   {
    "name": "The Strait of Hormuz is broken and China is on the rise: nine months of the US-Iran war",
@@ -1633,19 +1646,6 @@ window.LISTENING = {
    "last_seen": "2026-11-20T05:10:02Z",
    "url": "https://open.spotify.com/episode/67n4OSJNioZX1fucfRIIf4",
    "show_image": "https://i.scdn.co/image/ab67656300005f1ffed98c4fdc504416141e9409"
-  },
-  {
-   "name": "Marco Rubio in the Race for the 2028 GOP Presidential Nomination",
-   "show": "RealClearPolitics Podcast",
-   "show_uri": "spotify:show:5FkNemg3aIaPPNBImIcW2l",
-   "release_date": "2026-11-19",
-   "duration_ms": 3156506,
-   "image": "https://i.scdn.co/image/ab67656300005f1fe19edf2c6856b8b09c057f38",
-   "first_seen": "2026-11-19T23:10:02Z",
-   "progress_ms": 3156506,
-   "last_seen": "2026-11-20T01:40:02Z",
-   "url": "https://open.spotify.com/episode/0ayHx1r2ZTBb7WzgxLYVIa",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fe19edf2c6856b8b09c057f38"
   }
  ],
  "top_shows": [
