@@ -1,7 +1,7 @@
 window.LISTENING = {
  "title": "The Listening Booth",
- "generated": "2026-11-21T02:10:09Z",
- "synced": "2026-11-21T02:10:02Z",
+ "generated": "2026-11-21T02:40:07Z",
+ "synced": "2026-11-21T02:40:01Z",
  "totals": {
   "plays": 125395,
   "hours": 8525.8,
@@ -1492,6 +1492,19 @@ window.LISTENING = {
  ],
  "episodes": [
   {
+   "name": "The Politics of the Anthropic IPO",
+   "show": "RealClearPolitics Podcast",
+   "show_uri": "spotify:show:5FkNemg3aIaPPNBImIcW2l",
+   "release_date": "2026-11-20",
+   "duration_ms": 3000058,
+   "image": "https://i.scdn.co/image/ab67656300005f1fe19edf2c6856b8b09c057f38",
+   "first_seen": "2026-11-21T00:10:02Z",
+   "progress_ms": 3000058,
+   "last_seen": "2026-11-21T02:40:02Z",
+   "url": "https://open.spotify.com/episode/2yeQKb2Fw4y0cpE7ckfobi",
+   "show_image": "https://i.scdn.co/image/ab67656300005f1fe19edf2c6856b8b09c057f38"
+  },
+  {
    "name": "Happy Hour: Is FOX Nation's 'The Vow' Changing Reality Dating?",
    "show": "Kennedy Saves the World",
    "show_uri": "spotify:show:5DEwjZIkxrUhkM1nlqLagd",
@@ -1529,19 +1542,6 @@ window.LISTENING = {
    "last_seen": "2026-11-21T00:40:03Z",
    "url": "https://open.spotify.com/episode/7IPoHqZk9lorraUL28TBQY",
    "show_image": "https://i.scdn.co/image/ab67656300005f1f519d450dd03b488808a88e30"
-  },
-  {
-   "name": "The Politics of the Anthropic IPO",
-   "show": "RealClearPolitics Podcast",
-   "show_uri": "spotify:show:5FkNemg3aIaPPNBImIcW2l",
-   "release_date": "2026-11-20",
-   "duration_ms": 3000058,
-   "image": "https://i.scdn.co/image/ab67656300005f1fe19edf2c6856b8b09c057f38",
-   "first_seen": "2026-11-21T00:10:02Z",
-   "progress_ms": 2332357,
-   "last_seen": "2026-11-21T00:40:02Z",
-   "url": "https://open.spotify.com/episode/2yeQKb2Fw4y0cpE7ckfobi",
-   "show_image": "https://i.scdn.co/image/ab67656300005f1fe19edf2c6856b8b09c057f38"
   },
   {
    "name": "'Defund Ukraine,' shouts Trump as missile lands near European troops in Poland",
